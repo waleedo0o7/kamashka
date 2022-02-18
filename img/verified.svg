@@ -1,0 +1,6 @@
+<svg id="verified" xmlns="http://www.w3.org/2000/svg" width="12.917" height="12.917" viewBox="0 0 12.917 12.917">
+  <circle id="Oval" cx="6.458" cy="6.458" r="6.458" fill="#65d1e8"/>
+  <g id="checkmark" transform="translate(2.67 4.478)">
+    <path id="Combined_Shape" data-name="Combined Shape" d="M2.584,4.867.22,2.5a.75.75,0,0,1,0-1.06L.3,1.362a.75.75,0,0,1,1.061,0L3.114,3.114,6.009.22a.75.75,0,0,1,1.06,0L7.151.3a.75.75,0,0,1,0,1.061L3.726,4.786l-.081.081a.75.75,0,0,1-1.061,0Z" transform="translate(0 0)" fill="#fefffe"/>
+  </g>
+</svg>
