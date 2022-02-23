@@ -10,7 +10,17 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- Slick Slider -->
-    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/slick.css" /> -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css"
@@ -40,7 +50,7 @@
         <div class="container">
             <div class="row top-header-content">
 
-                <div class="col-md-6 d-flex top-items">
+                <div class="col-md-4 d-flex top-items">
                     <div class="logo">
                         <a href="#"> <img class="img-fluid" src="img/logo.svg" /> </a>
                     </div> <!-- logo -->
@@ -56,7 +66,7 @@
                     </div> <!-- main-menu -->
                 </div><!-- col-md-6 -->
 
-                <div class="col-md-6 d-flex bottom-items">
+                <div class="col-md-8 d-flex bottom-items">
                     <div class="search">
                         <div class="search-container">
                             <input class="search-input" type="text"
@@ -83,12 +93,37 @@
                             <i class="icon icon-user"></i>
                         </div><!-- icon-container -->
                     </div> <!-- icons -->
+
+                    <!-- IF USER LOGIN -->
+                    <div class="user-icons">
+                        <div class="dropdown">
+                            <button class="dropdown-toggle" type="button" id="language" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <img class="img-fluid" src="img/kuwait.png" />
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="language">
+                                <a class="dropdown-item" href="#">
+                                    <img class="img-fluid" src="img/kuwait.png" />
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <img class="img-fluid" src="img/kuwait.png" />
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <img class="img-fluid" src="img/kuwait.png" />
+                                </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <a class="btn btn-custom1" href="#"> Create </a>
+
+
+                    </div><!-- user-icons -->
                 </div><!-- col-md-6 -->
             </div><!-- top-header-content -->
         </div><!-- container -->
     </header><!-- top-header -->
 
-    
+
     <div class="page-content homepage">
         <div class="container">
             <div class="homepage-content">
@@ -122,24 +157,49 @@
                                             </div>
                                         </div><!-- row -->
                                     </div><!-- brand-header -->
+
+
+
+
+
+
+
+
                                     <div class="brand-slider-container">
-                                        <div class="loading"></div>
-                                        <div class="home-brand-slider">
-                                            <div> <img class="img-fluid slider-image" src="img/brand-slider/01.png" />
+
+
+
+
+
+                                        <div class="owl-carousel owl-theme">
+
+                                            <div class="item">
+                                                <img class="img-fluid" src="img/brand-slider/01.png" />
                                             </div>
-                                            <div> <img class="img-fluid slider-image" src="img/brand-slider/02.png" />
+                                            <div class="item">
+                                                <img class="img-fluid" src="img/brand-slider/02.png" />
                                             </div>
-                                            <div> <img class="img-fluid slider-image" src="img/brand-slider/03.png" />
+                                            <div class="item">
+                                                <img class="img-fluid" src="img/brand-slider/03.png" />
                                             </div>
-                                            <div> <img class="img-fluid slider-image" src="img/brand-slider/01.png" />
-                                            </div>
-                                            <div> <img class="img-fluid slider-image" src="img/brand-slider/02.png" />
-                                            </div>
-                                            <div> <img class="img-fluid slider-image" src="img/brand-slider/03.png" />
-                                            </div>
+
                                         </div>
 
-                                    </div><!-- brand-slider-container -->
+
+
+
+
+
+
+                                    </div>
+
+
+
+
+
+
+
+
                                     <div class="text-center mb-2 mt-2">
                                         <a class="btn btn-custom2 follow" href="#"> discover products </a>
                                     </div>
@@ -226,7 +286,7 @@
                                 </div> <!-- video-section -->
                             </div><!-- carousel-item-content -->
                         </div> <!-- carousel-item -->
- 
+
 
 
 
@@ -248,7 +308,7 @@
                                                 <img class="img-fluid" src="img/brand-logo.png" />
                                             </div><!-- col-md-2 -->
                                             <div class="col-md-4">
-                                                <h3> Nikw <img class="img-fluid" src="img/verified.svg" /> </h3>
+                                                <h3> Nike <img class="img-fluid" src="img/verified.svg" /> </h3>
                                                 <p> Kids Campaign <br />#zaracampaign </p>
                                             </div><!-- col-md-3 -->
                                             <div class="col-md-6 d-flex">
@@ -259,21 +319,43 @@
                                         </div><!-- row -->
                                     </div><!-- brand-header -->
                                     <div class="brand-slider-container">
-                                        <div class="loading"></div>
-                                        <div class="home-brand-slider">
-                                            <div> <img class="img-fluid slider-image" src="img/brand-slider/01.png" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        <div class="owl-carousel owl-theme">
+
+                                            <div class="item">
+                                                <img class="img-fluid" src="img/brand-slider/01.png" />
                                             </div>
-                                            <div> <img class="img-fluid slider-image" src="img/brand-slider/02.png" />
+                                            <div class="item">
+                                                <img class="img-fluid" src="img/brand-slider/02.png" />
                                             </div>
-                                            <div> <img class="img-fluid slider-image" src="img/brand-slider/03.png" />
+                                            <div class="item">
+                                                <img class="img-fluid" src="img/brand-slider/03.png" />
                                             </div>
-                                            <div> <img class="img-fluid slider-image" src="img/brand-slider/01.png" />
-                                            </div>
-                                            <div> <img class="img-fluid slider-image" src="img/brand-slider/02.png" />
-                                            </div>
-                                            <div> <img class="img-fluid slider-image" src="img/brand-slider/03.png" />
-                                            </div>
+
                                         </div>
+
+
+
+
+
+
+
+
 
                                     </div><!-- brand-slider-container -->
                                     <div class="text-center mb-2 mt-2">
@@ -362,11 +444,11 @@
                                 </div> <!-- video-section -->
                             </div><!-- carousel-item-content -->
                         </div> <!-- carousel-item -->
- 
 
 
 
- 
+
+
 
 
 
@@ -411,7 +493,14 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/slick.min.js"></script>
+
+    <!-- <script type="text/javascript" src="js/slick.min.js"></script> -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+
     <script src="js/script.js"></script>
 
 </body>

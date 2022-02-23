@@ -58,36 +58,39 @@ $('#home-video-carousel').on('slid.bs.carousel', function () {
     if (ativeItem == carouselItmesLenth) {
         // alert("This Is Last Item");
     }
-    
+
 })
 
 
 
 
-
-
-$('.home-brand-slider').slick({
+$('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
     dots: false,
-    infinite: true,
-    autoplay: false,
-    speed: 300,
-    arrows: false,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-        {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-            }
+    responsive: {
+        0: {
+            items: 1
         },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 3
         }
-    ]
-});
+    }
+})
+
+
+// get gender data
+$(function () {
+    $(".gender").on("click", function () {
+        $(".gender").removeClass("active");
+        $(this).addClass("active");
+        $("#genderValue").val($(this).data("gander"));
+
+        // alert($("#genderValue").val());
+    }); 
+}); 
+
