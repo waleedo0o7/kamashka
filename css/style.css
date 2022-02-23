@@ -752,6 +752,7 @@ body.fullscreen .page-content.homepage .arrows-container {
   width: 40px;
   height: 100%;
   cursor: pointer;
+  top: 0;
 }
 .signin .signin-content .form-container .forget-password-container a,
 .signup .signin-content .form-container .forget-password-container a,
