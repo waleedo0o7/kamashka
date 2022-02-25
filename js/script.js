@@ -61,9 +61,7 @@ $('#home-video-carousel').on('slid.bs.carousel', function () {
 
 })
 
-
-
-
+// owl carousel
 $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 10,
@@ -82,7 +80,6 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-
 // get gender data
 $(function () {
     $(".gender").on("click", function () {
@@ -91,6 +88,52 @@ $(function () {
         $("#genderValue").val($(this).data("gander"));
 
         // alert($("#genderValue").val());
-    }); 
-}); 
+    });
+});
+
+//toggle left menu
+$(function () {
+    $("#top-header #mobile-icon , #close-left-menu").on("click", function () {
+        $(".left-menu-container").toggleClass("show");
+    })
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// top header cart popup --> increaseCount and decreaseCount
+function increaseCount(a, b) {
+    var input = b.previousElementSibling;
+    var value = parseInt(input.value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    input.value = value;
+}
+
+function decreaseCount(a, b) {
+    var input = b.nextElementSibling;
+    var value = parseInt(input.value, 10);
+    if (value > 1) {
+        value = isNaN(value) ? 0 : value;
+        value--;
+        input.value = value;
+    }
+}
 

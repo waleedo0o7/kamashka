@@ -8,12 +8,10 @@
 
                 <div class="carousel-inner">
 
-
-
-
                     <div class="carousel-item active">
                         <div class="carousel-item-content">
                             <div class="data-section">
+
                                 <div class="brand-header">
                                     <div class="row">
                                         <div class="col-md-2 brand-logo d-flex justify-content-center align-items-start pr-0">
@@ -31,18 +29,7 @@
                                     </div><!-- row -->
                                 </div><!-- brand-header -->
 
-
-
-
-
-
-
-
                                 <div class="brand-slider-container">
-
-
-
-
 
                                     <div class="owl-carousel owl-theme">
 
@@ -66,16 +53,10 @@
 
                                 </div>
 
-
-
-
-
-
-
-
                                 <div class="text-center mb-2 mt-2">
                                     <a class="btn btn-custom2 follow" href="#"> discover products </a>
                                 </div>
+
                                 <div class="brand-details">
                                     <div class="brand-details-text">
                                         <h4> Zara is one of the biggest international <br /> fashion companies </h2>
@@ -157,9 +138,6 @@
                         </div><!-- carousel-item-content -->
                     </div> <!-- carousel-item -->
 
-
-
-
                     <div class="carousel-item">
                         <div class="carousel-item-content">
                             <div class="data-section">
@@ -181,12 +159,6 @@
                                 </div><!-- brand-header -->
                                 <div class="brand-slider-container">
 
-
-
-
-
-
-
                                     <div class="owl-carousel owl-theme">
 
                                         <div class="item">
@@ -200,13 +172,6 @@
                                         </div>
 
                                     </div>
-
-
-
-
-
-
-
 
 
                                 </div><!-- brand-slider-container -->
@@ -293,8 +258,6 @@
                             </div> <!-- video-section -->
                         </div><!-- carousel-item-content -->
                     </div> <!-- carousel-item -->
-
-
 
                 </div> <!-- carousel-inner -->
 
