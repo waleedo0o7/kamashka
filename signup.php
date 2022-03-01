@@ -8,9 +8,11 @@
 
         <div class="form-container">
             <form class="signin-form" action="">
+
                 <div class="form-group mb-3 relative">
                     <input type="text" class="form-control" placeholder="Phone Number" id="phone">
                 </div><!-- form-group  -->
+
                 <div class="form-group mb-3 relative">
                     <input type="text" class="form-control" placeholder="Full Name" id="name">
                 </div><!-- form-group  -->
@@ -20,7 +22,10 @@
                 </div><!-- form-group  -->
 
                 <div class="form-group mb-3 relative">
-                    <input type="text" class="form-control" placeholder="Password" id="password">
+                    <input type="password" class="form-control" placeholder="Password" aria-label="password" aria-describedby="basic-addon1">
+                    <div id="toggle-password" class="toggle-password-container">
+                        <i class="icon icon-eye"></i>
+                    </div><!-- toggle-password-container -->
                 </div><!-- form-group  -->
 
                 <div class="form-group mb-3 relative">
@@ -28,7 +33,6 @@
                     <input type="text" class="form-control" placeholder="DD/MM/YYYY" id="date">
                     <label class="text-left mt-1" for="date"> Your Age Is <span> 29 </span></label>
                 </div><!-- form-group  -->
-
 
                 <div class="form-group mb-3 relative">
                     <label class="text-left" for="date"> Gender </label>
@@ -46,13 +50,11 @@
                 <div class="submit-btn-container">
                     <a href="#" class="btn btn-custom1 w-100 text-center" data-toggle="modal" data-target="#confirmation"> Next </a>
                 </div><!-- submit-btn-container -->
+
             </form><!-- signin-form -->
         </div><!-- form-container -->
 
     </div><!-- signin-content -->
-
-
-
 
     <!-- Modal -->
     <div class="modal fade" id="confirmation" tabindex="-1" role="dialog" aria-labelledby="confirmation" aria-hidden="true">

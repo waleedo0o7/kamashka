@@ -8,13 +8,13 @@
         <div class="form-container">
             <form class="signin-form" action="">
                 <div class="form-group mb-3 relative">
-                    <input type="text" class="form-control" placeholder="Email Address" aria-label="Username" aria-describedby="basic-addon1">
+                    <input type="email" class="form-control" placeholder="Email Address" aria-label="Username" aria-describedby="basic-addon1">
                     <i class="fa fa-envelope"></i>
                 </div><!-- form-group  -->
                 <div class="form-group mb-3 relative">
-                    <input type="text" class="form-control" placeholder="Password" aria-label="password" aria-describedby="basic-addon1">
+                    <input type="password" class="form-control" placeholder="Password" aria-label="password" aria-describedby="basic-addon1">
                     <i class="icon icon-lock"></i>
-                    <div class="toggle-password-container">
+                    <div id="toggle-password" class="toggle-password-container">
                         <i class="icon icon-eye"></i>
                     </div><!-- toggle-password-container -->
                 </div><!-- form-group  -->
@@ -26,6 +26,7 @@
                 </div><!-- submit-btn-container -->
             </form><!-- signin-form -->
         </div><!-- form-container -->
+
         <div class="page-footer">
             <div class="signup-btn-container mb-3">
                 <a href="#" class="btn btn-custom2 w-100 text-center"> Sign Up </a>

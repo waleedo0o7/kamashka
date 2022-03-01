@@ -46,7 +46,7 @@ $(".mobile-menu").on("click", function () {
     $(".row.top-header-content").toggleClass("show")
 });
 
-// Get Last Item Event
+// homepage Get Last Item Event
 $('#home-video-carousel').on('slid.bs.carousel', function () {
     // alert("aaa");
     // alert("MAIN SLIDER HAS STARTED")
@@ -54,7 +54,6 @@ $('#home-video-carousel').on('slid.bs.carousel', function () {
     let ativeItem = $("#home-video-carousel .carousel-item.active").index() + 1;
 
     // console.log(`ativeItem : ${ativeItem} carouselItmesLenth : ${carouselItmesLenth}`);
-
     if (ativeItem == carouselItmesLenth) {
         // alert("This Is Last Item");
     }
@@ -63,7 +62,7 @@ $('#home-video-carousel').on('slid.bs.carousel', function () {
 
 // owl carousel
 $('.owl-carousel').owlCarousel({
-    loop: true,
+    loop: false,
     margin: 10,
     nav: false,
     dots: false,
@@ -80,7 +79,13 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-// get gender data
+jQuery(document).ready(function ($) {
+    $('.chocolat-parent').Chocolat();
+});
+
+
+
+// sidnup get gender data
 $(function () {
     $(".gender").on("click", function () {
         $(".gender").removeClass("active");
@@ -91,7 +96,7 @@ $(function () {
     });
 });
 
-//toggle left menu
+//homepage toggle left menu
 $(function () {
     $("#top-header #mobile-icon , #close-left-menu").on("click", function () {
         $(".left-menu-container").toggleClass("show");
@@ -100,31 +105,14 @@ $(function () {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// top header cart popup --> increaseCount and decreaseCount
+// top header cart popup --> increaseCount and decreaseCount START 
 function increaseCount(a, b) {
     var input = b.previousElementSibling;
     var value = parseInt(input.value, 10);
     value = isNaN(value) ? 0 : value;
     value++;
     input.value = value;
+    calcItemsPrice();
 }
 
 function decreaseCount(a, b) {
@@ -135,5 +123,52 @@ function decreaseCount(a, b) {
         value--;
         input.value = value;
     }
+    calcItemsPrice();
 }
+
+// top header cart popup --> increaseCount and decreaseCount END
+
+// disaple dropdown menu auto close
+$('.disable-auto-close ').click(function (e) {
+    e.stopPropagation();
+});
+
+// topbar calc cart dropdown items START
+
+let calcItemsPrice = () => {
+    let totalPrice = 0;
+    let items = $(".cart-dropdown-menu li");
+
+    if (items.length == 0) {
+        $("#totalPrice").val(0);
+    }
+
+    items.each(function (index) {
+        let price = parseInt($(this).children(".details").children("p.price-container").children("span#price").text());
+        let count = parseInt($(this).children(".details").children("div.counter").children("input").val());
+        totalPrice += price * count;
+        $("#totalPrice").val(totalPrice);
+    });
+}
+
+$(".remove").on("click", function () {
+    $(this).parent().fadeOut();
+    setTimeout(() => {
+        $(this).parent().remove();
+        calcItemsPrice();
+    }, 450);
+});
+calcItemsPrice();
+
+// topbar calc cart dropdown items END
+
+
+// toggle password
+$("#toggle-password").on("click",function(){
+    if($(this).parent(".form-group").children("input").attr("type") == 'text'){
+        $(this).parent(".form-group").children("input").attr("type" , "password");
+    } else {
+        $(this).parent(".form-group").children("input").attr("type" , "text");
+    }
+});
 

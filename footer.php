@@ -10,7 +10,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chocolat/0.4.18/js/jquery.chocolat.min.js"></script>
 
     <script src="js/script.js"></script>
 

@@ -19,6 +19,8 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" integrity="sha512-gRH0EcIcYBFkQTnbpO8k0WlsD20x5VzjhOA1Og8+ZUAhcMUCvd+APD35FJw3GzHAP3e+mP28YcDJxVr745loHw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chocolat/0.4.18/css/chocolat.min.css">
+
     <!-- Main Style -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -72,19 +74,102 @@
                         </div><!-- count-container -->
                     </div> <!-- count -->
                     <div class="icons">
-                        <div class="icon-container">
-                            <i class="icon icon-heart"></i>
-                            <span class="number"> 0 </span>
-                        </div><!-- icon-container -->
-                        <div class="icon-container">
 
 
+                        <div class="icon-container">
                             <div class="dropdown custom-dropdown">
-                                <button class="dropdown-toggle resetbtn" type="button" id="cart" data-toggle="dropdown">
+                                <button class="dropdown-toggle resetbtn " type="button" id="notifications-btn" data-toggle="dropdown">
                                     <i class="icon icon-cart"></i>
                                     <span class="number"> 0 </span>
                                 </button>
-                                <div class="dropdown-menu cart-dropdown-menu pl-3 pr-3" aria-labelledby="cart">
+
+                                <div class="dropdown-menu notifications-dropdown-menu  disable-auto-close pl-3 pr-3" aria-labelledby="notifications">
+                                    <div class="notifications-menu-container">
+                                        <ul class="resetul">
+
+                                            <li class="notification-one-item">
+                                                <div class="notification-icon">
+                                                    <i class="icon icon-heart"></i>
+                                                </div><!-- notification-icon -->
+                                                <div class="notification-details">
+                                                    <p> Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                </div><!-- notification-details -->
+                                                <div class="notification-date"> <span>9:20</span> AM  <i class="fa fa-circle"></i> </div><!-- notification-date -->
+                                            </li><!-- notification-one-item -->
+
+                                            <li class="notification-one-item">
+                                                <div class="notification-icon">
+                                                    <i class="icon icon-heart"></i>
+                                                </div><!-- notification-icon -->
+                                                <div class="notification-details">
+                                                    <p> Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                </div><!-- notification-details -->
+                                                <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
+                                            </li><!-- notification-one-item -->
+
+
+                                            <li class="notification-one-item">
+                                                <div class="notification-icon">
+                                                    <i class="icon icon-heart"></i>
+                                                </div><!-- notification-icon -->
+                                                <div class="notification-details">
+                                                    <p> Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                </div><!-- notification-details -->
+                                                <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
+                                            </li><!-- notification-one-item -->
+
+
+                                            <li class="notification-one-item">
+                                                <div class="notification-icon">
+                                                    <i class="icon icon-heart"></i>
+                                                </div><!-- notification-icon -->
+                                                <div class="notification-details">
+                                                    <p> Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                </div><!-- notification-details -->
+                                                <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
+                                            </li><!-- notification-one-item -->
+
+
+                                            <li class="notification-one-item">
+                                                <div class="notification-icon">
+                                                    <i class="icon icon-heart"></i>
+                                                </div><!-- notification-icon -->
+                                                <div class="notification-details">
+                                                    <p> Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                </div><!-- notification-details -->
+                                                <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
+                                            </li><!-- notification-one-item -->
+
+                                        </ul>
+                                        <div class="notifications-footer">
+                                            <a class="btn " href="#"> Show All </a>
+                                        </div><!-- notifications-footer -->
+                                    </div><!-- notifications-menu-container -->
+                                </div> <!-- dropdown-menu -->
+                            </div> <!-- dropdown -->
+                        </div><!-- icon-container -->
+
+
+
+
+                        <div class="icon-container">
+                            <button class="resetbtn " type="button" id="wishlist">
+                                <i class="icon icon-heart"></i>
+                                <span class="number"> 0 </span>
+                            </button>
+
+                        </div><!-- icon-container -->
+
+
+                        <div class="icon-container">
+                            <div class="dropdown custom-dropdown">
+                                <button class="dropdown-toggle resetbtn " type="button" id="cart-btn" data-toggle="dropdown">
+                                    <i class="icon icon-cart"></i>
+                                    <span class="number"> 0 </span>
+                                </button>
+
+
+                                <div class="dropdown-menu cart-dropdown-menu disable-auto-close pl-3 pr-3" aria-labelledby="cart">
                                     <div class="cart-menu-container">
                                         <ul class="resetul">
                                             <li class="cart-one-item">
@@ -92,59 +177,136 @@
                                                 <div class="details">
                                                     <p class="name"> Shirt </p>
                                                     <p class="cat"> Cat's Eye </p>
-                                                    <p class="price"> $<span>44.00</span> </p>
+                                                    <p class="price-container"> $<span id="price">24.00</span> </p> 
 
                                                     <div class="counter">
-                                                        <span class="down" onClick='decreaseCount(event, this)'> <i  class="fa fa-minus"></i> </span>
+                                                        <span class="down" onClick='decreaseCount(event, this)'> <i class="fa fa-minus"></i> </span>
                                                         <input type="text" value="1">
-                                                        <span class="up" onClick='increaseCount(event, this)'> <i  class="fa fa-plus"></i></span>
+                                                        <span class="up" onClick='increaseCount(event, this)'> <i class="fa fa-plus"></i></span>
                                                     </div> <!-- counter -->
 
                                                 </div> <!-- details -->
-                                                <i class="fa fa-times remove"></i>
+                                                <i class="icon icon-close remove" id="removeItem"></i>
                                             </li><!-- cart-one-item -->
+
+ 
                                             <li class="cart-one-item">
                                                 <div class="image"> <img class="img-fluid" src="img/thum.png" /> </div><!-- image -->
                                                 <div class="details">
                                                     <p class="name"> Shirt </p>
                                                     <p class="cat"> Cat's Eye </p>
-                                                    <p class="price"> $<span>44.00</span> </p>
-                                                    <i class="fa fa-times remove"></i>
+                                                    <p class="price-container"> $<span id="price">44.00</span> </p> 
 
                                                     <div class="counter">
-                                                        <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                                                        <span class="down" onClick='decreaseCount(event, this)'> <i class="fa fa-minus"></i> </span>
                                                         <input type="text" value="1">
-                                                        <span class="up" onClick='increaseCount(event, this)'>+</span>
+                                                        <span class="up" onClick='increaseCount(event, this)'> <i class="fa fa-plus"></i></span>
                                                     </div> <!-- counter -->
 
                                                 </div> <!-- details -->
+                                                <i class="icon icon-close remove" id="removeItem"></i>
                                             </li><!-- cart-one-item -->
+
+ 
+                                            <li class="cart-one-item">
+                                                <div class="image"> <img class="img-fluid" src="img/thum.png" /> </div><!-- image -->
+                                                <div class="details">
+                                                    <p class="name"> Shirt </p>
+                                                    <p class="cat"> Cat's Eye </p>
+                                                    <p class="price-container"> $<span id="price">34.00</span> </p> 
+
+                                                    <div class="counter">
+                                                        <span class="down" onClick='decreaseCount(event, this)'> <i class="fa fa-minus"></i> </span>
+                                                        <input type="text" value="1">
+                                                        <span class="up" onClick='increaseCount(event, this)'> <i class="fa fa-plus"></i></span>
+                                                    </div> <!-- counter -->
+
+                                                </div> <!-- details -->
+                                                <i class="icon icon-close remove" id="removeItem"></i>
+                                            </li><!-- cart-one-item -->
+ 
+  
+                                            <li class="cart-one-item">
+                                                <div class="image"> <img class="img-fluid" src="img/thum.png" /> </div><!-- image -->
+                                                <div class="details">
+                                                    <p class="name"> Shirt </p>
+                                                    <p class="cat"> Cat's Eye </p>
+                                                    <p class="price-container"> $<span id="price">34.00</span> </p> 
+
+                                                    <div class="counter">
+                                                        <span class="down" onClick='decreaseCount(event, this)'> <i class="fa fa-minus"></i> </span>
+                                                        <input type="text" value="1">
+                                                        <span class="up" onClick='increaseCount(event, this)'> <i class="fa fa-plus"></i></span>
+                                                    </div> <!-- counter -->
+
+                                                </div> <!-- details -->
+                                                <i class="icon icon-close remove" id="removeItem"></i>
+                                            </li><!-- cart-one-item -->
+ 
+  
+                                            <li class="cart-one-item">
+                                                <div class="image"> <img class="img-fluid" src="img/thum.png" /> </div><!-- image -->
+                                                <div class="details">
+                                                    <p class="name"> Shirt </p>
+                                                    <p class="cat"> Cat's Eye </p>
+                                                    <p class="price-container"> $<span id="price">34.00</span> </p> 
+
+                                                    <div class="counter">
+                                                        <span class="down" onClick='decreaseCount(event, this)'> <i class="fa fa-minus"></i> </span>
+                                                        <input type="text" value="1">
+                                                        <span class="up" onClick='increaseCount(event, this)'> <i class="fa fa-plus"></i></span>
+                                                    </div> <!-- counter -->
+
+                                                </div> <!-- details -->
+                                                <i class="icon icon-close remove" id="removeItem"></i>
+                                            </li><!-- cart-one-item -->
+ 
+  
+                                            <li class="cart-one-item">
+                                                <div class="image"> <img class="img-fluid" src="img/thum.png" /> </div><!-- image -->
+                                                <div class="details">
+                                                    <p class="name"> Shirt </p>
+                                                    <p class="cat"> Cat's Eye </p>
+                                                    <p class="price-container"> $<span id="price">34.00</span> </p> 
+
+                                                    <div class="counter">
+                                                        <span class="down" onClick='decreaseCount(event, this)'> <i class="fa fa-minus"></i> </span>
+                                                        <input type="text" value="1">
+                                                        <span class="up" onClick='increaseCount(event, this)'> <i class="fa fa-plus"></i></span>
+                                                    </div> <!-- counter -->
+
+                                                </div> <!-- details -->
+                                                <i class="icon icon-close remove" id="removeItem"></i>
+                                            </li><!-- cart-one-item -->
+ 
+  
+
                                         </ul>
 
                                         <div class="cart-footer">
                                             <div class="total-container">
                                                 <span class="total-title"> Total </span>
-                                                <p class="total-price p-0"> $ <span> 81.57 </span> </p><!-- total-price -->
+                                                <p class="bold total-price p-0" > $ <input disabled id="totalPrice" type="text" value="81.57"> </p><!-- total-price -->
+
                                             </div><!-- total-container -->
                                             <a class="btn btn-custom1" href="#"> CHECKOUT <i class="fa fa-chevron-right"></i> </a>
                                         </div><!-- cart-footer -->
                                     </div><!-- cart-menu-container -->
                                 </div> <!-- dropdown-menu -->
                             </div> <!-- dropdown -->
-
-
                         </div><!-- icon-container -->
-                        <div class="icon-container">
 
+
+                        <div class="icon-container">
                             <div class="dropdown custom-dropdown">
                                 <button class="dropdown-toggle resetbtn" type="button" id="signin" data-toggle="dropdown">
                                     <i class="icon icon-user"></i>
                                 </button>
-                                <div class="dropdown-menu pl-3 pr-3" aria-labelledby="signin">
+                                <div class="dropdown-menu disable-auto-close pl-3 pr-3" aria-labelledby="signin">
                                     <p class="bold text-center"> Continue With Your Profile, Create Your Own Advs, Collect Money, Shop Online And More </p>
 
-                                    <a href="" class="btn btn-custom1 w-100 mb-2"> Sign In </a>
-                                    <a href="" class="btn btn-custom2 w-100 "> Sign Up </a>
+                                    <a href="signin.php" class="btn btn-custom1 w-100 mb-2"> Sign In </a>
+                                    <a href="signup.php" class="btn btn-custom2 w-100 "> Sign Up </a>
 
                                     <p class="text-center"> Or continue with </p>
 
@@ -154,11 +316,12 @@
                                         <li> <a href="#"> <img src="img/apple-icon.svg" /> </a> </li>
                                     </ul>
 
-
                                 </div> <!-- dropdown-menu -->
                             </div> <!-- dropdown -->
 
                         </div><!-- icon-container -->
+
+
                     </div> <!-- icons -->
 
                     <!-- IF USER LOGIN -->
@@ -167,7 +330,7 @@
                             <button class="dropdown-toggle language-btn resetbtn" type="button" id="language" data-toggle="dropdown">
                                 <img class="img-fluid" src="img/flag-kuwait.png" />
                             </button>
-                            <div class="dropdown-menu" aria-labelledby="language">
+                            <div class="dropdown-menu disable-auto-close" aria-labelledby="language">
                                 <p>Country</p>
                                 <div class="one-item">
                                     <ul class="resetul countries">
@@ -199,7 +362,7 @@
     <div class="left-menu-container">
         <div class="left-menu">
             <div class="left-menu-content">
-                <div class="logo-header"> <img class="logo" src="img/logo.svg" /> <i id="close-left-menu" class="fa fa-times"></i> </div><!-- header-header -->
+                <div class="logo-header"> <img class="logo" src="img/logo.svg" /> <i id="close-left-menu" class="icon icon-close"></i> </div><!-- header-header -->
                 <div class="menu">
                     <ul class="resetul">
                         <li> <a href="#"> Advertising </a> </li>

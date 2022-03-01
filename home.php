@@ -30,28 +30,40 @@
                                 </div><!-- brand-header -->
 
                                 <div class="brand-slider-container">
-
-                                    <div class="owl-carousel owl-theme">
+                                    <div class="owl-carousel owl-theme chocolat-parent">
+                                        <div class="item">
+                                            <a class="chocolat-image" href="img/brand-slider/04.jpg">
+                                                <img src="img/brand-slider/04.jpg" class="img-responsive">
+                                            </a>
+                                        </div> <!-- item -->
+                                        <div class="item">
+                                            <a class="chocolat-image" href="img/brand-slider/05.jpg">
+                                                <img src="img/brand-slider/05.jpg" class="img-responsive">
+                                            </a>
+                                        </div> <!-- item -->
+                                        <div class="item">
+                                            <a class="chocolat-image" href="img/brand-slider/06.jpg">
+                                                <img src="img/brand-slider/06.jpg" class="img-responsive">
+                                            </a>
+                                        </div> <!-- item -->
 
                                         <div class="item">
-                                            <img class="img-fluid" src="img/brand-slider/01.png" />
-                                        </div>
+                                            <a class="chocolat-image" href="img/brand-slider/04.jpg">
+                                                <img src="img/brand-slider/04.jpg" class="img-responsive">
+                                            </a>
+                                        </div> <!-- item -->
                                         <div class="item">
-                                            <img class="img-fluid" src="img/brand-slider/02.png" />
-                                        </div>
+                                            <a class="chocolat-image" href="img/brand-slider/05.jpg">
+                                                <img src="img/brand-slider/05.jpg" class="img-responsive">
+                                            </a>
+                                        </div> <!-- item -->
                                         <div class="item">
-                                            <img class="img-fluid" src="img/brand-slider/03.png" />
-                                        </div>
-
-                                    </div>
-
-
-
-
-
-
-
-                                </div>
+                                            <a class="chocolat-image" href="img/brand-slider/06.jpg">
+                                                <img src="img/brand-slider/06.jpg" class="img-responsive">
+                                            </a>
+                                        </div> <!-- item -->
+                                    </div> <!-- owl-carousel -->
+                                </div> <!-- brand-slider-container -->
 
                                 <div class="text-center mb-2 mt-2">
                                     <a class="btn btn-custom2 follow" href="#"> discover products </a>
@@ -71,7 +83,7 @@
                                             </p>
                                     </div><!-- brand-details-text -->
 
-                                    <div class="btns text-center mb-2 mt-2">
+                                    <div class="btns tags text-center mb-2 mt-2">
                                         <a class="btn btn-custom2 follow" href="#"> Fashion </a>
                                         <a class="btn btn-custom2 follow" href="#"> Beauty </a>
                                     </div><!-- btns -->
@@ -105,7 +117,6 @@
                                 </div><!-- brand-details -->
                             </div> <!-- data-section -->
                             <div class="video-section">
-
 
                                 <div class="video-section-content">
 
@@ -157,24 +168,47 @@
                                         </div>
                                     </div><!-- row -->
                                 </div><!-- brand-header -->
+
+
+
                                 <div class="brand-slider-container">
-
-                                    <div class="owl-carousel owl-theme">
+                                    <div class="owl-carousel owl-theme chocolat-parent">
+                                        <div class="item">
+                                            <a class="chocolat-image" href="img/brand-slider/01.jpg">
+                                                <img src="img/brand-slider/01.jpg" class="img-responsive">
+                                            </a>
+                                        </div> <!-- item -->
+                                        <div class="item">
+                                            <a class="chocolat-image" href="img/brand-slider/02.jpg">
+                                                <img src="img/brand-slider/02.jpg" class="img-responsive">
+                                            </a>
+                                        </div> <!-- item -->
+                                        <div class="item">
+                                            <a class="chocolat-image" href="img/brand-slider/03.jpg">
+                                                <img src="img/brand-slider/03.jpg" class="img-responsive">
+                                            </a>
+                                        </div> <!-- item -->
 
                                         <div class="item">
-                                            <img class="img-fluid" src="img/brand-slider/01.png" />
-                                        </div>
+                                            <a class="chocolat-image" href="img/brand-slider/01.jpg">
+                                                <img src="img/brand-slider/01.jpg" class="img-responsive">
+                                            </a>
+                                        </div> <!-- item -->
                                         <div class="item">
-                                            <img class="img-fluid" src="img/brand-slider/02.png" />
-                                        </div>
+                                            <a class="chocolat-image" href="img/brand-slider/02.jpg">
+                                                <img src="img/brand-slider/02.jpg" class="img-responsive">
+                                            </a>
+                                        </div> <!-- item -->
                                         <div class="item">
-                                            <img class="img-fluid" src="img/brand-slider/03.png" />
-                                        </div>
+                                            <a class="chocolat-image" href="img/brand-slider/03.jpg">
+                                                <img src="img/brand-slider/03.jpg" class="img-responsive">
+                                            </a>
+                                        </div> <!-- item -->
+                                    </div> <!-- owl-carousel -->
+                                </div> <!-- brand-slider-container -->
 
-                                    </div>
 
 
-                                </div><!-- brand-slider-container -->
                                 <div class="text-center mb-2 mt-2">
                                     <a class="btn btn-custom2 follow" href="#"> discover products </a>
                                 </div>
@@ -192,7 +226,7 @@
                                             </p>
                                     </div><!-- brand-details-text -->
 
-                                    <div class="btns text-center mb-2 mt-2">
+                                    <div class="btns tags text-center mb-2 mt-2">
                                         <a class="btn btn-custom2 follow" href="#"> Fashion </a>
                                         <a class="btn btn-custom2 follow" href="#"> Beauty </a>
                                     </div><!-- btns -->
@@ -275,10 +309,45 @@
                     <a class="carousel-control-next" href="#home-video-carousel" role="button" data-slide="next">
                         <i class="fa fa-chevron-down"></i>
                     </a>
+
+                    <div class="matched-criteria-container">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle resetbtn " type="button" id="criteria-btn" data-toggle="dropdown">
+                                Matched Criteria <i class="fa fa-chevron-down"></i>
+                            </button>
+                            <div class="dropdown-menu criteria-dropdown-menu pl-3 pr-3" aria-labelledby="criteria">
+                                <div class="criteria-menu-container">
+                                    <h5> Matched Criteria <i class="icon icon-close"></i> </h5>
+                                    <ul class="resetul">
+                                        <li class="criteria-one-item">
+                                            <img src="img/icon-criteria-location.png" alt="">
+                                            <p class="success"> Location <i class="fa fa-check "></i> </p>
+                                        </li><!-- criteria-one-item -->
+                                        <li class="criteria-one-item">
+                                            <img src="img/icon-criteria-gender.png" alt="">
+                                            <p class="success"> Gender <i class="fa fa-check "></i> </p>
+                                        </li><!-- criteria-one-item -->
+                                        <li class="criteria-one-item">
+                                            <img src="img/icon-criteria-age.png" alt="">
+                                            <p class="success"> Age <i class="fa fa-check "></i> </p>
+                                        </li><!-- criteria-one-item -->
+                                        <li class="criteria-one-item">
+                                            <img src="img/icon-criteria-job.png" alt="">
+                                            <p class="danger"> Aob <i class="fa fa-times "></i> </p>
+                                        </li><!-- criteria-one-item -->
+                                        <li class="criteria-one-item">
+                                            <img src="img/icon-criteria-interests.png" alt="">
+                                            <p class="danger"> Interests <i class="fa fa-times "></i> </p>
+                                        </li><!-- criteria-one-item -->
+                                    </ul>
+                                </div><!-- criteria-menu-container -->
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                    </div><!-- matched-criteria-container -->
                 </div><!-- arrows-container -->
-
             </div> <!-- #home-video-carousel -->
-
         </div><!-- homepage-content -->
     </div><!-- container -->
 </div><!-- page-content -->
