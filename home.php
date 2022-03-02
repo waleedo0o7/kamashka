@@ -3,7 +3,6 @@
 <div class="page-content homepage">
     <div class="container">
         <div class="homepage-content">
-
             <div id="home-video-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
 
                 <div class="carousel-inner">
@@ -18,7 +17,7 @@
                                             <img class="img-fluid" src="img/brand-logo.png" />
                                         </div><!-- col-md-2 -->
                                         <div class="col-md-4">
-                                            <h3> zara <img class="img-fluid" src="img/verified.svg" /> </h3>
+                                            <h3> Nike <img class="img-fluid" src="img/verified.svg" /> </h3>
                                             <p> Kids Campaign <br />#zaracampaign </p>
                                         </div><!-- col-md-3 -->
                                         <div class="col-md-6 d-flex">
@@ -30,38 +29,38 @@
                                 </div><!-- brand-header -->
 
                                 <div class="brand-slider-container">
-                                    <div class="owl-carousel owl-theme chocolat-parent">
+                                    <div class="owl-carousel owl-theme">
+
                                         <div class="item">
-                                            <a class="chocolat-image" href="img/brand-slider/04.jpg">
-                                                <img src="img/brand-slider/04.jpg" class="img-responsive">
-                                            </a>
-                                        </div> <!-- item -->
-                                        <div class="item">
-                                            <a class="chocolat-image" href="img/brand-slider/05.jpg">
-                                                <img src="img/brand-slider/05.jpg" class="img-responsive">
-                                            </a>
-                                        </div> <!-- item -->
-                                        <div class="item">
-                                            <a class="chocolat-image" href="img/brand-slider/06.jpg">
-                                                <img src="img/brand-slider/06.jpg" class="img-responsive">
+                                            <a data-fancybox="nike-gallery" href="img/brand-slider/video1.mp4" data-width="640" data-height="360">
+                                                <div class="video-item">
+                                                    <img src="img/brand-slider/01.jpg" />
+                                                    <div class="video-overlay">
+                                                        <img class="img-fluid" src="img/brand-slider/play.png" />
+                                                    </div>
+                                                </div>
                                             </a>
                                         </div> <!-- item -->
 
                                         <div class="item">
-                                            <a class="chocolat-image" href="img/brand-slider/04.jpg">
-                                                <img src="img/brand-slider/04.jpg" class="img-responsive">
+                                            <a data-fancybox="nike-gallery" href="img/brand-slider/02.jpg">
+                                                <img src="img/brand-slider/02.jpg" class="img-responsive">
                                             </a>
                                         </div> <!-- item -->
+ 
                                         <div class="item">
-                                            <a class="chocolat-image" href="img/brand-slider/05.jpg">
-                                                <img src="img/brand-slider/05.jpg" class="img-responsive">
+                                            <a data-fancybox="nike-gallery" href="img/brand-slider/03.jpg">
+                                                <img src="img/brand-slider/03.jpg" class="img-responsive">
                                             </a>
                                         </div> <!-- item -->
+
                                         <div class="item">
-                                            <a class="chocolat-image" href="img/brand-slider/06.jpg">
-                                                <img src="img/brand-slider/06.jpg" class="img-responsive">
+                                            <a data-fancybox="nike-gallery" href="img/brand-slider/01.jpg">
+                                                <img src="img/brand-slider/01.jpg" class="img-responsive">
                                             </a>
                                         </div> <!-- item -->
+
+
                                     </div> <!-- owl-carousel -->
                                 </div> <!-- brand-slider-container -->
 
@@ -149,16 +148,40 @@
                         </div><!-- carousel-item-content -->
                     </div> <!-- carousel-item -->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     <div class="carousel-item">
                         <div class="carousel-item-content">
                             <div class="data-section">
+
                                 <div class="brand-header">
                                     <div class="row">
                                         <div class="col-md-2 brand-logo d-flex justify-content-center align-items-start pr-0">
                                             <img class="img-fluid" src="img/brand-logo.png" />
                                         </div><!-- col-md-2 -->
                                         <div class="col-md-4">
-                                            <h3> Nike <img class="img-fluid" src="img/verified.svg" /> </h3>
+                                            <h3> Zara <img class="img-fluid" src="img/verified.svg" /> </h3>
                                             <p> Kids Campaign <br />#zaracampaign </p>
                                         </div><!-- col-md-3 -->
                                         <div class="col-md-6 d-flex">
@@ -169,49 +192,40 @@
                                     </div><!-- row -->
                                 </div><!-- brand-header -->
 
-
-
                                 <div class="brand-slider-container">
-                                    <div class="owl-carousel owl-theme chocolat-parent">
+                                    <div class="owl-carousel owl-theme">
+
                                         <div class="item">
-                                            <a class="chocolat-image" href="img/brand-slider/01.jpg">
-                                                <img src="img/brand-slider/01.jpg" class="img-responsive">
-                                            </a>
-                                        </div> <!-- item -->
-                                        <div class="item">
-                                            <a class="chocolat-image" href="img/brand-slider/02.jpg">
-                                                <img src="img/brand-slider/02.jpg" class="img-responsive">
-                                            </a>
-                                        </div> <!-- item -->
-                                        <div class="item">
-                                            <a class="chocolat-image" href="img/brand-slider/03.jpg">
-                                                <img src="img/brand-slider/03.jpg" class="img-responsive">
+                                            <a data-fancybox="zara-gallery" href="img/brand-slider/video1.mp4" data-width="640" data-height="360">
+                                                <div class="video-item">
+                                                    <img src="img/brand-slider/04.jpg" />
+                                                    <div class="video-overlay">
+                                                        <img class="img-fluid" src="img/brand-slider/play.png" />
+                                                    </div>
+                                                </div>
                                             </a>
                                         </div> <!-- item -->
 
                                         <div class="item">
-                                            <a class="chocolat-image" href="img/brand-slider/01.jpg">
-                                                <img src="img/brand-slider/01.jpg" class="img-responsive">
+                                            <a data-fancybox="zara-gallery" href="img/brand-slider/05.jpg">
+                                                <img src="img/brand-slider/05.jpg" class="img-responsive">
                                             </a>
                                         </div> <!-- item -->
+ 
                                         <div class="item">
-                                            <a class="chocolat-image" href="img/brand-slider/02.jpg">
-                                                <img src="img/brand-slider/02.jpg" class="img-responsive">
+                                            <a data-fancybox="zara-gallery" href="img/brand-slider/06.jpg">
+                                                <img src="img/brand-slider/06.jpg" class="img-responsive">
                                             </a>
                                         </div> <!-- item -->
-                                        <div class="item">
-                                            <a class="chocolat-image" href="img/brand-slider/03.jpg">
-                                                <img src="img/brand-slider/03.jpg" class="img-responsive">
-                                            </a>
-                                        </div> <!-- item -->
+
+
                                     </div> <!-- owl-carousel -->
                                 </div> <!-- brand-slider-container -->
-
-
 
                                 <div class="text-center mb-2 mt-2">
                                     <a class="btn btn-custom2 follow" href="#"> discover products </a>
                                 </div>
+
                                 <div class="brand-details">
                                     <div class="brand-details-text">
                                         <h4> Zara is one of the biggest international <br /> fashion companies </h2>
@@ -261,8 +275,7 @@
                             </div> <!-- data-section -->
                             <div class="video-section">
 
-
-                                <div class="video-section-content 00">
+                                <div class="video-section-content">
 
                                     <div class="icons-container">
                                         <div class="video-icons">
@@ -283,7 +296,7 @@
                                         </div><!-- video-icons -->
                                     </div><!-- icons -->
                                     <video height="100%" autoplay muted>
-                                        <source src="videos/video2.mp4" type="video/mp4">
+                                        <source src="videos/video1.mp4" type="video/mp4">
                                     </video>
 
                                 </div> <!-- video-section-content -->
@@ -292,6 +305,11 @@
                             </div> <!-- video-section -->
                         </div><!-- carousel-item-content -->
                     </div> <!-- carousel-item -->
+
+
+
+
+
 
                 </div> <!-- carousel-inner -->
 
@@ -347,6 +365,7 @@
 
                     </div><!-- matched-criteria-container -->
                 </div><!-- arrows-container -->
+
             </div> <!-- #home-video-carousel -->
         </div><!-- homepage-content -->
     </div><!-- container -->

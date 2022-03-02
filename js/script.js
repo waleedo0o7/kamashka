@@ -60,7 +60,7 @@ $('#home-video-carousel').on('slid.bs.carousel', function () {
 
 })
 
-// owl carousel
+// homepage owl carousel
 $('.owl-carousel').owlCarousel({
     loop: false,
     margin: 10,
@@ -79,20 +79,17 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
+// homepage lightbox 
 jQuery(document).ready(function ($) {
     $('.chocolat-parent').Chocolat();
 });
-
-
 
 // sidnup get gender data
 $(function () {
     $(".gender").on("click", function () {
         $(".gender").removeClass("active");
         $(this).addClass("active");
-        $("#genderValue").val($(this).data("gander"));
-
-        // alert($("#genderValue").val());
+        $("#gender").val($(this).data("gander"));
     });
 });
 
@@ -102,8 +99,6 @@ $(function () {
         $(".left-menu-container").toggleClass("show");
     })
 });
-
-
 
 // top header cart popup --> increaseCount and decreaseCount START 
 function increaseCount(a, b) {
@@ -162,13 +157,30 @@ calcItemsPrice();
 
 // topbar calc cart dropdown items END
 
-
 // toggle password
-$("#toggle-password").on("click",function(){
-    if($(this).parent(".form-group").children("input").attr("type") == 'text'){
-        $(this).parent(".form-group").children("input").attr("type" , "password");
+$("#toggle-password").on("click", function () {
+    if ($(this).parent(".form-group").children("input").attr("type") == 'text') {
+        $(this).parent(".form-group").children("input").attr("type", "password");
     } else {
-        $(this).parent(".form-group").children("input").attr("type" , "text");
+        $(this).parent(".form-group").children("input").attr("type", "text");
     }
 });
 
+// select country
+$(".country-code-container .dropdown a").on("click", function () {
+    $("#country").val($(this).data("value"));
+    $(this).parents(".dropdown").children("button.dropdown-toggle").html(`<img src="${$(this).children("img").attr("src")}" /> ${$(this).text()} <i class="fa fa-caret-down"></i>`)
+});
+
+// select verification via 
+$(".via").on("click", function () {
+    $("#via").val($(this).data("via"));
+});
+
+// datepicker calender
+$(document).ready(function () {
+    $('#datepicker').datepicker({
+        format: 'dd-mm-yyyy',
+        startDate: '+1d'
+    });
+});

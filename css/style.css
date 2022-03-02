@@ -10,6 +10,13 @@
   font-weight: normal;
   font-style: normal;
 }
+* {
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 [data-icon]:before {
   font-family: "kamashka-font-8" !important;
   content: attr(data-icon);
@@ -90,6 +97,135 @@
 
 button:focus {
   outline: none;
+}
+
+.ui-datepicker {
+  background: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.ui-datepicker .calendar {
+  padding: 8px;
+  background: #ffffff;
+  border-radius: 4px;
+  font-size: 18px;
+  border: 1px solid #333333;
+  box-shadow: 0px 20px 40px rgba(59, 60, 56, 0.05);
+}
+.ui-datepicker .ui-datepicker-header {
+  height: 50px;
+  line-height: 50px;
+  color: #ffffff;
+  background: var(--secondaryColor);
+  margin-bottom: 10px;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+  width: 20px;
+  height: 20px;
+  text-indent: 9999px;
+  border-radius: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  margin-top: 12px;
+}
+.ui-datepicker .ui-datepicker-prev {
+  float: left;
+  margin-left: 12px;
+}
+.ui-datepicker .ui-datepicker-prev:after {
+  transform: rotate(45deg);
+  margin: -43px 0px 0px 8px;
+}
+.ui-datepicker .ui-datepicker-next {
+  float: right;
+  margin-right: 12px;
+}
+.ui-datepicker .ui-datepicker-next:after {
+  transform: rotate(-135deg);
+  margin: -43px 0px 0px 6px;
+}
+.ui-datepicker .ui-datepicker-prev:after,
+.ui-datepicker .ui-datepicker-next:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-left: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+.ui-datepicker .ui-datepicker-prev:hover,
+.ui-datepicker .ui-datepicker-next:hover,
+.ui-datepicker .ui-datepicker-prev:hover:after,
+.ui-datepicker .ui-datepicker-next:hover:after {
+  border-color: #333333;
+}
+.ui-datepicker .ui-datepicker-title {
+  text-align: center;
+  font-size: 22px;
+}
+.ui-datepicker .ui-datepicker-calendar {
+  width: 100%;
+  text-align: center;
+}
+.ui-datepicker .ui-datepicker-calendar thead tr th span {
+  display: block;
+  width: 40px;
+  color: var(--secondaryColor);
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: normal;
+}
+.ui-datepicker .ui-state-default {
+  display: block;
+  text-decoration: none;
+  color: #333333;
+  line-height: 40px;
+  font-size: 16px;
+}
+.ui-datepicker .ui-state-default:hover {
+  color: #ffffff;
+  background: var(--secondaryColor);
+  border-radius: 50px;
+  transition: all 0.25s cubic-bezier(0.7, -0.12, 0.2, 1.12);
+}
+.ui-datepicker .ui-state-highlight {
+  color: #ffffff;
+  background-color: #7e7e7e;
+  border-radius: 50px;
+}
+.ui-datepicker .ui-state-active {
+  color: #ffffff;
+  background-color: var(--secondaryColor);
+  border-radius: 50px;
+}
+.ui-datepicker .ui-datepicker-unselectable .ui-state-default {
+  color: #eee;
+  border: 2px solid transparent;
+}
+.ui-datepicker .icon {
+  margin-left: -30px;
+  margin-top: -26px;
+  position: relative;
+  color: var(--secondaryColor);
+  font-size: 20px;
+}
+
+.parsley-errors-list {
+  list-style: none;
+  padding: 0;
+  border-radius: 5px;
+  display: inline-flex;
+  position: absolute;
+  top: 0;
+  left: calc(100% + 10px);
+  width: fit-content;
+}
+
+.alert {
+  padding: 5px;
+  margin: 8px 0;
 }
 
 :root {
@@ -907,7 +1043,7 @@ body.fullscreen .page-content.homepage .arrows-container {
 }
 .arrows-container .matched-criteria-container .dropdown-toggle .arrows-container .matched-criteria-container .dropdown-toggle i {
   color: #000;
-  background: #FFF;
+  background: #fff;
   padding: 2px;
   border-radius: 3px;
   font-size: 12px;
@@ -1116,9 +1252,9 @@ body.fullscreen .page-content.homepage .arrows-container {
   padding: 30px 0;
   margin-bottom: 15px;
 }
-.signin .signin-content .form-container form.signin-form .form-group .form-control,
-.signup .signin-content .form-container form.signin-form .form-group .form-control,
-.activate .signin-content .form-container form.signin-form .form-group .form-control {
+.signin .signin-content .form-container form.signin-form .form-group .form-control.input-with-icon,
+.signup .signin-content .form-container form.signin-form .form-group .form-control.input-with-icon,
+.activate .signin-content .form-container form.signin-form .form-group .form-control.input-with-icon {
   padding-left: 40px;
 }
 .signin .signin-content .form-container form.signin-form .form-group i,
@@ -1177,7 +1313,7 @@ body.fullscreen .page-content.homepage .arrows-container {
   text-align: left !important;
 }
 .signup .form-group .form-control {
-  padding-left: 15px !important;
+  padding-left: 15px;
 }
 .signup .genders-container .gender {
   display: inline-flex;
@@ -1223,6 +1359,49 @@ body.fullscreen .page-content.homepage .arrows-container {
 .modal .modal-dialog .modal-content .modal-footer button img {
   width: 25px;
   margin-left: 5px;
+}
+
+.form-group .input-with-country-code {
+  padding-left: 105px !important;
+}
+.form-group .country-code-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.form-group .country-code-container img {
+  width: 27px;
+  height: 18px;
+  margin-right: 5px;
+}
+.form-group .country-code-container button {
+  height: 42px;
+  border-radius: 8px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  color: #495057;
+}
+.form-group .country-code-container .dropdown-menu {
+  padding: 0;
+  overflow: hidden;
+  left: -1px !important;
+}
+.form-group .country-code-container .dropdown-menu .dropdown-item {
+  padding: 4px 8px;
+}
+.form-group .country-code-container .dropdown-menu .dropdown-item:hover {
+  background: var(--mainColor);
+  color: var(--secondaryColor);
+}
+.form-group .country-code-container .fa-caret-down {
+  position: absolute;
+  top: 10px;
+  right: -23px;
+  color: #495057 !important;
+  font-size: 14px !important;
 }
 
 @media all and (max-width: 1024px) {
@@ -1410,6 +1589,20 @@ body .row.top-header-content .col-md-8.bottom-items .icons {
     justify-content: center;
     align-items: center;
   }
+}
+.video-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-overlay img {
+  width: 70px !important;
 }
 
 /*# sourceMappingURL=style.css.map */

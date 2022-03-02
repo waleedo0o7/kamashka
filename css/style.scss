@@ -18,6 +18,16 @@
     font-style: normal;
 }
 
+
+* {
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
 [data-icon]:before {
     font-family: "kamashka-font-8" !important;
     content: attr(data-icon);
@@ -87,6 +97,140 @@
 button:focus {
     outline: none;
 }
+
+// Datepicker Style
+.ui-datepicker {
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+
+    .calendar {
+        padding: 8px;
+        background: #ffffff;
+        border-radius: 4px;
+        font-size: 18px;
+        border: 1px solid #333333;
+        box-shadow: 0px 20px 40px rgba(59, 60, 56, 0.05);
+    }
+    .ui-datepicker-header {
+        height: 50px;
+        line-height: 50px;
+        color: #ffffff;
+        background: var(--secondaryColor);
+        margin-bottom: 10px;
+    }
+    .ui-datepicker-prev,
+    .ui-datepicker-next {
+        width: 20px;
+        height: 20px;
+        text-indent: 9999px;
+        border-radius: 100%;
+        cursor: pointer;
+        overflow: hidden;
+        margin-top: 12px;
+    }
+    .ui-datepicker-prev {
+        float: left;
+        margin-left: 12px;
+    }
+    .ui-datepicker-prev:after {
+        transform: rotate(45deg);
+        margin: -43px 0px 0px 8px;
+    }
+    .ui-datepicker-next {
+        float: right;
+        margin-right: 12px;
+    }
+    .ui-datepicker-next:after {
+        transform: rotate(-135deg);
+        margin: -43px 0px 0px 6px;
+    }
+    .ui-datepicker-prev:after,
+    .ui-datepicker-next:after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 8px;
+        height: 8px;
+        border-left: 2px solid #ffffff;
+        border-bottom: 2px solid #ffffff;
+    }
+    .ui-datepicker-prev:hover,
+    .ui-datepicker-next:hover,
+    .ui-datepicker-prev:hover:after,
+    .ui-datepicker-next:hover:after {
+        border-color: #333333;
+    }
+    .ui-datepicker-title {
+        text-align: center;
+        font-size: 22px;
+    }
+    .ui-datepicker-calendar {
+        width: 100%;
+        text-align: center;
+    }
+    .ui-datepicker-calendar thead tr th span {
+        display: block;
+        width: 40px;
+        color: var(--secondaryColor);
+        margin-bottom: 5px;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .ui-state-default {
+        display: block;
+        text-decoration: none;
+        color: #333333;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .ui-state-default:hover {
+        color: #ffffff;
+        background: var(--secondaryColor);
+        border-radius: 50px;
+        transition: all 0.25s cubic-bezier(0.7, -0.12, 0.2, 1.12);
+    }
+    .ui-state-highlight {
+        color: #ffffff;
+        background-color: #7e7e7e;
+        border-radius: 50px;
+    }
+    .ui-state-active {
+        color: #ffffff;
+        background-color: var(--secondaryColor);
+        border-radius: 50px;
+    }
+    .ui-datepicker-unselectable .ui-state-default {
+        color: #eee;
+        border: 2px solid transparent;
+    }
+
+    .icon {
+        margin-left: -30px;
+        margin-top: -26px;
+        position: relative;
+        color: var(--secondaryColor);
+        font-size: 20px;
+    }
+}
+
+.parsley-errors-list {
+    list-style: none;
+    padding: 0;
+    border-radius: 5px;
+    display: inline-flex;
+    position: absolute;
+    top: 0;
+    left: calc(100% + 10px);
+    width: fit-content;
+}
+
+.alert {
+    padding: 5px;
+    margin: 8px 0;
+}
+
+
 
 //////////////////////////////////////////////// Custom Font Start
 
@@ -975,7 +1119,7 @@ body.fullscreen {
             color: #fff;
             .arrows-container .matched-criteria-container .dropdown-toggle i {
                 color: #000;
-                background: #FFF;
+                background: #fff;
                 padding: 2px;
                 border-radius: 3px;
                 font-size: 12px;
@@ -1194,7 +1338,7 @@ body.fullscreen {
 
             form.signin-form {
                 .form-group {
-                    .form-control {
+                    .form-control.input-with-icon {
                         padding-left: 40px;
                     }
                     i {
@@ -1249,7 +1393,7 @@ body.fullscreen {
     .form-group {
         text-align: left !important;
         .form-control {
-            padding-left: 15px !important;
+            padding-left: 15px;
         }
     }
     .genders-container {
@@ -1303,6 +1447,50 @@ body.fullscreen {
     }
 }
 
+.form-group {
+    .input-with-country-code {
+        padding-left: 105px !important;
+    }
+    .country-code-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        img {
+            width: 27px;
+            height: 18px;
+            margin-right: 5px;
+        }
+        button {
+            height: 42px;
+            border-radius: 8px;
+            font-size: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90px;
+            color: #495057;
+        }
+        .dropdown-menu {
+            padding: 0;
+            overflow: hidden;
+            left: -1px !important;
+            .dropdown-item {
+                padding: 4px 8px;
+                &:hover {
+                    background: var(--mainColor);
+                    color: var(--secondaryColor);
+                }
+            }
+        }
+        .fa-caret-down {
+            position: absolute;
+            top: 10px;
+            right: -23px;
+            color: #495057 !important;
+            font-size: 14px !important;
+        }
+    }
+}
 ////////////////////// signin END
 
 // small laptop media
@@ -1498,5 +1686,22 @@ body.fullscreen {
     .homepage .homepage-content .data-section .share .images ul {
         justify-content: center;
         align-items: center;
+    }
+}
+
+
+
+.video-overlay {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 70px !important;
     }
 }

@@ -19,7 +19,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" integrity="sha512-gRH0EcIcYBFkQTnbpO8k0WlsD20x5VzjhOA1Og8+ZUAhcMUCvd+APD35FJw3GzHAP3e+mP28YcDJxVr745loHw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chocolat/0.4.18/css/chocolat.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
     <!-- Main Style -->
     <link rel="stylesheet" href="css/style.css">
@@ -46,7 +46,7 @@
 
                 <div class="col-md-4 d-flex top-items">
                     <div class="logo">
-                        <a href="#"> <img class="img-fluid" src="img/logo.svg" /> </a>
+                        <a href="home.php"> <img class="img-fluid" src="img/logo.svg" /> </a>
                     </div> <!-- logo -->
                     <div class="menu-icon">
                         <i id="mobile-icon" class="icon icon-meni-icon"></i>
@@ -94,7 +94,7 @@
                                                 <div class="notification-details">
                                                     <p> Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
                                                 </div><!-- notification-details -->
-                                                <div class="notification-date"> <span>9:20</span> AM  <i class="fa fa-circle"></i> </div><!-- notification-date -->
+                                                <div class="notification-date"> <span>9:20</span> AM <i class="fa fa-circle"></i> </div><!-- notification-date -->
                                             </li><!-- notification-one-item -->
 
                                             <li class="notification-one-item">
@@ -177,7 +177,7 @@
                                                 <div class="details">
                                                     <p class="name"> Shirt </p>
                                                     <p class="cat"> Cat's Eye </p>
-                                                    <p class="price-container"> $<span id="price">24.00</span> </p> 
+                                                    <p class="price-container"> $<span id="price">24.00</span> </p>
 
                                                     <div class="counter">
                                                         <span class="down" onClick='decreaseCount(event, this)'> <i class="fa fa-minus"></i> </span>
@@ -189,13 +189,13 @@
                                                 <i class="icon icon-close remove" id="removeItem"></i>
                                             </li><!-- cart-one-item -->
 
- 
+
                                             <li class="cart-one-item">
                                                 <div class="image"> <img class="img-fluid" src="img/thum.png" /> </div><!-- image -->
                                                 <div class="details">
                                                     <p class="name"> Shirt </p>
                                                     <p class="cat"> Cat's Eye </p>
-                                                    <p class="price-container"> $<span id="price">44.00</span> </p> 
+                                                    <p class="price-container"> $<span id="price">44.00</span> </p>
 
                                                     <div class="counter">
                                                         <span class="down" onClick='decreaseCount(event, this)'> <i class="fa fa-minus"></i> </span>
@@ -207,13 +207,13 @@
                                                 <i class="icon icon-close remove" id="removeItem"></i>
                                             </li><!-- cart-one-item -->
 
- 
+
                                             <li class="cart-one-item">
                                                 <div class="image"> <img class="img-fluid" src="img/thum.png" /> </div><!-- image -->
                                                 <div class="details">
                                                     <p class="name"> Shirt </p>
                                                     <p class="cat"> Cat's Eye </p>
-                                                    <p class="price-container"> $<span id="price">34.00</span> </p> 
+                                                    <p class="price-container"> $<span id="price">34.00</span> </p>
 
                                                     <div class="counter">
                                                         <span class="down" onClick='decreaseCount(event, this)'> <i class="fa fa-minus"></i> </span>
@@ -224,14 +224,14 @@
                                                 </div> <!-- details -->
                                                 <i class="icon icon-close remove" id="removeItem"></i>
                                             </li><!-- cart-one-item -->
- 
-  
+
+
                                             <li class="cart-one-item">
                                                 <div class="image"> <img class="img-fluid" src="img/thum.png" /> </div><!-- image -->
                                                 <div class="details">
                                                     <p class="name"> Shirt </p>
                                                     <p class="cat"> Cat's Eye </p>
-                                                    <p class="price-container"> $<span id="price">34.00</span> </p> 
+                                                    <p class="price-container"> $<span id="price">34.00</span> </p>
 
                                                     <div class="counter">
                                                         <span class="down" onClick='decreaseCount(event, this)'> <i class="fa fa-minus"></i> </span>
@@ -242,14 +242,14 @@
                                                 </div> <!-- details -->
                                                 <i class="icon icon-close remove" id="removeItem"></i>
                                             </li><!-- cart-one-item -->
- 
-  
+
+
                                             <li class="cart-one-item">
                                                 <div class="image"> <img class="img-fluid" src="img/thum.png" /> </div><!-- image -->
                                                 <div class="details">
                                                     <p class="name"> Shirt </p>
                                                     <p class="cat"> Cat's Eye </p>
-                                                    <p class="price-container"> $<span id="price">34.00</span> </p> 
+                                                    <p class="price-container"> $<span id="price">34.00</span> </p>
 
                                                     <div class="counter">
                                                         <span class="down" onClick='decreaseCount(event, this)'> <i class="fa fa-minus"></i> </span>
@@ -260,14 +260,14 @@
                                                 </div> <!-- details -->
                                                 <i class="icon icon-close remove" id="removeItem"></i>
                                             </li><!-- cart-one-item -->
- 
-  
+
+
                                             <li class="cart-one-item">
                                                 <div class="image"> <img class="img-fluid" src="img/thum.png" /> </div><!-- image -->
                                                 <div class="details">
                                                     <p class="name"> Shirt </p>
                                                     <p class="cat"> Cat's Eye </p>
-                                                    <p class="price-container"> $<span id="price">34.00</span> </p> 
+                                                    <p class="price-container"> $<span id="price">34.00</span> </p>
 
                                                     <div class="counter">
                                                         <span class="down" onClick='decreaseCount(event, this)'> <i class="fa fa-minus"></i> </span>
@@ -278,15 +278,15 @@
                                                 </div> <!-- details -->
                                                 <i class="icon icon-close remove" id="removeItem"></i>
                                             </li><!-- cart-one-item -->
- 
-  
+
+
 
                                         </ul>
 
                                         <div class="cart-footer">
                                             <div class="total-container">
                                                 <span class="total-title"> Total </span>
-                                                <p class="bold total-price p-0" > $ <input disabled id="totalPrice" type="text" value="81.57"> </p><!-- total-price -->
+                                                <p class="bold total-price p-0"> $ <input disabled id="totalPrice" type="text" value="81.57"> </p><!-- total-price -->
 
                                             </div><!-- total-container -->
                                             <a class="btn btn-custom1" href="#"> CHECKOUT <i class="fa fa-chevron-right"></i> </a>
