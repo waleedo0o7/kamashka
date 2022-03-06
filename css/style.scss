@@ -18,15 +18,12 @@
     font-style: normal;
 }
 
-
 * {
     -o-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-
-
 
 [data-icon]:before {
     font-family: "kamashka-font-8" !important;
@@ -164,6 +161,23 @@ button:focus {
     .ui-datepicker-title {
         text-align: center;
         font-size: 22px;
+        select {
+            border: none;
+            color: #fff;
+            font-size: 18px;
+            background: var(--secondaryColor);
+            margin: 5px;
+            border-radius: 3px;
+            padding: 2px 4px;
+            border: 1px solid #fff;
+            cursor: pointer;
+            
+            option {
+                background: #fff;
+                color: var(--mainColor);
+                font-size: 16px;
+            }
+        }
     }
     .ui-datepicker-calendar {
         width: 100%;
@@ -230,8 +244,6 @@ button:focus {
     margin: 8px 0;
 }
 
-
-
 //////////////////////////////////////////////// Custom Font Start
 
 // main style START
@@ -280,6 +292,7 @@ body {
     font-size: 14px;
     height: 100vh;
     background: #000;
+    font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -956,6 +969,23 @@ body.fullscreen {
         }
     }
 
+    .brand-slider-container {
+        .video-overlay {
+            background: rgba(0, 0, 0, 0.4);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                width: 70px !important;
+            }
+        }
+    }
+
     .brand-details {
         .brand-details-text {
             max-height: 160px;
@@ -1314,7 +1344,8 @@ body.fullscreen {
 
 .signin,
 .signup,
-.activate {
+.activate,
+.forget-password {
     background-color: var(--mainColor);
     height: calc(100% - 58px);
     color: #fff;
@@ -1336,7 +1367,8 @@ body.fullscreen {
             padding: 30px 0;
             margin-bottom: 15px;
 
-            form.signin-form {
+            form.signin-form,
+            form.forget-password-form {
                 .form-group {
                     .form-control.input-with-icon {
                         padding-left: 40px;
@@ -1351,7 +1383,7 @@ body.fullscreen {
                         align-items: center;
                         font-size: 22px;
                         top: 10px;
-                        z-index: 9;
+                        z-index: 1;
                         &.fa-envelope {
                             font-size: 18px;
                         }
@@ -1475,7 +1507,10 @@ body.fullscreen {
             overflow: hidden;
             left: -1px !important;
             .dropdown-item {
-                padding: 4px 8px;
+                padding: 5px 8px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
                 &:hover {
                     background: var(--mainColor);
                     color: var(--secondaryColor);
@@ -1689,19 +1724,60 @@ body.fullscreen {
     }
 }
 
+.forget-password {
+    .forget-password-form {
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: none;
+            width: fit-content;
+            margin: auto;
+            border-radius: 5px;
+            overflow: hidden;
+
+            .nav-link {
+                padding: 8px 30px;
+                background: #0a1031;
+                border-radius: 0;
+                border: none;
+            }
+
+            .nav-item.show .nav-link,
+            .nav-link.active {
+                color: #ffffff;
+                background-color: #fa935b;
+                border-color: #fa935b;
+            }
+        }
+
+        .tab-content > .tab-pane {
+            padding: 30px 0 10px 0;
+        }
+    }
+}
 
 
-.video-overlay {
-    background: rgba(0, 0, 0, 0.4);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+
+
+.activate-inputs-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    img {
-        width: 70px !important;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    input {
+        width: 70px;
+        height: 70px;
+        border-radius: 15px;
+        border: none;
+        margin: 5px;
+        text-align: center;
+        color: var(--secondaryColor);
+        font-size: 38px;
+        font-weight: bold;
     }
 }
+
+

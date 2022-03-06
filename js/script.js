@@ -79,11 +79,6 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-// homepage lightbox 
-jQuery(document).ready(function ($) {
-    $('.chocolat-parent').Chocolat();
-});
-
 // sidnup get gender data
 $(function () {
     $(".gender").on("click", function () {
@@ -158,7 +153,7 @@ calcItemsPrice();
 // topbar calc cart dropdown items END
 
 // toggle password
-$("#toggle-password").on("click", function () {
+$(".toggle-password-container").on("click", function () {
     if ($(this).parent(".form-group").children("input").attr("type") == 'text') {
         $(this).parent(".form-group").children("input").attr("type", "password");
     } else {
@@ -180,7 +175,82 @@ $(".via").on("click", function () {
 // datepicker calender
 $(document).ready(function () {
     $('#datepicker').datepicker({
-        format: 'dd-mm-yyyy',
-        startDate: '+1d'
+        // dateFormat: 'dd-mm-yy',
+        changeMonth: true,
+        changeYear: true,
+        yearRange: "1922:2022",
+        maxDate: '0'
     });
+});
+
+// calc age 
+$(document).ready(function () {
+    $(".signin-content input#datepicker").on("change", function () {
+        let selectedDate = $(this).val();
+        let selectedDateTimestamp = new Date(selectedDate);
+        let todayTimestamp = new Date().valueOf();
+        let dateRangeTimestamp = todayTimestamp - selectedDateTimestamp;
+        let ageInYears = Math.floor(dateRangeTimestamp / 31556952000);
+        console.log(` selectedDateTimestamp :  ${selectedDateTimestamp.valueOf()}`);
+        console.log(` todayTimestamp        :  ${todayTimestamp.valueOf()}`);
+        console.log(` dateRangeTimestamp    :  ${dateRangeTimestamp}`);
+        console.log(` ageInYears   :  ${ageInYears}   `);
+        $("#your-age").text(`Your Age Is ${ageInYears}`);
+    });
+});
+
+// open confirmation popup if valid form
+$(document).ready(function () {
+    $("#confirmation-btn").on("click", function () {
+        let isValid = $(".signin-form").parsley().validate();
+        if (isValid) {
+            $('#confirmation').modal('show');
+        }
+    });
+});
+
+// Resend Code
+let counterDownTwoMinutes = () => {
+    let minutesLabel = document.getElementById("minutes");
+    let secondsLabel = document.getElementById("seconds");
+    let totalSeconds = 120;
+
+    setInterval(setTime, 1000);
+
+    function setTime() {
+        if (totalSeconds > 0) {
+
+            // console.log(totalSeconds);
+            --totalSeconds;
+            secondsLabel.innerHTML = pad(totalSeconds % 60);
+            minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+        }
+    }
+    function pad(val) {
+        var valString = val + "";
+        if (valString.length < 2) {
+            return "0" + valString;
+        }
+        else {
+            return valString;
+        }
+    }
+}
+
+// Forget Password Set Via Value
+$(document).ready(function () {
+    $(".forget-password-form ul.nav-tabs li.nav-item a").on("click", function () {
+        $("#via").val($(this).data("via"));
+    });
+});
+
+// Activate inputs Value
+$(".activate-inputs-container input").change(function () {
+    let codeValue;
+    $(".activate-inputs-container").children("input").each(function (index) {
+        console.log(index + ": " + $(this).val());
+        $("#code").val(codeValue);
+    });
+
+    console.log($("#code").val());
 });

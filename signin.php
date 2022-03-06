@@ -3,7 +3,7 @@
 <div class="page-content signin">
     <div class="signin-content">
         <img class="mb-0 logo" src="img/logo-square.svg" />
-        <h3 class="mb-2"> Sign In </h3>
+        <h3 class="mb-2 bold"> Sign In </h3>
 
         <div class="form-container">
 
@@ -26,12 +26,14 @@
                     </div><!-- toggle-password-container -->
                 </div><!-- form-group  -->
                 <div class="forget-password-container mb-3 text-right">
-                    <a href="#" class="link text-capitalize "> Forget password ?</a>
+                    <a href="forget-password.php" class="link text-capitalize "> Forget password ?</a>
                 </div><!-- forget-password-container -->
                 <div class="submit-btn-container">
                     <button href="#" type="submit" class="btn btn-custom1 w-100 text-center"> Sign In </button>
                 </div><!-- submit-btn-container -->
             </form><!-- signin-form -->
+
+            
         </div><!-- form-container -->
 
         <div class="page-footer">

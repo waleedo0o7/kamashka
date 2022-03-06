@@ -2,8 +2,8 @@
 
 <div class="page-content signup">
     <div class="signin-content">
-        <img class="mb-0 logo" src="img/logo-square.svg" />
-        <h3 class="mb-2"> Sign Up </h3>
+        <img class="mb-0 logo" src="img/activate.svg" />
+        <h3 class="mb-2 bold"> Sign Up </h3>
 
         <div class="form-container">
 
@@ -20,8 +20,8 @@
                     <div class="country-code-container">
 
                         <select class="d-none" name="country" id="country">
-                            <option selected value="1"> 1 </option>
-                            <option value="2"> 2 </option>
+                            <option value="1"> 1 </option>
+                            <option selected value="2"> 2 </option>
                             <option value="3"> 3 </option>
                         </select>
 
@@ -56,22 +56,22 @@
 
                 <div class="form-group mb-3 relative">
                     <label class="text-left" for="date"> Date Of Birth (Optional) </label>
-                    <input placeholder="Select your date" type="text" name="checkIn" id="datepicker" class="form-control calendar" required="">
-                    <label class="text-left mt-1" for="date"> Your Age Is <span> 29 </span></label>
+                    <input placeholder="Select your date" type="text" name="checkIn" id="datepicker" class="form-control calendar">
+                    <p class="text-left mt-1" id="your-age"> </p>
                 </div><!-- form-group  -->
 
                 <div class="form-group mb-3 relative">
                     <label class="text-left" for="date"> Gender </label>
                     <div class="genders-container">
-                        <div class="gender active" data-gander="1">
+                        <div class="gender active" data-gander="male">
                             <img class="img-fluid " src="img/male.png" alt="">
                         </div><!-- gender -->
-                        <div class="gender" data-gander="2">
+                        <div class="gender" data-gander="female">
                             <img class="img-fluid" src="img/female.png" alt="">
                         </div><!-- gender -->
                         <select class="d-none" name="gender" id="gender">
-                            <option selected value="1"> male </option>
-                            <option value="2"> female </option>
+                            <option selected value="male"> male </option>
+                            <option value="female"> female </option>
                         </select>
                     </div><!-- genders-container -->
                 </div><!-- form-group  -->
@@ -81,13 +81,10 @@
                 </div><!-- form-group  -->
 
                 <div class="submit-btn-container">
-                    <a href="#" class="btn btn-custom1 w-100 text-center" data-toggle="modal" data-target="#confirmation"> Next </a>
+                    <a href="#" class="btn btn-custom1 w-100 text-center" id="confirmation-btn"> Next </a>
                 </div><!-- submit-btn-container -->
 
-
-
-
-                <!-- Modal -->
+                <!-- Modal START -->
                 <div class="modal fade" id="confirmation" tabindex="-1" role="dialog" aria-labelledby="confirmation" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -100,14 +97,12 @@
                             </div><!-- modal-footer -->
                         </div> <!-- modal-content -->
                     </div><!-- modal-dialog -->
-                </div><!-- modal -->
-
+                </div><!-- modal END -->
 
             </form><!-- signin-form -->
+
         </div><!-- form-container -->
-
     </div><!-- signin-content -->
-
 </div><!-- page-content -->
 
 

@@ -165,6 +165,22 @@ button:focus {
   text-align: center;
   font-size: 22px;
 }
+.ui-datepicker .ui-datepicker-title select {
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  background: var(--secondaryColor);
+  margin: 5px;
+  border-radius: 3px;
+  padding: 2px 4px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-title select option {
+  background: #fff;
+  color: var(--mainColor);
+  font-size: 16px;
+}
 .ui-datepicker .ui-datepicker-calendar {
   width: 100%;
   text-align: center;
@@ -273,6 +289,7 @@ body {
   font-size: 14px;
   height: 100vh;
   background: #000;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -899,6 +916,20 @@ body.fullscreen .page-content.homepage .arrows-container {
 .data-section .brand-header p {
   margin-bottom: 2px;
 }
+.data-section .brand-slider-container .video-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.data-section .brand-slider-container .video-overlay img {
+  width: 70px !important;
+}
 .data-section .brand-details .brand-details-text {
   max-height: 160px;
   overflow-x: hidden;
@@ -1220,7 +1251,8 @@ body.fullscreen .page-content.homepage .arrows-container {
 
 .signin,
 .signup,
-.activate {
+.activate,
+.forget-password {
   background-color: var(--mainColor);
   height: calc(100% - 58px);
   color: #fff;
@@ -1230,7 +1262,8 @@ body.fullscreen .page-content.homepage .arrows-container {
 }
 .signin .signin-content,
 .signup .signin-content,
-.activate .signin-content {
+.activate .signin-content,
+.forget-password .signin-content {
   width: 500px;
   max-width: 100%;
   padding: 10px;
@@ -1238,28 +1271,41 @@ body.fullscreen .page-content.homepage .arrows-container {
 }
 .signin .signin-content h3,
 .signup .signin-content h3,
-.activate .signin-content h3 {
+.activate .signin-content h3,
+.forget-password .signin-content h3 {
   font-size: 22px;
 }
 .signin .signin-content .logo,
 .signup .signin-content .logo,
-.activate .signin-content .logo {
+.activate .signin-content .logo,
+.forget-password .signin-content .logo {
   width: 90px;
 }
 .signin .signin-content .form-container,
 .signup .signin-content .form-container,
-.activate .signin-content .form-container {
+.activate .signin-content .form-container,
+.forget-password .signin-content .form-container {
   padding: 30px 0;
   margin-bottom: 15px;
 }
 .signin .signin-content .form-container form.signin-form .form-group .form-control.input-with-icon,
+.signin .signin-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
 .signup .signin-content .form-container form.signin-form .form-group .form-control.input-with-icon,
-.activate .signin-content .form-container form.signin-form .form-group .form-control.input-with-icon {
+.signup .signin-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
+.activate .signin-content .form-container form.signin-form .form-group .form-control.input-with-icon,
+.activate .signin-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
+.forget-password .signin-content .form-container form.signin-form .form-group .form-control.input-with-icon,
+.forget-password .signin-content .form-container form.forget-password-form .form-group .form-control.input-with-icon {
   padding-left: 40px;
 }
 .signin .signin-content .form-container form.signin-form .form-group i,
+.signin .signin-content .form-container form.forget-password-form .form-group i,
 .signup .signin-content .form-container form.signin-form .form-group i,
-.activate .signin-content .form-container form.signin-form .form-group i {
+.signup .signin-content .form-container form.forget-password-form .form-group i,
+.activate .signin-content .form-container form.signin-form .form-group i,
+.activate .signin-content .form-container form.forget-password-form .form-group i,
+.forget-password .signin-content .form-container form.signin-form .form-group i,
+.forget-password .signin-content .form-container form.forget-password-form .form-group i {
   position: absolute;
   color: #fa935b;
   height: 23px;
@@ -1269,16 +1315,26 @@ body.fullscreen .page-content.homepage .arrows-container {
   align-items: center;
   font-size: 22px;
   top: 10px;
-  z-index: 9;
+  z-index: 1;
 }
 .signin .signin-content .form-container form.signin-form .form-group i.fa-envelope,
+.signin .signin-content .form-container form.forget-password-form .form-group i.fa-envelope,
 .signup .signin-content .form-container form.signin-form .form-group i.fa-envelope,
-.activate .signin-content .form-container form.signin-form .form-group i.fa-envelope {
+.signup .signin-content .form-container form.forget-password-form .form-group i.fa-envelope,
+.activate .signin-content .form-container form.signin-form .form-group i.fa-envelope,
+.activate .signin-content .form-container form.forget-password-form .form-group i.fa-envelope,
+.forget-password .signin-content .form-container form.signin-form .form-group i.fa-envelope,
+.forget-password .signin-content .form-container form.forget-password-form .form-group i.fa-envelope {
   font-size: 18px;
 }
 .signin .signin-content .form-container form.signin-form .form-group .toggle-password-container,
+.signin .signin-content .form-container form.forget-password-form .form-group .toggle-password-container,
 .signup .signin-content .form-container form.signin-form .form-group .toggle-password-container,
-.activate .signin-content .form-container form.signin-form .form-group .toggle-password-container {
+.signup .signin-content .form-container form.forget-password-form .form-group .toggle-password-container,
+.activate .signin-content .form-container form.signin-form .form-group .toggle-password-container,
+.activate .signin-content .form-container form.forget-password-form .form-group .toggle-password-container,
+.forget-password .signin-content .form-container form.signin-form .form-group .toggle-password-container,
+.forget-password .signin-content .form-container form.forget-password-form .form-group .toggle-password-container {
   position: absolute;
   right: 0;
   width: 40px;
@@ -1288,19 +1344,22 @@ body.fullscreen .page-content.homepage .arrows-container {
 }
 .signin .signin-content .form-container .forget-password-container a,
 .signup .signin-content .form-container .forget-password-container a,
-.activate .signin-content .form-container .forget-password-container a {
+.activate .signin-content .form-container .forget-password-container a,
+.forget-password .signin-content .form-container .forget-password-container a {
   color: #fff;
 }
 .signin .signin-content .page-footer .icons,
 .signup .signin-content .page-footer .icons,
-.activate .signin-content .page-footer .icons {
+.activate .signin-content .page-footer .icons,
+.forget-password .signin-content .page-footer .icons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .signin .signin-content .page-footer .icons li img,
 .signup .signin-content .page-footer .icons li img,
-.activate .signin-content .page-footer .icons li img {
+.activate .signin-content .page-footer .icons li img,
+.forget-password .signin-content .page-footer .icons li img {
   width: 60px;
   margin: 0 7px;
 }
@@ -1390,7 +1449,10 @@ body.fullscreen .page-content.homepage .arrows-container {
   left: -1px !important;
 }
 .form-group .country-code-container .dropdown-menu .dropdown-item {
-  padding: 4px 8px;
+  padding: 5px 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .form-group .country-code-container .dropdown-menu .dropdown-item:hover {
   background: var(--mainColor);
@@ -1590,19 +1652,50 @@ body .row.top-header-content .col-md-8.bottom-items .icons {
     align-items: center;
   }
 }
-.video-overlay {
-  background: rgba(0, 0, 0, 0.4);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.forget-password .forget-password-form .nav-tabs {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: none;
+  width: fit-content;
+  margin: auto;
+  border-radius: 5px;
+  overflow: hidden;
 }
-.video-overlay img {
-  width: 70px !important;
+.forget-password .forget-password-form .nav-tabs .nav-link {
+  padding: 8px 30px;
+  background: #0a1031;
+  border-radius: 0;
+  border: none;
+}
+.forget-password .forget-password-form .nav-tabs .nav-item.show .nav-link,
+.forget-password .forget-password-form .nav-tabs .nav-link.active {
+  color: #ffffff;
+  background-color: #fa935b;
+  border-color: #fa935b;
+}
+.forget-password .forget-password-form .tab-content > .tab-pane {
+  padding: 30px 0 10px 0;
+}
+
+.activate-inputs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: fit-content;
+  margin: auto;
+}
+.activate-inputs-container input {
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  border: none;
+  margin: 5px;
+  text-align: center;
+  color: var(--secondaryColor);
+  font-size: 38px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
