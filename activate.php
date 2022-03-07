@@ -7,16 +7,19 @@
 
         <div class="form-container">
             <p class="lead mb-4"> We Have Sent An SMS With An <br /> Activation Code To Your Phone By SMS </p>
-            <div class="activate-inputs-container">
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
-                <input type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
-            </div><!-- activate-inputs-container -->
 
-            <div class="signup-btn-container mb-1">
-                <a style="width: 320px !important;" type="submit" href="activate.php" class="btn btn-custom1  text-center w-100" id="send"> Send </a>
-            </div><!-- submit-btn-container -->
+            <div class="mb-3 activate-inputs-container">
+
+                <div class="activate-inputs">
+                    <input class="num1" type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+                    <input class="num2" type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+                    <input class="num3" type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+                    <input class="num4" type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+                </div><!-- activate-inputs -->
+
+                <a type="submit" href="activate.php" class="btn btn-custom1  text-center w-100" id="send"> Send </a>
+
+            </div>
 
             <div class="d-none">
                 <input type="text" id="code">

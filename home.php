@@ -1,5 +1,6 @@
 <?php include 'header.php'; ?>
 
+
 <div class="page-content homepage">
     <div class="container">
         <div class="homepage-content">
@@ -31,23 +32,27 @@
                                 <div class="brand-slider-container">
                                     <div class="owl-carousel owl-theme">
 
+
                                         <div class="item">
                                             <a data-fancybox="nike-gallery" href="img/brand-slider/video1.mp4" data-width="640" data-height="360">
                                                 <div class="video-item">
-                                                    <img src="img/brand-slider/01.jpg" />
+                                                    <video>
+                                                        <source src="videos/video1.mp4" type="video/mp4">
+                                                    </video>
                                                     <div class="video-overlay">
                                                         <img class="img-fluid" src="img/brand-slider/play.png" />
                                                     </div>
                                                 </div>
                                             </a>
                                         </div> <!-- item -->
+ 
 
                                         <div class="item">
                                             <a data-fancybox="nike-gallery" href="img/brand-slider/02.jpg">
                                                 <img src="img/brand-slider/02.jpg" class="img-responsive">
                                             </a>
                                         </div> <!-- item -->
- 
+
                                         <div class="item">
                                             <a data-fancybox="nike-gallery" href="img/brand-slider/03.jpg">
                                                 <img src="img/brand-slider/03.jpg" class="img-responsive">
@@ -161,6 +166,16 @@
 
 
 
+ 
+
+
+
+
+
+
+
+
+ 
 
 
 
@@ -171,6 +186,7 @@
 
 
 
+                    
                     <div class="carousel-item">
                         <div class="carousel-item-content">
                             <div class="data-section">
@@ -195,25 +211,35 @@
                                 <div class="brand-slider-container">
                                     <div class="owl-carousel owl-theme">
 
+
                                         <div class="item">
-                                            <a data-fancybox="zara-gallery" href="img/brand-slider/video1.mp4" data-width="640" data-height="360">
+                                            <a data-fancybox="nike-gallery" href="videos/video2.mp4" data-width="640" data-height="360">
                                                 <div class="video-item">
-                                                    <img src="img/brand-slider/04.jpg" />
+                                                    <video>
+                                                        <source src="videos/video2.mp4" type="video/mp4">
+                                                    </video>
                                                     <div class="video-overlay">
                                                         <img class="img-fluid" src="img/brand-slider/play.png" />
                                                     </div>
                                                 </div>
                                             </a>
                                         </div> <!-- item -->
+ 
 
                                         <div class="item">
-                                            <a data-fancybox="zara-gallery" href="img/brand-slider/05.jpg">
+                                            <a data-fancybox="nike-gallery" href="img/brand-slider/04.jpg">
+                                                <img src="img/brand-slider/04.jpg" class="img-responsive">
+                                            </a>
+                                        </div> <!-- item -->
+
+                                        <div class="item">
+                                            <a data-fancybox="nike-gallery" href="img/brand-slider/05.jpg">
                                                 <img src="img/brand-slider/05.jpg" class="img-responsive">
                                             </a>
                                         </div> <!-- item -->
- 
+
                                         <div class="item">
-                                            <a data-fancybox="zara-gallery" href="img/brand-slider/06.jpg">
+                                            <a data-fancybox="nike-gallery" href="img/brand-slider/06.jpg">
                                                 <img src="img/brand-slider/06.jpg" class="img-responsive">
                                             </a>
                                         </div> <!-- item -->
@@ -305,6 +331,22 @@
                             </div> <!-- video-section -->
                         </div><!-- carousel-item-content -->
                     </div> <!-- carousel-item -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

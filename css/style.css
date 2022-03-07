@@ -916,7 +916,14 @@ body.fullscreen .page-content.homepage .arrows-container {
 .data-section .brand-header p {
   margin-bottom: 2px;
 }
-.data-section .brand-slider-container .video-overlay {
+.data-section .brand-slider-container .item {
+  height: 230px;
+}
+.data-section .brand-slider-container .item .video-item video {
+  width: 100% !important;
+  height: auto;
+}
+.data-section .brand-slider-container .item .video-item .video-overlay {
   background: rgba(0, 0, 0, 0.4);
   position: absolute;
   top: 0;
@@ -927,7 +934,7 @@ body.fullscreen .page-content.homepage .arrows-container {
   justify-content: center;
   align-items: center;
 }
-.data-section .brand-slider-container .video-overlay img {
+.data-section .brand-slider-container .item .video-item .video-overlay img {
   width: 70px !important;
 }
 .data-section .brand-details .brand-details-text {
@@ -1065,19 +1072,22 @@ body.fullscreen .page-content.homepage .arrows-container {
 }
 .arrows-container .matched-criteria-container .dropdown-toggle {
   margin-left: auto;
-  display: block;
   width: auto;
   border-radius: 25px;
   font-size: 12px;
-  padding: 5px 15px;
+  padding: 0;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.arrows-container .matched-criteria-container .dropdown-toggle .arrows-container .matched-criteria-container .dropdown-toggle i {
+.arrows-container .matched-criteria-container .dropdown-toggle i {
   color: #000;
   background: #fff;
-  padding: 2px;
+  padding: 4px;
   border-radius: 3px;
   font-size: 12px;
+  margin-left: 5px;
 }
 .arrows-container .matched-criteria-container .dropdown-menu.criteria-dropdown-menu {
   top: -150px !important;
@@ -1679,14 +1689,18 @@ body .row.top-header-content .col-md-8.bottom-items .icons {
 }
 
 .activate-inputs-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
   width: fit-content;
   margin: auto;
 }
-.activate-inputs-container input {
+.activate-inputs-container .activate-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  width: fit-content;
+  margin: auto;
+}
+.activate-inputs-container .activate-inputs input {
   width: 70px;
   height: 70px;
   border-radius: 15px;

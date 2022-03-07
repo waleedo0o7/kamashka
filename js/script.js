@@ -245,12 +245,22 @@ $(document).ready(function () {
 });
 
 // Activate inputs Value
-$(".activate-inputs-container input").change(function () {
-    let codeValue;
-    $(".activate-inputs-container").children("input").each(function (index) {
-        console.log(index + ": " + $(this).val());
-        $("#code").val(codeValue);
-    });
+$(document).ready(function () {
 
-    console.log($("#code").val());
+    $(".num1").focus();
+
+    $(".activate-inputs input").on("click", function () {
+        $(this).select();
+    })
+
+    $(".activate-inputs input").on("keyup", function () {
+        if ($(this).val()  ) {
+            $(this).next().focus();
+            $(this).next().select();
+        }
+        if ($(this).index() == 3) {
+            $(this).blur()
+        }
+    })
+
 });
