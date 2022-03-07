@@ -254,7 +254,7 @@ $(document).ready(function () {
     })
 
     $(".activate-inputs input").on("keyup", function () {
-        if ($(this).val()  ) {
+        if ($(this).val()) {
             $(this).next().focus();
             $(this).next().select();
         }
@@ -262,5 +262,13 @@ $(document).ready(function () {
             $(this).blur()
         }
     })
+});
+
+// play the video 
+$(document).ready(function () {
+
+    setTimeout(() => {
+        console.log($('.video-section-content video')[0].play());
+    }, 1000);
 
 });

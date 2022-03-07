@@ -34,7 +34,7 @@
 
 
                                         <div class="item">
-                                            <a data-fancybox="nike-gallery" href="img/brand-slider/video1.mp4" data-width="640" data-height="360">
+                                            <a data-fancybox="nike-gallery" href="videos/video1.mp4" data-width="640" data-height="360">
                                                 <div class="video-item">
                                                     <video>
                                                         <source src="videos/video1.mp4" type="video/mp4">
@@ -142,7 +142,7 @@
                                             </ul>
                                         </div><!-- video-icons -->
                                     </div><!-- icons -->
-                                    <video height="100%" autoplay muted>
+                                    <video height="100%" controls>
                                         <source src="videos/video1.mp4" type="video/mp4">
                                     </video>
 
@@ -321,8 +321,8 @@
                                             </ul>
                                         </div><!-- video-icons -->
                                     </div><!-- icons -->
-                                    <video height="100%" autoplay muted>
-                                        <source src="videos/video1.mp4" type="video/mp4">
+                                    <video height="100%" controls>
+                                        <source src="videos/video2.mp4" type="video/mp4">
                                     </video>
 
                                 </div> <!-- video-section-content -->

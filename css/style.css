@@ -244,6 +244,16 @@ button:focus {
   margin: 8px 0;
 }
 
+video:hover::-webkit-media-controls-enclosure {
+  opacity: 1;
+  transition: var(--mainTransition);
+}
+
+video::-webkit-media-controls-enclosure {
+  opacity: 0;
+  transition: var(--mainTransition);
+}
+
 :root {
   --mainColor: #131a45;
   --secondaryColor: #fa935b;
