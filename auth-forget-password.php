@@ -43,11 +43,11 @@
                                 </select>
 
                                 <div class="dropdown">
-                                    <button class="resetbtn dropdown-toggle" type="button" id="choose-country" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button class="resetbtn dropdown-toggle" type="button" id="choose-country-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <img src="img/flag-kuwait.png" /> +002
                                         <i class="fa fa-caret-down"></i>
                                     </button>
-                                    <div class="dropdown-menu" aria-labelledby="choose-country">
+                                    <div class="dropdown-menu choose-country-list" aria-labelledby="choose-country-btn">
                                         <a data-value="1" class="dropdown-item" href="#"><img src="img/flag-kuwait.png" /> +002 </a>
                                         <a data-value="2" class="dropdown-item " href="#"><img src="img/flag-ksa.png" /> +003 </a>
                                         <a data-value="3" class="dropdown-item " href="#"><img src="img/flag-uae.png" /> +004 </a>

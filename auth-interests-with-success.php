@@ -50,7 +50,7 @@
 
 
 <div class="action-success">
-    <img src="https://via.placeholder.com/100x100" />
+    <img src="img/success.gif" />
 </div><!-- action-success -->
 
 <?php include 'footer.php'; ?>

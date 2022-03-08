@@ -310,3 +310,16 @@ $(document).ready(function () {
 
 
 
+// onError phone input reselect country code
+let onErrorCountryCodeValues = () => {
+        let selectedIndex = $(".country-code-container #country option:selected").index() + 1; 
+        let selectedHTML = $(`.country-code-container .choose-country-list a:nth-child(${selectedIndex})`).html();
+        $(".country-code-container button.dropdown-toggle").html(selectedHTML);
+}
+
+let onErrorGenderValue = () => {
+    let selectedIndex = $(".genders-container #gender option:selected").index() + 1;
+    console.log(selectedIndex);
+
+    let selectedHTML = $(`.genders-container .gender-list div:nth-child(${selectedIndex})`).addClass("active");
+}

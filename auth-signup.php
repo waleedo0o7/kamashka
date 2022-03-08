@@ -20,22 +20,23 @@
                     <div class="country-code-container">
 
                         <select class="d-none" name="country" id="country">
-                            <option value="1"> 1 </option>
-                            <option selected value="2"> 2 </option>
-                            <option value="3"> 3 </option>
+                            <option  value="001"> 001 </option>
+                            <option value="002"> 002 </option>
+                            <option selected value="003"> 003 </option>
                         </select>
 
                         <div class="dropdown">
-                            <button class="resetbtn dropdown-toggle" type="button" id="choose-country" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img src="img/flag-kuwait.png" /> +002
+                            <button class="resetbtn dropdown-toggle" type="button" id="choose-country-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="img/flag-kuwait.png" /> +001
                                 <i class="fa fa-caret-down"></i>
                             </button>
-                            <div class="dropdown-menu" aria-labelledby="choose-country">
-                                <a data-value="1" class="dropdown-item" href="#"><img src="img/flag-kuwait.png" /> +002 </a>
-                                <a data-value="2" class="dropdown-item " href="#"><img src="img/flag-ksa.png" /> +003 </a>
-                                <a data-value="3" class="dropdown-item " href="#"><img src="img/flag-uae.png" /> +004 </a>
+                            <div class="dropdown-menu choose-country-list" aria-labelledby="choose-country-btn">
+                                <a data-value="1" class="dropdown-item" href="#"><img src="img/flag-kuwait.png" /> +001 </a>
+                                <a data-value="2" class="dropdown-item " href="#"><img src="img/flag-ksa.png" /> +002 </a>
+                                <a data-value="3" class="dropdown-item " href="#"><img src="img/flag-uae.png" /> +003 </a>
                             </div>
                         </div> <!-- dropdown -->
+
                     </div><!-- country-code-container -->
                 </div><!-- form-group  -->
 
@@ -63,15 +64,17 @@
                 <div class="form-group mb-3 relative">
                     <label class="text-left" for="date"> Gender </label>
                     <div class="genders-container">
-                        <div class="gender active" data-gander="male">
-                            <img class="img-fluid " src="img/male.png" alt="">
-                        </div><!-- gender -->
-                        <div class="gender" data-gander="female">
-                            <img class="img-fluid" src="img/female.png" alt="">
-                        </div><!-- gender -->
+                        <div class="gender-list">
+                            <div class="gender" data-gander="male">
+                                <img class="img-fluid " src="img/male.png" alt="">
+                            </div><!-- gender -->
+                            <div class="gender" data-gander="female">
+                                <img class="img-fluid" src="img/female.png" alt="">
+                            </div><!-- gender -->
+                        </div><!-- gender-list -->
                         <select class="d-none" name="gender" id="gender">
                             <option selected value="male"> male </option>
-                            <option value="female"> female </option>
+                            <option  value="female"> female </option>
                         </select>
                     </div><!-- genders-container -->
                 </div><!-- form-group  -->
@@ -107,3 +110,8 @@
 
 
 <?php include 'footer.php'; ?>
+
+<script>
+    onErrorCountryCodeValues();
+    onErrorGenderValue();
+</script>

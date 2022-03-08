@@ -1896,5 +1896,8 @@ body .row.top-header-content .col-md-8.bottom-items .icons {
   align-items: center;
   cursor: pointer;
 }
+.action-success img {
+  width: 150px;
+}
 
 /*# sourceMappingURL=style.css.map */
