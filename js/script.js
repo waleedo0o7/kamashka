@@ -272,3 +272,19 @@ $(document).ready(function () {
     }, 1000);
 
 });
+
+// My Interests toggle active class and value
+$(document).ready(function () {
+    let interestsArr = [];
+    $(".interests-container button").on("click", function () {
+        $(this).toggleClass("active");
+        let btnValue = $(this).data("value");
+        let btnValueIndex = interestsArr.indexOf(btnValue);
+        if (interestsArr.includes(btnValue)) {
+            interestsArr.splice(btnValueIndex,1);
+        } else {
+            interestsArr.push(btnValue);
+        }
+        $("#my-interests-value").val(interestsArr)
+    });
+});

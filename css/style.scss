@@ -260,6 +260,29 @@ video::-webkit-media-controls-enclosure {
 }
 
 
+
+
+.btn-interests {
+    color: rgb(0, 0, 0);
+    border-width: 2px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    &:hover {
+        color: rgb(0, 0, 0);
+        background-color: #ffffff;
+        border-color: var(--secondaryColor);
+    }
+    &.active{
+        color: #FFF;
+        background-color: var(--secondaryColor);
+        border-color: var(--secondaryColor);
+
+    }
+}
+
+
+
+
 //////////////////////////////////////////////// Custom Font Start
 
 // main style START
@@ -1374,14 +1397,15 @@ body.fullscreen {
 .signin,
 .signup,
 .activate,
-.forget-password {
+.forget-password,
+.auth-page {
     background-color: var(--mainColor);
     height: calc(100% - 58px);
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    .signin-content {
+    .signin-content , .auth-page-content  {
         width: 500px;
         max-width: 100%;
         padding: 10px;
@@ -1397,7 +1421,8 @@ body.fullscreen {
             margin-bottom: 15px;
 
             form.signin-form,
-            form.forget-password-form {
+            form.forget-password-form,
+            .auth-form {
                 .form-group {
                     .form-control.input-with-icon {
                         padding-left: 40px;
@@ -1806,6 +1831,22 @@ body.fullscreen {
             color: var(--secondaryColor);
             font-size: 38px;
             font-weight: bold;
+        }
+    }
+}
+
+
+
+.interests-page .auth-page-content {
+    .interests-container {
+        text-align: left;
+        margin-bottom: 40px;
+
+        button{
+            margin: 5px 5px;
+            margin-left: 0px;
+            padding-left: 10px;
+            padding-right: 10px;
         }
     }
 }
