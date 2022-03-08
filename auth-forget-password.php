@@ -2,7 +2,7 @@
 
 <div class="page-content forget-password">
     <div class="signin-content">
-        <img class="mb-0 logo" src="img/logo-square.svg" />
+        <img class="mb-0 logo" src="img/logo-square.png" />
         <h3 class="mb-2 bold"> Forget Password </h3>
 
         <div class="form-container">

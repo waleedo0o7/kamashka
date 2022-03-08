@@ -244,23 +244,17 @@ button:focus {
     margin: 8px 0;
 }
 
-
-
-video:hover{
+video:hover {
     &::-webkit-media-controls-enclosure {
         opacity: 1;
         transition: var(--mainTransition);
     }
-    
 }
 
 video::-webkit-media-controls-enclosure {
     opacity: 0;
     transition: var(--mainTransition);
 }
-
-
-
 
 .btn-interests {
     color: rgb(0, 0, 0);
@@ -272,16 +266,12 @@ video::-webkit-media-controls-enclosure {
         background-color: #ffffff;
         border-color: var(--secondaryColor);
     }
-    &.active{
-        color: #FFF;
+    &.active {
+        color: #fff;
         background-color: var(--secondaryColor);
         border-color: var(--secondaryColor);
-
     }
 }
-
-
-
 
 //////////////////////////////////////////////// Custom Font Start
 
@@ -561,7 +551,7 @@ body.fullscreen {
             display: inline-flex;
             justify-content: flex-start;
             align-items: center;
-            width: 20%;
+            width: 25%;
             img {
                 width: 100px;
             }
@@ -570,7 +560,7 @@ body.fullscreen {
             display: inline-flex;
             justify-content: center;
             align-items: center;
-            width: 15%;
+            width: 10%;
             i {
                 font-size: 24px;
                 cursor: pointer;
@@ -1350,6 +1340,9 @@ body.fullscreen {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            img {
+                width: 150px;
+            }
             i {
                 font-size: 14px;
                 cursor: pointer;
@@ -1405,7 +1398,8 @@ body.fullscreen {
     display: flex;
     justify-content: center;
     align-items: center;
-    .signin-content , .auth-page-content  {
+    .signin-content,
+    .auth-page-content {
         width: 500px;
         max-width: 100%;
         padding: 10px;
@@ -1835,18 +1829,29 @@ body.fullscreen {
     }
 }
 
-
-
 .interests-page .auth-page-content {
     .interests-container {
         text-align: left;
         margin-bottom: 40px;
 
-        button{
+        button {
             margin: 5px 5px;
             margin-left: 0px;
             padding-left: 10px;
             padding-right: 10px;
         }
     }
+}
+
+.action-success {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: RGBA(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }

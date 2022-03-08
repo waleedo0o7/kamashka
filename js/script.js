@@ -18,7 +18,6 @@ else {
     }
     document.onwheel = wheelToSlide;
 
-
     // handel up and down buttons to slide
     (upAndDownToSlider = () => {
         window.addEventListener("keyup", function (event) {
@@ -246,8 +245,8 @@ $(document).ready(function () {
 
 // Activate inputs Value
 $(document).ready(function () {
-
     $(".num1").focus();
+
 
     $(".activate-inputs input").on("click", function () {
         $(this).select();
@@ -259,18 +258,30 @@ $(document).ready(function () {
             $(this).next().select();
         }
         if ($(this).index() == 3) {
-            $(this).blur()
+            $(this).blur();
+
+            let activateCode = '';
+
+            $(".activate-inputs input").each(function () {
+                console.log($(this).val());
+                activateCode += $(this).val();
+            });
+
+            $("#activate-code-input").val(activateCode);
+
+            setTimeout(() => {
+                $("#activate-code").submit();
+            }, 200);
+
         }
     })
 });
 
 // play the video 
 $(document).ready(function () {
-
-    setTimeout(() => {
-        console.log($('.video-section-content video')[0].play());
-    }, 1000);
-
+    // setTimeout(() => {
+    //     console.log($('.video-section-content video')[0].play());
+    // }, 1000);
 });
 
 // My Interests toggle active class and value
@@ -281,10 +292,21 @@ $(document).ready(function () {
         let btnValue = $(this).data("value");
         let btnValueIndex = interestsArr.indexOf(btnValue);
         if (interestsArr.includes(btnValue)) {
-            interestsArr.splice(btnValueIndex,1);
+            interestsArr.splice(btnValueIndex, 1);
         } else {
             interestsArr.push(btnValue);
         }
         $("#my-interests-value").val(interestsArr)
     });
 });
+
+// hide success overlay
+$(document).ready(function () {
+    $(".action-success").on("click", function () {
+        $(this).remove();
+    });
+});
+
+
+
+

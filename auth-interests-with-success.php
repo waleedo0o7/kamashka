@@ -48,4 +48,9 @@
 </div><!-- page-content  auth-page -->
 
 
+
+<div class="action-success">
+    <img src="https://via.placeholder.com/100x100" />
+</div><!-- action-success -->
+
 <?php include 'footer.php'; ?>

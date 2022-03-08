@@ -17,7 +17,11 @@
                     <input class="num4" type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
                 </div><!-- activate-inputs -->
 
-                <a type="submit" href="activate.php" class="btn btn-custom1  text-center w-100" id="send"> Send </a>
+                <form action="" id="activate-code" class="d-none">
+                    <input id="activate-code-input" name="code" type="text">
+                </form>
+
+                <!-- <a type="submit" href="auth-activate.php" class="btn btn-custom1  text-center w-100" id="send"> Send </a> -->
 
             </div>
 
@@ -29,7 +33,7 @@
         <div class="page-footer">
             <p class="lead"> Didn't Receive The Code? </p>
             <div class="signup-btn-container mb-3">
-                <a type="submit" href="activate.php" class="btn btn-custom2  text-center" id="resend-code" onclick="counterDownTwoMinutes()"> Resend Code
+                <a type="submit" href="auth-activate.php" class="btn btn-custom2  text-center" id="resend-code" onclick="counterDownTwoMinutes()"> Resend Code
                     <span id="minutes">02</span>
                     <span id="colon">:</span>
                     <span id="seconds">00</span>

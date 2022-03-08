@@ -37,7 +37,7 @@
 
     <div class="mobile-menu">
         <div class="logo">
-            <a href="#"> <img class="img-fluid" src="img/logo.svg" /> </a>
+            <a href="#"> <img class="img-fluid" src="img/logo-wide.png" /> </a>
         </div> <!-- logo -->
         <div class="icon">
             <i id="mobile-icon" class="icon icon-meni-icon"></i>
@@ -50,7 +50,7 @@
 
                 <div class="col-md-4 d-flex top-items">
                     <div class="logo">
-                        <a href="home.php"> <img class="img-fluid" src="img/logo.svg" /> </a>
+                        <a href="home.php"> <img class="img-fluid" src="img/logo-wide.png" /> </a>
                     </div> <!-- logo -->
                     <div class="menu-icon">
                         <i id="mobile-icon" class="icon icon-meni-icon"></i>
@@ -309,8 +309,8 @@
                                 <div class="dropdown-menu disable-auto-close pl-3 pr-3" aria-labelledby="signin">
                                     <p class="bold text-center"> Continue With Your Profile, Create Your Own Advs, Collect Money, Shop Online And More </p>
 
-                                    <a href="signin.php" class="btn btn-custom1 w-100 mb-2"> Sign In </a>
-                                    <a href="signup.php" class="btn btn-custom2 w-100 "> Sign Up </a>
+                                    <a href="auth-signin.php" class="btn btn-custom1 w-100 mb-2"> Sign In </a>
+                                    <a href="auth-signup.php" class="btn btn-custom2 w-100 "> Sign Up </a>
 
                                     <p class="text-center"> Or continue with </p>
 
@@ -366,7 +366,7 @@
     <div class="left-menu-container">
         <div class="left-menu">
             <div class="left-menu-content">
-                <div class="logo-header"> <img class="logo" src="img/logo.svg" /> <i id="close-left-menu" class="icon icon-close"></i> </div><!-- header-header -->
+                <div class="logo-header"> <img class="logo" src="img/logo-wide.png" /> <i id="close-left-menu" class="icon icon-close"></i> </div><!-- header-header -->
                 <div class="menu">
                     <ul class="resetul">
                         <li> <a href="#"> Advertising </a> </li>
