@@ -425,6 +425,8 @@ ul.resetul {
   position: relative;
   padding: 0;
   z-index: 9;
+  margin: 0;
+  margin-top: 5px;
 }
 .parsley-errors-list li {
   background: var(--dangerColor);

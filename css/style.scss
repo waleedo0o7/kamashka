@@ -452,7 +452,9 @@ ul.resetul {
     display: inline-flex;
     position: relative;
     padding: 0;
-    z-index: 9;
+    z-index: 9;  
+    margin: 0;
+    margin-top: 5px;
     li {
         background: var(--dangerColor);
         color: #fff;
