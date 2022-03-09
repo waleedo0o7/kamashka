@@ -414,3 +414,8 @@
 </div><!-- page-content -->
 
 <?php include 'footer.php'; ?>
+
+
+<script>
+    homeBrandSlider();
+</script>

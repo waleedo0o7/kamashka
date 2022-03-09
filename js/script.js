@@ -60,23 +60,52 @@ $('#home-video-carousel').on('slid.bs.carousel', function () {
 })
 
 // homepage owl carousel
-$('.owl-carousel').owlCarousel({
-    loop: false,
-    margin: 10,
-    nav: false,
-    dots: false,
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 3
-        },
-        1000: {
-            items: 3
+let homeBrandSlider = () =>{
+    $('.owl-carousel').owlCarousel({
+        loop: false,
+        margin: 10,
+        nav: false,
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 3
+            }
         }
-    }
-})
+    })
+}
+
+
+// progress-slider
+let progressSlider = () => {
+    $('.progress-slider').owlCarousel({
+        loop: false,
+        nav: false,
+        dots: false, 
+
+        stagePadding: 20, 
+        margin:10,
+
+
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    })
+}
+
 
 // sidnup get gender data
 $(function () {
@@ -319,7 +348,5 @@ let onErrorCountryCodeValues = () => {
 
 let onErrorGenderValue = () => {
     let selectedIndex = $(".genders-container #gender option:selected").index() + 1;
-    console.log(selectedIndex);
-
-    let selectedHTML = $(`.genders-container .gender-list div:nth-child(${selectedIndex})`).addClass("active");
+    $(`.genders-container .gender-list div:nth-child(${selectedIndex})`).addClass("active");
 }
