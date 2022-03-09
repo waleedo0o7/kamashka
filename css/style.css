@@ -422,16 +422,15 @@ ul.resetul {
 .parsley-errors-list {
   list-style: none;
   display: inline-flex;
-  position: absolute;
-  top: 0;
-  right: 0;
+  position: relative;
+  padding: 0;
   z-index: 9;
 }
 .parsley-errors-list li {
   background: var(--dangerColor);
   color: #fff;
-  padding: 12px 14px;
-  border-radius: 0 8px 8px 0;
+  padding: 8px;
+  border-radius: 5px;
   font-size: 12px;
   width: fit-content;
   margin: 0;
