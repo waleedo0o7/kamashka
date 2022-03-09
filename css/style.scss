@@ -19,7 +19,6 @@
     box-sizing: border-box;
 }
 
-
 :root {
     --mainColor: #131a45;
     --secondaryColor: #fa935b;
@@ -32,7 +31,7 @@
     --mainTransition: all 0.3s ease;
 }
 
-.card{
+.card {
     box-shadow: var(--mainBoxShadow);
     border-color: #f3f3f3;
     border-radius: 7px;
@@ -153,9 +152,10 @@ button.resetbtn {
 }
 
 .btn-custom3 {
-    color: #fff;
-    background-color: var(--secondaryColor);
+    color: var(--secondaryColor) !important;
+    background-color: var(--gray);
     border-color: var(--secondaryColor);
+    padding: 8px 20px;
 
     &:hover {
         color: #fff;
@@ -163,8 +163,6 @@ button.resetbtn {
         border-color: #d37644;
     }
 }
-
-
 
 .btn-custom4 {
     color: var(--secondaryColor);
@@ -178,7 +176,6 @@ button.resetbtn {
         border-color: #d37644;
     }
 }
-
 
 .btn-lg {
     border-radius: 30px;
@@ -228,6 +225,94 @@ ul.resetul {
 .relative {
     position: relative;
 }
+
+/////////////////////// Custom Switch START
+/* for sm */
+
+.custom-switch.custom-switch-sm {
+    .custom-control-label {
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        &::before {
+            height: 1rem;
+            width: calc(1rem + 0.75rem);
+            border-radius: 2rem;
+        }
+        &::after {
+            width: calc(1rem - 4px);
+            height: calc(1rem - 4px);
+            border-radius: calc(1rem - (1rem / 2));
+        }
+    }
+    .custom-control-input:checked ~ .custom-control-label::after {
+        transform: translateX(calc(1rem - 0.25rem));
+    }
+}
+
+/* for md */
+.custom-switch.custom-switch-md {
+    .custom-control-label {
+        padding-left: 2rem;
+        padding-bottom: 1.5rem;
+        &::before {
+            height: 1.5rem;
+            width: calc(2rem + 0.75rem);
+            border-radius: 3rem;
+        }
+        &::after {
+            width: calc(1.5rem - 4px);
+            height: calc(1.5rem - 4px);
+            border-radius: calc(2rem - (1.5rem / 2));
+        }
+    }
+    .custom-control-input:checked ~ .custom-control-label::after {
+        transform: translateX(calc(1.5rem - 0.25rem));
+    }
+}
+
+/* for lg */
+.custom-switch.custom-switch-lg {
+    .custom-control-label {
+        padding-left: 3rem;
+        padding-bottom: 2rem;
+        &::before {
+            height: 2rem;
+            width: calc(3rem + 0.75rem);
+            border-radius: 4rem;
+        }
+        &::after {
+            width: calc(2rem - 4px);
+            height: calc(2rem - 4px);
+            border-radius: calc(3rem - (2rem / 2));
+        }
+    }
+    .custom-control-input:checked ~ .custom-control-label::after {
+        transform: translateX(calc(2rem - 0.25rem));
+    }
+}
+
+/* for xl */
+.custom-switch.custom-switch-xl {
+    .custom-control-label {
+        padding-left: 4rem;
+        padding-bottom: 2.5rem;
+        &::before {
+            height: 2.5rem;
+            width: calc(4rem + 0.75rem);
+            border-radius: 5rem;
+        }
+        &::after {
+            width: calc(2.5rem - 4px);
+            height: calc(2.5rem - 4px);
+            border-radius: calc(4rem - (2.5rem / 2));
+        }
+    }
+    .custom-control-input:checked ~ .custom-control-label::after {
+        transform: translateX(calc(2.5rem - 0.25rem));
+    }
+}
+
+/////////////////////// Custom Switch END
 
 // Datepicker Style
 .ui-datepicker {
@@ -364,13 +449,31 @@ ul.resetul {
 
 .parsley-errors-list {
     list-style: none;
-    padding: 0;
-    border-radius: 5px;
     display: inline-flex;
     position: absolute;
     top: 0;
-    left: calc(100% + 10px);
+    right: 0;
+    z-index: 9;
+    li {
+        background: var(--dangerColor);
+        color: #fff;
+        padding: 12px 14px;
+        border-radius: 0 8px 8px 0;
+        font-size: 12px;
+        width: fit-content;
+        margin: 0;
+    }
+}
+
+
+.invalid-feedback {
+    background: var(--dangerColor);
+    color: #fff;
+    padding: 6px 6px;
+    border-radius: 3px;
+    font-size: 12px;
     width: fit-content;
+    display: block;
 }
 
 .alert {
@@ -1462,7 +1565,7 @@ body.fullscreen {
                 justify-content: center;
                 align-items: center;
                 padding-top: 0;
-                button {
+                .btn {
                     width: 200px;
                     img {
                         width: 25px;
@@ -1719,8 +1822,7 @@ body.fullscreen {
     }
 }
 
-.forget-password {
-    .forget-password-form {
+.forget-password { 
         .nav-tabs {
             display: flex;
             justify-content: center;
@@ -1748,8 +1850,7 @@ body.fullscreen {
 
         .tab-content > .tab-pane {
             padding: 30px 0 10px 0;
-        }
-    }
+        } 
 }
 
 .activate-inputs-container {
@@ -1786,6 +1887,14 @@ body.fullscreen {
             margin-left: 0px;
             padding-left: 10px;
             padding-right: 10px;
+            border-width: 2px;
+            &:hover{
+                border-color: var(--secondaryColor);
+            }
+            &.active{
+                background-color: var(--secondaryColor);
+                color: #FFF;
+            }
         }
     }
 }
@@ -1816,22 +1925,22 @@ body.fullscreen {
             .profile-info {
                 .image-container {
                     position: relative;
+                    width: 150px;
+                    height: 150px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 20px auto;
                     .image {
-                        border-radius: 500px;
                         overflow: hidden;
-                        width: 150px;
-                        height: 150px;
-                        border: 9px solid #fff;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        margin: 20px auto;
+                        border-radius: 500px;
                         box-shadow: 0 0 4px #c4c4c470;
+                        border: 9px solid #fff;
                     }
                     .change-image-container {
                         position: absolute;
-                        bottom: -10px;
-                        right: calc(50% - 100px);
+                        bottom: 10px;
+                        right: 0px;
                         cursor: pointer;
 
                         i.fa.fa-pen {
@@ -1878,16 +1987,16 @@ body.fullscreen {
                 .progress-slider-container {
                     .owl-item {
                         padding: 20px 0;
-                        .item { 
-                                .btns {
-                                    display: flex;
-                                    justify-content: center;
-                                    align-items: center;
-                                    a{
-                                        margin: 10px 5px 0 5px;
-                                        min-width: 80px;
-                                    }
-                                } 
+                        .item {
+                            .btns {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                a {
+                                    margin: 10px 5px 0 5px;
+                                    min-width: 80px;
+                                }
+                            }
                         }
                     }
                 }
@@ -1914,11 +2023,11 @@ body.fullscreen {
                 .items-group {
                     background: #fff;
                     padding: 0 15px;
-                    margin: 20px 0; 
+                    margin: 20px 0;
 
                     .one-item {
                         display: flex;
-                        justify-content: space-between; 
+                        justify-content: space-between;
                         border-bottom: 1px solid #f3f3f3a1;
                         padding: 12px 0;
                         .content {
@@ -1927,7 +2036,7 @@ body.fullscreen {
                             align-items: center;
                             color: var(--dargGray);
                             font-size: 16px;
-                            a{
+                            a {
                                 color: var(--dargGray);
                             }
                             i.item-icon {
@@ -1953,6 +2062,13 @@ body.fullscreen {
                                     margin-top: 2px;
                                 }
                             }
+
+                            .item-label {
+                                color: var(--secondaryColor);
+                                font-weight: bold;
+                                margin: 0 10px;
+                                font-size: 14px;
+                            }
                         }
                     }
                 }
@@ -1960,3 +2076,8 @@ body.fullscreen {
         }
     }
 }
+
+
+
+
+

@@ -5,6 +5,10 @@
         <img class="mb-0 logo" src="img/logo-square.png" />
         <h3 class="mb-2 bold"> Forget Password </h3>
 
+        <div class="d-none">
+            <input type="text" placeholder="via" id="via" value="email">
+        </div><!-- d-none -->
+
         <div class="form-container">
 
             <div class="d-none alert alert-danger text-left" role="alert">
@@ -13,25 +17,37 @@
                 </ul>
             </div>
 
-            <form class="forget-password-form" action="" data-parsley-validate="">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a data-via="email" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"> Email</a>
+                </li>
+                <li class="nav-item">
+                    <a data-via="phone" class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Phone</a>
+                </li>
+            </ul>
 
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item">
-                        <a data-via="email" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"> Email</a>
-                    </li>
-                    <li class="nav-item">
-                        <a data-via="phone" class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Phone</a>
-                    </li>
-                </ul>
+            <div class="tab-content" id="myTabContent">
 
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <form class="forget-password-form" action="" data-parsley-validate="">
                         <div class="form-group mb-3 relative">
                             <input type="email" class="form-control input-with-icon" placeholder="Email Address" required="">
                             <i class="fa fa-envelope"></i>
                         </div><!-- form-group  -->
-                    </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+
+                        <div class="submit-btn-container">
+                            <!-- <a href="#" class="btn btn-custom1 w-100 text-center" id="confirmation-btn" data-toggle="modal" data-target="#confirmation"> Next </a> -->
+                            <a href="auth-activate.php" class="btn btn-custom1 w-100 text-center" id="confirmation-btn"> Send Code </a>
+                        </div><!-- submit-btn-container -->
+
+
+                    </form><!-- signin-form -->
+                </div> <!-- tab-pane -->
+
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <form class="forget-password-form" action="" data-parsley-validate="">
                         <div class="form-group mb-3 relative">
                             <input type="text" class="form-control input-with-country-code only-numbers" placeholder="Phone Number" id="phone" required="">
                             <div class="country-code-container">
@@ -55,20 +71,20 @@
                                 </div> <!-- dropdown -->
                             </div><!-- country-code-container -->
                         </div> <!-- form-group  -->
-                    </div> <!-- tab-pane -->
-                </div>
 
-                <div class="d-none">
-                    <input type="text" placeholder="via" id="via" value="email">
-                </div><!-- d-none -->
+                        <div class="submit-btn-container">
+                            <!-- <a href="#" class="btn btn-custom1 w-100 text-center" id="confirmation-btn" data-toggle="modal" data-target="#confirmation"> Next </a> -->
+                            <a href="auth-activate.php" class="btn btn-custom1 w-100 text-center" id="confirmation-btn"> Send Code </a>
+                        </div><!-- submit-btn-container -->
 
-                <div class="submit-btn-container">
-                    <!-- <a href="#" class="btn btn-custom1 w-100 text-center" id="confirmation-btn" data-toggle="modal" data-target="#confirmation"> Next </a> -->
-                    <a href="#" class="btn btn-custom1 w-100 text-center" id="confirmation-btn"> Send Code </a>
-                </div><!-- submit-btn-container -->
+                    </form><!-- signin-form -->
+                </div> <!-- tab-pane -->
+            </div>
 
-            </form><!-- signin-form -->
+
+
         </div><!-- form-container -->
+
     </div><!-- signin-content -->
 </div><!-- page-content -->
 

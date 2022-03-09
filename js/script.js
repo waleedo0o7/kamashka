@@ -267,7 +267,7 @@ let counterDownTwoMinutes = () => {
 
 // Forget Password Set Via Value
 $(document).ready(function () {
-    $(".forget-password-form ul.nav-tabs li.nav-item a").on("click", function () {
+    $(".nav-tabs li.nav-item a").on("click", function () {
         $("#via").val($(this).data("via"));
     });
 });

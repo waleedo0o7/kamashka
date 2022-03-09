@@ -4,8 +4,8 @@
     <div class="profile-content">
         <div class="profile-sidebar">
             <div class="profile-info">
-                <div class="image-container mb-5">
-                    <div class="image text-center">
+                <div class="image-container mb-5 relative">
+                    <div class="image text-center ">
                         <img class="img-fluid" src="img/person04.jpg" alt="">
                     </div><!-- image -->
                     <div class="change-image-container">
@@ -45,7 +45,7 @@
 
                                 </div><!-- card -->
                             </div> <!-- item -->
- 
+
 
                         </div> <!-- owl-carousel -->
                     </div> <!-- brand-slider-container -->
@@ -79,7 +79,7 @@
 
                         <li class="one-item">
                             <div class="content"> <i class="icon item-icon icon-wallet"></i> <a href="#"> My Wallet </a> </div>
-                            <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
+                            <div class="content"> <span class="item-label"> 10.00 KD </span> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
                         <li class="one-item">
@@ -117,7 +117,7 @@
 
 
 
-                
+
                 <div class="items-group card">
                     <ul class="resetul">
 
@@ -145,7 +145,7 @@
                             <div class="content"> <i class="icon item-icon icon-payment"></i> <a href="#"> Payment Method </a> </div>
                             <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
- 
+
 
                     </ul>
                 </div><!-- items-group -->
@@ -162,18 +162,18 @@
 
 
 
-                
+
                 <div class="items-group card">
                     <ul class="resetul">
 
                         <li class="one-item">
                             <div class="content"> <i class="icon item-icon icon-language"></i> <a href="#"> Language </a> </div>
-                            <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
+                            <div class="content"> <span class="item-label"> English </span> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
                         <li class="one-item">
                             <div class="content"> <i class="icon item-icon icon-heart"></i> <a href="#"> Country </a> </div>
-                            <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
+                            <div class="content"> <span class="item-label"> Kuwait </span> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
                         <li class="one-item">

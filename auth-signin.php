@@ -29,7 +29,7 @@
                     <a href="auth-forget-password.php" class="link text-capitalize "> Forget password ?</a>
                 </div><!-- forget-password-container -->
                 <div class="submit-btn-container">
-                    <button href="#" type="submit" class="btn btn-custom1 w-100 text-center"> Sign In </button>
+                    <a href="my-profile.php"   class="btn btn-custom1 w-100 text-center"> Sign In </a>
                 </div><!-- submit-btn-container -->
             </form><!-- signin-form -->
 
@@ -38,7 +38,7 @@
 
         <div class="page-footer">
             <div class="signup-btn-container mb-3">
-                <a href="#" class="btn btn-custom2 w-100 text-center"> Sign Up </a>
+                <a href="auth-signup.php" class="btn btn-custom2 w-100 text-center"> Sign Up </a>
             </div><!-- submit-btn-container -->
             <p class="text-capitalize "> Or continue with </p>
             <ul class="resetul icons mb-3">

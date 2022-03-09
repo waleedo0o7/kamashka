@@ -30,6 +30,8 @@
 
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
 
+    <meta name="your-age-is" content="Your Age Is">
+
     <title> Welcome To Kamashka </title>
 </head>
 

@@ -213,7 +213,7 @@
 
 
                                         <div class="item">
-                                            <a data-fancybox="nike-gallery" href="videos/video2.mp4" data-width="640" data-height="360">
+                                            <a data-fancybox="zara-gallery" href="videos/video2.mp4" data-width="640" data-height="360">
                                                 <div class="video-item">
                                                     <video>
                                                         <source src="videos/video2.mp4" type="video/mp4">
@@ -227,19 +227,19 @@
  
 
                                         <div class="item">
-                                            <a data-fancybox="nike-gallery" href="img/brand-slider/04.jpg">
+                                            <a data-fancybox="zara-gallery" href="img/brand-slider/04.jpg">
                                                 <img src="img/brand-slider/04.jpg" class="img-responsive">
                                             </a>
                                         </div> <!-- item -->
 
                                         <div class="item">
-                                            <a data-fancybox="nike-gallery" href="img/brand-slider/05.jpg">
+                                            <a data-fancybox="zara-gallery" href="img/brand-slider/05.jpg">
                                                 <img src="img/brand-slider/05.jpg" class="img-responsive">
                                             </a>
                                         </div> <!-- item -->
 
                                         <div class="item">
-                                            <a data-fancybox="nike-gallery" href="img/brand-slider/06.jpg">
+                                            <a data-fancybox="zara-gallery" href="img/brand-slider/06.jpg">
                                                 <img src="img/brand-slider/06.jpg" class="img-responsive">
                                             </a>
                                         </div> <!-- item -->

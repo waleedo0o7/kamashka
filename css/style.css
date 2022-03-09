@@ -143,9 +143,10 @@ button.resetbtn::after {
 }
 
 .btn-custom3 {
-  color: #fff;
-  background-color: var(--secondaryColor);
+  color: var(--secondaryColor) !important;
+  background-color: var(--gray);
   border-color: var(--secondaryColor);
+  padding: 8px 20px;
 }
 .btn-custom3:hover {
   color: #fff;
@@ -211,6 +212,82 @@ ul.resetul {
 
 .relative {
   position: relative;
+}
+
+/* for sm */
+.custom-switch.custom-switch-sm .custom-control-label {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+.custom-switch.custom-switch-sm .custom-control-label::before {
+  height: 1rem;
+  width: 1.75rem;
+  border-radius: 2rem;
+}
+.custom-switch.custom-switch-sm .custom-control-label::after {
+  width: calc(1rem - 4px);
+  height: calc(1rem - 4px);
+  border-radius: 0.5rem;
+}
+.custom-switch.custom-switch-sm .custom-control-input:checked ~ .custom-control-label::after {
+  transform: translateX(0.75rem);
+}
+
+/* for md */
+.custom-switch.custom-switch-md .custom-control-label {
+  padding-left: 2rem;
+  padding-bottom: 1.5rem;
+}
+.custom-switch.custom-switch-md .custom-control-label::before {
+  height: 1.5rem;
+  width: 2.75rem;
+  border-radius: 3rem;
+}
+.custom-switch.custom-switch-md .custom-control-label::after {
+  width: calc(1.5rem - 4px);
+  height: calc(1.5rem - 4px);
+  border-radius: 1.25rem;
+}
+.custom-switch.custom-switch-md .custom-control-input:checked ~ .custom-control-label::after {
+  transform: translateX(1.25rem);
+}
+
+/* for lg */
+.custom-switch.custom-switch-lg .custom-control-label {
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+.custom-switch.custom-switch-lg .custom-control-label::before {
+  height: 2rem;
+  width: 3.75rem;
+  border-radius: 4rem;
+}
+.custom-switch.custom-switch-lg .custom-control-label::after {
+  width: calc(2rem - 4px);
+  height: calc(2rem - 4px);
+  border-radius: 2rem;
+}
+.custom-switch.custom-switch-lg .custom-control-input:checked ~ .custom-control-label::after {
+  transform: translateX(1.75rem);
+}
+
+/* for xl */
+.custom-switch.custom-switch-xl .custom-control-label {
+  padding-left: 4rem;
+  padding-bottom: 2.5rem;
+}
+.custom-switch.custom-switch-xl .custom-control-label::before {
+  height: 2.5rem;
+  width: 4.75rem;
+  border-radius: 5rem;
+}
+.custom-switch.custom-switch-xl .custom-control-label::after {
+  width: calc(2.5rem - 4px);
+  height: calc(2.5rem - 4px);
+  border-radius: 2.75rem;
+}
+.custom-switch.custom-switch-xl .custom-control-input:checked ~ .custom-control-label::after {
+  transform: translateX(2.25rem);
 }
 
 .ui-datepicker {
@@ -344,13 +421,30 @@ ul.resetul {
 
 .parsley-errors-list {
   list-style: none;
-  padding: 0;
-  border-radius: 5px;
   display: inline-flex;
   position: absolute;
   top: 0;
-  left: calc(100% + 10px);
+  right: 0;
+  z-index: 9;
+}
+.parsley-errors-list li {
+  background: var(--dangerColor);
+  color: #fff;
+  padding: 12px 14px;
+  border-radius: 0 8px 8px 0;
+  font-size: 12px;
   width: fit-content;
+  margin: 0;
+}
+
+.invalid-feedback {
+  background: var(--dangerColor);
+  color: #fff;
+  padding: 6px 6px;
+  border-radius: 3px;
+  font-size: 12px;
+  width: fit-content;
+  display: block;
 }
 
 .alert {
@@ -1516,10 +1610,10 @@ body.fullscreen .page-content.homepage .arrows-container {
   align-items: center;
   padding-top: 0;
 }
-.modal .modal-dialog .modal-content .modal-footer button {
+.modal .modal-dialog .modal-content .modal-footer .btn {
   width: 200px;
 }
-.modal .modal-dialog .modal-content .modal-footer button img {
+.modal .modal-dialog .modal-content .modal-footer .btn img {
   width: 25px;
   margin-left: 5px;
 }
@@ -1756,7 +1850,7 @@ body .row.top-header-content .col-md-8.bottom-items .icons {
     align-items: center;
   }
 }
-.forget-password .forget-password-form .nav-tabs {
+.forget-password .nav-tabs {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1766,19 +1860,19 @@ body .row.top-header-content .col-md-8.bottom-items .icons {
   border-radius: 5px;
   overflow: hidden;
 }
-.forget-password .forget-password-form .nav-tabs .nav-link {
+.forget-password .nav-tabs .nav-link {
   padding: 8px 30px;
   background: #0a1031;
   border-radius: 0;
   border: none;
 }
-.forget-password .forget-password-form .nav-tabs .nav-item.show .nav-link,
-.forget-password .forget-password-form .nav-tabs .nav-link.active {
+.forget-password .nav-tabs .nav-item.show .nav-link,
+.forget-password .nav-tabs .nav-link.active {
   color: #ffffff;
   background-color: #fa935b;
   border-color: #fa935b;
 }
-.forget-password .forget-password-form .tab-content > .tab-pane {
+.forget-password .tab-content > .tab-pane {
   padding: 30px 0 10px 0;
 }
 
@@ -1815,6 +1909,14 @@ body .row.top-header-content .col-md-8.bottom-items .icons {
   margin-left: 0px;
   padding-left: 10px;
   padding-right: 10px;
+  border-width: 2px;
+}
+.interests-page .auth-page-content .interests-container button:hover {
+  border-color: var(--secondaryColor);
+}
+.interests-page .auth-page-content .interests-container button.active {
+  background-color: var(--secondaryColor);
+  color: #FFF;
 }
 
 .action-success {
@@ -1845,23 +1947,23 @@ body .row.top-header-content .col-md-8.bottom-items .icons {
 }
 .profile .profile-content .profile-sidebar .profile-info .image-container {
   position: relative;
-}
-.profile .profile-content .profile-sidebar .profile-info .image-container .image {
-  border-radius: 500px;
-  overflow: hidden;
   width: 150px;
   height: 150px;
-  border: 9px solid #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px auto;
+}
+.profile .profile-content .profile-sidebar .profile-info .image-container .image {
+  overflow: hidden;
+  border-radius: 500px;
   box-shadow: 0 0 4px #c4c4c470;
+  border: 9px solid #fff;
 }
 .profile .profile-content .profile-sidebar .profile-info .image-container .change-image-container {
   position: absolute;
-  bottom: -10px;
-  right: calc(50% - 100px);
+  bottom: 10px;
+  right: 0px;
   cursor: pointer;
 }
 .profile .profile-content .profile-sidebar .profile-info .image-container .change-image-container i.fa.fa-pen {
@@ -1971,6 +2073,12 @@ body .row.top-header-content .col-md-8.bottom-items .icons {
 .profile .profile-content .profile-data .profile-data-content .items-group .one-item .content i.arrow-icon:before {
   margin-left: 2px;
   margin-top: 2px;
+}
+.profile .profile-content .profile-data .profile-data-content .items-group .one-item .content .item-label {
+  color: var(--secondaryColor);
+  font-weight: bold;
+  margin: 0 10px;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */

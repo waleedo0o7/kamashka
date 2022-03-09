@@ -17,6 +17,8 @@
 
                 <div class="form-group mb-3 relative">
                     <input type="text" class="form-control input-with-country-code only-numbers" placeholder="Phone Number" id="phone" required="">
+                    <span class="invalid-feedback  d-none"> This Field Is Required </span>
+                    
                     <div class="country-code-container">
 
                         <select class="d-none" name="country" id="country">
@@ -42,14 +44,17 @@
 
                 <div class="form-group mb-3 relative">
                     <input type="text" class="form-control" placeholder="Full Name" id="name" required="">
+                    <span class="invalid-feedback d-none "> This Field Is Required </span>
                 </div><!-- form-group  -->
 
                 <div class="form-group mb-3 relative">
                     <input type="email" class="form-control" placeholder="Email Address" id="email" required="">
+                    <span class="invalid-feedback d-none "> This Field Is Required </span>
                 </div><!-- form-group  -->
 
                 <div class="form-group mb-3 relative">
                     <input type="password" class="form-control" placeholder="Password" required="">
+                    <span class="invalid-feedback d-none "> This Field Is Required </span>
                     <div id="toggle-password" class="toggle-password-container">
                         <i class="icon icon-eye"></i>
                     </div><!-- toggle-password-container -->
@@ -95,8 +100,8 @@
                                 <p> We’ll send you the activation <br /> code by SMS or Whatsapp </p>
                             </div><!-- modal-body -->
                             <div class="modal-footer">
-                                <button type="submit" class="btn btn-custom1 via" data-via="1"> By SMS <img src="img/sms-icon.svg" /> </button>
-                                <button type="submit" class="btn btn-custom3 via" data-via="2"> By Whatsapp <img src="img/whatssapp-icon.svg" /></button>
+                                <a  href="auth-activate.php" class="btn btn-custom1 via" data-via="1"> By SMS <img src="img/sms-icon.svg" /> </a>
+                                <a  href="auth-activate.php" class="btn btn-custom3 via" data-via="2"> By Whatsapp <img src="img/whatssapp-icon.svg" /></a>
                             </div><!-- modal-footer -->
                         </div> <!-- modal-content -->
                     </div><!-- modal-dialog -->
