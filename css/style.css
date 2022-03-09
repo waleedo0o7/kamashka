@@ -91,6 +91,7 @@ a:hover {
   padding: 2px 20px;
   border-radius: 10px;
   text-transform: capitalize;
+  font-weight: bold;
 }
 
 .btn.focus,
@@ -419,9 +420,14 @@ ul.resetul {
   font-size: 20px;
 }
 
+input.form-control.input-with-icon.parsley-error {
+  border-color: var(--dangerColor);
+  border-width: 2px;
+}
+
 .parsley-errors-list {
   list-style: none;
-  display: inline-flex;
+  display: flex;
   position: relative;
   padding: 0;
   z-index: 9;
@@ -429,19 +435,16 @@ ul.resetul {
   margin-top: 5px;
 }
 .parsley-errors-list li {
-  background: var(--dangerColor);
-  color: #fff;
-  padding: 8px;
-  border-radius: 5px;
+  color: var(--dangerColor);
+  padding: 3px 0;
   font-size: 12px;
   width: fit-content;
   margin: 0;
 }
 
 .invalid-feedback {
-  background: var(--dangerColor);
-  color: #fff;
-  padding: 6px 6px;
+  color: var(--dangerColor);
+  padding: 6px 0;
   border-radius: 3px;
   font-size: 12px;
   width: fit-content;
@@ -568,6 +571,9 @@ body.fullscreen .page-content.homepage .arrows-container {
 #top-header .top-header-content .menu-icon i {
   font-size: 24px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #top-header .top-header-content .main-menu {
   display: inline-flex;
@@ -592,6 +598,7 @@ body.fullscreen .page-content.homepage .arrows-container {
 }
 #top-header .top-header-content .main-menu ul.menu a.active {
   color: var(--secondaryColor);
+  font-weight: bold;
 }
 #top-header .top-header-content .main-menu ul.menu a.active:hover:after {
   background: var(--mainColor);
@@ -632,13 +639,13 @@ body.fullscreen .page-content.homepage .arrows-container {
   font-size: 14px;
 }
 #top-header .top-header-content .search .search-container input.search-input::placeholder {
-  font-size: 11px;
+  font-size: 12px;
   color: white;
   opacity: 0.6;
 }
 #top-header .top-header-content .search .search-container i.icon.icon-search {
   position: absolute;
-  top: 7px;
+  top: 8px;
   right: 10px;
   font-size: 13px;
   color: var(--secondaryColor);
@@ -668,6 +675,7 @@ body.fullscreen .page-content.homepage .arrows-container {
   justify-content: center;
   align-items: center;
   width: 28%;
+  padding-top: 7px;
 }
 #top-header .top-header-content .icons .icon-container {
   position: relative;
@@ -1023,13 +1031,13 @@ body.fullscreen .page-content.homepage .arrows-container {
 .data-section .share .images ul li a .num {
   background: #fff;
   color: var(--secondaryColor);
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 14px;
 }
 .data-section .share .btns {
   width: 100%;
@@ -1580,10 +1588,10 @@ body.fullscreen .page-content.homepage .arrows-container {
   border-radius: 10px;
   margin-right: 10px;
   cursor: pointer;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
 }
 .signup .genders-container .gender.active {
-  border: 2px solid var(--secondaryColor);
+  border: 3px solid var(--secondaryColor);
 }
 .signup #confirmation {
   color: #515c6f;

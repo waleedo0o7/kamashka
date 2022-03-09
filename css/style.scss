@@ -98,6 +98,7 @@ a:hover {
     padding: 2px 20px;
     border-radius: 10px;
     text-transform: capitalize;
+    font-weight: bold;
 }
 
 .btn.focus,
@@ -447,19 +448,22 @@ ul.resetul {
     }
 }
 
+input.form-control.input-with-icon.parsley-error {
+    border-color: var(--dangerColor);
+    border-width: 2px;
+}
+
 .parsley-errors-list {
     list-style: none;
-    display: inline-flex;
+    display: flex;
     position: relative;
     padding: 0;
     z-index: 9;  
     margin: 0;
     margin-top: 5px;
     li {
-        background: var(--dangerColor);
-        color: #fff;
-        padding: 8px;
-        border-radius: 5px;
+        color: var(--dangerColor);
+        padding: 3px 0;
         font-size: 12px;
         width: fit-content;
         margin: 0;
@@ -468,9 +472,8 @@ ul.resetul {
 
 
 .invalid-feedback {
-    background: var(--dangerColor);
-    color: #fff;
-    padding: 6px 6px;
+    color: var(--dangerColor);
+    padding: 6px 0;
     border-radius: 3px;
     font-size: 12px;
     width: fit-content;
@@ -615,6 +618,9 @@ body.fullscreen {
             i {
                 font-size: 24px;
                 cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
         }
         .main-menu {
@@ -638,6 +644,7 @@ body.fullscreen {
                     position: relative;
                     &.active {
                         color: var(--secondaryColor);
+                        font-weight: bold;
                         &:hover {
                             &:after {
                                 background: var(--mainColor);
@@ -681,14 +688,14 @@ body.fullscreen {
                     color: #fff;
                     font-size: 14px;
                     &::placeholder {
-                        font-size: 11px;
+                        font-size: 12px;
                         color: rgb(255, 255, 255);
                         opacity: 0.6;
                     }
                 }
                 i.icon.icon-search {
                     position: absolute;
-                    top: 7px;
+                    top: 8px;
                     right: 10px;
                     font-size: 13px;
                     color: var(--secondaryColor);
@@ -720,6 +727,7 @@ body.fullscreen {
             justify-content: center;
             align-items: center;
             width: 28%;
+            padding-top: 7px;
             .icon-container {
                 position: relative;
                 button {
@@ -1107,17 +1115,16 @@ body.fullscreen {
                         img {
                             width: 50px;
                         }
-
                         .num {
                             background: #fff;
                             color: var(--secondaryColor);
-                            width: 50px;
-                            height: 50px;
+                            width: 40px;
+                            height: 40px;
                             border-radius: 500px;
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            font-size: 18px;
+                            font-size: 14px;
                         }
                     }
                 }
@@ -1535,9 +1542,9 @@ body.fullscreen {
             border-radius: 10px;
             margin-right: 10px;
             cursor: pointer;
-            border: 2px solid #fff;
+            border: 3px solid #fff;
             &.active {
-                border: 2px solid var(--secondaryColor);
+                border: 3px solid var(--secondaryColor);
             }
         }
     }

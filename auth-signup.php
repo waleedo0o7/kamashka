@@ -2,17 +2,12 @@
 
 <div class="page-content signup">
     <div class="signin-content">
-        <img class="mb-0 logo" src="img/activate.svg" />
+        <img class="mb-0 logo" src="img/logo-square.png" />
         <h3 class="mb-2 bold"> Sign Up </h3>
 
         <div class="form-container">
 
-            <div class="d-none alert alert-danger text-left" role="alert">
-                <ul class="mb-0 resetul">
-                    <li> Error Message </li>
-                </ul>
-            </div>
-
+ 
             <form class="signin-form" action="" data-parsley-validate="">
 
                 <div class="form-group mb-3 relative">

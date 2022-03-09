@@ -101,6 +101,8 @@
                                                         <li> <a href="#"> <img class="img-fluid" src="img/person01.png" /></a> </li>
                                                         <li> <a href="#"> <img class="img-fluid" src="img/person02.png" /></a> </li>
                                                         <li> <a href="#"> <img class="img-fluid" src="img/person03.png" /></a> </li>
+                                                        <li> <a href="#"> <img class="img-fluid" src="img/person01.png" /></a> </li>
+                                                        <li> <a href="#"> <img class="img-fluid" src="img/person02.png" /></a> </li>
                                                         <li> <a href="#">
                                                                 <div class="num"> +3K </div>
                                                             </a> </li>
@@ -280,6 +282,8 @@
                                                         <li> <a href="#"> <img class="img-fluid" src="img/person01.png" /></a> </li>
                                                         <li> <a href="#"> <img class="img-fluid" src="img/person02.png" /></a> </li>
                                                         <li> <a href="#"> <img class="img-fluid" src="img/person03.png" /></a> </li>
+                                                        <li> <a href="#"> <img class="img-fluid" src="img/person01.png" /></a> </li>
+                                                        <li> <a href="#"> <img class="img-fluid" src="img/person02.png" /></a> </li>
                                                         <li> <a href="#">
                                                                 <div class="num"> +3K </div>
                                                             </a> </li>
