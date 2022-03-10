@@ -91,7 +91,7 @@
                 <div class="modal fade" id="confirmation" tabindex="-1" role="dialog" aria-labelledby="confirmation" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
-                            <div class="modal-body">
+                            <div class="modal-body p-3">
                                 <p> We’ll send you the activation <br /> code by SMS or Whatsapp </p>
                             </div><!-- modal-body -->
                             <div class="modal-footer">

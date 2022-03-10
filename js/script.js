@@ -60,7 +60,7 @@ $('#home-video-carousel').on('slid.bs.carousel', function () {
 })
 
 // homepage owl carousel
-let homeBrandSlider = () =>{
+let homeBrandSlider = () => {
     $('.owl-carousel').owlCarousel({
         loop: false,
         margin: 10,
@@ -86,10 +86,10 @@ let progressSlider = () => {
     $('.progress-slider').owlCarousel({
         loop: false,
         nav: false,
-        dots: false, 
+        dots: false,
 
-        stagePadding: 20, 
-        margin:10,
+        stagePadding: 20,
+        margin: 10,
 
 
         responsive: {
@@ -341,11 +341,12 @@ $(document).ready(function () {
 
 // onError phone input reselect country code
 let onErrorCountryCodeValues = () => {
-        let selectedIndex = $(".country-code-container #country option:selected").index() + 1; 
-        let selectedHTML = $(`.country-code-container .choose-country-list a:nth-child(${selectedIndex})`).html();
-        $(".country-code-container button.dropdown-toggle").html(selectedHTML);
+    let selectedIndex = $(".country-code-container #country option:selected").index() + 1;
+    let selectedHTML = $(`.country-code-container .choose-country-list a:nth-child(${selectedIndex})`).html();
+    $(".country-code-container button.dropdown-toggle").html(selectedHTML);
 }
 
+// onError phone input reselect genders code
 let onErrorGenderValue = () => {
     let selectedIndex = $(".genders-container #gender option:selected").index() + 1;
     $(`.genders-container .gender-list div:nth-child(${selectedIndex})`).addClass("active");

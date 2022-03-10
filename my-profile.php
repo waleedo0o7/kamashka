@@ -15,7 +15,7 @@
                 <div class="data text-center">
                     <h1 class="name"> Amr Abd Alhady </h1>
                     <p class="lead"> janedoe123@email.com </p>
-                    <button class="btn btn-custom3 btn-lg"> My Profile </button>
+                    <button class="btn btn-custom1 btn-lg"> My Profile </button>
                 </div><!-- data -->
 
                 <div class="profile-completeness-container">
@@ -31,6 +31,36 @@
 
                     <div class="progress-slider-container mt-3">
                         <div class="owl-carousel owl-theme progress-slider">
+
+                        <div class="item">
+                                <div class="card p-3">
+                                    <label for=""> My Job Is 1 : </label>
+                                    <div class="form-group mb-0 relative">
+                                        <input type="text" class="form-control" placeholder="EX: programmer">
+                                        <div class="btns">
+                                            <a href="#" class="btn btn-sm btn-custom1 "> Save </a>
+                                            <a href="#" class="btn btn-sm btn-custom2 "> Later </a>
+                                        </div><!-- btns -->
+                                    </div><!-- form-group  -->
+
+                                </div><!-- card -->
+                            </div> <!-- item -->
+
+
+                            <div class="item">
+                                <div class="card p-3">
+                                    <label for=""> My Job Is 1 : </label>
+                                    <div class="form-group mb-0 relative">
+                                        <input type="text" class="form-control" placeholder="EX: programmer">
+                                        <div class="btns">
+                                            <a href="#" class="btn btn-sm btn-custom1 "> Save </a>
+                                            <a href="#" class="btn btn-sm btn-custom2 "> Later </a>
+                                        </div><!-- btns -->
+                                    </div><!-- form-group  -->
+
+                                </div><!-- card -->
+                            </div> <!-- item -->
+
 
                             <div class="item">
                                 <div class="card p-3">
