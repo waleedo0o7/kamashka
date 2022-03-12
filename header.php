@@ -81,12 +81,11 @@
                     </div> <!-- count -->
                     <div class="icons">
 
-
                         <div class="icon-container">
                             <div class="dropdown custom-dropdown">
                                 <button class="dropdown-toggle resetbtn " type="button" id="notifications-btn" data-toggle="dropdown">
-                                    <i class="icon icon-cart"></i>
-                                    <span class="number"> 0 </span>
+                                    <i class="icon icon-bell"></i>
+                                    <span class="number" style="right: 3px;"> 0 </span>
                                 </button>
 
                                 <div class="dropdown-menu notifications-dropdown-menu  disable-auto-close pl-3 pr-3" aria-labelledby="notifications">
@@ -95,20 +94,20 @@
 
                                             <li class="notification-one-item">
                                                 <div class="notification-icon">
-                                                    <i class="icon icon-heart"></i>
+                                                    <i class="icon icon-deal-accept-post-approved"></i>
                                                 </div><!-- notification-icon -->
                                                 <div class="notification-details">
-                                                    <p> Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                    <p> deal accept - post approved  //   <span class="colored2"> #1982984 </span> as shipped. </p>
                                                 </div><!-- notification-details -->
                                                 <div class="notification-date"> <span>9:20</span> AM <i class="fa fa-circle"></i> </div><!-- notification-date -->
                                             </li><!-- notification-one-item -->
 
                                             <li class="notification-one-item">
                                                 <div class="notification-icon">
-                                                    <i class="icon icon-heart"></i>
+                                                    <i class="icon icon-deal-pending"></i>
                                                 </div><!-- notification-icon -->
                                                 <div class="notification-details">
-                                                    <p> Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                    <p> deal pending //   marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
                                                 </div><!-- notification-details -->
                                                 <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
                                             </li><!-- notification-one-item -->
@@ -116,10 +115,10 @@
 
                                             <li class="notification-one-item">
                                                 <div class="notification-icon">
-                                                    <i class="icon icon-heart"></i>
+                                                    <i class="icon icon-deal-received"></i>
                                                 </div><!-- notification-icon -->
                                                 <div class="notification-details">
-                                                    <p> Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                    <p> deal received // Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
                                                 </div><!-- notification-details -->
                                                 <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
                                             </li><!-- notification-one-item -->
@@ -127,10 +126,10 @@
 
                                             <li class="notification-one-item">
                                                 <div class="notification-icon">
-                                                    <i class="icon icon-heart"></i>
+                                                    <i class="icon icon-deal-updated"></i>
                                                 </div><!-- notification-icon -->
                                                 <div class="notification-details">
-                                                    <p> Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                    <p> deal updated // Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
                                                 </div><!-- notification-details -->
                                                 <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
                                             </li><!-- notification-one-item -->
@@ -138,13 +137,61 @@
 
                                             <li class="notification-one-item">
                                                 <div class="notification-icon">
-                                                    <i class="icon icon-heart"></i>
+                                                    <i class="icon icon-discount"></i>
                                                 </div><!-- notification-icon -->
                                                 <div class="notification-details">
-                                                    <p> Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                    <p> discount // Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
                                                 </div><!-- notification-details -->
                                                 <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
                                             </li><!-- notification-one-item -->
+
+
+                                            
+                                            <li class="notification-one-item">
+                                                <div class="notification-icon">
+                                                    <i class="icon icon-location-pin"></i>
+                                                </div><!-- notification-icon -->
+                                                <div class="notification-details">
+                                                    <p> location  // Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                </div><!-- notification-details -->
+                                                <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
+                                            </li><!-- notification-one-item -->
+
+
+                                            <li class="notification-one-item">
+                                                <div class="notification-icon">
+                                                    <i class="icon icon-order"></i>
+                                                </div><!-- notification-icon -->
+                                                <div class="notification-details">
+                                                    <p> order // Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                </div><!-- notification-details -->
+                                                <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
+                                            </li><!-- notification-one-item -->
+
+
+
+                                            <li class="notification-one-item">
+                                                <div class="notification-icon">
+                                                    <i class="icon icon-tag"></i>
+                                                </div><!-- notification-icon -->
+                                                <div class="notification-details">
+                                                    <p> tag  //  Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                </div><!-- notification-details -->
+                                                <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
+                                            </li><!-- notification-one-item -->
+
+
+                                            <li class="notification-one-item">
+                                                <div class="notification-icon">
+                                                    <i class="icon icon-post-rejected"></i>
+                                                </div><!-- notification-icon -->
+                                                <div class="notification-details">
+                                                    <p> post rejected  //  Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                </div><!-- notification-details -->
+                                                <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
+                                            </li><!-- notification-one-item -->
+
+
 
                                         </ul>
                                         <div class="notifications-footer">
@@ -155,15 +202,11 @@
                             </div> <!-- dropdown -->
                         </div><!-- icon-container -->
 
-
-
-
                         <div class="icon-container">
                             <button class="resetbtn " type="button" id="wishlist">
                                 <i class="icon icon-heart"></i>
                                 <span class="number"> 0 </span>
                             </button>
-
                         </div><!-- icon-container -->
 
 
@@ -357,7 +400,7 @@
 
                             </div> <!-- dropdown-menu -->
                         </div> <!-- dropdown -->
-                        <a class="btn btn-custom1" href="#"> Create </a>
+                        <a class="btn btn-custom1" data-toggle="modal" data-target="#createModal"> Create </a>
                     </div><!-- user-icons -->
                 </div><!-- col-md-6 -->
             </div><!-- top-header-content -->

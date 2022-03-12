@@ -66,6 +66,7 @@ let homeBrandSlider = () => {
         margin: 10,
         nav: false,
         dots: false,
+        // stagePadding: 30,
         responsive: {
             0: {
                 items: 1
@@ -122,6 +123,19 @@ $(function () {
         $(".left-menu-container").toggleClass("show");
     })
 });
+
+
+
+
+//homepage toggle RIGHT menu
+$(function () {
+    $("#close-right-menu , #toggle-right-menu").on("click", function () {
+        $(".right-menu-container").toggleClass("show");
+        $(".arrows-container").toggleClass("d-none");
+    })
+});
+
+
 
 // top header cart popup --> increaseCount and decreaseCount START 
 function increaseCount(a, b) {
@@ -351,3 +365,65 @@ let onErrorGenderValue = () => {
     let selectedIndex = $(".genders-container #gender option:selected").index() + 1;
     $(`.genders-container .gender-list div:nth-child(${selectedIndex})`).addClass("active");
 }
+
+// share popup toggle other reason textarea
+$(document).ready(function () {
+    $('input[name="report-reason"]').on("change", function(){
+        if( $('input[name="report-reason"]:checked').val() == 6 ) {
+            $(".other-reason-container").addClass("d-block");
+        } else {
+            $(".other-reason-container").removeClass("d-block");
+        }
+    })
+});
+
+
+
+// Homepage --> toggle like or dislike 
+$(document).ready(function () {
+    $("#toggle-like-btn").on("click",function(){
+        if( $(this).hasClass("icon-heart") ){
+            $(this).removeClass("icon-heart");
+            $(this).addClass("icon-heart-solid");
+        } else {
+            $(this).removeClass("icon-heart-solid");
+            $(this).addClass("icon-heart");
+
+        }
+    });
+});
+
+
+let copyTextInShareModal = () => {
+    /* Get the text field */
+    var copyText = document.getElementById("copy-link");
+
+    /* Copy the text inside the text field */
+    navigator.clipboard.writeText(copyText.innerHTML);
+ 
+    $("#link-copied").fadeIn(); 
+    setTimeout(() => {
+        $("#link-copied").fadeOut();         
+    }, 1500);
+
+}
+
+
+
+// Homepage edit comment  
+$(document).ready(function () {
+    $(".edit-comment").on("click", function (){ 
+        let comment = $(this).parents(".one-comment").children(".name-and-comment").children(".comment").text(); 
+        $("#add-comment").val(comment);
+        $("#add-comment").focus();
+    })
+});
+
+
+
+// send comment
+$(document).ready(function () {
+    $("#send-comment").on("click", function (){ 
+        $("#add-comment").val("");
+    })
+});

@@ -38,6 +38,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
+
+
+
 .icon-gplus:before {
   content: "\63";
 }
@@ -133,4 +138,43 @@
 }
 .icon-shield:before {
   content: "\46";
+}
+.icon-edit:before {
+  content: "\47";
+}
+.icon-copy:before {
+  content: "\48";
+}
+.icon-report:before {
+  content: "\4a";
+}
+.icon-deal-accept-post-approved:before {
+  content: "\4b";
+}
+.icon-deal-pending:before {
+  content: "\4c";
+}
+.icon-deal-received:before {
+  content: "\4d";
+}
+.icon-deal-updated:before {
+  content: "\4e";
+}
+.icon-post-rejected:before {
+  content: "\4f";
+}
+.icon-tag:before {
+  content: "\51";
+}
+.icon-location-pin:before {
+  content: "\52";
+}
+.icon-discount:before {
+  content: "\53";
+}
+.icon-heart-solid:before {
+  content: "\49";
+}
+.icon-order:before {
+  content: "\50";
 }
