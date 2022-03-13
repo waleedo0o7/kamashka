@@ -154,7 +154,7 @@
                                             </ul>
                                         </div><!-- video-icons -->
                                     </div><!-- icons -->
-                                    <video height="100%" controls>
+                                    <video height="100%" autoplay controls>
                                         <source src="videos/video1.mp4" type="video/mp4">
                                     </video>
                                 </div> <!-- video-section-content -->
@@ -163,7 +163,6 @@
                         </div><!-- carousel-item-content -->
                     </div> <!-- carousel-item -->
                 </div> <!-- carousel-inner -->
-
 
                 <div class="arrows-container">
 
@@ -218,7 +217,6 @@
 
                     </div><!-- matched-criteria-container -->
                 </div><!-- arrows-container -->
-
 
             </div> <!-- #home-video-carousel -->
         </div><!-- homepage-content -->
@@ -394,16 +392,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 <div class="right-menu-container">
     <div class="right-menu">
 
@@ -422,7 +410,7 @@
                     </div><!-- image-container -->
                     <div class="name-and-comment">
                         <p class="name bold"> Ahmed Mohamed <img class="img-fluid" src="img/verified.svg"> </p>
-                        <p class="comment">Nice Advertisement ( this is NOT my comment )</p>
+                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
                     </div><!-- name-and-comment -->
                     <div class="actions">
 
@@ -432,12 +420,13 @@
                             </button>
                             <div class="dropdown-menu options-dropdown " aria-labelledby="cart">
                                 <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
-                                <a class="dropdown-item" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
                             </div> <!-- dropdown-menu -->
                         </div> <!-- dropdown -->
 
                         <p class="date"> 12 Dec 2020 </p>
                     </div><!-- actions -->
+                    <span class="comment-copied" > <i class="fa fa-check"></i> Comment Copied </span>
                 </div><!-- one-comment -->
 
 

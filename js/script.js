@@ -368,8 +368,8 @@ let onErrorGenderValue = () => {
 
 // share popup toggle other reason textarea
 $(document).ready(function () {
-    $('input[name="report-reason"]').on("change", function(){
-        if( $('input[name="report-reason"]:checked').val() == 6 ) {
+    $('input[name="report-reason"]').on("change", function () {
+        if ($('input[name="report-reason"]:checked').val() == 6) {
             $(".other-reason-container").addClass("d-block");
         } else {
             $(".other-reason-container").removeClass("d-block");
@@ -381,8 +381,8 @@ $(document).ready(function () {
 
 // Homepage --> toggle like or dislike 
 $(document).ready(function () {
-    $("#toggle-like-btn").on("click",function(){
-        if( $(this).hasClass("icon-heart") ){
+    $("#toggle-like-btn").on("click", function () {
+        if ($(this).hasClass("icon-heart")) {
             $(this).removeClass("icon-heart");
             $(this).addClass("icon-heart-solid");
         } else {
@@ -394,26 +394,40 @@ $(document).ready(function () {
 });
 
 
+// copy Text In Share Modal
 let copyTextInShareModal = () => {
     /* Get the text field */
     var copyText = document.getElementById("copy-link");
 
     /* Copy the text inside the text field */
     navigator.clipboard.writeText(copyText.innerHTML);
- 
-    $("#link-copied").fadeIn(); 
-    setTimeout(() => {
-        $("#link-copied").fadeOut();         
-    }, 1500);
 
+    $("#link-copied").fadeIn();
+    setTimeout(() => {
+        $("#link-copied").fadeOut();
+    }, 1500);
 }
+
+
+// Copy Comment In Right Menu
+$(document).ready(function () {
+    $(".copy-comment").on("click", function () {
+        let comment = $(this).parents(".one-comment").children(".name-and-comment").children(".comment").text();
+        navigator.clipboard.writeText(comment);
+
+        $(this).parents(".one-comment").children('.comment-copied').fadeIn();
+        setTimeout(() => {
+            $(this).parents(".one-comment").children('.comment-copied').fadeOut();
+        }, 1500); 
+    });
+});
 
 
 
 // Homepage edit comment  
 $(document).ready(function () {
-    $(".edit-comment").on("click", function (){ 
-        let comment = $(this).parents(".one-comment").children(".name-and-comment").children(".comment").text(); 
+    $(".edit-comment").on("click", function () {
+        let comment = $(this).parents(".one-comment").children(".name-and-comment").children(".comment").text();
         $("#add-comment").val(comment);
         $("#add-comment").focus();
     })
@@ -423,7 +437,7 @@ $(document).ready(function () {
 
 // send comment
 $(document).ready(function () {
-    $("#send-comment").on("click", function (){ 
+    $("#send-comment").on("click", function () {
         $("#add-comment").val("");
     })
 });

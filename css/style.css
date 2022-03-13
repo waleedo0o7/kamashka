@@ -23,7 +23,8 @@
   --mainTransition: all 0.3s ease;
 }
 
-.dropdown-item.active, .dropdown-item:active {
+.dropdown-item.active,
+.dropdown-item:active {
   color: #000;
 }
 
@@ -981,20 +982,21 @@ body.fullscreen .page-content.homepage .arrows-container {
 .dropdown.custom-dropdown .notifications-dropdown-menu .notifications-menu-container {
   margin: 5px 0;
 }
-.dropdown.custom-dropdown .notifications-dropdown-menu .notifications-menu-container li.notification-one-item {
+.dropdown.custom-dropdown .notifications-dropdown-menu .notifications-menu-container .notification-one-item {
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
   border-bottom: 1px solid #eee;
   padding: 10px 0;
+  text-transform: capitalize;
 }
-.dropdown.custom-dropdown .notifications-dropdown-menu .notifications-menu-container li.notification-one-item .notification-icon {
+.dropdown.custom-dropdown .notifications-dropdown-menu .notifications-menu-container .notification-one-item .notification-icon {
   width: 15%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.dropdown.custom-dropdown .notifications-dropdown-menu .notifications-menu-container li.notification-one-item .notification-icon i {
+.dropdown.custom-dropdown .notifications-dropdown-menu .notifications-menu-container .notification-one-item .notification-icon i {
   color: #fff;
   background: var(--secondaryColor);
   display: flex;
@@ -1005,22 +1007,22 @@ body.fullscreen .page-content.homepage .arrows-container {
   border-radius: 50px;
   font-size: 16px;
 }
-.dropdown.custom-dropdown .notifications-dropdown-menu .notifications-menu-container li.notification-one-item .notification-details {
+.dropdown.custom-dropdown .notifications-dropdown-menu .notifications-menu-container .notification-one-item .notification-details {
   width: 70%;
 }
-.dropdown.custom-dropdown .notifications-dropdown-menu .notifications-menu-container li.notification-one-item .notification-details p {
+.dropdown.custom-dropdown .notifications-dropdown-menu .notifications-menu-container .notification-one-item .notification-details p {
   margin-bottom: 0 !important;
   font-size: 13px !important;
   padding: 0 !important;
   color: #515c6f;
 }
-.dropdown.custom-dropdown .notifications-dropdown-menu .notifications-menu-container li.notification-one-item .notification-date {
+.dropdown.custom-dropdown .notifications-dropdown-menu .notifications-menu-container .notification-one-item .notification-date {
   width: 15%;
   font-size: 11px;
   color: #515c6f73;
   position: relative;
 }
-.dropdown.custom-dropdown .notifications-dropdown-menu .notifications-menu-container li.notification-one-item .notification-date i.fa.fa-circle {
+.dropdown.custom-dropdown .notifications-dropdown-menu .notifications-menu-container .notification-one-item .notification-date i.fa.fa-circle {
   font-size: 8px;
   position: absolute;
   top: 20px;
@@ -2294,6 +2296,7 @@ body .row.top-header-content .col-md-8.bottom-items .icons {
   margin-bottom: 10px;
   border-bottom: 1px solid #f1f1f1;
   padding: 10px 0;
+  position: relative;
 }
 .right-menu-container .right-menu .right-menu-content .all-comments .one-comment .image-container {
   width: 20%;
@@ -2312,6 +2315,18 @@ body .row.top-header-content .col-md-8.bottom-items .icons {
 .right-menu-container .right-menu .right-menu-content .all-comments .one-comment .name-and-comment p.comment {
   margin: 0;
   font-size: 12px;
+}
+.right-menu-container .right-menu .right-menu-content .all-comments .one-comment .comment-copied {
+  color: var(--successColor);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  box-shadow: var(--mainBoxShadow);
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #f1f1f1;
+  display: none;
 }
 .right-menu-container .right-menu .right-menu-content .all-comments .one-comment .actions {
   width: 20%;
