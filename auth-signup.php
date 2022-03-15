@@ -112,6 +112,6 @@
 <?php include 'footer.php'; ?>
 
 <script>
-    onErrorCountryCodeValues();
-    onErrorGenderValue();
+    // onErrorCountryCodeValues();
+    // onErrorGenderValue();
 </script>

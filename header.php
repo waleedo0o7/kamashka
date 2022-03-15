@@ -5,34 +5,38 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
 
+
+    <meta name="your-age-is" content="Your Age Is">
+
+
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <!-- Slick Slider -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/slick.css" /> -->
-
+ 
+    <!-- Poppins Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
-
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" integrity="sha512-gRH0EcIcYBFkQTnbpO8k0WlsD20x5VzjhOA1Og8+ZUAhcMUCvd+APD35FJw3GzHAP3e+mP28YcDJxVr745loHw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Fancybox -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
-    <!-- Main Style -->
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
+
+    <!-- Custom Style -->
     <link rel="stylesheet" href="css/style.css">
-
-    <link rel="icon" type="image/x-icon" href="img/favicon.png">
-
-    <meta name="your-age-is" content="Your Age Is">
+    <link rel="stylesheet" href="css/media.css">
 
     <title> Welcome To Kamashka </title>
+
 </head>
 
 <body class="">
@@ -342,7 +346,6 @@
                                 </button>
                                 <div class="dropdown-menu disable-auto-close pl-3 pr-3" aria-labelledby="signin">
                                     <p class="bold text-center"> Continue With Your Profile, Create Your Own Advs, Collect Money, Shop Online And More </p>
-
                                     <a href="auth-signin.php" class="btn btn-custom1 w-100 mb-2"> Sign In </a>
                                     <a href="auth-signup.php" class="btn btn-custom2 w-100 "> Sign Up </a>
 
@@ -396,6 +399,126 @@
         </div><!-- container -->
     </header><!-- top-header -->
 
+    <!-- Create Modal Start -->
+    <div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="createModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header mb-5">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="icon icon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row items">
+                        <div class="col-md-6">
+                            <div class="one-item">
+                                <a href="#">
+                                    <img class="img-fluid" src="img/create-adv.png">
+                                    <p> Create Advertisement <i class="fa fa-chevron-right arrow-icon"></i> </p>
+                                </a>
+                            </div><!-- one-item -->
+                        </div><!-- col-md-6 -->
+                        <div class="col-md-6">
+                            <div class="one-item">
+                                <a href="#">
+                                    <img class="img-fluid" src="img/create-store.png">
+                                    <p> Create Store <i class="fa fa-chevron-right arrow-icon"></i> </p>
+                                </a>
+                            </div><!-- one-item -->
+                        </div><!-- col-md-6 -->
+                    </div><!-- row -->
+                </div> <!-- modal-body -->
+
+            </div> <!-- modal-content -->
+        </div> <!-- modal-dialog -->
+    </div> <!-- Delete Modal END -->
+
+    <!-- right-menu -->
+    <div class="right-menu-container">
+        <div class="right-menu">
+
+            <div class="right-menu-header">
+                <p class="title"> <span> 164 </span> Comments </p>
+                <i class="icon icon-close" id="close-right-menu"></i>
+            </div><!-- right-menu-header -->
+
+            <div class="right-menu-content">
+                <div class="all-comments">
+
+                    <!--  IF THIS COMMENT IS NOOOOT MY COMMENT  -->
+                    <div class="one-comment">
+                        <div class="image-container">
+                            <img class="img-fluid" src="img/person04.jpg" alt="">
+                        </div><!-- image-container -->
+                        <div class="name-and-comment">
+                            <p class="name bold"> Ahmed Mohamed <img class="img-fluid" src="img/verified.svg"> </p>
+                            <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
+                        </div><!-- name-and-comment -->
+                        <div class="actions">
+
+                            <div class="dropdown custom-dropdown">
+                                <button class="dropdown-toggle resetbtn p-0" type="button" id="cart-btn" data-toggle="dropdown">
+                                    <i class="fa fa-ellipsis-h"></i>
+                                </button>
+                                <div class="dropdown-menu options-dropdown " aria-labelledby="cart">
+                                    <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
+                                    <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                                </div> <!-- dropdown-menu -->
+                            </div> <!-- dropdown -->
+
+                            <p class="date"> 12 Dec 2020 </p>
+                        </div><!-- actions -->
+                        <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
+                    </div><!-- one-comment -->
+
+
+                    <!--  IF THIS COMMENT IS MY COMMENT  -->
+                    <div class="one-comment">
+                        <div class="image-container">
+                            <img class="img-fluid" src="img/person04.jpg" alt="">
+                        </div><!-- image-container -->
+                        <div class="name-and-comment">
+                            <p class="name bold"> Ahmed Mohamed <img class="img-fluid" src="img/verified.svg"> </p>
+                            <p class="comment"> Nice Advertisement ( this is MY comment ) </p>
+                        </div><!-- name-and-comment -->
+                        <div class="actions">
+
+                            <div class="dropdown custom-dropdown">
+                                <button class="dropdown-toggle resetbtn p-0" type="button" id="cart-btn" data-toggle="dropdown">
+                                    <i class="fa fa-ellipsis-h"></i>
+                                </button>
+                                <div class="dropdown-menu options-dropdown " aria-labelledby="cart">
+                                    <a class="dropdown-item edit-comment" href="#"> <i class="icon icon-edit"></i> Edit </a>
+                                    <a class="dropdown-item" data-toggle="modal" data-target="#deleteModal"> <i class="fas fa-trash-alt"></i> Delete </a>
+                                </div> <!-- dropdown-menu -->
+                            </div> <!-- dropdown -->
+
+                            <p class="date"> 12 Dec 2020 </p>
+                        </div><!-- actions -->
+                    </div><!-- one-comment -->
+
+                </div><!-- all-comments -->
+            </div><!-- right-menu-content -->
+
+            <div class="right-menu-footer">
+                <div class="add-comment-container">
+                    <div class="image">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image -->
+
+                    <div class="comment-input-container form-group">
+                        <input id="add-comment" placeholder="Add Comment... " type="text" class="form-control">
+                    </div><!-- form-group  -->
+
+                    <div class="send-comment-container">
+                        <i id="send-comment" class="fa fa-arrow-up"></i>
+                    </div><!-- send-comment-container -->
+
+                </div><!-- add-comment-container -->
+            </div><!-- right-menu-footer -->
+
+        </div><!-- right-menu -->
+    </div><!-- right-menu-container -->
 
     <div class="left-menu-container">
         <div class="left-menu">

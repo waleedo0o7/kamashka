@@ -30,9 +30,17 @@
                                     </div><!-- row -->
                                 </div><!-- brand-header -->
 
-                                <div class="brand-slider-container">
-                                    <div class="owl-carousel owl-theme">
 
+
+
+
+
+
+
+
+                                <div class="brand-slider-container">
+
+                                    <div class="brand-slider">
 
                                         <div class="item">
                                             <a data-fancybox="nike-gallery" href="videos/video1.mp4" data-width="640" data-height="360">
@@ -47,40 +55,47 @@
                                             </a>
                                         </div> <!-- item -->
 
-
                                         <div class="item">
                                             <a data-fancybox="nike-gallery" href="img/brand-slider/02.jpg">
-                                                <img src="img/brand-slider/02.jpg" class="img-responsive">
+                                                <img src="img/brand-slider/02.jpg" class="img-fluid">
                                             </a>
                                         </div> <!-- item -->
 
                                         <div class="item">
                                             <a data-fancybox="nike-gallery" href="img/brand-slider/03.jpg">
-                                                <img src="img/brand-slider/03.jpg" class="img-responsive">
+                                                <img src="img/brand-slider/03.jpg" class="img-fluid">
                                             </a>
                                         </div> <!-- item -->
 
                                         <div class="item">
                                             <a data-fancybox="nike-gallery" href="img/brand-slider/01.jpg">
-                                                <img src="img/brand-slider/01.jpg" class="img-responsive">
+                                                <img src="img/brand-slider/01.jpg" class="img-fluid">
                                             </a>
                                         </div> <!-- item -->
 
                                         <div class="item">
                                             <a data-fancybox="nike-gallery" href="img/brand-slider/03.jpg">
-                                                <img src="img/brand-slider/03.jpg" class="img-responsive">
+                                                <img src="img/brand-slider/03.jpg" class="img-fluid">
                                             </a>
                                         </div> <!-- item -->
 
                                         <div class="item">
                                             <a data-fancybox="nike-gallery" href="img/brand-slider/01.jpg">
-                                                <img src="img/brand-slider/01.jpg" class="img-responsive">
+                                                <img src="img/brand-slider/01.jpg" class="img-fluid">
                                             </a>
                                         </div> <!-- item -->
 
-                                    </div> <!-- owl-carousel -->
+
+
+                                        
+                                    </div>
+
                                 </div> <!-- brand-slider-container -->
 
+
+
+
+ 
                                 <div class="text-center mb-2 mt-2">
                                     <a class="btn btn-custom2 follow" href="#"> discover products </a>
                                 </div>
@@ -154,9 +169,14 @@
                                             </ul>
                                         </div><!-- video-icons -->
                                     </div><!-- icons -->
-                                    <video height="100%" autoplay controls>
-                                        <source src="videos/video1.mp4" type="video/mp4">
-                                    </video>
+                                    <div class="video-container">
+                                        <video class="video" autoplay controls>
+                                            <source src="videos/video1.mp4" type="video/mp4">
+                                        </video>
+                                        <div class="video-overlay">
+                                            <img class="img-fluid" src="img/brand-slider/play.png" />
+                                        </div> <!-- video-overlay -->
+                                    </div><!-- video-container -->
                                 </div> <!-- video-section-content -->
                                 <div class="shadow"></div>
                             </div> <!-- video-section -->
@@ -228,7 +248,6 @@
 
 
 
-
 <!-- Share Modal -->
 <div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="shareModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
@@ -263,8 +282,7 @@
             </div>
         </div>
     </div>
-</div>
-
+</div> <!-- Share Modal -->
 
 <!-- Report Modal Start -->
 <div class="modal fade" id="reportModal" tabindex="-1" role="dialog" aria-labelledby="reportModalLabel" aria-hidden="true">
@@ -329,7 +347,6 @@
     </div> <!-- modal-dialog -->
 </div> <!-- Report Modal END -->
 
-
 <!-- Report Modal Start -->
 <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
     <div class="modal-dialog  " role="document">
@@ -354,136 +371,7 @@
 </div> <!-- Delete Modal END -->
 
 
-
-<!-- Create Modal Start -->
-<div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="createModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header mb-5">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <i class="icon icon-close"></i>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="row items">
-                    <div class="col-md-6">
-                        <div class="one-item">
-                            <a href="#">
-                                <img class="img-fluid" src="https://via.placeholder.com/600x400">
-                                <p> Create Advertisement <i class="fa fa-chevron-right arrow-icon"></i> </p>
-                            </a>
-                        </div><!-- one-item -->
-                    </div><!-- col-md-6 -->
-                    <div class="col-md-6">
-                        <div class="one-item">
-                            <a href="#">
-                                <img class="img-fluid" src="https://via.placeholder.com/600x400">
-                                <p> Create Store <i class="fa fa-chevron-right arrow-icon"></i> </p>
-                            </a>
-                        </div><!-- one-item -->
-                    </div><!-- col-md-6 -->
-                </div><!-- row -->
-            </div> <!-- modal-body -->
-
-        </div> <!-- modal-content -->
-    </div> <!-- modal-dialog -->
-</div> <!-- Delete Modal END -->
-
-
-
-
-<div class="right-menu-container">
-    <div class="right-menu">
-
-        <div class="right-menu-header">
-            <p class="title"> <span> 164 </span> Comments </p>
-            <i class="icon icon-close" id="close-right-menu"></i>
-        </div><!-- right-menu-header -->
-
-        <div class="right-menu-content">
-            <div class="all-comments">
-
-                <!--  IF THIS COMMENT IS NOOOOT MY COMMENT  -->
-                <div class="one-comment">
-                    <div class="image-container">
-                        <img class="img-fluid" src="img/person04.jpg" alt="">
-                    </div><!-- image-container -->
-                    <div class="name-and-comment">
-                        <p class="name bold"> Ahmed Mohamed <img class="img-fluid" src="img/verified.svg"> </p>
-                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
-                    </div><!-- name-and-comment -->
-                    <div class="actions">
-
-                        <div class="dropdown custom-dropdown">
-                            <button class="dropdown-toggle resetbtn p-0" type="button" id="cart-btn" data-toggle="dropdown">
-                                <i class="fa fa-ellipsis-h"></i>
-                            </button>
-                            <div class="dropdown-menu options-dropdown " aria-labelledby="cart">
-                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
-                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
-                            </div> <!-- dropdown-menu -->
-                        </div> <!-- dropdown -->
-
-                        <p class="date"> 12 Dec 2020 </p>
-                    </div><!-- actions -->
-                    <span class="comment-copied" > <i class="fa fa-check"></i> Comment Copied </span>
-                </div><!-- one-comment -->
-
-
-                <!--  IF THIS COMMENT IS MY COMMENT  -->
-                <div class="one-comment">
-                    <div class="image-container">
-                        <img class="img-fluid" src="img/person04.jpg" alt="">
-                    </div><!-- image-container -->
-                    <div class="name-and-comment">
-                        <p class="name bold"> Ahmed Mohamed <img class="img-fluid" src="img/verified.svg"> </p>
-                        <p class="comment"> Nice Advertisement ( this is MY comment ) </p>
-                    </div><!-- name-and-comment -->
-                    <div class="actions">
-
-                        <div class="dropdown custom-dropdown">
-                            <button class="dropdown-toggle resetbtn p-0" type="button" id="cart-btn" data-toggle="dropdown">
-                                <i class="fa fa-ellipsis-h"></i>
-                            </button>
-                            <div class="dropdown-menu options-dropdown " aria-labelledby="cart">
-                                <a class="dropdown-item edit-comment" href="#"> <i class="icon icon-edit"></i> Edit </a>
-                                <a class="dropdown-item" data-toggle="modal" data-target="#deleteModal"> <i class="fas fa-trash-alt"></i> Delete </a>
-                            </div> <!-- dropdown-menu -->
-                        </div> <!-- dropdown -->
-
-                        <p class="date"> 12 Dec 2020 </p>
-                    </div><!-- actions -->
-                </div><!-- one-comment -->
-
-
-
-
-
-
-            </div><!-- all-comments -->
-        </div><!-- right-menu-content -->
-
-        <div class="right-menu-footer">
-            <div class="add-comment-container">
-                <div class="image">
-                    <img class="img-fluid" src="img/person04.jpg" alt="">
-                </div><!-- image -->
-
-                <div class="comment-input-container form-group">
-                    <input id="add-comment" placeholder="Add Comment... " type="text" class="form-control">
-                </div><!-- form-group  -->
-
-                <div class="send-comment-container">
-                    <i id="send-comment" class="fa fa-arrow-up"></i>
-                </div><!-- send-comment-container -->
-
-            </div><!-- add-comment-container -->
-        </div><!-- right-menu-footer -->
-
-    </div><!-- right-menu -->
-</div><!-- right-menu-container -->
-
-
 <script>
     homeBrandSlider();
+    homeTogglePlayVideo();
 </script>

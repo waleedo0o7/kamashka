@@ -30,22 +30,7 @@
                     </div><!-- profile-completeness -->
 
                     <div class="progress-slider-container mt-3">
-                        <div class="owl-carousel owl-theme progress-slider">
-
-                        <div class="item">
-                                <div class="card p-3">
-                                    <label for=""> My Job Is 1 : </label>
-                                    <div class="form-group mb-0 relative">
-                                        <input type="text" class="form-control" placeholder="EX: programmer">
-                                        <div class="btns">
-                                            <a href="#" class="btn btn-sm btn-custom1 "> Save </a>
-                                            <a href="#" class="btn btn-sm btn-custom2 "> Later </a>
-                                        </div><!-- btns -->
-                                    </div><!-- form-group  -->
-
-                                </div><!-- card -->
-                            </div> <!-- item -->
-
+                        <div class="progress-slider">
 
                             <div class="item">
                                 <div class="card p-3">
@@ -61,7 +46,6 @@
                                 </div><!-- card -->
                             </div> <!-- item -->
 
-
                             <div class="item">
                                 <div class="card p-3">
                                     <label for=""> My Job Is 1 : </label>
@@ -76,6 +60,19 @@
                                 </div><!-- card -->
                             </div> <!-- item -->
 
+                            <div class="item">
+                                <div class="card p-3">
+                                    <label for=""> My Job Is 1 : </label>
+                                    <div class="form-group mb-0 relative">
+                                        <input type="text" class="form-control" placeholder="EX: programmer">
+                                        <div class="btns">
+                                            <a href="#" class="btn btn-sm btn-custom1 "> Save </a>
+                                            <a href="#" class="btn btn-sm btn-custom2 "> Later </a>
+                                        </div><!-- btns -->
+                                    </div><!-- form-group  -->
+
+                                </div><!-- card -->
+                            </div> <!-- item -->
 
                         </div> <!-- owl-carousel -->
                     </div> <!-- brand-slider-container -->
@@ -118,34 +115,17 @@
                         </li><!-- one-item -->
 
                         <li class="one-item">
-                            <div class="content"> <i class="icon item-icon icon-heart"></i> <a href="#"> My Deals </a> </div>
+                            <div class="content"> <i class="icon item-icon icon-my-deals"></i> <a href="#"> My Deals </a> </div>
                             <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
                         <li class="one-item">
-                            <div class="content"> <i class="icon item-icon icon-heart"></i> <a href="#"> Promotion Deals </a> </div>
+                            <div class="content"> <i class="icon item-icon icon-promotion-deals"></i> <a href="#"> Promotion Deals </a> </div>
                             <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
                     </ul>
                 </div><!-- items-group -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
                 <div class="items-group card">
@@ -181,18 +161,6 @@
                 </div><!-- items-group -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
                 <div class="items-group card">
                     <ul class="resetul">
 
@@ -202,13 +170,33 @@
                         </li><!-- one-item -->
 
                         <li class="one-item">
-                            <div class="content"> <i class="icon item-icon icon-heart"></i> <a href="#"> Country </a> </div>
+                            <div class="content"> <i class="icon item-icon icon-country"></i> <a href="#"> Country </a> </div>
                             <div class="content"> <span class="item-label"> Kuwait </span> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
                         <li class="one-item">
                             <div class="content"> <i class="icon item-icon icon-bell2"></i> <a href="#"> Push Notification </a> </div>
-                            <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
+                            <div class="content">
+
+
+                                <label class="toggle custom-switch" for="uniqueID">
+                                    <input type="checkbox" class="toggle__input" id="uniqueID" />
+                                    <span class="toggle-track">
+                                        <span class="toggle-indicator">
+                                            <!-- 	This check mark is optional	 -->
+                                            <span class="checkMark">
+                                                <svg viewBox="0 0 24 24" id="ghq-svg-check" role="presentation" aria-hidden="true">
+                                                    <path d="M9.86 18a1 1 0 01-.73-.32l-4.86-5.17a1.001 1.001 0 011.46-1.37l4.12 4.39 8.41-9.2a1 1 0 111.48 1.34l-9.14 10a1 1 0 01-.73.33h-.01z"></path>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </label>
+
+
+
+                                <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a>
+                            </div>
                         </li><!-- one-item -->
 
                         <li class="one-item">
@@ -220,9 +208,7 @@
                 </div><!-- items-group -->
 
 
-
                 <p class="lead bold"> MORE </p>
-
 
 
                 <div class="items-group card">
@@ -275,8 +261,6 @@
 
 
 <?php include 'footer.php'; ?>
-
-
 
 <script>
     progressSlider();

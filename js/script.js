@@ -61,50 +61,32 @@ $('#home-video-carousel').on('slid.bs.carousel', function () {
 
 // homepage owl carousel
 let homeBrandSlider = () => {
-    $('.owl-carousel').owlCarousel({
-        loop: false,
-        margin: 10,
-        nav: false,
-        dots: false,
-        // stagePadding: 30,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 3
-            },
-            1000: {
-                items: 3
-            }
-        }
-    })
+    $(document).ready(function () {
+        $('.brand-slider').slick({
+            slidesToShow: 3.3,
+            slidesToScroll: 1,
+            infinite: false,
+            arrows: false,
+        });
+    });
 }
 
-
-// progress-slider
+// Progress Slider
 let progressSlider = () => {
-    $('.progress-slider').owlCarousel({
-        loop: false,
-        nav: false,
-        dots: false,
-
-        stagePadding: 20,
-        margin: 10,
+    // Homepage --> Brand Slider 
+    $(document).ready(function () {
 
 
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
-        }
-    })
+        $('.progress-slider').slick({
+            slidesToShow: 1.2,
+            slidesToScroll: 1,
+            infinite: false,
+            arrows: false,
+        });
+
+
+    });
+
 }
 
 
@@ -353,7 +335,7 @@ $(document).ready(function () {
 
 
 
-// onError phone input reselect country code
+// onError Country input reselect country code
 let onErrorCountryCodeValues = () => {
     let selectedIndex = $(".country-code-container #country option:selected").index() + 1;
     let selectedHTML = $(`.country-code-container .choose-country-list a:nth-child(${selectedIndex})`).html();
@@ -366,7 +348,7 @@ let onErrorGenderValue = () => {
     $(`.genders-container .gender-list div:nth-child(${selectedIndex})`).addClass("active");
 }
 
-// share popup toggle other reason textarea
+// Homepage share popup toggle other reason textarea
 $(document).ready(function () {
     $('input[name="report-reason"]').on("change", function () {
         if ($('input[name="report-reason"]:checked').val() == 6) {
@@ -393,8 +375,7 @@ $(document).ready(function () {
     });
 });
 
-
-// copy Text In Share Modal
+// Homepage copy Text In Share Modal
 let copyTextInShareModal = () => {
     /* Get the text field */
     var copyText = document.getElementById("copy-link");
@@ -408,8 +389,7 @@ let copyTextInShareModal = () => {
     }, 1500);
 }
 
-
-// Copy Comment In Right Menu
+// Homepage Copy Comment In Right Menu
 $(document).ready(function () {
     $(".copy-comment").on("click", function () {
         let comment = $(this).parents(".one-comment").children(".name-and-comment").children(".comment").text();
@@ -418,10 +398,9 @@ $(document).ready(function () {
         $(this).parents(".one-comment").children('.comment-copied').fadeIn();
         setTimeout(() => {
             $(this).parents(".one-comment").children('.comment-copied').fadeOut();
-        }, 1500); 
+        }, 1500);
     });
 });
-
 
 
 // Homepage edit comment  
@@ -430,14 +409,61 @@ $(document).ready(function () {
         let comment = $(this).parents(".one-comment").children(".name-and-comment").children(".comment").text();
         $("#add-comment").val(comment);
         $("#add-comment").focus();
+        $("#add-comment").select();
     })
 });
 
-
-
-// send comment
+// Homepage send comment
 $(document).ready(function () {
     $("#send-comment").on("click", function () {
         $("#add-comment").val("");
     })
 });
+
+
+
+// Homepage toggle play icon on main video ON DOCUMENT READY 
+let homeTogglePlayVideo = () => {
+    $(document).ready(function () {
+        let video = $(".video");
+        setTimeout(() => {
+            if (!video.get(0).paused) {
+                video.next(".video-overlay").fadeOut(200);
+                $(this).children("img").addClass("hidden");
+            }
+        }, 200);
+    });
+}
+
+
+// Homepage play video on click in overlay play icon
+$(document).ready(function () {
+    $(".video-container .video-overlay").on("click", function () {
+        let video = $(this).prev().get(0);
+        $(this).children("img").addClass("hidden");
+        $(this).fadeOut();
+        video.play();
+    });
+});
+
+
+// Homepage play video on click in overlay play icon
+$(document).ready(function () {
+    $(".video").on("click", function () {
+        $(this).next().fadeIn(200);
+        $(this).next().children("img").removeClass("hidden");
+        video.stop();
+    });
+});
+
+// Homepage escape to exit fullsreen mode 
+$(document).on('keydown', function (event) {
+    if (event.key == "Escape") {
+        if ($("body").hasClass("fullscreen")) {
+            $("body").removeClass("fullscreen");
+            $("#expand-video-icon").removeClass("icon-expand icon-close");
+            $("#expand-video-icon").addClass("icon icon-expand");
+        }
+    }
+});
+

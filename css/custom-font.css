@@ -41,8 +41,6 @@
 
 
 
-
-
 .icon-gplus:before {
   content: "\63";
 }
@@ -177,4 +175,15 @@
 }
 .icon-order:before {
   content: "\50";
+}
+
+.icon-my-deals:before {
+  content: "\55";
+}
+
+.icon-promotion-deals:before {
+  content: "\54";
+}
+.icon-country:before {
+  content: "\56";
 }
