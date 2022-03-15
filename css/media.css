@@ -43,6 +43,16 @@
     max-height: 100% !important;
   }
 
+  #createModal .modal-body .one-item {
+    padding: 0;
+  }
+  #createModal .modal-body .one-item p {
+    font-size: 18px;
+  }
+  #createModal .modal-body .one-item img {
+    height: 140px;
+  }
+
   #top-header {
     background: rgba(0, 0, 0, 0.6);
     position: fixed;

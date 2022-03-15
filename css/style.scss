@@ -2357,19 +2357,4 @@ i.arrow-icon {
 
 
 
-
-// TEST MEDIA
-@media all and (max-width: 550px) {
-
-    #createModal .modal-body {
-        .one-item {
-            padding: 0;
-            p {
-                font-size: 18px;
-            }
-            img {
-                height: 140px;
-            }
-        }
-    }
-}
+ 

@@ -2304,16 +2304,4 @@ i.arrow-icon:before {
   margin-top: 2px;
 }
 
-@media all and (max-width: 550px) {
-  #createModal .modal-body .one-item {
-    padding: 0;
-  }
-  #createModal .modal-body .one-item p {
-    font-size: 18px;
-  }
-  #createModal .modal-body .one-item img {
-    height: 140px;
-  }
-}
-
 /*# sourceMappingURL=style.css.map */
