@@ -75,20 +75,28 @@ let homeBrandSlider = () => {
 let progressSlider = () => {
     // Homepage --> Brand Slider 
     $(document).ready(function () {
-
-
         $('.progress-slider').slick({
             slidesToShow: 1.2,
             slidesToScroll: 1,
             infinite: false,
             arrows: false,
         });
-
-
     });
-
 }
 
+
+// Progress Slider
+let profileInfoSlider = () => {
+    // Homepage --> Brand Slider 
+    $(document).ready(function () {
+        $('.profile-info-slider').slick({
+            slidesToShow: 3.2,
+            slidesToScroll: 1,
+            infinite: false,
+            arrows: false,
+        });
+    });
+}
 
 // sidnup get gender data
 $(function () {
@@ -208,20 +216,23 @@ $(document).ready(function () {
 });
 
 // calc age 
-$(document).ready(function () {
-    $(".signin-content input#datepicker").on("change", function () {
-        let selectedDate = $(this).val();
-        let selectedDateTimestamp = new Date(selectedDate);
-        let todayTimestamp = new Date().valueOf();
-        let dateRangeTimestamp = todayTimestamp - selectedDateTimestamp;
-        let ageInYears = Math.floor(dateRangeTimestamp / 31556952000);
-        console.log(` selectedDateTimestamp :  ${selectedDateTimestamp.valueOf()}`);
-        console.log(` todayTimestamp        :  ${todayTimestamp.valueOf()}`);
-        console.log(` dateRangeTimestamp    :  ${dateRangeTimestamp}`);
-        console.log(` ageInYears   :  ${ageInYears}   `);
-        $("#your-age").text(`Your Age Is ${ageInYears}`);
+let calcAge = () => {
+    $(document).ready(function () {
+        $("input#datepicker").on("change", function () {
+            let selectedDate = $(this).val();
+            let selectedDateTimestamp = new Date(selectedDate);
+            let todayTimestamp = new Date().valueOf();
+            let dateRangeTimestamp = todayTimestamp - selectedDateTimestamp;
+            let ageInYears = Math.floor(dateRangeTimestamp / 31556952000);
+            console.log(` selectedDateTimestamp :  ${selectedDateTimestamp.valueOf()}`);
+            console.log(` todayTimestamp        :  ${todayTimestamp.valueOf()}`);
+            console.log(` dateRangeTimestamp    :  ${dateRangeTimestamp}`);
+            console.log(` ageInYears   :  ${ageInYears}   `);
+            $("#your-age").text(`Your Age Is ${ageInYears}`);
+        });
     });
-});
+}
+
 
 // open confirmation popup if valid form
 $(document).ready(function () {
@@ -333,8 +344,6 @@ $(document).ready(function () {
 });
 
 
-
-
 // onError Country input reselect country code
 let onErrorCountryCodeValues = () => {
     let selectedIndex = $(".country-code-container #country option:selected").index() + 1;
@@ -342,7 +351,7 @@ let onErrorCountryCodeValues = () => {
     $(".country-code-container button.dropdown-toggle").html(selectedHTML);
 }
 
-// onError phone input reselect genders code
+// onError gender input reselect genders code
 let onErrorGenderValue = () => {
     let selectedIndex = $(".genders-container #gender option:selected").index() + 1;
     $(`.genders-container .gender-list div:nth-child(${selectedIndex})`).addClass("active");
@@ -466,4 +475,25 @@ $(document).on('keydown', function (event) {
         }
     }
 });
+
+
+
+$(document).ready(function () {
+    $(".change-image-container .icon").on("click", function () {
+        let image = document.getElementById("profile-image");
+        let input = document.getElementById("change-profile-image");
+        input.click();
+        console.log(image);
+        console.log(input);
+
+        input.onchange = evt => {
+            const [file] = input.files
+            if (file) {
+                image.src = URL.createObjectURL(file)
+            }
+          }
+        
+    });
+});
+
 

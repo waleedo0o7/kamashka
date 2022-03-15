@@ -8,14 +8,11 @@
                     <div class="image text-center ">
                         <img class="img-fluid" src="img/person04.jpg" alt="">
                     </div><!-- image -->
-                    <div class="change-image-container">
-                        <i class="fa fa-pen"></i>
-                    </div><!-- change-image-container -->
                 </div><!-- image-container -->
                 <div class="data text-center">
                     <h1 class="name"> Amr Abd Alhady </h1>
                     <p class="lead"> janedoe123@email.com </p>
-                    <button class="btn btn-custom1 btn-lg"> My Profile </button>
+                    <a href="edit-profile-1.php" class="btn btn-custom1 btn-lg"> My Profile </a>
                 </div><!-- data -->
 
                 <div class="profile-completeness-container">

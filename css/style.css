@@ -20,6 +20,7 @@
   --darkGray: #666666;
   --mainBoxShadow: rgba(0, 0, 0, 1%) 0px 1px 1px, rgba(0, 0, 0, 1%) 0px 2px 2px, rgba(0, 0, 0, 1%) 0px 4px 4px,
       rgba(0, 0, 0, 1%) 0px 8px 8px, rgba(0, 0, 0, 1%) 0px 16px 16px;
+  --grayBoxShadow: 0 0 5px #cfcfcf;
   --mainTransition: all 0.3s ease;
 }
 
@@ -94,6 +95,7 @@ body {
   height: 100vh;
   background: #fff;
   font-family: "Poppins", sans-serif;
+  color: #3f3f3f;
 }
 
 a {
@@ -207,7 +209,7 @@ button.resetbtn::after {
 .btn-lg {
   border-radius: 30px;
   padding: 5px 25px;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .btn-sm {
@@ -690,14 +692,10 @@ body.fullscreen .page-content.homepage .arrows-container {
   transition: var(--mainTransition);
   position: relative;
 }
-#top-header .top-header-content .main-menu ul.menu a.active {
+#top-header .top-header-content .main-menu ul.menu a:hover {
   color: var(--secondaryColor);
-  font-weight: bold;
 }
-#top-header .top-header-content .main-menu ul.menu a.active:hover:after {
-  background: var(--mainColor);
-}
-#top-header .top-header-content .main-menu ul.menu a.active:after {
+#top-header .top-header-content .main-menu ul.menu a:hover:after {
   content: "";
   position: absolute;
   bottom: 12px;
@@ -706,12 +704,6 @@ body.fullscreen .page-content.homepage .arrows-container {
   height: 3px;
   background: var(--secondaryColor);
   border-radius: 10px;
-}
-#top-header .top-header-content .main-menu ul.menu a:hover {
-  text-decoration: none;
-  background: var(--secondaryColor);
-  color: var(--mainColor);
-  transition: var(--mainTransition);
 }
 #top-header .top-header-content .search {
   display: flex;
@@ -1721,23 +1713,36 @@ body.fullscreen .page-content.homepage .arrows-container {
 .signup .form-group .form-control {
   padding-left: 15px;
 }
-.signup .genders-container .gender {
+.signup #confirmation {
+  color: #515c6f;
+}
+.signup #confirmation .modal-body {
+  font-size: 22px;
+}
+
+.genders-container .gender {
   display: inline-flex;
   height: 50px;
   background: #fff;
   border-radius: 10px;
   margin-right: 10px;
   cursor: pointer;
-  border: 3px solid #fff;
+  border: 3px solid #e5e5e5;
+  position: relative;
 }
-.signup .genders-container .gender.active {
+.genders-container .gender.active {
   border: 3px solid var(--secondaryColor);
 }
-.signup #confirmation {
-  color: #515c6f;
-}
-.signup #confirmation .modal-body {
-  font-size: 22px;
+.genders-container .gender p {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  margin-bottom: -25px;
+  text-align: center;
+  font-size: 13px;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 
 .modal .modal-dialog {
@@ -1882,21 +1887,21 @@ body.fullscreen .page-content.homepage .arrows-container {
   font-weight: bold;
 }
 
-.interests-page .auth-page-content .interests-container {
+.interests-container {
   text-align: left;
   margin-bottom: 40px;
 }
-.interests-page .auth-page-content .interests-container button {
+.interests-container button {
   margin: 5px 5px;
   margin-left: 0px;
   padding-left: 10px;
   padding-right: 10px;
   border-width: 2px;
 }
-.interests-page .auth-page-content .interests-container button:hover {
+.interests-container button:hover {
   border-color: var(--secondaryColor);
 }
-.interests-page .auth-page-content .interests-container button.active {
+.interests-container button.active {
   background-color: var(--secondaryColor);
   color: #fff;
 }
@@ -1941,19 +1946,12 @@ body.fullscreen .page-content.homepage .arrows-container {
   border-radius: 500px;
   box-shadow: 0 0 4px #c4c4c470;
   border: 9px solid #fff;
+  width: 100%;
+  height: 100%;
 }
-.profile .profile-content .profile-sidebar .profile-info .image-container .change-image-container {
-  position: absolute;
-  bottom: 10px;
-  right: 0px;
-  cursor: pointer;
-}
-.profile .profile-content .profile-sidebar .profile-info .image-container .change-image-container i.fa.fa-pen {
-  color: var(--secondaryColor);
-  background: #fff;
-  box-shadow: 0 0 8px #fa935b50;
-  padding: 10px;
-  border-radius: 500px;
+.profile .profile-content .profile-sidebar .profile-info .image-container .image img {
+  width: 100%;
+  height: 100%;
 }
 .profile .profile-content .profile-sidebar .profile-info .data {
   margin-bottom: 25px;
@@ -2045,6 +2043,166 @@ body.fullscreen .page-content.homepage .arrows-container {
   margin-right: 20px;
 }
 .profile .profile-content .profile-data .profile-data-content .items-group .one-item .content .item-label {
+  color: var(--secondaryColor);
+  font-weight: bold;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.profile.edit-profile1 .profile-sidebar {
+  width: 35%;
+}
+.profile.edit-profile1 .profile-sidebar .profile-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+.profile.edit-profile1 .profile-sidebar .profile-header .completeness-percentage-container {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  position: relative;
+  background: #fa935b;
+  border-radius: 200px;
+  color: #fff;
+}
+.profile.edit-profile1 .profile-sidebar .profile-header a.btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.profile.edit-profile1 .profile-sidebar .image-and-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.profile.edit-profile1 .profile-sidebar .image-and-data .image-container {
+  width: 130px;
+  height: 130px;
+  margin: unset;
+}
+.profile.edit-profile1 .profile-sidebar .image-and-data .image-container .change-image-container {
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+  cursor: pointer;
+}
+.profile.edit-profile1 .profile-sidebar .image-and-data .image-container .change-image-container i {
+  color: var(--secondaryColor);
+  background: #fff;
+  box-shadow: var(--grayBoxShadow);
+  border-radius: 500px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+}
+.profile.edit-profile1 .profile-sidebar .image-and-data .data {
+  width: fit-content;
+  margin-left: 20px;
+}
+.profile.edit-profile1 .profile-sidebar .image-and-data .data .name {
+  margin-bottom: 5px;
+}
+.profile.edit-profile1 .profile-sidebar .image-and-data .data p {
+  margin-bottom: 5px;
+}
+.profile.edit-profile1 .profile-sidebar .profile-info-slider-container .profile-info-slider {
+  width: 80%;
+  margin-left: auto;
+}
+.profile.edit-profile1 .profile-sidebar .profile-info-slider-container .profile-info-slider .item .item-content {
+  padding: 0;
+  margin: 10px;
+}
+.profile.edit-profile1 .profile-sidebar .profile-info-slider-container .profile-info-slider .item .item-content .title {
+  margin: 0;
+  background: white;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  box-shadow: var(--grayBoxShadow);
+}
+.profile.edit-profile1 .profile-sidebar .profile-info-slider-container .profile-info-slider .item .item-content .value {
+  background: #fa935b;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 35px 0 10px 0;
+  margin-top: -30px;
+  box-shadow: var(--grayBoxShadow);
+}
+.profile.edit-profile1 .profile-data {
+  width: 65%;
+}
+.profile.edit-profile1 .profile-data .interests {
+  background: #515c6f;
+}
+.profile.edit-profile1 .profile-data .interests .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: unset;
+  border: 0;
+  padding: 0;
+}
+.profile.edit-profile1 .profile-data .interests .card-header label {
+  color: #fff;
+  font-size: 22px;
+}
+.profile.edit-profile1 .profile-data .interests .interests-container {
+  margin-bottom: 0;
+}
+.profile.edit-profile1 .profile-data .interests .interests-container button {
+  background: #ffffff22;
+  color: #fa935b;
+}
+
+.profile.edit-profile2 .profile-data-content {
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+}
+.profile.edit-profile2 .profile-data-content .form-control {
+  border: none;
+  padding: 10px 25px;
+}
+.profile.edit-profile2 .profile-data-content label {
+  color: #000;
+}
+.profile.edit-profile2 .profile-data-content .one-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-top: 1px solid #d9d9d9;
+}
+.profile.edit-profile2 .profile-data-content .one-item.password {
+  border-bottom: 1px solid #d9d9d9;
+}
+.profile.edit-profile2 .profile-data-content .one-item .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--darkGray);
+  font-size: 16px;
+}
+.profile.edit-profile2 .profile-data-content .one-item .content a {
+  color: #000;
+  font-size: 14px;
+}
+.profile.edit-profile2 .profile-data-content .one-item .content .item-label {
   color: var(--secondaryColor);
   font-weight: bold;
   margin: 0 10px;

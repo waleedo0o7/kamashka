@@ -112,6 +112,7 @@
 <?php include 'footer.php'; ?>
 
 <script>
-    // onErrorCountryCodeValues();
-    // onErrorGenderValue();
+    calcAge();
+    onErrorCountryCodeValues();
+    onErrorGenderValue();
 </script>

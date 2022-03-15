@@ -6,13 +6,7 @@
         <h3 class="mb-2 bold"> Reset Password </h3>
 
         <div class="form-container">
-
-            <div class="d-none alert alert-danger text-left" role="alert">
-                <ul class="mb-0 resetul">
-                    <li> Error Message </li>
-                </ul>
-            </div>
-
+ 
             <form class="forget-password-form" action="" data-parsley-validate="">            
 
                 <div class="form-group mb-3 relative">
