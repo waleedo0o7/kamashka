@@ -1738,7 +1738,6 @@ body.fullscreen {
     }
 }
 
-
 .modal {
     .modal-dialog {
         height: 90%;
@@ -2096,6 +2095,7 @@ body.fullscreen {
                 border-radius: 200px;
                 color: #fff;
                 .completeness-percentage{
+
                 }
                 &:after{
  
@@ -2529,3 +2529,20 @@ i.arrow-icon {
         margin-top: 2px;
     }
 }
+
+
+
+.mobile-left-menu {
+    display: none;
+}
+
+
+
+.mobile-view {
+    display: none;
+}
+
+
+
+
+

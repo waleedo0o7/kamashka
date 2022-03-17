@@ -11,10 +11,10 @@
     <meta name="your-age-is" content="Your Age Is">
 
 
-    
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
- 
+
     <!-- Poppins Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,15 +42,119 @@
 <body class="">
 
     <div class="mobile-menu">
-        <div class="logo">
-            <a href="#"> <img class="img-fluid" src="img/logo-wide.png" /> </a>
+        <div class="mobile-icon-container">
+            <i id="mobile-icon" class="icon icon-meni-icon"></i>
         </div> <!-- logo -->
         <div class="icon">
-            <i id="mobile-icon" class="icon icon-meni-icon"></i>
+            <div class="count-container">
+                <img src="img/count-icon.svg">
+                <span> 800 KD </span>
+            </div><!-- count-container -->
         </div><!-- icon -->
     </div>
 
-    <header id="top-header" class="homepage-top-header">
+    <div class="mobile-left-menu">
+
+        <div class="menu-header">
+            <div class="logo-container">
+                <img class="logo" src="img/logo-wide.png">
+            </div><!-- logo -->
+            <div class="btn-and-close">
+                <a class="btn btn-custom1" data-toggle="modal" data-target="#createModal"> Create </a>
+                <i id="closeMobileMenu" class="icon icon-close"></i>
+            </div><!-- btn-and-close -->
+        </div><!-- menu-header -->
+
+        <div class="menu-icons-container">
+            <ul class="resetul menu-icons">
+                <li> <a href="#"> <i class="icon icon-bell"></i> </a> </li>
+                <li> <a href="#"> <i class="icon icon-heart"></i> </a> </li>
+                <li> <a href="#"> <i class="icon icon-cart"></i> </a> </li>
+                <li>
+
+                    <div class="icon-container">
+                        <div class="dropdown custom-dropdown ">
+                            <a class="dropdown-toggle resetbtn" type="button" id="signin" data-toggle="dropdown">
+                                <i class="icon icon-user"></i>
+                            </a>
+                            <div class="dropdown-menu disable-auto-close pl-3 pr-3 user" aria-labelledby="signin">
+                                <p class="bold text-center"> Continue With Your Profile, Create Your Own Advs, Collect Money, Shop Online And More </p>
+                                <a href="auth-signin.php" class="btn btn-custom1 w-100 mb-2"> Sign In </a>
+                                <a href="auth-signup.php" class="btn btn-custom2 w-100 "> Sign Up </a>
+
+                                <p class="text-center"> Or continue with </p>
+
+                                <ul class="resetul social-icons mb-3">
+                                    <li> <a href="#"> <img src="img/facebook-icon.svg" /> </a> </li>
+                                    <li> <a href="#"> <img src="img/google-icon.svg" /> </a> </li>
+                                    <li> <a href="#"> <img src="img/apple-icon.svg" /> </a> </li>
+                                </ul>
+
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+                    </div><!-- icon-container -->
+
+                </li>
+                <li> <a href="#" id="toggle-search"> <i class="icon icon-search"></i> </a> </li>
+            </ul> <!-- menu-icons -->
+
+            <div class="user-icons">
+                <div class="dropdown custom-dropdown">
+                    <button class="dropdown-toggle language-btn resetbtn" type="button" id="language" data-toggle="dropdown">
+                        <img class="img-fluid" src="img/flag-kuwait.png" />
+                    </button>
+                    <div class="dropdown-menu disable-auto-close" aria-labelledby="language">
+                        <p>Country</p>
+                        <div class="one-item">
+                            <ul class="resetul countries">
+                                <li> <a href="#"> <img class="img-fluid" src="img/flag-kuwait.png" /> <span> kuwait </span> <i class="fa fa-check"></i> </a> </li>
+                                <li> <a href="#"> <img class="img-fluid" src="img/flag-ksa.png" /> <span> Saudi Arabia </span> </a></li>
+                                <li> <a href="#"> <img class="img-fluid" src="img/flag-uae.png" /> <span> United Arab Emirates</span> </a></li>
+                            </ul>
+                        </div><!-- one-item -->
+
+
+                        <p> Language </p>
+                        <div class="one-item">
+                            <ul class="resetul languages">
+                                <li> <a href="#"> <span> English </span> <i class="fa fa-check"></i> </a> </li>
+                                <li> <a href="#"> <span> عربي </span> </a></li>
+                            </ul>
+                        </div><!-- one-item -->
+
+                    </div> <!-- dropdown-menu -->
+                </div> <!-- dropdown -->
+            </div><!-- user-icons -->
+        </div><!-- menu-icons-container -->
+
+        <div class="search-container">
+            <div class="form-group w-100">
+                <input class="form-control" type="text">
+            </div><!-- form-group -->
+        </div><!-- search-container -->
+
+        <div class="menu-links-container">
+            <ul class="resetul">
+                <li> <a href="#"> Advertising </a> </li>
+                <li> <a href="#"> Discover </a> </li>
+                <li> <a href="#"> Shoping </a> </li>
+
+                <!-- IF USER LOGINED -->
+                <li> <a href="#"> Sign Out </a> </li>
+            </ul>
+        </div><!-- menu-links-container -->
+
+        <div class="social-media-container">
+            <ul class="resetul">
+                <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
+                <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+                <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
+            </ul>
+        </div><!-- social-media-container -->
+
+    </div><!-- mobile-left-menu -->
+
+    <header id="top-header" class="homepage-top-header show">
         <div class="container">
             <div class="row top-header-content">
 
@@ -364,7 +468,6 @@
 
                     </div> <!-- icons -->
 
-                    <!-- IF USER LOGIN -->
                     <div class="user-icons">
                         <div class="dropdown custom-dropdown">
                             <button class="dropdown-toggle language-btn resetbtn" type="button" id="language" data-toggle="dropdown">
@@ -394,6 +497,7 @@
                         <a class="btn btn-custom1" data-toggle="modal" data-target="#createModal"> Create </a>
                     </div><!-- user-icons -->
                 </div><!-- col-md-6 -->
+
             </div><!-- top-header-content -->
         </div><!-- container -->
     </header><!-- top-header -->
@@ -411,7 +515,7 @@
                     <div class="row items">
                         <div class="col-md-6">
                             <div class="one-item">
-                                <a href="#">
+                                <a href="create-adv.php">
                                     <img class="img-fluid" src="img/create-adv.png">
                                     <p> Create Advertisement <i class="fa fa-chevron-right arrow-icon"></i> </p>
                                 </a>

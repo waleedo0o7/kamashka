@@ -2462,4 +2462,12 @@ i.arrow-icon:before {
   margin-top: 2px;
 }
 
+.mobile-left-menu {
+  display: none;
+}
+
+.mobile-view {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */

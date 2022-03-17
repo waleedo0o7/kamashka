@@ -40,9 +40,14 @@ $("#expand-video").on("click", function () {
     $("#expand-video-icon").toggleClass("icon-expand icon-close");
 });
 
-// handel mobile icon to show menu
-$(".mobile-menu").on("click", function () {
-    $(".row.top-header-content").toggleClass("show")
+// toggle mobile icon to show menu
+$(".mobile-menu #mobile-icon , #closeMobileMenu ").on("click", function () {
+    $(".mobile-left-menu").toggleClass("show");
+});
+
+// toggle mobile menu to show and hide search
+$("#toggle-search").on("click", function () {
+    $(".search-container").toggleClass("show");
 });
 
 // homepage Get Last Item Event
@@ -107,7 +112,7 @@ $(function () {
     });
 });
 
-//homepage toggle left menu
+//homepage toggle left menu on big screen
 $(function () {
     $("#top-header #mobile-icon , #close-left-menu").on("click", function () {
         $(".left-menu-container").toggleClass("show");
@@ -313,13 +318,6 @@ $(document).ready(function () {
     })
 });
 
-// play the video 
-$(document).ready(function () {
-    // setTimeout(() => {
-    //     console.log($('.video-section-content video')[0].play());
-    // }, 1000);
-});
-
 // My Interests toggle active class and value
 $(document).ready(function () {
     let interestsArr = [];
@@ -430,7 +428,6 @@ $(document).ready(function () {
 });
 
 
-
 // Homepage toggle play icon on main video ON DOCUMENT READY 
 let homeTogglePlayVideo = () => {
     $(document).ready(function () {
@@ -456,7 +453,7 @@ $(document).ready(function () {
 });
 
 
-// Homepage play video on click in overlay play icon
+// Homepage stop video on click in overlay play icon
 $(document).ready(function () {
     $(".video").on("click", function () {
         $(this).next().fadeIn(200);
@@ -477,7 +474,7 @@ $(document).on('keydown', function (event) {
 });
 
 
-
+// MY PROFILE --> change image container
 $(document).ready(function () {
     $(".change-image-container .icon").on("click", function () {
         let image = document.getElementById("profile-image");
@@ -491,9 +488,17 @@ $(document).ready(function () {
             if (file) {
                 image.src = URL.createObjectURL(file)
             }
-          }
-        
+        }
+
     });
 });
+
+
+ 
+
+$('#home-video-carousel').on('slide.bs.carousel', function () { 
+    homeBrandSlider();
+})
+
 
 
