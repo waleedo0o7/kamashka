@@ -1,619 +1,427 @@
 <?php include 'header.php'; ?>
 
 
+
+
+
 <div class="page-content homepage">
     <div class="container">
         <div class="homepage-content">
 
+            <div class="homepage-slick-slider">
+                <div class="item">
+                    <div class="carousel-item-content">
 
-            <div id="home-video-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                        <div class="data-section">
 
-
-                <div class="carousel-inner">
-                    <div class="carousel-item relative active">
-                        <div class="carousel-item-content">
-
-                            <div class="data-section">
-
-                                <div class="brand-header">
-                                    <div class="row">
-                                        <div class="col-md-2 brand-logo d-flex justify-content-center align-items-start pr-0">
-                                            <img class="img-fluid" src="img/brand-logo.png" />
-                                        </div><!-- col-md-2 -->
-                                        <div class="col-md-4">
-                                            <h3> Nike <img class="img-fluid" src="img/verified.svg" /> </h3>
-                                            <p> Kids Campaign <br />#zaracampaign </p>
-                                        </div><!-- col-md-3 -->
-                                        <div class="col-md-6 d-flex">
-                                            <div class="follow-btn">
-                                                <a class="btn btn-custom2 follow" href="#"> Follow </a>
-                                            </div><!-- follow-btn -->
-                                        </div>
-                                    </div><!-- row -->
-                                </div><!-- brand-header -->
-
-
-
-
-
-
-
-
-
-                                <div class="brand-slider-container">
-
-                                    <div class="brand-slider">
-
-                                        <div class="item">
-                                            <a data-fancybox="nike-gallery" href="videos/video1.mp4" data-width="640" data-height="360">
-                                                <div class="video-item">
-                                                    <video>
-                                                        <source src="videos/video1.mp4" type="video/mp4">
-                                                    </video>
-                                                    <div class="video-overlay">
-                                                        <img class="img-fluid" src="img/brand-slider/play.png" />
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div> <!-- item -->
-
-                                        <div class="item">
-                                            <a data-fancybox="nike-gallery" href="img/brand-slider/02.jpg">
-                                                <img src="img/brand-slider/02.jpg" class="img-fluid">
-                                            </a>
-                                        </div> <!-- item -->
-
-                                        <div class="item">
-                                            <a data-fancybox="nike-gallery" href="img/brand-slider/03.jpg">
-                                                <img src="img/brand-slider/03.jpg" class="img-fluid">
-                                            </a>
-                                        </div> <!-- item -->
-
-                                        <div class="item">
-                                            <a data-fancybox="nike-gallery" href="img/brand-slider/01.jpg">
-                                                <img src="img/brand-slider/01.jpg" class="img-fluid">
-                                            </a>
-                                        </div> <!-- item -->
-
-                                        <div class="item">
-                                            <a data-fancybox="nike-gallery" href="img/brand-slider/03.jpg">
-                                                <img src="img/brand-slider/03.jpg" class="img-fluid">
-                                            </a>
-                                        </div> <!-- item -->
-
-                                        <div class="item">
-                                            <a data-fancybox="nike-gallery" href="img/brand-slider/01.jpg">
-                                                <img src="img/brand-slider/01.jpg" class="img-fluid">
-                                            </a>
-                                        </div> <!-- item -->
-
-
-
-
+                            <div class="brand-header">
+                                <div class="row">
+                                    <div class="col-md-2 brand-logo d-flex justify-content-center align-items-start pr-0">
+                                        <img class="img-fluid" src="img/brand-logo.png" />
+                                    </div><!-- col-md-2 -->
+                                    <div class="col-md-4">
+                                        <h3> Nike <img class="img-fluid" src="img/verified.svg" /> </h3>
+                                        <p> Kids Campaign <br />#zaracampaign </p>
+                                    </div><!-- col-md-3 -->
+                                    <div class="col-md-6 d-flex">
+                                        <div class="follow-btn">
+                                            <a class="btn btn-custom2 follow" href="#"> Follow </a>
+                                        </div><!-- follow-btn -->
                                     </div>
-
-                                </div> <!-- brand-slider-container -->
-
-
+                                </div><!-- row -->
+                            </div><!-- brand-header -->
 
 
+                            <div class="brand-slider-container">
 
-                                <div class="text-center mb-2 mt-2">
-                                    <a class="btn btn-custom2 follow" href="#"> discover products </a>
+                                <div class="brand-slider">
+
+                                    <div class="item">
+                                        <a data-fancybox="nike-gallery" href="videos/video1.mp4" data-width="640" data-height="360">
+                                            <div class="video-item">
+                                                <video>
+                                                    <source src="videos/video1.mp4" type="video/mp4">
+                                                </video>
+                                                <div class="video-overlay">
+                                                    <img class="img-fluid" src="img/brand-slider/play.png" />
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div> <!-- item -->
+
+                                    <div class="item">
+                                        <a data-fancybox="nike-gallery" href="img/brand-slider/02.jpg">
+                                            <img src="img/brand-slider/02.jpg" class="img-fluid">
+                                        </a>
+                                    </div> <!-- item -->
+
+                                    <div class="item">
+                                        <a data-fancybox="nike-gallery" href="img/brand-slider/03.jpg">
+                                            <img src="img/brand-slider/03.jpg" class="img-fluid">
+                                        </a>
+                                    </div> <!-- item -->
+
+                                    <div class="item">
+                                        <a data-fancybox="nike-gallery" href="img/brand-slider/01.jpg">
+                                            <img src="img/brand-slider/01.jpg" class="img-fluid">
+                                        </a>
+                                    </div> <!-- item -->
+
+                                    <div class="item">
+                                        <a data-fancybox="nike-gallery" href="img/brand-slider/03.jpg">
+                                            <img src="img/brand-slider/03.jpg" class="img-fluid">
+                                        </a>
+                                    </div> <!-- item -->
+
+                                    <div class="item">
+                                        <a data-fancybox="nike-gallery" href="img/brand-slider/01.jpg">
+                                            <img src="img/brand-slider/01.jpg" class="img-fluid">
+                                        </a>
+                                    </div> <!-- item -->
+
+
+
+
                                 </div>
 
-                                <div class="brand-details">
-                                    <div class="brand-details-text">
-                                        <h4> Zara is one of the biggest international <br /> fashion companies </h2>
-                                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                eiusmod tempor
-                                                incididunt ut
-                                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                                exercitation
-                                                ullamco
-                                                laboris nisi ut aliquip ex ea commodo consequatcommodo
-                                                consequatcommodo consequat.
-                                            </p>
-                                    </div><!-- brand-details-text -->
+                            </div> <!-- brand-slider-container -->
 
-                                    <div class="btns tags text-center mb-2 mt-2">
-                                        <a class="btn btn-custom2 follow" href="#"> Fashion </a>
-                                        <a class="btn btn-custom2 follow" href="#"> Beauty </a>
-                                    </div><!-- btns -->
 
-                                    <div class="share">
-                                        <p class="mb-1"> SHARES </p>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="images">
-                                                    <ul>
-                                                        <li> <a href="#"> <img class="img-fluid" src="img/person01.png" /></a> </li>
-                                                        <li> <a href="#"> <img class="img-fluid" src="img/person02.png" /></a> </li>
-                                                        <li> <a href="#"> <img class="img-fluid" src="img/person03.png" /></a> </li>
-                                                        <li> <a href="#"> <img class="img-fluid" src="img/person01.png" /></a> </li>
-                                                        <li> <a href="#"> <img class="img-fluid" src="img/person02.png" /></a> </li>
-                                                        <li> <a href="#">
-                                                                <div class="num"> +3K </div>
-                                                            </a> </li>
-                                                    </ul>
-                                                </div><!-- images -->
-                                            </div><!-- col-md-9 -->
 
-                                            <div class="col-md-6 d-flex mt-2">
-                                                <div class="btns text-right">
-                                                    <a class="btn btn-custom2 follow" data-toggle="modal" data-target="#shareModal"> Share & Get 10 KD</a>
-                                                </div><!-- btns -->
-                                            </div><!-- col-md-3 -->
 
-                                        </div><!-- row -->
-                                    </div><!-- share -->
 
-                                </div><!-- brand-details -->
-                            </div> <!-- data-section -->
+                            <div class="text-center mb-2 mt-2">
+                                <a class="btn btn-custom2 follow" href="#"> discover products </a>
+                            </div>
 
-                            <div class="video-section">
-                                <div class="video-section-content">
-                                    <div class="icons-container">
-                                        <div class="video-icons">
-                                            <ul>
-                                                <li><i id="toggle-like-btn" class="icon icon-heart"></i>
-                                                    <p> 1,8M </p>
-                                                </li>
-                                                <li><i class="icon icon-eye"></i>
-                                                    <p> 1K </p>
-                                                </li>
-                                                <li><i id="toggle-right-menu" class="icon icon-chat "></i>
-                                                    <p> 11,0K </p>
-                                                </li>
-                                                <li><i class="icon icon-share"></i>
-                                                    <p> 1K </p>
-                                                </li>
-                                            </ul>
-                                        </div><!-- video-icons -->
-                                    </div><!-- icons -->
-                                    <div class="video-container">
-                                        <video class="video" autoplay controls>
-                                            <source src="videos/video1.mp4" type="video/mp4">
-                                        </video>
-                                        <div class="video-overlay">
-                                            <img class="img-fluid" src="img/brand-slider/play.png" />
-                                        </div> <!-- video-overlay -->
-                                    </div><!-- video-container -->
-                                </div> <!-- video-section-content -->
-                                <div class="shadow"></div>
-                            </div> <!-- video-section -->
+                            <div class="brand-details">
+                                <div class="brand-details-text">
+                                    <h4> Zara is one of the biggest international <br /> fashion companies </h2>
+                                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                            eiusmod tempor
+                                            incididunt ut
+                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                            exercitation
+                                            ullamco
+                                            laboris nisi ut aliquip ex ea commodo consequatcommodo
+                                            consequatcommodo consequat.
+                                        </p>
+                                </div><!-- brand-details-text -->
 
-                            <!-- mobile view START -->
-                            <div class="mobile-view">
-                                <div class="top-shadow"></div><!-- top-shadow -->
+                                <div class="btns tags text-center mb-2 mt-2">
+                                    <a class="btn btn-custom2 follow" href="#"> Fashion </a>
+                                    <a class="btn btn-custom2 follow" href="#"> Beauty </a>
+                                </div><!-- btns -->
+
+                                <div class="share">
+                                    <p class="mb-1"> SHARES </p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="images">
+                                                <ul>
+                                                    <li> <a href="#"> <img class="img-fluid" src="img/person01.png" /></a> </li>
+                                                    <li> <a href="#"> <img class="img-fluid" src="img/person02.png" /></a> </li>
+                                                    <li> <a href="#"> <img class="img-fluid" src="img/person03.png" /></a> </li>
+                                                    <li> <a href="#"> <img class="img-fluid" src="img/person01.png" /></a> </li>
+                                                    <li> <a href="#"> <img class="img-fluid" src="img/person02.png" /></a> </li>
+                                                    <li> <a href="#">
+                                                            <div class="num"> +3K </div>
+                                                        </a> </li>
+                                                </ul>
+                                            </div><!-- images -->
+                                        </div><!-- col-md-9 -->
+
+                                        <div class="col-md-6 d-flex mt-2">
+                                            <div class="btns text-right">
+                                                <a class="btn btn-custom2 follow" data-toggle="modal" data-target="#shareModal"> Share & Get 10 KD</a>
+                                            </div><!-- btns -->
+                                        </div><!-- col-md-3 -->
+
+                                    </div><!-- row -->
+                                </div><!-- share -->
+
+                            </div><!-- brand-details -->
+                        </div> <!-- data-section -->
+
+                        <div class="video-section">
+                            <div class="video-section-content">
+                                <div class="icons-container">
+                                    <div class="video-icons">
+                                        <ul>
+                                            <li><i id="toggle-like-btn" class="icon icon-heart"></i>
+                                                <p> 1,8M </p>
+                                            </li>
+                                            <li><i class="icon icon-eye"></i>
+                                                <p> 1K </p>
+                                            </li>
+                                            <li><i id="toggle-right-menu" class="icon icon-chat "></i>
+                                                <p> 11,0K </p>
+                                            </li>
+                                            <li><i class="icon icon-share"></i>
+                                                <p> 1K </p>
+                                            </li>
+                                        </ul>
+                                    </div><!-- video-icons -->
+                                </div><!-- icons -->
                                 <div class="video-container">
-
                                     <video class="video" autoplay controls>
                                         <source src="videos/video1.mp4" type="video/mp4">
                                     </video>
-
-                                    <div class="overlay-container">
+                                    <div class="video-overlay">
                                         <img class="img-fluid" src="img/brand-slider/play.png" />
-                                    </div><!-- overlay-container -->
-
-                                    <div class="shares-container">
-                                        <p class="m-0"> SHARES </p>
-                                        <div class="images">
-                                            <ul>
-                                                <li> <a href="#"> <img class="img-fluid" src="img/person01.png" /></a> </li>
-                                                <li> <a href="#"> <img class="img-fluid" src="img/person02.png" /></a> </li>
-                                                <li> <a href="#"> <img class="img-fluid" src="img/person03.png" /></a> </li>
-                                                <li> <a href="#">
-                                                        <div class="num"> +3K </div>
-                                                    </a> </li>
-                                            </ul>
-                                        </div><!-- images -->
-                                    </div><!-- shares-container -->
-
-                                    <div class="like-and-comment">
-                                        <div class="item like">
-                                            <i id="toggle-like-btn" class="icon icon-heart"></i>
-                                            <p> 1,8M </p>
-                                        </div><!-- like -->
-                                        <div class="item comment">
-                                            <i id="toggle-right-menu" class="icon icon-chat "></i>
-                                            <p> 1,8M </p>
-                                        </div><!-- like -->
-                                    </div><!-- like-and-comment -->
-
-                                    <div class="brand-details">
-                                        <div class="image">
-                                            <img class="img-fluid" src="img/brand-logo.png" alt="">
-                                        </div><!-- image -->
-                                        <div class="data">
-                                            <p class="name"> zara <img class="img-fluid" src="img/verified.svg" /> </p>
-                                            <p class="slogen"> Kids Campaign </p>
-                                            <p class="hash"> #zaracampaign </p>
-                                        </div><!-- data -->
-                                    </div><!-- brand-details -->
-
-                                    <div class="more-btn-container">
-                                        <a class="more-details" href="#"> MORE DETAILS <i class="fa fa-arrow-right"></i> </a>
-                                    </div><!-- more-btn-container -->
-
-                                    <div class="views-and-shares">
-                                        <div class="item views">
-                                            <i class="icon icon-eye"></i>
-                                            <p> 1,8M </p>
-                                        </div><!-- like -->
-                                        <div class="item share">
-                                            <i class="icon icon-share "></i>
-                                            <p> 1,8M </p>
-                                        </div><!-- like -->
-                                    </div><!-- views-and-shares -->
-
-                                    <div class="share-btn-container">
-                                        <a class="btn btn-custom1" data-toggle="modal" data-target="#shareModal"> Share &amp; Get 10 KD</a>
-                                    </div><!-- share-btn-container -->
-
+                                    </div> <!-- video-overlay -->
                                 </div><!-- video-container -->
-                                <div class="bottom-shadow"></div><!-- bottom-shadow -->
-                            </div><!-- mobile view -->
-                            <!-- mobile view END -->
+                            </div> <!-- video-section-content -->
+                            <div class="shadow"></div>
 
-                        </div><!-- carousel-item-content -->
-                    </div> <!-- carousel-item -->
+                            <div class="matched-criteria-container">
+                                <div class="dropdown custom-dropdown">
+                                    <button class="dropdown-toggle resetbtn " type="button" id="criteria-btn" data-toggle="dropdown">
+                                        Matched Criteria <i class="fa fa-chevron-down"></i>
+                                    </button>
+                                    <div class="dropdown-menu criteria-dropdown-menu pl-3 pr-3" aria-labelledby="criteria">
+                                        <div class="criteria-menu-container">
+                                            <h5> Matched Criteria <i class="icon icon-close"></i> </h5>
+                                            <ul class="resetul">
+                                                <li class="criteria-one-item">
+                                                    <img src="img/icon-criteria-location.png" alt="">
+                                                    <p class="success"> Location <i class="fa fa-check "></i> </p>
+                                                </li><!-- criteria-one-item -->
+                                                <li class="criteria-one-item">
+                                                    <img src="img/icon-criteria-gender.png" alt="">
+                                                    <p class="success"> Gender <i class="fa fa-check "></i> </p>
+                                                </li><!-- criteria-one-item -->
+                                                <li class="criteria-one-item">
+                                                    <img src="img/icon-criteria-age.png" alt="">
+                                                    <p class="success"> Age <i class="fa fa-check "></i> </p>
+                                                </li><!-- criteria-one-item -->
+                                                <li class="criteria-one-item">
+                                                    <img src="img/icon-criteria-job.png" alt="">
+                                                    <p class="danger"> Aob <i class="fa fa-times "></i> </p>
+                                                </li><!-- criteria-one-item -->
+                                                <li class="criteria-one-item">
+                                                    <img src="img/icon-criteria-interests.png" alt="">
+                                                    <p class="danger"> Interests <i class="fa fa-times "></i> </p>
+                                                </li><!-- criteria-one-item -->
+                                            </ul>
+                                        </div><!-- criteria-menu-container -->
+                                    </div> <!-- dropdown-menu -->
+                                </div> <!-- dropdown -->
+                            </div><!-- matched-criteria-container -->
 
+                        </div> <!-- video-section -->
 
+                        <!-- mobile view START -->
+                        <div class="mobile-view">
+                            <div class="top-shadow"></div><!-- top-shadow -->
+                            <div class="video-container">
 
+                                <video class="video" autoplay controls>
+                                    <source src="videos/video1.mp4" type="video/mp4">
+                                </video>
 
+                                <div class="overlay-container">
+                                    <img class="img-fluid" src="img/brand-slider/play.png" />
+                                </div><!-- overlay-container -->
 
+                                <div class="shares-container">
+                                    <p class="m-0"> SHARES </p>
+                                    <div class="images">
+                                        <ul>
+                                            <li> <a href="#"> <img class="img-fluid" src="img/person01.png" /></a> </li>
+                                            <li> <a href="#"> <img class="img-fluid" src="img/person02.png" /></a> </li>
+                                            <li> <a href="#"> <img class="img-fluid" src="img/person03.png" /></a> </li>
+                                            <li> <a href="#">
+                                                    <div class="num"> +3K </div>
+                                                </a> </li>
+                                        </ul>
+                                    </div><!-- images -->
+                                </div><!-- shares-container -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-                    <div class="carousel-item relative ">
-                        <div class="carousel-item-content">
-
-
-                            <div class="data-section">
-
-                                <div class="brand-header">
-                                    <div class="row">
-                                        <div class="col-md-2 brand-logo d-flex justify-content-center align-items-start pr-0">
-                                            <img class="img-fluid" src="img/brand-logo.png" />
-                                        </div><!-- col-md-2 -->
-                                        <div class="col-md-4">
-                                            <h3> Zara <img class="img-fluid" src="img/verified.svg" /> </h3>
-                                            <p> Kids Campaign <br />#zaracampaign </p>
-                                        </div><!-- col-md-3 -->
-                                        <div class="col-md-6 d-flex">
-                                            <div class="follow-btn">
-                                                <a class="btn btn-custom2 follow" href="#"> Follow </a>
-                                            </div><!-- follow-btn -->
-                                        </div>
-                                    </div><!-- row -->
-                                </div><!-- brand-header -->
-
-
-
-
-
-
-
-
-
-                                <div class="brand-slider-container">
-
-                                    <div class="brand-slider">
-
-                                        <div class="item">
-                                            <a data-fancybox="nike-gallery" href="videos/video1.mp4" data-width="640" data-height="360">
-                                                <div class="video-item">
-                                                    <video>
-                                                        <source src="videos/video1.mp4" type="video/mp4">
-                                                    </video>
-                                                    <div class="video-overlay">
-                                                        <img class="img-fluid" src="img/brand-slider/play.png" />
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div> <!-- item -->
-
-                                        <div class="item">
-                                            <a data-fancybox="nike-gallery" href="img/brand-slider/02.jpg">
-                                                <img src="img/brand-slider/02.jpg" class="img-fluid">
-                                            </a>
-                                        </div> <!-- item -->
-
-                                        <div class="item">
-                                            <a data-fancybox="nike-gallery" href="img/brand-slider/03.jpg">
-                                                <img src="img/brand-slider/03.jpg" class="img-fluid">
-                                            </a>
-                                        </div> <!-- item -->
-
-                                        <div class="item">
-                                            <a data-fancybox="nike-gallery" href="img/brand-slider/01.jpg">
-                                                <img src="img/brand-slider/01.jpg" class="img-fluid">
-                                            </a>
-                                        </div> <!-- item -->
-
-                                        <div class="item">
-                                            <a data-fancybox="nike-gallery" href="img/brand-slider/03.jpg">
-                                                <img src="img/brand-slider/03.jpg" class="img-fluid">
-                                            </a>
-                                        </div> <!-- item -->
-
-                                        <div class="item">
-                                            <a data-fancybox="nike-gallery" href="img/brand-slider/01.jpg">
-                                                <img src="img/brand-slider/01.jpg" class="img-fluid">
-                                            </a>
-                                        </div> <!-- item -->
-
-
-
-
-                                    </div>
-
-                                </div> <!-- brand-slider-container -->
-
-
-
-
-
-                                <div class="text-center mb-2 mt-2">
-                                    <a class="btn btn-custom2 follow" href="#"> discover products </a>
-                                </div>
+                                <div class="like-and-comment">
+                                    <div class="item like">
+                                        <i id="toggle-like-btn" class="icon icon-heart"></i>
+                                        <p> 1,8M </p>
+                                    </div><!-- like -->
+                                    <div class="item comment">
+                                        <i id="toggle-right-menu" class="icon icon-chat "></i>
+                                        <p> 1,8M </p>
+                                    </div><!-- like -->
+                                </div><!-- like-and-comment -->
 
                                 <div class="brand-details">
-                                    <div class="brand-details-text">
-                                        <h4> Zara is one of the biggest international <br /> fashion companies </h2>
-                                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                eiusmod tempor
-                                                incididunt ut
-                                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                                exercitation
-                                                ullamco
-                                                laboris nisi ut aliquip ex ea commodo consequatcommodo
-                                                consequatcommodo consequat.
-                                            </p>
-                                    </div><!-- brand-details-text -->
-
-                                    <div class="btns tags text-center mb-2 mt-2">
-                                        <a class="btn btn-custom2 follow" href="#"> Fashion </a>
-                                        <a class="btn btn-custom2 follow" href="#"> Beauty </a>
-                                    </div><!-- btns -->
-
-                                    <div class="share">
-                                        <p class="mb-1"> SHARES </p>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="images">
-                                                    <ul>
-                                                        <li> <a href="#"> <img class="img-fluid" src="img/person01.png" /></a> </li>
-                                                        <li> <a href="#"> <img class="img-fluid" src="img/person02.png" /></a> </li>
-                                                        <li> <a href="#"> <img class="img-fluid" src="img/person03.png" /></a> </li>
-                                                        <li> <a href="#"> <img class="img-fluid" src="img/person01.png" /></a> </li>
-                                                        <li> <a href="#"> <img class="img-fluid" src="img/person02.png" /></a> </li>
-                                                        <li> <a href="#">
-                                                                <div class="num"> +3K </div>
-                                                            </a> </li>
-                                                    </ul>
-                                                </div><!-- images -->
-                                            </div><!-- col-md-9 -->
-
-                                            <div class="col-md-6 d-flex mt-2">
-                                                <div class="btns text-right">
-                                                    <a class="btn btn-custom2 follow" data-toggle="modal" data-target="#shareModal"> Share & Get 10 KD</a>
-                                                </div><!-- btns -->
-                                            </div><!-- col-md-3 -->
-
-                                        </div><!-- row -->
-                                    </div><!-- share -->
-
+                                    <div class="image">
+                                        <img class="img-fluid" src="img/brand-logo.png" alt="">
+                                    </div><!-- image -->
+                                    <div class="data">
+                                        <p class="name"> zara <img class="img-fluid" src="img/verified.svg" /> </p>
+                                        <p class="slogen"> Kids Campaign </p>
+                                        <p class="hash"> #zaracampaign </p>
+                                    </div><!-- data -->
                                 </div><!-- brand-details -->
-                            </div> <!-- data-section -->
+
+                                <div class="more-btn-container">
+                                    <a class="more-details" href="#"> MORE DETAILS <i class="fa fa-arrow-right"></i> </a>
+                                </div><!-- more-btn-container -->
+
+                                <div class="views-and-shares">
+                                    <div class="item views">
+                                        <i class="icon icon-eye"></i>
+                                        <p> 1,8M </p>
+                                    </div><!-- like -->
+                                    <div class="item share">
+                                        <i class="icon icon-share "></i>
+                                        <p> 1,8M </p>
+                                    </div><!-- like -->
+                                </div><!-- views-and-shares -->
+
+                                <div class="share-btn-container">
+                                    <a class="btn btn-custom1" data-toggle="modal" data-target="#shareModal"> Share &amp; Get 10 KD</a>
+                                </div><!-- share-btn-container -->
 
 
-                            <div class="video-section">
-                                <div class="video-section-content">
-                                    <div class="icons-container">
-                                        <div class="video-icons">
-                                            <ul>
-                                                <li><i id="toggle-like-btn" class="icon icon-heart"></i>
-                                                    <p> 1,8M </p>
-                                                </li>
-                                                <li><i class="icon icon-eye"></i>
-                                                    <p> 1K </p>
-                                                </li>
-                                                <li><i id="toggle-right-menu" class="icon icon-chat "></i>
-                                                    <p> 11,0K </p>
-                                                </li>
-                                                <li><i class="icon icon-share"></i>
-                                                    <p> 1K </p>
-                                                </li>
-                                            </ul>
-                                        </div><!-- video-icons -->
-                                    </div><!-- icons -->
-                                    <div class="video-container">
-                                        <video class="video" autoplay controls>
-                                            <source src="videos/video1.mp4" type="video/mp4">
-                                        </video>
-                                        <div class="video-overlay">
-                                            <img class="img-fluid" src="img/brand-slider/play.png" />
-                                        </div> <!-- video-overlay -->
-                                    </div><!-- video-container -->
-                                </div> <!-- video-section-content -->
-                                <div class="shadow"></div>
-                            </div> <!-- video-section -->
+
+                                <div class="mobile-brand-data">
+
+                                    <div class="mobile-brand-header">
+                                        <div class="brand-logo">
+                                            <img class="img-fluid logo" src="img/brand-logo.png" />
+                                            <h3> Nike </h3>
+                                            <img class="img-fluid" src="img/verified.svg" />
+                                        </div><!-- brand-logo -->
+                                        <div class="close"> <i class="icon icon-close"></i> </div><!-- close -->
+                                    </div><!-- brand-header -->
 
 
-                            <!-- mobile view START -->
-                            <div class="mobile-view">
-                                <div class="top-shadow"></div><!-- top-shadow -->
-                                <div class="video-container">
 
-                                    <video class="video" autoplay controls>
-                                        <source src="videos/video1.mp4" type="video/mp4">
-                                    </video>
 
-                                    <div class="overlay-container">
-                                        <img class="img-fluid" src="img/brand-slider/play.png" />
-                                    </div><!-- overlay-container -->
+                                    <div class="mobile-brand-slider-container">
 
-                                    <div class="shares-container">
-                                        <p class="m-0"> SHARES </p>
-                                        <div class="images">
-                                            <ul>
-                                                <li> <a href="#"> <img class="img-fluid" src="img/person01.png" /></a> </li>
-                                                <li> <a href="#"> <img class="img-fluid" src="img/person02.png" /></a> </li>
-                                                <li> <a href="#"> <img class="img-fluid" src="img/person03.png" /></a> </li>
-                                                <li> <a href="#">
-                                                        <div class="num"> +3K </div>
-                                                    </a> </li>
-                                            </ul>
-                                        </div><!-- images -->
-                                    </div><!-- shares-container -->
+                                        <div class="mobile-brand-slider">
 
-                                    <div class="like-and-comment">
-                                        <div class="item like">
-                                            <i id="toggle-like-btn" class="icon icon-heart"></i>
-                                            <p> 1,8M </p>
-                                        </div><!-- like -->
-                                        <div class="item comment">
-                                            <i id="toggle-right-menu" class="icon icon-chat "></i>
-                                            <p> 1,8M </p>
-                                        </div><!-- like -->
-                                    </div><!-- like-and-comment -->
+                                            <div class="item">
+                                                <a data-fancybox="mobile-nike-gallery" href="videos/video1.mp4" data-width="640" data-height="360">
+                                                    <div class="video-item">
+                                                        <video>
+                                                            <source src="videos/video1.mp4" type="video/mp4">
+                                                        </video>
+                                                        <div class="video-overlay">
+                                                            <img class="img-fluid" src="img/brand-slider/play.png" />
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div> <!-- item -->
 
-                                    <div class="brand-details">
-                                        <div class="image">
-                                            <img class="img-fluid" src="img/brand-logo.png" alt="">
-                                        </div><!-- image -->
-                                        <div class="data">
-                                            <p class="name"> zara <img class="img-fluid" src="img/verified.svg" /> </p>
-                                            <p class="slogen"> Kids Campaign </p>
-                                            <p class="hash"> #zaracampaign </p>
-                                        </div><!-- data -->
+                                            <div class="item">
+                                                <a data-fancybox="mobile-nike-gallery" href="img/brand-slider/02.jpg">
+                                                    <img src="img/brand-slider/02.jpg" class="img-fluid">
+                                                </a>
+                                            </div> <!-- item -->
+
+                                            <div class="item">
+                                                <a data-fancybox="mobile-nike-gallery" href="img/brand-slider/03.jpg">
+                                                    <img src="img/brand-slider/03.jpg" class="img-fluid">
+                                                </a>
+                                            </div> <!-- item -->
+
+                                            <div class="item">
+                                                <a data-fancybox="mobile-nike-gallery" href="img/brand-slider/01.jpg">
+                                                    <img src="img/brand-slider/01.jpg" class="img-fluid">
+                                                </a>
+                                            </div> <!-- item -->
+
+                                            <div class="item">
+                                                <a data-fancybox="mobile-nike-gallery" href="img/brand-slider/03.jpg">
+                                                    <img src="img/brand-slider/03.jpg" class="img-fluid">
+                                                </a>
+                                            </div> <!-- item -->
+
+                                            <div class="item">
+                                                <a data-fancybox="mobile-nike-gallery" href="img/brand-slider/01.jpg">
+                                                    <img src="img/brand-slider/01.jpg" class="img-fluid">
+                                                </a>
+                                            </div> <!-- item -->
+
+                                        </div><!-- mobile-brand-slider -->
+                                    </div> <!-- brand-slider-container -->
+
+
+
+                                    
+                                    <div class="text-center mb-1 mt-3 ">
+                                        <a class="btn btn-custom2 follow" href="#"> discover products </a>
+                                    </div>
+
+
+
+
+
+                                    <div class="mobile-brand-details ">
+                                        <div class="brand-details-text">
+                                            <h4> Zara is one of the biggest international <br /> fashion companies </h2>
+                                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                    eiusmod tempor
+                                                    incididunt ut
+                                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation
+                                                    ullamco
+                                                    laboris nisi ut aliquip ex ea commodo consequatcommodo
+                                                    consequatcommodo consequat.
+                                                </p>
+                                        </div><!-- brand-details-text -->
+
+                                        <div class="btns tags mb-3 mt-2">
+                                            <a class="btn btn-custom2 follow" href="#"> Fashion </a>
+                                            <a class="btn btn-custom2 follow" href="#"> Beauty </a>
+                                        </div><!-- btns -->
+
+                                        <div class="mobile-matched-criteria">
+                                            <h5 class="mb-3"> Matched Criteria</h5>
+                                            <div class="matched-criteria-slider">
+                                                <div class="criteria-one-item">
+                                                    <img src="img/icon-criteria-location.png" alt="">
+                                                    <p class="success"> Location <i class="fa fa-check "></i> </p>
+                                                </div><!-- criteria-one-item -->
+                                                <div class="criteria-one-item">
+                                                    <img src="img/icon-criteria-gender.png" alt="">
+                                                    <p class="success"> Gender <i class="fa fa-check "></i> </p>
+                                                </div><!-- criteria-one-item -->
+                                                <div class="criteria-one-item">
+                                                    <img src="img/icon-criteria-age.png" alt="">
+                                                    <p class="success"> Age <i class="fa fa-check "></i> </p>
+                                                </div><!-- criteria-one-item -->
+                                                <div class="criteria-one-item">
+                                                    <img src="img/icon-criteria-job.png" alt="">
+                                                    <p class="danger"> Aob <i class="fa fa-times "></i> </p>
+                                                </div><!-- criteria-one-item -->
+                                                <div class="criteria-one-item">
+                                                    <img src="img/icon-criteria-interests.png" alt="">
+                                                    <p class="danger"> Interests <i class="fa fa-times "></i> </p>
+                                                </div><!-- criteria-one-item -->
+                                            </div><!-- matched-criteria-slider -->
+                                        </div><!-- mobile-matched-criteria -->
+
                                     </div><!-- brand-details -->
+                                </div><!-- mobile-brand-details -->
 
-                                    <div class="more-btn-container">
-                                        <a class="more-details" href="#"> MORE DETAILS <i class="fa fa-arrow-right"></i> </a>
-                                    </div><!-- more-btn-container -->
+                            </div><!-- video-container -->
+                            <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                        </div><!-- mobile view -->
+                        <!-- mobile view END -->
 
-                                    <div class="views-and-shares">
-                                        <div class="item views">
-                                            <i class="icon icon-eye"></i>
-                                            <p> 1,8M </p>
-                                        </div><!-- like -->
-                                        <div class="item share">
-                                            <i class="icon icon-share "></i>
-                                            <p> 1,8M </p>
-                                        </div><!-- like -->
-                                    </div><!-- views-and-shares -->
-
-                                    <div class="share-btn-container">
-                                        <a class="btn btn-custom1" data-toggle="modal" data-target="#shareModal"> Share &amp; Get 10 KD</a>
-                                    </div><!-- share-btn-container -->
-
-                                </div><!-- video-container -->
-                                <div class="bottom-shadow"></div><!-- bottom-shadow -->
-                            </div><!-- mobile view -->
-                            <!-- mobile view END -->
-
-
-
-                        </div><!-- carousel-item-content -->
-                    </div> <!-- carousel-item -->
+                    </div><!-- carousel-item-content -->
+                </div><!-- item -->
 
 
 
 
+            </div><!-- homepage-slick-slider -->
 
-
-
-
-
-
-
-
-
-
-                </div> <!-- carousel-inner -->
-
-
-
-
-
-
-
-                <div class="arrows-container">
-
-                    <div id="expand-video" class="expand-video-container">
-                        <div class="icon-container">
-                            <i id="expand-video-icon" class="icon icon-expand"></i>
-                        </div><!-- icon-container -->
-                    </div>
-
-                    <a class="carousel-control-prev mb-4" href="#home-video-carousel" role="button" data-slide="prev">
-                        <i class="fa fa-chevron-up"></i>
-                    </a>
-
-                    <a class="carousel-control-next" href="#home-video-carousel" role="button" data-slide="next">
-                        <i class="fa fa-chevron-down"></i>
-                    </a>
-
-                    <div class="matched-criteria-container">
-
-                        <div class="dropdown custom-dropdown">
-                            <button class="dropdown-toggle resetbtn " type="button" id="criteria-btn" data-toggle="dropdown">
-                                Matched Criteria <i class="fa fa-chevron-down"></i>
-                            </button>
-                            <div class="dropdown-menu criteria-dropdown-menu pl-3 pr-3" aria-labelledby="criteria">
-                                <div class="criteria-menu-container">
-                                    <h5> Matched Criteria <i class="icon icon-close"></i> </h5>
-                                    <ul class="resetul">
-                                        <li class="criteria-one-item">
-                                            <img src="img/icon-criteria-location.png" alt="">
-                                            <p class="success"> Location <i class="fa fa-check "></i> </p>
-                                        </li><!-- criteria-one-item -->
-                                        <li class="criteria-one-item">
-                                            <img src="img/icon-criteria-gender.png" alt="">
-                                            <p class="success"> Gender <i class="fa fa-check "></i> </p>
-                                        </li><!-- criteria-one-item -->
-                                        <li class="criteria-one-item">
-                                            <img src="img/icon-criteria-age.png" alt="">
-                                            <p class="success"> Age <i class="fa fa-check "></i> </p>
-                                        </li><!-- criteria-one-item -->
-                                        <li class="criteria-one-item">
-                                            <img src="img/icon-criteria-job.png" alt="">
-                                            <p class="danger"> Aob <i class="fa fa-times "></i> </p>
-                                        </li><!-- criteria-one-item -->
-                                        <li class="criteria-one-item">
-                                            <img src="img/icon-criteria-interests.png" alt="">
-                                            <p class="danger"> Interests <i class="fa fa-times "></i> </p>
-                                        </li><!-- criteria-one-item -->
-                                    </ul>
-                                </div><!-- criteria-menu-container -->
-                            </div> <!-- dropdown-menu -->
-                        </div> <!-- dropdown -->
-
-                    </div><!-- matched-criteria-container -->
-                </div><!-- arrows-container -->
-
-            </div> <!-- #home-video-carousel -->
         </div><!-- homepage-content -->
     </div><!-- container -->
 </div><!-- page-content -->
 
 <?php include 'footer.php'; ?>
-
-
-
 
 <!-- Share Modal -->
 <div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="shareModalLabel" aria-hidden="true">
@@ -737,8 +545,8 @@
     </div> <!-- modal-dialog -->
 </div> <!-- Delete Modal END -->
 
-
 <script>
     homeBrandSlider();
+    homeMobileBrandSlider();
     homeTogglePlayVideo();
 </script>

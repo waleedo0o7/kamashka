@@ -50,21 +50,11 @@ $("#toggle-search").on("click", function () {
     $(".search-container").toggleClass("show");
 });
 
-// homepage Get Last Item Event
-$('#home-video-carousel').on('slid.bs.carousel', function () {
-    // alert("aaa");
-    // alert("MAIN SLIDER HAS STARTED")
-    let carouselItmesLenth = $("#home-video-carousel .carousel-inner").children().length;
-    let ativeItem = $("#home-video-carousel .carousel-item.active").index() + 1;
 
-    // console.log(`ativeItem : ${ativeItem} carouselItmesLenth : ${carouselItmesLenth}`);
-    if (ativeItem == carouselItmesLenth) {
-        // alert("This Is Last Item");
-    }
 
-})
 
-// homepage owl carousel
+
+// homepage carousel
 let homeBrandSlider = () => {
     $(document).ready(function () {
         $('.brand-slider').slick({
@@ -76,7 +66,9 @@ let homeBrandSlider = () => {
     });
 }
 
-// Progress Slider
+
+
+// my profile --> Progress Slider
 let progressSlider = () => {
     // Homepage --> Brand Slider 
     $(document).ready(function () {
@@ -89,8 +81,7 @@ let progressSlider = () => {
     });
 }
 
-
-// Progress Slider
+// my profile --> Progress Slider
 let profileInfoSlider = () => {
     // Homepage --> Brand Slider 
     $(document).ready(function () {
@@ -494,11 +485,94 @@ $(document).ready(function () {
 });
 
 
- 
 
-$('#home-video-carousel').on('slide.bs.carousel', function () { 
-    homeBrandSlider();
+
+$('.homepage-slick-slider').on('beforeChange', function (event, slick, direction , index) {
+    // console.log(index);
+    let sliderlItmesLenth = $(".homepage-slick-slider").children(".slick-list").children(".slick-track").children().length;
+    console.log(sliderlItmesLenth);
+
+});
+
+
+
+
+// homepage mobile matched criteria --> init matched criteria slider
+$(document).ready(function () {
+    $('.matched-criteria-slider').slick({
+        slidesToShow: 4.5,
+        slidesToScroll: 1,
+        infinite: false, 
+        draggable: false,
+        arrows : false
+    });
+});
+
+
+
+
+
+// homepage --> init Fullscreen slider
+$(document).ready(function () {
+    $('.homepage-slick-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false,
+        arrows: true,
+        fade: true,
+        draggable: false
+    });
+});
+
+
+
+// Homepage Mobile Brand Slider
+let homeMobileBrandSlider = () => {
+    $(document).ready(function () {
+        $('.mobile-brand-slider').slick({
+            slidesToShow: 2.3,
+            slidesToScroll: 1,
+            infinite: false,
+            arrows: false,
+            swipeToSlide : 2
+        });
+    });
+}
+
+
+
+// homepage Get Last Item Event
+$('#home-video-carousel').on('slid.bs.carousel', function () {
+    // alert("aaa");
+    // alert("MAIN SLIDER HAS STARTED")
+    let carouselItmesLenth = $("#home-video-carousel .carousel-inner").children().length;
+    let ativeItem = $("#home-video-carousel .carousel-item.active").index() + 1;
+
+    // console.log(`ativeItem : ${ativeItem} carouselItmesLenth : ${carouselItmesLenth}`);
+    if (ativeItem == carouselItmesLenth) {
+        // alert("This Is Last Item");
+    }
 })
 
 
 
+
+// Mobile Homepage --> Show Brand Details
+$(document).ready(function () {
+    $(".more-btn-container").on("click", function () {
+        $(".mobile-menu").fadeOut(0);
+        $(this).siblings(".mobile-brand-data").fadeIn(0);
+        $(".mobile-brand-slider").slick('setPosition');
+        $(".matched-criteria-slider").slick('setPosition'); 
+    });
+});
+
+
+
+// Mobile Homepage --> Hide Brand Details
+$(document).ready(function () {
+    $(".mobile-brand-header .close").on("click", function () {
+        $(this).parents(".mobile-brand-data").fadeOut(0);
+        $(".mobile-menu").fadeIn(0);
+    });
+});

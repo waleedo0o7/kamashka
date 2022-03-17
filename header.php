@@ -73,7 +73,7 @@
                 <li>
 
                     <div class="icon-container">
-                        <div class="dropdown custom-dropdown ">
+                        <div class="dropdown custom-dropdown dropdown-mobile-popup ">
                             <a class="dropdown-toggle resetbtn" type="button" id="signin" data-toggle="dropdown">
                                 <i class="icon icon-user"></i>
                             </a>
@@ -99,7 +99,7 @@
             </ul> <!-- menu-icons -->
 
             <div class="user-icons">
-                <div class="dropdown custom-dropdown">
+                <div class="dropdown custom-dropdown dropdown-mobile-popup">
                     <button class="dropdown-toggle language-btn resetbtn" type="button" id="language" data-toggle="dropdown">
                         <img class="img-fluid" src="img/flag-kuwait.png" />
                     </button>
