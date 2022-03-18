@@ -413,6 +413,7 @@
   }
   .mobile-view .video-container .brand-details .data p.name img {
     margin-left: 5px;
+    width: 15px;
   }
   .mobile-view .video-container .brand-details .data p {
     margin-bottom: 0;
@@ -466,7 +467,7 @@
   .mobile-view .video-container .mobile-brand-data {
     background: #FFF;
     color: #555;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -586,11 +587,8 @@
     margin: 0 10px;
   }
 
-  .slick-next,
-.slick-prev {
-    position: absolute;
-    top: 0;
-    left: 0;
+  .owl-main-home-carousel .owl-nav {
+    right: 10px;
   }
 
   #reportModal .report-container {

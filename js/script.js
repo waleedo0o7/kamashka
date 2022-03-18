@@ -1,4 +1,4 @@
-// init home brand slider
+
 if ($(window).width() < 960) {
     // alert('Less than 960');
 }
@@ -34,27 +34,27 @@ else {
     })();
 }
 
-// handel home fullscreen icon
+
+// Homepage --> Toggle Fullscreen Mode
 $("#expand-video").on("click", function () {
     $("body").toggleClass("fullscreen");
     $("#expand-video-icon").toggleClass("icon-expand icon-close");
 });
 
-// toggle mobile icon to show menu
+
+// Header --> toggle mobile icon to show menu
 $(".mobile-menu #mobile-icon , #closeMobileMenu ").on("click", function () {
     $(".mobile-left-menu").toggleClass("show");
 });
 
-// toggle mobile menu to show and hide search
+
+// Header --> toggle mobile menu to show and hide search
 $("#toggle-search").on("click", function () {
     $(".search-container").toggleClass("show");
 });
 
 
-
-
-
-// homepage carousel
+// Homepage --> Brand Slider
 let homeBrandSlider = () => {
     $(document).ready(function () {
         $('.brand-slider').slick({
@@ -361,7 +361,7 @@ $(document).ready(function () {
 
 // Homepage --> toggle like or dislike 
 $(document).ready(function () {
-    $("#toggle-like-btn").on("click", function () {
+    $(".toggle-like-btn").on("click", function () {
         if ($(this).hasClass("icon-heart")) {
             $(this).removeClass("icon-heart");
             $(this).addClass("icon-heart-solid");
@@ -419,39 +419,28 @@ $(document).ready(function () {
 });
 
 
-// Homepage toggle play icon on main video ON DOCUMENT READY 
-let homeTogglePlayVideo = () => {
-    $(document).ready(function () {
-        let video = $(".video");
-        setTimeout(() => {
-            if (!video.get(0).paused) {
-                video.next(".video-overlay").fadeOut(200);
-                $(this).children("img").addClass("hidden");
-            }
-        }, 200);
-    });
-}
 
 
-// Homepage play video on click in overlay play icon
-$(document).ready(function () {
-    $(".video-container .video-overlay").on("click", function () {
-        let video = $(this).prev().get(0);
-        $(this).children("img").addClass("hidden");
-        $(this).fadeOut();
-        video.play();
-    });
-});
 
 
-// Homepage stop video on click in overlay play icon
-$(document).ready(function () {
-    $(".video").on("click", function () {
-        $(this).next().fadeIn(200);
-        $(this).next().children("img").removeClass("hidden");
-        video.stop();
-    });
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Homepage escape to exit fullsreen mode 
 $(document).on('keydown', function (event) {
@@ -463,6 +452,10 @@ $(document).on('keydown', function (event) {
         }
     }
 });
+
+
+
+
 
 
 // MY PROFILE --> change image container
@@ -487,12 +480,6 @@ $(document).ready(function () {
 
 
 
-$('.homepage-slick-slider').on('beforeChange', function (event, slick, direction , index) {
-    // console.log(index);
-    let sliderlItmesLenth = $(".homepage-slick-slider").children(".slick-list").children(".slick-track").children().length;
-    console.log(sliderlItmesLenth);
-
-});
 
 
 
@@ -502,27 +489,14 @@ $(document).ready(function () {
     $('.matched-criteria-slider').slick({
         slidesToShow: 4.5,
         slidesToScroll: 1,
-        infinite: false, 
-        draggable: false,
-        arrows : false
-    });
-});
-
-
-
-
-
-// homepage --> init Fullscreen slider
-$(document).ready(function () {
-    $('.homepage-slick-slider').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
         infinite: false,
-        arrows: true,
-        fade: true,
-        draggable: false
+        arrows: false
     });
 });
+
+
+
+
 
 
 
@@ -534,45 +508,173 @@ let homeMobileBrandSlider = () => {
             slidesToScroll: 1,
             infinite: false,
             arrows: false,
-            swipeToSlide : 2
+            swipeToSlide: 2,
         });
     });
 }
 
-
-
-// homepage Get Last Item Event
-$('#home-video-carousel').on('slid.bs.carousel', function () {
-    // alert("aaa");
-    // alert("MAIN SLIDER HAS STARTED")
-    let carouselItmesLenth = $("#home-video-carousel .carousel-inner").children().length;
-    let ativeItem = $("#home-video-carousel .carousel-item.active").index() + 1;
-
-    // console.log(`ativeItem : ${ativeItem} carouselItmesLenth : ${carouselItmesLenth}`);
-    if (ativeItem == carouselItmesLenth) {
-        // alert("This Is Last Item");
-    }
-})
-
-
-
-
 // Mobile Homepage --> Show Brand Details
 $(document).ready(function () {
     $(".more-btn-container").on("click", function () {
-        $(".mobile-menu").fadeOut(0);
+        $(".mobile-menu , .slider-next , .slider-prev").fadeOut(0);
         $(this).siblings(".mobile-brand-data").fadeIn(0);
         $(".mobile-brand-slider").slick('setPosition');
-        $(".matched-criteria-slider").slick('setPosition'); 
+        $(".matched-criteria-slider").slick('setPosition');
     });
 });
-
-
 
 // Mobile Homepage --> Hide Brand Details
 $(document).ready(function () {
     $(".mobile-brand-header .close").on("click", function () {
         $(this).parents(".mobile-brand-data").fadeOut(0);
-        $(".mobile-menu").fadeIn(0);
+        $(".mobile-menu , .slider-next , .slider-prev").fadeIn(0);
     });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Homepage --> init Fullscreen slider bootstrap
+$('.owl-main-home-carousel').owlCarousel({
+    loop: false,
+    margin: 30,
+    nav: true,
+    items: 1,
+    dots: false,
+    touchDrag: false,
+    mouseDrag: false,
+    navText: ['<i class="slider-prev fa fa-chevron-up"></i>', '<i class="slider-next fa fa-chevron-down"></i>']
+})
+
+
+if ($(window).width() < 960) {
+    // alert('Less than 960');
+
+
+
+    // Homepage --> small screen --> play video on click and hide overlay
+    $(document).ready(function () {
+        $(".mobile-view .overlay-container").on("click", function () {
+            let video = $(this).prev().get(0);
+            $(this).children("img").addClass("hidden");
+            $(this).fadeOut();
+            video.play();
+        });
+    });
+
+
+
+ 
+    $('.owl-main-home-carousel').on('changed.owl.carousel', function (event) {
+
+
+    });
+}
+
+else {
+
+    
+    // alert('MORE than 960');
+
+    // Homepage --> big screen --> play video on click and hide overlay
+    $(document).ready(function () {
+        $(".video-section .video-overlay").on("click", function () {
+            let video = $(this).prev().get(0);
+            $(this).children("img").addClass("hidden");
+            $(this).fadeOut();
+            video.play();
+        });
+    });
+
+    // Homepage --> big screen --> stop video on click and show overlay
+    $(document).ready(function () {
+        $(".video").on("click", function () {
+            $(this).next().fadeIn(200);
+            $(this).next().children("img").removeClass("hidden");
+            $(this).stop();
+        });
+    });
+
+
+    // Homepage --> Toggle play video in BIG SCREEN
+    $('.owl-main-home-carousel').on('changed.owl.carousel', function (event) {
+
+        $(".video-section-content .video").each(function () {
+            $(this).get(0).pause();
+            $(".video-overlay").fadeIn(200);
+            $(".video-overlay").children("img").removeClass("hidden");
+        });
+
+        setTimeout(() => {
+            let video = $(".owl-item.active").children(".item").children(".carousel-item-content").children(".video-section").children(".video-section-content").children(".video-container").children(".video");
+            $(".owl-item.active").children(".item").children(".carousel-item-content").children(".video-section").children(".video-section-content").children(".video-container").children(".video-overlay").fadeOut();
+            $(".owl-item.active").children(".item").children(".carousel-item-content").children(".video-section").children(".video-section-content").children(".video-container").children(".video-overlay").children("img").addClass("hidden");
+            video[0].play();
+        }, 500);
+
+    });
+}
+
+
+
+
+
+
+
+
+    // Homepage --> small screen --> stop video on click and show overlay
+    $(document).ready(function () {
+ 
+
+        $(".owl-carousel").on("click", function () {
+            console.log($(this));
+
+            // let video = $(this).children("video").get(0);
+            // if( video.paused) {
+            //     console.log("video.paused true");
+            //     video.pause();
+            // } else {
+            //     console.log("video.paused false");
+            //     video.play();
+            // }
+            // $(this).next().fadeIn(200);
+            // $(this).next().children("img").removeClass("hidden");
+        });
+    });

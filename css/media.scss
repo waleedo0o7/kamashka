@@ -458,6 +458,7 @@
                         display: flex;
                         img {
                             margin-left: 5px;
+                            width: 15px;
                         }
                     }
                     p {
@@ -519,7 +520,7 @@
             .mobile-brand-data {
                 background: #FFF;
                 color: #555;
-                position: fixed;
+                position: absolute;
                 top: 0;
                 left: 0;
                 width: 100%;
@@ -660,11 +661,8 @@
         }
     }
 
-    .slick-next,
-    .slick-prev {
-        position: absolute;
-        top: 0;
-        left: 0;
+    .owl-main-home-carousel .owl-nav {
+        right: 10px;
     }
 
     #reportModal .report-container {
