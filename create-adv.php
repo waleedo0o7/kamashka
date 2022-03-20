@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 
-<div class="page-content profile edit-profile2">
+<div class="page-content small-content profile create-advertisement">
     <div class="profile-content">
 
         <div class="profile-data w-100">
@@ -12,6 +12,20 @@
                     <input type="text" class="form-control" placeholder="Ads Title" id="name" required="">
                     <span class="invalid-feedback d-none "> This Field Is Required </span>
                 </div><!-- form-group  -->
+
+
+                <div class="form-group mb-3">
+                    <textarea id="about-me" class="form-control" name="" placeholder="Ads Description"></textarea>
+                </div><!-- form-group -->
+
+
+
+
+                <div class="form-group mb-3">
+                    <label for="" class="lead bold"> Upload Photo Or Video </label>
+                    <input id="change-profile-image" class="form-control" type="file" accept="image/png, image/gif, image/jpeg">
+                </div><!-- form-group -->
+
 
                 <div class="submit-btn-container text-center">
                     <a href="#" class="btn btn-custom1 text-center pl-5 pr-5" id="confirmation-btn"> Preview Adv </a>
@@ -25,7 +39,7 @@
 
 <?php include 'footer.php'; ?>
 
-<script> 
+<script>
     onErrorGenderValue();
     calcAge();
 </script>

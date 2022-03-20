@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 
-<div class="page-content profile edit-profile2">
+<div class="page-content small-content profile edit-profile2">
     <div class="profile-content">
 
         <div class="profile-data w-100">
@@ -54,11 +54,9 @@
                     </div><!-- genders-container -->
                 </div><!-- form-group  -->
 
-
                 <div class="submit-btn-container">
                     <a href="#" class="btn btn-custom1 w-100 text-center" id="confirmation-btn"> Next </a>
                 </div><!-- submit-btn-container -->
-
 
             </div><!-- profile-data-content -->
         </div><!-- profile-data -->

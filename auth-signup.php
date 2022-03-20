@@ -28,9 +28,9 @@
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-menu choose-country-list" aria-labelledby="choose-country-btn">
-                                <a data-value="1" class="dropdown-item" href="#"><img src="img/flag-kuwait.png" /> +001 </a>
-                                <a data-value="2" class="dropdown-item " href="#"><img src="img/flag-ksa.png" /> +002 </a>
-                                <a data-value="3" class="dropdown-item " href="#"><img src="img/flag-uae.png" /> +003 </a>
+                                <a data-value="1" class="dropdown-item" href="#"><img src="img/flag-kuwait.png" /> +001 <i class="fa fa-caret-down"></i> </a>
+                                <a data-value="2" class="dropdown-item " href="#"><img src="img/flag-ksa.png" /> +002 <i class="fa fa-caret-down"></i> </a>
+                                <a data-value="3" class="dropdown-item " href="#"><img src="img/flag-uae.png" /> +003 <i class="fa fa-caret-down"></i> </a>
                             </div>
                         </div> <!-- dropdown -->
 
