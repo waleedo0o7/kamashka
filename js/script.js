@@ -601,16 +601,32 @@ if ($(window).width() < 960) {
 
 
 
+    // Homepage --> small screen --> stop video on click and show overlay
+    $(document).ready(function () {
+        $(".mobile-view .video").on("click", function () {
+            $(this).next().fadeIn(200);
+            $(this).next().children("img").removeClass("hidden");
+        });
+    });
+
  
     $('.owl-main-home-carousel').on('changed.owl.carousel', function (event) {
 
+        $(".mobile-view .video").each(function () {
+            $(this).get(0).pause();
+            $(".overlay-container").fadeIn(200); 
+        });
 
+        setTimeout(() => {
+            let video = $(".owl-item.active").children(".item").children(".carousel-item-content").children(".mobile-view").children(".video-container").children(".video");
+            $(".owl-item.active").children(".item").children(".carousel-item-content").children(".mobile-view").children(".video-container").children(".overlay-container").fadeOut();
+            video[0].play();
+        }, 0);
     });
 }
 
 else {
 
-    
     // alert('MORE than 960');
 
     // Homepage --> big screen --> play video on click and hide overlay
@@ -647,7 +663,7 @@ else {
             $(".owl-item.active").children(".item").children(".carousel-item-content").children(".video-section").children(".video-section-content").children(".video-container").children(".video-overlay").fadeOut();
             $(".owl-item.active").children(".item").children(".carousel-item-content").children(".video-section").children(".video-section-content").children(".video-container").children(".video-overlay").children("img").addClass("hidden");
             video[0].play();
-        }, 500);
+        }, 0);
 
     });
 }
@@ -658,23 +674,3 @@ else {
 
 
 
-
-    // Homepage --> small screen --> stop video on click and show overlay
-    $(document).ready(function () {
- 
-
-        $(".owl-carousel").on("click", function () {
-            console.log($(this));
-
-            // let video = $(this).children("video").get(0);
-            // if( video.paused) {
-            //     console.log("video.paused true");
-            //     video.pause();
-            // } else {
-            //     console.log("video.paused false");
-            //     video.play();
-            // }
-            // $(this).next().fadeIn(200);
-            // $(this).next().children("img").removeClass("hidden");
-        });
-    });
