@@ -125,6 +125,22 @@
                         font-size: 30px;
                         margin: 0 5px;
                         display: flex;
+                        cursor: pointer;
+                        position: relative;
+                        span.number {
+                            position: absolute;
+                            background: var(--secondaryColor);
+                            width: 17px;
+                            height: 17px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 50px;
+                            font-size: 10px;
+                            cursor: pointer;
+                            top: 3px;
+                            right: -3px !important;
+                        }
                     }
                 }
             }
@@ -608,6 +624,7 @@
                             img {
                                 height: 35px;
                                 margin: auto;
+                                width: auto;
                             }
 
                             p {

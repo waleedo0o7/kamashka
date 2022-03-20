@@ -580,7 +580,13 @@ $('.owl-main-home-carousel').owlCarousel({
     dots: false,
     touchDrag: false,
     mouseDrag: false,
-    navText: ['<i class="slider-prev fa fa-chevron-up"></i>', '<i class="slider-next fa fa-chevron-down"></i>']
+    navText: ['<i class="slider-prev fa fa-chevron-up"></i>', '<i class="slider-next fa fa-chevron-down"></i>'],
+    animateIn: 'fadeIn',
+    animateOut: 'fadeOut',
+
+    
+    slideSpeed: 2500,
+    paginationSpeed: 2500,
 })
 
 

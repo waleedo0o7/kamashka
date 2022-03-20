@@ -2471,7 +2471,8 @@ i.arrow-icon:before {
   top: calc(50% - 30px);
   right: 150px;
 }
-.owl-main-home-carousel .owl-nav i.slider-next, .owl-main-home-carousel .owl-nav i.slider-prev {
+.owl-main-home-carousel .owl-nav i.slider-next,
+.owl-main-home-carousel .owl-nav i.slider-prev {
   background: #131a45;
   width: 25px;
   height: 25px;

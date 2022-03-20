@@ -66,9 +66,9 @@
 
         <div class="menu-icons-container">
             <ul class="resetul menu-icons">
-                <li> <a href="#"> <i class="icon icon-bell"></i> </a> </li>
-                <li> <a href="#"> <i class="icon icon-heart"></i> </a> </li>
-                <li> <a href="#"> <i class="icon icon-cart"></i> </a> </li>
+                <li> <a href="#"> <i class="icon icon-bell"></i>  <span class="number" style="right: 3px;"> 0 </span></a> </li>
+                <li> <a href="#"> <i class="icon icon-heart"></i> <span class="number" style="right: 3px;"> 0 </span></a> </li>
+                <li> <a href="#"> <i class="icon icon-cart"></i>  <span class="number" style="right: 3px;"> 0 </span></a> </li>
                 <li>
 
                     <div class="icon-container">

@@ -120,6 +120,22 @@
     font-size: 30px;
     margin: 0 5px;
     display: flex;
+    cursor: pointer;
+    position: relative;
+  }
+  .mobile-left-menu .menu-icons-container ul.menu-icons li a span.number {
+    position: absolute;
+    background: var(--secondaryColor);
+    width: 17px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 10px;
+    cursor: pointer;
+    top: 3px;
+    right: -3px !important;
   }
   .mobile-left-menu .menu-icons-container .dropdown-toggle::after {
     display: none;
@@ -547,6 +563,7 @@
   .mobile-view .video-container .mobile-brand-data .mobile-brand-details .mobile-matched-criteria .matched-criteria-slider .criteria-one-item img {
     height: 35px;
     margin: auto;
+    width: auto;
   }
   .mobile-view .video-container .mobile-brand-data .mobile-brand-details .mobile-matched-criteria .matched-criteria-slider .criteria-one-item p {
     font-size: 12px;
