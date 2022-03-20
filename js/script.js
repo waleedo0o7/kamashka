@@ -583,10 +583,8 @@ $('.owl-main-home-carousel').owlCarousel({
     navText: ['<i class="slider-prev fa fa-chevron-up"></i>', '<i class="slider-next fa fa-chevron-down"></i>'],
     animateIn: 'fadeIn',
     animateOut: 'fadeOut',
-
-    
     slideSpeed: 2500,
-    paginationSpeed: 2500,
+    paginationSpeed: 2500
 })
 
 

@@ -19,13 +19,57 @@
                 </div><!-- form-group -->
 
 
-
-
                 <div class="form-group mb-3">
-                    <label for="" class="lead bold"> Upload Photo Or Video </label>
-                    <input id="change-profile-image" class="form-control" type="file" accept="image/png, image/gif, image/jpeg">
+                    <div class="label-and-btn">
+                        <label for="upload-images" class="lead bold"> Upload Photo Or Video </label>
+                        <input id="upload-images" class="form-control" type="file" accept="image/png, image/gif, image/jpeg">
+                    </div><!-- label-and-btn -->
+
+                    <div class="thumbnails-container"> thumbnails-container </div><!-- thumbnails-container -->
                 </div><!-- form-group -->
 
+                <div class="target-audience-container">
+                    <p class="bold"> Target Audience </p>
+                    <div class="target-items-container">
+                        <div class="one-item">
+                            <div class="option">
+                                <label class="option-container">
+                                    <input type="radio" checked="checked" name="target-audience" value="1">
+                                    <span class="checkmark"></span>
+                                    Saved Target 1
+                                </label>
+                            </div><!-- option -->
+                            <div class="actions">
+                                <ul class="resetul">
+                                    <li class="mr-3"> <a class="btn btn-sm btn-custom2 pl-4 pr-4" href=""> Details</a> </li>
+                                    <li class="ml-2"> <a class="btn-edit-custom1" href=""> <i class="fa fa-edit"></i>  </a> </li>
+                                    <li class="ml-2"> <a class="btn-delete-custom1" href=""> <i class="fa fa-trash-alt"></i>  </a> </li>
+                                </ul>
+                            </div><!-- actions -->
+                        </div><!-- one-item -->
+
+
+                        <div class="one-item">
+                            <div class="option">
+                                <label class="option-container">
+                                    <input type="radio"  name="target-audience" value="2">
+                                    <span class="checkmark"></span>
+                                    Saved Target 2
+                                </label>
+                            </div><!-- option -->
+                            <div class="actions">
+                                <ul class="resetul">
+                                    <li class="mr-3"> <a class="btn btn-sm btn-custom2 pl-4 pr-4" href=""> Details</a> </li>
+                                    <li class="ml-2"> <a class="btn-edit-custom1" href=""> <i class="fa fa-edit"></i>  </a> </li>
+                                    <li class="ml-2"> <a class="btn-delete-custom1" href=""> <i class="fa fa-trash-alt"></i>  </a> </li>
+                                </ul>
+                            </div><!-- actions -->
+                        </div><!-- one-item -->
+
+
+
+                    </div><!-- target-items-container -->
+                </div><!-- target-audience-container -->
 
                 <div class="submit-btn-container text-center">
                     <a href="#" class="btn btn-custom1 text-center pl-5 pr-5" id="confirmation-btn"> Preview Adv </a>
