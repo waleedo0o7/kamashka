@@ -1339,7 +1339,8 @@ body.fullscreen .page-content.homepage .arrows-container {
 }
 .homepage .homepage-content .homepage-slick-slider .carousel-item-content,
 .homepage .homepage-content #homepage-bootstrap-slider .carousel-item-content,
-.homepage .homepage-content .owl-main-home-carousel .carousel-item-content {
+.homepage .homepage-content .owl-main-home-carousel .carousel-item-content,
+.homepage .homepage-content .swiper-main-home-slider .carousel-item-content {
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -1347,7 +1348,8 @@ body.fullscreen .page-content.homepage .arrows-container {
 }
 .homepage .homepage-content .homepage-slick-slider .carousel-item-content .icons-container,
 .homepage .homepage-content #homepage-bootstrap-slider .carousel-item-content .icons-container,
-.homepage .homepage-content .owl-main-home-carousel .carousel-item-content .icons-container {
+.homepage .homepage-content .owl-main-home-carousel .carousel-item-content .icons-container,
+.homepage .homepage-content .swiper-main-home-slider .carousel-item-content .icons-container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -1356,24 +1358,28 @@ body.fullscreen .page-content.homepage .arrows-container {
 }
 .homepage .homepage-content .homepage-slick-slider .carousel-item-content .icons-container .video-icons,
 .homepage .homepage-content #homepage-bootstrap-slider .carousel-item-content .icons-container .video-icons,
-.homepage .homepage-content .owl-main-home-carousel .carousel-item-content .icons-container .video-icons {
+.homepage .homepage-content .owl-main-home-carousel .carousel-item-content .icons-container .video-icons,
+.homepage .homepage-content .swiper-main-home-slider .carousel-item-content .icons-container .video-icons {
   font-size: 26px;
 }
 .homepage .homepage-content .homepage-slick-slider .carousel-item-content .icons-container .video-icons p,
 .homepage .homepage-content #homepage-bootstrap-slider .carousel-item-content .icons-container .video-icons p,
-.homepage .homepage-content .owl-main-home-carousel .carousel-item-content .icons-container .video-icons p {
+.homepage .homepage-content .owl-main-home-carousel .carousel-item-content .icons-container .video-icons p,
+.homepage .homepage-content .swiper-main-home-slider .carousel-item-content .icons-container .video-icons p {
   font-size: 14px;
 }
 .homepage .homepage-content .homepage-slick-slider .carousel-item-content .icons-container .video-icons ul,
 .homepage .homepage-content #homepage-bootstrap-slider .carousel-item-content .icons-container .video-icons ul,
-.homepage .homepage-content .owl-main-home-carousel .carousel-item-content .icons-container .video-icons ul {
+.homepage .homepage-content .owl-main-home-carousel .carousel-item-content .icons-container .video-icons ul,
+.homepage .homepage-content .swiper-main-home-slider .carousel-item-content .icons-container .video-icons ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 .homepage .homepage-content .homepage-slick-slider .carousel-item-content .icons-container .video-icons ul li,
 .homepage .homepage-content #homepage-bootstrap-slider .carousel-item-content .icons-container .video-icons ul li,
-.homepage .homepage-content .owl-main-home-carousel .carousel-item-content .icons-container .video-icons ul li {
+.homepage .homepage-content .owl-main-home-carousel .carousel-item-content .icons-container .video-icons ul li,
+.homepage .homepage-content .swiper-main-home-slider .carousel-item-content .icons-container .video-icons ul li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1382,17 +1388,20 @@ body.fullscreen .page-content.homepage .arrows-container {
 }
 .homepage .homepage-content .homepage-slick-slider .carousel-item-content .icons-container .video-icons ul li i#toggle-right-menu,
 .homepage .homepage-content #homepage-bootstrap-slider .carousel-item-content .icons-container .video-icons ul li i#toggle-right-menu,
-.homepage .homepage-content .owl-main-home-carousel .carousel-item-content .icons-container .video-icons ul li i#toggle-right-menu {
+.homepage .homepage-content .owl-main-home-carousel .carousel-item-content .icons-container .video-icons ul li i#toggle-right-menu,
+.homepage .homepage-content .swiper-main-home-slider .carousel-item-content .icons-container .video-icons ul li i#toggle-right-menu {
   cursor: pointer;
 }
 .homepage .homepage-content .homepage-slick-slider .carousel-item-content .icons-container .video-icons ul li i.toggle-like-btn,
 .homepage .homepage-content #homepage-bootstrap-slider .carousel-item-content .icons-container .video-icons ul li i.toggle-like-btn,
-.homepage .homepage-content .owl-main-home-carousel .carousel-item-content .icons-container .video-icons ul li i.toggle-like-btn {
+.homepage .homepage-content .owl-main-home-carousel .carousel-item-content .icons-container .video-icons ul li i.toggle-like-btn,
+.homepage .homepage-content .swiper-main-home-slider .carousel-item-content .icons-container .video-icons ul li i.toggle-like-btn {
   cursor: pointer;
 }
 .homepage .homepage-content .homepage-slick-slider .carousel-item-content .icons-container .video-icons ul li i.toggle-like-btn.icon-heart-solid,
 .homepage .homepage-content #homepage-bootstrap-slider .carousel-item-content .icons-container .video-icons ul li i.toggle-like-btn.icon-heart-solid,
-.homepage .homepage-content .owl-main-home-carousel .carousel-item-content .icons-container .video-icons ul li i.toggle-like-btn.icon-heart-solid {
+.homepage .homepage-content .owl-main-home-carousel .carousel-item-content .icons-container .video-icons ul li i.toggle-like-btn.icon-heart-solid,
+.homepage .homepage-content .swiper-main-home-slider .carousel-item-content .icons-container .video-icons ul li i.toggle-like-btn.icon-heart-solid {
   color: var(--dangerColor);
 }
 
@@ -2472,7 +2481,8 @@ i.arrow-icon:before {
 
 .homepage-slick-slider,
 #homepage-bootstrap-slider,
-.owl-main-home-carousel {
+.owl-main-home-carousel,
+.swiper-main-home-slider {
   width: 100%;
 }
 
@@ -2530,6 +2540,57 @@ i.arrow-icon:before {
 }
 .target-audience-container .target-items-container .one-item .option label.option-container {
   font-size: 14px;
+}
+
+.swiper-main-container {
+  height: 100%;
+  width: 100%;
+}
+.swiper-main-container .swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-main-container .swiper-button-next.swiper-button-disabled,
+.swiper-main-container .swiper-button-prev.swiper-button-disabled {
+  opacity: 0.5;
+}
+.swiper-main-container .swiper-button-next,
+.swiper-main-container .swiper-button-prev {
+  position: relative;
+  left: unset;
+  right: unset;
+  top: unset;
+  margin-top: unset;
+  height: auto;
+  background: #131a45;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  font-size: 12px;
+}
+.swiper-main-container .swiper-button-next .fa,
+.swiper-main-container .swiper-button-next .fa,
+.swiper-main-container .swiper-button-prev .fa,
+.swiper-main-container .swiper-button-prev .fa {
+  color: #fff;
+}
+.swiper-main-container .swiper-button-next:after,
+.swiper-main-container .swiper-button-prev:after {
+  display: none;
+}
+.swiper-main-container .swiper-arrows-container {
+  position: absolute;
+  top: calc(50% - 30px);
+  right: 140px;
+  height: 60px;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */

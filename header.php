@@ -4,9 +4,8 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
-
     <meta name="your-age-is" content="Your Age Is">
 
     <!-- Bootstrap CSS -->
@@ -30,9 +29,11 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
 
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
     <!-- Custom Style -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
 
     <title> Welcome To Kamashka </title>
 
@@ -66,9 +67,9 @@
 
         <div class="menu-icons-container">
             <ul class="resetul menu-icons">
-                <li> <a href="#"> <i class="icon icon-bell"></i>  <span class="number" style="right: 3px;"> 0 </span></a> </li>
+                <li> <a href="#"> <i class="icon icon-bell"></i> <span class="number" style="right: 3px;"> 0 </span></a> </li>
                 <li> <a href="#"> <i class="icon icon-heart"></i> <span class="number" style="right: 3px;"> 0 </span></a> </li>
-                <li> <a href="#"> <i class="icon icon-cart"></i>  <span class="number" style="right: 3px;"> 0 </span></a> </li>
+                <li> <a href="#"> <i class="icon icon-cart"></i> <span class="number" style="right: 3px;"> 0 </span></a> </li>
                 <li>
 
                     <div class="icon-container">
@@ -269,7 +270,7 @@
                                                 <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
                                             </a> <!-- notification-one-item -->
 
- 
+
 
                                         </ul>
                                         <div class="notifications-footer">

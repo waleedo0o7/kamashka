@@ -13,6 +13,16 @@
 
 // Small Laptop Media
 @media all and (max-width: 1200px) {
+    .swiper-main-container {
+        height: 95vh;
+        width: 100vw;
+
+        .swiper-arrows-container {
+            top: 200px !important;
+            display: none;
+        }
+    }
+
     .page-content {
         padding-top: 70px !important;
         height: 100%;
@@ -327,7 +337,7 @@
     }
 
     .video-section .video-section-content .video-container video {
-        height: 100vh;
+        height: 95vh;
     }
 
     .page-content.homepage {
@@ -365,8 +375,9 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            height: 95vh;
             width: 100vw;
+            position: relative;
 
             video.video {
                 height: 100%;
@@ -386,6 +397,10 @@
                     width: 100px;
                     filter: drop-shadow(2px 4px 6px #494949);
                     transition: var(--mainTransition);
+                    &.hidden{ 
+                        opacity: 0;
+                        transition: var(--mainTransition);
+                    }
                 }
             }
 
@@ -539,7 +554,7 @@
             }
 
             .mobile-brand-data {
-                background: #FFF;
+                background: #fff;
                 color: #555;
                 position: absolute;
                 top: 0;

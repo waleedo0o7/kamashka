@@ -12,6 +12,15 @@
 }
 
 @media all and (max-width: 1200px) {
+  .swiper-main-container {
+    height: 95vh;
+    width: 100vw;
+  }
+  .swiper-main-container .swiper-arrows-container {
+    top: 200px !important;
+    display: none;
+  }
+
   .page-content {
     padding-top: 70px !important;
     height: 100%;
@@ -291,7 +300,7 @@
   }
 
   .video-section .video-section-content .video-container video {
-    height: 100vh;
+    height: 95vh;
   }
 
   .page-content.homepage {
@@ -326,8 +335,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 95vh;
     width: 100vw;
+    position: relative;
   }
   .mobile-view .video-container video.video {
     height: 100%;
@@ -346,6 +356,10 @@
   .mobile-view .video-container .overlay-container img {
     width: 100px;
     filter: drop-shadow(2px 4px 6px #494949);
+    transition: var(--mainTransition);
+  }
+  .mobile-view .video-container .overlay-container img.hidden {
+    opacity: 0;
     transition: var(--mainTransition);
   }
   .mobile-view .video-container .shares-container {
@@ -485,7 +499,7 @@
     padding: 6px 10px;
   }
   .mobile-view .video-container .mobile-brand-data {
-    background: #FFF;
+    background: #fff;
     color: #555;
     position: absolute;
     top: 0;
