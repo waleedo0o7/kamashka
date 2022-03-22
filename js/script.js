@@ -514,6 +514,12 @@ $(document).ready(function () {
     $(".mobile-brand-header .close").on("click", function () {
         $(this).parents(".mobile-brand-data").fadeOut(0);
         $(".mobile-menu , .slider-next , .slider-prev").fadeIn(0);
+
+        let video = $(".swiper-slide-active .mobile-view .video").get(0); 
+
+        if (video.paused) { 
+            $(".swiper-slide-active .mobile-view  .overlay-container").click();
+        }
     });
 });
 
