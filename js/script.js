@@ -795,13 +795,7 @@ else {
     })();
 }
 
-
-
-
-
-
-
-
-
-
-
+$(".brand-slider .item img").on("click", function(){ 
+    $(".swiper-slide-active .video").click();
+    $(".swiper-slide-active .video").get(0).pause();
+});

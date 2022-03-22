@@ -35,7 +35,7 @@
                                         <div class="brand-slider">
 
                                             <div class="item">
-                                                <a data-fancybox="nike-big-gallery" href="videos/video2.mp4" data-width="640" data-height="360">
+                                                <a data-fancybox="nike-big-gallery" class="fancybox" href="videos/video2.mp4" data-width="640" data-height="360">
                                                     <div class="video-item">
                                                         <video>
                                                             <source src="videos/video2.mp4" type="video/mp4">
@@ -48,31 +48,31 @@
                                             </div> <!-- item -->
 
                                             <div class="item">
-                                                <a data-fancybox="nike-big-gallery" href="img/brand-slider/02.jpg">
+                                                <a data-fancybox="nike-big-gallery" class="fancybox" href="img/brand-slider/02.jpg">
                                                     <img src="img/brand-slider/02.jpg" class="img-fluid">
                                                 </a>
                                             </div> <!-- item -->
 
                                             <div class="item">
-                                                <a data-fancybox="nike-big-gallery" href="img/brand-slider/03.jpg">
+                                                <a data-fancybox="nike-big-gallery" class="fancybox" href="img/brand-slider/03.jpg">
                                                     <img src="img/brand-slider/03.jpg" class="img-fluid">
                                                 </a>
                                             </div> <!-- item -->
 
                                             <div class="item">
-                                                <a data-fancybox="nike-big-gallery" href="img/brand-slider/01.jpg">
+                                                <a data-fancybox="nike-big-gallery" class="fancybox" href="img/brand-slider/01.jpg">
                                                     <img src="img/brand-slider/01.jpg" class="img-fluid">
                                                 </a>
                                             </div> <!-- item -->
 
                                             <div class="item">
-                                                <a data-fancybox="nike-big-gallery" href="img/brand-slider/03.jpg">
+                                                <a data-fancybox="nike-big-gallery" class="fancybox" href="img/brand-slider/03.jpg">
                                                     <img src="img/brand-slider/03.jpg" class="img-fluid">
                                                 </a>
                                             </div> <!-- item -->
 
                                             <div class="item">
-                                                <a data-fancybox="nike-big-gallery" href="img/brand-slider/01.jpg">
+                                                <a data-fancybox="nike-big-gallery" class="fancybox" href="img/brand-slider/01.jpg">
                                                     <img src="img/brand-slider/01.jpg" class="img-fluid">
                                                 </a>
                                             </div> <!-- item -->
@@ -398,12 +398,6 @@
  
                             </div><!-- carousel-item-content -->
                         </div> <!-- swiper-slide END -->
-
-
-
-
-
-
 
                         <div class="swiper-slide">
                             <div class="carousel-item-content">
@@ -796,8 +790,6 @@
                             </div><!-- carousel-item-content -->
                         </div> <!-- swiper-slide END -->
 
-
-
                     </div> <!-- swiper-wrapper -->
 
                     <!-- If we need navigation buttons -->
@@ -805,6 +797,12 @@
                         <div class="swiper-button-prev"> <i class="fa fa-chevron-up"></i> </div>
                         <div class="swiper-button-next"> <i class="fa fa-chevron-down"></i> </div>
                     </div><!-- swiper arrows-container -->
+
+                    <div id="expand-video" class="expand-video-container">
+                        <div class="icon-container">
+                            <i id="expand-video-icon" class="icon icon-expand"></i>
+                        </div><!-- icon-container -->
+                    </div>
 
                 </div> <!-- swiper -->
 

@@ -627,25 +627,36 @@ body.fullscreen #top-header {
 body.fullscreen .page-content.homepage {
   height: 100%;
 }
-body.fullscreen .page-content.homepage .carousel-inner,
-body.fullscreen .page-content.homepage .carousel-item,
-body.fullscreen .page-content.homepage .carousel-item-content {
-  height: 100%;
+body.fullscreen .page-content.homepage .swiper-main-container .swiper-slide {
+  max-height: 100vh;
 }
-body.fullscreen .page-content.homepage .homepage-content .video-section .video-section-content .video-container {
-  height: 100%;
+body.fullscreen .page-content.homepage .swiper-main-container .swiper-arrows-container {
+  right: 120px;
 }
-body.fullscreen .page-content.homepage .homepage-content .video-section .video-section-content .video-container .carousel-item-content video {
-  width: auto;
+body.fullscreen .page-content.homepage .swiper-main-container .expand-video-container {
+  right: 110px;
 }
-body.fullscreen .page-content.homepage .homepage-content .video-section .video-section-content .video-container .carousel-item-content .icons-container {
-  padding-top: 5px;
+
+.expand-video-container {
+  position: absolute;
+  top: 10px;
+  right: 130px;
+  z-index: 9;
 }
-body.fullscreen .page-content.homepage .homepage-content .video-section .video-section-content .video-container .arrows-container .expand-video-container {
-  top: 5px;
+.expand-video-container .icon-container {
+  background: #fff;
+  color: #3c3c3c;
+  font-size: 16px;
+  border-radius: 500px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
-body.fullscreen .page-content.homepage .arrows-container {
-  right: 80px;
+.expand-video-container .icon-container i {
+  margin-top: 4px;
 }
 
 #top-header .btn-custom1,
@@ -2550,6 +2561,9 @@ i.arrow-icon:before {
   width: 100%;
   height: 100%;
 }
+.swiper-main-container .swiper .swiper-slide {
+  max-height: calc(100vh - 58px);
+}
 .swiper-main-container .swiper-button-next.swiper-button-disabled,
 .swiper-main-container .swiper-button-prev.swiper-button-disabled {
   opacity: 0.5;
@@ -2583,7 +2597,7 @@ i.arrow-icon:before {
 }
 .swiper-main-container .swiper-arrows-container {
   position: absolute;
-  top: calc(50% - 30px);
+  top: calc(50vh - 30px);
   right: 140px;
   height: 60px;
   z-index: 9999;
