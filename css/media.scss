@@ -392,7 +392,7 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
-                background: RGBA(0, 0, 0, 0.3);
+                background: RGBA(0, 0, 0, 0.1);
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -699,10 +699,6 @@
                 margin: 0 10px;
             }
         }
-    }
-
-    .owl-main-home-carousel .owl-nav {
-        right: 10px;
     }
 
     #reportModal .report-container {

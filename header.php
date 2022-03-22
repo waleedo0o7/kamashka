@@ -8,13 +8,13 @@
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <meta name="your-age-is" content="Your Age Is">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
     <!-- Poppins Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" integrity="sha512-gRH0EcIcYBFkQTnbpO8k0WlsD20x5VzjhOA1Og8+ZUAhcMUCvd+APD35FJw3GzHAP3e+mP28YcDJxVr745loHw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -26,9 +26,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
 
+    <!-- swiper Slider -->
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
     <!-- Custom Style -->
@@ -72,6 +71,7 @@
                 <li> <a href="#"> <i class="icon icon-cart"></i> <span class="number" style="right: 3px;"> 0 </span></a> </li>
                 <li>
 
+                    <!--  IF USER LOOOOOGINED  for mobile  -->
                     <div class="icon-container">
                         <div class="dropdown custom-dropdown dropdown-mobile-popup ">
                             <a class="dropdown-toggle resetbtn" type="button" id="signin" data-toggle="dropdown">
@@ -91,6 +91,18 @@
                                 </ul>
 
                             </div> <!-- dropdown-menu -->
+
+                        </div> <!-- dropdown -->
+                    </div><!-- icon-container -->
+
+
+                    <!--  IF USER  NOOOOT  LOOOOOGINED  for mobile -->
+
+                    <div class="icon-container">
+                        <div class="dropdown custom-dropdown dropdown-mobile-popup ">
+                            <a class="dropdown-toggle resetbtn" href="#">
+                                <i class="icon icon-user"></i>
+                            </a>
                         </div> <!-- dropdown -->
                     </div><!-- icon-container -->
 
@@ -369,6 +381,28 @@
                         </div><!-- icon-container -->
 
 
+
+
+
+
+
+
+
+
+                        <!--  IF USER LOOOOGINED for web  -->
+                        <div class="icon-container d-none">
+                            <div class="dropdown custom-dropdown">
+                                <a class="resetbtn" href="#">
+                                    <i class="icon icon-user"></i>
+                                </a>
+                            </div> <!-- dropdown -->
+                        </div><!-- icon-container -->
+
+
+
+
+
+                        <!--  IF USER     NOOOOT   LOOOOGINED for web  -->
                         <div class="icon-container">
                             <div class="dropdown custom-dropdown">
                                 <button class="dropdown-toggle resetbtn" type="button" id="signin" data-toggle="dropdown">
@@ -390,6 +424,10 @@
                                 </div> <!-- dropdown-menu -->
                             </div> <!-- dropdown -->
                         </div><!-- icon-container -->
+
+
+
+
 
 
                     </div> <!-- icons -->
@@ -509,6 +547,10 @@
                         <div class="name-and-comment">
                             <p class="name bold"> Ahmed Mohamed <img class="img-fluid" src="img/verified.svg"> </p>
                             <p class="comment"> Nice Advertisement ( this is MY comment ) </p>
+                            <div class="edit-container">
+                                <input class="form-control" type="text" value="Nice Advertisement ( this is MY comment )" />
+                                <a class="save-comment" href="#"> save </a>
+                            </div><!-- input-container -->
                         </div><!-- name-and-comment -->
                         <div class="actions">
 

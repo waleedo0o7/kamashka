@@ -246,9 +246,8 @@ button.resetbtn::after {
 
 .form-control {
   border-radius: 8px !important;
-  padding: 8px;
-  border: none;
   padding: 10px 25px;
+  border: 1px solid #ced4daa3;
 }
 .form-control::placeholder {
   font-size: 12px;
@@ -801,11 +800,11 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 #top-header .top-header-content .icons .icon-container {
   position: relative;
 }
-#top-header .top-header-content .icons .icon-container button {
+#top-header .top-header-content .icons .icon-container button, #top-header .top-header-content .icons .icon-container a.resetbtn {
   color: #fff;
   width: 55px;
 }
-#top-header .top-header-content .icons .icon-container button i.icon {
+#top-header .top-header-content .icons .icon-container button i.icon, #top-header .top-header-content .icons .icon-container a.resetbtn i.icon {
   font-size: 20px;
   padding: 5px;
   cursor: pointer;
@@ -2355,6 +2354,32 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   margin: 0;
   font-size: 12px;
 }
+.right-menu-container .right-menu .right-menu-content .all-comments .one-comment .name-and-comment .edit-container {
+  display: none;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  padding-right: 45px;
+}
+.right-menu-container .right-menu .right-menu-content .all-comments .one-comment .name-and-comment .edit-container input {
+  padding: 5px;
+  font-size: 12px;
+  padding-right: 10px;
+}
+.right-menu-container .right-menu .right-menu-content .all-comments .one-comment .name-and-comment .edit-container a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  background: #131a45;
+  padding: 4px 10px;
+}
+.right-menu-container .right-menu .right-menu-content .all-comments .one-comment .name-and-comment.edit-mood p.comment {
+  display: none;
+}
+.right-menu-container .right-menu .right-menu-content .all-comments .one-comment .name-and-comment.edit-mood .edit-container {
+  display: block;
+}
 .right-menu-container .right-menu .right-menu-content .all-comments .one-comment .comment-copied {
   color: var(--successColor);
   position: absolute;
@@ -2561,7 +2586,7 @@ i.arrow-icon:before {
   width: 100%;
   height: 100%;
 }
-.swiper-main-container .swiper .swiper-slide {
+.swiper-main-container .swiper .swiper-slide-active {
   max-height: calc(100vh - 58px);
 }
 .swiper-main-container .swiper-button-next.swiper-button-disabled,

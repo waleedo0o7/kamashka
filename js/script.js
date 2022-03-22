@@ -10,6 +10,12 @@ $("#expand-video").on("click", function () {
 // Header --> toggle mobile icon to show menu
 $(".mobile-menu #mobile-icon , #closeMobileMenu ").on("click", function () {
     $(".mobile-left-menu").toggleClass("show");
+
+    let video = $(".swiper-slide-active .mobile-view .video").get(0); 
+
+    if (!video.paused) { 
+        $(".swiper-slide-active .mobile-view  .overlay-container").click();
+    }
 });
 
 
@@ -333,7 +339,6 @@ $(document).ready(function () {
         } else {
             $(this).removeClass("icon-heart-solid");
             $(this).addClass("icon-heart");
-
         }
     });
 });
@@ -368,12 +373,22 @@ $(document).ready(function () {
 
 // Homepage edit comment  
 $(document).ready(function () {
-    $(".edit-comment").on("click", function () {
-        let comment = $(this).parents(".one-comment").children(".name-and-comment").children(".comment").text();
-        $("#add-comment").val(comment);
-        $("#add-comment").focus();
-        $("#add-comment").select();
-    })
+    $(".edit-comment").on("click", function (event) {
+        // $("#add-comment").val(comment);
+        // $("#add-comment").focus();
+        // $("#add-comment").select();
+
+        $(event.target).closest(".one-comment").children(".name-and-comment").addClass("edit-mood");
+    });
+
+    $(".save-comment").on("click", function (event) {
+        comment = $(event.target).closest(".one-comment").children(".name-and-comment").children(".edit-container").children("input").val();
+        
+        
+        $(event.target).closest(".one-comment").children(".name-and-comment").removeClass("edit-mood");
+        $(event.target).closest(".one-comment").children(".name-and-comment").children(".comment").text(comment)
+        
+    });
 });
 
 // Homepage send comment
@@ -485,6 +500,12 @@ $(document).ready(function () {
         $(this).siblings(".mobile-brand-data").fadeIn(0);
         $(".mobile-brand-slider").slick('setPosition');
         $(".matched-criteria-slider").slick('setPosition');
+
+        let video = $(".swiper-slide-active .mobile-view .video").get(0); 
+
+        if (!video.paused) { 
+            $(".swiper-slide-active .mobile-view  .overlay-container").click();
+        }
     });
 });
 
@@ -609,7 +630,6 @@ else {  // alert('MORE than 960');
 
 let homepageMainSlider = () => {
 
-
     var HomepageMainSliderSwiper = new Swiper(".mySwiper", {
         direction: 'vertical',
         spaceBetween: 50,
@@ -623,8 +643,6 @@ let homepageMainSlider = () => {
             clickable: true,
         },
     });
-
-
 
     if ($(window).width() < 960) { // less
 
@@ -644,23 +662,23 @@ let homepageMainSlider = () => {
 
     } else { // more
 
-
         HomepageMainSliderSwiper.on('slideChange', function () {
 
             // stop all videos
             $(".video-section-content .video").each(function () {
                 $(this).get(0).pause();
-                $(".video-overlay").fadeIn(200);
+                $(".video-overlay").fadeIn(0);
                 $(".video-overlay").children("img").removeClass("hidden");
             });
 
             // play active video
             setTimeout(() => {
                 let video = $(".swiper-slide-active").children(".carousel-item-content").children(".video-section").children(".video-section-content").children(".video-container").children(".video");
-                $(".swiper-slide-active").children(".carousel-item-content").children(".video-section").children(".video-section-content").children(".video-container").children(".video-overlay").fadeOut();
+                $(".swiper-slide-active").children(".carousel-item-content").children(".video-section").children(".video-section-content").children(".video-container").children(".video-overlay").fadeOut(0);
                 $(".swiper-slide-active").children(".carousel-item-content").children(".video-section").children(".video-section-content").children(".video-container").children(".video-overlay").children("img").addClass("hidden");
                 video[0].play();
-            }, 200);
+            }, 0);
+
         });
     }
 }
@@ -796,6 +814,10 @@ else {
 }
 
 $(".brand-slider .item img").on("click", function(){ 
-    $(".swiper-slide-active .video").click();
-    $(".swiper-slide-active .video").get(0).pause();
+    setTimeout(() => {
+        if ( $("body").hasClass("fancybox-active") ) {
+            $(".swiper-slide-active .video").click();
+            $(".swiper-slide-active .video").get(0).pause();
+        }
+    }, 10);
 });
