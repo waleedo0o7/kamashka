@@ -917,7 +917,7 @@
     </div> <!-- modal-dialog -->
 </div> <!-- Report Modal END -->
 
-<!-- Report Modal Start -->
+<!-- Delete Modal Start -->
 <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
     <div class="modal-dialog  " role="document">
         <div class="modal-content">

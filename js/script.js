@@ -11,9 +11,9 @@ $("#expand-video").on("click", function () {
 $(".mobile-menu #mobile-icon , #closeMobileMenu ").on("click", function () {
     $(".mobile-left-menu").toggleClass("show");
 
-    let video = $(".swiper-slide-active .mobile-view .video").get(0); 
+    let video = $(".swiper-slide-active .mobile-view .video").get(0);
 
-    if (!video.paused) { 
+    if (!video.paused) {
         $(".swiper-slide-active .mobile-view  .overlay-container").click();
     }
 });
@@ -383,11 +383,11 @@ $(document).ready(function () {
 
     $(".save-comment").on("click", function (event) {
         comment = $(event.target).closest(".one-comment").children(".name-and-comment").children(".edit-container").children("input").val();
-        
-        
+
+
         $(event.target).closest(".one-comment").children(".name-and-comment").removeClass("edit-mood");
         $(event.target).closest(".one-comment").children(".name-and-comment").children(".comment").text(comment)
-        
+
     });
 });
 
@@ -501,9 +501,9 @@ $(document).ready(function () {
         $(".mobile-brand-slider").slick('setPosition');
         $(".matched-criteria-slider").slick('setPosition');
 
-        let video = $(".swiper-slide-active .mobile-view .video").get(0); 
+        let video = $(".swiper-slide-active .mobile-view .video").get(0);
 
-        if (!video.paused) { 
+        if (!video.paused) {
             $(".swiper-slide-active .mobile-view  .overlay-container").click();
         }
     });
@@ -515,9 +515,9 @@ $(document).ready(function () {
         $(this).parents(".mobile-brand-data").fadeOut(0);
         $(".mobile-menu , .slider-next , .slider-prev").fadeIn(0);
 
-        let video = $(".swiper-slide-active .mobile-view .video").get(0); 
+        let video = $(".swiper-slide-active .mobile-view .video").get(0);
 
-        if (video.paused) { 
+        if (video.paused) {
             $(".swiper-slide-active .mobile-view  .overlay-container").click();
         }
     });
@@ -819,11 +819,160 @@ else {
     })();
 }
 
-$(".brand-slider .item img").on("click", function(){ 
+$(".brand-slider .item img").on("click", function () {
     setTimeout(() => {
-        if ( $("body").hasClass("fancybox-active") ) {
+        if ($("body").hasClass("fancybox-active")) {
             $(".swiper-slide-active .video").click();
             $(".swiper-slide-active .video").get(0).pause();
         }
     }, 10);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.getElementsByClassName('upload-with-thumbnails')[0].addEventListener('change', function (event) {
+    let file = event.target.files[0];
+    let fileReader = new FileReader();
+    if (file.type.match('image')) {
+        fileReader.onload = function () {
+            let div = document.createElement("div");
+            div.classList.add("one-thumbnail");
+
+            let img = document.createElement('img');
+            img.src = fileReader.result;
+
+            let icon = document.createElement('a');
+            icon.classList.add("icon","icon-close");
+            
+            div.append(img);
+            div.append(icon);
+            document.getElementsByClassName('thumbnails-container')[0].appendChild(div);
+        };
+        fileReader.readAsDataURL(file);
+    } else {
+        fileReader.onload = function () {
+            var blob = new Blob([fileReader.result], { type: file.type });
+            var url = URL.createObjectURL(blob);
+            var video = document.createElement('video');
+            var timeupdate = function () {
+                if (snapImage()) {
+                    video.removeEventListener('timeupdate', timeupdate);
+                    video.pause();
+                }
+            };
+            video.addEventListener('loadeddata', function () {
+                if (snapImage()) {
+                    video.removeEventListener('timeupdate', timeupdate);
+                }
+            });
+            var snapImage = function () {
+                var canvas = document.createElement('canvas');
+                canvas.width = video.videoWidth;
+                canvas.height = video.videoHeight;
+                canvas.getContext('2d').drawImage(video, 0, 0, canvas.width, canvas.height);
+                var image = canvas.toDataURL();
+                var success = image.length > 100000;
+                if (success) {
+
+                    
+                    let div = document.createElement("div");
+                    div.classList.add("one-thumbnail");
+
+                    var img = document.createElement('img');
+                    img.src = image;
+
+                    
+                    let icon = document.createElement('a');
+                    icon.classList.add("icon","icon-close");
+
+
+                    div.append(img);
+                    div.append(icon);
+
+                     
+
+
+         
+        
+                    
+                    document.getElementsByClassName('thumbnails-container')[0].appendChild(div);
+
+
+
+                    URL.revokeObjectURL(url);
+                }
+                return success;
+            };
+            video.addEventListener('timeupdate', timeupdate);
+            video.preload = 'metadata';
+            video.src = url;
+            // Load video in Safari / IE11
+            video.muted = true;
+            video.playsInline = true;
+            video.play();
+        };
+        fileReader.readAsArrayBuffer(file);
+    }
+
+
+    // replace open btn
+    setTimeout(() => {
+        if ( $(".thumbnails-container").children().length >= 3 ) {
+            $(".upload-btn").addClass("d-none");
+            $(".upload-btn-disabled").removeClass("d-none");
+            $(".max-limit").removeClass("d-none");
+        }
+    }, 200);
+
+});
+
+$(".upload-btn").on("click",function(){
+    $("#upload").click();
+});
+
+$("body").on("click",".icon-close",function(event){
+    event.preventDefault();
+    $(this).parent().remove();
+    $(".upload-btn").removeClass("d-none");
+    $(".upload-btn-disabled").addClass("d-none");
+    $(".max-limit").addClass("d-none");
 });

@@ -258,8 +258,8 @@ button.resetbtn {
 }
 
 .form-control {
-    border-radius: 8px !important;  
-    padding: 10px 25px;
+    border-radius: 8px !important;
+    padding: 10px 15px;
     border: 1px solid #ced4daa3;
 
     &::placeholder {
@@ -881,7 +881,8 @@ body.fullscreen {
             padding-top: 7px;
             .icon-container {
                 position: relative;
-                button , a.resetbtn {
+                button,
+                a.resetbtn {
                     color: #fff;
                     width: 55px;
                     i.icon {
@@ -1621,7 +1622,7 @@ body.fullscreen {
     align-items: center;
     .signin-content,
     .auth-page-content {
-        width: 500px;
+        width: 600px;
         max-width: 100%;
         padding: 10px;
         text-align: center;
@@ -1933,10 +1934,7 @@ body.fullscreen {
     height: calc(100% - 57px);
     .profile-content {
         display: flex;
-        height: 100%;
-        label {
-            color: #000;
-        }
+        height: 100%; 
         .profile-sidebar {
             width: 25%;
             .profile-info {
@@ -2025,7 +2023,7 @@ body.fullscreen {
             background-color: var(--gray);
             padding: 30px;
             height: 100%;
-            overflow-y: scroll;
+            overflow-y: auto;
 
             .profile-data-content {
                 .items-group {
@@ -2238,7 +2236,7 @@ body.fullscreen {
 
 .profile.small-content {
     .profile-data-content {
-        width: 500px;
+        width: 700px;
         max-width: 100%;
         margin: auto;
     }
@@ -2405,7 +2403,7 @@ body.fullscreen {
                             }
 
                             .edit-container {
-                                display: block; 
+                                display: block;
                                 input {
                                 }
                             }
@@ -2614,7 +2612,7 @@ i.arrow-icon {
 
 .target-audience-container {
     background: #fff;
-    padding: 10px;
+    padding: 20px;
     border-radius: 8px;
 
     .target-items-container {
@@ -2628,6 +2626,7 @@ i.arrow-icon {
             .option {
                 label.option-container {
                     font-size: 14px;
+                    margin: 0px;
                 }
             }
         }
@@ -2689,5 +2688,90 @@ i.arrow-icon {
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
+    }
+}
+
+
+.upload-with-thumbnails-container {
+
+    .label-and-btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+
+        .max-limit{
+            margin: 0;
+            color: var(--dangerColor);
+            position: absolute;
+            top: 0;
+            left: 200px;
+            margin-top: 5px;
+            text-transform: capitalize;
+        }
+        
+        .upload-btn-disabled {
+            opacity: 0.5;
+            &:hover{
+                background-color: unset;
+                color: var(--secondaryColor);
+                cursor: auto;
+            }
+        }
+    
+    }
+
+
+
+    .thumbnails-container {
+        .one-thumbnail {
+            display: inline-flex;
+            position: relative;
+            padding: 15px 15px 18px 15px;
+            margin-right: 6px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+
+            a.icon.icon-close {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                background: var(--dangerColor);
+                color: #fff;
+                width: 20px;
+                height: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50px;
+                font-size: 10px;
+                cursor: pointer;
+            }
+
+            &:nth-child(1) {
+                border: 2px solid #fa935b;
+
+                &:after {
+                    content: "default view";
+                    background: #fa935b;
+                    position: absolute;
+                    bottom: -20px;
+                    left: calc(50% - 57px);
+                    font-size: 14px;
+                    text-transform: capitalize;
+                    padding: 5px 14px;
+                    border-radius: 5px;
+                    color: #fff;
+                }
+            }
+
+            img {
+                width: 150px;
+                height: 110px;
+                vertical-align: middle;
+                text-align: center;
+                border-radius: 10px;
+            }
+        }
     }
 }

@@ -246,7 +246,7 @@ button.resetbtn::after {
 
 .form-control {
   border-radius: 8px !important;
-  padding: 10px 25px;
+  padding: 10px 15px;
   border: 1px solid #ced4daa3;
 }
 .form-control::placeholder {
@@ -800,11 +800,13 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 #top-header .top-header-content .icons .icon-container {
   position: relative;
 }
-#top-header .top-header-content .icons .icon-container button, #top-header .top-header-content .icons .icon-container a.resetbtn {
+#top-header .top-header-content .icons .icon-container button,
+#top-header .top-header-content .icons .icon-container a.resetbtn {
   color: #fff;
   width: 55px;
 }
-#top-header .top-header-content .icons .icon-container button i.icon, #top-header .top-header-content .icons .icon-container a.resetbtn i.icon {
+#top-header .top-header-content .icons .icon-container button i.icon,
+#top-header .top-header-content .icons .icon-container a.resetbtn i.icon {
   font-size: 20px;
   padding: 5px;
   cursor: pointer;
@@ -1501,7 +1503,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 .forget-password .auth-page-content,
 .auth-page .signin-content,
 .auth-page .auth-page-content {
-  width: 500px;
+  width: 600px;
   max-width: 100%;
   padding: 10px;
   text-align: center;
@@ -1951,9 +1953,6 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   display: flex;
   height: 100%;
 }
-.profile .profile-content label {
-  color: #000;
-}
 .profile .profile-content .profile-sidebar {
   width: 25%;
 }
@@ -2036,7 +2035,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   background-color: var(--gray);
   padding: 30px;
   height: 100%;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 .profile .profile-content .profile-data .profile-data-content .items-group {
   background: #fff;
@@ -2223,7 +2222,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 }
 
 .profile.small-content .profile-data-content {
-  width: 500px;
+  width: 700px;
   max-width: 100%;
   margin: auto;
 }
@@ -2563,7 +2562,7 @@ i.arrow-icon:before {
 
 .target-audience-container {
   background: #fff;
-  padding: 10px;
+  padding: 20px;
   border-radius: 8px;
 }
 .target-audience-container .target-items-container .one-item {
@@ -2576,6 +2575,7 @@ i.arrow-icon:before {
 }
 .target-audience-container .target-items-container .one-item .option label.option-container {
   font-size: 14px;
+  margin: 0px;
 }
 
 .swiper-main-container {
@@ -2630,6 +2630,75 @@ i.arrow-icon:before {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+}
+
+.upload-with-thumbnails-container .label-and-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.upload-with-thumbnails-container .label-and-btn .max-limit {
+  margin: 0;
+  color: var(--dangerColor);
+  position: absolute;
+  top: 0;
+  left: 200px;
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+.upload-with-thumbnails-container .label-and-btn .upload-btn-disabled {
+  opacity: 0.5;
+}
+.upload-with-thumbnails-container .label-and-btn .upload-btn-disabled:hover {
+  background-color: unset;
+  color: var(--secondaryColor);
+  cursor: auto;
+}
+.upload-with-thumbnails-container .thumbnails-container .one-thumbnail {
+  display: inline-flex;
+  position: relative;
+  padding: 15px 15px 18px 15px;
+  margin-right: 6px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.upload-with-thumbnails-container .thumbnails-container .one-thumbnail a.icon.icon-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--dangerColor);
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 10px;
+  cursor: pointer;
+}
+.upload-with-thumbnails-container .thumbnails-container .one-thumbnail:nth-child(1) {
+  border: 2px solid #fa935b;
+}
+.upload-with-thumbnails-container .thumbnails-container .one-thumbnail:nth-child(1):after {
+  content: "default view";
+  background: #fa935b;
+  position: absolute;
+  bottom: -20px;
+  left: calc(50% - 57px);
+  font-size: 14px;
+  text-transform: capitalize;
+  padding: 5px 14px;
+  border-radius: 5px;
+  color: #fff;
+}
+.upload-with-thumbnails-container .thumbnails-container .one-thumbnail img {
+  width: 150px;
+  height: 110px;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
