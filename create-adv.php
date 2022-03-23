@@ -76,7 +76,7 @@
 
                     </div><!-- target-items-container -->
 
-                    <a class="btn btn-sm btn-custom2 pl-4 pr-4 " href="#"> Create New Target </a>
+                    <a class="btn btn-sm btn-custom2 pl-3 pr-3 " href="create-target-audience.php"> Create New Target </a>
                 </div><!-- target-audience-container -->
 
 
@@ -85,7 +85,7 @@
                     <div class="col-md-6">
                         <div class="form-group mb-3 relative">
                             <label for="" class=" bold"> Your Budget </label>
-                            <input type="text" class="form-control" placeholder="Ads Title" id="name" required="">
+                            <input type="text" class="form-control" placeholder="2000 KWD" id="name" required="">
                             <span class="invalid-feedback d-none "> This Field Is Required </span>
                         </div><!-- form-group  -->
                     </div><!-- col-md-6 -->
@@ -93,7 +93,7 @@
                     <div class="col-md-6">
                         <div class="form-group mb-3 relative">
                             <label for="" class=" bold"> Number Of Target Audience </label>
-                            <input type="text" class="form-control" placeholder="Ads Title" id="name" required="">
+                            <input type="text" class="form-control" placeholder="2000" id="name" required="">
                             <span class="invalid-feedback d-none "> This Field Is Required </span>
                         </div><!-- form-group  -->
                     </div><!-- col-md-6 -->
@@ -147,7 +147,7 @@
 
 
 
+
 <script>
-    onErrorGenderValue();
-    calcAge();
+    uploadImagesWithThumbnails();
 </script>
