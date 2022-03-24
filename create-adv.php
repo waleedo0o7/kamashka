@@ -29,8 +29,9 @@
                         <input id="upload" class="upload-with-thumbnails d-none" type="file" accept=".jpg,.jpeg.,.gif,.png,.mov,.mp4" />
                     </div><!-- label-and-btn -->
 
-                    <div class="thumbnails-container"></div>
+                    <div class="thumbnails-wrapper"></div>
 
+                    <input id="primary-asset-id" type="text" placeholder="primary asset id" class="d-none">
 
                 </div><!-- form-group -->
 

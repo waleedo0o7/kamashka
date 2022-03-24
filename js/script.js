@@ -874,20 +874,32 @@ let uploadImagesWithThumbnails = () => {
     document.getElementsByClassName('upload-with-thumbnails')[0].addEventListener('change', function (event) {
         let file = event.target.files[0];
         let fileReader = new FileReader();
+
+
         if (file.type.match('image')) {
             fileReader.onload = function () {
+
                 let div = document.createElement("div");
                 div.classList.add("one-thumbnail");
+                div.classList.add("has-loading");
+
+                
+                let loadingDiv = document.createElement("div");
+                loadingDiv.classList.add("loading");
+
 
                 let img = document.createElement('img');
                 img.src = fileReader.result;
+                img.setAttribute("asset_id", 1);
 
                 let icon = document.createElement('a');
                 icon.classList.add("icon", "icon-close");
 
                 div.append(img);
                 div.append(icon);
-                document.getElementsByClassName('thumbnails-container')[0].appendChild(div);
+                div.append(loadingDiv);
+                document.getElementsByClassName('thumbnails-wrapper')[0].appendChild(div);
+
             };
             fileReader.readAsDataURL(file);
         } else {
@@ -915,30 +927,20 @@ let uploadImagesWithThumbnails = () => {
                     var success = image.length > 100000;
                     if (success) {
 
-
                         let div = document.createElement("div");
                         div.classList.add("one-thumbnail");
 
                         var img = document.createElement('img');
                         img.src = image;
-
+                        img.setAttribute("asset_id", 1);
 
                         let icon = document.createElement('a');
                         icon.classList.add("icon", "icon-close");
 
-
                         div.append(img);
                         div.append(icon);
 
-
-
-
-
-
-
-                        document.getElementsByClassName('thumbnails-container')[0].appendChild(div);
-
-
+                        document.getElementsByClassName('thumbnails-wrapper')[0].appendChild(div);
 
                         URL.revokeObjectURL(url);
                     }
@@ -955,21 +957,23 @@ let uploadImagesWithThumbnails = () => {
             fileReader.readAsArrayBuffer(file);
         }
 
-
-        // replace open btn
+ 
         setTimeout(() => {
-            if ($(".thumbnails-container").children().length >= 3) {
+            if ($(".thumbnails-wrapper").children().length >= 3) {
                 $(".upload-btn").addClass("d-none");
                 $(".upload-btn-disabled").removeClass("d-none");
                 $(".max-limit").removeClass("d-none");
             }
-        }, 200);
+
+
+            if ($(".thumbnails-wrapper").children().length == 1) {
+                $(".thumbnails-wrapper").children(".one-thumbnail").first().addClass("default");
+
+                $("#primary-asset-id").val($(".thumbnails-wrapper").children(".one-thumbnail").first().children("img").attr("asset_id"));
+            }
+        }, 100);
 
     });
-
-
-
-
 
 
     $(".upload-btn").on("click", function () {
@@ -978,10 +982,23 @@ let uploadImagesWithThumbnails = () => {
 
     $("body").on("click", ".icon-close", function (event) {
         event.preventDefault();
+
+        if ($(this).parent().hasClass("default")) {
+            setTimeout(() => {
+                console.log($(".one-thumbnail:nth-child(1)").children("img").click());
+            }, 200);
+        }
+
         $(this).parent().remove();
         $(".upload-btn").removeClass("d-none");
         $(".upload-btn-disabled").addClass("d-none");
         $(".max-limit").addClass("d-none");
+    });
+
+    $("body").on("click", ".one-thumbnail img", function (event) {
+        $(".one-thumbnail").removeClass("default");
+        $(this).parent().addClass("default");
+        $("#primary-asset-id").val($(this).attr("asset_id"));
     });
 
 }
@@ -1011,36 +1028,30 @@ let uploadImagesWithThumbnails = () => {
 
 
 
-    // In your Javascript (external .js resource or <script> tag)
-    $(document).ready(function() {
-        $('.select2-multiple').select2();
-        $('#select-main-category').select2({
-            placeholder: "Select Main Category"
-        });
+
+
+
+
+
+
+
+
+
+
+// init select2 
+$(document).ready(function () {
+    $('.select2-multiple').select2();
+    $('#select-main-category').select2({
+        placeholder: "Select Main Category"
     });
+});
 
 
-    $(document).ready(() => {
-        // test the plugin here.
-        $("#sliderrange").tfRangeSlider();
+// Init Slider Range
+$(document).ready(() => {
 
-        setTimeout(() => {
-            console.log($("#sliderrange").slider());
-        }, 3000);
-
-        $("#sliderrange").on("slide", function(event, ui) {
-            let startVal = ui.values[0];
-            let endVal = ui.values[1];
-
-            $(".slider-range-values .start").text(startVal);
-            $(".slider-range-values .end").text(endVal);
-        });
-
-
-    });
-
-    (function($) {
-        $.fn.tfRangeSlider = function(options) {
+    (function ($) {
+        $.fn.tfRangeSlider = function (options) {
             return $(this).slider({
                 range: true,
                 min: 0,
@@ -1051,44 +1062,62 @@ let uploadImagesWithThumbnails = () => {
     })(jQuery);
 
 
+    $("#sliderrange").tfRangeSlider();
 
-    $(document).ready(() => {
+    setTimeout(() => {
+        console.log($("#sliderrange").slider());
+    }, 3000);
 
+    $("#sliderrange").on("slide", function (event, ui) {
+        let startVal = ui.values[0];
+        let endVal = ui.values[1];
 
-
-        let input = document.getElementById("add-keyword-input");
-        input.addEventListener("keyup", function(event) {
-            if (event.keyCode === 13) {
-                event.preventDefault();
-                document.getElementById("add-keyword-btn").click();
-            }
-        });
-
-
-
-
-        let keywords = [];
-        $("#add-keyword-btn").on("click", function() {
-            let inputVal = $("#add-keyword-input").val();
-            if (inputVal) {
-                $(".keywords-list").append(`<div class="keyword"> ${inputVal} <i class="icon icon-close remove-keyword"></i> </div>`)
-                keywords.push(inputVal);
-                $("#keywordsFinal").val(keywords);
-                $("#add-keyword-input").val('')
-            }
-
-        });
-
-        $("body").on("click", ".remove-keyword", function() {
-            let thisIndex = $(this).parent(".keyword").index();
-            keywords.splice(thisIndex, 1);
-            $("#keywordsFinal").val(keywords);
-            setTimeout(() => {
-                $(this).parent().remove();
-            }, 100);
-        });
+        $(".slider-range-values .start").text(startVal);
+        $(".slider-range-values .end").text(endVal);
+        $("#from_age").val(startVal)
+        $("#to_age").val(endVal)
     });
 
 
+});
 
-    
+
+
+
+
+
+// Keyword 
+$(document).ready(() => {
+
+    let input = document.getElementById("add-keyword-input");
+    input.addEventListener("keyup", function (event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            document.getElementById("add-keyword-btn").click();
+        }
+    });
+
+
+    let keywords = [];
+    $("#add-keyword-btn").on("click", function () {
+        let inputVal = $("#add-keyword-input").val();
+        if (inputVal) {
+            $(".keywords-list").append(`<div class="keyword"> ${inputVal} <i class="icon icon-close remove-keyword"></i> </div>`)
+            keywords.push(inputVal);
+            $("#keywordsFinal").val(keywords);
+            $("#add-keyword-input").val('')
+        }
+
+    });
+
+    $("body").on("click", ".remove-keyword", function () {
+        let thisIndex = $(this).parent(".keyword").index();
+        keywords.splice(thisIndex, 1);
+        $("#keywordsFinal").val(keywords);
+        setTimeout(() => {
+            $(this).parent().remove();
+        }, 100);
+    });
+});
+
+

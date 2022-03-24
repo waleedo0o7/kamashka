@@ -104,7 +104,7 @@
                     <!--  IF USER  NOOOOT  LOOOOOGINED  for mobile -->
 
                     <div class="icon-container">
-                        <div class="dropdown custom-dropdown dropdown-mobile-popup ">
+                        <div class="dropdown custom-dropdown dropdown-mobile-popup d-none ">
                             <a class="dropdown-toggle resetbtn" href="#">
                                 <i class="icon icon-user"></i>
                             </a>

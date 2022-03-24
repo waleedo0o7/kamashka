@@ -27,7 +27,7 @@
     }
 
     .page-content {
-        padding-top: 70px !important;
+        padding-top: 60px !important;
         height: 100%;
     }
 
@@ -47,6 +47,7 @@
         align-items: center;
         padding-right: 0px;
         z-index: 9;
+        background: RGBA(0,0,0,0.5);
 
         .mobile-icon-container {
             padding: 10px;

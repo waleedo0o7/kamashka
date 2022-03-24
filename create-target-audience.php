@@ -62,7 +62,7 @@
 
 
 
-                    <div class="col-md-6">
+                    <div class="col-md-6 mb-3">
                         <label for="target-age" class="mb-3"> Age </label>
 
                         <div class="slider-range-container">
@@ -71,6 +71,9 @@
                                 <p class="start m-0"> 0 </p>
                                 <p class="end m-0"> 100 </p>
                             </div><!-- slider-range-values -->
+
+                            <input class="d-none" id="from_age" placeholder="From age" type="text">
+                            <input class="d-none" id="to_age"   placeholder="To age"   type="text">
                         </div><!-- slider-range-container" -->
                     </div> <!-- col-md-6 -->
 
@@ -78,11 +81,14 @@
 
                 <div class="search-location-container mb-3 ">
 
-                    <div class="form-group mb-0 relative">
+                    <div class="form-group mb-3 relative">
                         <input type="text" class="form-control" placeholder="Search For Location" id="search-location">
                     </div><!-- form-group  -->
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218360.36364995778!2d29.814800765744582!3d31.224034935279008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c49126710fd3%3A0xb4e0cda629ee6bb9!2sAlexandria%2C%20Alexandria%20Governorate!5e0!3m2!1sen!2seg!4v1648074395392!5m2!1sen!2seg" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="map-wrapper">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218360.36364995778!2d29.814800765744582!3d31.224034935279008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c49126710fd3%3A0xb4e0cda629ee6bb9!2sAlexandria%2C%20Alexandria%20Governorate!5e0!3m2!1sen!2seg!4v1648074395392!5m2!1sen!2seg" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div><!-- map-wrapper -->
+
                 </div><!-- search-location-container -->
 
 
@@ -94,7 +100,7 @@
 
                     <div class="keyword-input-container">
                         <input type="text" class="form-control mb-2" placeholder="Type Your Keyword" id="add-keyword-input">
-                        <a class="add-keyword-btn" id="add-keyword-btn" href="#"> Add </a>
+                        <a class="add-keyword-btn d-none" id="add-keyword-btn" href="#"> Add </a>
                     </div><!-- keyword-input-container -->
 
                     <div class="keywords-list"></div><!-- keywords-list -->
