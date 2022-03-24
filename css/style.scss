@@ -246,8 +246,8 @@ button.resetbtn {
 }
 
 .btn-lg {
-    border-radius: 30px;
-    padding: 5px 25px;
+    border-radius: 10px;
+    padding: 5px 35px;
     font-size: 1rem;
 }
 
@@ -2068,6 +2068,15 @@ body.fullscreen {
     }
 }
 
+.profile.user-profile {
+    .profile-sidebar {
+        width: 35%;
+    }
+    .profile-data {
+        width: 65%;
+    }
+}
+
 .profile.edit-profile1 {
     .profile-sidebar {
         width: 35%;
@@ -2753,10 +2762,10 @@ i.arrow-icon {
             }
 
             &.has-loading {
-                .loading{
+                .loading {
                     background: RGBA(0, 0, 0, 0.5);
-                    height: calc( 100% - 30px );
-                    width: calc( 100% - 30px );
+                    height: calc(100% - 30px);
+                    width: calc(100% - 30px);
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -2766,16 +2775,12 @@ i.arrow-icon {
                     z-index: 9;
                     border-radius: 8px;
                     margin: 15px;
-                    &:before{
+                    &:before {
                         content: url(loading2.gif);
                         transform: scale(0.08);
                     }
                 }
             }
-
-
-
-
 
             &.default {
                 border: 2px solid #fa935b;
@@ -2793,8 +2798,6 @@ i.arrow-icon {
                     color: #fff;
                 }
             }
-
-
         }
     }
 }
@@ -2924,14 +2927,102 @@ i.arrow-icon {
     }
 }
 
-
-
-.search-location-container{
-    .map-wrapper{
+.search-location-container {
+    .map-wrapper {
         iframe {
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 0 10px #e4e4e4;
+        }
+    }
+}
+
+.user-profile-data {
+    .nav-tabs {
+        padding: 0 5px;
+        border: none; 
+        margin-bottom: 10px;
+        .nav-link{
+            background-color: transparent;
+            border-color: transparent;
+            color: #aaaaaa;
+            font-weight: bold;
+            position: relative;
+            &.active {
+                color: var(--secondaryColor);
+                &:after {
+                    content: "";
+                    position: absolute;
+                    bottom: 2px;
+                    left: calc(50% - 10px);
+                    width: 20px;
+                    height: 3px;
+                    background: var(--secondaryColor);
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+
+    .shared-ads-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        .one-item {
+            width: 20%;
+            padding: 5px;
+            margin-bottom: 10px;
+            position: relative;
+            p {
+                margin: 0;
+                position: absolute;
+                bottom: 5px;
+                left: 5px;
+                color: #fff;
+                width: calc( 100% - 10px);
+                padding: 0 7px;
+                z-index: 9;
+            }
+            a {
+                position: absolute;
+                top: 5px;
+                left: 5px;
+                z-index: 999;
+                color: #fff;
+                background: #131a4577;
+                width: calc( 100% - 10px);
+                height: calc( 100% - 10px);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 22px;
+                text-align: center;
+                opacity: 0;
+                transition: var(--mainTransition);
+            }
+
+            &:hover a {
+                opacity: 1;
+                transition: var(--mainTransition);
+            }
+
+
+ 
+            .bottom-shadow {
+                height: 130px;
+                position: absolute;
+                left: 5px;
+                width: calc( 100% - 10px);
+                opacity: 0.5;
+            }
+    
+ 
+            .bottom-shadow {
+                bottom: 5px;
+                background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 20%, rgba(0, 0, 0, 0) 50%);
+            }
+
+
+
         }
     }
 }

@@ -110,12 +110,12 @@
                                                 <div class="col-md-6">
                                                     <div class="images">
                                                         <ul>
-                                                            <li> <a href="#"> <img class="img-fluid" src="img/person01.png" /></a> </li>
-                                                            <li> <a href="#"> <img class="img-fluid" src="img/person02.png" /></a> </li>
-                                                            <li> <a href="#"> <img class="img-fluid" src="img/person03.png" /></a> </li>
-                                                            <li> <a href="#"> <img class="img-fluid" src="img/person01.png" /></a> </li>
-                                                            <li> <a href="#"> <img class="img-fluid" src="img/person02.png" /></a> </li>
-                                                            <li> <a href="#">
+                                                            <li> <a href="user-profile.php"> <img class="img-fluid" src="img/person01.png" /></a> </li>
+                                                            <li> <a href="user-profile.php"> <img class="img-fluid" src="img/person02.png" /></a> </li>
+                                                            <li> <a href="user-profile.php"> <img class="img-fluid" src="img/person03.png" /></a> </li>
+                                                            <li> <a href="user-profile.php"> <img class="img-fluid" src="img/person01.png" /></a> </li>
+                                                            <li> <a href="user-profile.php"> <img class="img-fluid" src="img/person02.png" /></a> </li>
+                                                            <li> <a href="user-profile.php">
                                                                     <div class="num"> +3K </div>
                                                                 </a> </li>
                                                         </ul>
