@@ -138,8 +138,8 @@
                             <div class="autocomplete-items"></div>
                         </span> <!-- autocomplete -->
                         <span class="data">
-                            <span class="tag"><span class="text" _value="Nairobi 047">Nairobi 047</span><span class="close">&times;</span></span>
-                            <span class="tag"><span class="text" _value="24">Mombasa</span><span class="close">&times;</span></span>
+                            <!-- <span class="tag"><span class="text" _value="Nairobi 047">Nairobi 047</span><span class="close">&times;</span></span>
+                            <span class="tag"><span class="text" _value="24">Mombasa</span><span class="close">&times;</span></span> -->
                         </span> <!-- data -->
                     </div> <!-- myTags -->
 

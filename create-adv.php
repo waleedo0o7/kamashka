@@ -31,7 +31,7 @@
 
                     <div class="thumbnails-wrapper"></div>
 
-                    <input id="primary-asset-id" type="text" placeholder="primary asset id" class=" ">
+                    <input id="primary-asset-id" type="text" placeholder="primary asset id" class="d-none">
 
                 </div><!-- form-group -->
 
