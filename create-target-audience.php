@@ -1,5 +1,19 @@
 <?php include 'header.php'; ?>
 
+
+
+<!--    /*syntax highlighting*/-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shCore.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shThemeFadeToGrey.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shCore.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushJScript.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushCss.min.js"></script>
+
+
+<link rel="stylesheet" href="tags/tags.css">
+
+
+
 <div class="page-content small-content profile create-advertisement">
     <div class="profile-content">
 
@@ -73,7 +87,7 @@
                             </div><!-- slider-range-values -->
 
                             <input class="d-none" id="from_age" placeholder="From age" type="text">
-                            <input class="d-none" id="to_age"   placeholder="To age"   type="text">
+                            <input class="d-none" id="to_age" placeholder="To age" type="text">
                         </div><!-- slider-range-container" -->
                     </div> <!-- col-md-6 -->
 
@@ -94,8 +108,8 @@
 
 
 
-
-                <div class="form-group mb-3 relative keyword-main-container">
+                <!-- keywords V1 -->
+                <div class="form-group mb-3 relative keyword-main-container v1 d-none">
                     <label for="target-gender"> Keyword </label>
 
                     <div class="keyword-input-container">
@@ -105,8 +119,33 @@
 
                     <div class="keywords-list"></div><!-- keywords-list -->
 
-                    <input type="text" class="form-control" placeholder="all values here" id="keywordsFinal" id="">
+                    <input type="text" class="form-control d-none" placeholder="all values here" id="keywordsFinal" id="">
+
                 </div><!-- form-group  -->
+
+
+
+
+
+                <!-- keywords V2 -->
+                <div class="form-group mb-3 relative v2">
+                    <label for="target-gender"> Keyword </label>
+
+
+                    <div class="tags-input" id="myTags">
+                        <span class="autocomplete">
+                            <input class="form-control w-100" type="text">
+                            <div class="autocomplete-items"></div>
+                        </span> <!-- autocomplete -->
+                        <span class="data">
+                            <span class="tag"><span class="text" _value="Nairobi 047">Nairobi 047</span><span class="close">&times;</span></span>
+                            <span class="tag"><span class="text" _value="24">Mombasa</span><span class="close">&times;</span></span>
+                        </span> <!-- data -->
+                    </div> <!-- myTags -->
+
+                </div><!-- form-group  -->
+
+
 
 
 
@@ -122,9 +161,7 @@
 
 <?php include 'footer.php'; ?>
 
-
-
-
+<script type="text/javascript" src="tags/tags.js"></script>
 
 <!-- Delete Modal Start -->
 <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">

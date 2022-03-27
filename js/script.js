@@ -1010,34 +1010,6 @@ let uploadImagesWithThumbnails = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // init select2 
 $(document).ready(function () {
     $('.select2-multiple').select2();
@@ -1078,15 +1050,10 @@ $(document).ready(() => {
         $("#to_age").val(endVal)
     });
 
-
 });
 
 
-
-
-
-
-// Keyword 
+// Keyword   V1 
 $(document).ready(() => {
 
     let input = document.getElementById("add-keyword-input");
@@ -1119,5 +1086,3 @@ $(document).ready(() => {
         }, 100);
     });
 });
-
-
