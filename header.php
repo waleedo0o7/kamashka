@@ -45,7 +45,8 @@
 
 <body class="">
 
-    <div class="mobile-menu">
+    <!-- mobile-menu-home IF HOMEPAGE -->
+    <div class="mobile-menu mobile-menu-home ">
         <div class="mobile-icon-container">
             <i id="mobile-icon" class="icon icon-meni-icon"></i>
         </div> <!-- logo -->

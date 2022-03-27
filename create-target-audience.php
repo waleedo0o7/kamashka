@@ -129,12 +129,12 @@
 
                 <!-- keywords V2 -->
                 <div class="form-group mb-3 relative v2">
-                    <label for="target-gender"> Keyword </label>
+                    <label for="target-gender"> Keywords </label>
 
 
                     <div class="tags-input" id="myTags">
                         <span class="autocomplete">
-                            <input class="form-control w-100" type="text">
+                            <input placeholder="Type Keyword for suggestions..." class="form-control w-100" type="text">
                             <div class="autocomplete-items"></div>
                         </span> <!-- autocomplete -->
                         <span class="data">
@@ -150,7 +150,7 @@
 
 
                 <div class="submit-btn-container text-center">
-                    <a href="#" class="btn btn-custom1 text-center pl-5 pr-5" id="confirmation-btn"> Save </a>
+                    <a href="#" class="btn btn-custom1 text-center pl-5 pr-5 w-100" id="confirmation-btn"> Save </a>
                 </div><!-- submit-btn-container -->
 
             </div><!-- profile-data-content -->

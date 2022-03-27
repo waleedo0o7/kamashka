@@ -46,15 +46,20 @@
         justify-content: space-between;
         align-items: center;
         padding-right: 0px;
-        z-index: 9;
-        background: RGBA(0,0,0,0.5);
+        z-index: 9;  
+
+        &.mobile-menu-home{ 
+            .icon {
+                color: #fff;
+            }
+        }
 
         .mobile-icon-container {
             padding: 10px;
             width: 140px;
         }
         .icon {
-            color: #fff;
+            color: #000;
             font-size: 28px;
             padding: 10px;
             cursor: pointer;
