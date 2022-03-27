@@ -2257,7 +2257,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 
 .profile.shares .shares-wrapper {
   background: #fff;
-  padding: 30px 40px;
+  padding: 10px 40px;
 }
 .profile.shares .shares-wrapper .one-user {
   display: flex;
@@ -2281,11 +2281,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   font-size: 17px;
   margin-bottom: 0;
 }
-.profile.shares .shares-wrapper .one-user:nth-child(1) {
-  padding-top: 0;
-}
 .profile.shares .shares-wrapper .one-user:last-child {
-  padding-bottom: 0;
   border-bottom: none;
 }
 

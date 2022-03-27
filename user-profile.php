@@ -33,11 +33,18 @@
                     </div><!-- shares -->
                 </div><!-- followers-and-shares-wrapper -->
 
-                <div class="categories-wrapper">
-
-                </div><!-- categories-wrapper -->
 
                 <div class="about">
+
+                <div class="categories-wrapper text-center mb-3">
+                    <a class="btn btn-custom2 follow btn-sm mb-2"  href="#"> Fashion </a> 
+                    <a class="btn btn-custom2 follow btn-sm mb-2"  href="#"> Beauty </a> 
+                    <a class="btn btn-custom2 follow btn-sm mb-2"  href="#"> brand </a> 
+                    <a class="btn btn-custom2 follow btn-sm mb-2"  href="#"> designer </a> 
+                    <a class="btn btn-custom2 follow btn-sm mb-2"  href="#"> colors </a>  
+                    <a class="btn btn-custom2 follow btn-sm mb-2"  href="#"> brand </a> 
+                    <a class="btn btn-custom2 follow btn-sm mb-2"  href="#"> designer </a> 
+                </div><!-- categories-wrapper -->
                     <p> Zara is one of the biggest international fashion companies, and it belongs to Inditex, one of the worldZara is one of the biggest international fashion companies, </p>
                 </div><!-- about -->
 

@@ -2277,7 +2277,7 @@ body.fullscreen {
 .profile.shares{
     .shares-wrapper {
         background: #fff;
-        padding: 30px 40px;
+        padding: 10px 40px;
         .one-user {
             display: flex;
             justify-content: space-between;
@@ -2298,12 +2298,8 @@ body.fullscreen {
                     font-size: 17px;
                     margin-bottom: 0;
                 }
-            }
-            &:nth-child(1) {
-                padding-top: 0;
-            }
-            &:last-child {
-                padding-bottom: 0;
+            } 
+            &:last-child { 
                 border-bottom: none;
             }
         }
