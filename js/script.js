@@ -7,7 +7,7 @@ $("#expand-video").on("click", function () {
 // Header --> toggle mobile icon to show menu
 $(".mobile-menu #mobile-icon , #closeMobileMenu ").on("click", function () {
     $(".mobile-left-menu").toggleClass("show");
- 
+
 
     let video = $(".swiper-slide-active .mobile-view .video").get(0);
 
@@ -881,7 +881,7 @@ let uploadImagesWithThumbnails = () => {
                 div.classList.add("one-thumbnail");
                 div.classList.add("has-loading");
 
-                
+
                 let loadingDiv = document.createElement("div");
                 loadingDiv.classList.add("loading-container");
 
@@ -959,7 +959,7 @@ let uploadImagesWithThumbnails = () => {
             fileReader.readAsArrayBuffer(file);
         }
 
- 
+
         setTimeout(() => {
             if ($(".thumbnails-wrapper").children().length >= 3) {
                 $(".upload-btn").addClass("d-none");
@@ -1096,15 +1096,15 @@ $(document).ready(() => {
 
 // user profile --> manual tabs btns
 
-$("#shares-ads-tab2").on("click", function(){
+$("#shares-ads-tab2").on("click", function () {
     $("#shared-ads-tab").click();
 });
 
-$("#followers-tab2").on("click", function(){
+$("#followers-tab2").on("click", function () {
     $("#followers-tab").click();
 });
 
-$("#Following-tab2").on("click", function(){
+$("#Following-tab2").on("click", function () {
     $("#following-tab").click();
 });
 
@@ -1113,11 +1113,23 @@ $("#Following-tab2").on("click", function(){
 
 // check if homepage
 
-if ( window.location.pathname == '/kamashka/'  ||  window.location.pathname == '/kamashka/home.php'  || window.location.pathname == '/'  ){
+if (window.location.pathname == '/kamashka/' || window.location.pathname == '/kamashka/home.php' || window.location.pathname == '/') {
     // Index (home) page
-    $(".mobile-menu").addClass("mobile-menu-home"); 
+    $(".mobile-menu").addClass("mobile-menu-home");
 
 } else {
     // Other page
-    $(".mobile-menu").removeClass("mobile-menu-home"); 
+    $(".mobile-menu").removeClass("mobile-menu-home");
 }
+
+
+
+
+
+ 
+window.onload = (event) => { 
+    $("body").fadeIn();
+    $("a").on("click", function(){ 
+        $("body").fadeOut();
+    })
+};
