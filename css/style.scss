@@ -654,6 +654,12 @@ video::-webkit-media-controls-enclosure {
     transition: var(--mainTransition);
 }
 
+
+.bg-white{
+    background-color: #fff;
+}
+
+
 // main style END
 
 //  homepage video carousel fade START
@@ -2080,6 +2086,7 @@ body.fullscreen {
             text-align: center;
             a{
                 color : #000;
+                cursor: pointer;
                 p{
                     margin-bottom: 2px;
                 }
@@ -2273,9 +2280,8 @@ body.fullscreen {
         margin: auto;
     }
 }
-
-.profile.shares{
-    .shares-wrapper {
+ 
+    .users-wrapper {
         background: #fff;
         padding: 10px 40px;
         .one-user {
@@ -2304,7 +2310,6 @@ body.fullscreen {
             }
         }
     }
-}
 
 #shareModal {
     .share-icons-container {
@@ -2816,25 +2821,42 @@ i.arrow-icon {
                 cursor: pointer;
             }
 
+            .loading-container{
+                display: none;
+            }
+
             &.has-loading {
-                .loading {
-                    background: RGBA(0, 0, 0, 0.5);
-                    height: calc(100% - 30px);
-                    width: calc(100% - 30px);
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+
+                a.icon.icon-close{
+                    opacity: 0;
+                }
+
+                img{
+                    opacity: 0.4;
+                }
+
+                .loading-container {
                     position: absolute;
-                    top: 0;
-                    left: 0;
-                    z-index: 9;
-                    border-radius: 8px;
-                    margin: 15px;
-                    &:before {
-                        content: url(loading2.gif);
-                        transform: scale(0.08);
+                    top: 15px;
+                    left: 15px;
+                    width: calc( 100% - 30px);
+                    height: calc( 100% - 33px);
+                    background: RGBA(0, 0, 0, 0.5);
+                    border-radius: 10px;
+                    display: flex;
+                    .sbl-circ-path {
+                        height: 40px;
+                        width: 40px;
+                        color: rgb(90 90 90 / 0%);
+                        position: relative;
+                        display: inline-block;
+                        border: 2px solid;
+                        border-radius: 50%;
+                        border-right-color: #ffffff;
+                        animation: rotate 1s linear infinite;
                     }
                 }
+
             }
 
             &.default {

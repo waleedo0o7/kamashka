@@ -8,7 +8,7 @@
 
                 <h3 class="bold mb-4"> Shares </h3>
 
-                <div class="shares-wrapper">
+                <div class="users-wrapper">
 
                     <div class="one-user">
                         <div class="image-and-name-wrapper">

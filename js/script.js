@@ -1,15 +1,13 @@
-
-
 // Homepage --> Toggle Fullscreen Mode
 $("#expand-video").on("click", function () {
     $("body").toggleClass("fullscreen");
     $("#expand-video-icon").toggleClass("icon-expand icon-close");
 });
 
-
 // Header --> toggle mobile icon to show menu
 $(".mobile-menu #mobile-icon , #closeMobileMenu ").on("click", function () {
     $(".mobile-left-menu").toggleClass("show");
+ 
 
     let video = $(".swiper-slide-active .mobile-view .video").get(0);
 
@@ -885,8 +883,12 @@ let uploadImagesWithThumbnails = () => {
 
                 
                 let loadingDiv = document.createElement("div");
-                loadingDiv.classList.add("loading");
+                loadingDiv.classList.add("loading-container");
 
+                let loadingDiv2 = document.createElement("div");
+                loadingDiv2.classList.add("sbl-circ-path");
+
+                loadingDiv.append(loadingDiv2);
 
                 let img = document.createElement('img');
                 img.src = fileReader.result;
@@ -980,7 +982,7 @@ let uploadImagesWithThumbnails = () => {
         $("#upload").click();
     });
 
-    $("body").on("click", ".icon-close", function (event) {
+    $("body").on("click", ".one-thumbnail .icon-close", function (event) {
         event.preventDefault();
 
         if ($(this).parent().hasClass("default")) {
@@ -1086,3 +1088,36 @@ $(document).ready(() => {
         }, 100);
     });
 });
+
+
+
+
+
+
+// user profile --> manual tabs btns
+
+$("#shares-ads-tab2").on("click", function(){
+    $("#shared-ads-tab").click();
+});
+
+$("#followers-tab2").on("click", function(){
+    $("#followers-tab").click();
+});
+
+$("#Following-tab2").on("click", function(){
+    $("#following-tab").click();
+});
+
+
+
+
+// check if homepage
+
+if ( window.location.pathname == '/kamashka/'  ||  window.location.pathname == '/kamashka/home.php'  || window.location.pathname == '/'  ){
+    // Index (home) page
+    $(".mobile-menu").addClass("mobile-menu-home"); 
+
+} else {
+    // Other page
+    $(".mobile-menu").removeClass("mobile-menu-home"); 
+}

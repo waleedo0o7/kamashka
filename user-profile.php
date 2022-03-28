@@ -19,32 +19,39 @@
 
 
                 <div class="followers-and-shares-wrapper">
-                    <div class="followers m-2">
-                        <a href="shares.php">
-                            <p class="lead bold"> 124,9K </p>
-                            <span> Followers </span>
-                        </a>
-                    </div><!-- followers -->
                     <div class="shares m-2">
-                        <a href="shares.php">
+                        <a id="shares-ads-tab2">
                             <p class="lead bold"> 1,4M </p>
                             <span> Shares </span>
                         </a>
                     </div><!-- shares -->
+                    <div class="followers m-2">
+                        <a id="followers-tab2">
+                            <p class="lead bold"> 124,9K </p>
+                            <span> Followers </span>
+                        </a>
+                    </div><!-- followers -->
+                    <div class="followers m-2">
+                        <a id="Following-tab2">
+                            <p class="lead bold"> 124,9K </p>
+                            <span> Following </span>
+                        </a>
+                    </div><!-- followers -->
+
                 </div><!-- followers-and-shares-wrapper -->
 
 
                 <div class="about">
 
-                <div class="categories-wrapper text-center mb-3">
-                    <a class="btn btn-custom2 follow btn-sm mb-2"  href="#"> Fashion </a> 
-                    <a class="btn btn-custom2 follow btn-sm mb-2"  href="#"> Beauty </a> 
-                    <a class="btn btn-custom2 follow btn-sm mb-2"  href="#"> brand </a> 
-                    <a class="btn btn-custom2 follow btn-sm mb-2"  href="#"> designer </a> 
-                    <a class="btn btn-custom2 follow btn-sm mb-2"  href="#"> colors </a>  
-                    <a class="btn btn-custom2 follow btn-sm mb-2"  href="#"> brand </a> 
-                    <a class="btn btn-custom2 follow btn-sm mb-2"  href="#"> designer </a> 
-                </div><!-- categories-wrapper -->
+                    <div class="categories-wrapper text-center mb-3">
+                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> Fashion </a>
+                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> Beauty </a>
+                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> brand </a>
+                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> designer </a>
+                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> colors </a>
+                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> brand </a>
+                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> designer </a>
+                    </div><!-- categories-wrapper -->
                     <p> Zara is one of the biggest international fashion companies, and it belongs to Inditex, one of the worldZara is one of the biggest international fashion companies, </p>
                 </div><!-- about -->
 
@@ -53,6 +60,7 @@
 
         <div class="profile-data">
             <div class="profile-data-content">
+
                 <div class="user-profile-data">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
@@ -259,10 +267,204 @@
                             </div><!-- shared-ads-wrapper -->
                         </div><!-- tab-pane -->
                         <div class="tab-pane fade" id="followers" role="tabpanel" aria-labelledby="followers-tab">
-                            ...
+
+
+
+
+                            <div class="users-wrapper">
+
+                                <div class="one-user">
+                                    <div class="image-and-name-wrapper">
+                                        <img class="user-image" src="img/person02.png">
+                                        <h4> Ahmed Mohamed <img class="img-fluid" src="img/verified.svg"> </h4>
+                                    </div><!-- image-and-name-wrapper -->
+                                    <div class="btns-wrapper">
+                                        <a class="btn btn-custom2 d-none" href="#"> follow</a>
+                                        <a class="btn btn-custom1 " href="#"> unfollow</a>
+                                    </div><!-- btns-wrapper -->
+                                </div><!-- one-user -->
+
+
+                                <div class="one-user">
+                                    <div class="image-and-name-wrapper">
+                                        <img class="user-image" src="img/person03.png">
+                                        <h4> Ahmed Ali </h4>
+                                    </div><!-- image-and-name-wrapper -->
+                                    <div class="btns-wrapper">
+                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                    </div><!-- btns-wrapper -->
+                                </div><!-- one-user -->
+
+
+
+                                <div class="one-user">
+                                    <div class="image-and-name-wrapper">
+                                        <img class="user-image" src="img/person01.png">
+                                        <h4> Ali Mohsen <img class="img-fluid" src="img/verified.svg"> </h4>
+                                    </div><!-- image-and-name-wrapper -->
+                                    <div class="btns-wrapper">
+                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                    </div><!-- btns-wrapper -->
+                                </div><!-- one-user -->
+
+
+
+
+                                <div class="one-user">
+                                    <div class="image-and-name-wrapper">
+                                        <img class="user-image" src="img/person02.png">
+                                        <h4> Ahmed Mohamed <img class="img-fluid" src="img/verified.svg"> </h4>
+                                    </div><!-- image-and-name-wrapper -->
+                                    <div class="btns-wrapper">
+                                        <a class="btn btn-custom2 d-none" href="#"> follow</a>
+                                        <a class="btn btn-custom1 " href="#"> unfollow</a>
+                                    </div><!-- btns-wrapper -->
+                                </div><!-- one-user -->
+
+
+                                <div class="one-user">
+                                    <div class="image-and-name-wrapper">
+                                        <img class="user-image" src="img/person03.png">
+                                        <h4> Ahmed Ali </h4>
+                                    </div><!-- image-and-name-wrapper -->
+                                    <div class="btns-wrapper">
+                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                    </div><!-- btns-wrapper -->
+                                </div><!-- one-user -->
+
+
+
+                                <div class="one-user">
+                                    <div class="image-and-name-wrapper">
+                                        <img class="user-image" src="img/person01.png">
+                                        <h4> Ali Mohsen <img class="img-fluid" src="img/verified.svg"> </h4>
+                                    </div><!-- image-and-name-wrapper -->
+                                    <div class="btns-wrapper">
+                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                    </div><!-- btns-wrapper -->
+                                </div><!-- one-user -->
+
+                                <div class="one-user">
+                                    <div class="image-and-name-wrapper">
+                                        <img class="user-image" src="img/person01.png">
+                                        <h4> Ali Mohsen <img class="img-fluid" src="img/verified.svg"> </h4>
+                                    </div><!-- image-and-name-wrapper -->
+                                    <div class="btns-wrapper">
+                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                    </div><!-- btns-wrapper -->
+                                </div><!-- one-user -->
+
+
+                            </div><!-- users-wrapper -->
+
+
+
+
                         </div><!-- tab-pane -->
                         <div class="tab-pane fade" id="following" role="tabpanel" aria-labelledby="following-tab">
-                            ...
+
+
+
+
+                            <div class="users-wrapper">
+
+                                <div class="one-user">
+                                    <div class="image-and-name-wrapper">
+                                        <img class="user-image" src="img/person02.png">
+                                        <h4> Ahmed Mohamed <img class="img-fluid" src="img/verified.svg"> </h4>
+                                    </div><!-- image-and-name-wrapper -->
+                                    <div class="btns-wrapper">
+                                        <a class="btn btn-custom2 d-none" href="#"> follow</a>
+                                        <a class="btn btn-custom1 " href="#"> unfollow</a>
+                                    </div><!-- btns-wrapper -->
+                                </div><!-- one-user -->
+
+
+                                <div class="one-user">
+                                    <div class="image-and-name-wrapper">
+                                        <img class="user-image" src="img/person03.png">
+                                        <h4> Ahmed Ali </h4>
+                                    </div><!-- image-and-name-wrapper -->
+                                    <div class="btns-wrapper">
+                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                    </div><!-- btns-wrapper -->
+                                </div><!-- one-user -->
+
+
+
+                                <div class="one-user">
+                                    <div class="image-and-name-wrapper">
+                                        <img class="user-image" src="img/person01.png">
+                                        <h4> Ali Mohsen <img class="img-fluid" src="img/verified.svg"> </h4>
+                                    </div><!-- image-and-name-wrapper -->
+                                    <div class="btns-wrapper">
+                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                    </div><!-- btns-wrapper -->
+                                </div><!-- one-user -->
+
+
+
+
+                                <div class="one-user">
+                                    <div class="image-and-name-wrapper">
+                                        <img class="user-image" src="img/person02.png">
+                                        <h4> Ahmed Mohamed <img class="img-fluid" src="img/verified.svg"> </h4>
+                                    </div><!-- image-and-name-wrapper -->
+                                    <div class="btns-wrapper">
+                                        <a class="btn btn-custom2 d-none" href="#"> follow</a>
+                                        <a class="btn btn-custom1 " href="#"> unfollow</a>
+                                    </div><!-- btns-wrapper -->
+                                </div><!-- one-user -->
+
+
+                                <div class="one-user">
+                                    <div class="image-and-name-wrapper">
+                                        <img class="user-image" src="img/person03.png">
+                                        <h4> Ahmed Ali </h4>
+                                    </div><!-- image-and-name-wrapper -->
+                                    <div class="btns-wrapper">
+                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                    </div><!-- btns-wrapper -->
+                                </div><!-- one-user -->
+
+
+
+                                <div class="one-user">
+                                    <div class="image-and-name-wrapper">
+                                        <img class="user-image" src="img/person01.png">
+                                        <h4> Ali Mohsen <img class="img-fluid" src="img/verified.svg"> </h4>
+                                    </div><!-- image-and-name-wrapper -->
+                                    <div class="btns-wrapper">
+                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                    </div><!-- btns-wrapper -->
+                                </div><!-- one-user -->
+
+                                <div class="one-user">
+                                    <div class="image-and-name-wrapper">
+                                        <img class="user-image" src="img/person01.png">
+                                        <h4> Ali Mohsen <img class="img-fluid" src="img/verified.svg"> </h4>
+                                    </div><!-- image-and-name-wrapper -->
+                                    <div class="btns-wrapper">
+                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                    </div><!-- btns-wrapper -->
+                                </div><!-- one-user -->
+
+
+                            </div><!-- users-wrapper -->
+
+
+
+
                         </div><!-- tab-pane -->
                     </div> <!-- tab-content -->
                 </div><!-- user-profile-data -->
