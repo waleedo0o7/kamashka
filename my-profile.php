@@ -102,7 +102,7 @@
                         </li><!-- one-item -->
 
                         <li class="one-item">
-                            <div class="content"> <i class="icon item-icon icon-wallet"></i> <a href="#"> My Wallet </a> </div>
+                            <div class="content"> <i class="icon item-icon icon-wallet"></i> <a href="profile-wallet.php"> My Wallet </a> </div>
                             <div class="content"> <span class="item-label"> 10.00 KD </span> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
