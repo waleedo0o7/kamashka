@@ -384,17 +384,13 @@
 
 
                         <!--  IF USER LOOOOGINED for web  -->
-                        <div class="icon-container d-none">
+                        <div class="icon-container ">
                             <div class="dropdown custom-dropdown">
-                                <a class="resetbtn" href="#">
+                                <a class="resetbtn" href="my-profile.php">
                                     <i class="icon icon-user"></i>
                                 </a>
                             </div> <!-- dropdown -->
                         </div><!-- icon-container -->
-
-
-
-
 
                         <!--  IF USER     NOOOOT   LOOOOGINED for web  -->
                         <div class="icon-container">
