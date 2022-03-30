@@ -278,18 +278,6 @@
                                                 <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
                                             </a> <!-- notification-one-item -->
 
-                                            <a class="notification-one-item" href="#">
-                                                <div class="notification-icon">
-                                                    <i class="icon icon-order"></i>
-                                                </div><!-- notification-icon -->
-                                                <div class="notification-details">
-                                                    <p> order // Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
-                                                </div><!-- notification-details -->
-                                                <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
-                                            </a> <!-- notification-one-item -->
-
-
-
                                         </ul>
                                         <div class="notifications-footer">
                                             <a class="btn " href="#"> Show All </a>

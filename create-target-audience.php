@@ -86,8 +86,8 @@
                                 <p class="end m-0"> 100 </p>
                             </div><!-- slider-range-values -->
 
-                            <input class="d-none" id="from_age" placeholder="From age" type="text">
-                            <input class="d-none" id="to_age" placeholder="To age" type="text">
+                            <input class="d-none" id="from" placeholder="From age" type="text">
+                            <input class="d-none" id="to" placeholder="To age" type="text">
                         </div><!-- slider-range-container" -->
                     </div> <!-- col-md-6 -->
 
@@ -162,26 +162,3 @@
 <?php include 'footer.php'; ?>
 
 <script type="text/javascript" src="tags/tags.js"></script>
-
-<!-- Delete Modal Start -->
-<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
-    <div class="modal-dialog  " role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="deleteModalLabel"> Delete </h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <i class="icon icon-close"></i>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="delete-container">
-                    <p class="text-center">Are you sure you want to <br /> delete comment ?</p>
-                </div> <!-- delete-container -->
-            </div> <!-- modal-body -->
-            <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 via" data-via="1"> Yes </a>
-                <a href="#" class="btn btn-custom5 via" data-via="2"> No </a>
-            </div><!-- modal-footer -->
-        </div> <!-- modal-content -->
-    </div> <!-- modal-dialog -->
-</div> <!-- Delete Modal END -->

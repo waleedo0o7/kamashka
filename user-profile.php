@@ -61,7 +61,7 @@
         <div class="profile-data">
             <div class="profile-data-content">
 
-                <div class="user-profile-data">
+                <div class="user-profile-data custom-tabs">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link active" id="shared-ads-tab" data-toggle="tab" href="#shared-ads" role="tab" aria-controls="home" aria-selected="true"> Shared Ads </a>
@@ -75,196 +75,162 @@
                     </ul> <!-- nav-tabs -->
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="shared-ads" role="tabpanel" aria-labelledby="shared-ads-tab">
+
+
+
                             <div class="shared-ads-wrapper">
 
 
                                 <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/01.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    <div class="item-content">
+                                        <img class="img-fluid" src="img/brand-slider/01.jpg" alt="">
+                                        <p> FASHION TREND </p>
+                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
+                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    </div><!-- item-content -->
                                 </div><!-- one-item -->
 
 
                                 <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/02.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    <div class="item-content">
+                                        <img class="img-fluid" src="img/brand-slider/02.jpg" alt="">
+                                        <p> FASHION TREND </p>
+                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
+                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    </div><!-- item-content -->
                                 </div><!-- one-item -->
 
 
                                 <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/03.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    <div class="item-content">
+                                        <img class="img-fluid" src="img/brand-slider/03.jpg" alt="">
+                                        <p> FASHION TREND </p>
+                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
+                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    </div><!-- item-content -->
                                 </div><!-- one-item -->
 
 
                                 <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/04.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    <div class="item-content">
+                                        <img class="img-fluid" src="img/brand-slider/04.jpg" alt="">
+                                        <p> FASHION TREND </p>
+                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
+                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    </div><!-- item-content -->
                                 </div><!-- one-item -->
 
 
                                 <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/05.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
-                                </div><!-- one-item -->
-
-                                <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/06.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
-                                </div><!-- one-item -->
-
-                                <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/07.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
-                                </div><!-- one-item -->
-
-
-
-                                <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/01.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    <div class="item-content">
+                                        <img class="img-fluid" src="img/brand-slider/05.jpg" alt="">
+                                        <p> FASHION TREND </p>
+                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
+                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    </div><!-- item-content -->
                                 </div><!-- one-item -->
 
 
                                 <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/02.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    <div class="item-content">
+                                        <img class="img-fluid" src="img/brand-slider/06.jpg" alt="">
+                                        <p> FASHION TREND </p>
+                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
+                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    </div><!-- item-content -->
                                 </div><!-- one-item -->
 
 
                                 <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/03.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    <div class="item-content">
+                                        <img class="img-fluid" src="img/brand-slider/07.jpg" alt="">
+                                        <p> FASHION TREND </p>
+                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
+                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    </div><!-- item-content -->
                                 </div><!-- one-item -->
 
 
                                 <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/04.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    <div class="item-content">
+                                        <img class="img-fluid" src="img/brand-slider/08.jpg" alt="">
+                                        <p> FASHION TREND </p>
+                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
+                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    </div><!-- item-content -->
                                 </div><!-- one-item -->
 
 
-                                <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/05.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
-                                </div><!-- one-item -->
 
-                                <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/06.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
-                                </div><!-- one-item -->
 
-                                <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/07.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
-                                </div><!-- one-item -->
 
 
 
                                 <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/01.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    <div class="item-content">
+                                        <img class="img-fluid" src="img/brand-slider/05.jpg" alt="">
+                                        <p> FASHION TREND </p>
+                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
+                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    </div><!-- item-content -->
                                 </div><!-- one-item -->
 
 
                                 <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/02.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    <div class="item-content">
+                                        <img class="img-fluid" src="img/brand-slider/06.jpg" alt="">
+                                        <p> FASHION TREND </p>
+                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
+                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    </div><!-- item-content -->
                                 </div><!-- one-item -->
 
 
-                                <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/03.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
-                                </div><!-- one-item -->
 
 
-                                <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/04.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
-                                </div><!-- one-item -->
 
-
-                                <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/05.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
-                                </div><!-- one-item -->
-
-                                <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/06.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
-                                </div><!-- one-item -->
 
 
 
                                 <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/06.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    <div class="item-content">
+                                        <img class="img-fluid" src="img/brand-slider/02.jpg" alt="">
+                                        <p> FASHION TREND </p>
+                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
+                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    </div><!-- item-content -->
                                 </div><!-- one-item -->
-
 
 
                                 <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/06.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    <div class="item-content">
+                                        <img class="img-fluid" src="img/brand-slider/03.jpg" alt="">
+                                        <p> FASHION TREND </p>
+                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
+                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    </div><!-- item-content -->
                                 </div><!-- one-item -->
-
 
 
                                 <div class="one-item">
-                                    <img class="img-fluid" src="img/brand-slider/06.jpg" alt="">
-                                    <p> FASHION TREND </p>
-                                    <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                    <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    <div class="item-content">
+                                        <img class="img-fluid" src="img/brand-slider/06.jpg" alt="">
+                                        <p> FASHION TREND </p>
+                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
+                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    </div><!-- item-content -->
                                 </div><!-- one-item -->
-
-
 
 
                             </div><!-- shared-ads-wrapper -->
+
+
+
+
+
+
+
+
                         </div><!-- tab-pane -->
                         <div class="tab-pane fade" id="followers" role="tabpanel" aria-labelledby="followers-tab">
 

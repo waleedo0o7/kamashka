@@ -92,13 +92,13 @@
                     <ul class="resetul">
 
                         <li class="one-item">
-                            <div class="content"> <i class="icon item-icon icon-sharing"></i> <a href="#"> My Sharing </a> </div>
-                            <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
+                            <div class="content"> <i class="icon item-icon icon-sharing"></i> <a href="profile-my-shares.php"> My Sharing </a> </div>
+                            <div class="content"> <a href="profile-my-shares.php"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
                         <li class="one-item">
-                            <div class="content"> <i class="icon item-icon icon-adv"></i> <a href="#"> Ads Manager </a> </div>
-                            <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
+                            <div class="content"> <i class="icon item-icon icon-adv"></i> <a href="profile-ads-manager-home.php"> Ads Manager </a> </div>
+                            <div class="content"> <a href="profile-ads-manager-home.php"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
                         <li class="one-item">

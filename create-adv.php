@@ -24,8 +24,8 @@
                     <div class="label-and-btn">
                         <label for="" class=" bold"> Upload Photo Or Video </label>
                         <p class="max-limit d-none"> max limit is 3 files </p>
-                        <button class="btn btn-custom2 upload-btn" href="#"> <i class="fa fa-home"></i> upload </button>
-                        <button class="btn btn-custom2 upload-btn-disabled d-none" href="#"> <i class="fa fa-home"></i> upload </button>
+                        <button class="btn btn-custom2 upload-btn" href="#">  upload </button>
+                        <button class="btn btn-custom2 upload-btn-disabled d-none" href="#">  upload </button>
                         <input id="upload" class="upload-with-thumbnails d-none" type="file" accept=".jpg,.jpeg.,.gif,.png,.mov,.mp4" />
                     </div><!-- label-and-btn -->
 

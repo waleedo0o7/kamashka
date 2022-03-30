@@ -931,6 +931,18 @@ let uploadImagesWithThumbnails = () => {
 
                         let div = document.createElement("div");
                         div.classList.add("one-thumbnail");
+                        div.classList.add("has-loading");
+
+
+                        let loadingDiv = document.createElement("div");
+                        loadingDiv.classList.add("loading-container");
+
+                        let loadingDiv2 = document.createElement("div");
+                        loadingDiv2.classList.add("sbl-circ-path");
+
+                        loadingDiv.append(loadingDiv2);
+
+
 
                         var img = document.createElement('img');
                         img.src = image;
@@ -941,7 +953,7 @@ let uploadImagesWithThumbnails = () => {
 
                         div.append(img);
                         div.append(icon);
-
+                        div.append(loadingDiv);
                         document.getElementsByClassName('thumbnails-wrapper')[0].appendChild(div);
 
                         URL.revokeObjectURL(url);
@@ -1038,56 +1050,72 @@ $(document).ready(() => {
 
     $("#sliderrange").tfRangeSlider();
 
-    setTimeout(() => {
-        console.log($("#sliderrange").slider());
-    }, 3000);
-
     $("#sliderrange").on("slide", function (event, ui) {
         let startVal = ui.values[0];
         let endVal = ui.values[1];
 
         $(".slider-range-values .start").text(startVal);
         $(".slider-range-values .end").text(endVal);
-        $("#from_age").val(startVal)
-        $("#to_age").val(endVal)
+        $("#from").val(startVal)
+        $("#to").val(endVal)
     });
+
+
+    
+    $("#sliderrange-one-axis").slider({
+        range: "min",
+        value: 200,
+        min: 1,
+        max: 1000,
+        slide: function (event, ui) {
+            $("#budget").val(ui.value);
+            $(".budget-label").text(ui.value)
+        },
+        create: function (event, ui) {
+            setTimeout(() => {
+                $("#budget").val(200);
+                $(".budget-label").text(200)
+            }, 100);
+        }
+    });
+
 
 });
 
 
 // Keyword   V1 
-$(document).ready(() => {
+// $(document).ready(() => {
 
-    let input = document.getElementById("add-keyword-input");
-    input.addEventListener("keyup", function (event) {
-        if (event.keyCode === 13) {
-            event.preventDefault();
-            document.getElementById("add-keyword-btn").click();
-        }
-    });
+//     let input = document.getElementById("add-keyword-input");
+//     input.addEventListener("keyup", function (event) {
+//         if (event.keyCode === 13) {
+//             event.preventDefault();
+//             document.getElementById("add-keyword-btn").click();
+//         }
+//     });
 
 
-    let keywords = [];
-    $("#add-keyword-btn").on("click", function () {
-        let inputVal = $("#add-keyword-input").val();
-        if (inputVal) {
-            $(".keywords-list").append(`<div class="keyword"> ${inputVal} <i class="icon icon-close remove-keyword"></i> </div>`)
-            keywords.push(inputVal);
-            $("#keywordsFinal").val(keywords);
-            $("#add-keyword-input").val('')
-        }
+//     let keywords = [];
+//     $("#add-keyword-btn").on("click", function () {
+//         let inputVal = $("#add-keyword-input").val();
+//         if (inputVal) {
+//             $(".keywords-list").append(`<div class="keyword"> ${inputVal} <i class="icon icon-close remove-keyword"></i> </div>`)
+//             keywords.push(inputVal);
+//             $("#keywordsFinal").val(keywords);
+//             $("#add-keyword-input").val('')
+//         }
 
-    });
+//     });
 
-    $("body").on("click", ".remove-keyword", function () {
-        let thisIndex = $(this).parent(".keyword").index();
-        keywords.splice(thisIndex, 1);
-        $("#keywordsFinal").val(keywords);
-        setTimeout(() => {
-            $(this).parent().remove();
-        }, 100);
-    });
-});
+//     $("body").on("click", ".remove-keyword", function () {
+//         let thisIndex = $(this).parent(".keyword").index();
+//         keywords.splice(thisIndex, 1);
+//         $("#keywordsFinal").val(keywords);
+//         setTimeout(() => {
+//             $(this).parent().remove();
+//         }, 100);
+//     });
+// });
 
 
 
@@ -1126,10 +1154,7 @@ if (window.location.pathname == '/kamashka/' || window.location.pathname == '/ka
 
 
 
- 
-window.onload = (event) => { 
-    $("body").fadeIn();
-    $("a").on("click", function(){ 
-        $("body").fadeOut();
-    })
-};
+$(".toggle-top-bar").on("click", function () {
+    $(".page-content.homepage").toggleClass("with-top-bar");
+    $(".top-bar.ads-manager").toggleClass("hide");
+});
