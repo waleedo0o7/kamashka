@@ -80,14 +80,14 @@
                         <label for="target-age" class="mb-3"> Age </label>
 
                         <div class="slider-range-container">
-                            <div id="sliderrange"></div>
+                            <div id="age-slider-range" class="slider-range"></div>
                             <div class="slider-range-values">
                                 <p class="start m-0"> 0 </p>
                                 <p class="end m-0"> 100 </p>
                             </div><!-- slider-range-values -->
 
-                            <input class="d-none" id="from" placeholder="From age" type="text">
-                            <input class="d-none" id="to" placeholder="To age" type="text">
+                            <input class="d-none" id="age-from" placeholder="From age" type="text">
+                            <input class="d-none" id="age-to" placeholder="To age" type="text">
                         </div><!-- slider-range-container" -->
                     </div> <!-- col-md-6 -->
 

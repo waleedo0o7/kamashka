@@ -290,8 +290,29 @@ $(document).ready(function () {
         } else {
             interestsArr.push(btnValue);
         }
-        $("#my-interests-value").val(interestsArr)
+        $("#my-interests-value").val(interestsArr);
     });
+
+
+
+    $("#select-all").on("click", function () {
+        interestsArr = [];
+
+        if ($(this).prop("checked") == true) {  
+            $(".interests-container button").each( (i , e ) => {
+                $(e).addClass("active"); 
+                interestsArr.push($(e).data("value"));
+            })
+        } else {
+            $(".interests-container button").each( (i , e ) => {
+                $(e).removeClass("active"); 
+            })
+
+        }
+        $("#my-interests-value").val(interestsArr);
+    });
+
+    
 });
 
 // hide success overlay
@@ -791,12 +812,25 @@ else {
     function wheelToSlide(event) {
         event.preventDefault();
 
-        if (event.deltaY < 0) {
-            $(".swiper-button-prev").click();
+
+
+        if (event.path[1].classList != "brand-details-text") {
+
+            // if (event.path[1].scrollHeight > event.path[1].clientHeight) {
+
+            if (event.deltaY < 0) {
+                $(".swiper-button-prev").click();
+            }
+            else {
+                $(".swiper-button-next").click();
+            }
+            // }
         }
-        else {
-            $(".swiper-button-next").click();
-        }
+
+
+
+
+
     }
 
     document.onwheel = wheelToSlide;
@@ -816,6 +850,11 @@ else {
         });
     })();
 }
+
+
+
+
+
 
 $(".brand-slider .item img").on("click", function () {
     setTimeout(() => {
@@ -1048,20 +1087,26 @@ $(document).ready(() => {
     })(jQuery);
 
 
-    $("#sliderrange").tfRangeSlider();
+    $("#sliderrange , #age-slider-range  ,  #share-slider-range").tfRangeSlider();
 
-    $("#sliderrange").on("slide", function (event, ui) {
+    $("#sliderrange , #age-slider-range  , #share-slider-range").on("slide", function (event, ui) {
         let startVal = ui.values[0];
         let endVal = ui.values[1];
 
-        $(".slider-range-values .start").text(startVal);
-        $(".slider-range-values .end").text(endVal);
-        $("#from").val(startVal)
-        $("#to").val(endVal)
+        $(event.target).parents(".slider-range-container").children(".slider-range-values").children(".start").text(startVal)
+        $(event.target).parents(".slider-range-container").children(".slider-range-values").children(".end").text(endVal);
+
+
+        $(event.target).parents(".slider-range-container").children("#age-from").val(startVal)
+        $(event.target).parents(".slider-range-container").children("#age-to").val(endVal)
+
+        $(event.target).parents(".slider-range-container").children("#share-from").val(startVal)
+        $(event.target).parents(".slider-range-container").children("#share-to").val(endVal)
+
     });
 
 
-    
+
     $("#sliderrange-one-axis").slider({
         range: "min",
         value: 200,
@@ -1158,3 +1203,14 @@ $(".toggle-top-bar").on("click", function () {
     $(".page-content.homepage").toggleClass("with-top-bar");
     $(".top-bar.ads-manager").toggleClass("hide");
 });
+
+
+$(document).ready(() => {
+    $(".main-loader-wrapper").fadeOut();
+});
+
+
+
+
+
+

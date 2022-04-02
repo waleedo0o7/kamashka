@@ -28,13 +28,6 @@
 
                 <input class="d-none" id="my-interests-value" type="text" value="">
 
-                <!-- <select name="" id="my-interests-value" multiple>
-                    <option value="tv-show">  tv-show </option>
-                    <option value="tv-show">  music </option>
-                    <option value="tv-show">  books </option>
-                    <option value="tv-show">  sport </option>
-                    <option value="tv-show">  shopping </option>
-                </select> -->
                 <div class="submit-btn-container">
                     <a href="auth-interests-with-success.php" class="btn btn-custom1 w-100 text-center" id="confirmation-btn"> Continue </a>
                 </div><!-- submit-btn-container -->

@@ -1,5 +1,11 @@
 <?php include 'header.php'; ?>
 
+<div class="main-loader-wrapper">
+    <div class="loading-container">
+        <div class="sbl-circ-path sm"></div>
+    </div><!-- loading-container -->
+</div><!-- loader-wrapper -->
+
 <div class="page-content homepage">
     <div class="container">
         <div class="homepage-content">
@@ -98,7 +104,7 @@
                                         <a class="btn btn-custom2 follow" href="#"> discover products </a>
                                     </div>
 
-                                    <div class="brand-details">
+                                    <div class="brand-details" id="myDIV">
                                         <div class="brand-details-text">
                                             <h4> Zara is one of the biggest international <br /> fashion companies </h2>
                                                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -408,12 +414,12 @@
                                     <div class="bottom-shadow"></div><!-- bottom-shadow -->
                                 </div><!-- mobile view -->
                                 <!-- mobile view END -->
- 
+
                             </div><!-- carousel-item-content -->
                         </div> <!-- swiper-slide END -->
 
 
-                        
+
 
 
 
@@ -823,7 +829,7 @@
                                     <div class="bottom-shadow"></div><!-- bottom-shadow -->
                                 </div><!-- mobile view -->
                                 <!-- mobile view END -->
- 
+
                             </div><!-- carousel-item-content -->
                         </div> <!-- swiper-slide END -->
 
@@ -844,7 +850,7 @@
 
 
 
-                        
+
                         <div class="swiper-slide">
                             <div class="carousel-item-content">
 
@@ -1232,7 +1238,7 @@
                                     <div class="bottom-shadow"></div><!-- bottom-shadow -->
                                 </div><!-- mobile view -->
                                 <!-- mobile view END -->
- 
+
                             </div><!-- carousel-item-content -->
                         </div> <!-- swiper-slide END -->
 
@@ -1275,9 +1281,9 @@
 
 
 
-                        
 
-                        
+
+
                         <div class="swiper-slide">
                             <div class="carousel-item-content">
 
@@ -1665,7 +1671,7 @@
                                     <div class="bottom-shadow"></div><!-- bottom-shadow -->
                                 </div><!-- mobile view -->
                                 <!-- mobile view END -->
- 
+
                             </div><!-- carousel-item-content -->
                         </div> <!-- swiper-slide END -->
 
@@ -1721,8 +1727,8 @@
 
 
 
-                        
-                        
+
+
                         <div class="swiper-slide">
                             <div class="carousel-item-content">
 
@@ -2110,7 +2116,7 @@
                                     <div class="bottom-shadow"></div><!-- bottom-shadow -->
                                 </div><!-- mobile view -->
                                 <!-- mobile view END -->
- 
+
                             </div><!-- carousel-item-content -->
                         </div> <!-- swiper-slide END -->
 

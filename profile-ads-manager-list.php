@@ -36,7 +36,7 @@
                 <div class="col-md-4">
                     <div class="one-adv card p-3">
 
-                        <div class="adv-header">
+                        <div class="post-header">
                             <h4 class="bold"> Laptop Hp </h4>
                             <div class="actions">
 
@@ -62,94 +62,9 @@
                                 </div> <!-- btn-group -->
 
                             </div><!-- actions -->
-                        </div> <!-- adv-header -->
+                        </div> <!-- post-header -->
 
-                        <div class="adv-details">
-
-                            <div class="item">
-                                <div class="title"> Status </div><!-- title -->
-                                <div class="value">
-                                    <div class="label-custom label-custom1" role="alert"> Active </div>
-                                </div><!-- value -->
-                            </div> <!-- item -->
-
-                            <div class="item">
-                                <div class="title"> Budget </div><!-- title -->
-                                <div class="value">1000 Kd</div><!-- value -->
-                            </div> <!-- item -->
-
-                            <div class="item">
-                                <div class="title"> Date </div><!-- title -->
-                                <div class="value"> 20/2/2021 </div><!-- value -->
-                            </div> <!-- item -->
-
-                            <div class="item">
-                                <div class="title"> Gender </div><!-- title -->
-                                <div class="value"> Both </div><!-- value -->
-                            </div> <!-- item -->
-
-                            <div class="item">
-                                <div class="title"> Age Range </div><!-- title -->
-                                <div class="value"> 18 To 60 </div><!-- value -->
-                            </div> <!-- item -->
-
-                            <div class="item">
-                                <div class="title"> Location </div><!-- title -->
-                                <div class="value"> Alexandria </div><!-- value -->
-                            </div> <!-- item -->
-
-                            <div class="item">
-                                <div class="title"> Views </div><!-- title -->
-                                <div class="value"> 3000 </div><!-- value -->
-                            </div> <!-- item -->
-
-                            <div class="item">
-                                <div class="title"> Shares </div><!-- title -->
-                                <div class="value"> 300 </div><!-- value -->
-                            </div> <!-- item -->
-
-                        </div><!-- adv-details -->
-                    </div><!-- one-adv -->
-                </div><!-- col-md-4 -->
-
-
-
-
-
-
-                
-
-            
-                <div class="col-md-4">
-                    <div class="one-adv card p-3">
-
-                        <div class="adv-header">
-                            <h4 class="bold"> Laptop Hp </h4>
-                            <div class="actions">
-
-                                <!-- Default dropleft button -->
-                                <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#republishModal"> Republish Adv </a>
-                                        <a class="dropdown-item" href="profile-ads-manager-list-ads-statistics.php"> Adv Statistics</a>
-
-                                        <div class="dropdown-divider"></div>
-
-                                        <a class="dropdown-item" href="create-adv.php"> Edit Ads</a>
-                                        <a class="dropdown-item" href="" data-toggle="modal" data-target="#budgetModal"> Increase / Decrease Budget</a>
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteAdvModal"> Stop Adv</a>
-                                        <a class="dropdown-item" href="profile-ads-manager-list-ads-statistics.php"> Adv Statistics</a>
-                                    </div>
-                                </div> <!-- btn-group -->
-
-                            </div><!-- actions -->
-                        </div> <!-- adv-header -->
-
-                        <div class="adv-details">
+                        <div class="post-details">
 
                             <div class="item">
                                 <div class="title"> Status </div><!-- title -->
@@ -193,14 +108,9 @@
                                 <div class="value"> 300 </div><!-- value -->
                             </div> <!-- item -->
 
-                        </div><!-- adv-details -->
+                        </div><!-- post-details -->
                     </div><!-- one-adv -->
                 </div><!-- col-md-4 -->
-
-
-
-
-
 
 
 
@@ -213,7 +123,7 @@
                 <div class="col-md-4">
                     <div class="one-adv card p-3">
 
-                        <div class="adv-header">
+                        <div class="post-header">
                             <h4 class="bold"> Laptop Hp </h4>
                             <div class="actions">
 
@@ -237,9 +147,99 @@
                                 </div> <!-- btn-group -->
 
                             </div><!-- actions -->
-                        </div> <!-- adv-header -->
+                        </div> <!-- post-header -->
 
-                        <div class="adv-details">
+                        <div class="post-details">
+
+                            <div class="item">
+                                <div class="title"> Status </div><!-- title -->
+                                <div class="value">
+                                    <div class="label-custom label-custom1" role="alert"> Active </div>
+                                </div><!-- value -->
+                            </div> <!-- item -->
+
+                            <div class="item">
+                                <div class="title"> Budget </div><!-- title -->
+                                <div class="value">1000 Kd</div><!-- value -->
+                            </div> <!-- item -->
+
+                            <div class="item">
+                                <div class="title"> Date </div><!-- title -->
+                                <div class="value"> 20/2/2021 </div><!-- value -->
+                            </div> <!-- item -->
+
+                            <div class="item">
+                                <div class="title"> Gender </div><!-- title -->
+                                <div class="value"> Both </div><!-- value -->
+                            </div> <!-- item -->
+
+                            <div class="item">
+                                <div class="title"> Age Range </div><!-- title -->
+                                <div class="value"> 18 To 60 </div><!-- value -->
+                            </div> <!-- item -->
+
+                            <div class="item">
+                                <div class="title"> Location </div><!-- title -->
+                                <div class="value"> Alexandria </div><!-- value -->
+                            </div> <!-- item -->
+
+                            <div class="item">
+                                <div class="title"> Views </div><!-- title -->
+                                <div class="value"> 3000 </div><!-- value -->
+                            </div> <!-- item -->
+
+                            <div class="item">
+                                <div class="title"> Shares </div><!-- title -->
+                                <div class="value"> 300 </div><!-- value -->
+                            </div> <!-- item -->
+
+                        </div><!-- post-details -->
+                    </div><!-- one-adv -->
+                </div><!-- col-md-4 -->
+
+
+
+
+
+
+
+
+
+
+
+                
+
+            
+                <div class="col-md-4">
+                    <div class="one-adv card p-3">
+
+                        <div class="post-header">
+                            <h4 class="bold"> Laptop Hp </h4>
+                            <div class="actions">
+
+                                <!-- Default dropleft button -->
+                                <div class="btn-group dropleft">
+                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#republishModal"> Republish Adv </a>
+                                        <a class="dropdown-item" href="profile-ads-manager-list-ads-statistics.php"> Adv Statistics</a>
+
+                                        <div class="dropdown-divider"></div>
+
+                                        <a class="dropdown-item" href="create-adv.php"> Edit Ads</a>
+                                        <a class="dropdown-item" href="" data-toggle="modal" data-target="#budgetModal"> Increase / Decrease Budget</a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteAdvModal"> Stop Adv</a>
+                                        <a class="dropdown-item" href="profile-ads-manager-list-ads-statistics.php"> Adv Statistics</a>
+                                    </div>
+                                </div> <!-- btn-group -->
+
+                            </div><!-- actions -->
+                        </div> <!-- post-header -->
+
+                        <div class="post-details">
 
                             <div class="item">
                                 <div class="title"> Status </div><!-- title -->
@@ -283,7 +283,7 @@
                                 <div class="value"> 300 </div><!-- value -->
                             </div> <!-- item -->
 
-                        </div><!-- adv-details -->
+                        </div><!-- post-details -->
                     </div><!-- one-adv -->
                 </div><!-- col-md-4 -->
 
