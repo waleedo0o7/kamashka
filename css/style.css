@@ -3306,4 +3306,8 @@ i.arrow-icon:before {
   border-bottom: none;
 }
 
+.invite-friend-wrapper .image img {
+  width: 300px;
+}
+
 /*# sourceMappingURL=style.css.map */

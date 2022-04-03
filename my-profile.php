@@ -196,8 +196,8 @@
                         </li><!-- one-item -->
 
                         <li class="one-item">
-                            <div class="content"> <i class="icon item-icon icon-filter2"></i> <a href="#"> Advertising Filter </a> </div>
-                            <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
+                            <div class="content"> <i class="icon item-icon icon-filter2"></i> <a href="profile-advertising-filter.php"> Advertising Filter </a> </div>
+                            <div class="content"> <a href="profile-advertising-filter.php"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
                     </ul>
@@ -211,8 +211,8 @@
                     <ul class="resetul">
 
                         <li class="one-item">
-                            <div class="content"> <i class="icon item-icon icon-envelope"></i> <a href="#"> Invite Friends </a> </div>
-                            <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
+                            <div class="content"> <i class="icon item-icon icon-envelope"></i> <a href="profile-invite-friend.php"> Invite Friends </a> </div>
+                            <div class="content"> <a href="profile-invite-friend.php"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
                         <li class="one-item">
