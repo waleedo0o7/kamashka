@@ -3358,4 +3358,38 @@ i.arrow-icon:before {
   font-weight: bold;
 }
 
+.profile.support.ticket .all-messages {
+  margin-top: 30px;
+  max-height: 60vh;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+.profile.support.ticket .all-messages .message {
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  width: fit-content;
+}
+.profile.support.ticket .all-messages .message.admin-message {
+  background: #fbebe8;
+}
+.profile.support.ticket .all-messages .message.my-message {
+  background: #ffffff;
+  margin-left: auto;
+}
+.profile.support.ticket i#send-message-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 41px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondaryColor);
+  font-size: 22px;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */

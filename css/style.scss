@@ -3498,10 +3498,48 @@ i.arrow-icon {
                 border-bottom: 1px solid #ffffff;
             }
 
-            a{
-                color :  var(--darkGray);
+            a {
+                color: var(--darkGray);
                 font-weight: bold;
             }
         }
+    }
+}
+
+.profile.support.ticket {
+    .all-messages {
+        margin-top: 30px;
+        max-height: 60vh;
+        overflow: auto;
+        margin-bottom: 20px;
+
+        .message {
+            padding: 10px 20px;
+            border-radius: 50px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            width: fit-content;
+            &.admin-message {
+                background: #fbebe8;
+            }
+            &.my-message {
+                background: #ffffff;
+                margin-left: auto;
+            }
+        }
+    }
+
+    i#send-message-input {
+        position: absolute;
+        top: 0;
+        right: 0; 
+        width: 41px;
+        height: 41px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--secondaryColor);
+        font-size: 22px;
+        cursor: pointer;
     }
 }
