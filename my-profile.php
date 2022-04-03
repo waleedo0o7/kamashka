@@ -128,32 +128,32 @@
                 <div class="items-group card">
                     <ul class="resetul">
 
-                        <li class="one-item d-none">
+                        <li class="one-item ">
                             <div class="content"> <i class="icon item-icon icon-orders"></i> <a href="#"> My Orders </a> </div>
                             <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
-                        <li class="one-item d-none">
+                        <li class="one-item ">
                             <div class="content"> <i class="icon item-icon icon-returns"></i> <a href="#"> My Returns </a> </div>
                             <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
                         <li class="one-item">
-                            <div class="content"> <i class="icon item-icon icon-heart"></i> <a href="#"> Wish List </a> </div>
-                            <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
+                            <div class="content"> <i class="icon item-icon icon-heart"></i> <a href="profile-wishlist.php"> Wish List </a> </div>
+                            <div class="content"> <a href="profile-wishlist.php"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
-                        <li class="one-item d-none">
+                        <li class="one-item ">
                             <div class="content"> <i class="icon item-icon icon-deliver"></i> <a href="#"> My Deliver Addresses </a> </div>
                             <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
-                        <li class="one-item d-none">
+                        <li class="one-item ">
                             <div class="content"> <i class="icon item-icon icon-payment"></i> <a href="#"> Payment Method </a> </div>
                             <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
-                    </ul>
+                    </ul> <!-- resetul -->
                 </div><!-- items-group -->
 
 
@@ -161,13 +161,13 @@
                     <ul class="resetul">
 
                         <li class="one-item">
-                            <div class="content"> <i class="icon item-icon icon-language"></i> <a href="#"> Language </a> </div>
-                            <div class="content"> <span class="item-label"> English </span> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
+                            <div class="content"> <i class="icon item-icon icon-language"></i> <a href="#" data-toggle="modal" data-target="#languageModal"> Language </a> </div>
+                            <div class="content"> <span class="item-label"> English </span> <a href="#" data-toggle="modal" data-target="#languageModal"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
                         <li class="one-item">
-                            <div class="content"> <i class="icon item-icon icon-country"></i> <a href="#"> Country </a> </div>
-                            <div class="content"> <span class="item-label"> Kuwait </span> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
+                            <div class="content"> <i class="icon item-icon icon-country"></i> <a href="#" data-toggle="modal" data-target="#countryModal"> Country </a> </div>
+                            <div class="content"> <span class="item-label"> Kuwait </span> <a href="#" data-toggle="modal" data-target="#countryModal"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
                         <li class="one-item">
@@ -216,8 +216,8 @@
                         </li><!-- one-item -->
 
                         <li class="one-item">
-                            <div class="content"> <i class="icon item-icon icon-headphone"></i> <a href="#"> Customer Support </a> </div>
-                            <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
+                            <div class="content"> <i class="icon item-icon icon-headphone"></i> <a href="profile-customer-support.php"> Customer Support </a> </div>
+                            <div class="content"> <a href="profile-customer-support.php"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
                     </ul>
@@ -261,3 +261,101 @@
 <script>
     progressSlider();
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Language Modal Start -->
+<div class="modal fade" id="languageModal" tabindex="-1" role="dialog" aria-labelledby="languageModalLabel" aria-hidden="true">
+    <div class="modal-dialog  " role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="languageModalLabel"> Change Language </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="icon icon-close"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="language-container">
+
+                    <div class="d-flex">
+                        <div class="option mr-4">
+                            <label class="option-container">
+                                <input type="radio" checked="checked" name="language" value="1">
+                                <span class="checkmark"></span>English</label>
+                        </div><!-- option -->
+
+
+                        <div class="option mr-4">
+                            <label class="option-container">
+                                <input type="radio" name="language" value="2">
+                                <span class="checkmark"></span>العربية</label>
+                        </div><!-- option -->
+
+                    </div><!-- inline-items -->
+
+                </div> <!-- Language-container -->
+            </div> <!-- modal-body -->
+            <div class="modal-footer">
+                <a href="#" class="btn btn-custom1 w-100" data-via="1"> Save </a>
+            </div><!--  modal-footer -->
+        </div> <!-- modal-content -->
+    </div> <!-- modal-dialog -->
+</div> <!-- Language Modal END -->
+
+
+
+
+
+
+
+
+
+<!-- country Modal Start -->
+<div class="modal fade" id="countryModal" tabindex="-1" role="dialog" aria-labelledby="countryModalLabel" aria-hidden="true">
+    <div class="modal-dialog  " role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="countryModalLabel"> Change country </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="icon icon-close"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="country-container"> 
+                        <div class="option mr-4">
+                            <label class="option-container">
+                                <input type="radio" checked="checked" name="country" value="1">
+                                <span class="checkmark"></span> kuwait </label>
+                        </div><!-- option -->
+                        <div class="option mr-4">
+                            <label class="option-container">
+                                <input type="radio" name="country" value="2">
+                                <span class="checkmark"></span>  Saudi Arabia  </label>
+                        </div><!-- option -->
+
+                        <div class="option mr-4">
+                            <label class="option-container">
+                                <input type="radio" name="country" value="2">
+                                <span class="checkmark"></span>   United Arab Emirates  </label>
+                        </div><!-- option -->
+ 
+                </div> <!-- country-container -->
+            </div> <!-- modal-body -->
+            <div class="modal-footer">
+                <a href="#" class="btn btn-custom1 w-100" data-via="1"> Save </a>
+            </div><!--  modal-footer -->
+        </div> <!-- modal-content -->
+    </div> <!-- modal-dialog -->
+</div> <!-- country Modal END -->
