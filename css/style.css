@@ -52,7 +52,7 @@
   font-weight: bold;
   display: inline-flex;
   font-size: 14px;
-  border-radius: 4px;
+  border-radius: 8px;
   margin: 0;
 }
 
@@ -101,7 +101,7 @@
   font-size: 14px;
 }
 
-.card {
+.card, .search-result-page .search-results-wrapper {
   box-shadow: var(--mainBoxShadow);
   border-color: #f3f3f3;
   border-radius: 7px;
@@ -112,7 +112,7 @@
 }
 
 .lead {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .danger {
@@ -393,6 +393,9 @@ You'll need to replace with your own color values.
 - "$dark"
 
 */
+.custom-switch {
+  cursor: pointer;
+}
 .custom-switch.toggle {
   align-items: center;
   border-radius: 100px;
@@ -425,29 +428,29 @@ You'll need to replace with your own color values.
   border-radius: 100px;
   cursor: pointer;
   display: flex;
-  height: 24px;
+  height: 25px;
   margin-right: 12px;
   position: relative;
-  width: 45px;
+  width: 47.5px;
 }
 .custom-switch .toggle-indicator {
   align-items: center;
   background: #fff;
-  border-radius: 18px;
+  border-radius: 19px;
   bottom: 2px;
   display: flex;
-  height: 18px;
+  height: 19px;
   justify-content: center;
   left: 2px;
   outline: solid 2px transparent;
   position: absolute;
   transition: 0.3s;
-  width: 18px;
+  width: 19px;
 }
 .custom-switch .checkMark {
   fill: var(--secondaryColor);
-  height: 20px;
-  width: 14px;
+  height: 21px;
+  width: 15px;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
 }
@@ -459,7 +462,7 @@ You'll need to replace with your own color values.
 }
 .custom-switch .toggle__input:checked + .toggle-track .toggle-indicator {
   background: #fff;
-  transform: translateX(21px);
+  transform: translateX(22.5px);
 }
 .custom-switch .toggle__input:checked + .toggle-track .toggle-indicator .checkMark {
   opacity: 1;
@@ -830,6 +833,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   right: 10px;
   font-size: 13px;
   color: var(--secondaryColor);
+  cursor: pointer;
 }
 #top-header .top-header-content .count {
   display: flex;
@@ -2352,18 +2356,21 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   width: 900px;
   max-width: 100%;
   margin: auto;
+  padding: 0;
 }
 
 .small-content .container {
   width: 900px;
   max-width: 100%;
   margin: auto;
+  padding: 0;
 }
 
 .very-small-content .container {
   width: 600px;
   max-width: 100%;
   margin: auto;
+  padding: 0;
 }
 
 .users-wrapper {
@@ -3217,6 +3224,7 @@ i.arrow-icon:before {
 
 .statistics-wrapper .one-item {
   margin-bottom: 30px;
+  padding: 20px 10px !important;
 }
 .statistics-wrapper .one-item img {
   height: 45px;
@@ -3390,6 +3398,124 @@ i.arrow-icon:before {
   color: var(--secondaryColor);
   font-size: 22px;
   cursor: pointer;
+}
+
+.search-result-page .search-fillter-wrapper .filter-btn, .search-result-page .categories-wrapper .filter-btn {
+  padding: 5px 12px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.search-result-page .search-fillter-wrapper .filter-btn:hover, .search-result-page .categories-wrapper .filter-btn:hover {
+  color: #fff !important;
+  border-color: var(--secondaryColor) !important;
+  background-color: var(--secondaryColor) !important;
+}
+.search-result-page .search-fillter-wrapper .filter-btn:not(.active), .search-result-page .categories-wrapper .filter-btn:not(.active) {
+  color: var(--darkGray);
+  border-color: var(--darkGray);
+}
+.search-result-page .is-matched-switch-wrapper {
+  font-size: 14px;
+  color: var(--darkGray);
+  margin-left: auto;
+  display: inline-flex;
+}
+.search-result-page .is-matched-switch-wrapper .checkMark {
+  font-size: 18px;
+}
+.search-result-page .search-results-wrapper {
+  background: #fff;
+  padding: 0 30px;
+}
+.search-result-page .search-results-wrapper .item {
+  padding: 30px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-bottom: 1px solid #f3f3f3;
+}
+.search-result-page .search-results-wrapper .item:last-child {
+  border-bottom: none;
+}
+.search-result-page .search-results-wrapper .item .item-details {
+  width: 75%;
+  padding-right: 30px;
+}
+.search-result-page .search-results-wrapper .item .item-details .details-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-result-page .search-results-wrapper .item .item-details .details-header img.image {
+  width: 70px;
+  margin-right: 15px;
+}
+.search-result-page .search-results-wrapper .item .item-details .details-header p.name {
+  font-size: 18px;
+}
+.search-result-page .search-results-wrapper .item .item-details .details-header .follow-btn {
+  padding: 5px 12px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.search-result-page .search-results-wrapper .item .item-details .categories-wrapper {
+  margin-bottom: 20px;
+}
+.search-result-page .search-results-wrapper .item .item-details .matched {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-result-page .search-results-wrapper .item .item-details .matched i.fa.fa-check {
+  color: #fff;
+  background: var(--secondaryColor);
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.search-result-page .search-results-wrapper .item .item-image-and-shares {
+  width: 25%;
+}
+.search-result-page .search-results-wrapper .item .item-image-and-shares .shares-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.search-result-page .search-results-wrapper .item .item-image-and-shares .shares-wrapper .views, .search-result-page .search-results-wrapper .item .item-image-and-shares .shares-wrapper .shares {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+.search-result-page .search-results-wrapper .item .item-image-and-shares .shares-wrapper .views i, .search-result-page .search-results-wrapper .item .item-image-and-shares .shares-wrapper .shares i {
+  font-size: 22px;
+  line-height: 0;
+  margin-right: 10px;
+}
+.search-result-page .search-results-wrapper .item .item-image-and-shares .shares-wrapper .views i {
+  color: var(--secondaryColor);
+}
+.search-result-page .search-results-wrapper .item .item-image-and-shares .shares-wrapper .views strong {
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+}
+
+.no-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  font-size: 18px;
+}
+.no-data img {
+  width: 150px;
+  margin-bottom: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */

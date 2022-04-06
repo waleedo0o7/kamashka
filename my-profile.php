@@ -111,12 +111,12 @@
                             <div class="content"> <a href="auth-interests.php"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
-                        <li class="one-item d-none">
+                        <li class="one-item">
                             <div class="content"> <i class="icon item-icon icon-my-deals"></i> <a href="#"> My Deals </a> </div>
                             <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
-                        <li class="one-item d-none">
+                        <li class="one-item">
                             <div class="content"> <i class="icon item-icon icon-promotion-deals"></i> <a href="#"> Promotion Deals </a> </div>
                             <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->

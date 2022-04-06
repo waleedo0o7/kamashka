@@ -43,8 +43,8 @@
 
                                     <div class="row support-item">
 
-                                        <div class="col-md-6">
-                                            <p class="lead mb-3"> <a href="#"> Ticket No.1231321 </a> </p>
+                                        <div class="col-md-6"> 
+                                            <p class="lead mb-3"> <a href="profile-customer-support-ticket.php"> Ticket No.1231321 </a> </p>
                                             <p> Thanks </p>
                                         </div><!-- col-md-6 -->
 
@@ -60,7 +60,7 @@
                                     <div class="row support-item">
 
                                         <div class="col-md-6">
-                                            <p class="lead mb-3"> <a href="#"> Ticket No.1231321 </a> </p>
+                                            <p class="lead mb-3"> <a href="profile-customer-support-ticket.php"> Ticket No.1231321 </a> </p>
                                             <p> Thanks </p>
                                         </div><!-- col-md-6 -->
 
@@ -81,7 +81,7 @@
                                     <div class="row support-item">
 
                                         <div class="col-md-6">
-                                            <p class="lead mb-3"> <a href="#"> Ticket No.1231321 </a> </p>
+                                            <p class="lead mb-3"> <a href="profile-customer-support-ticket.php"> Ticket No.1231321 </a> </p>
                                             <p> Thanks </p>
                                         </div><!-- col-md-6 -->
 
@@ -97,7 +97,7 @@
                                     <div class="row support-item">
 
                                         <div class="col-md-6">
-                                            <p class="lead mb-3"> <a href="#"> Ticket No.1231321 </a> </p>
+                                            <p class="lead mb-3"> <a href="profile-customer-support-ticket.php"> Ticket No.1231321 </a> </p>
                                             <p> Thanks </p>
                                         </div><!-- col-md-6 -->
 

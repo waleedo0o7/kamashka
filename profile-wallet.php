@@ -38,23 +38,7 @@
                 <h5 class="d-flex"> My Profits <a class="colored2 ml-auto" href="profile-wallet-my-profits.php"> See All </a> </h5>
 
                 <div class="profits-wrapper">
-
-                    <div class="profits-header">
-                        <div class="one-item p-3">
-                            <div class="image">
-                                <img src="img/person04.jpg" class="img-fluid">
-                            </div><!-- image -->
-                            <div class="details">
-                                <p class="mb-1"> Received Credit From Ahmed Mohamed </p>
-                                <p class="mb-0"> Zara Adv - Deal </p>
-                            </div><!-- details -->
-                            <div class="price-and-date text-right">
-                                <p class="lead bold mb-0"> 1 KWD </p>
-                                <p class="date mb-0"> December 12,2021 </p>
-                            </div><!-- price-and-date -->
-                        </div><!-- one-item -->
-                    </div><!-- profits-header -->
-
+ 
 
 
                     <div class="one-item p-3">
@@ -118,6 +102,24 @@
                         </div><!-- price-and-date -->
                     </div><!-- one-item -->
  
+
+                    
+
+                    <div class="one-item p-3">
+                        <div class="image">
+                            <img src="img/brand-slider/02.jpg" class="img-fluid">
+                        </div><!-- image -->
+                        <div class="details">
+                            <p class="mb-1"> Received Credit </p>
+                            <p class="mb-0"> Zara Adv </p>
+                        </div><!-- details -->
+                        <div class="price-and-date text-right">
+                            <p class="lead bold mb-0"> 1 KWD </p>
+                            <p class="date mb-0"> December 12,2021 </p>
+                        </div><!-- price-and-date -->
+                    </div><!-- one-item -->
+
+                    
                 </div><!-- profits-wrapper -->
             </div><!-- col-md-7 -->
         </div><!-- row -->

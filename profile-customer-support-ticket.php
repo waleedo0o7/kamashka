@@ -14,11 +14,8 @@
                         <div class="message admin-message"> how can i help you ? </div><!-- message  my-message -->
                         <div class="message my-message"> i'm not able to see my bonus</div><!-- message  my-message -->
 
-
                         <div class="message admin-message"> issue shall be resolved within 30 minutes </div><!-- message  my-message -->
                         <div class="message my-message"> Thank You</div><!-- message  my-message -->
-
-
 
                         <div class="message admin-message">the issue is solved now </div><!-- message  my-message -->
                         <div class="message my-message"> Awesome ! </div><!-- message  my-message -->
@@ -31,11 +28,8 @@
                         <div class="message admin-message"> how can i help you ? </div><!-- message  my-message -->
                         <div class="message my-message"> i'm not able to see my bonus</div><!-- message  my-message -->
 
-
                         <div class="message admin-message"> issue shall be resolved within 30 minutes </div><!-- message  my-message -->
                         <div class="message my-message"> Thank You</div><!-- message  my-message -->
-
-
 
                         <div class="message admin-message">the issue is solved now </div><!-- message  my-message -->
                         <div class="message my-message"> Awesome ! </div><!-- message  my-message -->
@@ -49,11 +43,8 @@
                         <div class="message admin-message"> how can i help you ? </div><!-- message  my-message -->
                         <div class="message my-message"> i'm not able to see my bonus</div><!-- message  my-message -->
 
-
                         <div class="message admin-message"> issue shall be resolved within 30 minutes </div><!-- message  my-message -->
                         <div class="message my-message"> Thank You</div><!-- message  my-message -->
-
-
 
                         <div class="message admin-message">the issue is solved now </div><!-- message  my-message -->
                         <div class="message my-message"> Awesome ! </div><!-- message  my-message -->
@@ -61,7 +52,7 @@
 
 
 
-                        
+
                     </div><!-- all-messages -->
 
                     <div class="send-message-wrapper relative">

@@ -196,7 +196,7 @@
                     <div class="search">
                         <div class="search-container">
                             <input class="search-input" type="text" placeholder="Search For Products, Brands & Categories" />
-                            <i class="icon icon-search"></i>
+                            <i class="icon icon-search" onclick="window.location.href='search-result.php'"></i>
                         </div>
                     </div> <!-- search -->
                     <div class="count">

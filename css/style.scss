@@ -61,7 +61,7 @@
     font-weight: bold;
     display: inline-flex;
     font-size: 14px;
-    border-radius: 4px;
+    border-radius: 8px;
     margin: 0;
 }
 
@@ -122,7 +122,7 @@
 }
 
 .lead {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .danger {
@@ -404,7 +404,7 @@ ul.resetul {
 /////////////////////// Custom Switch START
 ///   pen link https://codepen.io/waleedhd1/pen/eYymRVx
 
-$toggle-indicator-size: 18px; // changing this number will resize the whole toggle
+$toggle-indicator-size: 19px; // changing this number will resize the whole toggle
 $track-height: $toggle-indicator-size + 6;
 $track-width: $toggle-indicator-size * 2.5;
 $highContrastModeSupport: solid 2px transparent;
@@ -430,6 +430,7 @@ $focus-ring: 0px 0px 0px 2px $dark;
 
 // Toggle specific styles
 .custom-switch {
+    cursor: pointer;
     &.toggle {
         align-items: center;
         border-radius: 100px;
@@ -912,6 +913,7 @@ body.fullscreen {
                     right: 10px;
                     font-size: 13px;
                     color: var(--secondaryColor);
+                    cursor: pointer;
                 }
             }
         }
@@ -2379,6 +2381,7 @@ body.fullscreen {
         width: 900px;
         max-width: 100%;
         margin: auto;
+        padding: 0;
     }
 }
 
@@ -2387,6 +2390,7 @@ body.fullscreen {
         width: 900px;
         max-width: 100%;
         margin: auto;
+        padding: 0;
     }
 }
 
@@ -2395,6 +2399,7 @@ body.fullscreen {
         width: 600px;
         max-width: 100%;
         margin: auto;
+        padding: 0;
     }
 }
 
@@ -3340,6 +3345,7 @@ i.arrow-icon {
 .statistics-wrapper {
     .one-item {
         margin-bottom: 30px;
+        padding: 20px 10px !important;
         img {
             height: 45px;
             margin: auto;
@@ -3532,7 +3538,7 @@ i.arrow-icon {
     i#send-message-input {
         position: absolute;
         top: 0;
-        right: 0; 
+        right: 0;
         width: 41px;
         height: 41px;
         display: flex;
@@ -3542,4 +3548,143 @@ i.arrow-icon {
         font-size: 22px;
         cursor: pointer;
     }
+}
+
+.search-result-page {
+    .search-fillter-wrapper , .categories-wrapper {
+        .filter-btn {
+            padding: 5px 12px;
+            font-size: 14px;
+            margin-bottom: 10px;
+            &:hover {
+                color: #fff !important;
+                border-color: var(--secondaryColor) !important;
+                background-color: var(--secondaryColor) !important;
+            }
+            &:not(.active) {
+                color: var(--darkGray);
+                border-color: var(--darkGray);
+            }
+        }
+    }
+
+    .is-matched-switch-wrapper {
+        font-size: 14px;
+        color: var(--darkGray);
+        margin-left: auto;
+        display: inline-flex;
+        .checkMark {
+            font-size: 18px;
+        }
+    }
+
+    .search-results-wrapper {
+        background: #fff;
+        padding: 0 30px;
+        @extend .card;
+
+        .item {
+            padding: 30px 0;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            border-bottom: 1px solid #f3f3f3;
+
+            &:last-child {
+                border-bottom: none;
+            }
+
+            .item-details {
+                width: 75%;
+                padding-right: 30px;
+                .details-header {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img.image {
+                        width: 70px;
+                        margin-right: 15px;
+                    }
+                    p.name {
+                        font-size: 18px;
+                    }
+
+                    .follow-btn {
+                        padding: 5px 12px;
+                        font-size: 14px;
+                        margin-bottom: 10px;
+                    }
+                }
+
+                .categories-wrapper{
+                    margin-bottom: 20px;
+                }
+
+                .matched {
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                    i.fa.fa-check {
+                        color: #fff;
+                        background: var(--secondaryColor);
+                        width: 15px;
+                        height: 15px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 9px;
+                        border-radius: 20px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+
+            .item-image-and-shares {
+                width: 25%;
+                .shares-wrapper {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    .views ,.shares  {
+                        width: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 10px 0;
+                        i {
+                            font-size: 22px;
+                            line-height: 0;
+                            margin-right: 10px;
+                        }
+                    }
+
+                    .views{
+                        i{
+
+                            color: var(--secondaryColor);
+                        }
+                        strong {
+                            border-right: 1px solid #ccc;
+                            padding-right: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.no-data {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 500px;
+    font-size: 18px;
+
+    img {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
 }
