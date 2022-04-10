@@ -371,14 +371,15 @@
 
 
                     <div class="row">
-                        <div class="col-md-9">
+                        <div class="col-md-8">
                             <p class="lead">Current Remaining Budget</p>
-                        </div><!-- col -->
-                        <div class="col-md-3 text-right">
+                        </div><!-- col-md-8 -->
+                        <div class="col-md-4 text-right">
                             <div class="slider-range-values">
-                                <p class="budget-label m-0 bold lead"> 0 </p>
+                                <span class="budget-label m-0 bold lead colored2"> 0 </span> 
+                                <span class="total-budget-label m-0 bold lead colored2"> / 2000 </span>
                             </div><!-- slider-range-values -->
-                        </div><!-- col -->
+                        </div><!-- col-md-4 -->
                     </div><!-- row -->
 
                     <div class="slider-range-container slider-range-with-one-axis mb-4">

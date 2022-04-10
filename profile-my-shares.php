@@ -18,6 +18,18 @@
                             <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                             <div class="bottom-shadow"></div><!-- bottom-shadow -->
                         </div><!-- item-content -->
+
+                        <div class="shares-wrapper">
+                            <div class="views">
+                                <i class="icon icon-eye"></i>
+                                <strong> 10 KD </strong>
+                            </div><!-- views -->
+                            <div class="shares">
+                                <i class="icon icon-share"></i>
+                                <strong> 30 KD </strong>
+                            </div><!-- views -->
+                        </div><!-- shares-wrapper -->
+
                     </div><!-- one-item -->
 
 
@@ -28,6 +40,18 @@
                             <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                             <div class="bottom-shadow"></div><!-- bottom-shadow -->
                         </div><!-- item-content -->
+
+                        <div class="shares-wrapper">
+                            <div class="views">
+                                <i class="icon icon-eye"></i>
+                                <strong> 10 KD </strong>
+                            </div><!-- views -->
+                            <div class="shares">
+                                <i class="icon icon-share"></i>
+                                <strong> 30 KD </strong>
+                            </div><!-- views -->
+                        </div><!-- shares-wrapper -->
+
                     </div><!-- one-item -->
 
 
@@ -38,6 +62,18 @@
                             <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                             <div class="bottom-shadow"></div><!-- bottom-shadow -->
                         </div><!-- item-content -->
+
+                        <div class="shares-wrapper">
+                            <div class="views">
+                                <i class="icon icon-eye"></i>
+                                <strong> 10 KD </strong>
+                            </div><!-- views -->
+                            <div class="shares">
+                                <i class="icon icon-share"></i>
+                                <strong> 30 KD </strong>
+                            </div><!-- views -->
+                        </div><!-- shares-wrapper -->
+
                     </div><!-- one-item -->
 
 
@@ -48,6 +84,18 @@
                             <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                             <div class="bottom-shadow"></div><!-- bottom-shadow -->
                         </div><!-- item-content -->
+
+                        <div class="shares-wrapper">
+                            <div class="views">
+                                <i class="icon icon-eye"></i>
+                                <strong> 10 KD </strong>
+                            </div><!-- views -->
+                            <div class="shares">
+                                <i class="icon icon-share"></i>
+                                <strong> 30 KD </strong>
+                            </div><!-- views -->
+                        </div><!-- shares-wrapper -->
+
                     </div><!-- one-item -->
 
 
@@ -58,6 +106,18 @@
                             <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                             <div class="bottom-shadow"></div><!-- bottom-shadow -->
                         </div><!-- item-content -->
+
+                        <div class="shares-wrapper">
+                            <div class="views">
+                                <i class="icon icon-eye"></i>
+                                <strong> 10 KD </strong>
+                            </div><!-- views -->
+                            <div class="shares">
+                                <i class="icon icon-share"></i>
+                                <strong> 30 KD </strong>
+                            </div><!-- views -->
+                        </div><!-- shares-wrapper -->
+
                     </div><!-- one-item -->
 
 
@@ -68,6 +128,18 @@
                             <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                             <div class="bottom-shadow"></div><!-- bottom-shadow -->
                         </div><!-- item-content -->
+
+                        <div class="shares-wrapper">
+                            <div class="views">
+                                <i class="icon icon-eye"></i>
+                                <strong> 10 KD </strong>
+                            </div><!-- views -->
+                            <div class="shares">
+                                <i class="icon icon-share"></i>
+                                <strong> 30 KD </strong>
+                            </div><!-- views -->
+                        </div><!-- shares-wrapper -->
+
                     </div><!-- one-item -->
 
 
@@ -78,6 +150,18 @@
                             <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                             <div class="bottom-shadow"></div><!-- bottom-shadow -->
                         </div><!-- item-content -->
+
+                        <div class="shares-wrapper">
+                            <div class="views">
+                                <i class="icon icon-eye"></i>
+                                <strong> 10 KD </strong>
+                            </div><!-- views -->
+                            <div class="shares">
+                                <i class="icon icon-share"></i>
+                                <strong> 30 KD </strong>
+                            </div><!-- views -->
+                        </div><!-- shares-wrapper -->
+
                     </div><!-- one-item -->
 
 
@@ -88,6 +172,17 @@
                             <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                             <div class="bottom-shadow"></div><!-- bottom-shadow -->
                         </div><!-- item-content -->
+
+                        <div class="shares-wrapper">
+                            <div class="views">
+                                <i class="icon icon-eye"></i>
+                                <strong> 10 KD </strong>
+                            </div><!-- views -->
+                            <div class="shares">
+                                <i class="icon icon-share"></i>
+                                <strong> 30 KD </strong>
+                            </div><!-- views -->
+                        </div><!-- shares-wrapper -->
                     </div><!-- one-item -->
 
 
@@ -103,6 +198,17 @@
                             <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                             <div class="bottom-shadow"></div><!-- bottom-shadow -->
                         </div><!-- item-content -->
+
+                        <div class="shares-wrapper">
+                            <div class="views">
+                                <i class="icon icon-eye"></i>
+                                <strong> 10 KD </strong>
+                            </div><!-- views -->
+                            <div class="shares">
+                                <i class="icon icon-share"></i>
+                                <strong> 30 KD </strong>
+                            </div><!-- views -->
+                        </div><!-- shares-wrapper -->
                     </div><!-- one-item -->
 
 
@@ -113,6 +219,17 @@
                             <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                             <div class="bottom-shadow"></div><!-- bottom-shadow -->
                         </div><!-- item-content -->
+
+                        <div class="shares-wrapper">
+                            <div class="views">
+                                <i class="icon icon-eye"></i>
+                                <strong> 10 KD </strong>
+                            </div><!-- views -->
+                            <div class="shares">
+                                <i class="icon icon-share"></i>
+                                <strong> 30 KD </strong>
+                            </div><!-- views -->
+                        </div><!-- shares-wrapper -->
                     </div><!-- one-item -->
 
 
@@ -129,6 +246,17 @@
                             <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                             <div class="bottom-shadow"></div><!-- bottom-shadow -->
                         </div><!-- item-content -->
+
+                        <div class="shares-wrapper">
+                            <div class="views">
+                                <i class="icon icon-eye"></i>
+                                <strong> 10 KD </strong>
+                            </div><!-- views -->
+                            <div class="shares">
+                                <i class="icon icon-share"></i>
+                                <strong> 30 KD </strong>
+                            </div><!-- views -->
+                        </div><!-- shares-wrapper -->
                     </div><!-- one-item -->
 
 
@@ -139,6 +267,17 @@
                             <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                             <div class="bottom-shadow"></div><!-- bottom-shadow -->
                         </div><!-- item-content -->
+
+                        <div class="shares-wrapper">
+                            <div class="views">
+                                <i class="icon icon-eye"></i>
+                                <strong> 10 KD </strong>
+                            </div><!-- views -->
+                            <div class="shares">
+                                <i class="icon icon-share"></i>
+                                <strong> 30 KD </strong>
+                            </div><!-- views -->
+                        </div><!-- shares-wrapper -->
                     </div><!-- one-item -->
 
 
@@ -149,6 +288,17 @@
                             <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                             <div class="bottom-shadow"></div><!-- bottom-shadow -->
                         </div><!-- item-content -->
+
+                        <div class="shares-wrapper">
+                            <div class="views">
+                                <i class="icon icon-eye"></i>
+                                <strong> 10 KD </strong>
+                            </div><!-- views -->
+                            <div class="shares">
+                                <i class="icon icon-share"></i>
+                                <strong> 30 KD </strong>
+                            </div><!-- views -->
+                        </div><!-- shares-wrapper -->
                     </div><!-- one-item -->
 
 

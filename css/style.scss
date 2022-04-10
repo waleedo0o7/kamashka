@@ -3193,6 +3193,38 @@ i.arrow-icon {
                 background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 20%, rgba(0, 0, 0, 0) 50%);
             }
         }
+
+        .shares-wrapper {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .views,
+            .shares {
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px 0;
+                i {
+                    font-size: 16px;
+                    line-height: 0;
+                    margin-right: 10px;
+                }
+                strong {
+                    font-size: 12px;
+                }
+            }
+
+            .views {
+                i {
+                    color: var(--secondaryColor);
+                }
+                strong {
+                    border-right: 1px solid #ccc;
+                    padding-right: 20px;
+                }
+            }
+        }
     }
 }
 
@@ -3553,7 +3585,8 @@ i.arrow-icon {
 }
 
 .search-result-page {
-    .search-fillter-wrapper , .categories-wrapper {
+    .search-fillter-wrapper,
+    .categories-wrapper {
         .filter-btn {
             padding: 5px 12px;
             font-size: 14px;
@@ -3618,7 +3651,7 @@ i.arrow-icon {
                     }
                 }
 
-                .categories-wrapper{
+                .categories-wrapper {
                     margin-bottom: 20px;
                 }
 
@@ -3647,7 +3680,8 @@ i.arrow-icon {
                     display: flex;
                     justify-content: flex-start;
                     align-items: center;
-                    .views ,.shares  {
+                    .views,
+                    .shares {
                         width: 50%;
                         display: flex;
                         justify-content: center;
@@ -3660,9 +3694,8 @@ i.arrow-icon {
                         }
                     }
 
-                    .views{
-                        i{
-
+                    .views {
+                        i {
                             color: var(--secondaryColor);
                         }
                         strong {
@@ -3676,11 +3709,10 @@ i.arrow-icon {
     }
 }
 
-
 .no-data {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     min-height: 500px;
     font-size: 18px;
 
@@ -3688,5 +3720,4 @@ i.arrow-icon {
         width: 150px;
         margin-bottom: 15px;
     }
-
 }
