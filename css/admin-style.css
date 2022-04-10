@@ -1,0 +1,354 @@
+:root {
+  --mainColor: #131a45;
+  --secondaryColor: #fa935b;
+  --successColor: #40cd86;
+  --dangerColor: #ff3c3c;
+  --gray: #F4F7FC;
+  --darkGray: #666666;
+  --mainBoxShadow: rgba(0, 0, 0, 1%) 0px 1px 1px, rgba(0, 0, 0, 1%) 0px 2px 2px, rgba(0, 0, 0, 1%) 0px 4px 4px,
+      rgba(0, 0, 0, 1%) 0px 8px 8px, rgba(0, 0, 0, 1%) 0px 16px 16px;
+  --grayBoxShadow: 0 0 5px #cfcfcf;
+  --mainTransition: all 0.3s ease;
+}
+
+.warning {
+  color: #fa935b;
+}
+
+#top-header .top-header-content #notifications-btn {
+  padding: 0;
+  width: 35px;
+}
+#top-header .top-header-content #notifications-btn i {
+  all: unset;
+  font-size: 20px;
+}
+#top-header .top-header-content #notifications-btn span.number {
+  right: -3px !important;
+}
+#top-header .top-header-content .main-menu {
+  width: auto;
+}
+#top-header .top-header-content .main-menu a:hover {
+  color: #fff !important;
+}
+#top-header .top-header-content .main-menu a:hover:after {
+  display: none;
+}
+#top-header .top-header-content .logo {
+  margin-left: 20px;
+}
+#top-header .top-header-content .icon-container {
+  position: relative;
+}
+#top-header .top-header-content .icon-container button,
+#top-header .top-header-content .icon-container a.resetbtn {
+  color: #fff;
+  width: 55px;
+}
+#top-header .top-header-content .icon-container button i.icon,
+#top-header .top-header-content .icon-container a.resetbtn i.icon {
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+#top-header .top-header-content .icon-container span.number {
+  position: absolute;
+  top: -3px;
+  right: 0;
+  background: var(--secondaryColor);
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 12px;
+  cursor: pointer;
+}
+#top-header .top-header-content .dropdown.user-dropdown {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#top-header .top-header-content .dropdown.user-dropdown .dropdown-menu {
+  transform: translate3d(-55px, 40px, 0px) !important;
+}
+#top-header .top-header-content .dropdown.user-dropdown button {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: auto;
+}
+#top-header .top-header-content .dropdown.user-dropdown img {
+  width: 35px;
+  height: 35px;
+  border-radius: 500px;
+  margin-left: 10px;
+}
+#top-header .top-header-content .dropdown.user-dropdown a.dropdown-item {
+  color: #000;
+  text-align: left;
+  justify-content: start;
+  padding: 5px 20px;
+  margin: 5px 0;
+}
+#top-header .top-header-content .dropdown.user-dropdown a.dropdown-item:hover {
+  color: #000 !important;
+}
+
+.page-content.admin {
+  display: flex;
+  background-color: var(--gray);
+  min-height: calc(100% - 57px);
+}
+.page-content.admin .sidebar-wrapper {
+  width: 13%;
+  background-color: #fff;
+}
+.page-content.admin .sidebar-wrapper .menu ul {
+  margin-top: 10px;
+}
+.page-content.admin .sidebar-wrapper .menu ul li a {
+  color: #000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 23px;
+  margin-bottom: 6px;
+  font-size: 16px;
+  position: relative;
+}
+.page-content.admin .sidebar-wrapper .menu ul li a i {
+  margin-right: 7px;
+}
+.page-content.admin .sidebar-wrapper .menu ul li a.active {
+  color: var(--secondaryColor);
+}
+.page-content.admin .sidebar-wrapper .menu ul li a.active:after {
+  background: var(--secondaryColor);
+}
+.page-content.admin .sidebar-wrapper .menu ul li a:hover {
+  color: var(--secondaryColor);
+}
+.page-content.admin .sidebar-wrapper .menu ul li a:hover:after {
+  background: var(--secondaryColor);
+}
+.page-content.admin .sidebar-wrapper .menu ul li a:after {
+  content: "";
+  width: 4px;
+  background: #fff;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.page-content.admin .page-wrapper {
+  width: 87%;
+  padding: 25px 35px 15px 35px;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.table-wrapper .table-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.table-wrapper .table-header-wrapper a.add-item {
+  padding: 5px 18px;
+  font-size: 14px;
+}
+.table-wrapper .dataTables_wrapper div.dataTables_filter input {
+  background: #fff;
+  border-radius: 8px !important;
+  padding: 8px 35px;
+  border: 1px solid #ced4da66;
+  width: 350px;
+}
+.table-wrapper .dataTables_wrapper div.dataTables_filter input::placeholder {
+  color: #ccc;
+}
+.table-wrapper .dataTables_wrapper div.dataTables_filter {
+  position: absolute;
+  top: -53px;
+  left: 150px;
+}
+.table-wrapper .dataTables_filter:after {
+  content: "k";
+  position: absolute;
+  top: 12px;
+  left: 18px;
+  font-family: "kamashka-font-8" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ccc;
+}
+.table-wrapper table.dataTable {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: var(--mainBoxShadow);
+}
+.table-wrapper table.dataTable thead {
+  background: var(--mainColor);
+  color: #fff;
+}
+.table-wrapper table.dataTable thead th,
+.table-wrapper table.dataTable thead thead {
+  padding: 10px 10px 10px 45px !important;
+}
+.table-wrapper table.dataTable tbody th, .table-wrapper table.dataTable tbody td {
+  padding: 12px 10px 12px 25px;
+}
+.table-wrapper table.dataTable tfoot {
+  display: none;
+}
+.table-wrapper table.dataTable thead .sorting {
+  background-image: unset !important;
+}
+.table-wrapper table.dataTable > thead .sorting:after {
+  left: 2.1em;
+  right: 0;
+}
+.table-wrapper table.dataTable > thead .sorting:before {
+  left: 1.5em;
+  right: 0;
+}
+.table-wrapper .dataTables_paginate {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  background: var(--secondaryColor) !important;
+  color: #fff !important;
+  border-radius: 5px;
+  border-color: var(--secondaryColor) !important;
+}
+
+.dataTables_paginate .paginate_button {
+  background: #fff !important;
+  margin: 0px 6px;
+  border-radius: 10px !important;
+}
+
+table.dataTable tbody tr, td.sorting_1 {
+  background: #FFF !important;
+}
+table.dataTable tbody tr:hover, table.dataTable tbody tr:hover td.sorting_1, td.sorting_1:hover, td.sorting_1:hover td.sorting_1 {
+  background: var(--gray) !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:active {
+  box-shadow: unset;
+}
+
+table.dataTable tbody tr.even {
+  background: var(--gray) !important;
+}
+
+table.dataTable tbody tr.even td.sorting_1 {
+  background: var(--gray) !important;
+}
+
+table.dataTable.row-border tbody th,
+table.dataTable.row-border tbody td,
+table.dataTable.display tbody th,
+table.dataTable.display tbody td {
+  border: none;
+}
+
+table.dataTable.no-footer {
+  border-bottom: none;
+}
+
+.form-wrapper.small-form {
+  width: 800px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.form-wrapper {
+  margin-top: 40px;
+}
+
+table.dataTable .product-image {
+  text-align: center;
+}
+table.dataTable .product-image img {
+  width: 25px;
+  height: 25px;
+}
+
+.admin-statu i.accepted {
+  background: var(--successColor);
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  border-radius: 200px;
+  color: #fff;
+}
+
+.add-attribute-wrapper i {
+  background: var(--successColor);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.attribute-value-wrapper {
+  width: 90%;
+}
+
+.add-attribute-wrapper {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fillter-date-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fillter-date-wrapper i.fa.fa-chevron-down {
+  position: absolute;
+  bottom: 12px;
+  right: 10px;
+  color: #838383;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=admin-style.css.map */

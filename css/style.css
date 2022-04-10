@@ -299,7 +299,8 @@ button.resetbtn::after {
 .form-control {
   border-radius: 8px !important;
   padding: 8px 15px;
-  border: 1px solid #ced4daa3;
+  border: 1px solid #ced4da54;
+  font-size: 14px;
 }
 .form-control::placeholder {
   font-size: 12px;
@@ -789,6 +790,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   align-items: center;
   transition: var(--mainTransition);
   position: relative;
+  height: 100%;
 }
 #top-header .top-header-content .main-menu ul.menu a:hover {
   color: var(--secondaryColor);
@@ -2923,7 +2925,7 @@ i.arrow-icon:before {
 }
 
 .slider-range-container {
-  margin: 0 10px;
+  margin: 0;
 }
 .slider-range-container #sliderrange,
 .slider-range-container #sliderrange-one-axis,

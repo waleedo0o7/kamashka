@@ -371,10 +371,10 @@
 
 
                     <div class="row">
-                        <div class="col">
-                            <p class="lead">Budget</p>
+                        <div class="col-md-9">
+                            <p class="lead">Current Remaining Budget</p>
                         </div><!-- col -->
-                        <div class="col text-right">
+                        <div class="col-md-3 text-right">
                             <div class="slider-range-values">
                                 <p class="budget-label m-0 bold lead"> 0 </p>
                             </div><!-- slider-range-values -->
@@ -388,10 +388,16 @@
 
                     <p class="bold danger"> Your adv is not attractive, please increase the budget or enter fewer users </p>
 
-                    <p class="lead d-flex mb-1"> Number Of Target Audience   </p>
 
+                    <p class=" d-flex mb-1"> Increment Budget </p>
                     <div class="form-group mb-3 relative">
-                        <input type="text" class="form-control" placeholder="2000" id="name" required="">
+                        <input type="text" class="form-control" placeholder="2000" id="" >
+                    </div><!-- form-group  -->
+
+
+                    <p class=" d-flex mb-1"> Number Of Target Audience </p>
+                    <div class="form-group mb-3 relative">
+                        <input type="text" class="form-control" placeholder="2000" id="" >
                     </div><!-- form-group  -->
 
                 </div> <!-- delete-container -->

@@ -3,9 +3,6 @@
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
-<!-- Swiper Slider -->
-<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-
 <!-- Fancybox -->
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 

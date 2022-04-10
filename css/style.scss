@@ -313,7 +313,8 @@ button.resetbtn {
 .form-control {
     border-radius: 8px !important;
     padding: 8px 15px;
-    border: 1px solid #ced4daa3;
+    border: 1px solid #ced4da54;
+    font-size: 14px;
 
     &::placeholder {
         font-size: 12px;
@@ -867,6 +868,7 @@ body.fullscreen {
                     align-items: center;
                     transition: var(--mainTransition);
                     position: relative;
+                    height: 100%;
                     &:hover {
                         color: var(--secondaryColor);
 
@@ -3015,7 +3017,7 @@ i.arrow-icon {
 }
 
 .slider-range-container {
-    margin: 0 10px;
+    margin: 0;
     #sliderrange,
     #sliderrange-one-axis,
     .slider-range {
