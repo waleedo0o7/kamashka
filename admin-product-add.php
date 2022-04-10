@@ -4,7 +4,6 @@
 
     <?php include 'admin-sidebar.php' ?>
 
-
     <div class="page-wrapper">
 
         <div class="page-header-wrapper">
@@ -12,11 +11,8 @@
         </div><!-- page-header-wrapper -->
 
         <div class="form-wrapper">
-
             <div class="row">
-
                 <div class="col-md-8">
-
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group mb-4 relative">
@@ -170,14 +166,10 @@
                             </div>
                         </div><!-- col-md-6 -->
 
-
-
-
-                        
                         <div class="col-md-6">
-                            <div class="form-group mb-4">
+                            <div class="form-group mb-4 select-product-attribute-col">
                                 <label for="" class=" "> Select Product Attribute </label>
-                                <select class="form-control" id="">
+                                <select class="form-control mb-2" >
                                     <option>Color</option>
                                     <option>Attribute 2</option>
                                     <option>Attribute 3</option>
@@ -187,19 +179,16 @@
                             </div>
                         </div><!-- col-md-6 -->
 
-                        <div class="col-md-6 d-flex">
+                        <div class="col-md-6 d-flex attribute-value-col">
                             <div class="form-group mb-4 attribute-value-wrapper">
-                                <label for="" class=" "> Attribute Vale </label>
-                                <input type="text" class="form-control" placeholder="Quantity" id="name">
+                                <label for="" class=" "> Attribute Value </label>
+                                <input type="text" class="form-control mb-2" placeholder="Attribute">
                             </div><!-- form-group  -->
 
                             <div class="add-attribute-wrapper">
-                                <i class="fa fa-plus"></i>
+                                <i class="add-attribute-btn fa fa-plus"></i>
                             </div><!-- add-attribute-wrapper -->
                         </div><!-- col-md-6 -->
-
-
-
 
                     </div><!-- row -->
 

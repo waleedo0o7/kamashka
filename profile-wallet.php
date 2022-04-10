@@ -5,7 +5,7 @@
 
 
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-5 mb-4">
 
                 <h3 class="bold mb-4"> My Wallet </h3>
 

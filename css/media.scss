@@ -10,6 +10,9 @@
     --mainTransition: all 0.3s ease;
 }
 
+
+
+
 // Small Laptop Media
 @media all and (max-width: 1200px) {
     div#expand-video {
@@ -34,7 +37,7 @@
     .container {
         max-width: 1000px;
         height: unset;
-        padding: 0px;
+        padding: 0px 15px !important;
     }
 
     .mobile-menu {
@@ -292,6 +295,7 @@
             }
             .profile-data {
                 width: 100%;
+                padding: 15px;
             }
         }
     }
@@ -710,6 +714,51 @@
     #reportModal .report-container {
         width: 100%;
     }
+
+    .shared-ads-wrapper {
+        .one-item {
+            width: 100%;
+            .shares-wrapper .views i,
+            .shares-wrapper .shares i {
+                font-size: 25px;
+            }
+            strong {
+                font-size: 16px !important;
+            }
+        }
+    }
+
+    .profits-wrapper {
+        .one-item {
+            flex-wrap: wrap;
+            .image {
+                width: 50%;
+                order: 1
+            }
+            .details{
+                width: 100%;
+                order: 3;
+                margin-top: 5px;
+            }
+            .price-and-date.text-right {
+                width: 50%;
+                order: 2
+            }
+        }
+    }
+
+    #nav-history p {
+        text-align: center;
+    }
+    .row.support-item,
+    .row.support-item .col-md-6 {
+        text-align: center !important;
+    }
+
+    .profile.support.ticket {
+        margin: 0 -30px 0 -15px;
+    }
+    
 }
 
 // Tablet Media

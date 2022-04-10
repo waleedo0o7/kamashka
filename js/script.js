@@ -1111,7 +1111,7 @@ $(document).ready(() => {
         range: "min",
         value: 200,
         min: 1,
-        max: 1000,
+        max: 2000,
         slide: function (event, ui) {
             $("#budget").val(ui.value);
             $(".budget-label").text(ui.value)

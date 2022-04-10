@@ -313,6 +313,16 @@ table.dataTable .product-image img {
   color: #fff;
 }
 
+.attribute-value-wrapper {
+  width: 90%;
+}
+
+.add-attribute-wrapper {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .add-attribute-wrapper i {
   background: var(--successColor);
   width: 30px;
@@ -325,17 +335,6 @@ table.dataTable .product-image img {
   cursor: pointer;
   font-size: 14px;
   margin-top: 10px;
-}
-
-.attribute-value-wrapper {
-  width: 90%;
-}
-
-.add-attribute-wrapper {
-  width: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .fillter-date-wrapper {

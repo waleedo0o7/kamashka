@@ -3403,6 +3403,7 @@ i.arrow-icon:before {
   max-height: 60vh;
   overflow: auto;
   margin-bottom: 20px;
+  padding-right: 20px;
 }
 .profile.support.ticket .all-messages .message {
   padding: 10px 20px;

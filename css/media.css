@@ -32,7 +32,7 @@
   .container {
     max-width: 1000px;
     height: unset;
-    padding: 0px;
+    padding: 0px 15px !important;
   }
 
   .mobile-menu {
@@ -264,6 +264,7 @@
   }
   .profile .profile-content .profile-data {
     width: 100%;
+    padding: 15px;
   }
 
   .profile.edit-profile1 .profile-content .profile-sidebar .profile-header {
@@ -630,6 +631,47 @@
 
   #reportModal .report-container {
     width: 100%;
+  }
+
+  .shared-ads-wrapper .one-item {
+    width: 100%;
+  }
+  .shared-ads-wrapper .one-item .shares-wrapper .views i,
+.shared-ads-wrapper .one-item .shares-wrapper .shares i {
+    font-size: 25px;
+  }
+  .shared-ads-wrapper .one-item strong {
+    font-size: 16px !important;
+  }
+
+  .profits-wrapper .one-item {
+    flex-wrap: wrap;
+  }
+  .profits-wrapper .one-item .image {
+    width: 50%;
+    order: 1;
+  }
+  .profits-wrapper .one-item .details {
+    width: 100%;
+    order: 3;
+    margin-top: 5px;
+  }
+  .profits-wrapper .one-item .price-and-date.text-right {
+    width: 50%;
+    order: 2;
+  }
+
+  #nav-history p {
+    text-align: center;
+  }
+
+  .row.support-item,
+.row.support-item .col-md-6 {
+    text-align: center !important;
+  }
+
+  .profile.support.ticket {
+    margin: 0 -30px 0 -15px;
   }
 }
 @media all and (max-width: 767px) {

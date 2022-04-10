@@ -380,9 +380,20 @@ table.dataTable .product-image{
         color: #fff;
     }   
 }
+ 
 
 
-.add-attribute-wrapper{
+
+
+.attribute-value-wrapper {
+    width: 90%;
+}
+
+.add-attribute-wrapper {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     i{
         background: var(--successColor);
         width: 30px;
@@ -398,16 +409,14 @@ table.dataTable .product-image{
     }
 }
 
-.attribute-value-wrapper {
-    width: 90%;
-}
 
-.add-attribute-wrapper {
-    width: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+
+
+
+
+
+
 
 
 .fillter-date-wrapper {
