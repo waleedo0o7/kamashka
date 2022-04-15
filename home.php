@@ -163,7 +163,7 @@
                                             </div><!-- video-icons -->
                                         </div><!-- icons -->
                                         <div class="video-container">
-                                            <video class="video big-main-video" controls>
+                                            <video class="video big-main-video" controls loop>
                                                 <source src="videos/video2.mp4" type="video/mp4">
                                             </video>
                                             <div class="video-overlay">
@@ -214,7 +214,7 @@
                                     <div class="top-shadow"></div><!-- top-shadow -->
                                     <div class="video-container">
 
-                                        <video class="video" controls>
+                                        <video class="video" controls loop>
                                             <source src="videos/video2.mp4" type="video/mp4">
                                         </video>
 
@@ -555,7 +555,7 @@
                                             </div><!-- video-icons -->
                                         </div><!-- icons -->
                                         <div class="video-container">
-                                            <video class="video big-main-video" controls>
+                                            <video class="video big-main-video" controls loop>
                                                 <source src="videos/video1.mp4" type="video/mp4">
                                             </video>
                                             <div class="video-overlay">
@@ -606,7 +606,7 @@
                                     <div class="top-shadow"></div><!-- top-shadow -->
                                     <div class="video-container">
 
-                                        <video class="video" controls>
+                                        <video class="video" controls loop>
                                             <source src="videos/video1.mp4" type="video/mp4">
                                         </video>
 
@@ -947,7 +947,7 @@
                                             </div><!-- video-icons -->
                                         </div><!-- icons -->
                                         <div class="video-container">
-                                            <video class="video big-main-video" controls>
+                                            <video class="video big-main-video" controls loop>
                                                 <source src="videos/video3.mp4" type="video/mp4">
                                             </video>
                                             <div class="video-overlay">
@@ -998,7 +998,7 @@
                                     <div class="top-shadow"></div><!-- top-shadow -->
                                     <div class="video-container">
 
-                                        <video class="video" controls>
+                                        <video class="video" controls loop>
                                             <source src="videos/video3.mp4" type="video/mp4">
                                         </video>
 
