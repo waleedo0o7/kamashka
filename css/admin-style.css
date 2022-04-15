@@ -108,7 +108,7 @@ body {
 .page-content.admin {
   display: flex;
   background-color: var(--gray);
-  min-height: calc(100% - 57px);
+  min-height: calc(100vh - 57px);
 }
 .page-content.admin .sidebar-wrapper {
   width: 13%;

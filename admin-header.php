@@ -76,10 +76,10 @@
 
         <div class="menu-links-container">
             <ul class="resetul">
-                <li> <a href="#"> Dashboard </a> </li>
-                <li> <a href="#"> Taps </a> </li>
-                <li> <a href="#"> Products </a> </li>
-                <li> <a href="#"> Orders </a> </li>
+                <li> <a href="admin-dashboard.php"> Dashboard </a> </li>
+                <li> <a href="admin-taps.php"> Taps </a> </li>
+                <li> <a href="admin-products.php"> Products </a> </li>
+                <li> <a href="admin-prders.php"> Orders </a> </li>
             </ul>
         </div><!-- menu-links-container -->
 
@@ -97,7 +97,7 @@
                     </div> <!-- menu-icon -->
 
                     <div class="logo">
-                        <a href="home.php"> <img class="img-fluid" src="img/logo-wide.png" /> </a>
+                        <a href="admin-dashboard.php"> <img class="img-fluid" src="img/logo-wide.png" /> </a>
                     </div> <!-- logo -->
                 </div><!-- col-md-4 -->
 
@@ -180,10 +180,10 @@
                 <div class="logo-header"> <img class="logo" src="img/logo-wide.png" /> <i id="close-left-menu" class="icon icon-close"></i> </div><!-- header-header -->
                 <div class="menu">
                     <ul class="resetul">
-                        <li> <a href="#"> Dashboard </a> </li>
-                        <li> <a href="#"> Taps </a> </li>
-                        <li> <a href="#"> Products </a> </li>
-                        <li> <a href="#"> Orders </a> </li>
+                        <li> <a href="admin-dashboard.php"> Dashboard </a> </li>
+                        <li> <a href="admin-taps.php"> Taps </a> </li>
+                        <li> <a href="admin-products.php"> Products </a> </li>
+                        <li> <a href="admin-orders.php"> Orders </a> </li>
                     </ul>
                 </div><!-- menu -->
                 <div class="menu-footer">
