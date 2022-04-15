@@ -1,5 +1,12 @@
 <?php include 'header.php'; ?>
 
+<div class="main-loader-wrapper" style="background: var(--secondaryColor);">
+    <div class="loading-container">
+        <div class="sbl-circ-path sm"></div>
+    </div><!-- loading-container -->
+</div><!-- loader-wrapper -->
+
+
 <style>
     body{
         overflow: hidden;

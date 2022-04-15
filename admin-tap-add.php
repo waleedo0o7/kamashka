@@ -1,6 +1,6 @@
 <?php include 'admin-header.php'; ?>
 
-<div class="page-content admin">
+<div class="page-content admin add-tap">
 
     <?php include 'admin-sidebar.php' ?>
 
@@ -8,7 +8,7 @@
     <div class="page-wrapper">
 
         <div class="page-header-wrapper">
-            <h1 class="page-title"> Add New Category </h1>
+            <h1 class="page-title"> Add New Tap </h1>
         </div><!-- page-header-wrapper -->
 
         <div class="form-wrapper small-form">
@@ -43,18 +43,28 @@
                         <textarea id="" class="form-control" name="" placeholder="Description (Arabic)"></textarea>
                     </div>
                 </div><!-- col-md-6 -->
-
-
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <div class="form-group mb-3">
-                        <label for="" class=" bold"> Product Tags </label>
-                        <textarea id="" class="form-control" name="" placeholder="Product Tags"></textarea>
+                        <label for="" class=" bold"> Tap Icon </label>
+
+                        <div class="image relative">
+                            <img style="width : 40px" id="profile-image" class="img-fluid" src="img/icon.png" alt="">
+                            <div class="change-image-container">
+                                <i class="icon icon-edit"></i>
+                                <input id="change-profile-image" class="d-none" type="file" accept="image/png, image/gif, image/jpeg">
+                            </div><!-- change-image-container -->
+
+                        </div><!-- image -->
+
+
                     </div>
-                </div><!-- col-md-12 -->
+                </div><!-- col-md-6 -->
+
+
 
                 <div class="col-md-12">
                     <div class="submit-btn-container text-center">
-                        <a href="#" class="btn btn-custom1 text-center pl-5 pr-5 w-100" id=""> Add Category </a>
+                        <a href="#" class="btn btn-custom1 text-center pl-5 pr-5 w-100" id=""> Add Tap </a>
                     </div><!-- submit-btn-container -->
                 </div>
 

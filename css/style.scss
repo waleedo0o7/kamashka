@@ -32,6 +32,7 @@
     --mainTransition: all 0.3s ease;
 }
 
+
 // custom checkbox size lg
 .custom-control-lg .custom-control-label::before,
 .custom-control-lg .custom-control-label::after {
@@ -3054,6 +3055,10 @@ i.arrow-icon {
             font-size: 14px;
         }
     }
+}
+
+.budget-progress{ 
+        height: 0.3rem !important;  
 }
 
 .loading-container {

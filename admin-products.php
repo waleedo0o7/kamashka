@@ -4,14 +4,13 @@
 
     <?php include 'admin-sidebar.php' ?>
 
-
     <div class="page-wrapper">
-
 
         <div class="table-wrapper">
 
             <div class="table-header-wrapper">
                 <h1 class="page-title"> Products </h1>
+                <a class="products-grid" href="admin-products-grid.php"> <i class="fa fa-th-list"></i> </a>
                 <a href="admin-product-add.php" class="btn btn-custom1 add-item"> Add Product </a>
             </div><!-- table-wrapper -->
 
@@ -22,7 +21,7 @@
                     <tr>
                         <th>Product</th>
                         <th>Name</th>
-                        <th>Category</th>
+                        <th>Tap</th>
                         <th>Price</th>
                         <th>Purchased</th>
                         <th>Stock</th>

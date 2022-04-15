@@ -28,11 +28,6 @@
 
             <div class="row">
 
-
-
-
-
-
                 <div class="col-md-4">
                     <div class="one-adv card p-3">
 
@@ -47,13 +42,13 @@
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 
-                                    <!--  IF ADV ACTIVE  -->
+                                        <!--  IF ADV ACTIVE  -->
                                         <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#republishModal"> Republish Adv </a>
                                         <a class="dropdown-item" href="profile-ads-manager-list-ads-statistics.php"> Adv Statistics</a>
 
                                         <div class="dropdown-divider"></div>
 
-                                    <!--  IF ADV FINISHED  -->
+                                        <!--  IF ADV FINISHED  -->
                                         <a class="dropdown-item" href="create-adv.php"> Edit Ads</a>
                                         <a class="dropdown-item" href="" data-toggle="modal" data-target="#budgetModal"> Increase / Decrease Budget</a>
                                         <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteAdvModal"> Stop Adv</a>
@@ -67,89 +62,25 @@
                         <div class="post-details">
 
                             <div class="item">
-                                <div class="title"> Status </div><!-- title -->
+                                <div class="title"> Active </div><!-- title -->
+
                                 <div class="value">
-                                    <div class="label-custom label-custom1" role="alert"> Active </div>
+                                    <label class="toggle custom-switch" for="uniqueID">
+                                        <input type="checkbox" class="toggle__input" id="uniqueID">
+                                        <span class="toggle-track m-0">
+                                            <span class="toggle-indicator">
+                                                <!-- 	This check mark is optional	 -->
+                                                <span class="checkMark">
+                                                    <svg viewBox="0 0 24 24" id="ghq-svg-check" role="presentation" aria-hidden="true">
+                                                        <path d="M9.86 18a1 1 0 01-.73-.32l-4.86-5.17a1.001 1.001 0 011.46-1.37l4.12 4.39 8.41-9.2a1 1 0 111.48 1.34l-9.14 10a1 1 0 01-.73.33h-.01z"></path>
+                                                    </svg>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </label>
                                 </div><!-- value -->
                             </div> <!-- item -->
 
-                            <div class="item">
-                                <div class="title"> Budget </div><!-- title -->
-                                <div class="value">1000 Kd</div><!-- value -->
-                            </div> <!-- item -->
-
-                            <div class="item">
-                                <div class="title"> Date </div><!-- title -->
-                                <div class="value"> 20/2/2021 </div><!-- value -->
-                            </div> <!-- item -->
-
-                            <div class="item">
-                                <div class="title"> Gender </div><!-- title -->
-                                <div class="value"> Both </div><!-- value -->
-                            </div> <!-- item -->
-
-                            <div class="item">
-                                <div class="title"> Age Range </div><!-- title -->
-                                <div class="value"> 18 To 60 </div><!-- value -->
-                            </div> <!-- item -->
-
-                            <div class="item">
-                                <div class="title"> Location </div><!-- title -->
-                                <div class="value"> Alexandria </div><!-- value -->
-                            </div> <!-- item -->
-
-                            <div class="item">
-                                <div class="title"> Views </div><!-- title -->
-                                <div class="value"> 3000 </div><!-- value -->
-                            </div> <!-- item -->
-
-                            <div class="item">
-                                <div class="title"> Shares </div><!-- title -->
-                                <div class="value"> 300 </div><!-- value -->
-                            </div> <!-- item -->
-
-                        </div><!-- post-details -->
-                    </div><!-- one-adv -->
-                </div><!-- col-md-4 -->
-
-
-
-
-
-
-                
-
-            
-                <div class="col-md-4">
-                    <div class="one-adv card p-3">
-
-                        <div class="post-header">
-                            <h4 class="bold"> Laptop Hp </h4>
-                            <div class="actions">
-
-                                <!-- Default dropleft button -->
-                                <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#republishModal"> Republish Adv </a>
-                                        <a class="dropdown-item" href="profile-ads-manager-list-ads-statistics.php"> Adv Statistics</a>
-
-                                        <div class="dropdown-divider"></div>
-
-                                        <a class="dropdown-item" href="create-adv.php"> Edit Ads</a>
-                                        <a class="dropdown-item" href="" data-toggle="modal" data-target="#budgetModal"> Increase / Decrease Budget</a>
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteAdvModal"> Stop Adv</a>
-                                        <a class="dropdown-item" href="profile-ads-manager-list-ads-statistics.php"> Adv Statistics</a>
-                                    </div>
-                                </div> <!-- btn-group -->
-
-                            </div><!-- actions -->
-                        </div> <!-- post-header -->
-
-                        <div class="post-details">
 
                             <div class="item">
                                 <div class="title"> Status </div><!-- title -->
@@ -205,11 +136,6 @@
 
 
 
-
-
-                
-
-            
                 <div class="col-md-4">
                     <div class="one-adv card p-3">
 
@@ -240,6 +166,136 @@
                         </div> <!-- post-header -->
 
                         <div class="post-details">
+
+                            <div class="item">
+                                <div class="title"> Active </div><!-- title -->
+
+                                <div class="value">
+                                    <label class="toggle custom-switch" for="uniqueID">
+                                        <input type="checkbox" class="toggle__input" id="uniqueID">
+                                        <span class="toggle-track m-0">
+                                            <span class="toggle-indicator">
+                                                <!-- 	This check mark is optional	 -->
+                                                <span class="checkMark">
+                                                    <svg viewBox="0 0 24 24" id="ghq-svg-check" role="presentation" aria-hidden="true">
+                                                        <path d="M9.86 18a1 1 0 01-.73-.32l-4.86-5.17a1.001 1.001 0 011.46-1.37l4.12 4.39 8.41-9.2a1 1 0 111.48 1.34l-9.14 10a1 1 0 01-.73.33h-.01z"></path>
+                                                    </svg>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </label>
+                                </div><!-- value -->
+                            </div> <!-- item -->
+
+                            <div class="item">
+                                <div class="title"> Status </div><!-- title -->
+                                <div class="value">
+                                    <div class="label-custom label-custom1" role="alert"> Active </div>
+                                </div><!-- value -->
+                            </div> <!-- item -->
+
+                            <div class="item">
+                                <div class="title"> Budget </div><!-- title -->
+                                <div class="value">1000 Kd</div><!-- value -->
+                            </div> <!-- item -->
+
+                            <div class="item">
+                                <div class="title"> Date </div><!-- title -->
+                                <div class="value"> 20/2/2021 </div><!-- value -->
+                            </div> <!-- item -->
+
+                            <div class="item">
+                                <div class="title"> Gender </div><!-- title -->
+                                <div class="value"> Both </div><!-- value -->
+                            </div> <!-- item -->
+
+                            <div class="item">
+                                <div class="title"> Age Range </div><!-- title -->
+                                <div class="value"> 18 To 60 </div><!-- value -->
+                            </div> <!-- item -->
+
+                            <div class="item">
+                                <div class="title"> Location </div><!-- title -->
+                                <div class="value"> Alexandria </div><!-- value -->
+                            </div> <!-- item -->
+
+                            <div class="item">
+                                <div class="title"> Views </div><!-- title -->
+                                <div class="value"> 3000 </div><!-- value -->
+                            </div> <!-- item -->
+
+                            <div class="item">
+                                <div class="title"> Shares </div><!-- title -->
+                                <div class="value"> 300 </div><!-- value -->
+                            </div> <!-- item -->
+
+                        </div><!-- post-details -->
+                    </div><!-- one-adv -->
+                </div><!-- col-md-4 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="col-md-4">
+                    <div class="one-adv card p-3">
+
+                        <div class="post-header">
+                            <h4 class="bold"> Laptop Hp </h4>
+                            <div class="actions">
+
+                                <!-- Default dropleft button -->
+                                <div class="btn-group dropleft">
+                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#republishModal"> Republish Adv </a>
+                                        <a class="dropdown-item" href="profile-ads-manager-list-ads-statistics.php"> Adv Statistics</a>
+
+                                        <div class="dropdown-divider"></div>
+
+                                        <a class="dropdown-item" href="create-adv.php"> Edit Ads</a>
+                                        <a class="dropdown-item" href="" data-toggle="modal" data-target="#budgetModal"> Increase / Decrease Budget</a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteAdvModal"> Stop Adv</a>
+                                        <a class="dropdown-item" href="profile-ads-manager-list-ads-statistics.php"> Adv Statistics</a>
+                                    </div>
+                                </div> <!-- btn-group -->
+
+                            </div><!-- actions -->
+                        </div> <!-- post-header -->
+
+                        <div class="post-details">
+
+                            <div class="item">
+                                <div class="title"> Active </div><!-- title -->
+
+                                <div class="value">
+                                    <label class="toggle custom-switch" for="uniqueID">
+                                        <input type="checkbox" class="toggle__input" id="uniqueID">
+                                        <span class="toggle-track m-0">
+                                            <span class="toggle-indicator">
+                                                <!-- 	This check mark is optional	 -->
+                                                <span class="checkMark">
+                                                    <svg viewBox="0 0 24 24" id="ghq-svg-check" role="presentation" aria-hidden="true">
+                                                        <path d="M9.86 18a1 1 0 01-.73-.32l-4.86-5.17a1.001 1.001 0 011.46-1.37l4.12 4.39 8.41-9.2a1 1 0 111.48 1.34l-9.14 10a1 1 0 01-.73.33h-.01z"></path>
+                                                    </svg>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </label>
+                                </div><!-- value -->
+                            </div> <!-- item -->
 
                             <div class="item">
                                 <div class="title"> Status </div><!-- title -->
@@ -376,29 +432,34 @@
                         </div><!-- col-md-8 -->
                         <div class="col-md-4 text-right">
                             <div class="slider-range-values">
-                                <span class="budget-label m-0 bold lead colored2"> 0 </span> 
+                                <span class="budget-label m-0 bold lead colored2"> 1000 </span>
                                 <span class="total-budget-label m-0 bold lead colored2"> / 2000 </span>
                             </div><!-- slider-range-values -->
+
                         </div><!-- col-md-4 -->
                     </div><!-- row -->
 
-                    <div class="slider-range-container slider-range-with-one-axis mb-4">
+                    <!--  <div class="slider-range-container slider-range-with-one-axis mb-4">
                         <div id="sliderrange-one-axis"></div>
                         <input id="budget" class="d-none" placeholder="budget" type="text">
-                    </div><!-- slider-range-container slider-range-with-one-axis" -->
+                    </div>slider-range-container slider-range-with-one-axis" -->
+
+                    <div class="progress budget-progress mb-4">
+                        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
 
                     <p class="bold danger"> Your adv is not attractive, please increase the budget or enter fewer users </p>
 
 
                     <p class=" d-flex mb-1"> Increment Budget </p>
                     <div class="form-group mb-3 relative">
-                        <input type="text" class="form-control" placeholder="2000" id="" >
+                        <input type="text" class="form-control" placeholder="2000" id="">
                     </div><!-- form-group  -->
 
 
                     <p class=" d-flex mb-1"> Number Of Target Audience </p>
                     <div class="form-group mb-3 relative">
-                        <input type="text" class="form-control" placeholder="2000" id="" >
+                        <input type="text" class="form-control" placeholder="2000" id="">
                     </div><!-- form-group  -->
 
                 </div> <!-- delete-container -->
@@ -449,4 +510,3 @@
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->
 </div> <!-- budgetModal Modal END -->
-

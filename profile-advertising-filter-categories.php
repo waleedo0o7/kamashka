@@ -5,7 +5,7 @@
     <div class="profile-content">
         <div class="profile-data w-100">
             <div class="container mt-4">
-                <h3 class="bold mb-3"> Categories </h3>
+                <h3 class="bold mb-3"> Taps </h3>
 
                 <div class="categories-wrapper">
 
@@ -14,7 +14,7 @@
 
                         <div class="custom-control-lg custom-control custom-checkbox mb-2">
                             <input class="custom-control-input" id="select-all" type="checkbox" />
-                            <label class="custom-control-label" for="select-all">Select All Categories</label>
+                            <label class="custom-control-label" for="select-all">Select All Taps</label>
                         </div>
 
                     </div><!-- select-all-wrapper -->

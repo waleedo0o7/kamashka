@@ -2960,6 +2960,10 @@ i.arrow-icon:before {
   font-size: 14px;
 }
 
+.budget-progress {
+  height: 0.3rem !important;
+}
+
 .loading-container {
   background: rgba(200, 200, 200, 0.1);
   display: flex;

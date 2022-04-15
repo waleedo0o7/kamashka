@@ -11,11 +11,11 @@
         <div class="table-wrapper">
 
             <div class="table-header-wrapper">
-                <h1 class="page-title"> Categories </h1>
-                <a href="admin-category-add.php" class="btn btn-custom1 add-item"> Add Category </a>
+                <h1 class="page-title"> Tabs </h1>
+                <a href="admin-tap-add.php" class="btn btn-custom1 add-item"> Add Tab </a>
             </div><!-- table-wrapper -->
 
-            <table id="example" class="display" style="width:100%">
+            <table id="taps" class="display" style="width:100%">
                 <thead>
                     <tr>
                         <th>Name</th>

@@ -18,10 +18,10 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css" integrity="sha512-gRH0EcIcYBFkQTnbpO8k0WlsD20x5VzjhOA1Og8+ZUAhcMUCvd+APD35FJw3GzHAP3e+mP28YcDJxVr745loHw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
     <!-- datatables -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
-    
+
     <!-- datatables bootstrap4 -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap4.min.css">
 
@@ -63,85 +63,10 @@
                 <img class="logo" src="img/logo-wide.png">
             </div><!-- logo -->
             <div class="btn-and-close">
-                <a class="btn btn-custom1" data-toggle="modal" data-target="#createModal"> Create </a>
                 <i id="closeMobileMenu" class="icon icon-close"></i>
             </div><!-- btn-and-close -->
+
         </div><!-- menu-header -->
-
-        <div class="menu-icons-container">
-            <ul class="resetul menu-icons">
-                <li> <a href="#"> <i class="icon icon-bell"></i> <span class="number" style="right: 3px;"> 0 </span></a> </li>
-                <li> <a href="#"> <i class="icon icon-heart"></i> <span class="number" style="right: 3px;"> 0 </span></a> </li>
-                <li> <a href="#"> <i class="icon icon-cart"></i> <span class="number" style="right: 3px;"> 0 </span></a> </li>
-                <li>
-
-                    <!--  IF USER LOOOOOGINED  for mobile  -->
-                    <div class="icon-container">
-                        <div class="dropdown custom-dropdown dropdown-mobile-popup ">
-                            <a class="dropdown-toggle resetbtn" type="button" id="signin" data-toggle="dropdown">
-                                <i class="icon icon-user"></i>
-                            </a>
-                            <div class="dropdown-menu disable-auto-close pl-3 pr-3 user" aria-labelledby="signin">
-                                <p class="bold text-center"> Continue With Your Profile, Create Your Own Advs, Collect Money, Shop Online And More </p>
-                                <a href="auth-signin.php" class="btn btn-custom1 w-100 mb-2"> Sign In </a>
-                                <a href="auth-signup.php" class="btn btn-custom2 w-100 "> Sign Up </a>
-
-                                <p class="text-center"> Or continue with </p>
-
-                                <ul class="resetul social-icons mb-3">
-                                    <li> <a href="#"> <img src="img/facebook-icon.svg" /> </a> </li>
-                                    <li> <a href="#"> <img src="img/google-icon.svg" /> </a> </li>
-                                    <li> <a href="#"> <img src="img/apple-icon.svg" /> </a> </li>
-                                </ul>
-
-                            </div> <!-- dropdown-menu -->
-
-                        </div> <!-- dropdown -->
-                    </div><!-- icon-container -->
-
-
-                    <!--  IF USER  NOOOOT  LOOOOOGINED  for mobile -->
-
-                    <div class="icon-container">
-                        <div class="dropdown custom-dropdown dropdown-mobile-popup d-none ">
-                            <a class="dropdown-toggle resetbtn" href="#">
-                                <i class="icon icon-user"></i>
-                            </a>
-                        </div> <!-- dropdown -->
-                    </div><!-- icon-container -->
-
-                </li>
-                <li> <a href="#" id="toggle-search"> <i class="icon icon-search"></i> </a> </li>
-            </ul> <!-- menu-icons -->
-
-            <div class="user-icons">
-                <div class="dropdown custom-dropdown dropdown-mobile-popup">
-                    <button class="dropdown-toggle language-btn resetbtn" type="button" id="language" data-toggle="dropdown">
-                        <img class="img-fluid" src="img/flag-kuwait.png" />
-                    </button>
-                    <div class="dropdown-menu disable-auto-close" aria-labelledby="language">
-                        <p>Country</p>
-                        <div class="one-item">
-                            <ul class="resetul countries">
-                                <li> <a href="#"> <img class="img-fluid" src="img/flag-kuwait.png" /> <span> kuwait </span> <i class="fa fa-check"></i> </a> </li>
-                                <li> <a href="#"> <img class="img-fluid" src="img/flag-ksa.png" /> <span> Saudi Arabia </span> </a></li>
-                                <li> <a href="#"> <img class="img-fluid" src="img/flag-uae.png" /> <span> United Arab Emirates</span> </a></li>
-                            </ul>
-                        </div><!-- one-item -->
-
-
-                        <p> Language </p>
-                        <div class="one-item">
-                            <ul class="resetul languages">
-                                <li> <a href="#"> <span> English </span> <i class="fa fa-check"></i> </a> </li>
-                                <li> <a href="#"> <span> عربي </span> </a></li>
-                            </ul>
-                        </div><!-- one-item -->
-
-                    </div> <!-- dropdown-menu -->
-                </div> <!-- dropdown -->
-            </div><!-- user-icons -->
-        </div><!-- menu-icons-container -->
 
         <div class="search-container">
             <div class="form-group w-100">
@@ -151,22 +76,13 @@
 
         <div class="menu-links-container">
             <ul class="resetul">
-                <li> <a href="#"> Advertising </a> </li>
-                <li> <a href="#"> Discover </a> </li>
-                <li> <a href="#"> Shoping </a> </li>
-
-                <!-- IF USER LOGINED -->
-                <li> <a href="#"> Sign Out </a> </li>
+                <li> <a href="#"> Dashboard </a> </li>
+                <li> <a href="#"> Taps </a> </li>
+                <li> <a href="#"> Products </a> </li>
+                <li> <a href="#"> Orders </a> </li>
             </ul>
         </div><!-- menu-links-container -->
 
-        <div class="social-media-container">
-            <ul class="resetul">
-                <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
-                <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
-                <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
-            </ul>
-        </div><!-- social-media-container -->
 
     </div><!-- mobile-left-menu -->
 
@@ -257,96 +173,6 @@
         </div> <!-- modal-dialog -->
     </div> <!-- Delete Modal END -->
 
-    <!-- right-menu -->
-    <div class="right-menu-container">
-        <div class="right-menu">
-
-            <div class="right-menu-header">
-                <p class="title"> <span> 164 </span> Comments </p>
-                <i class="icon icon-close" id="close-right-menu"></i>
-            </div><!-- right-menu-header -->
-
-            <div class="right-menu-content">
-                <div class="all-comments">
-
-                    <!--  IF THIS COMMENT IS NOOOOT MY COMMENT  -->
-                    <div class="one-comment">
-                        <div class="image-container">
-                            <img class="img-fluid" src="img/person04.jpg" alt="">
-                        </div><!-- image-container -->
-                        <div class="name-and-comment">
-                            <p class="name bold"> Ahmed Mohamed <img class="img-fluid" src="img/verified.svg"> </p>
-                            <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
-                        </div><!-- name-and-comment -->
-                        <div class="actions">
-
-                            <div class="dropdown custom-dropdown">
-                                <button class="dropdown-toggle resetbtn p-0" type="button" id="cart-btn" data-toggle="dropdown">
-                                    <i class="fa fa-ellipsis-h"></i>
-                                </button>
-                                <div class="dropdown-menu options-dropdown " aria-labelledby="cart">
-                                    <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
-                                    <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
-                                </div> <!-- dropdown-menu -->
-                            </div> <!-- dropdown -->
-
-                            <p class="date"> 12 Dec 2020 </p>
-                        </div><!-- actions -->
-                        <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
-                    </div><!-- one-comment -->
-
-
-                    <!--  IF THIS COMMENT IS MY COMMENT  -->
-                    <div class="one-comment">
-                        <div class="image-container">
-                            <img class="img-fluid" src="img/person04.jpg" alt="">
-                        </div><!-- image-container -->
-                        <div class="name-and-comment">
-                            <p class="name bold"> Ahmed Mohamed <img class="img-fluid" src="img/verified.svg"> </p>
-                            <p class="comment"> Nice Advertisement ( this is MY comment ) </p>
-                            <div class="edit-container">
-                                <input class="form-control" type="text" value="Nice Advertisement ( this is MY comment )" />
-                                <a class="save-comment" href="#"> save </a>
-                            </div><!-- input-container -->
-                        </div><!-- name-and-comment -->
-                        <div class="actions">
-
-                            <div class="dropdown custom-dropdown">
-                                <button class="dropdown-toggle resetbtn p-0" type="button" id="cart-btn" data-toggle="dropdown">
-                                    <i class="fa fa-ellipsis-h"></i>
-                                </button>
-                                <div class="dropdown-menu options-dropdown " aria-labelledby="cart">
-                                    <a class="dropdown-item edit-comment" href="#"> <i class="icon icon-edit"></i> Edit </a>
-                                    <a class="dropdown-item" data-toggle="modal" data-target="#deleteModal"> <i class="fas fa-trash-alt"></i> Delete </a>
-                                </div> <!-- dropdown-menu -->
-                            </div> <!-- dropdown -->
-
-                            <p class="date"> 12 Dec 2020 </p>
-                        </div><!-- actions -->
-                    </div><!-- one-comment -->
-
-                </div><!-- all-comments -->
-            </div><!-- right-menu-content -->
-
-            <div class="right-menu-footer">
-                <div class="add-comment-container">
-                    <div class="image">
-                        <img class="img-fluid" src="img/person04.jpg" alt="">
-                    </div><!-- image -->
-
-                    <div class="comment-input-container form-group">
-                        <input id="add-comment" placeholder="Add Comment... " type="text" class="form-control">
-                    </div><!-- form-group  -->
-
-                    <div class="send-comment-container">
-                        <i id="send-comment" class="fa fa-arrow-up"></i>
-                    </div><!-- send-comment-container -->
-
-                </div><!-- add-comment-container -->
-            </div><!-- right-menu-footer -->
-
-        </div><!-- right-menu -->
-    </div><!-- right-menu-container -->
 
     <div class="left-menu-container">
         <div class="left-menu">
@@ -354,12 +180,10 @@
                 <div class="logo-header"> <img class="logo" src="img/logo-wide.png" /> <i id="close-left-menu" class="icon icon-close"></i> </div><!-- header-header -->
                 <div class="menu">
                     <ul class="resetul">
-                        <li> <a href="#"> Advertising </a> </li>
-                        <li> <a href="#"> Discover </a> </li>
-                        <li> <a href="#"> Shoping </a> </li>
-                        <li> <a href="#"> My Profile </a> </li>
-                        <li> <a href="#"> Create </a> </li>
-                        <li> <a href="#"> Sign Out </a> </li>
+                        <li> <a href="#"> Dashboard </a> </li>
+                        <li> <a href="#"> Taps </a> </li>
+                        <li> <a href="#"> Products </a> </li>
+                        <li> <a href="#"> Orders </a> </li>
                     </ul>
                 </div><!-- menu -->
                 <div class="menu-footer">

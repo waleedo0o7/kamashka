@@ -810,7 +810,7 @@ else {
     // alert('More than 960');
     // handel mouse whell up and down to slide
     function wheelToSlide(event) {
-        event.preventDefault();
+        // event.preventDefault();
 
 
 

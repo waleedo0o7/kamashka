@@ -195,7 +195,7 @@
                 <div class="col-md-8 d-flex bottom-items">
                     <div class="search">
                         <div class="search-container">
-                            <input class="search-input" type="text" placeholder="Search For Products, Brands & Categories" />
+                            <input class="search-input" type="text" placeholder="Search For Products, Brands & Taps" />
                             <i class="icon icon-search" onclick="window.location.href='search-result.php'"></i>
                         </div>
                     </div> <!-- search -->

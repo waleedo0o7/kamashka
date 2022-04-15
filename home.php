@@ -15,18 +15,6 @@
                     <div class="swiper-wrapper">
 
 
-
-
-
-
-
-
-
-
-
-
-
-
                         <div class="swiper-slide">
                             <div class="carousel-item-content">
 
@@ -417,29 +405,6 @@
 
                             </div><!-- carousel-item-content -->
                         </div> <!-- swiper-slide END -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
                         <div class="swiper-slide">
@@ -834,23 +799,6 @@
                         </div> <!-- swiper-slide END -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                         <div class="swiper-slide">
                             <div class="carousel-item-content">
 
@@ -1241,45 +1189,6 @@
 
                             </div><!-- carousel-item-content -->
                         </div> <!-- swiper-slide END -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1677,58 +1586,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                         <div class="swiper-slide">
                             <div class="carousel-item-content">
 
@@ -2119,10 +1976,6 @@
 
                             </div><!-- carousel-item-content -->
                         </div> <!-- swiper-slide END -->
-
-
-
-
 
 
 

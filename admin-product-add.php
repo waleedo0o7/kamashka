@@ -1,5 +1,9 @@
 <?php include 'admin-header.php'; ?>
 
+<style>
+ 
+</style>
+
 <div class="page-content admin">
 
     <?php include 'admin-sidebar.php' ?>
@@ -17,14 +21,14 @@
                         <div class="col-md-6">
                             <div class="form-group mb-4 relative">
                                 <label for="" class=" "> Product Name (English Title) </label>
-                                <input type="text" class="form-control" placeholder="Product Name (English Title)" id="name" > 
+                                <input type="text" class="form-control" placeholder="Product Name (English Title)" id="name">
                             </div><!-- form-group  -->
                         </div><!-- col-md-6 -->
 
                         <div class="col-md-6">
                             <div class="form-group mb-4 relative">
                                 <label for="" class=" "> Product Name (Arabic Title) </label>
-                                <input type="text" class="form-control" placeholder="Product Name (Arabic Title)" id="name"> 
+                                <input type="text" class="form-control" placeholder="Product Name (Arabic Title)" id="name">
                             </div><!-- form-group  -->
                         </div><!-- col-md-6 -->
 
@@ -45,7 +49,7 @@
 
                         <div class="col-md-6">
                             <div class="form-group mb-4">
-                                <label for="" class=" "> Select Store Category </label>
+                                <label for="" class=" "> Select Store Tap </label>
                                 <select class="form-control" id="">
                                     <option>Kids</option>
                                     <option>category 2</option>
@@ -59,7 +63,7 @@
                         <div class="col-md-6">
                             <div class="form-group mb-4 relative">
                                 <label for="" class=" "> Quantity </label>
-                                <input type="text" class="form-control" placeholder="Quantity" id="name"> 
+                                <input type="text" class="form-control" placeholder="Quantity" id="name">
                             </div><!-- form-group  -->
                         </div><!-- col-md-6 -->
 
@@ -71,14 +75,14 @@
                         <div class="col-md-6">
                             <div class="form-group mb-4 relative">
                                 <label for="" class=" "> Old Price (In Kd) </label>
-                                <input type="text" class="form-control" placeholder="Old Price (In Kd)" id="name">  
+                                <input type="text" class="form-control" placeholder="Old Price (In Kd)" id="name">
                             </div><!-- form-group  -->
                         </div><!-- col-md-6 -->
 
                         <div class="col-md-6">
                             <div class="form-group mb-4 relative">
                                 <label for="" class=" "> New Price (In Kd) </label>
-                                <input type="text" class="form-control" placeholder="New Price (In Kd)" id="name"> 
+                                <input type="text" class="form-control" placeholder="New Price (In Kd)" id="name">
                             </div><!-- form-group  -->
                         </div><!-- col-md-6 -->
 
@@ -166,36 +170,103 @@
                             </div>
                         </div><!-- col-md-6 -->
 
-                        <div class="col-md-6">
-                            <div class="form-group mb-4 select-product-attribute-col">
-                                <label for="" class=" "> Select Product Attribute </label>
-                                <select class="form-control mb-2" >
-                                    <option>Color</option>
-                                    <option>Attribute 2</option>
-                                    <option>Attribute 3</option>
-                                    <option>Attribute 4</option>
-                                    <option>Attribute 5</option>
-                                </select>
-                            </div>
-                        </div><!-- col-md-6 -->
+                        <div class="products-attr-wrapper">
+                            <div class="one-item">
 
-                        <div class="col-md-6 d-flex attribute-value-col">
-                            <div class="form-group mb-4 attribute-value-wrapper">
-                                <label for="" class=" "> Attribute Value </label>
-                                <input type="text" class="form-control mb-2" placeholder="Attribute">
-                            </div><!-- form-group  -->
+                                <div class="select-product-attribute-col">
+                                    <div class="form-group mb-4">
+                                        <label for="" class=" "> Select Product Attribute </label>
+                                        <select class="form-control mb-2">
+                                            <option>Color</option>
+                                            <option>Attribute 2</option>
+                                            <option>Attribute 3</option>
+                                            <option>Attribute 4</option>
+                                            <option>Attribute 5</option>
+                                        </select>
+                                    </div><!-- form-group -->
+                                </div><!-- select-product-attribute-col -->
 
-                            <div class="add-attribute-wrapper">
-                                <i class="add-attribute-btn fa fa-plus"></i>
-                            </div><!-- add-attribute-wrapper -->
-                        </div><!-- col-md-6 -->
+                                <div class="attribute-value-col">
+                                    <div class="form-group mb-4 attribute-value-wrapper">
+                                        <label for="" class=" "> Attribute Value </label>
+                                        <input type="text" class="form-control mb-2" placeholder="Attribute">
+                                    </div><!-- form-group  -->
+                                </div><!-- attribute-value-col -->
+
+                                <div class="add-attribute-wrapper">
+                                    <i class="add-attribute-btn fa fa-plus"></i>
+                                </div><!-- add-attribute-wrapper -->
+
+                            </div><!-- one-item -->
+                        </div><!-- products-attr-wrapper -->
 
                     </div><!-- row -->
 
 
 
                 </div><!-- col-md-8 -->
-                <div class="col-md-4"></div><!-- col-md-4 -->
+                <div class="col-md-4">
+
+                    <div class="upload-store-images-wrapper card p-3">
+
+                        <div class="image-wrapper main-image">
+                            <img class="img-fluid" id="imagePreview1" src="img/store.png" alt="">
+                            <i class="icon icon-edit" id="imageEdit1"></i>
+                            <div class="loading-container"><div class="sbl-circ-path"></div></div>
+                            <input id="imageUpload1" type="file" name="image" class="d-none" />
+                        </div> <!-- image-wrapper main-image  -->
+
+
+                        
+                        <div class="image-wrapper ">
+                            <img class="img-fluid" id="imagePreview2" src="img/store.png" alt="">
+                            <i class="icon icon-edit" id="imageEdit2"></i>
+                            <div class="loading-container"><div class="sbl-circ-path"></div></div>
+                            <input id="imageUpload2" type="file" name="image" class="d-none" />
+                        </div> <!-- image-wrapper  -->
+
+                        <div class="image-wrapper ">
+                            <img class="img-fluid" id="imagePreview3" src="img/store.png" alt="">
+                            <i class="icon icon-edit" id="imageEdit3"></i>
+                            <div class="loading-container"><div class="sbl-circ-path"></div></div>
+                            <input id="imageUpload3" type="file" name="image" class="d-none" />
+                        </div> <!-- image-wrapper  -->
+
+                        <div class="image-wrapper ">
+                            <img class="img-fluid" id="imagePreview4" src="img/store.png" alt="">
+                            <i class="icon icon-edit" id="imageEdit4"></i>
+                            <div class="loading-container"><div class="sbl-circ-path"></div></div>
+                            <input id="imageUpload4" type="file" name="image" class="d-none" />
+                        </div> <!-- image-wrapper  -->
+
+                        <div class="image-wrapper ">
+                            <img class="img-fluid" id="imagePreview5" src="img/store.png" alt="">
+                            <i class="icon icon-edit" id="imageEdit5"></i>
+                            <div class="loading-container"><div class="sbl-circ-path"></div></div>
+                            <input id="imageUpload5" type="file" name="image" class="d-none" />
+                        </div> <!-- image-wrapper  -->
+
+                        <div class="image-wrapper ">
+                            <img class="img-fluid" id="imagePreview6" src="img/store.png" alt="">
+                            <i class="icon icon-edit" id="imageEdit6"></i>
+                            <div class="loading-container"><div class="sbl-circ-path"></div></div>
+                            <input id="imageUpload6" type="file" name="image" class="d-none" />
+                        </div> <!-- image-wrapper  -->
+
+                        <div class="image-wrapper ">
+                            <img class="img-fluid" id="imagePreview7" src="img/store.png" alt="">
+                            <i class="icon icon-edit" id="imageEdit7"></i>
+                            <div class="loading-container"><div class="sbl-circ-path"></div></div>
+                            <input id="imageUpload7" type="file" name="image" class="d-none" />
+                        </div> <!-- image-wrapper  -->
+
+
+
+
+                    </div><!-- upload-store-images-wrapper -->
+
+
+                </div><!-- col-md-4 -->
 
 
 

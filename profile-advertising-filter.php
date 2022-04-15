@@ -13,7 +13,7 @@
 
                         <div class="item pt-0">
                             <p class="d-flex mb-0">
-                                <a href="profile-advertising-filter-categories.php" class="colored1"> Categories </a>
+                                <a href="profile-advertising-filter-categories.php" class="colored1"> Taps </a>
                                 <a href="profile-advertising-filter-categories.php" class="ml-auto"> <i class="fa arrow-icon fa-chevron-right "></i></a>
                             </p>
                         </div><!-- item -->
