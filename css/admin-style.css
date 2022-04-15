@@ -549,4 +549,17 @@ table.dataTable .product-image img {
   cursor: pointer;
 }
 
+.page-content.admin.admin-product-under-review-page {
+  background: #131a45;
+  height: calc(100vh - 57px);
+  color: #fff;
+}
+.page-content.admin.admin-product-under-review-page .admin-product-under-review-wrapper {
+  width: fit-content;
+  margin: auto;
+}
+.page-content.admin.admin-product-under-review-page .admin-product-under-review-wrapper img {
+  width: 140px;
+}
+
 /*# sourceMappingURL=admin-style.css.map */

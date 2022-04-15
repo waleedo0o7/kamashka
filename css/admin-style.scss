@@ -611,3 +611,21 @@ table.dataTable .product-image {
         cursor: pointer;
     }
 }
+
+
+
+
+.page-content.admin.admin-product-under-review-page {
+    background: #131a45;
+    height: calc(100vh - 57px);
+    color: #fff;
+    .admin-product-under-review-wrapper {
+        width: fit-content;
+        margin: auto;
+        img {
+            width: 140px;
+        }
+    }
+
+}
+
