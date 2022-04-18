@@ -12,6 +12,12 @@
 <!-- Datatables dateTime -->
 <script src="https://cdn.datatables.net/datetime/1.1.2/js/dataTables.dateTime.min.js"></script>
 
+
+<!-- Slick Slider -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+
 <!-- Custom JS -->
 <script src="js/script.js"></script>
 

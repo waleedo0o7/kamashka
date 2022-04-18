@@ -61,8 +61,8 @@
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#"> Edit </a>
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteModal"> Delete </a>
+                                        <a class="dropdown-item" href="admin-order-details.php"> view order </a>
+                                        <a class="dropdown-item" href="" data-toggle="modal" data-target="#deleteModal"> Confirm </a>
                                     </div>
                                 </div> <!-- btn-group -->
                             </div><!-- actions -->
@@ -456,14 +456,14 @@
     <div class="modal-dialog  " role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="deleteModalLabel"> Delete </h5>
+                <h5 class="modal-title" id="deleteModalLabel"> Confirm Order </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i class="icon icon-close"></i>
                 </button>
             </div>
             <div class="modal-body">
                 <div class="delete-container">
-                    <p class="text-center">Are you sure you want to <br /> delete comment ?</p>
+                    <p class="text-center">Are you sure you want to <br />  confirm order No.13515131?</p>
                 </div> <!-- delete-container -->
             </div> <!-- modal-body -->
             <div class="modal-footer">

@@ -54,6 +54,7 @@
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="admin-product-details.php"> product details </a>
                                         <a class="dropdown-item" href="#"> Edit </a>
                                         <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteModal"> Delete </a>
                                     </div>
