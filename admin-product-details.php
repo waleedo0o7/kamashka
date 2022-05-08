@@ -12,9 +12,9 @@
                 <div class="product-details">
                     <h1 class="page-title"> Nike Dri-FIT Long Sleeve </h1>
                     <div class="image-and-name mb-3">
-                        <img class="img-fluid brand-image" src="img//brand-logo.png">
+                        <img alt="" class="img-fluid brand-image" src="img//brand-logo.png">
                         <p class="bold"> Zara </p>
-                        <img src="img//verified.svg" alt="">
+                        <img alt="" src="img//verified.svg" alt="">
                     </div><!-- image-and-name -->
 
                     <div class="brand-description mb-3">
@@ -81,7 +81,7 @@
                         <div class="reviews-wrapper">
 
                             <div class="one-item">
-                                <img class="img-fluid image" src="img/person03.png" alt="">
+                                <img alt="" class="img-fluid image" src="img/person03.png" alt="">
                                 <div class="comment-details">
                                     <div class="name-and-rate mb-1">
                                         <p class="m-0 bold"> Samuel Smith </p>
@@ -98,7 +98,7 @@
 
 
                             <div class="one-item">
-                                <img class="img-fluid image" src="img/person03.png" alt="">
+                                <img alt="" class="img-fluid image" src="img/person03.png" alt="">
                                 <div class="comment-details">
                                     <div class="name-and-rate mb-1">
                                         <p class="m-0 bold"> Samuel Smith </p>
@@ -124,7 +124,7 @@
                     <div class="item">
                         <div class="slider-content">
                             <div class="image">
-                                <img class="img-fluid" src="img/01.jpg">
+                                <img alt="" class="img-fluid" src="img/01.jpg">
                             </div><!-- image -->
                         </div><!-- slider-content -->
                     </div> <!-- item -->
@@ -132,7 +132,7 @@
                     <div class="item">
                         <div class="slider-content">
                             <div class="image">
-                                <img class="img-fluid" src="img/02.jpg">
+                                <img alt="" class="img-fluid" src="img/02.jpg">
                             </div><!-- image -->
                         </div><!-- slider-content -->
                     </div> <!-- item -->
@@ -140,7 +140,7 @@
                     <div class="item">
                         <div class="slider-content">
                             <div class="image">
-                                <img class="img-fluid" src="img/03.jpg">
+                                <img alt="" class="img-fluid" src="img/03.jpg">
                             </div><!-- image -->
                         </div><!-- slider-content -->
                     </div> <!-- item -->
@@ -148,7 +148,7 @@
                     <div class="item">
                         <div class="slider-content">
                             <div class="image">
-                                <img class="img-fluid" src="img/04.jpg">
+                                <img alt="" class="img-fluid" src="img/04.jpg">
                             </div><!-- image -->
                         </div><!-- slider-content -->
                     </div> <!-- item -->

@@ -52,11 +52,11 @@
     <!-- mobile-menu-home IF HOMEPAGE -->
     <div class="mobile-menu  ">
         <div class="mobile-icon-container">
-            <i id="mobile-icon" class="icon icon-meni-icon"></i>
+            <i class="icon icon-menu-icon"></i>
         </div> <!-- logo -->
         <div class="icon">
             <div class="count-container">
-                <img src="img/count-icon.svg">
+                <img alt="" src="img/count-icon.svg">
                 <span> 800 KD </span>
             </div><!-- count-container -->
         </div><!-- icon -->
@@ -66,7 +66,7 @@
 
         <div class="menu-header">
             <div class="logo-container">
-                <img class="logo" src="img/logo-wide.png">
+                <img alt="" class="logo" src="img/logo-wide.png">
             </div><!-- logo -->
             <div class="btn-and-close">
                 <i id="closeMobileMenu" class="icon icon-close"></i>
@@ -81,7 +81,7 @@
         </div><!-- search-container -->
 
         <div class="menu-links-container">
-            <ul class="resetul">
+            <ul class="reset-ul">
                 <li> <a href="admin-dashboard.php"> Dashboard </a> </li>
                 <li> <a href="admin-taps.php"> Taps </a> </li>
                 <li> <a href="admin-products.php"> Products </a> </li>
@@ -103,7 +103,7 @@
                     </div> <!-- menu-icon -->
 
                     <div class="logo">
-                        <a href="admin-dashboard.php"> <img class="img-fluid" src="img/logo-wide.png" /> </a>
+                        <a href="admin-dashboard.php"> <img alt="" class="img-fluid" src="img/logo-wide.png" /> </a>
                     </div> <!-- logo -->
                 </div><!-- col-md-4 -->
 
@@ -114,7 +114,7 @@
                             <li class="menu-item"> <a href="#"> <i class="fa fa-info mr-2" aria-hidden="true"></i> Help Center </a> </li>
                             <li class="menu-item"> <a style="padding: 0;" href="#">
                                     <div class="icon-container">
-                                        <button class="resetbtn" type="button" id="notifications-btn" data-toggle="dropdown">
+                                        <button class="reset-btn" type="button" id="notifications-btn" data-toggle="dropdown">
                                             <i class="icon icon-bell"></i>
                                             <span class="number" style="right: 3px;"> 0 </span>
                                         </button>
@@ -123,10 +123,10 @@
                             <li class="menu-item">
                                 <div class="icon-container h-100">
                                     <div class="dropdown custom-dropdown user-dropdown">
-                                        <button class="dropdown-toggle resetbtn" type="button" data-toggle="dropdown">
+                                        <button class="dropdown-toggle reset-btn" type="button" data-toggle="dropdown">
                                             Jeroen Dom
                                             <i class="fa fa-chevron-down ml-2"></i>
-                                            <img src="img//person05.jpg" alt="">
+                                            <img alt="" src="img//person05.jpg" alt="">
                                         </button>
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                             <a class="dropdown-item" href="#">Action</a>
@@ -159,7 +159,7 @@
                         <div class="col-md-6">
                             <div class="one-item">
                                 <a href="create-adv.php">
-                                    <img class="img-fluid" src="img/create-adv.png">
+                                    <img alt="" class="img-fluid" src="img/create-adv.png">
                                     <p> Create Advertisement <i class="fa fa-chevron-right arrow-icon"></i> </p>
                                 </a>
                             </div><!-- one-item -->
@@ -167,7 +167,7 @@
                         <div class="col-md-6">
                             <div class="one-item">
                                 <a href="#">
-                                    <img class="img-fluid" src="img/create-store.png">
+                                    <img alt="" class="img-fluid" src="img/create-store.png">
                                     <p> Create Store <i class="fa fa-chevron-right arrow-icon"></i> </p>
                                 </a>
                             </div><!-- one-item -->
@@ -183,9 +183,9 @@
     <div class="left-menu-container">
         <div class="left-menu">
             <div class="left-menu-content">
-                <div class="logo-header"> <img class="logo" src="img/logo-wide.png" /> <i id="close-left-menu" class="icon icon-close"></i> </div><!-- header-header -->
+                <div class="logo-header"> <img alt="" class="logo" src="img/logo-wide.png" /> <i id="close-left-menu" class="icon icon-close"></i> </div><!-- header-header -->
                 <div class="menu">
-                    <ul class="resetul">
+                    <ul class="reset-ul">
                         <li> <a href="admin-dashboard.php"> Dashboard </a> </li>
                         <li> <a href="admin-taps.php"> Taps </a> </li>
                         <li> <a href="admin-products.php"> Products </a> </li>
@@ -193,7 +193,7 @@
                     </ul>
                 </div><!-- menu -->
                 <div class="menu-footer">
-                    <ul class="resetul">
+                    <ul class="reset-ul">
                         <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
                         <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
                         <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>

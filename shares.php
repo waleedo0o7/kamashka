@@ -12,38 +12,38 @@
 
                     <div class="one-user">
                         <div class="image-and-name-wrapper">
-                            <img class="user-image" src="img/person02.png">
-                            <h4> Ahmed Mohamed <img class="img-fluid" src="img/verified.svg"> </h4>
+                            <img alt="" class="user-image" src="img/person02.png">
+                            <h4> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                         </div><!-- image-and-name-wrapper -->
-                        <div class="btns-wrapper">
+                        <div class="buttons-wrapper">
                             <a class="btn btn-custom2 d-none" href="#"> follow</a>
                             <a class="btn btn-custom1 " href="#"> unfollow</a>
-                        </div><!-- btns-wrapper -->
+                        </div><!-- buttons-wrapper -->
                     </div><!-- one-user -->
 
 
                     <div class="one-user">
                         <div class="image-and-name-wrapper">
-                            <img class="user-image" src="img/person03.png">
+                            <img alt="" class="user-image" src="img/person03.png">
                             <h4> Ahmed Ali </h4>
                         </div><!-- image-and-name-wrapper -->
-                        <div class="btns-wrapper">
+                        <div class="buttons-wrapper">
                             <a class="btn btn-custom2" href="#"> follow</a>
                             <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
-                        </div><!-- btns-wrapper -->
+                        </div><!-- buttons-wrapper -->
                     </div><!-- one-user -->
 
 
 
                     <div class="one-user">
                         <div class="image-and-name-wrapper">
-                            <img class="user-image" src="img/person01.png">
-                            <h4> Ali Mohsen <img class="img-fluid" src="img/verified.svg"> </h4>
+                            <img alt="" class="user-image" src="img/person01.png">
+                            <h4> Ali Mohsen <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                         </div><!-- image-and-name-wrapper -->
-                        <div class="btns-wrapper">
+                        <div class="buttons-wrapper">
                             <a class="btn btn-custom2" href="#"> follow</a>
                             <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
-                        </div><!-- btns-wrapper -->
+                        </div><!-- buttons-wrapper -->
                     </div><!-- one-user -->
 
 
@@ -51,38 +51,38 @@
 
                     <div class="one-user">
                         <div class="image-and-name-wrapper">
-                            <img class="user-image" src="img/person02.png">
-                            <h4> Ahmed Mohamed <img class="img-fluid" src="img/verified.svg"> </h4>
+                            <img alt="" class="user-image" src="img/person02.png">
+                            <h4> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                         </div><!-- image-and-name-wrapper -->
-                        <div class="btns-wrapper">
+                        <div class="buttons-wrapper">
                             <a class="btn btn-custom2 d-none" href="#"> follow</a>
                             <a class="btn btn-custom1 " href="#"> unfollow</a>
-                        </div><!-- btns-wrapper -->
+                        </div><!-- buttons-wrapper -->
                     </div><!-- one-user -->
 
 
                     <div class="one-user">
                         <div class="image-and-name-wrapper">
-                            <img class="user-image" src="img/person03.png">
+                            <img alt="" class="user-image" src="img/person03.png">
                             <h4> Ahmed Ali </h4>
                         </div><!-- image-and-name-wrapper -->
-                        <div class="btns-wrapper">
+                        <div class="buttons-wrapper">
                             <a class="btn btn-custom2" href="#"> follow</a>
                             <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
-                        </div><!-- btns-wrapper -->
+                        </div><!-- buttons-wrapper -->
                     </div><!-- one-user -->
 
 
 
                     <div class="one-user">
                         <div class="image-and-name-wrapper">
-                            <img class="user-image" src="img/person01.png">
-                            <h4> Ali Mohsen <img class="img-fluid" src="img/verified.svg"> </h4>
+                            <img alt="" class="user-image" src="img/person01.png">
+                            <h4> Ali Mohsen <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                         </div><!-- image-and-name-wrapper -->
-                        <div class="btns-wrapper">
+                        <div class="buttons-wrapper">
                             <a class="btn btn-custom2" href="#"> follow</a>
                             <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
-                        </div><!-- btns-wrapper -->
+                        </div><!-- buttons-wrapper -->
                     </div><!-- one-user -->
 
 
@@ -90,38 +90,38 @@
 
                     <div class="one-user">
                         <div class="image-and-name-wrapper">
-                            <img class="user-image" src="img/person02.png">
-                            <h4> Ahmed Mohamed <img class="img-fluid" src="img/verified.svg"> </h4>
+                            <img alt="" class="user-image" src="img/person02.png">
+                            <h4> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                         </div><!-- image-and-name-wrapper -->
-                        <div class="btns-wrapper">
+                        <div class="buttons-wrapper">
                             <a class="btn btn-custom2" href="#"> follow</a>
                             <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
-                        </div><!-- btns-wrapper -->
+                        </div><!-- buttons-wrapper -->
                     </div><!-- one-user -->
 
 
                     <div class="one-user">
                         <div class="image-and-name-wrapper">
-                            <img class="user-image" src="img/person03.png">
+                            <img alt="" class="user-image" src="img/person03.png">
                             <h4> Ahmed Ali </h4>
                         </div><!-- image-and-name-wrapper -->
-                        <div class="btns-wrapper">
+                        <div class="buttons-wrapper">
                             <a class="btn btn-custom2" href="#"> follow</a>
                             <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
-                        </div><!-- btns-wrapper -->
+                        </div><!-- buttons-wrapper -->
                     </div><!-- one-user -->
 
 
 
                     <div class="one-user">
                         <div class="image-and-name-wrapper">
-                            <img class="user-image" src="img/person01.png">
-                            <h4> Ali Mohsen <img class="img-fluid" src="img/verified.svg"> </h4>
+                            <img alt="" class="user-image" src="img/person01.png">
+                            <h4> Ali Mohsen <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                         </div><!-- image-and-name-wrapper -->
-                        <div class="btns-wrapper">
+                        <div class="buttons-wrapper">
                             <a class="btn btn-custom2" href="#"> follow</a>
                             <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
-                        </div><!-- btns-wrapper -->
+                        </div><!-- buttons-wrapper -->
                     </div><!-- one-user -->
 
 

@@ -6,7 +6,7 @@
             <div class="profile-info">
                 <div class="image-container mb-5 relative">
                     <div class="image text-center ">
-                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                        <img alt="" class="img-fluid" src="img/person04.jpg" alt="">
                     </div><!-- image -->
                 </div><!-- image-container -->
                 <div class="data text-center">
@@ -34,10 +34,10 @@
                                     <label for=""> My Job Is 1 : </label>
                                     <div class="form-group mb-0 relative">
                                         <input type="text" class="form-control" placeholder="EX: programmer">
-                                        <div class="btns">
+                                        <div class="buttons">
                                             <a href="#" class="btn btn-sm btn-custom1 "> Save </a>
                                             <a href="#" class="btn btn-sm btn-custom2 "> Later </a>
-                                        </div><!-- btns -->
+                                        </div><!-- buttons -->
                                     </div><!-- form-group  -->
 
                                 </div><!-- card -->
@@ -48,10 +48,10 @@
                                     <label for=""> My Job Is 1 : </label>
                                     <div class="form-group mb-0 relative">
                                         <input type="text" class="form-control" placeholder="EX: programmer">
-                                        <div class="btns">
+                                        <div class="buttons">
                                             <a href="#" class="btn btn-sm btn-custom1 "> Save </a>
                                             <a href="#" class="btn btn-sm btn-custom2 "> Later </a>
-                                        </div><!-- btns -->
+                                        </div><!-- buttons -->
                                     </div><!-- form-group  -->
 
                                 </div><!-- card -->
@@ -62,10 +62,10 @@
                                     <label for=""> My Job Is 1 : </label>
                                     <div class="form-group mb-0 relative">
                                         <input type="text" class="form-control" placeholder="EX: programmer">
-                                        <div class="btns">
+                                        <div class="buttons">
                                             <a href="#" class="btn btn-sm btn-custom1 "> Save </a>
                                             <a href="#" class="btn btn-sm btn-custom2 "> Later </a>
-                                        </div><!-- btns -->
+                                        </div><!-- buttons -->
                                     </div><!-- form-group  -->
 
                                 </div><!-- card -->
@@ -76,7 +76,7 @@
                 </div><!-- profile-completeness-container -->
 
                 <div class="logout-btn-container">
-                    <button class="btn resetbtn"> Logout </button>
+                    <button class="btn reset-btn"> Logout </button>
                 </div><!-- logout-btn-container -->
 
             </div><!-- profile-info -->
@@ -89,7 +89,7 @@
 
 
                 <div class="items-group card">
-                    <ul class="resetul">
+                    <ul class="reset-ul">
 
                         <li class="one-item">
                             <div class="content"> <i class="icon item-icon icon-sharing"></i> <a href="profile-my-shares.php"> My Sharing </a> </div>
@@ -126,7 +126,7 @@
 
 
                 <div class="items-group card">
-                    <ul class="resetul">
+                    <ul class="reset-ul">
 
                         <li class="one-item ">
                             <div class="content"> <i class="icon item-icon icon-orders"></i> <a href="#"> My Orders </a> </div>
@@ -153,12 +153,12 @@
                             <div class="content"> <a href="#"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
-                    </ul> <!-- resetul -->
+                    </ul> <!-- reset-ul -->
                 </div><!-- items-group -->
 
 
                 <div class="items-group card">
-                    <ul class="resetul">
+                    <ul class="reset-ul">
 
                         <li class="one-item">
                             <div class="content"> <i class="icon item-icon icon-language"></i> <a href="#" data-toggle="modal" data-target="#languageModal"> Language </a> </div>
@@ -208,7 +208,7 @@
 
 
                 <div class="items-group card">
-                    <ul class="resetul">
+                    <ul class="reset-ul">
 
                         <li class="one-item">
                             <div class="content"> <i class="icon item-icon icon-envelope"></i> <a href="profile-invite-friend.php"> Invite Friends </a> </div>
@@ -224,7 +224,7 @@
                 </div><!-- items-group -->
 
                 <div class="items-group card">
-                    <ul class="resetul">
+                    <ul class="reset-ul">
 
                         <li class="one-item">
                             <div class="content"> <i class="icon item-icon icon-qmark"></i> <a href="#"> How It Works </a> </div>

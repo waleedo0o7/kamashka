@@ -1,19 +1,19 @@
 <?php include 'header.php'; ?>
 
-<div class="page-content signin">
-    <div class="signin-content">
-        <img class="mb-0 logo" src="img/logo-square.png" />
+<div class="page-content sign-in">
+    <div class="sign-in-content">
+        <img alt="" class="mb-0 logo" src="img/logo-square.png" />
         <h3 class="mb-2 bold"> Sign In </h3>
 
         <div class="form-container">
 
             <div class="d-none alert alert-danger text-left" role="alert">
-                <ul class="mb-0 resetul">
+                <ul class="mb-0 reset-ul">
                     <li> Error Message </li>
                 </ul>
             </div>
 
-            <form class="signin-form" action="" data-parsley-validate="">
+            <form class="sign-in-form" action="" data-parsley-validate="">
                 <div class="form-group mb-3 relative">
                     <input type="email" class="form-control input-with-icon" placeholder="Email Address" required="">
                     <i class="fa fa-envelope"></i>
@@ -31,26 +31,26 @@
                 <div class="submit-btn-container">
                     <button href="my-profile.php"   class="btn btn-custom1 w-100 text-center"> Sign In </button>
                 </div><!-- submit-btn-container -->
-            </form><!-- signin-form -->
+            </form><!-- sign-in-form -->
 
             
         </div><!-- form-container -->
 
         <div class="page-footer">
-            <div class="signup-btn-container mb-3">
-                <a href="auth-signup.php" class="btn btn-custom2 w-100 text-center"> Sign Up </a>
+            <div class="sign-up-btn-container mb-3">
+                <a href="auth-sign-up.php" class="btn btn-custom2 w-100 text-center"> Sign Up </a>
             </div><!-- submit-btn-container -->
             <p class="text-capitalize "> Or continue with </p>
-            <ul class="resetul icons mb-3">
-                <li> <a href="#"> <img src="img/facebook-icon.svg" /> </a> </li>
-                <li> <a href="#"> <img src="img/google-icon.svg" /> </a> </li>
-                <li> <a href="#"> <img src="img/apple-icon.svg" /> </a> </li>
+            <ul class="reset-ul icons mb-3">
+                <li> <a href="#"> <img alt="" src="img/facebook-icon.svg" /> </a> </li>
+                <li> <a href="#"> <img alt="" src="img/google-icon.svg" /> </a> </li>
+                <li> <a href="#"> <img alt="" src="img/apple-icon.svg" /> </a> </li>
             </ul>
             <p> by creating an account or sign in , you agree <br>
                 to <a href="#"> The Terms </a> and <a href="#"> Privacy Policy </a></p>
         </div><!-- page-footer -->
 
-    </div><!-- signin-content -->
+    </div><!-- sign-in-content -->
 </div><!-- page-content -->
 
 <?php include 'footer.php'; ?>

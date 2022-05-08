@@ -7,7 +7,7 @@
 
         <div class="card pl-4 pr-4 notifications-menu-container bg-white ">
 
-            <ul class="resetul">
+            <ul class="reset-ul">
 
                 <a class="notification-one-item" href="#">
                     <div class="notification-icon">

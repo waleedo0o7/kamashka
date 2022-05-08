@@ -50,7 +50,7 @@
 
 
 <div class="action-success">
-    <img src="img/success.gif" />
+    <img alt="" src="img/success.gif" />
 </div><!-- action-success -->
 
 <?php include 'footer.php'; ?>

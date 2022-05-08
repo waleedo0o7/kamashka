@@ -47,7 +47,7 @@
                                 </label>
                             </div><!-- option -->
                             <div class="actions">
-                                <ul class="resetul">
+                                <ul class="reset-ul">
                                     <li class="mr-3"> <a class="btn btn-sm btn-custom2 pl-4 pr-4" href=""> Details</a> </li>
                                     <li class="ml-2"> <a class="btn-edit-custom1" href=""> <i class="fa fa-edit"></i> </a> </li>
                                     <li class="ml-2"> <a class="btn-delete-custom1" href="" data-toggle="modal" data-target="#deleteModal"> <i class="fa fa-trash-alt"></i> </a> </li>
@@ -65,7 +65,7 @@
                                 </label>
                             </div><!-- option -->
                             <div class="actions">
-                                <ul class="resetul">
+                                <ul class="reset-ul">
                                     <li class="mr-3"> <a class="btn btn-sm btn-custom2 pl-4 pr-4" href=""> Details</a> </li>
                                     <li class="ml-2"> <a class="btn-edit-custom1" href=""> <i class="fa fa-edit"></i> </a> </li>
                                     <li class="ml-2"> <a class="btn-delete-custom1" href="" data-toggle="modal" data-target="#deleteModal"> <i class="fa fa-trash-alt"></i> </a> </li>

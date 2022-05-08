@@ -39,7 +39,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -63,7 +63,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -87,7 +87,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -112,7 +112,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -136,7 +136,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -160,7 +160,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -184,7 +184,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -208,7 +208,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -232,7 +232,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -256,7 +256,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -280,7 +280,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -304,7 +304,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -328,7 +328,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -360,7 +360,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -384,7 +384,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -408,7 +408,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -432,7 +432,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -456,7 +456,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -480,7 +480,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -504,7 +504,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -528,7 +528,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">

@@ -39,11 +39,11 @@
                     <div class="genders-container">
                         <div class="gender-list">
                             <div class="gender" data-gander="male">
-                                <img class="img-fluid " src="img/male.png" alt="">
+                                <img alt="" class="img-fluid " src="img/male.png" alt="">
                                 <p> Male </p>
                             </div><!-- gender -->
                             <div class="gender" data-gander="female">
-                                <img class="img-fluid" src="img/female.png" alt="">
+                                <img alt="" class="img-fluid" src="img/female.png" alt="">
                                 <p> Female </p>
                             </div><!-- gender -->
                         </div><!-- gender-list -->

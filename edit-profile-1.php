@@ -17,7 +17,7 @@
                 <div class="image-and-data">
                     <div class="image-container relative">
                         <div class="image text-center ">
-                            <img id="profile-image" class="img-fluid" src="img/person04.jpg" alt="">
+                            <img alt="" id="profile-image" class="img-fluid" src="img/person04.jpg" alt="">
                         </div><!-- image -->
                         <div class="change-image-container">
                             <i class="icon icon-edit"></i>

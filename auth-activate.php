@@ -1,8 +1,8 @@
 <?php include 'header.php'; ?>
 
 <div class="page-content activate">
-    <div class="signin-content">
-        <img class="mb-3 logo" src="img/activate.svg" />
+    <div class="sign-in-content">
+        <img alt="" class="mb-3 logo" src="img/activate.svg" />
         <h3 class="mb-0 bold"> Activate Number </h3>
 
         <div class="form-container">
@@ -32,7 +32,7 @@
         </div><!-- form-container -->
         <div class="page-footer">
             <p class="lead"> Didn't Receive The Code? </p>
-            <div class="signup-btn-container mb-3">
+            <div class="sign-up-btn-container mb-3">
                 <a  href="auth-interests.php" class="btn btn-custom2  text-center" id="resend-code" onclick="counterDownTwoMinutes()"> Resend Code
                     <span id="minutes">02</span>
                     <span id="colon">:</span>
@@ -40,7 +40,7 @@
                 </a>
             </div><!-- submit-btn-container -->
         </div><!-- page-footer -->
-    </div><!-- signin-content -->
+    </div><!-- sign-in-content -->
 </div><!-- page-content -->
 
 <?php include 'footer.php'; ?>

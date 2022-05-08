@@ -10,7 +10,7 @@
                     <div class="row">
                         <div class="col-md-3">
                             <div class="one-item card text-center p-3">
-                                <img class="img-fluid" src="img/statistics-icons/gender.svg">
+                                <img alt="" class="img-fluid" src="img/statistics-icons/gender.svg">
                                 <p class="title lead bold"> Target Gender </p>
                                 <p class="colored2 "> Male/ Female </p>
                             </div><!-- card -->
@@ -19,7 +19,7 @@
                         
                         <div class="col-md-3">
                             <div class="one-item card text-center p-3">
-                                <img class="img-fluid" src="img/statistics-icons/location.svg">
+                                <img alt="" class="img-fluid" src="img/statistics-icons/location.svg">
                                 <p class="title lead bold"> Target Location </p>
                                 <p class="colored2 "> Kadysia, Kuwait </p>
                             </div><!-- card -->
@@ -28,7 +28,7 @@
                         
                         <div class="col-md-3">
                             <div class="one-item card text-center p-3">
-                                <img class="img-fluid" src="img/statistics-icons/budget.svg">
+                                <img alt="" class="img-fluid" src="img/statistics-icons/budget.svg">
                                 <p class="title lead bold"> Budget </p>
                                 <p class="colored2 "> 2000 Kwd </p>
                             </div><!-- card -->
@@ -37,7 +37,7 @@
                         
                         <div class="col-md-3">
                             <div class="one-item card text-center p-3">
-                                <img class="img-fluid" src="img/statistics-icons/admin-fees.svg">
+                                <img alt="" class="img-fluid" src="img/statistics-icons/admin-fees.svg">
                                 <p class="title lead bold"> Admin Fees </p>
                                 <p class="colored2 "> 202 KWD </p>
                             </div><!-- card -->
@@ -51,7 +51,7 @@
                         
                         <div class="col-md-3">
                             <div class="one-item card text-center p-3">
-                                <img class="img-fluid" src="img/statistics-icons/age.svg">
+                                <img alt="" class="img-fluid" src="img/statistics-icons/age.svg">
                                 <p class="title lead bold"> Target Age </p>
                                 <p class="colored2 "> 202 KWD </p>
                             </div><!-- card -->
@@ -60,7 +60,7 @@
                         
                         <div class="col-md-3">
                             <div class="one-item card text-center p-3">
-                                <img class="img-fluid" src="img/statistics-icons/users.svg">
+                                <img alt="" class="img-fluid" src="img/statistics-icons/users.svg">
                                 <p class="title lead bold"> Target Users </p>
                                 <p class="colored2 "> 202 KWD </p>
                             </div><!-- card -->
@@ -69,7 +69,7 @@
                         
                         <div class="col-md-3">
                             <div class="one-item card text-center p-3">
-                                <img class="img-fluid" src="img/statistics-icons/value-per-share.svg">
+                                <img alt="" class="img-fluid" src="img/statistics-icons/value-per-share.svg">
                                 <p class="title lead bold"> Value Per Share </p>
                                 <p class="colored2 "> 202 KWD </p>
                             </div><!-- card -->
@@ -78,7 +78,7 @@
                         
                         <div class="col-md-3">
                             <div class="one-item card text-center p-3">
-                                <img class="img-fluid" src="img/statistics-icons/views.svg">
+                                <img alt="" class="img-fluid" src="img/statistics-icons/views.svg">
                                 <p class="title lead bold"> Views </p>
                                 <p class="colored2 "> 202 KWD </p>
                             </div><!-- card -->
@@ -88,7 +88,7 @@
                         
                         <div class="col-md-3">
                             <div class="one-item card text-center p-3">
-                                <img class="img-fluid" src="img/statistics-icons/remaining-budget.svg">
+                                <img alt="" class="img-fluid" src="img/statistics-icons/remaining-budget.svg">
                                 <p class="title lead bold"> Remaining Budget </p>
                                 <p class="colored2 "> 1000 KWD </p>
                             </div><!-- card -->
@@ -97,7 +97,7 @@
                         
                         <div class="col-md-3">
                             <div class="one-item card text-center p-3">
-                                <img class="img-fluid" src="img/statistics-icons/shares.svg">
+                                <img alt="" class="img-fluid" src="img/statistics-icons/shares.svg">
                                 <p class="title lead bold"> Shares </p>
                                 <p class="colored2 ">  1K </p> 
                             </div><!-- card -->

@@ -21,8 +21,8 @@
             <div class="products-grid-wrapper">
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -36,8 +36,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -51,8 +51,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -66,8 +66,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -81,8 +81,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -96,8 +96,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -111,8 +111,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -126,8 +126,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -141,8 +141,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -156,8 +156,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -181,8 +181,8 @@
                 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -195,8 +195,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -209,8 +209,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -223,8 +223,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -237,87 +237,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
-                        <div class="actions-wrapper">
-                            <a href="#"> <i class="fa fa-edit"></i> </a>
-                            <a href="#"> <i class="fa fa-eye"></i></a>
-                            <a href="#"> <i class="fa fa-trash"></i></a>
-                        </div><!-- actions-wrapper -->
-                    </div><!-- images-wrapper -->
-                    <p class="lead mb-2"> T Shirts Blue </p>
-                    <p class="colored2 bold"> 20KD </p>
-                </div><!-- product -->
-
-
-
-
-
-                
-
-
-
-                
-                <div class="product card p-3 mb-3">
-                    <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
-                        <div class="actions-wrapper">
-                            <a href="#"> <i class="fa fa-edit"></i> </a>
-                            <a href="#"> <i class="fa fa-eye"></i></a>
-                            <a href="#"> <i class="fa fa-trash"></i></a>
-                        </div><!-- actions-wrapper -->
-                    </div><!-- images-wrapper -->
-                    <p class="lead mb-2"> T Shirts Blue </p>
-                    <p class="colored2 bold"> 20KD </p>
-                </div><!-- product -->
-
-                <div class="product card p-3 mb-3">
-                    <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
-                        <div class="actions-wrapper">
-                            <a href="#"> <i class="fa fa-edit"></i> </a>
-                            <a href="#"> <i class="fa fa-eye"></i></a>
-                            <a href="#"> <i class="fa fa-trash"></i></a>
-                        </div><!-- actions-wrapper -->
-                    </div><!-- images-wrapper -->
-                    <p class="lead mb-2"> T Shirts Blue </p>
-                    <p class="colored2 bold"> 20KD </p>
-                </div><!-- product -->
-
-                <div class="product card p-3 mb-3">
-                    <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
-                        <div class="actions-wrapper">
-                            <a href="#"> <i class="fa fa-edit"></i> </a>
-                            <a href="#"> <i class="fa fa-eye"></i></a>
-                            <a href="#"> <i class="fa fa-trash"></i></a>
-                        </div><!-- actions-wrapper -->
-                    </div><!-- images-wrapper -->
-                    <p class="lead mb-2"> T Shirts Blue </p>
-                    <p class="colored2 bold"> 20KD </p>
-                </div><!-- product -->
-
-                <div class="product card p-3 mb-3">
-                    <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
-                        <div class="actions-wrapper">
-                            <a href="#"> <i class="fa fa-edit"></i> </a>
-                            <a href="#"> <i class="fa fa-eye"></i></a>
-                            <a href="#"> <i class="fa fa-trash"></i></a>
-                        </div><!-- actions-wrapper -->
-                    </div><!-- images-wrapper -->
-                    <p class="lead mb-2"> T Shirts Blue </p>
-                    <p class="colored2 bold"> 20KD </p>
-                </div><!-- product -->
-
-                <div class="product card p-3 mb-3">
-                    <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -339,8 +260,8 @@
                 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -353,8 +274,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -367,8 +288,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -381,8 +302,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -395,8 +316,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -418,8 +339,8 @@
                 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -432,8 +353,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -446,8 +367,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -460,8 +381,8 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>
@@ -474,8 +395,87 @@
 
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
-                        <img class="main img-fluid" src="img/tshirt01.png">
-                        <img class="second img-fluid" src="img/tshirt02.png">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
+                        <div class="actions-wrapper">
+                            <a href="#"> <i class="fa fa-edit"></i> </a>
+                            <a href="#"> <i class="fa fa-eye"></i></a>
+                            <a href="#"> <i class="fa fa-trash"></i></a>
+                        </div><!-- actions-wrapper -->
+                    </div><!-- images-wrapper -->
+                    <p class="lead mb-2"> T Shirts Blue </p>
+                    <p class="colored2 bold"> 20KD </p>
+                </div><!-- product -->
+
+
+
+
+
+                
+
+
+
+                
+                <div class="product card p-3 mb-3">
+                    <div class="images-wrapper">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
+                        <div class="actions-wrapper">
+                            <a href="#"> <i class="fa fa-edit"></i> </a>
+                            <a href="#"> <i class="fa fa-eye"></i></a>
+                            <a href="#"> <i class="fa fa-trash"></i></a>
+                        </div><!-- actions-wrapper -->
+                    </div><!-- images-wrapper -->
+                    <p class="lead mb-2"> T Shirts Blue </p>
+                    <p class="colored2 bold"> 20KD </p>
+                </div><!-- product -->
+
+                <div class="product card p-3 mb-3">
+                    <div class="images-wrapper">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
+                        <div class="actions-wrapper">
+                            <a href="#"> <i class="fa fa-edit"></i> </a>
+                            <a href="#"> <i class="fa fa-eye"></i></a>
+                            <a href="#"> <i class="fa fa-trash"></i></a>
+                        </div><!-- actions-wrapper -->
+                    </div><!-- images-wrapper -->
+                    <p class="lead mb-2"> T Shirts Blue </p>
+                    <p class="colored2 bold"> 20KD </p>
+                </div><!-- product -->
+
+                <div class="product card p-3 mb-3">
+                    <div class="images-wrapper">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
+                        <div class="actions-wrapper">
+                            <a href="#"> <i class="fa fa-edit"></i> </a>
+                            <a href="#"> <i class="fa fa-eye"></i></a>
+                            <a href="#"> <i class="fa fa-trash"></i></a>
+                        </div><!-- actions-wrapper -->
+                    </div><!-- images-wrapper -->
+                    <p class="lead mb-2"> T Shirts Blue </p>
+                    <p class="colored2 bold"> 20KD </p>
+                </div><!-- product -->
+
+                <div class="product card p-3 mb-3">
+                    <div class="images-wrapper">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
+                        <div class="actions-wrapper">
+                            <a href="#"> <i class="fa fa-edit"></i> </a>
+                            <a href="#"> <i class="fa fa-eye"></i></a>
+                            <a href="#"> <i class="fa fa-trash"></i></a>
+                        </div><!-- actions-wrapper -->
+                    </div><!-- images-wrapper -->
+                    <p class="lead mb-2"> T Shirts Blue </p>
+                    <p class="colored2 bold"> 20KD </p>
+                </div><!-- product -->
+
+                <div class="product card p-3 mb-3">
+                    <div class="images-wrapper">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
                         <div class="actions-wrapper">
                             <a href="#"> <i class="fa fa-edit"></i> </a>
                             <a href="#"> <i class="fa fa-eye"></i></a>

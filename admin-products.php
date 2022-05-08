@@ -37,7 +37,7 @@
                 <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> T Shirts Blue</td>
@@ -50,7 +50,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -67,7 +67,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> aT Shirts Blue</td>
@@ -80,7 +80,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -96,7 +96,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> bT Shirts Blue</td>
@@ -109,7 +109,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -158,7 +158,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> cT Shirts Blue</td>
@@ -171,7 +171,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -187,7 +187,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> dT Shirts Blue</td>
@@ -200,7 +200,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -216,7 +216,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> eT Shirts Blue</td>
@@ -229,7 +229,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -275,7 +275,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> fT Shirts Blue</td>
@@ -288,7 +288,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -304,7 +304,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> nT Shirts Blue</td>
@@ -317,7 +317,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -333,7 +333,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> yT Shirts Blue</td>
@@ -346,7 +346,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -397,7 +397,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> zT Shirts Blue</td>
@@ -410,7 +410,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -426,7 +426,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> zzT Shirts Blue</td>
@@ -439,7 +439,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -455,7 +455,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> fffT Shirts Blue</td>
@@ -468,7 +468,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -518,7 +518,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> T Shirts Blue</td>
@@ -531,7 +531,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -547,7 +547,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> T Shirts Blue</td>
@@ -560,7 +560,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -576,7 +576,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> T Shirts Blue</td>
@@ -589,7 +589,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -637,7 +637,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> T Shirts Blue</td>
@@ -650,7 +650,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -666,7 +666,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> T Shirts Blue</td>
@@ -679,7 +679,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -695,7 +695,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> T Shirts Blue</td>
@@ -708,7 +708,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -757,7 +757,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> T Shirts Blue</td>
@@ -770,7 +770,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -786,7 +786,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> T Shirts Blue</td>
@@ -799,7 +799,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -815,7 +815,7 @@
                     <tr>
                         <td>
                             <div class="product-image">
-                                <img class="img-fluid" src="img/tshirt.jpg" />
+                                <img alt="" class="img-fluid" src="img/tshirt.jpg" />
                             </div>
                         </td>
                         <td> T Shirts Blue</td>
@@ -828,7 +828,7 @@
                         <td>
                             <div class="actions">
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">

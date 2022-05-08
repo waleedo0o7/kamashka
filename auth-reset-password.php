@@ -1,8 +1,8 @@
 <?php include 'header.php'; ?>
 
 <div class="page-content forget-password">
-    <div class="signin-content">
-        <img class="mb-0 logo" src="img/password.svg" />
+    <div class="sign-in-content">
+        <img alt="" class="mb-0 logo" src="img/password.svg" />
         <h3 class="mb-2 bold"> Reset Password </h3>
 
         <div class="form-container">
@@ -36,11 +36,11 @@
 
 
 
-            </form><!-- signin-form -->
+            </form><!-- sign-in-form -->
 
         </div><!-- form-container -->
 
-    </div><!-- signin-content -->
+    </div><!-- sign-in-content -->
 
 </div><!-- page-content -->
 

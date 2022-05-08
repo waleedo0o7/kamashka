@@ -210,7 +210,7 @@
                     <div class="upload-store-images-wrapper card p-3">
 
                         <div class="image-wrapper main-image">
-                            <img class="img-fluid" id="imagePreview1" src="img/store.png" alt="">
+                            <img alt="" class="img-fluid" id="imagePreview1" src="img/store.png" alt="">
                             <i class="icon icon-edit" id="imageEdit1"></i>
                             <div class="loading-container"><div class="sbl-circ-path"></div></div>
                             <input id="imageUpload1" type="file" name="image" class="d-none" />
@@ -219,42 +219,42 @@
 
                         
                         <div class="image-wrapper ">
-                            <img class="img-fluid" id="imagePreview2" src="img/store.png" alt="">
+                            <img alt="" class="img-fluid" id="imagePreview2" src="img/store.png" alt="">
                             <i class="icon icon-edit" id="imageEdit2"></i>
                             <div class="loading-container"><div class="sbl-circ-path"></div></div>
                             <input id="imageUpload2" type="file" name="image" class="d-none" />
                         </div> <!-- image-wrapper  -->
 
                         <div class="image-wrapper ">
-                            <img class="img-fluid" id="imagePreview3" src="img/store.png" alt="">
+                            <img alt="" class="img-fluid" id="imagePreview3" src="img/store.png" alt="">
                             <i class="icon icon-edit" id="imageEdit3"></i>
                             <div class="loading-container"><div class="sbl-circ-path"></div></div>
                             <input id="imageUpload3" type="file" name="image" class="d-none" />
                         </div> <!-- image-wrapper  -->
 
                         <div class="image-wrapper ">
-                            <img class="img-fluid" id="imagePreview4" src="img/store.png" alt="">
+                            <img alt="" class="img-fluid" id="imagePreview4" src="img/store.png" alt="">
                             <i class="icon icon-edit" id="imageEdit4"></i>
                             <div class="loading-container"><div class="sbl-circ-path"></div></div>
                             <input id="imageUpload4" type="file" name="image" class="d-none" />
                         </div> <!-- image-wrapper  -->
 
                         <div class="image-wrapper ">
-                            <img class="img-fluid" id="imagePreview5" src="img/store.png" alt="">
+                            <img alt="" class="img-fluid" id="imagePreview5" src="img/store.png" alt="">
                             <i class="icon icon-edit" id="imageEdit5"></i>
                             <div class="loading-container"><div class="sbl-circ-path"></div></div>
                             <input id="imageUpload5" type="file" name="image" class="d-none" />
                         </div> <!-- image-wrapper  -->
 
                         <div class="image-wrapper ">
-                            <img class="img-fluid" id="imagePreview6" src="img/store.png" alt="">
+                            <img alt="" class="img-fluid" id="imagePreview6" src="img/store.png" alt="">
                             <i class="icon icon-edit" id="imageEdit6"></i>
                             <div class="loading-container"><div class="sbl-circ-path"></div></div>
                             <input id="imageUpload6" type="file" name="image" class="d-none" />
                         </div> <!-- image-wrapper  -->
 
                         <div class="image-wrapper ">
-                            <img class="img-fluid" id="imagePreview7" src="img/store.png" alt="">
+                            <img alt="" class="img-fluid" id="imagePreview7" src="img/store.png" alt="">
                             <i class="icon icon-edit" id="imageEdit7"></i>
                             <div class="loading-container"><div class="sbl-circ-path"></div></div>
                             <input id="imageUpload7" type="file" name="image" class="d-none" />

@@ -46,12 +46,12 @@ body {
   position: relative;
 }
 #top-header .top-header-content .icon-container button,
-#top-header .top-header-content .icon-container a.resetbtn {
+#top-header .top-header-content .icon-container a.reset-btn {
   color: #fff;
   width: 55px;
 }
 #top-header .top-header-content .icon-container button i.icon,
-#top-header .top-header-content .icon-container a.resetbtn i.icon {
+#top-header .top-header-content .icon-container a.reset-btn i.icon {
   font-size: 20px;
   padding: 5px;
   cursor: pointer;

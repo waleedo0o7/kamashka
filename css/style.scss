@@ -197,7 +197,7 @@ button:focus {
     outline: none;
 }
 
-button.resetbtn {
+button.reset-btn {
     background: none;
     border: none;
     cursor: pointer;
@@ -340,7 +340,7 @@ button.resetbtn {
     font-weight: bold;
 }
 
-ul.resetul {
+ul.reset-ul {
     list-style: none;
     padding: 0px;
     margin: 0px;
@@ -798,7 +798,7 @@ body.fullscreen {
     }
 }
 
-// change btns size in header and homepage
+// change buttons size in header and homepage
 #top-header,
 .homepage {
     .btn-custom1,
@@ -948,7 +948,7 @@ body.fullscreen {
             .icon-container {
                 position: relative;
                 button,
-                a.resetbtn {
+                a.reset-btn {
                     color: #fff;
                     width: 55px;
                     i.icon {
@@ -1361,7 +1361,7 @@ body.fullscreen {
                 font-size: 21px;
             }
         }
-        .btns.tags a {
+        .buttons.tags a {
             padding: 3px 10px !important;
             font-size: 13px;
             background: #ffdcc9;
@@ -1400,7 +1400,7 @@ body.fullscreen {
                 }
             }
         }
-        .btns {
+        .buttons {
             width: 100%;
             display: flex;
             justify-content: flex-end;
@@ -1612,7 +1612,7 @@ body.fullscreen {
                                 align-items: center;
                                 flex-direction: column;
                                 margin-bottom: 20px;
-                                i#toggle-right-menu {
+                                i.icon-chat {
                                     cursor: pointer;
                                 }
                                 i.toggle-like-btn {
@@ -1701,10 +1701,10 @@ body.fullscreen {
 
 ////////////////////// Homepage END
 
-////////////////////// Signin Start
+////////////////////// sign-in Start
 
-.signin,
-.signup,
+.sign-in,
+.sign-up,
 .activate,
 .forget-password,
 .auth-page {
@@ -1714,7 +1714,7 @@ body.fullscreen {
     display: flex;
     justify-content: center;
     align-items: center;
-    .signin-content,
+    .sign-in-content,
     .auth-page-content {
         width: 600px;
         max-width: 100%;
@@ -1730,7 +1730,7 @@ body.fullscreen {
             padding: 30px 0;
             margin-bottom: 15px;
 
-            form.signin-form,
+            form.sign-in-form,
             form.forget-password-form,
             .auth-form {
                 .form-group {
@@ -1783,7 +1783,7 @@ body.fullscreen {
     }
 }
 
-.signup {
+.sign-up {
     height: auto;
     padding-top: 30px;
     .form-group {
@@ -1927,7 +1927,7 @@ body.fullscreen {
     }
 }
 
-////////////////////// signin END
+////////////////////// sign-in END
 
 .forget-password {
     .nav-tabs {
@@ -2090,7 +2090,7 @@ body.fullscreen {
                     padding-left: 10px;
                     .item {
                         margin: 0 10px;
-                        .btns {
+                        .buttons {
                             display: flex;
                             justify-content: center;
                             align-items: center;
@@ -3483,7 +3483,7 @@ i.arrow-icon {
     .loading-container {
         background: transparent;
         .sbl-circ-path {
-            border-right-color: #fff;
+            border-right-color: var(--secondaryColor);
         }
     }
 }

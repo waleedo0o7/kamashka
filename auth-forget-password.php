@@ -1,8 +1,8 @@
 <?php include 'header.php'; ?>
 
 <div class="page-content forget-password">
-    <div class="signin-content">
-        <img class="mb-0 logo" src="img/logo-square.png" />
+    <div class="sign-in-content">
+        <img alt="" class="mb-0 logo" src="img/logo-square.png" />
         <h3 class="mb-2 bold"> Forget Password </h3>
 
         <div class="d-none">
@@ -12,7 +12,7 @@
         <div class="form-container">
 
             <div class="d-none alert alert-danger text-left" role="alert">
-                <ul class="mb-0 resetul">
+                <ul class="mb-0 reset-ul">
                     <li> Error Message </li>
                 </ul>
             </div>
@@ -43,7 +43,7 @@
                         </div><!-- submit-btn-container -->
 
 
-                    </form><!-- signin-form -->
+                    </form><!-- sign-in-form -->
                 </div> <!-- tab-pane -->
 
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
@@ -59,14 +59,14 @@
                                 </select>
 
                                 <div class="dropdown">
-                                    <button class="resetbtn dropdown-toggle" type="button" id="choose-country-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <img src="img/flag-kuwait.png" /> +002
+                                    <button class="reset-btn dropdown-toggle" type="button" id="choose-country-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img alt="" src="img/flag-kuwait.png" /> +002
                                         <i class="fa fa-caret-down"></i>
                                     </button>
                                     <div class="dropdown-menu choose-country-list" aria-labelledby="choose-country-btn">
-                                        <a data-value="1" class="dropdown-item" href="#"><img src="img/flag-kuwait.png" /> +002 <i class="fa fa-caret-down"></i> </a>
-                                        <a data-value="2" class="dropdown-item " href="#"><img src="img/flag-ksa.png" /> +003 <i class="fa fa-caret-down"></i> </a>
-                                        <a data-value="3" class="dropdown-item " href="#"><img src="img/flag-uae.png" /> +004 <i class="fa fa-caret-down"></i> </a>
+                                        <a data-value="1" class="dropdown-item" href="#"><img alt="" src="img/flag-kuwait.png" /> +002 <i class="fa fa-caret-down"></i> </a>
+                                        <a data-value="2" class="dropdown-item " href="#"><img alt="" src="img/flag-ksa.png" /> +003 <i class="fa fa-caret-down"></i> </a>
+                                        <a data-value="3" class="dropdown-item " href="#"><img alt="" src="img/flag-uae.png" /> +004 <i class="fa fa-caret-down"></i> </a>
                                     </div>
                                 </div> <!-- dropdown -->
                             </div><!-- country-code-container -->
@@ -77,7 +77,7 @@
                             <a href="auth-activate.php" class="btn btn-custom1 w-100 text-center" id="confirmation-btn"> Send Code </a>
                         </div><!-- submit-btn-container -->
 
-                    </form><!-- signin-form -->
+                    </form><!-- sign-in-form -->
                 </div> <!-- tab-pane -->
             </div>
 
@@ -85,7 +85,7 @@
 
         </div><!-- form-container -->
 
-    </div><!-- signin-content -->
+    </div><!-- sign-in-content -->
 </div><!-- page-content -->
 
 

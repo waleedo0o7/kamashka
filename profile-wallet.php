@@ -43,7 +43,7 @@
 
                     <div class="one-item p-3">
                         <div class="image">
-                            <img src="img/brand-slider/01.jpg" class="img-fluid">
+                            <img alt="" src="img/brand-slider/01.jpg" class="img-fluid">
                         </div><!-- image -->
                         <div class="details">
                             <p class="mb-1"> Received Credit </p>
@@ -59,7 +59,7 @@
 
                     <div class="one-item p-3">
                         <div class="image">
-                            <img src="img/brand-slider/02.jpg" class="img-fluid">
+                            <img alt="" src="img/brand-slider/02.jpg" class="img-fluid">
                         </div><!-- image -->
                         <div class="details">
                             <p class="mb-1"> Received Credit </p>
@@ -75,7 +75,7 @@
 
                     <div class="one-item p-3">
                         <div class="image">
-                            <img src="img/brand-slider/03.jpg" class="img-fluid">
+                            <img alt="" src="img/brand-slider/03.jpg" class="img-fluid">
                         </div><!-- image -->
                         <div class="details">
                             <p class="mb-1"> Received Credit </p>
@@ -90,7 +90,7 @@
 
                     <div class="one-item p-3">
                         <div class="image">
-                            <img src="img/brand-slider/05.jpg" class="img-fluid">
+                            <img alt="" src="img/brand-slider/05.jpg" class="img-fluid">
                         </div><!-- image -->
                         <div class="details">
                             <p class="mb-1"> Received Credit </p>
@@ -107,7 +107,7 @@
 
                     <div class="one-item p-3">
                         <div class="image">
-                            <img src="img/brand-slider/02.jpg" class="img-fluid">
+                            <img alt="" src="img/brand-slider/02.jpg" class="img-fluid">
                         </div><!-- image -->
                         <div class="details">
                             <p class="mb-1"> Received Credit </p>

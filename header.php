@@ -30,11 +30,11 @@
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
     <!-- select2 -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
 
     <!-- jquery UI  -->
     <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
-    
+
     <!-- Custom Style -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/media.css">
@@ -48,11 +48,11 @@
     <!-- mobile-menu-home IF HOMEPAGE -->
     <div class="mobile-menu  ">
         <div class="mobile-icon-container">
-            <i id="mobile-icon" class="icon icon-meni-icon"></i>
+            <i class="icon icon-menu-icon"></i>
         </div> <!-- logo -->
         <div class="icon">
             <div class="count-container">
-                <img src="img/count-icon.svg">
+                <img alt="" src="img/count-icon.svg">
                 <span> 800 KD </span>
             </div><!-- count-container -->
         </div><!-- icon -->
@@ -62,7 +62,7 @@
 
         <div class="menu-header">
             <div class="logo-container">
-                <img class="logo" src="img/logo-wide.png">
+                <img alt="" class="logo" src="img/logo-wide.png">
             </div><!-- logo -->
             <div class="btn-and-close">
                 <a class="btn btn-custom1" data-toggle="modal" data-target="#createModal"> Create </a>
@@ -71,29 +71,29 @@
         </div><!-- menu-header -->
 
         <div class="menu-icons-container">
-            <ul class="resetul menu-icons">
+            <ul class="reset-ul menu-icons">
                 <li> <a href="#"> <i class="icon icon-bell"></i> <span class="number" style="right: 3px;"> 0 </span></a> </li>
                 <li> <a href="#"> <i class="icon icon-heart"></i> <span class="number" style="right: 3px;"> 0 </span></a> </li>
                 <li> <a href="#"> <i class="icon icon-cart"></i> <span class="number" style="right: 3px;"> 0 </span></a> </li>
                 <li>
 
-                    <!--  IF USER LOOOOOGINED  for mobile  -->
+                    <!--  IF USER login for mobile  -->
                     <div class="icon-container">
                         <div class="dropdown custom-dropdown dropdown-mobile-popup ">
-                            <a class="dropdown-toggle resetbtn" type="button" id="signin" data-toggle="dropdown">
+                            <a class="dropdown-toggle reset-btn" href="#" id="sign-in" data-toggle="dropdown">
                                 <i class="icon icon-user"></i>
                             </a>
-                            <div class="dropdown-menu disable-auto-close pl-3 pr-3 user" aria-labelledby="signin">
-                                <p class="bold text-center"> Continue With Your Profile, Create Your Own Advs, Collect Money, Shop Online And More </p>
-                                <a href="auth-signin.php" class="btn btn-custom1 w-100 mb-2"> Sign In </a>
-                                <a href="auth-signup.php" class="btn btn-custom2 w-100 "> Sign Up </a>
+                            <div class="dropdown-menu disable-auto-close pl-3 pr-3 user">
+                                <p class="bold text-center"> Continue With Your Profile, Create Your Own Adv , Collect Money, Shop Online And More </p>
+                                <a href="auth-sign-in.php" class="btn btn-custom1 w-100 mb-2"> Sign In </a>
+                                <a href="auth-sign-up.php" class="btn btn-custom2 w-100 "> Sign Up </a>
 
                                 <p class="text-center"> Or continue with </p>
 
-                                <ul class="resetul social-icons mb-3">
-                                    <li> <a href="#"> <img src="img/facebook-icon.svg" /> </a> </li>
-                                    <li> <a href="#"> <img src="img/google-icon.svg" /> </a> </li>
-                                    <li> <a href="#"> <img src="img/apple-icon.svg" /> </a> </li>
+                                <ul class="reset-ul social-icons mb-3">
+                                    <li> <a href="#"> <img alt="" src="img/facebook-icon.svg" /> </a> </li>
+                                    <li> <a href="#"> <img alt="" src="img/google-icon.svg" /> </a> </li>
+                                    <li> <a href="#"> <img alt="" src="img/apple-icon.svg" /> </a> </li>
                                 </ul>
 
                             </div> <!-- dropdown-menu -->
@@ -102,11 +102,11 @@
                     </div><!-- icon-container -->
 
 
-                    <!--  IF USER  NOOOOT  LOOOOOGINED  for mobile -->
+                    <!--  IF USER  not  login  for mobile -->
 
                     <div class="icon-container">
                         <div class="dropdown custom-dropdown dropdown-mobile-popup d-none ">
-                            <a class="dropdown-toggle resetbtn" href="#">
+                            <a class="dropdown-toggle reset-btn" href="#">
                                 <i class="icon icon-user"></i>
                             </a>
                         </div> <!-- dropdown -->
@@ -118,23 +118,23 @@
 
             <div class="user-icons">
                 <div class="dropdown custom-dropdown dropdown-mobile-popup">
-                    <button class="dropdown-toggle language-btn resetbtn" type="button" id="language" data-toggle="dropdown">
-                        <img class="img-fluid" src="img/flag-kuwait.png" />
+                    <button class="dropdown-toggle language-btn reset-btn" type="button" id="language" data-toggle="dropdown">
+                        <img alt="" class="img-fluid" src="img/flag-kuwait.png" />
                     </button>
-                    <div class="dropdown-menu disable-auto-close" aria-labelledby="language">
+                    <div class="dropdown-menu disable-auto-close">
                         <p>Country</p>
                         <div class="one-item">
-                            <ul class="resetul countries">
-                                <li> <a href="#"> <img class="img-fluid" src="img/flag-kuwait.png" /> <span> kuwait </span> <i class="fa fa-check"></i> </a> </li>
-                                <li> <a href="#"> <img class="img-fluid" src="img/flag-ksa.png" /> <span> Saudi Arabia </span> </a></li>
-                                <li> <a href="#"> <img class="img-fluid" src="img/flag-uae.png" /> <span> United Arab Emirates</span> </a></li>
+                            <ul class="reset-ul countries">
+                                <li> <a href="#"> <img alt="" class="img-fluid" src="img/flag-kuwait.png" /> <span> kuwait </span> <i class="fa fa-check"></i> </a> </li>
+                                <li> <a href="#"> <img alt="" class="img-fluid" src="img/flag-ksa.png" /> <span> Saudi Arabia </span> </a></li>
+                                <li> <a href="#"> <img alt="" class="img-fluid" src="img/flag-uae.png" /> <span> United Arab Emirates</span> </a></li>
                             </ul>
                         </div><!-- one-item -->
 
 
                         <p> Language </p>
                         <div class="one-item">
-                            <ul class="resetul languages">
+                            <ul class="reset-ul languages">
                                 <li> <a href="#"> <span> English </span> <i class="fa fa-check"></i> </a> </li>
                                 <li> <a href="#"> <span> عربي </span> </a></li>
                             </ul>
@@ -152,18 +152,18 @@
         </div><!-- search-container -->
 
         <div class="menu-links-container">
-            <ul class="resetul">
+            <ul class="reset-ul">
                 <li> <a href="#"> Advertising </a> </li>
                 <li> <a href="#"> Discover </a> </li>
-                <li> <a href="#"> Shoping </a> </li>
+                <li> <a href="#"> Shopping </a> </li>
 
-                <!-- IF USER LOGINED -->
+                <!-- IF USER login -->
                 <li> <a href="#"> Sign Out </a> </li>
             </ul>
         </div><!-- menu-links-container -->
 
         <div class="social-media-container">
-            <ul class="resetul">
+            <ul class="reset-ul">
                 <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
                 <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
                 <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
@@ -178,16 +178,16 @@
 
                 <div class="col-md-4 d-flex top-items">
                     <div class="logo">
-                        <a href="home.php"> <img class="img-fluid" src="img/logo-wide.png" /> </a>
+                        <a href="home.php"> <img alt="" class="img-fluid" src="img/logo-wide.png" /> </a>
                     </div> <!-- logo -->
                     <div class="menu-icon">
-                        <i id="mobile-icon" class="icon icon-meni-icon"></i>
+                        <i id="mobile-icon" class="icon icon-menu-icon"></i>
                     </div> <!-- menu-icon -->
                     <div class="main-menu">
                         <ul class="menu">
                             <li class="menu-item"> <a class="active" href="#"> Advertising </a> </li>
                             <li class="menu-item"> <a href="#"> Discover </a> </li>
-                            <li class="menu-item"> <a href="#"> Shoping </a> </li>
+                            <li class="menu-item"> <a href="#"> Shopping </a> </li>
                         </ul>
                     </div> <!-- main-menu -->
                 </div><!-- col-md-6 -->
@@ -201,7 +201,7 @@
                     </div> <!-- search -->
                     <div class="count">
                         <div class="count-container">
-                            <img src="img/count-icon.svg">
+                            <img alt="" src="img/count-icon.svg">
                             <span> 800 KD </span>
                         </div><!-- count-container -->
                     </div> <!-- count -->
@@ -209,78 +209,89 @@
 
                         <div class="icon-container">
                             <div class="dropdown custom-dropdown">
-                                <button class="dropdown-toggle resetbtn " type="button" id="notifications-btn" data-toggle="dropdown">
+                                <button class="dropdown-toggle reset-btn " type="button" id="notifications-btn" data-toggle="dropdown">
                                     <i class="icon icon-bell"></i>
                                     <span class="number" style="right: 3px;"> 0 </span>
                                 </button>
 
-                                <div class="dropdown-menu notifications-dropdown-menu  disable-auto-close pl-3 pr-3" aria-labelledby="notifications">
+                                <div class="dropdown-menu notifications-dropdown-menu  disable-auto-close pl-3 pr-3" >
                                     <div class="notifications-menu-container">
-                                        <ul class="resetul">
+                                        <ul class="reset-ul">
+                                            <li>
+                                                <a class="notification-one-item" href="#">
+                                                    <div class="notification-icon">
+                                                        <i class="icon icon-deal-accept-post-approved"></i>
+                                                    </div><!-- notification-icon -->
+                                                    <div class="notification-details">
+                                                        <p> deal accepted - post approved // <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                    </div><!-- notification-details -->
+                                                    <div class="notification-date"> <span>9:20</span> AM <i class="fa fa-circle"></i> </div><!-- notification-date -->
+                                                </a> <!-- notification-one-item -->
+                                            </li>
 
-                                            <a class="notification-one-item" href="#">
-                                                <div class="notification-icon">
-                                                    <i class="icon icon-deal-accept-post-approved"></i>
-                                                </div><!-- notification-icon -->
-                                                <div class="notification-details">
-                                                    <p> deal accepted - post approved // <span class="colored2"> #1982984 </span> as shipped. </p>
-                                                </div><!-- notification-details -->
-                                                <div class="notification-date"> <span>9:20</span> AM <i class="fa fa-circle"></i> </div><!-- notification-date -->
-                                            </a> <!-- notification-one-item -->
+                                            <li>
+                                                <a class="notification-one-item" href="#">
+                                                    <div class="notification-icon">
+                                                        <i class="icon icon-deal-pending"></i>
+                                                    </div><!-- notification-icon -->
+                                                    <div class="notification-details">
+                                                        <p> deal pending // marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                    </div><!-- notification-details -->
+                                                    <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
+                                                </a> <!-- notification-one-item -->
+                                            </li>
 
-                                            <a class="notification-one-item" href="#">
-                                                <div class="notification-icon">
-                                                    <i class="icon icon-deal-pending"></i>
-                                                </div><!-- notification-icon -->
-                                                <div class="notification-details">
-                                                    <p> deal pending // marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
-                                                </div><!-- notification-details -->
-                                                <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
-                                            </a> <!-- notification-one-item -->
+                                            <li>
+                                                <a class="notification-one-item" href="#">
+                                                    <div class="notification-icon">
+                                                        <i class="icon icon-deal-received"></i>
+                                                    </div><!-- notification-icon -->
+                                                    <div class="notification-details">
+                                                        <p> deal received // Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                    </div><!-- notification-details -->
+                                                    <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
+                                                </a> <!-- notification-one-item -->
+                                            </li>
 
-                                            <a class="notification-one-item" href="#">
-                                                <div class="notification-icon">
-                                                    <i class="icon icon-deal-received"></i>
-                                                </div><!-- notification-icon -->
-                                                <div class="notification-details">
-                                                    <p> deal received // Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
-                                                </div><!-- notification-details -->
-                                                <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
-                                            </a> <!-- notification-one-item -->
+                                            <li>
+                                                <a class="notification-one-item" href="#">
+                                                    <div class="notification-icon">
+                                                        <i class="icon icon-deal-updated"></i>
+                                                    </div><!-- notification-icon -->
+                                                    <div class="notification-details">
+                                                        <p> deal updated // Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                    </div><!-- notification-details -->
+                                                    <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
+                                                </a> <!-- notification-one-item -->
+                                            </li>
 
-                                            <a class="notification-one-item" href="#">
-                                                <div class="notification-icon">
-                                                    <i class="icon icon-deal-updated"></i>
-                                                </div><!-- notification-icon -->
-                                                <div class="notification-details">
-                                                    <p> deal updated // Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
-                                                </div><!-- notification-details -->
-                                                <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
-                                            </a> <!-- notification-one-item -->
+                                            <li>
+                                                <a class="notification-one-item" href="#">
+                                                    <div class="notification-icon">
+                                                        <i class="icon icon-discount"></i>
+                                                    </div><!-- notification-icon -->
+                                                    <div class="notification-details">
+                                                        <p> discount // Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                    </div><!-- notification-details -->
+                                                    <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
+                                                </a> <!-- notification-one-item -->
+                                            </li>
 
-                                            <a class="notification-one-item" href="#">
-                                                <div class="notification-icon">
-                                                    <i class="icon icon-discount"></i>
-                                                </div><!-- notification-icon -->
-                                                <div class="notification-details">
-                                                    <p> discount // Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
-                                                </div><!-- notification-details -->
-                                                <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
-                                            </a> <!-- notification-one-item -->
-
-                                            <a class="notification-one-item" href="#">
-                                                <div class="notification-icon">
-                                                    <i class="icon icon-location-pin"></i>
-                                                </div><!-- notification-icon -->
-                                                <div class="notification-details">
-                                                    <p> location // Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
-                                                </div><!-- notification-details -->
-                                                <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
-                                            </a> <!-- notification-one-item -->
+                                            <li>
+                                                <a class="notification-one-item" href="#">
+                                                    <div class="notification-icon">
+                                                        <i class="icon icon-location-pin"></i>
+                                                    </div><!-- notification-icon -->
+                                                    <div class="notification-details">
+                                                        <p> location // Smiley’s Store marked your order <span class="colored2"> #1982984 </span> as shipped. </p>
+                                                    </div><!-- notification-details -->
+                                                    <div class="notification-date"> <span> </span> Yesterday </div><!-- notification-date -->
+                                                </a> <!-- notification-one-item -->
+                                            </li>
 
                                         </ul>
                                         <div class="notifications-footer">
-                                            <a class="btn " href="#"> Show All </a>
+                                            <a class="btn " href="notifications.php"> Show All </a>
                                         </div><!-- notifications-footer -->
                                     </div><!-- notifications-menu-container -->
                                 </div> <!-- dropdown-menu -->
@@ -288,7 +299,7 @@
                         </div><!-- icon-container -->
 
                         <div class="icon-container">
-                            <button class="resetbtn " type="button" id="wishlist">
+                            <button class="reset-btn " type="button" id="wishlist">
                                 <i class="icon icon-heart"></i>
                                 <span class="number"> 0 </span>
                             </button>
@@ -297,21 +308,21 @@
 
                         <div class="icon-container">
                             <div class="dropdown custom-dropdown">
-                                <button class="dropdown-toggle resetbtn " type="button" id="cart-btn" data-toggle="dropdown">
+                                <button class="dropdown-toggle reset-btn " type="button" id="cart-btn" data-toggle="dropdown">
                                     <i class="icon icon-cart"></i>
                                     <span class="number"> 0 </span>
                                 </button>
 
 
-                                <div class="dropdown-menu cart-dropdown-menu disable-auto-close pl-3 pr-3" aria-labelledby="cart">
+                                <div class="dropdown-menu cart-dropdown-menu disable-auto-close pl-3 pr-3" >
                                     <div class="cart-menu-container">
-                                        <ul class="resetul">
+                                        <ul class="reset-ul">
                                             <li class="cart-one-item">
-                                                <div class="image"> <img class="img-fluid" src="img/thum.png" /> </div><!-- image -->
+                                                <div class="image"> <img alt="" class="img-fluid" src="img/thumbnail.png" /> </div><!-- image -->
                                                 <div class="details">
                                                     <p class="name"> Shirt </p>
                                                     <p class="cat"> Cat's Eye </p>
-                                                    <p class="price-container"> $<span id="price">24.00</span> </p>
+                                                    <p class="price-container"> $<span class="price">24.00</span> </p>
 
                                                     <div class="counter">
                                                         <span class="down" onClick='decreaseCount(event, this)'> <i class="fa fa-minus"></i> </span>
@@ -320,16 +331,16 @@
                                                     </div> <!-- counter -->
 
                                                 </div> <!-- details -->
-                                                <i class="icon icon-close remove" id="removeItem"></i>
+                                                <i class="icon icon-close remove" ></i>
                                             </li><!-- cart-one-item -->
 
 
                                             <li class="cart-one-item">
-                                                <div class="image"> <img class="img-fluid" src="img/thum.png" /> </div><!-- image -->
+                                                <div class="image"> <img alt="" class="img-fluid" src="img/thumbnail.png" /> </div><!-- image -->
                                                 <div class="details">
                                                     <p class="name"> Shirt </p>
                                                     <p class="cat"> Cat's Eye </p>
-                                                    <p class="price-container"> $<span id="price">44.00</span> </p>
+                                                    <p class="price-container"> $<span class="price">44.00</span> </p>
 
                                                     <div class="counter">
                                                         <span class="down" onClick='decreaseCount(event, this)'> <i class="fa fa-minus"></i> </span>
@@ -338,16 +349,16 @@
                                                     </div> <!-- counter -->
 
                                                 </div> <!-- details -->
-                                                <i class="icon icon-close remove" id="removeItem"></i>
+                                                <i class="icon icon-close remove" ></i>
                                             </li><!-- cart-one-item -->
 
 
                                             <li class="cart-one-item">
-                                                <div class="image"> <img class="img-fluid" src="img/thum.png" /> </div><!-- image -->
+                                                <div class="image"> <img alt="" class="img-fluid" src="img/thumbnail.png" /> </div><!-- image -->
                                                 <div class="details">
                                                     <p class="name"> Shirt </p>
                                                     <p class="cat"> Cat's Eye </p>
-                                                    <p class="price-container"> $<span id="price">34.00</span> </p>
+                                                    <p class="price-container"> $<span class="price">34.00</span> </p>
 
                                                     <div class="counter">
                                                         <span class="down" onClick='decreaseCount(event, this)'> <i class="fa fa-minus"></i> </span>
@@ -356,7 +367,7 @@
                                                     </div> <!-- counter -->
 
                                                 </div> <!-- details -->
-                                                <i class="icon icon-close remove" id="removeItem"></i>
+                                                <i class="icon icon-close remove" ></i>
                                             </li><!-- cart-one-item -->
 
                                         </ul>
@@ -383,32 +394,32 @@
 
 
 
-                        <!--  IF USER LOOOOGINED for web  -->
+                        <!--  IF USER login for web  -->
                         <div class="icon-container ">
                             <div class="dropdown custom-dropdown">
-                                <a class="resetbtn" href="my-profile.php">
+                                <a class="reset-btn" href="my-profile.php">
                                     <i class="icon icon-user"></i>
                                 </a>
                             </div> <!-- dropdown -->
                         </div><!-- icon-container -->
 
-                        <!--  IF USER     NOOOOT   LOOOOGINED for web  -->
+                        <!--  IF USER     not   login for web  -->
                         <div class="icon-container">
                             <div class="dropdown custom-dropdown">
-                                <button class="dropdown-toggle resetbtn" type="button" id="signin" data-toggle="dropdown">
+                                <button class="dropdown-toggle reset-btn" type="button" id="sign-in" data-toggle="dropdown">
                                     <i class="icon icon-user"></i>
                                 </button>
-                                <div class="dropdown-menu disable-auto-close pl-3 pr-3" aria-labelledby="signin">
-                                    <p class="bold text-center"> Continue With Your Profile, Create Your Own Advs, Collect Money, Shop Online And More </p>
-                                    <a href="auth-signin.php" class="btn btn-custom1 w-100 mb-2"> Sign In </a>
-                                    <a href="auth-signup.php" class="btn btn-custom2 w-100 "> Sign Up </a>
+                                <div class="dropdown-menu disable-auto-close pl-3 pr-3">
+                                    <p class="bold text-center"> Continue With Your Profile, Create Your Own Adv , Collect Money, Shop Online And More </p>
+                                    <a href="auth-sign-in.php" class="btn btn-custom1 w-100 mb-2"> Sign In </a>
+                                    <a href="auth-sign-up.php" class="btn btn-custom2 w-100 "> Sign Up </a>
 
                                     <p class="text-center"> Or continue with </p>
 
-                                    <ul class="resetul social-icons mb-3">
-                                        <li> <a href="#"> <img src="img/facebook-icon.svg" /> </a> </li>
-                                        <li> <a href="#"> <img src="img/google-icon.svg" /> </a> </li>
-                                        <li> <a href="#"> <img src="img/apple-icon.svg" /> </a> </li>
+                                    <ul class="reset-ul social-icons mb-3">
+                                        <li> <a href="#"> <img alt="" src="img/facebook-icon.svg" /> </a> </li>
+                                        <li> <a href="#"> <img alt="" src="img/google-icon.svg" /> </a> </li>
+                                        <li> <a href="#"> <img alt="" src="img/apple-icon.svg" /> </a> </li>
                                     </ul>
 
                                 </div> <!-- dropdown-menu -->
@@ -424,23 +435,23 @@
 
                     <div class="user-icons">
                         <div class="dropdown custom-dropdown">
-                            <button class="dropdown-toggle language-btn resetbtn" type="button" id="language" data-toggle="dropdown">
-                                <img class="img-fluid" src="img/flag-kuwait.png" />
+                            <button class="dropdown-toggle language-btn reset-btn" type="button" id="language" data-toggle="dropdown">
+                                <img alt="" class="img-fluid" src="img/flag-kuwait.png" />
                             </button>
-                            <div class="dropdown-menu disable-auto-close" aria-labelledby="language">
+                            <div class="dropdown-menu disable-auto-close">
                                 <p>Country</p>
                                 <div class="one-item">
-                                    <ul class="resetul countries">
-                                        <li> <a href="#"> <img class="img-fluid" src="img/flag-kuwait.png" /> <span> kuwait </span> <i class="fa fa-check"></i> </a> </li>
-                                        <li> <a href="#"> <img class="img-fluid" src="img/flag-ksa.png" /> <span> Saudi Arabia </span> </a></li>
-                                        <li> <a href="#"> <img class="img-fluid" src="img/flag-uae.png" /> <span> United Arab Emirates</span> </a></li>
+                                    <ul class="reset-ul countries">
+                                        <li> <a href="#"> <img alt="" class="img-fluid" src="img/flag-kuwait.png" /> <span> kuwait </span> <i class="fa fa-check"></i> </a> </li>
+                                        <li> <a href="#"> <img alt="" class="img-fluid" src="img/flag-ksa.png" /> <span> Saudi Arabia </span> </a></li>
+                                        <li> <a href="#"> <img alt="" class="img-fluid" src="img/flag-uae.png" /> <span> United Arab Emirates</span> </a></li>
                                     </ul>
                                 </div><!-- one-item -->
 
 
                                 <p> Language </p>
                                 <div class="one-item">
-                                    <ul class="resetul languages">
+                                    <ul class="reset-ul languages">
                                         <li> <a href="#"> <span> English </span> <i class="fa fa-check"></i> </a> </li>
                                         <li> <a href="#"> <span> عربي </span> </a></li>
                                     </ul>
@@ -457,7 +468,7 @@
     </header><!-- top-header -->
 
     <!-- Create Modal Start -->
-    <div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="createModalLabel" aria-hidden="true">
+    <div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header mb-5">
@@ -470,7 +481,7 @@
                         <div class="col-md-6">
                             <div class="one-item">
                                 <a href="create-adv.php">
-                                    <img class="img-fluid" src="img/create-adv.png">
+                                    <img alt="" class="img-fluid" src="img/create-adv.png">
                                     <p> Create Advertisement <i class="fa fa-chevron-right arrow-icon"></i> </p>
                                 </a>
                             </div><!-- one-item -->
@@ -478,7 +489,7 @@
                         <div class="col-md-6">
                             <div class="one-item">
                                 <a href="#">
-                                    <img class="img-fluid" src="img/create-store.png">
+                                    <img alt="" class="img-fluid" src="img/create-store.png">
                                     <p> Create Store <i class="fa fa-chevron-right arrow-icon"></i> </p>
                                 </a>
                             </div><!-- one-item -->
@@ -502,22 +513,22 @@
             <div class="right-menu-content">
                 <div class="all-comments">
 
-                    <!--  IF THIS COMMENT IS NOOOOT MY COMMENT  -->
+                    <!--  IF THIS COMMENT IS not MY COMMENT  -->
                     <div class="one-comment">
                         <div class="image-container">
                             <img class="img-fluid" src="img/person04.jpg" alt="">
                         </div><!-- image-container -->
                         <div class="name-and-comment">
-                            <p class="name bold"> Ahmed Mohamed <img class="img-fluid" src="img/verified.svg"> </p>
+                            <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
                             <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
                         </div><!-- name-and-comment -->
                         <div class="actions">
 
                             <div class="dropdown custom-dropdown">
-                                <button class="dropdown-toggle resetbtn p-0" type="button" id="cart-btn" data-toggle="dropdown">
+                                <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
                                     <i class="fa fa-ellipsis-h"></i>
                                 </button>
-                                <div class="dropdown-menu options-dropdown " aria-labelledby="cart">
+                                <div class="dropdown-menu options-dropdown ">
                                     <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
                                     <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
                                 </div> <!-- dropdown-menu -->
@@ -535,7 +546,7 @@
                             <img class="img-fluid" src="img/person04.jpg" alt="">
                         </div><!-- image-container -->
                         <div class="name-and-comment">
-                            <p class="name bold"> Ahmed Mohamed <img class="img-fluid" src="img/verified.svg"> </p>
+                            <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
                             <p class="comment"> Nice Advertisement ( this is MY comment ) </p>
                             <div class="edit-container">
                                 <input class="form-control" type="text" value="Nice Advertisement ( this is MY comment )" />
@@ -545,10 +556,10 @@
                         <div class="actions">
 
                             <div class="dropdown custom-dropdown">
-                                <button class="dropdown-toggle resetbtn p-0" type="button" id="cart-btn" data-toggle="dropdown">
+                                <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
                                     <i class="fa fa-ellipsis-h"></i>
                                 </button>
-                                <div class="dropdown-menu options-dropdown " aria-labelledby="cart">
+                                <div class="dropdown-menu options-dropdown " >
                                     <a class="dropdown-item edit-comment" href="#"> <i class="icon icon-edit"></i> Edit </a>
                                     <a class="dropdown-item" data-toggle="modal" data-target="#deleteModal"> <i class="fas fa-trash-alt"></i> Delete </a>
                                 </div> <!-- dropdown-menu -->
@@ -584,19 +595,19 @@
     <div class="left-menu-container">
         <div class="left-menu">
             <div class="left-menu-content">
-                <div class="logo-header"> <img class="logo" src="img/logo-wide.png" /> <i id="close-left-menu" class="icon icon-close"></i> </div><!-- header-header -->
+                <div class="logo-header"> <img alt="" class="logo" src="img/logo-wide.png" /> <i id="close-left-menu" class="icon icon-close"></i> </div><!-- header-header -->
                 <div class="menu">
-                    <ul class="resetul">
+                    <ul class="reset-ul">
                         <li> <a href="#"> Advertising </a> </li>
                         <li> <a href="#"> Discover </a> </li>
-                        <li> <a href="#"> Shoping </a> </li>
+                        <li> <a href="#"> Shopping </a> </li>
                         <li> <a href="#"> My Profile </a> </li>
                         <li> <a href="#"> Create </a> </li>
                         <li> <a href="#"> Sign Out </a> </li>
                     </ul>
                 </div><!-- menu -->
                 <div class="menu-footer">
-                    <ul class="resetul">
+                    <ul class="reset-ul">
                         <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
                         <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
                         <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>

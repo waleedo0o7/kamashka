@@ -82,7 +82,7 @@
                         <tbody>
                             <tr>
                                 <th>
-                                    <img class="img-fluid product-image" src="img/03.jpg" alt="">
+                                    <img alt="" class="img-fluid product-image" src="img/03.jpg" alt="">
                                 </th>
                                 <th>
                                     <p class="product-name"> Red Cotton Scarf </p>
@@ -104,7 +104,7 @@
 
                             <tr>
                                 <th>
-                                    <img class="img-fluid product-image" src="img/03.jpg" alt="">
+                                    <img alt="" class="img-fluid product-image" src="img/03.jpg" alt="">
                                 </th>
                                 <th>
                                     <p class="product-name"> Red Cotton Scarf </p>
@@ -126,7 +126,7 @@
 
                             <tr>
                                 <th>
-                                    <img class="img-fluid product-image" src="img/03.jpg" alt="">
+                                    <img alt="" class="img-fluid product-image" src="img/03.jpg" alt="">
                                 </th>
                                 <th>
                                     <p class="product-name"> Red Cotton Scarf </p>

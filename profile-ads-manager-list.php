@@ -19,7 +19,6 @@
             </div><!-- row -->
         </div><!-- container -->
     </div><!-- top-bar ads-manager -->
-
 </div><!-- top-bar-wrapper -->
 
 <div class="page-content ads-manager-page-list bg-gray">
@@ -37,7 +36,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -145,7 +144,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -158,6 +157,7 @@
                                         <a class="dropdown-item" href="create-adv.php"> Edit Ads</a>
                                         <a class="dropdown-item" href="" data-toggle="modal" data-target="#budgetModal"> Increase / Decrease Budget</a>
                                         <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteAdvModal"> Stop Adv</a>
+                                        <a class="dropdown-item " href="" data-toggle="modal" data-target="#toggleActivationAdvModal"> test toggle Activation Adv Modal</a>
                                         <a class="dropdown-item" href="profile-ads-manager-list-ads-statistics.php"> Adv Statistics</a>
                                     </div>
                                 </div> <!-- btn-group -->
@@ -255,7 +255,7 @@
 
                                 <!-- Default dropleft button -->
                                 <div class="btn-group dropleft">
-                                    <button type="button" class="resetbtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -357,16 +357,13 @@
         </div><!-- all-ads-wrapper -->
 
     </div><!-- container -->
+
+    <button type="button" class="btn btn-lg btn-primary">Show Modal</button>
+ 
+    
 </div><!-- page-content -->
 
 <?php include 'footer.php'; ?>
-
-
-
-
-
-
-
 
 
 
@@ -394,22 +391,6 @@
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->
 </div> <!-- republishModal Modal END -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!-- budgetModal  Modal Start -->
@@ -473,22 +454,7 @@
 </div> <!-- budgetModal Modal END -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- budgetModal  Modal Start -->
+<!-- deleteAdvModal  Modal Start -->
 <div class="modal fade" id="deleteAdvModal" tabindex="-1" role="dialog" aria-labelledby="deleteAdvModalLabel" aria-hidden="true">
     <div class="modal-dialog  " role="document">
         <div class="modal-content">
@@ -509,4 +475,32 @@
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->
-</div> <!-- budgetModal Modal END -->
+</div> <!-- deleteAdvModal Modal END -->
+
+
+
+
+
+
+<!-- toggleActivationAdvModal  Modal Start -->
+<div class="modal fade" id="toggleActivationAdvModal" tabindex="-1" role="dialog" aria-labelledby="toggleActivationAdvModalLabel" aria-hidden="true">
+    <div class="modal-dialog  " role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <!-- <h5 class="modal-title" id="toggleActivationAdvModal"> Delete </h5> -->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="icon icon-close"></i>
+                </button>
+            </div>
+            <div class="modal-body  p-3">
+                <div class="text-center mt-4 lead">
+                    <p class="lead "> Are you sure you want to <br /> active this adv ? </p>
+                </div> <!-- text-center -->
+            </div> <!-- modal-body -->
+            <div class="modal-footer">
+                <a href="#" class="btn btn-custom1 via" data-via="1"> Yes </a>
+                <a href="#" class="btn btn-custom5 via" data-via="2"> No </a>
+            </div><!-- modal-footer -->
+        </div> <!-- modal-content -->
+    </div> <!-- modal-dialog -->
+</div> <!-- deleteAdvModal Modal END -->

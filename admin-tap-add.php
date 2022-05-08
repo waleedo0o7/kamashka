@@ -48,7 +48,7 @@
                         <label for="" class=" bold"> Tap Icon </label>
 
                         <div class="image relative">
-                            <img style="width : 40px" id="profile-image" class="img-fluid" src="img/icon.png" alt="">
+                            <img alt="" style="width : 40px" id="profile-image" class="img-fluid" src="img/icon.png" alt="">
                             <div class="change-image-container">
                                 <i class="icon icon-edit"></i>
                                 <input id="change-profile-image" class="d-none" type="file" accept="image/png, image/gif, image/jpeg">

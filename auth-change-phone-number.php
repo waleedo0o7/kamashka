@@ -1,8 +1,8 @@
 <?php include 'header.php'; ?>
 
 <div class="page-content forget-password">
-    <div class="signin-content">
-        <img class="mb-3 logo" src="img/password.svg" />
+    <div class="sign-in-content">
+        <img alt="" class="mb-3 logo" src="img/password.svg" />
         <h3 class="mb-2 bold"> Change Phone number </h3>
 
         <div class="form-container">
@@ -25,14 +25,14 @@
                         </select>
 
                         <div class="dropdown">
-                            <button class="resetbtn dropdown-toggle" type="button" id="choose-country-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img src="img/flag-kuwait.png" /> +001
+                            <button class="reset-btn dropdown-toggle" type="button" id="choose-country-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img alt="" src="img/flag-kuwait.png" /> +001
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-menu choose-country-list" aria-labelledby="choose-country-btn">
-                                <a data-value="1" class="dropdown-item" href="#"><img src="img/flag-kuwait.png" /> +001 <i class="fa fa-caret-down"></i> </a>
-                                <a data-value="2" class="dropdown-item " href="#"><img src="img/flag-ksa.png" /> +002 <i class="fa fa-caret-down"></i> </a>
-                                <a data-value="3" class="dropdown-item " href="#"><img src="img/flag-uae.png" /> +003 <i class="fa fa-caret-down"></i> </a>
+                                <a data-value="1" class="dropdown-item" href="#"><img alt="" src="img/flag-kuwait.png" /> +001 <i class="fa fa-caret-down"></i> </a>
+                                <a data-value="2" class="dropdown-item " href="#"><img alt="" src="img/flag-ksa.png" /> +002 <i class="fa fa-caret-down"></i> </a>
+                                <a data-value="3" class="dropdown-item " href="#"><img alt="" src="img/flag-uae.png" /> +003 <i class="fa fa-caret-down"></i> </a>
                             </div>
                         </div> <!-- dropdown -->
 
@@ -48,11 +48,11 @@
 
 
 
-            </form><!-- signin-form -->
+            </form><!-- sign-in-form -->
 
         </div><!-- form-container -->
 
-    </div><!-- signin-content -->
+    </div><!-- sign-in-content -->
 
 </div><!-- page-content -->
 

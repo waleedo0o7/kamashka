@@ -187,12 +187,12 @@ button:focus {
   outline: none;
 }
 
-button.resetbtn {
+button.reset-btn {
   background: none;
   border: none;
   cursor: pointer;
 }
-button.resetbtn::after {
+button.reset-btn::after {
   display: none;
 }
 
@@ -324,7 +324,7 @@ button.resetbtn::after {
   font-weight: bold;
 }
 
-ul.resetul {
+ul.reset-ul {
   list-style: none;
   padding: 0px;
   margin: 0px;
@@ -867,12 +867,12 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   position: relative;
 }
 #top-header .top-header-content .icons .icon-container button,
-#top-header .top-header-content .icons .icon-container a.resetbtn {
+#top-header .top-header-content .icons .icon-container a.reset-btn {
   color: #fff;
   width: 55px;
 }
 #top-header .top-header-content .icons .icon-container button i.icon,
-#top-header .top-header-content .icons .icon-container a.resetbtn i.icon {
+#top-header .top-header-content .icons .icon-container a.reset-btn i.icon {
   font-size: 20px;
   padding: 5px;
   cursor: pointer;
@@ -1241,7 +1241,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 .data-section .brand-details .brand-details-text h4 {
   font-size: 21px;
 }
-.data-section .brand-details .btns.tags a {
+.data-section .brand-details .buttons.tags a {
   padding: 3px 10px !important;
   font-size: 13px;
   background: #ffdcc9;
@@ -1273,16 +1273,16 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   font-size: 12px;
   font-weight: bold;
 }
-.data-section .share .btns {
+.data-section .share .buttons {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-.data-section .share .btns .btn {
+.data-section .share .buttons .btn {
   color: var(--secondaryColor);
 }
-.data-section .share .btns .btn:hover {
+.data-section .share .buttons .btn:hover {
   color: #fff;
 }
 
@@ -1490,10 +1490,10 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   flex-direction: column;
   margin-bottom: 20px;
 }
-.homepage .homepage-content .homepage-slick-slider .carousel-item-content .icons-container .video-icons ul li i#toggle-right-menu,
-.homepage .homepage-content #homepage-bootstrap-slider .carousel-item-content .icons-container .video-icons ul li i#toggle-right-menu,
-.homepage .homepage-content .owl-main-home-carousel .carousel-item-content .icons-container .video-icons ul li i#toggle-right-menu,
-.homepage .homepage-content .swiper-main-home-slider .carousel-item-content .icons-container .video-icons ul li i#toggle-right-menu {
+.homepage .homepage-content .homepage-slick-slider .carousel-item-content .icons-container .video-icons ul li i.icon-chat,
+.homepage .homepage-content #homepage-bootstrap-slider .carousel-item-content .icons-container .video-icons ul li i.icon-chat,
+.homepage .homepage-content .owl-main-home-carousel .carousel-item-content .icons-container .video-icons ul li i.icon-chat,
+.homepage .homepage-content .swiper-main-home-slider .carousel-item-content .icons-container .video-icons ul li i.icon-chat {
   cursor: pointer;
 }
 .homepage .homepage-content .homepage-slick-slider .carousel-item-content .icons-container .video-icons ul li i.toggle-like-btn,
@@ -1573,8 +1573,8 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   margin: 0 5px;
 }
 
-.signin,
-.signup,
+.sign-in,
+.sign-up,
 .activate,
 .forget-password,
 .auth-page {
@@ -1585,118 +1585,118 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   justify-content: center;
   align-items: center;
 }
-.signin .signin-content,
-.signin .auth-page-content,
-.signup .signin-content,
-.signup .auth-page-content,
-.activate .signin-content,
+.sign-in .sign-in-content,
+.sign-in .auth-page-content,
+.sign-up .sign-in-content,
+.sign-up .auth-page-content,
+.activate .sign-in-content,
 .activate .auth-page-content,
-.forget-password .signin-content,
+.forget-password .sign-in-content,
 .forget-password .auth-page-content,
-.auth-page .signin-content,
+.auth-page .sign-in-content,
 .auth-page .auth-page-content {
   width: 600px;
   max-width: 100%;
   padding: 10px;
   text-align: center;
 }
-.signin .signin-content h3,
-.signin .auth-page-content h3,
-.signup .signin-content h3,
-.signup .auth-page-content h3,
-.activate .signin-content h3,
+.sign-in .sign-in-content h3,
+.sign-in .auth-page-content h3,
+.sign-up .sign-in-content h3,
+.sign-up .auth-page-content h3,
+.activate .sign-in-content h3,
 .activate .auth-page-content h3,
-.forget-password .signin-content h3,
+.forget-password .sign-in-content h3,
 .forget-password .auth-page-content h3,
-.auth-page .signin-content h3,
+.auth-page .sign-in-content h3,
 .auth-page .auth-page-content h3 {
   font-size: 22px;
 }
-.signin .signin-content .logo,
-.signin .auth-page-content .logo,
-.signup .signin-content .logo,
-.signup .auth-page-content .logo,
-.activate .signin-content .logo,
+.sign-in .sign-in-content .logo,
+.sign-in .auth-page-content .logo,
+.sign-up .sign-in-content .logo,
+.sign-up .auth-page-content .logo,
+.activate .sign-in-content .logo,
 .activate .auth-page-content .logo,
-.forget-password .signin-content .logo,
+.forget-password .sign-in-content .logo,
 .forget-password .auth-page-content .logo,
-.auth-page .signin-content .logo,
+.auth-page .sign-in-content .logo,
 .auth-page .auth-page-content .logo {
   width: 90px;
 }
-.signin .signin-content .form-container,
-.signin .auth-page-content .form-container,
-.signup .signin-content .form-container,
-.signup .auth-page-content .form-container,
-.activate .signin-content .form-container,
+.sign-in .sign-in-content .form-container,
+.sign-in .auth-page-content .form-container,
+.sign-up .sign-in-content .form-container,
+.sign-up .auth-page-content .form-container,
+.activate .sign-in-content .form-container,
 .activate .auth-page-content .form-container,
-.forget-password .signin-content .form-container,
+.forget-password .sign-in-content .form-container,
 .forget-password .auth-page-content .form-container,
-.auth-page .signin-content .form-container,
+.auth-page .sign-in-content .form-container,
 .auth-page .auth-page-content .form-container {
   padding: 30px 0;
   margin-bottom: 15px;
 }
-.signin .signin-content .form-container form.signin-form .form-group .form-control.input-with-icon,
-.signin .signin-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
-.signin .signin-content .form-container .auth-form .form-group .form-control.input-with-icon,
-.signin .auth-page-content .form-container form.signin-form .form-group .form-control.input-with-icon,
-.signin .auth-page-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
-.signin .auth-page-content .form-container .auth-form .form-group .form-control.input-with-icon,
-.signup .signin-content .form-container form.signin-form .form-group .form-control.input-with-icon,
-.signup .signin-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
-.signup .signin-content .form-container .auth-form .form-group .form-control.input-with-icon,
-.signup .auth-page-content .form-container form.signin-form .form-group .form-control.input-with-icon,
-.signup .auth-page-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
-.signup .auth-page-content .form-container .auth-form .form-group .form-control.input-with-icon,
-.activate .signin-content .form-container form.signin-form .form-group .form-control.input-with-icon,
-.activate .signin-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
-.activate .signin-content .form-container .auth-form .form-group .form-control.input-with-icon,
-.activate .auth-page-content .form-container form.signin-form .form-group .form-control.input-with-icon,
+.sign-in .sign-in-content .form-container form.sign-in-form .form-group .form-control.input-with-icon,
+.sign-in .sign-in-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
+.sign-in .sign-in-content .form-container .auth-form .form-group .form-control.input-with-icon,
+.sign-in .auth-page-content .form-container form.sign-in-form .form-group .form-control.input-with-icon,
+.sign-in .auth-page-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
+.sign-in .auth-page-content .form-container .auth-form .form-group .form-control.input-with-icon,
+.sign-up .sign-in-content .form-container form.sign-in-form .form-group .form-control.input-with-icon,
+.sign-up .sign-in-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
+.sign-up .sign-in-content .form-container .auth-form .form-group .form-control.input-with-icon,
+.sign-up .auth-page-content .form-container form.sign-in-form .form-group .form-control.input-with-icon,
+.sign-up .auth-page-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
+.sign-up .auth-page-content .form-container .auth-form .form-group .form-control.input-with-icon,
+.activate .sign-in-content .form-container form.sign-in-form .form-group .form-control.input-with-icon,
+.activate .sign-in-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
+.activate .sign-in-content .form-container .auth-form .form-group .form-control.input-with-icon,
+.activate .auth-page-content .form-container form.sign-in-form .form-group .form-control.input-with-icon,
 .activate .auth-page-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
 .activate .auth-page-content .form-container .auth-form .form-group .form-control.input-with-icon,
-.forget-password .signin-content .form-container form.signin-form .form-group .form-control.input-with-icon,
-.forget-password .signin-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
-.forget-password .signin-content .form-container .auth-form .form-group .form-control.input-with-icon,
-.forget-password .auth-page-content .form-container form.signin-form .form-group .form-control.input-with-icon,
+.forget-password .sign-in-content .form-container form.sign-in-form .form-group .form-control.input-with-icon,
+.forget-password .sign-in-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
+.forget-password .sign-in-content .form-container .auth-form .form-group .form-control.input-with-icon,
+.forget-password .auth-page-content .form-container form.sign-in-form .form-group .form-control.input-with-icon,
 .forget-password .auth-page-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
 .forget-password .auth-page-content .form-container .auth-form .form-group .form-control.input-with-icon,
-.auth-page .signin-content .form-container form.signin-form .form-group .form-control.input-with-icon,
-.auth-page .signin-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
-.auth-page .signin-content .form-container .auth-form .form-group .form-control.input-with-icon,
-.auth-page .auth-page-content .form-container form.signin-form .form-group .form-control.input-with-icon,
+.auth-page .sign-in-content .form-container form.sign-in-form .form-group .form-control.input-with-icon,
+.auth-page .sign-in-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
+.auth-page .sign-in-content .form-container .auth-form .form-group .form-control.input-with-icon,
+.auth-page .auth-page-content .form-container form.sign-in-form .form-group .form-control.input-with-icon,
 .auth-page .auth-page-content .form-container form.forget-password-form .form-group .form-control.input-with-icon,
 .auth-page .auth-page-content .form-container .auth-form .form-group .form-control.input-with-icon {
   padding-left: 40px;
 }
-.signin .signin-content .form-container form.signin-form .form-group i,
-.signin .signin-content .form-container form.forget-password-form .form-group i,
-.signin .signin-content .form-container .auth-form .form-group i,
-.signin .auth-page-content .form-container form.signin-form .form-group i,
-.signin .auth-page-content .form-container form.forget-password-form .form-group i,
-.signin .auth-page-content .form-container .auth-form .form-group i,
-.signup .signin-content .form-container form.signin-form .form-group i,
-.signup .signin-content .form-container form.forget-password-form .form-group i,
-.signup .signin-content .form-container .auth-form .form-group i,
-.signup .auth-page-content .form-container form.signin-form .form-group i,
-.signup .auth-page-content .form-container form.forget-password-form .form-group i,
-.signup .auth-page-content .form-container .auth-form .form-group i,
-.activate .signin-content .form-container form.signin-form .form-group i,
-.activate .signin-content .form-container form.forget-password-form .form-group i,
-.activate .signin-content .form-container .auth-form .form-group i,
-.activate .auth-page-content .form-container form.signin-form .form-group i,
+.sign-in .sign-in-content .form-container form.sign-in-form .form-group i,
+.sign-in .sign-in-content .form-container form.forget-password-form .form-group i,
+.sign-in .sign-in-content .form-container .auth-form .form-group i,
+.sign-in .auth-page-content .form-container form.sign-in-form .form-group i,
+.sign-in .auth-page-content .form-container form.forget-password-form .form-group i,
+.sign-in .auth-page-content .form-container .auth-form .form-group i,
+.sign-up .sign-in-content .form-container form.sign-in-form .form-group i,
+.sign-up .sign-in-content .form-container form.forget-password-form .form-group i,
+.sign-up .sign-in-content .form-container .auth-form .form-group i,
+.sign-up .auth-page-content .form-container form.sign-in-form .form-group i,
+.sign-up .auth-page-content .form-container form.forget-password-form .form-group i,
+.sign-up .auth-page-content .form-container .auth-form .form-group i,
+.activate .sign-in-content .form-container form.sign-in-form .form-group i,
+.activate .sign-in-content .form-container form.forget-password-form .form-group i,
+.activate .sign-in-content .form-container .auth-form .form-group i,
+.activate .auth-page-content .form-container form.sign-in-form .form-group i,
 .activate .auth-page-content .form-container form.forget-password-form .form-group i,
 .activate .auth-page-content .form-container .auth-form .form-group i,
-.forget-password .signin-content .form-container form.signin-form .form-group i,
-.forget-password .signin-content .form-container form.forget-password-form .form-group i,
-.forget-password .signin-content .form-container .auth-form .form-group i,
-.forget-password .auth-page-content .form-container form.signin-form .form-group i,
+.forget-password .sign-in-content .form-container form.sign-in-form .form-group i,
+.forget-password .sign-in-content .form-container form.forget-password-form .form-group i,
+.forget-password .sign-in-content .form-container .auth-form .form-group i,
+.forget-password .auth-page-content .form-container form.sign-in-form .form-group i,
 .forget-password .auth-page-content .form-container form.forget-password-form .form-group i,
 .forget-password .auth-page-content .form-container .auth-form .form-group i,
-.auth-page .signin-content .form-container form.signin-form .form-group i,
-.auth-page .signin-content .form-container form.forget-password-form .form-group i,
-.auth-page .signin-content .form-container .auth-form .form-group i,
-.auth-page .auth-page-content .form-container form.signin-form .form-group i,
+.auth-page .sign-in-content .form-container form.sign-in-form .form-group i,
+.auth-page .sign-in-content .form-container form.forget-password-form .form-group i,
+.auth-page .sign-in-content .form-container .auth-form .form-group i,
+.auth-page .auth-page-content .form-container form.sign-in-form .form-group i,
 .auth-page .auth-page-content .form-container form.forget-password-form .form-group i,
 .auth-page .auth-page-content .form-container .auth-form .form-group i {
   position: absolute;
@@ -1710,66 +1710,66 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   top: 10px;
   z-index: 1;
 }
-.signin .signin-content .form-container form.signin-form .form-group i.fa-envelope,
-.signin .signin-content .form-container form.forget-password-form .form-group i.fa-envelope,
-.signin .signin-content .form-container .auth-form .form-group i.fa-envelope,
-.signin .auth-page-content .form-container form.signin-form .form-group i.fa-envelope,
-.signin .auth-page-content .form-container form.forget-password-form .form-group i.fa-envelope,
-.signin .auth-page-content .form-container .auth-form .form-group i.fa-envelope,
-.signup .signin-content .form-container form.signin-form .form-group i.fa-envelope,
-.signup .signin-content .form-container form.forget-password-form .form-group i.fa-envelope,
-.signup .signin-content .form-container .auth-form .form-group i.fa-envelope,
-.signup .auth-page-content .form-container form.signin-form .form-group i.fa-envelope,
-.signup .auth-page-content .form-container form.forget-password-form .form-group i.fa-envelope,
-.signup .auth-page-content .form-container .auth-form .form-group i.fa-envelope,
-.activate .signin-content .form-container form.signin-form .form-group i.fa-envelope,
-.activate .signin-content .form-container form.forget-password-form .form-group i.fa-envelope,
-.activate .signin-content .form-container .auth-form .form-group i.fa-envelope,
-.activate .auth-page-content .form-container form.signin-form .form-group i.fa-envelope,
+.sign-in .sign-in-content .form-container form.sign-in-form .form-group i.fa-envelope,
+.sign-in .sign-in-content .form-container form.forget-password-form .form-group i.fa-envelope,
+.sign-in .sign-in-content .form-container .auth-form .form-group i.fa-envelope,
+.sign-in .auth-page-content .form-container form.sign-in-form .form-group i.fa-envelope,
+.sign-in .auth-page-content .form-container form.forget-password-form .form-group i.fa-envelope,
+.sign-in .auth-page-content .form-container .auth-form .form-group i.fa-envelope,
+.sign-up .sign-in-content .form-container form.sign-in-form .form-group i.fa-envelope,
+.sign-up .sign-in-content .form-container form.forget-password-form .form-group i.fa-envelope,
+.sign-up .sign-in-content .form-container .auth-form .form-group i.fa-envelope,
+.sign-up .auth-page-content .form-container form.sign-in-form .form-group i.fa-envelope,
+.sign-up .auth-page-content .form-container form.forget-password-form .form-group i.fa-envelope,
+.sign-up .auth-page-content .form-container .auth-form .form-group i.fa-envelope,
+.activate .sign-in-content .form-container form.sign-in-form .form-group i.fa-envelope,
+.activate .sign-in-content .form-container form.forget-password-form .form-group i.fa-envelope,
+.activate .sign-in-content .form-container .auth-form .form-group i.fa-envelope,
+.activate .auth-page-content .form-container form.sign-in-form .form-group i.fa-envelope,
 .activate .auth-page-content .form-container form.forget-password-form .form-group i.fa-envelope,
 .activate .auth-page-content .form-container .auth-form .form-group i.fa-envelope,
-.forget-password .signin-content .form-container form.signin-form .form-group i.fa-envelope,
-.forget-password .signin-content .form-container form.forget-password-form .form-group i.fa-envelope,
-.forget-password .signin-content .form-container .auth-form .form-group i.fa-envelope,
-.forget-password .auth-page-content .form-container form.signin-form .form-group i.fa-envelope,
+.forget-password .sign-in-content .form-container form.sign-in-form .form-group i.fa-envelope,
+.forget-password .sign-in-content .form-container form.forget-password-form .form-group i.fa-envelope,
+.forget-password .sign-in-content .form-container .auth-form .form-group i.fa-envelope,
+.forget-password .auth-page-content .form-container form.sign-in-form .form-group i.fa-envelope,
 .forget-password .auth-page-content .form-container form.forget-password-form .form-group i.fa-envelope,
 .forget-password .auth-page-content .form-container .auth-form .form-group i.fa-envelope,
-.auth-page .signin-content .form-container form.signin-form .form-group i.fa-envelope,
-.auth-page .signin-content .form-container form.forget-password-form .form-group i.fa-envelope,
-.auth-page .signin-content .form-container .auth-form .form-group i.fa-envelope,
-.auth-page .auth-page-content .form-container form.signin-form .form-group i.fa-envelope,
+.auth-page .sign-in-content .form-container form.sign-in-form .form-group i.fa-envelope,
+.auth-page .sign-in-content .form-container form.forget-password-form .form-group i.fa-envelope,
+.auth-page .sign-in-content .form-container .auth-form .form-group i.fa-envelope,
+.auth-page .auth-page-content .form-container form.sign-in-form .form-group i.fa-envelope,
 .auth-page .auth-page-content .form-container form.forget-password-form .form-group i.fa-envelope,
 .auth-page .auth-page-content .form-container .auth-form .form-group i.fa-envelope {
   font-size: 18px;
 }
-.signin .signin-content .form-container form.signin-form .form-group .toggle-password-container,
-.signin .signin-content .form-container form.forget-password-form .form-group .toggle-password-container,
-.signin .signin-content .form-container .auth-form .form-group .toggle-password-container,
-.signin .auth-page-content .form-container form.signin-form .form-group .toggle-password-container,
-.signin .auth-page-content .form-container form.forget-password-form .form-group .toggle-password-container,
-.signin .auth-page-content .form-container .auth-form .form-group .toggle-password-container,
-.signup .signin-content .form-container form.signin-form .form-group .toggle-password-container,
-.signup .signin-content .form-container form.forget-password-form .form-group .toggle-password-container,
-.signup .signin-content .form-container .auth-form .form-group .toggle-password-container,
-.signup .auth-page-content .form-container form.signin-form .form-group .toggle-password-container,
-.signup .auth-page-content .form-container form.forget-password-form .form-group .toggle-password-container,
-.signup .auth-page-content .form-container .auth-form .form-group .toggle-password-container,
-.activate .signin-content .form-container form.signin-form .form-group .toggle-password-container,
-.activate .signin-content .form-container form.forget-password-form .form-group .toggle-password-container,
-.activate .signin-content .form-container .auth-form .form-group .toggle-password-container,
-.activate .auth-page-content .form-container form.signin-form .form-group .toggle-password-container,
+.sign-in .sign-in-content .form-container form.sign-in-form .form-group .toggle-password-container,
+.sign-in .sign-in-content .form-container form.forget-password-form .form-group .toggle-password-container,
+.sign-in .sign-in-content .form-container .auth-form .form-group .toggle-password-container,
+.sign-in .auth-page-content .form-container form.sign-in-form .form-group .toggle-password-container,
+.sign-in .auth-page-content .form-container form.forget-password-form .form-group .toggle-password-container,
+.sign-in .auth-page-content .form-container .auth-form .form-group .toggle-password-container,
+.sign-up .sign-in-content .form-container form.sign-in-form .form-group .toggle-password-container,
+.sign-up .sign-in-content .form-container form.forget-password-form .form-group .toggle-password-container,
+.sign-up .sign-in-content .form-container .auth-form .form-group .toggle-password-container,
+.sign-up .auth-page-content .form-container form.sign-in-form .form-group .toggle-password-container,
+.sign-up .auth-page-content .form-container form.forget-password-form .form-group .toggle-password-container,
+.sign-up .auth-page-content .form-container .auth-form .form-group .toggle-password-container,
+.activate .sign-in-content .form-container form.sign-in-form .form-group .toggle-password-container,
+.activate .sign-in-content .form-container form.forget-password-form .form-group .toggle-password-container,
+.activate .sign-in-content .form-container .auth-form .form-group .toggle-password-container,
+.activate .auth-page-content .form-container form.sign-in-form .form-group .toggle-password-container,
 .activate .auth-page-content .form-container form.forget-password-form .form-group .toggle-password-container,
 .activate .auth-page-content .form-container .auth-form .form-group .toggle-password-container,
-.forget-password .signin-content .form-container form.signin-form .form-group .toggle-password-container,
-.forget-password .signin-content .form-container form.forget-password-form .form-group .toggle-password-container,
-.forget-password .signin-content .form-container .auth-form .form-group .toggle-password-container,
-.forget-password .auth-page-content .form-container form.signin-form .form-group .toggle-password-container,
+.forget-password .sign-in-content .form-container form.sign-in-form .form-group .toggle-password-container,
+.forget-password .sign-in-content .form-container form.forget-password-form .form-group .toggle-password-container,
+.forget-password .sign-in-content .form-container .auth-form .form-group .toggle-password-container,
+.forget-password .auth-page-content .form-container form.sign-in-form .form-group .toggle-password-container,
 .forget-password .auth-page-content .form-container form.forget-password-form .form-group .toggle-password-container,
 .forget-password .auth-page-content .form-container .auth-form .form-group .toggle-password-container,
-.auth-page .signin-content .form-container form.signin-form .form-group .toggle-password-container,
-.auth-page .signin-content .form-container form.forget-password-form .form-group .toggle-password-container,
-.auth-page .signin-content .form-container .auth-form .form-group .toggle-password-container,
-.auth-page .auth-page-content .form-container form.signin-form .form-group .toggle-password-container,
+.auth-page .sign-in-content .form-container form.sign-in-form .form-group .toggle-password-container,
+.auth-page .sign-in-content .form-container form.forget-password-form .form-group .toggle-password-container,
+.auth-page .sign-in-content .form-container .auth-form .form-group .toggle-password-container,
+.auth-page .auth-page-content .form-container form.sign-in-form .form-group .toggle-password-container,
 .auth-page .auth-page-content .form-container form.forget-password-form .form-group .toggle-password-container,
 .auth-page .auth-page-content .form-container .auth-form .form-group .toggle-password-container {
   position: absolute;
@@ -1779,60 +1779,60 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   cursor: pointer;
   top: 0;
 }
-.signin .signin-content .form-container .forget-password-container a,
-.signin .auth-page-content .form-container .forget-password-container a,
-.signup .signin-content .form-container .forget-password-container a,
-.signup .auth-page-content .form-container .forget-password-container a,
-.activate .signin-content .form-container .forget-password-container a,
+.sign-in .sign-in-content .form-container .forget-password-container a,
+.sign-in .auth-page-content .form-container .forget-password-container a,
+.sign-up .sign-in-content .form-container .forget-password-container a,
+.sign-up .auth-page-content .form-container .forget-password-container a,
+.activate .sign-in-content .form-container .forget-password-container a,
 .activate .auth-page-content .form-container .forget-password-container a,
-.forget-password .signin-content .form-container .forget-password-container a,
+.forget-password .sign-in-content .form-container .forget-password-container a,
 .forget-password .auth-page-content .form-container .forget-password-container a,
-.auth-page .signin-content .form-container .forget-password-container a,
+.auth-page .sign-in-content .form-container .forget-password-container a,
 .auth-page .auth-page-content .form-container .forget-password-container a {
   color: #fff;
 }
-.signin .signin-content .page-footer .icons,
-.signin .auth-page-content .page-footer .icons,
-.signup .signin-content .page-footer .icons,
-.signup .auth-page-content .page-footer .icons,
-.activate .signin-content .page-footer .icons,
+.sign-in .sign-in-content .page-footer .icons,
+.sign-in .auth-page-content .page-footer .icons,
+.sign-up .sign-in-content .page-footer .icons,
+.sign-up .auth-page-content .page-footer .icons,
+.activate .sign-in-content .page-footer .icons,
 .activate .auth-page-content .page-footer .icons,
-.forget-password .signin-content .page-footer .icons,
+.forget-password .sign-in-content .page-footer .icons,
 .forget-password .auth-page-content .page-footer .icons,
-.auth-page .signin-content .page-footer .icons,
+.auth-page .sign-in-content .page-footer .icons,
 .auth-page .auth-page-content .page-footer .icons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.signin .signin-content .page-footer .icons li img,
-.signin .auth-page-content .page-footer .icons li img,
-.signup .signin-content .page-footer .icons li img,
-.signup .auth-page-content .page-footer .icons li img,
-.activate .signin-content .page-footer .icons li img,
+.sign-in .sign-in-content .page-footer .icons li img,
+.sign-in .auth-page-content .page-footer .icons li img,
+.sign-up .sign-in-content .page-footer .icons li img,
+.sign-up .auth-page-content .page-footer .icons li img,
+.activate .sign-in-content .page-footer .icons li img,
 .activate .auth-page-content .page-footer .icons li img,
-.forget-password .signin-content .page-footer .icons li img,
+.forget-password .sign-in-content .page-footer .icons li img,
 .forget-password .auth-page-content .page-footer .icons li img,
-.auth-page .signin-content .page-footer .icons li img,
+.auth-page .sign-in-content .page-footer .icons li img,
 .auth-page .auth-page-content .page-footer .icons li img {
   width: 60px;
   margin: 0 7px;
 }
 
-.signup {
+.sign-up {
   height: auto;
   padding-top: 30px;
 }
-.signup .form-group {
+.sign-up .form-group {
   text-align: left !important;
 }
-.signup .form-group .form-control {
+.sign-up .form-group .form-control {
   padding-left: 15px;
 }
-.signup #confirmation {
+.sign-up #confirmation {
   color: #515c6f;
 }
-.signup #confirmation .modal-body {
+.sign-up #confirmation .modal-body {
   font-size: 22px;
 }
 
@@ -2105,12 +2105,12 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 .profile .profile-content .profile-sidebar .profile-info .progress-slider-container .item {
   margin: 0 10px;
 }
-.profile .profile-content .profile-sidebar .profile-info .progress-slider-container .item .btns {
+.profile .profile-content .profile-sidebar .profile-info .progress-slider-container .item .buttons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.profile .profile-content .profile-sidebar .profile-info .progress-slider-container .item .btns a {
+.profile .profile-content .profile-sidebar .profile-info .progress-slider-container .item .buttons a {
   margin: 10px 5px 0 5px;
   min-width: 80px;
 }
@@ -3351,7 +3351,7 @@ i.arrow-icon:before {
   background: transparent;
 }
 .main-loader-wrapper .loading-container .sbl-circ-path {
-  border-right-color: #fff;
+  border-right-color: var(--secondaryColor);
 }
 
 .advertising-filter-wrapper .item {

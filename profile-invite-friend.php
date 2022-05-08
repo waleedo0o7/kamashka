@@ -8,7 +8,7 @@
 
                 <div class="invite-friend-wrapper">
                     <div class="image text-center mb-4">
-                        <img class="img-fluid" src="img/invite-friend.gif" alt="">
+                        <img alt="" class="img-fluid" src="img/invite-friend.gif" alt="">
                     </div><!-- image -->
 
                     <p class="lead bold mb-1"> Invite Friend </p>

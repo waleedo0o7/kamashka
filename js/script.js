@@ -5,7 +5,7 @@ $("#expand-video").on("click", function () {
 });
 
 // Header --> toggle mobile icon to show menu
-$(".mobile-menu #mobile-icon , #closeMobileMenu ").on("click", function () {
+$(".mobile-menu .icon-menu-icon , #closeMobileMenu ").on("click", function () {
     $(".mobile-left-menu").toggleClass("show");
 
 
@@ -84,7 +84,7 @@ $(function () {
 
 //homepage toggle RIGHT menu
 $(function () {
-    $("#close-right-menu , #toggle-right-menu").on("click", function () {
+    $("#close-right-menu , i.icon-chat").on("click", function () {
         $(".right-menu-container").toggleClass("show");
         $(".arrows-container").toggleClass("d-none");
     })
@@ -131,7 +131,7 @@ let calcItemsPrice = () => {
     }
 
     items.each(function (index) {
-        let price = parseInt($(this).children(".details").children("p.price-container").children("span#price").text());
+        let price = parseInt($(this).children(".details").children("p.price-container").children("span.price").text());
         let count = parseInt($(this).children(".details").children("div.counter").children("input").val());
         totalPrice += price * count;
         $("#totalPrice").val(totalPrice);
@@ -161,7 +161,7 @@ $(".toggle-password-container").on("click", function () {
 // select country
 $(".country-code-container .dropdown a").on("click", function () {
     $("#country").val($(this).data("value"));
-    $(this).parents(".dropdown").children("button.dropdown-toggle").html(`<img src="${$(this).children("img").attr("src")}" /> ${$(this).text()} <i class="fa fa-caret-down"></i>`)
+    $(this).parents(".dropdown").children("button.dropdown-toggle").html(`<img alt="" src="${$(this).children("img").attr("src")}" /> ${$(this).text()} <i class="fa fa-caret-down"></i>`)
 });
 
 // select verification via 
@@ -202,10 +202,10 @@ let calcAge = () => {
 // open confirmation popup if valid form
 $(document).ready(function () {
     $("#confirmation-btn").on("click", function () {
-        let isValid = $(".signin-form").parsley().validate();
-        if (isValid) {
-            $('#confirmation').modal('show');
-        }
+        // let isValid = $(".sign-in-form").parsley().validate();
+        // if (isValid) {
+        $('#confirmation').modal('show');
+        // }
     });
 });
 
@@ -298,21 +298,21 @@ $(document).ready(function () {
     $("#select-all").on("click", function () {
         interestsArr = [];
 
-        if ($(this).prop("checked") == true) {  
-            $(".interests-container button").each( (i , e ) => {
-                $(e).addClass("active"); 
+        if ($(this).prop("checked") == true) {
+            $(".interests-container button").each((i, e) => {
+                $(e).addClass("active");
                 interestsArr.push($(e).data("value"));
             })
         } else {
-            $(".interests-container button").each( (i , e ) => {
-                $(e).removeClass("active"); 
+            $(".interests-container button").each((i, e) => {
+                $(e).removeClass("active");
             })
 
         }
         $("#my-interests-value").val(interestsArr);
     });
 
-    
+
 });
 
 // hide success overlay
@@ -1167,7 +1167,7 @@ $(document).ready(() => {
 
 
 
-// user profile --> manual tabs btns
+// user profile --> manual tabs buttons
 
 $("#shares-ads-tab2").on("click", function () {
     $("#shared-ads-tab").click();
@@ -1184,8 +1184,7 @@ $("#Following-tab2").on("click", function () {
 
 
 
-// check if homepage
-
+// Check If Homepage
 if (window.location.pathname == '/kamashka/' || window.location.pathname == '/kamashka/home.php' || window.location.pathname == '/') {
     // Index (home) page
     $(".mobile-menu").addClass("mobile-menu-home");
@@ -1205,12 +1204,13 @@ $(".toggle-top-bar").on("click", function () {
 });
 
 
-$(document).ready(() => {
+// Main Loader Wrapper 
+$(document).ready(function () {
     $(".main-loader-wrapper").fadeOut();
 });
 
-
-
-
-
-
+$(document).ready(function () { 
+    homeMobileBrandSlider();
+    homeBrandSlider();
+    homepageMainSlider();
+});
