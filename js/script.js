@@ -170,15 +170,15 @@ $(".via").on("click", function () {
 });
 
 // datepicker calender
-// $(document).ready(function () {
-//     $('#datepicker').datepicker({
-//         // dateFormat: 'dd-mm-yy',
-//         changeMonth: true,
-//         changeYear: true,
-//         yearRange: "1922:2022",
-//         maxDate: '0'
-//     });
-// });
+$(document).ready(function () {
+    $('#datepicker').datepicker({
+        // dateFormat: 'dd-mm-yy',
+        changeMonth: true,
+        changeYear: true,
+        yearRange: "1922:2022",
+        maxDate: '0'
+    });
+});
 
 // calc age 
 let calcAge = () => {
