@@ -631,6 +631,8 @@ $focus-ring: 0px 0px 0px 2px $dark;
         color: #333333;
         line-height: 40px;
         font-size: 16px;
+        background: unset;
+        border: none;
     }
     .ui-state-default:hover {
         color: #ffffff;
@@ -661,6 +663,8 @@ $focus-ring: 0px 0px 0px 2px $dark;
         font-size: 20px;
     }
 }
+
+
 
 input.form-control.input-with-icon.parsley-error {
     border-color: var(--dangerColor);

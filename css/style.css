@@ -575,6 +575,8 @@ You'll need to replace with your own color values.
   color: #333333;
   line-height: 40px;
   font-size: 16px;
+  background: unset;
+  border: none;
 }
 .ui-datepicker .ui-state-default:hover {
   color: #ffffff;

@@ -952,22 +952,17 @@ a:visited.ui-button,
 .ui-button {
 	color: #454545;
 	text-decoration: none;
-} */
-.ui-state-hover,
-.ui-widget-content .ui-state-hover,
-.ui-widget-header .ui-state-hover,
+} */  
 .ui-state-focus,
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus,
 .ui-button:hover,
-.ui-button:focus { 
+.ui-button:focus {
+	border: 1px solid #cccccc;
+	background: #ededed;
 	font-weight: normal;
 	color: #2b2b2b;
-}
-.ui-state-hover a,
-.ui-state-hover a:hover,
-.ui-state-hover a:link,
-.ui-state-hover a:visited,
+}   
 .ui-state-focus a,
 .ui-state-focus a:hover,
 .ui-state-focus a:link,
