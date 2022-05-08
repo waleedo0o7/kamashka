@@ -13,7 +13,7 @@
                 </ul>
             </div>
 
-            <form class="sign-in-form" action="" data-parsley-validate="">
+            <form class="sign-in-form" action="test.php" data-parsley-validate="">
                 <div class="form-group mb-3 relative">
                     <input type="email" class="form-control input-with-icon" placeholder="Email Address" required="">
                     <i class="fa fa-envelope"></i>
@@ -29,7 +29,7 @@
                     <a href="auth-forget-password.php" class="link text-capitalize "> Forget password ?</a>
                 </div><!-- forget-password-container -->
                 <div class="submit-btn-container">
-                    <button href="my-profile.php"   class="btn btn-custom1 w-100 text-center"> Sign In </button>
+                    <button  class="btn btn-custom1 w-100 text-center"> Sign In </button>
                 </div><!-- submit-btn-container -->
             </form><!-- sign-in-form -->
 

@@ -8,7 +8,7 @@
         <div class="form-container">
 
  
-            <form class="sign-in-form" action="" data-parsley-validate="">
+            <form class="sign-in-form" action="test.php" data-parsley-validate="">
 
                 <div class="form-group mb-3 relative">
                     <input type="text" class="form-control input-with-country-code only-numbers" placeholder="Phone Number" id="phone" required="">
@@ -56,20 +56,20 @@
                 </div><!-- form-group  -->
 
                 <div class="form-group mb-3 relative">
-                    <label class="text-left" for="date"> Date Of Birth (Optional) </label>
+                    <label class="text-left" > Date Of Birth (Optional) </label>
                     <input placeholder="Select your date" type="text" name="checkIn" id="datepicker" class="form-control calendar">
                     <p class="text-left mt-1" id="your-age"> </p>
                 </div><!-- form-group  -->
 
                 <div class="form-group mb-3 relative">
-                    <label class="text-left" for="date"> Gender </label>
+                    <label class="text-left" > Gender </label>
                     <div class="genders-container">
                         <div class="gender-list">
                             <div class="gender" data-gander="male">
-                                <img alt="" class="img-fluid " src="img/male.png" alt="">
+                                <img  class="img-fluid " src="img/male.png" alt="">
                             </div><!-- gender -->
                             <div class="gender" data-gander="female">
-                                <img alt="" class="img-fluid" src="img/female.png" alt="">
+                                <img  class="img-fluid" src="img/female.png" alt="">
                             </div><!-- gender -->
                         </div><!-- gender-list -->
                         <select class="d-none" name="gender" id="gender">
@@ -111,8 +111,8 @@
 
 <?php include 'footer.php'; ?>
 
-<script>
+<!-- <script>
     calcAge();
     onErrorCountryCodeValues();
     onErrorGenderValue();
-</script>
+</script> -->

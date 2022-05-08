@@ -1210,7 +1210,14 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () { 
+    // homepage
     homeMobileBrandSlider();
     homeBrandSlider();
     homepageMainSlider();
+
+    // sign up page
+    calcAge();
+    onErrorCountryCodeValues();
+    onErrorGenderValue();
+    
 });
