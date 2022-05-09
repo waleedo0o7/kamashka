@@ -562,16 +562,21 @@ table.dataTable .product-image img {
   width: 140px;
 }
 
-.page-content.admin.product-details-page .product-details .image-and-name {
+.page-content.admin.product-details-page .product-details .title-and-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.page-content.admin.product-details-page .product-details .title-and-price .image-and-name {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-.page-content.admin.product-details-page .product-details .image-and-name .brand-image {
+.page-content.admin.product-details-page .product-details .title-and-price .image-and-name .brand-image {
   width: 60px;
   margin-right: 10px;
 }
-.page-content.admin.product-details-page .product-details .image-and-name p {
+.page-content.admin.product-details-page .product-details .title-and-price .image-and-name p {
   margin: 0;
   margin-right: 5px;
 }
@@ -661,11 +666,13 @@ table.dataTable .product-image img {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .page-content.admin.product-details-page .product-details .reviews .reviews-wrapper .one-item {
   width: 50%;
   display: flex;
-  margin-right: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
 }
 .page-content.admin.product-details-page .product-details .reviews .reviews-wrapper .one-item .name-and-rate {
   display: flex;
@@ -679,8 +686,20 @@ table.dataTable .product-image img {
 .page-content.admin.product-details-page .product-details .reviews .reviews-wrapper .one-item .checked {
   color: #ebe300;
 }
+.page-content.admin.product-details-page .product-details .specifications-wrapper .item {
+  display: flex;
+}
+.page-content.admin.product-details-page .product-details .specifications-wrapper .item p.label {
+  width: 200px;
+  font-weight: bold;
+}
+.page-content.admin.product-details-page .product-details .specifications-wrapper .item p {
+  margin-bottom: 7px;
+}
 .page-content.admin.product-details-page .product-slider {
   position: relative;
+  border-radius: 20px;
+  overflow: hidden;
 }
 .page-content.admin.product-details-page .product-slider .slick-arrow {
   position: absolute;
@@ -708,6 +727,13 @@ table.dataTable .product-image img {
 .page-content.admin.product-details-page .product-slider .slick-dots li.slick-active button:before {
   opacity: 1;
   color: var(--secondaryColor);
+}
+
+.page-content.products-grid-page .load-more {
+  width: 100%;
+}
+.page-content.products-grid-page .load-more .loading-container {
+  background: transparent;
 }
 
 .order-details-wrapper {

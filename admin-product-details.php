@@ -10,16 +10,27 @@
             <div class="col-md-7">
 
                 <div class="product-details">
-                    <h1 class="page-title"> Nike Dri-FIT Long Sleeve </h1>
-                    <div class="image-and-name mb-3">
-                        <img alt="" class="img-fluid brand-image" src="img//brand-logo.png">
-                        <p class="bold"> Zara </p>
-                        <img alt="" src="img//verified.svg" alt="">
-                    </div><!-- image-and-name -->
+                    <div class="title-and-price">
+                        <div class="title">
+                            <h1 class="page-title"> Nike Dri-FIT Long Sleeve </h1>
+                            <div class="image-and-name mb-3">
+                                <img alt="" class="img-fluid brand-image" src="img//brand-logo.png">
+                                <p class="bold"> Zara </p>
+                                <img alt="" src="img//verified.svg" alt="">
+                            </div><!-- image-and-name -->
+                        </div><!-- title -->
+
+                        <div class="price">
+                            <p class="current-price"> $1500 </p>
+                            <p class="old-price"> $2000</p>
+                        </div> <!-- price -->
+                    </div><!-- title-and-price -->
+
 
                     <div class="brand-description mb-3">
                         <p class="lead"> Nike Dri-FIT is a polyester fabric designed to help you keep dry so you can more comfortably work harder, longer. Read MoreNike Dri-FIT is a polyester fabric designed to help you keep dry so you can more comfortably work harder, longer. Read More </p>
                     </div> <!-- brand-description -->
+
 
                     <div class="attributes mb-3">
 
@@ -39,14 +50,48 @@
                             <span class="item" style="background-color: #77CBFF;"> </span>
                         </div><!-- size -->
 
-                    </div><!-- attributes -->
+                    </div><!-- attributes --> 
 
-                    <p class="lead title"> Price </p>
+                    <div class="over-view mt-4">
+                        <p class="colored2 lead bold"> OverView </p>
+                        <p> Nike Dri-FIT is a polyester fabric <br />
+                            Nike Dri-FIT is a polyester fabric is a polyester <br />
+                            keep dry so you can more comfortably work harder, re comfortably work harder.</p>
+                    </div><!-- over-view -->
 
-                    <div class="price">
-                        <p class="current-price"> $1500 </p>
-                        <p class="old-price"> $2000</p>
-                    </div> <!-- price -->
+
+
+
+
+
+
+                    <hr />
+
+
+
+
+                    <p class="lead title mb-3"> Specifications </p>
+
+                    <div class="specifications-wrapper">
+                        <div class="item">
+                            <p class="label">Brand</p>
+                            <p class="value">IKU</p>
+                        </div> <!-- item -->
+                        <div class="item">
+                            <p class="label">Cellular technology </p>
+                            <p class="value">3g</p>
+                        </div> <!-- item -->
+
+                        <div class="item">
+                            <p class="label">SIM card slot count </p>
+                            <p class="value">Single SIM </p>
+                        </div> <!-- item -->
+                    </div><!-- specifications-wrapper -->
+
+
+                    <hr />
+
+
 
                     <div class="options">
                         <p class="title"> <i class="fa fa-cog"></i> Return Options </p>
@@ -66,15 +111,6 @@
 
                     <hr />
 
-                    <div class="over-view">
-                        <p class="colored2 lead bold"> Over View </p>
-                        <p> Nike Dri-FIT is a polyester fabric <br />
-                            Nike Dri-FIT is a polyester fabric is a polyester <br />
-                            keep dry so you can more comfortably work harder, re comfortably work harder.</p>
-                    </div><!-- over-view -->
-
-                    <hr />
-
                     <div class="reviews">
                         <p class="lead bold"> Reviews </p>
 
@@ -88,6 +124,36 @@
                                         <div class="rate">
                                             <span class="fa fa-star checked"></span>
                                             <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+                                    </div><!-- name-and-rate -->
+                                    <p class="comment"> Wonderful jean, perfect gift for my girl for our anniversary! </p>
+                                </div><!-- comment-details -->
+                            </div><!-- one-item -->
+
+
+                            <div class="one-item">
+                                <img alt="" class="img-fluid image" src="img/person03.png" alt="">
+                                <div class="comment-details">
+                                    <div class="name-and-rate mb-1">
+                                        <p class="m-0 bold"> Samuel Smith </p>
+                                        <div class="rate">
+                                            <span class="fa fa-star checked"></span>
+                                            <span class="fa fa-star checked"></span>
+                                        </div>
+                                    </div><!-- name-and-rate -->
+                                    <p class="comment"> Wonderful jean, perfect gift for my girl for our anniversary! </p>
+                                </div><!-- comment-details -->
+                            </div><!-- one-item -->
+
+
+                            <div class="one-item">
+                                <img alt="" class="img-fluid image" src="img/person03.png" alt="">
+                                <div class="comment-details">
+                                    <div class="name-and-rate mb-1">
+                                        <p class="m-0 bold"> Samuel Smith </p>
+                                        <div class="rate">
                                             <span class="fa fa-star checked"></span>
                                             <span class="fa fa-star checked"></span>
                                         </div>

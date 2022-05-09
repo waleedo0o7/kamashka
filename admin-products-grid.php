@@ -1,6 +1,6 @@
 <?php include 'admin-header.php'; ?>
 
-<div class="page-content admin">
+<div class="page-content admin products-grid-page">
 
     <?php include 'admin-sidebar.php' ?>
 
@@ -178,86 +178,7 @@
 
 
 
-                
-                <div class="product card p-3 mb-3">
-                    <div class="images-wrapper">
-                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
-                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
-                        <div class="actions-wrapper">
-                            <a href="#"> <i class="fa fa-edit"></i> </a>
-                            <a href="#"> <i class="fa fa-eye"></i></a>
-                            <a href="#"> <i class="fa fa-trash"></i></a>
-                        </div><!-- actions-wrapper -->
-                    </div><!-- images-wrapper -->
-                    <p class="lead mb-2"> T Shirts Blue </p>
-                    <p class="colored2 bold"> 20KD </p>
-                </div><!-- product -->
 
-                <div class="product card p-3 mb-3">
-                    <div class="images-wrapper">
-                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
-                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
-                        <div class="actions-wrapper">
-                            <a href="#"> <i class="fa fa-edit"></i> </a>
-                            <a href="#"> <i class="fa fa-eye"></i></a>
-                            <a href="#"> <i class="fa fa-trash"></i></a>
-                        </div><!-- actions-wrapper -->
-                    </div><!-- images-wrapper -->
-                    <p class="lead mb-2"> T Shirts Blue </p>
-                    <p class="colored2 bold"> 20KD </p>
-                </div><!-- product -->
-
-                <div class="product card p-3 mb-3">
-                    <div class="images-wrapper">
-                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
-                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
-                        <div class="actions-wrapper">
-                            <a href="#"> <i class="fa fa-edit"></i> </a>
-                            <a href="#"> <i class="fa fa-eye"></i></a>
-                            <a href="#"> <i class="fa fa-trash"></i></a>
-                        </div><!-- actions-wrapper -->
-                    </div><!-- images-wrapper -->
-                    <p class="lead mb-2"> T Shirts Blue </p>
-                    <p class="colored2 bold"> 20KD </p>
-                </div><!-- product -->
-
-                <div class="product card p-3 mb-3">
-                    <div class="images-wrapper">
-                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
-                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
-                        <div class="actions-wrapper">
-                            <a href="#"> <i class="fa fa-edit"></i> </a>
-                            <a href="#"> <i class="fa fa-eye"></i></a>
-                            <a href="#"> <i class="fa fa-trash"></i></a>
-                        </div><!-- actions-wrapper -->
-                    </div><!-- images-wrapper -->
-                    <p class="lead mb-2"> T Shirts Blue </p>
-                    <p class="colored2 bold"> 20KD </p>
-                </div><!-- product -->
-
-                <div class="product card p-3 mb-3">
-                    <div class="images-wrapper">
-                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
-                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
-                        <div class="actions-wrapper">
-                            <a href="#"> <i class="fa fa-edit"></i> </a>
-                            <a href="#"> <i class="fa fa-eye"></i></a>
-                            <a href="#"> <i class="fa fa-trash"></i></a>
-                        </div><!-- actions-wrapper -->
-                    </div><!-- images-wrapper -->
-                    <p class="lead mb-2"> T Shirts Blue </p>
-                    <p class="colored2 bold"> 20KD </p>
-                </div><!-- product -->
-
-
-
-
-
-                
-
-
-
-                
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
                         <img alt="" class="main img-fluid" src="img/tshirt01.png">
@@ -332,11 +253,11 @@
 
 
 
-                
 
 
 
-                
+
+
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
                         <img alt="" class="main img-fluid" src="img/tshirt01.png">
@@ -411,11 +332,11 @@
 
 
 
-                
 
 
 
-                
+
+
                 <div class="product card p-3 mb-3">
                     <div class="images-wrapper">
                         <img alt="" class="main img-fluid" src="img/tshirt01.png">
@@ -490,11 +411,96 @@
 
 
 
-                <div class="text-center d-block w-100"><a href="#" class="pl-5 pr-5 btn btn-custom1"> Load More </a></div>
+
+
+
+
+
+                <div class="product card p-3 mb-3">
+                    <div class="images-wrapper">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
+                        <div class="actions-wrapper">
+                            <a href="#"> <i class="fa fa-edit"></i> </a>
+                            <a href="#"> <i class="fa fa-eye"></i></a>
+                            <a href="#"> <i class="fa fa-trash"></i></a>
+                        </div><!-- actions-wrapper -->
+                    </div><!-- images-wrapper -->
+                    <p class="lead mb-2"> T Shirts Blue </p>
+                    <p class="colored2 bold"> 20KD </p>
+                </div><!-- product -->
+
+                <div class="product card p-3 mb-3">
+                    <div class="images-wrapper">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
+                        <div class="actions-wrapper">
+                            <a href="#"> <i class="fa fa-edit"></i> </a>
+                            <a href="#"> <i class="fa fa-eye"></i></a>
+                            <a href="#"> <i class="fa fa-trash"></i></a>
+                        </div><!-- actions-wrapper -->
+                    </div><!-- images-wrapper -->
+                    <p class="lead mb-2"> T Shirts Blue </p>
+                    <p class="colored2 bold"> 20KD </p>
+                </div><!-- product -->
+
+                <div class="product card p-3 mb-3">
+                    <div class="images-wrapper">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
+                        <div class="actions-wrapper">
+                            <a href="#"> <i class="fa fa-edit"></i> </a>
+                            <a href="#"> <i class="fa fa-eye"></i></a>
+                            <a href="#"> <i class="fa fa-trash"></i></a>
+                        </div><!-- actions-wrapper -->
+                    </div><!-- images-wrapper -->
+                    <p class="lead mb-2"> T Shirts Blue </p>
+                    <p class="colored2 bold"> 20KD </p>
+                </div><!-- product -->
+
+                <div class="product card p-3 mb-3">
+                    <div class="images-wrapper">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
+                        <div class="actions-wrapper">
+                            <a href="#"> <i class="fa fa-edit"></i> </a>
+                            <a href="#"> <i class="fa fa-eye"></i></a>
+                            <a href="#"> <i class="fa fa-trash"></i></a>
+                        </div><!-- actions-wrapper -->
+                    </div><!-- images-wrapper -->
+                    <p class="lead mb-2"> T Shirts Blue </p>
+                    <p class="colored2 bold"> 20KD </p>
+                </div><!-- product -->
+
+                <div class="product card p-3 mb-3">
+                    <div class="images-wrapper">
+                        <img alt="" class="main img-fluid" src="img/tshirt01.png">
+                        <img alt="" class="second img-fluid" src="img/tshirt02.png">
+                        <div class="actions-wrapper">
+                            <a href="#"> <i class="fa fa-edit"></i> </a>
+                            <a href="#"> <i class="fa fa-eye"></i></a>
+                            <a href="#"> <i class="fa fa-trash"></i></a>
+                        </div><!-- actions-wrapper -->
+                    </div><!-- images-wrapper -->
+                    <p class="lead mb-2"> T Shirts Blue </p>
+                    <p class="colored2 bold"> 20KD </p>
+                </div><!-- product -->
+
+
+
+
+
+                <!-- <div class="text-center d-block w-100"><a href="#" class="pl-5 pr-5 btn btn-custom1"> Load More </a></div> -->
+
+                <div class="load-more">
+                    <div class="loading-container">
+                        <div class="sbl-circ-path sm"></div>
+                    </div><!-- loading-container -->
+                </div><!-- load-more -->
 
 
             </div><!-- products-grid-wrapper -->
-            
+
         </div><!-- table-wrapper -->
 
 
@@ -527,8 +533,8 @@
                 </div> <!-- delete-container -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 via" data-via="1"> Yes </a>
-                <a href="#" class="btn btn-custom5 via" data-via="2"> No </a>
+                <a href="#" class="btn btn-custom1 via"> Yes </a>
+                <a href="#" class="btn btn-custom5 via"> No </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->

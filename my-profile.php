@@ -308,7 +308,7 @@
                 </div> <!-- Language-container -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 w-100" data-via="1"> Save </a>
+                <a href="#" class="btn btn-custom1 w-100" > Save </a>
             </div><!--  modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->
@@ -354,7 +354,7 @@
                 </div> <!-- country-container -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 w-100" data-via="1"> Save </a>
+                <a href="#" class="btn btn-custom1 w-100" > Save </a>
             </div><!--  modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->

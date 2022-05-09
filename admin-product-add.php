@@ -260,16 +260,9 @@
                             <input id="imageUpload7" type="file" name="image" class="d-none" />
                         </div> <!-- image-wrapper  -->
 
-
-
-
                     </div><!-- upload-store-images-wrapper -->
 
-
                 </div><!-- col-md-4 -->
-
-
-
 
 
                 <div class="col-md-12 mb-5">
@@ -284,12 +277,6 @@
 </div><!-- page-content -->
 
 <?php include 'admin-footer.php'; ?>
-
-
-
-
-
-
 
 <!-- Delete Modal Start -->
 <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
@@ -307,8 +294,8 @@
                 </div> <!-- delete-container -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 via" data-via="1"> Yes </a>
-                <a href="#" class="btn btn-custom5 via" data-via="2"> No </a>
+                <a href="#" class="btn btn-custom1 via" > Yes </a>
+                <a href="#" class="btn btn-custom5 via" > No </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->

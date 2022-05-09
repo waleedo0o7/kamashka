@@ -892,8 +892,8 @@
                 </div> <!-- delete-container -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 via" data-via="1"> Yes </a>
-                <a href="#" class="btn btn-custom5 via" data-via="2"> No </a>
+                <a href="#" class="btn btn-custom1 via" > Yes </a>
+                <a href="#" class="btn btn-custom5 via" > No </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->

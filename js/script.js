@@ -1195,9 +1195,6 @@ if (window.location.pathname == '/kamashka/' || window.location.pathname == '/ka
 }
 
 
-
-
-
 $(".toggle-top-bar").on("click", function () {
     $(".page-content.homepage").toggleClass("with-top-bar");
     $(".top-bar.ads-manager").toggleClass("hide");
@@ -1220,4 +1217,27 @@ $(document).ready(function () {
     onErrorCountryCodeValues();
     onErrorGenderValue();
 
+});
+
+
+
+
+
+
+// profile ads manager list --> show confirmation modal to toggle adv activation
+let toggleAdvActivationWithModal = () => {
+    $(".toggle__input").on("click", function(){
+        $('#toggleActivationAdvModal').modal('show');
+        this.checked = !this.checked
+        console.log(this.checked);
+        if(this.checked == false) {
+            $(".are-you-sure").text("Are you sure you want to active this adv ?")
+        } else {
+            $(".are-you-sure").text("Are you sure you want to deactivate this adv ?")
+        }
+    });
+}
+
+$(document).ready(function () { 
+    toggleAdvActivationWithModal();
 });

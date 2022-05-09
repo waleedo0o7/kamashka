@@ -24,7 +24,6 @@
 <div class="page-content ads-manager-page-list bg-gray">
     <div class="container">
         <div class="all-ads-wrapper">
-
             <div class="row">
 
                 <div class="col-md-4">
@@ -64,8 +63,8 @@
                                 <div class="title"> Active </div><!-- title -->
 
                                 <div class="value">
-                                    <label class="toggle custom-switch" for="uniqueID">
-                                        <input type="checkbox" class="toggle__input" id="uniqueID">
+                                    <label class="toggle custom-switch">
+                                        <input type="checkbox" class="toggle__input">
                                         <span class="toggle-track m-0">
                                             <span class="toggle-indicator">
                                                 <!-- 	This check mark is optional	 -->
@@ -126,14 +125,6 @@
                         </div><!-- post-details -->
                     </div><!-- one-adv -->
                 </div><!-- col-md-4 -->
-
-
-
-
-
-
-
-
 
                 <div class="col-md-4">
                     <div class="one-adv card p-3">
@@ -171,8 +162,8 @@
                                 <div class="title"> Active </div><!-- title -->
 
                                 <div class="value">
-                                    <label class="toggle custom-switch" for="uniqueID">
-                                        <input type="checkbox" class="toggle__input" id="uniqueID">
+                                    <label class="toggle custom-switch">
+                                        <input type="checkbox" class="toggle__input" checked>
                                         <span class="toggle-track m-0">
                                             <span class="toggle-indicator">
                                                 <!-- 	This check mark is optional	 -->
@@ -233,19 +224,6 @@
                     </div><!-- one-adv -->
                 </div><!-- col-md-4 -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <div class="col-md-4">
                     <div class="one-adv card p-3">
 
@@ -281,8 +259,8 @@
                                 <div class="title"> Active </div><!-- title -->
 
                                 <div class="value">
-                                    <label class="toggle custom-switch" for="uniqueID">
-                                        <input type="checkbox" class="toggle__input" id="uniqueID">
+                                    <label class="toggle custom-switch">
+                                        <input type="checkbox" class="toggle__input">
                                         <span class="toggle-track m-0">
                                             <span class="toggle-indicator">
                                                 <!-- 	This check mark is optional	 -->
@@ -343,27 +321,17 @@
                     </div><!-- one-adv -->
                 </div><!-- col-md-4 -->
 
-
-
-
-
-
-
-
-
-
             </div><!-- row -->
 
         </div><!-- all-ads-wrapper -->
 
     </div><!-- container -->
 
-    <button type="button" class="btn btn-lg btn-primary">Show Modal</button>
- 
-    
 </div><!-- page-content -->
 
 <?php include 'footer.php'; ?>
+
+
 
 
 
@@ -385,13 +353,12 @@
                 </div> <!-- delete-container -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 via" data-via="1"> Yes, I Want To Edit </a>
-                <a href="#" class="btn btn-custom5 via" data-via="2"> No </a>
+                <a href="#" class="btn btn-custom1 via"> Yes, I Want To Edit </a>
+                <a href="#" class="btn btn-custom5 via"> No </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->
 </div> <!-- republishModal Modal END -->
-
 
 <!-- budgetModal  Modal Start -->
 <div class="modal fade" id="budgetModal" tabindex="-1" role="dialog" aria-labelledby="budgetModalLabel" aria-hidden="true">
@@ -431,28 +398,27 @@
 
                     <p class="bold danger"> Your adv is not attractive, please increase the budget or enter fewer users </p>
 
-
                     <p class=" d-flex mb-1"> Increment Budget </p>
                     <div class="form-group mb-3 relative">
                         <input type="text" class="form-control" placeholder="2000" id="">
+                        <p> Your Budget is :  5000  </p>
                     </div><!-- form-group  -->
-
 
                     <p class=" d-flex mb-1"> Number Of Target Audience </p>
                     <div class="form-group mb-3 relative">
                         <input type="text" class="form-control" placeholder="2000" id="">
+                        <p> Target Audience is : 100000  </p>
                     </div><!-- form-group  -->
 
                 </div> <!-- delete-container -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 via" data-via="1"> Submit </a>
-                <a href="#" class="btn btn-custom5 via" data-via="2"> Cancel </a>
+                <a href="#" class="btn btn-custom1 via" > Submit </a>
+                <a href="#" class="btn btn-custom5 via" > Cancel </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->
 </div> <!-- budgetModal Modal END -->
-
 
 <!-- deleteAdvModal  Modal Start -->
 <div class="modal fade" id="deleteAdvModal" tabindex="-1" role="dialog" aria-labelledby="deleteAdvModalLabel" aria-hidden="true">
@@ -470,36 +436,30 @@
                 </div> <!-- text-center -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 via" data-via="1"> Yes </a>
-                <a href="#" class="btn btn-custom5 via" data-via="2"> No </a>
+                <a href="#" class="btn btn-custom1 via" > Yes </a>
+                <a href="#" class="btn btn-custom5 via" > No </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->
 </div> <!-- deleteAdvModal Modal END -->
 
-
-
-
-
-
 <!-- toggleActivationAdvModal  Modal Start -->
 <div class="modal fade" id="toggleActivationAdvModal" tabindex="-1" role="dialog" aria-labelledby="toggleActivationAdvModalLabel" aria-hidden="true">
     <div class="modal-dialog  " role="document">
         <div class="modal-content">
-            <div class="modal-header">
-                <!-- <h5 class="modal-title" id="toggleActivationAdvModal"> Delete </h5> -->
+            <div class="modal-header"> 
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i class="icon icon-close"></i>
                 </button>
             </div>
             <div class="modal-body  p-3">
                 <div class="text-center mt-4 lead">
-                    <p class="lead "> Are you sure you want to <br /> active this adv ? </p>
+                    <p class="lead are-you-sure"> Are you sure you want to <br /> active this adv ? </p>
                 </div> <!-- text-center -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 via" data-via="1"> Yes </a>
-                <a href="#" class="btn btn-custom5 via" data-via="2"> No </a>
+                <a href="#" class="btn btn-custom1 via" > Yes </a>
+                <a href="#" class="btn btn-custom5 via" data-dismiss="modal"> No </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->
