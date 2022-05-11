@@ -2497,7 +2497,6 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 }
 .right-menu-container .right-menu .right-menu-content {
   height: calc(100% - 126px);
-  overflow: auto;
 }
 .right-menu-container .right-menu .right-menu-content .all-comments {
   display: flex;
@@ -2506,6 +2505,8 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   flex-direction: column;
   width: 100%;
   padding: 0 15px 0 5px;
+  height: 100%;
+  overflow: auto;
 }
 .right-menu-container .right-menu .right-menu-content .all-comments .one-comment {
   display: flex;

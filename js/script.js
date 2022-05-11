@@ -92,16 +92,18 @@ $(function () {
 });
 
 
-// Homepage getCommentsEvent
+// Homepage getCommentsEvent on scroll
 
 $(function () {
-    $( "div.right-menu-content" ).scroll(function() {
-        let commentsDiv = $(".right-menu-content").scrollTop();
-        
-        console.log(commentsDiv);
+    $(".all-comments").scroll(function () {
 
-        console.log($(".right-menu-content").height());
-      });
+        let myDiv = $(".all-comments").get(0);
+
+        if (myDiv.offsetHeight + myDiv.scrollTop + 1 >= myDiv.scrollHeight) {
+            alert('load more')
+        }
+
+    });
 });
 
 // top header cart popup --> increaseCount and decreaseCount START 
