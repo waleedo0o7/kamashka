@@ -46,8 +46,8 @@
 
 <body class="">
 
-    <!-- mobile-menu-home IF HOMEPAGE -->
-    <div class="mobile-menu  ">
+    <!-- mobile-menu-light IF HOMEPAGE -->
+    <div class="mobile-menu mobile-menu-light">
         <div class="mobile-icon-container">
             <i class="icon icon-menu-icon"></i>
         </div> <!-- logo -->
@@ -148,7 +148,7 @@
 
         <div class="search-container">
             <div class="form-group w-100">
-                <input class="form-control" type="text">
+                <input class="form-control" type="text" placeholder="Search For Products, Brands & Taps">
             </div><!-- form-group -->
         </div><!-- search-container -->
 
@@ -177,13 +177,16 @@
         <div class="container">
             <div class="row top-header-content">
 
-                <div class="col-md-4 d-flex top-items">
+                <div class="col-md-7 d-flex top-items">
+
                     <div class="logo">
                         <a href="home.php"> <img alt="" class="img-fluid" src="img/logo-wide.png" /> </a>
                     </div> <!-- logo -->
+
                     <div class="menu-icon">
                         <i id="mobile-icon" class="icon icon-menu-icon"></i>
                     </div> <!-- menu-icon -->
+
                     <div class="main-menu">
                         <ul class="menu">
                             <li class="menu-item"> <a class="active" href="#"> Advertising </a> </li>
@@ -191,23 +194,26 @@
                             <li class="menu-item"> <a href="#"> Shopping </a> </li>
                         </ul>
                     </div> <!-- main-menu -->
-                </div><!-- col-md-6 -->
 
-                <div class="col-md-8 d-flex bottom-items">
                     <div class="search">
                         <div class="search-container">
                             <input class="search-input" type="text" placeholder="Search For Products, Brands & Taps" />
                             <i class="icon icon-search" onclick="window.location.href='search-result.php'"></i>
                         </div>
                     </div> <!-- search -->
+
+                </div><!-- col-md-6 -->
+
+                <div class="col-md-5 d-flex bottom-items">
+
                     <div class="count">
                         <div class="count-container">
                             <img alt="" src="img/count-icon.svg">
                             <span> 800 KD </span>
                         </div><!-- count-container -->
                     </div> <!-- count -->
-                    <div class="icons">
 
+                    <div class="icons">
                         <div class="icon-container">
                             <div class="dropdown custom-dropdown">
                                 <button class="dropdown-toggle reset-btn " type="button" id="notifications-btn" data-toggle="dropdown">
@@ -396,7 +402,7 @@
 
 
                         <!--  IF USER login for web  -->
-                        <div class="icon-container ">
+                        <div class="icon-container d-none">
                             <div class="dropdown custom-dropdown">
                                 <a class="reset-btn" href="my-profile.php">
                                     <i class="icon icon-user"></i>
@@ -434,7 +440,7 @@
 
                     </div> <!-- icons -->
 
-                    <div class="user-icons">
+                    <div class="user-icons ml-3">
                         <div class="dropdown custom-dropdown">
                             <button class="dropdown-toggle language-btn reset-btn" type="button" id="language" data-toggle="dropdown">
                                 <img alt="" class="img-fluid" src="img/flag-kuwait.png" />
@@ -460,7 +466,7 @@
 
                             </div> <!-- dropdown-menu -->
                         </div> <!-- dropdown -->
-                        <a class="btn btn-custom1" data-toggle="modal" data-target="#createModal"> Create </a>
+                        <a class="btn btn-custom1 ml-3" data-toggle="modal" data-target="#createModal"> Create </a>
                     </div><!-- user-icons -->
                 </div><!-- col-md-6 -->
 
@@ -501,110 +507,6 @@
             </div> <!-- modal-content -->
         </div> <!-- modal-dialog -->
     </div> <!-- Delete Modal END -->
-
-    <!-- right-menu -->
-    <div class="right-menu-container">
-        <div class="right-menu">
-
-            <div class="right-menu-header">
-                <p class="title"> <span> 164 </span> Comments </p>
-                <i class="icon icon-close" id="close-right-menu"></i>
-            </div><!-- right-menu-header -->
-
-            <div class="right-menu-content">
-                <div class="all-comments">
-
-
-                    <!--  IF THIS COMMENT IS not MY COMMENT  -->
-                    <div class="one-comment d-none">
-                        <div class="image-container">
-                            <img class="img-fluid" src="img/person04.jpg" alt="">
-                        </div><!-- image-container -->
-                        <div class="name-and-comment">
-                            <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
-                            <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
-                        </div><!-- name-and-comment -->
-                        <div class="actions">
-
-                            <div class="dropdown custom-dropdown">
-                                <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
-                                    <i class="fa fa-ellipsis-h"></i>
-                                </button>
-                                <div class="dropdown-menu options-dropdown ">
-                                    <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
-                                    <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
-                                </div> <!-- dropdown-menu -->
-                            </div> <!-- dropdown -->
-
-                            <p class="date"> 12 Dec 2020 </p>
-                        </div><!-- actions -->
-                        <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
-                    </div><!-- one-comment -->
-
-
-
-                    <!--  IF THIS COMMENT IS MY COMMENT  -->
-                    <div class="one-comment d-none">
-                        <div class="image-container">
-                            <img class="img-fluid" src="img/person04.jpg" alt="">
-                        </div><!-- image-container -->
-                        <div class="name-and-comment">
-                            <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
-                            <p class="comment"> Nice Advertisement ( this is MY comment ) </p>
-                            <div class="edit-container">
-                                <input class="form-control" type="text" value="Nice Advertisement ( this is MY comment )" />
-                                <a class="save-comment" href="#"> save </a>
-                            </div><!-- input-container -->
-                        </div><!-- name-and-comment -->
-                        <div class="actions">
-
-                            <div class="dropdown custom-dropdown">
-                                <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
-                                    <i class="fa fa-ellipsis-h"></i>
-                                </button>
-                                <div class="dropdown-menu options-dropdown ">
-                                    <a class="dropdown-item edit-comment" href="#"> <i class="icon icon-edit"></i> Edit </a>
-                                    <a class="dropdown-item" data-toggle="modal" data-target="#deleteModal"> <i class="fas fa-trash-alt"></i> Delete </a>
-                                </div> <!-- dropdown-menu -->
-                            </div> <!-- dropdown -->
-
-                            <p class="date"> 12 Dec 2020 </p>
-                        </div><!-- actions -->
-                    </div><!-- one-comment -->
-
-
-
-                    <!--  IF  NO COMMENTS  (EMPTY STATE)  -->
-                    <div class="no-data">
-                        <img alt="" class="img-fluid" src="img/no-data.svg" alt="">
-                        <p class="m-2"> No Comments </p>
-                        <p> Be the first to comment on this video </p>
-                    </div><!-- no-data -->
-
-
-                    
-                </div><!-- all-comments -->
-            </div><!-- right-menu-content -->
-
-            <div class="right-menu-footer">
-                <div class="add-comment-container">
-                    <div class="image">
-                        <img class="img-fluid" src="img/person04.jpg" alt="">
-                    </div><!-- image -->
-
-                    <div class="comment-input-container form-group">
-                        <input id="add-comment" placeholder="Add Comment... " type="text" class="form-control">
-                    </div><!-- form-group  -->
-
-                    <div class="send-comment-container">
-                        <i id="send-comment" class="fa fa-arrow-up"></i>
-                    </div><!-- send-comment-container -->
-
-                </div><!-- add-comment-container -->
-            </div><!-- right-menu-footer -->
-
-        </div><!-- right-menu -->
-    </div><!-- right-menu-container -->
 
     <div class="left-menu-container">
         <div class="left-menu">

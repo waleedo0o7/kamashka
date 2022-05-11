@@ -78,20 +78,31 @@ $(function () {
 $(function () {
     $("#top-header #mobile-icon , #close-left-menu").on("click", function () {
         $(".left-menu-container").toggleClass("show");
+        canSlide = !canSlide;
     })
 });
 
 
-//homepage --> toggle RIGHT menu
+// Homepage --> toggle RIGHT menu
 $(function () {
     $("#close-right-menu , .video-icons i.icon-chat , .mobile-view i.icon-chat").on("click", function () {
         $(".right-menu-container").toggleClass("show");
-        // $(".arrows-container").toggleClass("d-none");
         canSlide = !canSlide;
-        // alert(canSlide);
     })
 });
 
+
+// Homepage getCommentsEvent
+
+$(function () {
+    $( "div.right-menu-content" ).scroll(function() {
+        let commentsDiv = $(".right-menu-content").scrollTop();
+        
+        console.log(commentsDiv);
+
+        console.log($(".right-menu-content").height());
+      });
+});
 
 // top header cart popup --> increaseCount and decreaseCount START 
 function increaseCount(a, b) {
@@ -1179,17 +1190,6 @@ $("#Following-tab2").on("click", function () {
 
 
 
-// Check If Homepage
-if (window.location.pathname == '/kamashka/' || window.location.pathname == '/kamashka/home.php' || window.location.pathname == '/') {
-    // Index (home) page
-    $(".mobile-menu").addClass("mobile-menu-home");
-
-} else {
-    // Other page
-    $(".mobile-menu").removeClass("mobile-menu-home");
-}
-
-
 $(".toggle-top-bar").on("click", function () {
     $(".page-content.homepage").toggleClass("with-top-bar");
     $(".top-bar.ads-manager").toggleClass("hide");
@@ -1239,11 +1239,11 @@ $(document).ready(function () {
     counterDownTwoMinutes();
 
     // auth change phone number page
-    onErrorCountryCodeValues(); 
+    onErrorCountryCodeValues();
 
-    
+
     // profile ads manager list page
     toggleAdvActivationWithModal();
-    
+
 
 });

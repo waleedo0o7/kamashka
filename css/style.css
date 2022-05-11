@@ -754,7 +754,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   display: inline-flex;
   justify-content: flex-start;
   align-items: center;
-  width: 25%;
+  margin-right: 15px;
 }
 #top-header .top-header-content .logo img {
   width: 100px;
@@ -763,7 +763,6 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 10%;
 }
 #top-header .top-header-content .menu-icon i {
   font-size: 24px;
@@ -776,7 +775,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   display: inline-flex;
   justify-content: flex-start;
   align-items: center;
-  width: 65%;
+  margin-right: 15px;
 }
 #top-header .top-header-content .main-menu ul.menu {
   list-style: none;
@@ -811,7 +810,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 37%;
+  min-width: 330px;
 }
 #top-header .top-header-content .search .search-container {
   position: relative;
@@ -839,13 +838,15 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   color: var(--secondaryColor);
   cursor: pointer;
 }
-#top-header .top-header-content .count {
+#top-header .top-header-content .bottom-items {
+  justify-content: flex-end;
+}
+#top-header .top-header-content .bottom-items .count {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 15%;
 }
-#top-header .top-header-content .count .count-container {
+#top-header .top-header-content .bottom-items .count .count-container {
   background: #fff;
   color: #3f3f3f;
   padding: 5px 17px;
@@ -854,33 +855,32 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   font-weight: bold;
   font-size: 13px;
 }
-#top-header .top-header-content .count .count-container img {
+#top-header .top-header-content .bottom-items .count .count-container img {
   width: 15px;
   margin-right: 3px;
 }
-#top-header .top-header-content .icons {
+#top-header .top-header-content .bottom-items .icons {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 28%;
   padding-top: 7px;
 }
-#top-header .top-header-content .icons .icon-container {
+#top-header .top-header-content .bottom-items .icons .icon-container {
   position: relative;
 }
-#top-header .top-header-content .icons .icon-container button,
-#top-header .top-header-content .icons .icon-container a.reset-btn {
+#top-header .top-header-content .bottom-items .icons .icon-container button,
+#top-header .top-header-content .bottom-items .icons .icon-container a.reset-btn {
   color: #fff;
   width: 55px;
 }
-#top-header .top-header-content .icons .icon-container button i.icon,
-#top-header .top-header-content .icons .icon-container a.reset-btn i.icon {
+#top-header .top-header-content .bottom-items .icons .icon-container button i.icon,
+#top-header .top-header-content .bottom-items .icons .icon-container a.reset-btn i.icon {
   font-size: 20px;
   padding: 5px;
   cursor: pointer;
   margin: 0 10px;
 }
-#top-header .top-header-content .icons .icon-container span.number {
+#top-header .top-header-content .bottom-items .icons .icon-container span.number {
   position: absolute;
   top: -3px;
   right: 0;
@@ -894,16 +894,15 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   font-size: 12px;
   cursor: pointer;
 }
-#top-header .top-header-content .user-icons {
+#top-header .top-header-content .bottom-items .user-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 20%;
 }
-#top-header .top-header-content .user-icons .dropdown img {
+#top-header .top-header-content .bottom-items .user-icons .dropdown img {
   width: 30px;
 }
-#top-header .top-header-content .user-icons .language-btn::after {
+#top-header .top-header-content .bottom-items .user-icons .language-btn::after {
   color: #fff;
   position: absolute;
   top: 10px;

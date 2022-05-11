@@ -1,6 +1,420 @@
 <?php include 'header.php'; ?>
 
-<div class="main-loader-wrapper">
+
+
+
+
+
+<!-- right-menu -->
+<div class="right-menu-container">
+    <div class="right-menu">
+
+        <div class="right-menu-header">
+            <p class="title"> <span> 164 </span> Comments </p>
+            <i class="icon icon-close" id="close-right-menu"></i>
+        </div><!-- right-menu-header -->
+
+        <div class="right-menu-content">
+            <div class="all-comments">
+
+
+                <!--  IF THIS COMMENT IS not MY COMMENT  -->
+                <div class="one-comment">
+                    <div class="image-container">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image-container -->
+                    <div class="name-and-comment">
+                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
+                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
+                    </div><!-- name-and-comment -->
+                    <div class="actions">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <div class="dropdown-menu options-dropdown ">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
+                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <p class="date"> 12 Dec 2020 </p>
+                    </div><!-- actions -->
+                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
+                </div><!-- one-comment -->
+
+
+
+
+
+
+
+
+
+
+                
+                <!--  IF THIS COMMENT IS not MY COMMENT  -->
+                <div class="one-comment">
+                    <div class="image-container">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image-container -->
+                    <div class="name-and-comment">
+                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
+                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
+                    </div><!-- name-and-comment -->
+                    <div class="actions">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <div class="dropdown-menu options-dropdown ">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
+                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <p class="date"> 12 Dec 2020 </p>
+                    </div><!-- actions -->
+                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
+                </div><!-- one-comment -->
+
+
+
+
+
+
+                
+                <!--  IF THIS COMMENT IS not MY COMMENT  -->
+                <div class="one-comment">
+                    <div class="image-container">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image-container -->
+                    <div class="name-and-comment">
+                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
+                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
+                    </div><!-- name-and-comment -->
+                    <div class="actions">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <div class="dropdown-menu options-dropdown ">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
+                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <p class="date"> 12 Dec 2020 </p>
+                    </div><!-- actions -->
+                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
+                </div><!-- one-comment -->
+
+
+
+
+
+
+
+                
+                <!--  IF THIS COMMENT IS not MY COMMENT  -->
+                <div class="one-comment">
+                    <div class="image-container">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image-container -->
+                    <div class="name-and-comment">
+                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
+                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
+                    </div><!-- name-and-comment -->
+                    <div class="actions">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <div class="dropdown-menu options-dropdown ">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
+                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <p class="date"> 12 Dec 2020 </p>
+                    </div><!-- actions -->
+                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
+                </div><!-- one-comment -->
+
+
+
+
+
+
+
+
+                
+                <!--  IF THIS COMMENT IS not MY COMMENT  -->
+                <div class="one-comment">
+                    <div class="image-container">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image-container -->
+                    <div class="name-and-comment">
+                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
+                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
+                    </div><!-- name-and-comment -->
+                    <div class="actions">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <div class="dropdown-menu options-dropdown ">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
+                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <p class="date"> 12 Dec 2020 </p>
+                    </div><!-- actions -->
+                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
+                </div><!-- one-comment -->
+
+
+
+
+
+
+                
+                <!--  IF THIS COMMENT IS not MY COMMENT  -->
+                <div class="one-comment">
+                    <div class="image-container">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image-container -->
+                    <div class="name-and-comment">
+                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
+                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
+                    </div><!-- name-and-comment -->
+                    <div class="actions">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <div class="dropdown-menu options-dropdown ">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
+                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <p class="date"> 12 Dec 2020 </p>
+                    </div><!-- actions -->
+                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
+                </div><!-- one-comment -->
+
+
+
+
+
+
+
+                
+                <!--  IF THIS COMMENT IS not MY COMMENT  -->
+                <div class="one-comment">
+                    <div class="image-container">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image-container -->
+                    <div class="name-and-comment">
+                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
+                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
+                    </div><!-- name-and-comment -->
+                    <div class="actions">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <div class="dropdown-menu options-dropdown ">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
+                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <p class="date"> 12 Dec 2020 </p>
+                    </div><!-- actions -->
+                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
+                </div><!-- one-comment -->
+
+
+
+
+
+
+
+                
+                <!--  IF THIS COMMENT IS not MY COMMENT  -->
+                <div class="one-comment">
+                    <div class="image-container">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image-container -->
+                    <div class="name-and-comment">
+                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
+                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
+                    </div><!-- name-and-comment -->
+                    <div class="actions">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <div class="dropdown-menu options-dropdown ">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
+                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <p class="date"> 12 Dec 2020 </p>
+                    </div><!-- actions -->
+                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
+                </div><!-- one-comment -->
+
+
+
+
+
+
+
+                
+                <!--  IF THIS COMMENT IS not MY COMMENT  -->
+                <div class="one-comment">
+                    <div class="image-container">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image-container -->
+                    <div class="name-and-comment">
+                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
+                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
+                    </div><!-- name-and-comment -->
+                    <div class="actions">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <div class="dropdown-menu options-dropdown ">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
+                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <p class="date"> 12 Dec 2020 </p>
+                    </div><!-- actions -->
+                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
+                </div><!-- one-comment -->
+
+
+
+
+
+
+
+                <!--  IF THIS COMMENT IS not MY COMMENT  -->
+                <div class="one-comment">
+                    <div class="image-container">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image-container -->
+                    <div class="name-and-comment">
+                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
+                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
+                    </div><!-- name-and-comment -->
+                    <div class="actions">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <div class="dropdown-menu options-dropdown ">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
+                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <p class="date"> 12 Dec 2020 </p>
+                    </div><!-- actions -->
+                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
+                </div><!-- one-comment -->
+
+
+                
+
+                <!--  IF THIS COMMENT IS MY COMMENT  -->
+                <div class="one-comment ">
+                    <div class="image-container">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image-container -->
+                    <div class="name-and-comment">
+                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
+                        <p class="comment"> Nice Advertisement ( this is MY comment ) </p>
+                        <div class="edit-container">
+                            <input class="form-control" type="text" value="Nice Advertisement ( this is MY comment )" />
+                            <a class="save-comment" href="#"> save </a>
+                        </div><!-- input-container -->
+                    </div><!-- name-and-comment -->
+                    <div class="actions">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <div class="dropdown-menu options-dropdown ">
+                                <a class="dropdown-item edit-comment" href="#"> <i class="icon icon-edit"></i> Edit </a>
+                                <a class="dropdown-item" data-toggle="modal" data-target="#deleteModal"> <i class="fas fa-trash-alt"></i> Delete </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <p class="date"> 12 Dec 2020 </p>
+                    </div><!-- actions -->
+                </div><!-- one-comment -->
+
+
+
+                <!--  IF  NO COMMENTS  (EMPTY STATE)  -->
+                <div class="no-data d-none">
+                    <img alt="" class="img-fluid" src="img/no-data.svg" alt="">
+                    <p class="m-2"> No Comments </p>
+                    <p> Be the first to comment on this video </p>
+                </div><!-- no-data -->
+
+
+
+            </div><!-- all-comments -->
+        </div><!-- right-menu-content -->
+
+        <div class="right-menu-footer">
+            <div class="add-comment-container">
+                <div class="image">
+                    <img class="img-fluid" src="img/person04.jpg" alt="">
+                </div><!-- image -->
+
+                <div class="comment-input-container form-group">
+                    <input id="add-comment" placeholder="Add Comment... " type="text" class="form-control">
+                </div><!-- form-group  -->
+
+                <div class="send-comment-container">
+                    <i id="send-comment" class="fa fa-arrow-up"></i>
+                </div><!-- send-comment-container -->
+
+            </div><!-- add-comment-container -->
+        </div><!-- right-menu-footer -->
+
+    </div><!-- right-menu -->
+</div><!-- right-menu-container -->
+
+
+
+
+
+
+
+<div class="d-none main-loader-wrapper">
     <div class="loading-container">
         <div class="sbl-circ-path sm"></div>
     </div><!-- loading-container -->
@@ -94,15 +508,15 @@
                                     <div class="brand-details" id="myDIV">
                                         <div class="brand-details-text">
                                             <h4> Zara is one of the biggest international <br /> fashion companies </h4>
-                                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod tempor
-                                                    incididunt ut
-                                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                                    exercitation
-                                                    ullamco
-                                                    laboris nisi ut aliquip ex ea commodo consequatcommodo
-                                                    consequatcommodo consequat.
-                                                </p>
+                                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                eiusmod tempor
+                                                incididunt ut
+                                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation
+                                                ullamco
+                                                laboris nisi ut aliquip ex ea commodo consequatcommodo
+                                                consequatcommodo consequat.
+                                            </p>
                                         </div><!-- brand-details-text -->
 
                                         <div class="buttons tags text-center mb-2 mt-2">
@@ -152,7 +566,7 @@
                                                     <li><i class="icon icon-eye"></i>
                                                         <p> 1K </p>
                                                     </li>
-                                                    <li><i  class="icon icon-chat "></i>
+                                                    <li><i class="icon icon-chat "></i>
                                                         <p> 11,0K </p>
                                                     </li>
                                                     <li><i class="icon icon-share"></i>
@@ -174,10 +588,10 @@
 
                                     <div class="matched-criteria-container">
                                         <div class="dropdown custom-dropdown">
-                                            <button class="dropdown-toggle reset-btn " type="button"  data-toggle="dropdown">
+                                            <button class="dropdown-toggle reset-btn " type="button" data-toggle="dropdown">
                                                 Matched Criteria <i class="fa fa-chevron-down"></i>
                                             </button>
-                                            <div class="dropdown-menu criteria-dropdown-menu pl-3 pr-3" >
+                                            <div class="dropdown-menu criteria-dropdown-menu pl-3 pr-3">
                                                 <div class="criteria-menu-container">
                                                     <h5> Matched Criteria <i class="icon icon-close"></i> </h5>
                                                     <ul class="reset-ul">
@@ -190,15 +604,15 @@
                                                             <p class="success"> Gender <i class="fa fa-check "></i> </p>
                                                         </li><!-- criteria-one-item -->
                                                         <li class="criteria-one-item">
-                                                            <img  src="img/icon-criteria-age.png" alt="">
+                                                            <img src="img/icon-criteria-age.png" alt="">
                                                             <p class="success"> Age <i class="fa fa-check "></i> </p>
                                                         </li><!-- criteria-one-item -->
                                                         <li class="criteria-one-item">
-                                                            <img  src="img/icon-criteria-job.png" alt="">
+                                                            <img src="img/icon-criteria-job.png" alt="">
                                                             <p class="danger"> Aob <i class="fa fa-times "></i> </p>
                                                         </li><!-- criteria-one-item -->
                                                         <li class="criteria-one-item">
-                                                            <img  src="img/icon-criteria-interests.png" alt="">
+                                                            <img src="img/icon-criteria-interests.png" alt="">
                                                             <p class="danger"> Interests <i class="fa fa-times "></i> </p>
                                                         </li><!-- criteria-one-item -->
                                                     </ul>
@@ -352,15 +766,15 @@
                                             <div class="mobile-brand-details ">
                                                 <div class="brand-details-text">
                                                     <h4> Zara is one of the biggest international <br /> fashion companies </h4>
-                                                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                            eiusmod tempor
-                                                            incididunt ut
-                                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                                            exercitation
-                                                            ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequatcommodo
-                                                            consequatcommodo consequat.
-                                                        </p>
+                                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                        eiusmod tempor
+                                                        incididunt ut
+                                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                        exercitation
+                                                        ullamco
+                                                        laboris nisi ut aliquip ex ea commodo consequatcommodo
+                                                        consequatcommodo consequat.
+                                                    </p>
                                                 </div><!-- brand-details-text -->
 
                                                 <div class="buttons tags mb-3 mt-2">
@@ -372,23 +786,23 @@
                                                     <h5 class="mb-3"> Matched Criteria</h5>
                                                     <div class="matched-criteria-slider">
                                                         <div class="criteria-one-item">
-                                                            <img  src="img/icon-criteria-location.png" alt="">
+                                                            <img src="img/icon-criteria-location.png" alt="">
                                                             <p class="success"> Location <i class="fa fa-check "></i> </p>
                                                         </div><!-- criteria-one-item -->
                                                         <div class="criteria-one-item">
-                                                            <img  src="img/icon-criteria-gender.png" alt="">
+                                                            <img src="img/icon-criteria-gender.png" alt="">
                                                             <p class="success"> Gender <i class="fa fa-check "></i> </p>
                                                         </div><!-- criteria-one-item -->
                                                         <div class="criteria-one-item">
-                                                            <img  src="img/icon-criteria-age.png" alt="">
+                                                            <img src="img/icon-criteria-age.png" alt="">
                                                             <p class="success"> Age <i class="fa fa-check "></i> </p>
                                                         </div><!-- criteria-one-item -->
                                                         <div class="criteria-one-item">
-                                                            <img  src="img/icon-criteria-job.png" alt="">
+                                                            <img src="img/icon-criteria-job.png" alt="">
                                                             <p class="danger"> Aob <i class="fa fa-times "></i> </p>
                                                         </div><!-- criteria-one-item -->
                                                         <div class="criteria-one-item">
-                                                            <img  src="img/icon-criteria-interests.png" alt="">
+                                                            <img src="img/icon-criteria-interests.png" alt="">
                                                             <p class="danger"> Interests <i class="fa fa-times "></i> </p>
                                                         </div><!-- criteria-one-item -->
                                                     </div><!-- matched-criteria-slider -->
@@ -485,15 +899,15 @@
                                     <div class="brand-details">
                                         <div class="brand-details-text">
                                             <h4> Zara is one of the biggest international <br /> fashion companies </h4>
-                                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                    eiusmod tempor
-                                                    incididunt ut
-                                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                                    exercitation
-                                                    ullamco
-                                                    laboris nisi ut aliquip ex ea commodo consequatcommodo
-                                                    consequatcommodo consequat.
-                                                </p>
+                                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                eiusmod tempor
+                                                incididunt ut
+                                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                exercitation
+                                                ullamco
+                                                laboris nisi ut aliquip ex ea commodo consequatcommodo
+                                                consequatcommodo consequat.
+                                            </p>
                                         </div><!-- brand-details-text -->
 
                                         <div class="buttons tags text-center mb-2 mt-2">
@@ -543,7 +957,7 @@
                                                     <li><i class="icon icon-eye"></i>
                                                         <p> 1K </p>
                                                     </li>
-                                                    <li><i  class="icon icon-chat "></i>
+                                                    <li><i class="icon icon-chat "></i>
                                                         <p> 11,0K </p>
                                                     </li>
                                                     <li><i class="icon icon-share"></i>
@@ -565,7 +979,7 @@
 
                                     <div class="matched-criteria-container">
                                         <div class="dropdown custom-dropdown">
-                                            <button class="dropdown-toggle reset-btn " type="button"  data-toggle="dropdown">
+                                            <button class="dropdown-toggle reset-btn " type="button" data-toggle="dropdown">
                                                 Matched Criteria <i class="fa fa-chevron-down"></i>
                                             </button>
                                             <div class="dropdown-menu criteria-dropdown-menu pl-3 pr-3">
@@ -573,23 +987,23 @@
                                                     <h5> Matched Criteria <i class="icon icon-close"></i> </h5>
                                                     <ul class="reset-ul">
                                                         <li class="criteria-one-item">
-                                                            <img  src="img/icon-criteria-location.png" alt="">
+                                                            <img src="img/icon-criteria-location.png" alt="">
                                                             <p class="success"> Location <i class="fa fa-check "></i> </p>
                                                         </li><!-- criteria-one-item -->
                                                         <li class="criteria-one-item">
-                                                            <img  src="img/icon-criteria-gender.png" alt="">
+                                                            <img src="img/icon-criteria-gender.png" alt="">
                                                             <p class="success"> Gender <i class="fa fa-check "></i> </p>
                                                         </li><!-- criteria-one-item -->
                                                         <li class="criteria-one-item">
-                                                            <img  src="img/icon-criteria-age.png" alt="">
+                                                            <img src="img/icon-criteria-age.png" alt="">
                                                             <p class="success"> Age <i class="fa fa-check "></i> </p>
                                                         </li><!-- criteria-one-item -->
                                                         <li class="criteria-one-item">
-                                                            <img  src="img/icon-criteria-job.png" alt="">
+                                                            <img src="img/icon-criteria-job.png" alt="">
                                                             <p class="danger"> Aob <i class="fa fa-times "></i> </p>
                                                         </li><!-- criteria-one-item -->
                                                         <li class="criteria-one-item">
-                                                            <img  src="img/icon-criteria-interests.png" alt="">
+                                                            <img src="img/icon-criteria-interests.png" alt="">
                                                             <p class="danger"> Interests <i class="fa fa-times "></i> </p>
                                                         </li><!-- criteria-one-item -->
                                                     </ul>
@@ -632,14 +1046,14 @@
                                                 <p> 1,8M </p>
                                             </div><!-- like -->
                                             <div class="item comment">
-                                                <i  class="icon icon-chat "></i>
+                                                <i class="icon icon-chat "></i>
                                                 <p> 1,8M </p>
                                             </div><!-- like -->
                                         </div><!-- like-and-comment -->
 
                                         <div class="brand-details">
                                             <div class="image">
-                                                <img   class="img-fluid" src="img/brand-logo.png" alt="">
+                                                <img class="img-fluid" src="img/brand-logo.png" alt="">
                                             </div><!-- image -->
                                             <div class="data">
                                                 <p class="name"> zara <img alt="" class="img-fluid" src="img/verified.svg" /> </p>
@@ -743,15 +1157,15 @@
                                             <div class="mobile-brand-details ">
                                                 <div class="brand-details-text">
                                                     <h4> Zara is one of the biggest international <br /> fashion companies </h4>
-                                                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                                            eiusmod tempor
-                                                            incididunt ut
-                                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                                            exercitation
-                                                            ullamco
-                                                            laboris nisi ut aliquip ex ea commodo consequatcommodo
-                                                            consequatcommodo consequat.
-                                                        </p>
+                                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                                        eiusmod tempor
+                                                        incididunt ut
+                                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                        exercitation
+                                                        ullamco
+                                                        laboris nisi ut aliquip ex ea commodo consequatcommodo
+                                                        consequatcommodo consequat.
+                                                    </p>
                                                 </div><!-- brand-details-text -->
 
                                                 <div class="buttons tags mb-3 mt-2">
@@ -763,23 +1177,23 @@
                                                     <h5 class="mb-3"> Matched Criteria</h5>
                                                     <div class="matched-criteria-slider">
                                                         <div class="criteria-one-item">
-                                                            <img  src="img/icon-criteria-location.png" alt="">
+                                                            <img src="img/icon-criteria-location.png" alt="">
                                                             <p class="success"> Location <i class="fa fa-check "></i> </p>
                                                         </div><!-- criteria-one-item -->
                                                         <div class="criteria-one-item">
-                                                            <img  src="img/icon-criteria-gender.png" alt="">
+                                                            <img src="img/icon-criteria-gender.png" alt="">
                                                             <p class="success"> Gender <i class="fa fa-check "></i> </p>
                                                         </div><!-- criteria-one-item -->
                                                         <div class="criteria-one-item">
-                                                            <img  src="img/icon-criteria-age.png" alt="">
+                                                            <img src="img/icon-criteria-age.png" alt="">
                                                             <p class="success"> Age <i class="fa fa-check "></i> </p>
                                                         </div><!-- criteria-one-item -->
                                                         <div class="criteria-one-item">
-                                                            <img  src="img/icon-criteria-job.png" alt="">
+                                                            <img src="img/icon-criteria-job.png" alt="">
                                                             <p class="danger"> Aob <i class="fa fa-times "></i> </p>
                                                         </div><!-- criteria-one-item -->
                                                         <div class="criteria-one-item">
-                                                            <img  src="img/icon-criteria-interests.png" alt="">
+                                                            <img src="img/icon-criteria-interests.png" alt="">
                                                             <p class="danger"> Interests <i class="fa fa-times "></i> </p>
                                                         </div><!-- criteria-one-item -->
                                                     </div><!-- matched-criteria-slider -->
@@ -936,8 +1350,8 @@
                 </div> <!-- delete-container -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 via" > Yes </a>
-                <a href="#" class="btn btn-custom5 via" > No </a>
+                <a href="#" class="btn btn-custom1 via"> Yes </a>
+                <a href="#" class="btn btn-custom5 via"> No </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->
