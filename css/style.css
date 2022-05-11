@@ -830,13 +830,15 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   color: white;
   opacity: 0.6;
 }
-#top-header .top-header-content .search .search-container i.icon.icon-search {
+#top-header .top-header-content .search .search-container button {
   position: absolute;
-  top: 8px;
-  right: 10px;
-  font-size: 13px;
-  color: var(--secondaryColor);
+  top: 6px;
+  right: 8px;
   cursor: pointer;
+}
+#top-header .top-header-content .search .search-container button i.icon.icon-search {
+  font-size: 14px;
+  color: var(--secondaryColor);
 }
 #top-header .top-header-content .bottom-items {
   justify-content: flex-end;

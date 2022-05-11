@@ -197,8 +197,12 @@
 
                     <div class="search">
                         <div class="search-container">
-                            <input class="search-input" type="text" placeholder="Search For Products, Brands & Taps" />
-                            <i class="icon icon-search" onclick="window.location.href='search-result.php'"></i>
+                            <form action="test.php">
+                                <input class="search-input" type="text" placeholder="Search For Products, Brands & Taps" />
+                                <button class="reset-btn">
+                                    <i class="icon icon-search"></i>
+                                </button>
+                            </form>
                         </div>
                     </div> <!-- search -->
 
