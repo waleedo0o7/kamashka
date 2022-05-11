@@ -235,12 +235,12 @@ button.reset-btn {
 
 .btn-custom3 {
     color: var(--secondaryColor) !important;
-    background-color: var(--gray);
+    background-color: #FFF;
     border-color: var(--secondaryColor);
     padding: 8px 20px;
 
     &:hover {
-        color: #fff;
+        color: var(--gray);
         background-color: #d37644;
         border-color: #d37644;
     }
@@ -926,6 +926,7 @@ body.fullscreen {
         }
 
         .bottom-items {
+            display: flex;
             justify-content: flex-end;
             .count {
                 display: flex;
@@ -1801,6 +1802,9 @@ body.fullscreen {
         color: #515c6f;
         .modal-body {
             font-size: 22px;
+        }
+        .modal-footer .whatsapp:hover {
+            background: var(--gray);
         }
     }
 }

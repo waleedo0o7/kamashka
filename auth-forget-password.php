@@ -30,7 +30,7 @@
 
 
                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <form class="forget-password-form" action="" data-parsley-validate="">
+                    <form class="forget-password-form" action="test.php">
                         <div class="form-group mb-3 relative">
                             <input type="email" class="form-control input-with-icon" placeholder="Email Address" required="">
                             <i class="fa fa-envelope"></i>
@@ -47,7 +47,7 @@
                 </div> <!-- tab-pane -->
 
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                    <form class="forget-password-form" action="test.php" data-parsley-validate="">
+                    <form class="forget-password-form" action="test.php">
                         <div class="form-group mb-3 relative">
                             <input type="text" class="form-control input-with-country-code only-numbers" placeholder="Phone Number" id="phone" required="">
                             <div class="country-code-container">

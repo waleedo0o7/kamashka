@@ -8,7 +8,7 @@
         <div class="form-container">
 
 
-            <form class="sign-in-form" action="test.php" data-parsley-validate="">
+            <form class="sign-in-form" action="test.php">
 
                 <div class="form-group mb-3 relative">
                     <input type="text" class="form-control input-with-country-code only-numbers" placeholder="Phone Number" id="phone" required="">
@@ -28,9 +28,9 @@
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-menu choose-country-list" aria-labelledby="choose-country-btn">
-                                <a data-value="1" class="dropdown-item" href="#"><img src="img/flag-kuwait.png" alt=""/> +001 <i class="fa fa-caret-down"></i> </a>
-                                <a data-value="2" class="dropdown-item " href="#"><img src="img/flag-ksa.png" alt=""/> +002 <i class="fa fa-caret-down"></i> </a>
-                                <a data-value="3" class="dropdown-item " href="#"><img src="img/flag-uae.png" alt=""/> +003 <i class="fa fa-caret-down"></i> </a>
+                                <a data-value="1" class="dropdown-item"  ><img src="img/flag-kuwait.png" alt=""/> +001 <i class="fa fa-caret-down"></i> </a>
+                                <a data-value="2" class="dropdown-item "  ><img src="img/flag-ksa.png" alt=""/> +002 <i class="fa fa-caret-down"></i> </a>
+                                <a data-value="3" class="dropdown-item "  ><img src="img/flag-uae.png" alt=""/> +003 <i class="fa fa-caret-down"></i> </a>
                             </div>
                         </div> <!-- dropdown -->
                     </div><!-- country-code-container -->
@@ -94,9 +94,8 @@
                                 <p> We’ll send you the activation <br /> code by SMS or Whatsapp </p>
                             </div><!-- modal-body -->
                             <div class="modal-footer">
-                                <a href="auth-activate.php" class="btn btn-custom1 via" data-via="1"> By SMS <img alt="" src="img/sms-icon.svg" /> </a>
-                                <a href="auth-activate.php" class="btn btn-custom3 via" data-via="2"> By Whatsapp <img alt="" src="img/whatsapp-icon.svg" /></a>
-
+                                <button type="submit" class="btn btn-custom1 via" data-via="sms"> By SMS <img alt="" src="img/sms-icon.svg" /> </button>
+                                <button type="submit" class="btn btn-custom3 via whatsapp" data-via="whatsapp"> By Whatsapp <img alt="" src="img/whatsapp-icon.svg" /></button>
                             </div><!-- modal-footer -->
                         </div> <!-- modal-content -->
                     </div><!-- modal-dialog -->

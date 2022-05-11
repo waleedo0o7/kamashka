@@ -177,8 +177,9 @@ $(".country-code-container .dropdown a").on("click", function () {
 });
 
 // select verification via 
-$(".via").on("click", function () {
+$(".via").on("click", function () { 
     $("#via").val($(this).data("via"));
+    // alert($("#via").val());
 });
 
 // datepicker calender
@@ -188,7 +189,8 @@ $(document).ready(function () {
         changeMonth: true,
         changeYear: true,
         yearRange: "1922:2022",
-        maxDate: '0'
+        maxDate: '0',
+        dateFormat: 'yy-mm-dd'
     });
 });
 

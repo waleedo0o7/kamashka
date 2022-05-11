@@ -44,7 +44,7 @@
 
 </head>
 
-<body class="">
+<body>
 
     <!-- mobile-menu-light IF HOMEPAGE -->
     <div class="mobile-menu mobile-menu-light">
@@ -71,43 +71,22 @@
             </div><!-- btn-and-close -->
         </div><!-- menu-header -->
 
-        <div class="menu-icons-container">
+
+
+
+
+
+        <!-- IF USER LOGIN -->
+        <div class="menu-icons-container d-none">
             <ul class="reset-ul menu-icons">
                 <li> <a href="#"> <i class="icon icon-bell"></i> <span class="number" style="right: 3px;"> 0 </span></a> </li>
                 <li> <a href="#"> <i class="icon icon-heart"></i> <span class="number" style="right: 3px;"> 0 </span></a> </li>
                 <li> <a href="#"> <i class="icon icon-cart"></i> <span class="number" style="right: 3px;"> 0 </span></a> </li>
                 <li>
 
-                    <!--  IF USER login for mobile  -->
                     <div class="icon-container">
                         <div class="dropdown custom-dropdown dropdown-mobile-popup ">
-                            <a class="dropdown-toggle reset-btn" href="#" id="sign-in" data-toggle="dropdown">
-                                <i class="icon icon-user"></i>
-                            </a>
-                            <div class="dropdown-menu disable-auto-close pl-3 pr-3 user">
-                                <p class="bold text-center"> Continue With Your Profile, Create Your Own Adv , Collect Money, Shop Online And More </p>
-                                <a href="auth-sign-in.php" class="btn btn-custom1 w-100 mb-2"> Sign In </a>
-                                <a href="auth-sign-up.php" class="btn btn-custom2 w-100 "> Sign Up </a>
-
-                                <p class="text-center"> Or continue with </p>
-
-                                <ul class="reset-ul social-icons mb-3">
-                                    <li> <a href="#"> <img alt="" src="img/facebook-icon.svg" /> </a> </li>
-                                    <li> <a href="#"> <img alt="" src="img/google-icon.svg" /> </a> </li>
-                                    <li> <a href="#"> <img alt="" src="img/apple-icon.svg" /> </a> </li>
-                                </ul>
-
-                            </div> <!-- dropdown-menu -->
-
-                        </div> <!-- dropdown -->
-                    </div><!-- icon-container -->
-
-
-                    <!--  IF USER  not  login  for mobile -->
-
-                    <div class="icon-container">
-                        <div class="dropdown custom-dropdown dropdown-mobile-popup d-none ">
-                            <a class="dropdown-toggle reset-btn" href="#">
+                            <a class="dropdown-toggle reset-btn" href="my-profile.php">
                                 <i class="icon icon-user"></i>
                             </a>
                         </div> <!-- dropdown -->
@@ -146,6 +125,72 @@
             </div><!-- user-icons -->
         </div><!-- menu-icons-container -->
 
+        <!-- IF USER NOT LOGIN -->
+        <div class="menu-icons-container">
+            <ul class="reset-ul menu-icons">
+                <li>
+                <div class="icon-container">
+                        <div class="dropdown custom-dropdown dropdown-mobile-popup ">
+                            <a class="dropdown-toggle reset-btn" href="#" id="sign-in" data-toggle="dropdown">
+                                <i class="icon icon-user"></i>
+                            </a>
+                            <div class="dropdown-menu disable-auto-close pl-3 pr-3 user">
+                                <p class="bold text-center"> Continue With Your Profile, Create Your Own Adv , Collect Money, Shop Online And More </p>
+                                <a href="auth-sign-in.php" class="btn btn-custom1 w-100 mb-2"> Sign In </a>
+                                <a href="auth-sign-up.php" class="btn btn-custom2 w-100 "> Sign Up </a>
+
+                                <p class="text-center"> Or continue with </p>
+
+                                <ul class="reset-ul social-icons mb-3">
+                                    <li> <a href="#"> <img alt="" src="img/facebook-icon.svg" /> </a> </li>
+                                    <li> <a href="#"> <img alt="" src="img/google-icon.svg" /> </a> </li>
+                                    <li> <a href="#"> <img alt="" src="img/apple-icon.svg" /> </a> </li>
+                                </ul>
+
+                            </div> <!-- dropdown-menu -->
+
+                        </div> <!-- dropdown -->
+                    </div><!-- icon-container -->
+
+
+                </li>
+                <li> <a href="#" id="toggle-search"> <i class="icon icon-search"></i> </a> </li>
+            </ul> <!-- menu-icons -->
+
+            <div class="user-icons">
+                <div class="dropdown custom-dropdown dropdown-mobile-popup">
+                    <button class="dropdown-toggle language-btn reset-btn" type="button" id="language" data-toggle="dropdown">
+                        <img alt="" class="img-fluid" src="img/flag-kuwait.png" />
+                    </button>
+                    <div class="dropdown-menu disable-auto-close">
+                        <p>Country</p>
+                        <div class="one-item">
+                            <ul class="reset-ul countries">
+                                <li> <a href="#"> <img alt="" class="img-fluid" src="img/flag-kuwait.png" /> <span> kuwait </span> <i class="fa fa-check"></i> </a> </li>
+                                <li> <a href="#"> <img alt="" class="img-fluid" src="img/flag-ksa.png" /> <span> Saudi Arabia </span> </a></li>
+                                <li> <a href="#"> <img alt="" class="img-fluid" src="img/flag-uae.png" /> <span> United Arab Emirates</span> </a></li>
+                            </ul>
+                        </div><!-- one-item -->
+
+
+                        <p> Language </p>
+                        <div class="one-item">
+                            <ul class="reset-ul languages">
+                                <li> <a href="#"> <span> English </span> <i class="fa fa-check"></i> </a> </li>
+                                <li> <a href="#"> <span> عربي </span> </a></li>
+                            </ul>
+                        </div><!-- one-item -->
+
+                    </div> <!-- dropdown-menu -->
+                </div> <!-- dropdown -->
+            </div><!-- user-icons -->
+        </div><!-- menu-icons-container -->
+
+
+
+
+
+
         <div class="search-container">
             <div class="form-group w-100">
                 <input class="form-control" type="text" placeholder="Search For Products, Brands & Taps">
@@ -157,9 +202,6 @@
                 <li> <a href="#"> Advertising </a> </li>
                 <li> <a href="#"> Discover </a> </li>
                 <li> <a href="#"> Shopping </a> </li>
-
-                <!-- IF USER login -->
-                <li> <a href="#"> Sign Out </a> </li>
             </ul>
         </div><!-- menu-links-container -->
 
@@ -172,7 +214,7 @@
         </div><!-- social-media-container -->
 
     </div><!-- mobile-left-menu -->
-
+ 
     <header id="top-header" class="homepage-top-header show">
         <div class="container">
             <div class="row top-header-content">
@@ -208,7 +250,8 @@
 
                 </div><!-- col-md-6 -->
 
-                <div class="col-md-5 d-flex bottom-items">
+                <!-- IF USER LOGIN -->
+                <div class="col-md-5  bottom-items d-none">
 
                     <div class="count">
                         <div class="count-container">
@@ -397,16 +440,7 @@
                         </div><!-- icon-container -->
 
 
-
-
-
-
-
-
-
-
-                        <!--  IF USER login for web  -->
-                        <div class="icon-container d-none">
+                        <div class="icon-container">
                             <div class="dropdown custom-dropdown">
                                 <a class="reset-btn" href="my-profile.php">
                                     <i class="icon icon-user"></i>
@@ -414,7 +448,44 @@
                             </div> <!-- dropdown -->
                         </div><!-- icon-container -->
 
-                        <!--  IF USER     not   login for web  -->
+
+                    </div> <!-- icons -->
+
+                    <div class="user-icons ml-3">
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle language-btn reset-btn" type="button" id="language" data-toggle="dropdown">
+                                <img alt="" class="img-fluid" src="img/flag-kuwait.png" />
+                            </button>
+                            <div class="dropdown-menu disable-auto-close">
+                                <p>Country</p>
+                                <div class="one-item">
+                                    <ul class="reset-ul countries">
+                                        <li> <a href="#"> <img alt="" class="img-fluid" src="img/flag-kuwait.png" /> <span> kuwait </span> <i class="fa fa-check"></i> </a> </li>
+                                        <li> <a href="#"> <img alt="" class="img-fluid" src="img/flag-ksa.png" /> <span> Saudi Arabia </span> </a></li>
+                                        <li> <a href="#"> <img alt="" class="img-fluid" src="img/flag-uae.png" /> <span> United Arab Emirates</span> </a></li>
+                                    </ul>
+                                </div><!-- one-item -->
+
+
+                                <p> Language </p>
+                                <div class="one-item">
+                                    <ul class="reset-ul languages">
+                                        <li> <a href="#"> <span> English </span> <i class="fa fa-check"></i> </a> </li>
+                                        <li> <a href="#"> <span> عربي </span> </a></li>
+                                    </ul>
+                                </div><!-- one-item -->
+
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+                        <a class="btn btn-custom1 ml-3" data-toggle="modal" data-target="#createModal"> Create </a>
+                    </div><!-- user-icons -->
+                </div><!-- col-md-6 -->
+
+                <!-- IF USER NOT LOGIN -->
+                <div class="col-md-5  bottom-items">
+
+                    <div class="icons">
+
                         <div class="icon-container">
                             <div class="dropdown custom-dropdown">
                                 <button class="dropdown-toggle reset-btn" type="button" id="sign-in" data-toggle="dropdown">
@@ -436,11 +507,6 @@
                                 </div> <!-- dropdown-menu -->
                             </div> <!-- dropdown -->
                         </div><!-- icon-container -->
-
-
-
-
-
 
                     </div> <!-- icons -->
 
@@ -477,62 +543,3 @@
             </div><!-- top-header-content -->
         </div><!-- container -->
     </header><!-- top-header -->
-
-    <!-- Create Modal Start -->
-    <div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header mb-5">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="icon icon-close"></i>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="row items">
-                        <div class="col-md-6">
-                            <div class="one-item">
-                                <a href="create-adv.php">
-                                    <img alt="" class="img-fluid" src="img/create-adv.png">
-                                    <p> Create Advertisement <i class="fa fa-chevron-right arrow-icon"></i> </p>
-                                </a>
-                            </div><!-- one-item -->
-                        </div><!-- col-md-6 -->
-                        <div class="col-md-6">
-                            <div class="one-item">
-                                <a href="#">
-                                    <img alt="" class="img-fluid" src="img/create-store.png">
-                                    <p> Create Store <i class="fa fa-chevron-right arrow-icon"></i> </p>
-                                </a>
-                            </div><!-- one-item -->
-                        </div><!-- col-md-6 -->
-                    </div><!-- row -->
-                </div> <!-- modal-body -->
-
-            </div> <!-- modal-content -->
-        </div> <!-- modal-dialog -->
-    </div> <!-- Delete Modal END -->
-
-    <div class="left-menu-container">
-        <div class="left-menu">
-            <div class="left-menu-content">
-                <div class="logo-header"> <img alt="" class="logo" src="img/logo-wide.png" /> <i id="close-left-menu" class="icon icon-close"></i> </div><!-- header-header -->
-                <div class="menu">
-                    <ul class="reset-ul">
-                        <li> <a href="#"> Advertising </a> </li>
-                        <li> <a href="#"> Discover </a> </li>
-                        <li> <a href="#"> Shopping </a> </li>
-                        <li> <a href="#"> My Profile </a> </li>
-                        <li> <a href="#"> Create </a> </li>
-                        <li> <a href="#"> Sign Out </a> </li>
-                    </ul>
-                </div><!-- menu -->
-                <div class="menu-footer">
-                    <ul class="reset-ul">
-                        <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
-                        <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
-                        <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
-                    </ul>
-                </div><!-- menu-footer -->
-            </div><!-- left-menu-content -->
-        </div><!-- left-menu -->
-    </div><!-- left-menu-container -->

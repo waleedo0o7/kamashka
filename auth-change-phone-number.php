@@ -8,7 +8,7 @@
         <div class="form-container">
 
 
-            <form class="forget-password-form" action="test.php" data-parsley-validate="">            
+            <form class="forget-password-form" action="test.php">            
 
  
  

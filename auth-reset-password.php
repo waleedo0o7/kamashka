@@ -7,7 +7,7 @@
 
         <div class="form-container">
  
-            <form class="forget-password-form" action="test.php" data-parsley-validate="">            
+            <form class="forget-password-form" action="test.php">            
 
                 <div class="form-group mb-3 relative">
                     <input type="password" class="form-control input-with-icon" placeholder="New Password" required="">

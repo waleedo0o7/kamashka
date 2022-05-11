@@ -224,12 +224,12 @@ button.reset-btn::after {
 
 .btn-custom3 {
   color: var(--secondaryColor) !important;
-  background-color: var(--gray);
+  background-color: #FFF;
   border-color: var(--secondaryColor);
   padding: 8px 20px;
 }
 .btn-custom3:hover {
-  color: #fff;
+  color: var(--gray);
   background-color: #d37644;
   border-color: #d37644;
 }
@@ -841,6 +841,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   color: var(--secondaryColor);
 }
 #top-header .top-header-content .bottom-items {
+  display: flex;
   justify-content: flex-end;
 }
 #top-header .top-header-content .bottom-items .count {
@@ -1837,6 +1838,9 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 }
 .sign-up #confirmation .modal-body {
   font-size: 22px;
+}
+.sign-up #confirmation .modal-footer .whatsapp:hover {
+  background: var(--gray);
 }
 
 .genders-container .gender {

@@ -13,7 +13,7 @@
                 </ul>
             </div>
 
-            <form class="sign-in-form" action="test.php" data-parsley-validate="">
+            <form class="sign-in-form" action="test.php" >
                 <div class="form-group mb-3 relative">
                     <input type="email" class="form-control input-with-icon" placeholder="Email Address" required="">
                     <i class="fa fa-envelope"></i>

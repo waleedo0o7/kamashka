@@ -11,7 +11,7 @@
 
                     <div class="form-container">
 
-                        <form class="auth-form" action="" data-parsley-validate="">
+                        <form class="auth-form" action="test.php">
 
 
                             <div class="interests-container">
