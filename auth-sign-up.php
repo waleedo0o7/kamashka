@@ -24,13 +24,13 @@
 
                         <div class="dropdown">
                             <button class="reset-btn dropdown-toggle" type="button" id="choose-country-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img src="img/flag-kuwait.png" /> +002
+                                <img src="img/flag-kuwait.png" alt=""/> +002
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-menu choose-country-list" aria-labelledby="choose-country-btn">
-                                <a data-value="1" class="dropdown-item" href="#"><img src="img/flag-kuwait.png" /> +001 <i class="fa fa-caret-down"></i> </a>
-                                <a data-value="2" class="dropdown-item " href="#"><img src="img/flag-ksa.png" /> +002 <i class="fa fa-caret-down"></i> </a>
-                                <a data-value="3" class="dropdown-item " href="#"><img src="img/flag-uae.png" /> +003 <i class="fa fa-caret-down"></i> </a>
+                                <a data-value="1" class="dropdown-item" href="#"><img src="img/flag-kuwait.png" alt=""/> +001 <i class="fa fa-caret-down"></i> </a>
+                                <a data-value="2" class="dropdown-item " href="#"><img src="img/flag-ksa.png" alt=""/> +002 <i class="fa fa-caret-down"></i> </a>
+                                <a data-value="3" class="dropdown-item " href="#"><img src="img/flag-uae.png" alt=""/> +003 <i class="fa fa-caret-down"></i> </a>
                             </div>
                         </div> <!-- dropdown -->
                     </div><!-- country-code-container -->
@@ -83,7 +83,7 @@
                 </div><!-- form-group  -->
 
                 <div class="submit-btn-container">
-                    <a href="#" class="btn btn-custom1 w-100 text-center" id="confirmation-btn"> Next </a>
+                    <a href="#" class="btn btn-custom1 w-100 text-center" id="confirmation-btn" data-toggle="modal" data-target="#confirmation"> Next </a>
                 </div><!-- submit-btn-container -->
 
                 <!-- Modal START -->
@@ -96,6 +96,7 @@
                             <div class="modal-footer">
                                 <a href="auth-activate.php" class="btn btn-custom1 via" data-via="1"> By SMS <img alt="" src="img/sms-icon.svg" /> </a>
                                 <a href="auth-activate.php" class="btn btn-custom3 via" data-via="2"> By Whatsapp <img alt="" src="img/whatsapp-icon.svg" /></a>
+
                             </div><!-- modal-footer -->
                         </div> <!-- modal-content -->
                     </div><!-- modal-dialog -->
@@ -109,9 +110,4 @@
 
 
 <?php include 'footer.php'; ?>
-
-<script>
-    calcAge();
-    onErrorCountryCodeValues();
-    onErrorGenderValue();
-</script>
+ 

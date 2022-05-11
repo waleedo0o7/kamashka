@@ -7,12 +7,12 @@
 
         <div class="form-container">
  
-            <form class="forget-password-form" action="" data-parsley-validate="">            
+            <form class="forget-password-form" action="test.php" data-parsley-validate="">            
 
                 <div class="form-group mb-3 relative">
                     <input type="password" class="form-control input-with-icon" placeholder="New Password" required="">
                     <i class="icon icon-lock"></i>
-                    <div id="toggle-password" class="toggle-password-container">
+                    <div  class="toggle-password-container">
                         <i class="icon icon-eye"></i>
                     </div><!-- toggle-password-container -->
                 </div><!-- form-group  -->
@@ -21,7 +21,7 @@
                 <div class="form-group mb-3 relative">
                     <input type="password" class="form-control input-with-icon" placeholder="Confirm New Password" required="">
                     <i class="icon icon-lock"></i>
-                    <div id="toggle-password" class="toggle-password-container">
+                    <div  class="toggle-password-container">
                         <i class="icon icon-eye"></i>
                     </div><!-- toggle-password-container -->
                 </div><!-- form-group  -->

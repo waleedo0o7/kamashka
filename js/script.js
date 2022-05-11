@@ -1,3 +1,6 @@
+
+let canSlide = true;
+
 // Homepage --> Toggle Fullscreen Mode
 $("#expand-video").on("click", function () {
     $("body").toggleClass("fullscreen");
@@ -7,7 +10,6 @@ $("#expand-video").on("click", function () {
 // Header --> toggle mobile icon to show menu
 $(".mobile-menu .icon-menu-icon , #closeMobileMenu ").on("click", function () {
     $(".mobile-left-menu").toggleClass("show");
-
 
     let video = $(".swiper-slide-active .mobile-view .video").get(0);
 
@@ -63,7 +65,7 @@ let profileInfoSlider = () => {
     });
 }
 
-// sidnup get gender data
+// sign up --> get gender data
 $(function () {
     $(".gender").on("click", function () {
         $(".gender").removeClass("active");
@@ -72,7 +74,7 @@ $(function () {
     });
 });
 
-//homepage toggle left menu on big screen
+// homepage --> toggle left menu on big screen
 $(function () {
     $("#top-header #mobile-icon , #close-left-menu").on("click", function () {
         $(".left-menu-container").toggleClass("show");
@@ -80,16 +82,15 @@ $(function () {
 });
 
 
-
-
-//homepage toggle RIGHT menu
+//homepage --> toggle RIGHT menu
 $(function () {
-    $("#close-right-menu , i.icon-chat").on("click", function () {
+    $("#close-right-menu , .video-icons i.icon-chat , .mobile-view i.icon-chat").on("click", function () {
         $(".right-menu-container").toggleClass("show");
-        $(".arrows-container").toggleClass("d-none");
+        // $(".arrows-container").toggleClass("d-none");
+        canSlide = !canSlide;
+        // alert(canSlide);
     })
 });
-
 
 
 // top header cart popup --> increaseCount and decreaseCount START 
@@ -115,13 +116,12 @@ function decreaseCount(a, b) {
 
 // top header cart popup --> increaseCount and decreaseCount END
 
-// disaple dropdown menu auto close
+// disable dropdown menu auto close
 $('.disable-auto-close ').click(function (e) {
     e.stopPropagation();
 });
 
-// topbar calc cart dropdown items START
-
+// top bar calc cart dropdown items START
 let calcItemsPrice = () => {
     let totalPrice = 0;
     let items = $(".cart-dropdown-menu li");
@@ -146,8 +146,7 @@ $(".remove").on("click", function () {
     }, 450);
 });
 calcItemsPrice();
-
-// topbar calc cart dropdown items END
+// top bar calc cart dropdown items END
 
 // toggle password
 $(".toggle-password-container").on("click", function () {
@@ -197,17 +196,6 @@ let calcAge = () => {
         });
     });
 }
-
-
-// open confirmation popup if valid form
-$(document).ready(function () {
-    $("#confirmation-btn").on("click", function () {
-        // let isValid = $(".sign-in-form").parsley().validate();
-        // if (isValid) {
-        $('#confirmation').modal('show');
-        // }
-    });
-});
 
 // Resend Code
 let counterDownTwoMinutes = () => {
@@ -441,7 +429,7 @@ $(document).ready(function () {
 
 
 
-// Homepage escape to exit fullsreen mode 
+// Homepage escape to exit fullscreen mode 
 $(document).on('keydown', function (event) {
     if (event.key == "Escape") {
         if ($("body").hasClass("fullscreen")) {
@@ -583,8 +571,8 @@ $(document).ready(function () {
 
 
 
-// alert('Less than 960');
-if ($(window).width() < 960) {
+
+if ($(window).width() < 960) { // alert('Less than 960');
 
 
 
@@ -726,12 +714,10 @@ let homepageMainSlider = () => {
 
 
 
-if ($(window).width() < 960) {
-
+if ($(window).width() < 960) { // less than 960px 
 
     ////////////////////// SWIPE UP EVENT START
     $(document).ready(function () {
-
 
         var supportTouch = $.support.touch,
             scrollEvent = "touchmove scroll",
@@ -799,30 +785,35 @@ if ($(window).width() < 960) {
             };
         });
 
-        $('.video-container').on('swipeup', function () { $(".swiper-button-next").click(); });
-        $('.video-container').on('swipedown', function () { $(".swiper-button-prev").click(); });
+        $('.video-container').on('swipeup', function () {
+            $(".swiper-button-next").click();
+        });
+        $('.video-container').on('swipedown', function () {
+            $(".swiper-button-prev").click();
+        });
     });
     ////////////////////// SWIPE UP EVENT END
-
 }
 
-else {
-    // alert('More than 960');
-    // handel mouse whell up and down to slide
+else { // alert('More than 960');
+
+    // handel mouse wheel up and down to slide
     function wheelToSlide(event) {
         // event.preventDefault();
-
-
 
         if (event.path[1].classList != "brand-details-text") {
 
             // if (event.path[1].scrollHeight > event.path[1].clientHeight) {
 
             if (event.deltaY < 0) {
-                $(".swiper-button-prev").click();
+                if (canSlide == true) {
+                    $(".swiper-button-prev").click();
+                }
             }
             else {
-                $(".swiper-button-next").click();
+                if (canSlide == true) {
+                    $(".swiper-button-next").click();
+                }
             }
             // }
         }
@@ -840,12 +831,16 @@ else {
         window.addEventListener("keyup", function (event) {
             if (event.keyCode === 38) { // on click arrow Up 
                 event.preventDefault();
-                $(".swiper-button-next").click();
+                if (canSlide == true) {
+                    $(".swiper-button-next").click();
+                }
             }
 
             if (event.keyCode === 40) { // on click arrow Down
                 event.preventDefault();
-                $(".swiper-button-prev").click();
+                if (canSlide == true) {
+                    $(".swiper-button-prev").click();
+                }
             }
         });
     })();
@@ -1206,18 +1201,7 @@ $(document).ready(function () {
     $(".main-loader-wrapper").fadeOut();
 });
 
-$(document).ready(function () { 
-    // homepage
-    homeMobileBrandSlider();
-    homeBrandSlider();
-    homepageMainSlider();
 
-    // sign up page
-    calcAge();
-    onErrorCountryCodeValues();
-    onErrorGenderValue();
-
-});
 
 
 
@@ -1226,11 +1210,11 @@ $(document).ready(function () {
 
 // profile ads manager list --> show confirmation modal to toggle adv activation
 let toggleAdvActivationWithModal = () => {
-    $(".toggle__input").on("click", function(){
+    $(".toggle__input").on("click", function () {
         $('#toggleActivationAdvModal').modal('show');
         this.checked = !this.checked
         console.log(this.checked);
-        if(this.checked == false) {
+        if (this.checked == false) {
             $(".are-you-sure").text("Are you sure you want to active this adv ?")
         } else {
             $(".are-you-sure").text("Are you sure you want to deactivate this adv ?")
@@ -1238,6 +1222,28 @@ let toggleAdvActivationWithModal = () => {
     });
 }
 
-$(document).ready(function () { 
+
+$(document).ready(function () {
+    // homepage
+    homeMobileBrandSlider();
+    homeBrandSlider();
+    homepageMainSlider();
+
+    // auth sign up page
+    calcAge();
+    onErrorCountryCodeValues();
+    onErrorGenderValue();
+
+
+    // auth activate page
+    counterDownTwoMinutes();
+
+    // auth change phone number page
+    onErrorCountryCodeValues(); 
+
+    
+    // profile ads manager list page
     toggleAdvActivationWithModal();
+    
+
 });

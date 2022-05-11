@@ -39,7 +39,7 @@
 
                         <div class="submit-btn-container">
                             <!-- <a href="#" class="btn btn-custom1 w-100 text-center" id="confirmation-btn" data-toggle="modal" data-target="#confirmation"> Next </a> -->
-                            <a href="auth-activate.php" class="btn btn-custom1 w-100 text-center" id="confirmation-btn"> Send Code </a>
+                            <a href="auth-activate.php" class="btn btn-custom1 w-100 text-center"> Send Code </a>
                         </div><!-- submit-btn-container -->
 
 
@@ -47,7 +47,7 @@
                 </div> <!-- tab-pane -->
 
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                    <form class="forget-password-form" action="" data-parsley-validate="">
+                    <form class="forget-password-form" action="test.php" data-parsley-validate="">
                         <div class="form-group mb-3 relative">
                             <input type="text" class="form-control input-with-country-code only-numbers" placeholder="Phone Number" id="phone" required="">
                             <div class="country-code-container">
@@ -74,7 +74,7 @@
 
                         <div class="submit-btn-container">
                             <!-- <a href="#" class="btn btn-custom1 w-100 text-center" id="confirmation-btn" data-toggle="modal" data-target="#confirmation"> Next </a> -->
-                            <a href="auth-activate.php" class="btn btn-custom1 w-100 text-center" id="confirmation-btn"> Send Code </a>
+                            <a href="auth-activate.php" class="btn btn-custom1 w-100 text-center"> Send Code </a>
                         </div><!-- submit-btn-container -->
 
                     </form><!-- sign-in-form -->

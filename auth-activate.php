@@ -17,7 +17,7 @@
                     <input class="num4" type="text" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
                 </div><!-- activate-inputs -->
 
-                <form action="" id="activate-code" class="d-none">
+                <form action="test.php" id="activate-code" class="d-none">
                     <input id="activate-code-input" name="code" type="text">
                 </form>
 
@@ -44,7 +44,3 @@
 </div><!-- page-content -->
 
 <?php include 'footer.php'; ?>
-
-<script>
-    counterDownTwoMinutes()
-</script>

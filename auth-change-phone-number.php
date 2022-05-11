@@ -8,7 +8,7 @@
         <div class="form-container">
 
 
-            <form class="forget-password-form" action="" data-parsley-validate="">            
+            <form class="forget-password-form" action="test.php" data-parsley-validate="">            
 
  
  
@@ -58,8 +58,3 @@
 
 
 <?php include 'footer.php'; ?>
-
-
-<script> 
-    onErrorCountryCodeValues(); 
-</script>

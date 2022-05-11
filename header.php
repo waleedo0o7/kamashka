@@ -215,7 +215,7 @@
                                     <span class="number" style="right: 3px;"> 0 </span>
                                 </button>
 
-                                <div class="dropdown-menu notifications-dropdown-menu  disable-auto-close pl-3 pr-3" >
+                                <div class="dropdown-menu notifications-dropdown-menu  disable-auto-close pl-3 pr-3">
                                     <div class="notifications-menu-container">
                                         <ul class="reset-ul">
                                             <li>
@@ -315,7 +315,7 @@
                                 </button>
 
 
-                                <div class="dropdown-menu cart-dropdown-menu disable-auto-close pl-3 pr-3" >
+                                <div class="dropdown-menu cart-dropdown-menu disable-auto-close pl-3 pr-3">
                                     <div class="cart-menu-container">
                                         <ul class="reset-ul">
                                             <li class="cart-one-item">
@@ -332,7 +332,7 @@
                                                     </div> <!-- counter -->
 
                                                 </div> <!-- details -->
-                                                <i class="icon icon-close remove" ></i>
+                                                <i class="icon icon-close remove"></i>
                                             </li><!-- cart-one-item -->
 
 
@@ -350,7 +350,7 @@
                                                     </div> <!-- counter -->
 
                                                 </div> <!-- details -->
-                                                <i class="icon icon-close remove" ></i>
+                                                <i class="icon icon-close remove"></i>
                                             </li><!-- cart-one-item -->
 
 
@@ -368,7 +368,7 @@
                                                     </div> <!-- counter -->
 
                                                 </div> <!-- details -->
-                                                <i class="icon icon-close remove" ></i>
+                                                <i class="icon icon-close remove"></i>
                                             </li><!-- cart-one-item -->
 
                                         </ul>
@@ -514,8 +514,9 @@
             <div class="right-menu-content">
                 <div class="all-comments">
 
+
                     <!--  IF THIS COMMENT IS not MY COMMENT  -->
-                    <div class="one-comment">
+                    <div class="one-comment d-none">
                         <div class="image-container">
                             <img class="img-fluid" src="img/person04.jpg" alt="">
                         </div><!-- image-container -->
@@ -541,8 +542,9 @@
                     </div><!-- one-comment -->
 
 
+
                     <!--  IF THIS COMMENT IS MY COMMENT  -->
-                    <div class="one-comment">
+                    <div class="one-comment d-none">
                         <div class="image-container">
                             <img class="img-fluid" src="img/person04.jpg" alt="">
                         </div><!-- image-container -->
@@ -560,7 +562,7 @@
                                 <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
                                     <i class="fa fa-ellipsis-h"></i>
                                 </button>
-                                <div class="dropdown-menu options-dropdown " >
+                                <div class="dropdown-menu options-dropdown ">
                                     <a class="dropdown-item edit-comment" href="#"> <i class="icon icon-edit"></i> Edit </a>
                                     <a class="dropdown-item" data-toggle="modal" data-target="#deleteModal"> <i class="fas fa-trash-alt"></i> Delete </a>
                                 </div> <!-- dropdown-menu -->
@@ -570,6 +572,17 @@
                         </div><!-- actions -->
                     </div><!-- one-comment -->
 
+
+
+                    <!--  IF  NO COMMENTS  (EMPTY STATE)  -->
+                    <div class="no-data">
+                        <img alt="" class="img-fluid" src="img/no-data.svg" alt="">
+                        <p class="m-2"> No Comments </p>
+                        <p> Be the first to comment on this video </p>
+                    </div><!-- no-data -->
+
+
+                    
                 </div><!-- all-comments -->
             </div><!-- right-menu-content -->
 
