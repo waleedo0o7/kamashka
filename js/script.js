@@ -1,4 +1,3 @@
-
 let canSlide = true;
 
 // Homepage --> Toggle Fullscreen Mode
@@ -6,6 +5,12 @@ $("#expand-video").on("click", function () {
     $("body").toggleClass("fullscreen");
     $("#expand-video-icon").toggleClass("icon-expand icon-close");
 });
+
+// Fancybox options
+$(".fancybox").fancybox({
+    // API options
+    loop : true
+}); 
 
 // Header --> toggle mobile icon to show menu
 $(".mobile-menu .icon-menu-icon , #closeMobileMenu ").on("click", function () {
@@ -18,12 +23,10 @@ $(".mobile-menu .icon-menu-icon , #closeMobileMenu ").on("click", function () {
     }
 });
 
-
 // Header --> toggle mobile menu to show and hide search
 $("#toggle-search").on("click", function () {
     $(".search-container").toggleClass("show");
 });
-
 
 // Homepage --> Brand Slider
 let homeBrandSlider = () => {
@@ -36,8 +39,6 @@ let homeBrandSlider = () => {
         });
     });
 }
-
-
 
 // my profile --> Progress Slider
 let progressSlider = () => {
@@ -82,7 +83,6 @@ $(function () {
     })
 });
 
-
 // Homepage --> toggle RIGHT menu
 $(function () {
     $("#close-right-menu , .video-icons i.icon-chat , .mobile-view i.icon-chat").on("click", function () {
@@ -91,9 +91,7 @@ $(function () {
     })
 });
 
-
 // Homepage getCommentsEvent on scroll
-
 $(function () {
     $(".all-comments").scroll(function () {
 
@@ -1200,17 +1198,10 @@ $(".toggle-top-bar").on("click", function () {
 });
 
 
-// Main Loader Wrapper 
+// Main Loader Wrapper
 $(document).ready(function () {
     $(".main-loader-wrapper").fadeOut();
 });
-
-
-
-
-
-
-
 
 // profile ads manager list --> show confirmation modal to toggle adv activation
 let toggleAdvActivationWithModal = () => {
@@ -1251,3 +1242,4 @@ $(document).ready(function () {
 
 
 });
+

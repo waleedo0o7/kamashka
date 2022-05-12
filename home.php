@@ -1,10 +1,6 @@
 <?php include 'header.php'; ?>
 
 
-
-
-
-
 <!-- right-menu -->
 <div class="right-menu-container">
     <div class="right-menu">
@@ -53,237 +49,7 @@
 
 
 
-                
-                <!--  IF THIS COMMENT IS not MY COMMENT  -->
-                <div class="one-comment">
-                    <div class="image-container">
-                        <img class="img-fluid" src="img/person04.jpg" alt="">
-                    </div><!-- image-container -->
-                    <div class="name-and-comment">
-                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
-                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
-                    </div><!-- name-and-comment -->
-                    <div class="actions">
 
-                        <div class="dropdown custom-dropdown">
-                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
-                                <i class="fa fa-ellipsis-h"></i>
-                            </button>
-                            <div class="dropdown-menu options-dropdown ">
-                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
-                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
-                            </div> <!-- dropdown-menu -->
-                        </div> <!-- dropdown -->
-
-                        <p class="date"> 12 Dec 2020 </p>
-                    </div><!-- actions -->
-                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
-                </div><!-- one-comment -->
-
-
-
-
-
-
-                
-                <!--  IF THIS COMMENT IS not MY COMMENT  -->
-                <div class="one-comment">
-                    <div class="image-container">
-                        <img class="img-fluid" src="img/person04.jpg" alt="">
-                    </div><!-- image-container -->
-                    <div class="name-and-comment">
-                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
-                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
-                    </div><!-- name-and-comment -->
-                    <div class="actions">
-
-                        <div class="dropdown custom-dropdown">
-                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
-                                <i class="fa fa-ellipsis-h"></i>
-                            </button>
-                            <div class="dropdown-menu options-dropdown ">
-                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
-                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
-                            </div> <!-- dropdown-menu -->
-                        </div> <!-- dropdown -->
-
-                        <p class="date"> 12 Dec 2020 </p>
-                    </div><!-- actions -->
-                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
-                </div><!-- one-comment -->
-
-
-
-
-
-
-
-                
-                <!--  IF THIS COMMENT IS not MY COMMENT  -->
-                <div class="one-comment">
-                    <div class="image-container">
-                        <img class="img-fluid" src="img/person04.jpg" alt="">
-                    </div><!-- image-container -->
-                    <div class="name-and-comment">
-                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
-                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
-                    </div><!-- name-and-comment -->
-                    <div class="actions">
-
-                        <div class="dropdown custom-dropdown">
-                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
-                                <i class="fa fa-ellipsis-h"></i>
-                            </button>
-                            <div class="dropdown-menu options-dropdown ">
-                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
-                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
-                            </div> <!-- dropdown-menu -->
-                        </div> <!-- dropdown -->
-
-                        <p class="date"> 12 Dec 2020 </p>
-                    </div><!-- actions -->
-                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
-                </div><!-- one-comment -->
-
-
-
-
-
-
-
-
-                
-                <!--  IF THIS COMMENT IS not MY COMMENT  -->
-                <div class="one-comment">
-                    <div class="image-container">
-                        <img class="img-fluid" src="img/person04.jpg" alt="">
-                    </div><!-- image-container -->
-                    <div class="name-and-comment">
-                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
-                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
-                    </div><!-- name-and-comment -->
-                    <div class="actions">
-
-                        <div class="dropdown custom-dropdown">
-                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
-                                <i class="fa fa-ellipsis-h"></i>
-                            </button>
-                            <div class="dropdown-menu options-dropdown ">
-                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
-                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
-                            </div> <!-- dropdown-menu -->
-                        </div> <!-- dropdown -->
-
-                        <p class="date"> 12 Dec 2020 </p>
-                    </div><!-- actions -->
-                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
-                </div><!-- one-comment -->
-
-
-
-
-
-
-                
-                <!--  IF THIS COMMENT IS not MY COMMENT  -->
-                <div class="one-comment">
-                    <div class="image-container">
-                        <img class="img-fluid" src="img/person04.jpg" alt="">
-                    </div><!-- image-container -->
-                    <div class="name-and-comment">
-                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
-                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
-                    </div><!-- name-and-comment -->
-                    <div class="actions">
-
-                        <div class="dropdown custom-dropdown">
-                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
-                                <i class="fa fa-ellipsis-h"></i>
-                            </button>
-                            <div class="dropdown-menu options-dropdown ">
-                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
-                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
-                            </div> <!-- dropdown-menu -->
-                        </div> <!-- dropdown -->
-
-                        <p class="date"> 12 Dec 2020 </p>
-                    </div><!-- actions -->
-                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
-                </div><!-- one-comment -->
-
-
-
-
-
-
-
-                
-                <!--  IF THIS COMMENT IS not MY COMMENT  -->
-                <div class="one-comment">
-                    <div class="image-container">
-                        <img class="img-fluid" src="img/person04.jpg" alt="">
-                    </div><!-- image-container -->
-                    <div class="name-and-comment">
-                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
-                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
-                    </div><!-- name-and-comment -->
-                    <div class="actions">
-
-                        <div class="dropdown custom-dropdown">
-                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
-                                <i class="fa fa-ellipsis-h"></i>
-                            </button>
-                            <div class="dropdown-menu options-dropdown ">
-                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
-                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
-                            </div> <!-- dropdown-menu -->
-                        </div> <!-- dropdown -->
-
-                        <p class="date"> 12 Dec 2020 </p>
-                    </div><!-- actions -->
-                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
-                </div><!-- one-comment -->
-
-
-
-
-
-
-
-                
-                <!--  IF THIS COMMENT IS not MY COMMENT  -->
-                <div class="one-comment">
-                    <div class="image-container">
-                        <img class="img-fluid" src="img/person04.jpg" alt="">
-                    </div><!-- image-container -->
-                    <div class="name-and-comment">
-                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
-                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
-                    </div><!-- name-and-comment -->
-                    <div class="actions">
-
-                        <div class="dropdown custom-dropdown">
-                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
-                                <i class="fa fa-ellipsis-h"></i>
-                            </button>
-                            <div class="dropdown-menu options-dropdown ">
-                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
-                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
-                            </div> <!-- dropdown-menu -->
-                        </div> <!-- dropdown -->
-
-                        <p class="date"> 12 Dec 2020 </p>
-                    </div><!-- actions -->
-                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
-                </div><!-- one-comment -->
-
-
-
-
-
-
-
-                
                 <!--  IF THIS COMMENT IS not MY COMMENT  -->
                 <div class="one-comment">
                     <div class="image-container">
@@ -343,7 +109,237 @@
                 </div><!-- one-comment -->
 
 
-                
+
+
+
+
+
+
+                <!--  IF THIS COMMENT IS not MY COMMENT  -->
+                <div class="one-comment">
+                    <div class="image-container">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image-container -->
+                    <div class="name-and-comment">
+                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
+                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
+                    </div><!-- name-and-comment -->
+                    <div class="actions">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <div class="dropdown-menu options-dropdown ">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
+                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <p class="date"> 12 Dec 2020 </p>
+                    </div><!-- actions -->
+                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
+                </div><!-- one-comment -->
+
+
+
+
+
+
+
+
+
+                <!--  IF THIS COMMENT IS not MY COMMENT  -->
+                <div class="one-comment">
+                    <div class="image-container">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image-container -->
+                    <div class="name-and-comment">
+                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
+                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
+                    </div><!-- name-and-comment -->
+                    <div class="actions">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <div class="dropdown-menu options-dropdown ">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
+                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <p class="date"> 12 Dec 2020 </p>
+                    </div><!-- actions -->
+                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
+                </div><!-- one-comment -->
+
+
+
+
+
+
+
+                <!--  IF THIS COMMENT IS not MY COMMENT  -->
+                <div class="one-comment">
+                    <div class="image-container">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image-container -->
+                    <div class="name-and-comment">
+                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
+                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
+                    </div><!-- name-and-comment -->
+                    <div class="actions">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <div class="dropdown-menu options-dropdown ">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
+                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <p class="date"> 12 Dec 2020 </p>
+                    </div><!-- actions -->
+                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
+                </div><!-- one-comment -->
+
+
+
+
+
+
+
+
+                <!--  IF THIS COMMENT IS not MY COMMENT  -->
+                <div class="one-comment">
+                    <div class="image-container">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image-container -->
+                    <div class="name-and-comment">
+                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
+                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
+                    </div><!-- name-and-comment -->
+                    <div class="actions">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <div class="dropdown-menu options-dropdown ">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
+                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <p class="date"> 12 Dec 2020 </p>
+                    </div><!-- actions -->
+                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
+                </div><!-- one-comment -->
+
+
+
+
+
+
+
+
+                <!--  IF THIS COMMENT IS not MY COMMENT  -->
+                <div class="one-comment">
+                    <div class="image-container">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image-container -->
+                    <div class="name-and-comment">
+                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
+                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
+                    </div><!-- name-and-comment -->
+                    <div class="actions">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <div class="dropdown-menu options-dropdown ">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
+                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <p class="date"> 12 Dec 2020 </p>
+                    </div><!-- actions -->
+                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
+                </div><!-- one-comment -->
+
+
+
+
+
+
+
+
+                <!--  IF THIS COMMENT IS not MY COMMENT  -->
+                <div class="one-comment">
+                    <div class="image-container">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image-container -->
+                    <div class="name-and-comment">
+                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
+                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
+                    </div><!-- name-and-comment -->
+                    <div class="actions">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <div class="dropdown-menu options-dropdown ">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
+                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <p class="date"> 12 Dec 2020 </p>
+                    </div><!-- actions -->
+                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
+                </div><!-- one-comment -->
+
+
+
+
+
+
+
+                <!--  IF THIS COMMENT IS not MY COMMENT  -->
+                <div class="one-comment">
+                    <div class="image-container">
+                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                    </div><!-- image-container -->
+                    <div class="name-and-comment">
+                        <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
+                        <p class="comment">Nice Advertisement ( this is NOT my comment ) </p>
+                    </div><!-- name-and-comment -->
+                    <div class="actions">
+
+                        <div class="dropdown custom-dropdown">
+                            <button class="dropdown-toggle reset-btn p-0" type="button" data-toggle="dropdown">
+                                <i class="fa fa-ellipsis-h"></i>
+                            </button>
+                            <div class="dropdown-menu options-dropdown ">
+                                <a class="dropdown-item" data-toggle="modal" data-target="#reportModal"> <i class="icon icon-report"></i> Report </a>
+                                <a class="dropdown-item copy-comment" href="#"> <i class="icon icon-copy"></i> Copy </a>
+                            </div> <!-- dropdown-menu -->
+                        </div> <!-- dropdown -->
+
+                        <p class="date"> 12 Dec 2020 </p>
+                    </div><!-- actions -->
+                    <span class="comment-copied"> <i class="fa fa-check"></i> Comment Copied </span>
+                </div><!-- one-comment -->
+
+
+
 
                 <!--  IF THIS COMMENT IS MY COMMENT  -->
                 <div class="one-comment ">
@@ -411,10 +407,7 @@
 
 
 
-
-
-
-<div class="d-none main-loader-wrapper">
+<div class="main-loader-wrapper">
     <div class="loading-container">
         <div class="sbl-circ-path sm"></div>
     </div><!-- loading-container -->
@@ -436,7 +429,7 @@
                                     <div class="brand-header">
                                         <div class="row">
                                             <div class="col-md-2 brand-logo d-flex justify-content-center align-items-start pr-0">
-                                                <img alt="" class="img-fluid" src="img/brand-logo.png" />
+                                                <img alt="" class="img-fluid" src="img/person04.jpg" />
                                             </div><!-- col-md-2 -->
                                             <div class="col-md-4">
                                                 <h3> Nike <img alt="" class="img-fluid" src="img/verified.svg" /> </h3>
@@ -513,9 +506,6 @@
                                                 incididunt ut
                                                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                                 exercitation
-                                                ullamco
-                                                laboris nisi ut aliquip ex ea commodo consequatcommodo
-                                                consequatcommodo consequat.
                                             </p>
                                         </div><!-- brand-details-text -->
 
@@ -528,9 +518,9 @@
                                             <p class="mb-1"> SHARES </p>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <div class="images">
+                                                    <!-- <div class="images">
                                                         <ul>
-                                                            <li> <a href="user-profile.php"> <img alt="" class="img-fluid" src="img/person01.png" /></a> </li>
+                                                            <li> <a href="user-profile.php"> <img alt="" class="img-fluid" src="img/person04.jpg" /></a> </li>
                                                             <li> <a href="user-profile.php"> <img alt="" class="img-fluid" src="img/person02.png" /></a> </li>
                                                             <li> <a href="user-profile.php"> <img alt="" class="img-fluid" src="img/person03.png" /></a> </li>
                                                             <li> <a href="user-profile.php"> <img alt="" class="img-fluid" src="img/person01.png" /></a> </li>
@@ -539,7 +529,13 @@
                                                                     <div class="num"> +3K </div>
                                                                 </a> </li>
                                                         </ul>
-                                                    </div><!-- images -->
+                                                    </div> images -->
+
+                                                    <div class="empty-state">
+                                                        <h6 class="mb-0"> No Shares Yet </h6>
+                                                        <p class="mb-0"> be the first to share this adv</p>
+                                                    </div><!-- empty-state -->
+
                                                 </div><!-- col-md-9 -->
 
                                                 <div class="col-md-6 d-flex mt-2">
@@ -706,8 +702,10 @@
 
                                             <div class="mobile-brand-slider-container">
                                                 <div class="mobile-brand-slider">
+
+                                                    <!-- video item -->
                                                     <div class="item">
-                                                        <a data-fancybox="zara-mobile-gallery" href="videos/video1.mp4" data-width="640" data-height="360">
+                                                        <a data-fancybox="zara-mobile-gallery " href="videos/video1.mp4" data-width="640" data-height="360">
                                                             <div class="video-item">
                                                                 <video>
                                                                     <source src="videos/video1.mp4" type="video/mp4">
@@ -719,32 +717,33 @@
                                                         </a>
                                                     </div> <!-- item -->
 
+                                                    <!-- image item -->
                                                     <div class="item">
-                                                        <a data-fancybox="zara-mobile-gallery" href="img/brand-slider/02.jpg">
+                                                        <a data-fancybox="zara-mobile-gallery " href="img/brand-slider/02.jpg">
                                                             <img alt="" src="img/brand-slider/02.jpg" class="img-fluid">
                                                         </a>
                                                     </div> <!-- item -->
 
                                                     <div class="item">
-                                                        <a data-fancybox="zara-mobile-gallery" href="img/brand-slider/03.jpg">
+                                                        <a data-fancybox="zara-mobile-gallery " href="img/brand-slider/03.jpg">
                                                             <img alt="" src="img/brand-slider/03.jpg" class="img-fluid">
                                                         </a>
                                                     </div> <!-- item -->
 
                                                     <div class="item">
-                                                        <a data-fancybox="zara-mobile-gallery" href="img/brand-slider/01.jpg">
+                                                        <a data-fancybox="zara-mobile-gallery " href="img/brand-slider/01.jpg">
                                                             <img alt="" src="img/brand-slider/01.jpg" class="img-fluid">
                                                         </a>
                                                     </div> <!-- item -->
 
                                                     <div class="item">
-                                                        <a data-fancybox="zara-mobile-gallery" href="img/brand-slider/03.jpg">
+                                                        <a data-fancybox="zara-mobile-gallery " href="img/brand-slider/03.jpg">
                                                             <img alt="" src="img/brand-slider/03.jpg" class="img-fluid">
                                                         </a>
                                                     </div> <!-- item -->
 
                                                     <div class="item">
-                                                        <a data-fancybox="zara-mobile-gallery" href="img/brand-slider/01.jpg">
+                                                        <a data-fancybox="zara-mobile-gallery " href="img/brand-slider/01.jpg">
                                                             <img alt="" src="img/brand-slider/01.jpg" class="img-fluid">
                                                         </a>
                                                     </div> <!-- item -->
@@ -771,9 +770,6 @@
                                                         incididunt ut
                                                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                                         exercitation
-                                                        ullamco
-                                                        laboris nisi ut aliquip ex ea commodo consequatcommodo
-                                                        consequatcommodo consequat.
                                                     </p>
                                                 </div><!-- brand-details-text -->
 
@@ -926,9 +922,11 @@
                                                             <li> <a href="#"> <img alt="" class="img-fluid" src="img/person03.png" /></a> </li>
                                                             <li> <a href="#"> <img alt="" class="img-fluid" src="img/person01.png" /></a> </li>
                                                             <li> <a href="#"> <img alt="" class="img-fluid" src="img/person02.png" /></a> </li>
-                                                            <li> <a href="#">
+                                                            <li>
+                                                                <a href="#">
                                                                     <div class="num"> +3K </div>
-                                                                </a> </li>
+                                                                </a>
+                                                            </li>
                                                         </ul>
                                                     </div><!-- images -->
                                                 </div><!-- col-md-9 -->
@@ -1265,6 +1263,12 @@
                     <i class="icon icon-copy"></i>
                     <p class="link-copied" id="link-copied"> <i class="fa fa-check"></i> Link Copied </p>
                 </div><!-- share-link-container -->
+
+                <div class="load-more">
+                    <div class="loading-container bg-white">
+                        <div class="sbl-circ-path sm"></div>
+                    </div><!-- loading-container -->
+                </div><!-- load-more -->
 
             </div>
         </div>

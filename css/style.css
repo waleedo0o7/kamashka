@@ -224,7 +224,7 @@ button.reset-btn::after {
 
 .btn-custom3 {
   color: var(--secondaryColor) !important;
-  background-color: #FFF;
+  background-color: #fff;
   border-color: var(--secondaryColor);
   padding: 8px 20px;
 }
@@ -1190,6 +1190,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 }
 .data-section .brand-header .brand-logo img {
   width: 60px;
+  border-radius: 250px;
 }
 .data-section .brand-header .follow-btn {
   display: flex;
@@ -1238,7 +1239,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   height: auto;
 }
 .data-section .brand-details .brand-details-text {
-  max-height: 160px;
+  max-height: 140px;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -1264,6 +1265,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 }
 .data-section .share .images ul li a img {
   width: 50px;
+  border-radius: 250px;
 }
 .data-section .share .images ul li a .num {
   background: #fff;
@@ -2430,7 +2432,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   border: 1px solid #d3d3d3;
 }
 #shareModal .image img {
-  width: 330px;
+  width: 270px;
 }
 
 .share-link-container {
