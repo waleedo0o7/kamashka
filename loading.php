@@ -23,6 +23,12 @@
                     <div class="sbl-circ-path lg"></div>
                 </div><!-- loading-container -->
 
+                <br /><br /><br />
+
+                <div class="loading-container orange">
+                    <div class="sbl-circ-path lg"></div>
+                </div><!-- loading-container -->
+
 
 
             </div><!-- profile-data-content -->

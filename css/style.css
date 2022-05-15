@@ -2980,7 +2980,6 @@ i.arrow-icon:before {
 }
 
 .loading-container {
-  background: rgba(200, 200, 200, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
