@@ -814,10 +814,12 @@ else { // alert('More than 960');
     function wheelToSlide(event) {
         // event.preventDefault();
 
-        if (event.path[1].classList != "brand-details-text") {
+        // console.log(event.target.classList);
 
-            // if (event.path[1].scrollHeight > event.path[1].clientHeight) {
+        if (event.target.classList != "brand-details-text") {
 
+            // alert(event.deltaY);
+ 
             if (event.deltaY < 0) {
                 if (canSlide == true) {
                     $(".swiper-button-prev").click();
@@ -828,7 +830,7 @@ else { // alert('More than 960');
                     $(".swiper-button-next").click();
                 }
             }
-            // }
+
         }
 
 
