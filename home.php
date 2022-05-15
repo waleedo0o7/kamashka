@@ -341,6 +341,8 @@
 
 
 
+
+
                 <!--  IF THIS COMMENT IS MY COMMENT  -->
                 <div class="one-comment ">
                     <div class="image-container">
@@ -370,7 +372,12 @@
                     </div><!-- actions -->
                 </div><!-- one-comment -->
 
-
+                <div class="load-more">
+                    <div class="loading-container bg-white orange">
+                        <div class="sbl-circ-path sm"></div>
+                    </div><!-- loading-container -->
+                </div><!-- load-more -->
+                
 
                 <!--  IF  NO COMMENTS  (EMPTY STATE)  -->
                 <div class="no-data d-none">
@@ -1265,7 +1272,7 @@
                 </div><!-- share-link-container -->
 
                 <div class="load-more">
-                    <div class="loading-container bg-white">
+                    <div class="loading-container bg-white orange">
                         <div class="sbl-circ-path sm"></div>
                     </div><!-- loading-container -->
                 </div><!-- load-more -->

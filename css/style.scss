@@ -706,10 +706,35 @@ input.form-control.input-with-icon.parsley-error {
 //     }
 // }
 
-video::-webkit-media-controls-enclosure {
+::-webkit-media-controls-enclosure {
     opacity: 0;
     transition: var(--mainTransition);
 }
+
+::-webkit-media-controls {
+    display: none !important;
+}
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+video::-webkit-media-controls-enclosure {
+    display: none !important;
+}
+
+video {
+    pointer-events: none !important; 
+}
+
+video::-webkit-media-controls-start-playback-button {
+    display: none;
+}
+
+audio::-webkit-media-controls-overlay-play-button,
+video::-webkit-media-controls-overlay-play-button {
+    display: none;
+}
+
 
 .bg-white {
     background-color: #fff;
@@ -1388,7 +1413,7 @@ body.fullscreen {
                     a {
                         img {
                             width: 50px;
-                            border-radius: 250px ;
+                            border-radius: 250px;
                         }
                         .num {
                             background: #fff;
@@ -1586,6 +1611,11 @@ body.fullscreen {
         width: 100%;
         height: 100%;
         position: relative;
+
+        .slick-slider .slick-list,
+        .slick-slider .slick-track {
+            margin: 0;
+        }
 
         .homepage-slick-slider,
         #homepage-bootstrap-slider,
@@ -3078,6 +3108,10 @@ i.arrow-icon {
     justify-content: center;
     align-items: center;
     padding: 20px;
+
+    &.orange .sbl-circ-path{
+        border-right-color: var(--secondaryColor);
+    }
 
     .sbl-circ-path {
         height: 40px;
