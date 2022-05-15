@@ -1,16 +1,33 @@
 let canSlide = true;
 
+
+$(document).ready(function () {
+    let videoWidth = $(".video.video.big-main-video").width();
+    $(".video-section .video-section-content .video-container").width(videoWidth);
+});
+
 // Homepage --> Toggle Fullscreen Mode
 $("#expand-video").on("click", function () {
     $("body").toggleClass("fullscreen");
     $("#expand-video-icon").toggleClass("icon-expand icon-close");
+
+    if ($("body").hasClass("fullscreen")) {
+        let videoWidth = $(".video.video.big-main-video").width();
+        $(".video-section .video-section-content .video-container").width(videoWidth + 33);
+    } else {
+        let videoWidth = $(".video.video.big-main-video").width();
+        $(".video-section .video-section-content .video-container").width(videoWidth);
+
+    }
+    
+
 });
 
 // Fancybox options
 $(".fancybox").fancybox({
     // API options
-    loop : true
-}); 
+    loop: true
+});
 
 // Header --> toggle mobile icon to show menu
 $(".mobile-menu .icon-menu-icon , #closeMobileMenu ").on("click", function () {
@@ -175,7 +192,7 @@ $(".country-code-container .dropdown a").on("click", function () {
 });
 
 // select verification via 
-$(".via").on("click", function () { 
+$(".via").on("click", function () {
     $("#via").val($(this).data("via"));
     // alert($("#via").val());
 });
@@ -819,7 +836,7 @@ else { // alert('More than 960');
         if (event.target.classList != "brand-details-text") {
 
             // alert(event.deltaY);
- 
+
             if (event.deltaY < 0) {
                 if (canSlide == true) {
                     $(".swiper-button-prev").click();
