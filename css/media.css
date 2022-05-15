@@ -10,7 +10,7 @@
   --mainTransition: all 0.3s ease;
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 900px) {
   div#expand-video {
     display: none;
   }

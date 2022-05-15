@@ -933,7 +933,7 @@ let uploadImagesWithThumbnails = () => {
                 loadingDiv.classList.add("loading-container");
 
                 let loadingDiv2 = document.createElement("div");
-                loadingDiv2.classList.add("sbl-circ-path");
+                loadingDiv2.classList.add("loader");
 
                 loadingDiv.append(loadingDiv2);
 
@@ -985,7 +985,7 @@ let uploadImagesWithThumbnails = () => {
                         loadingDiv.classList.add("loading-container");
 
                         let loadingDiv2 = document.createElement("div");
-                        loadingDiv2.classList.add("sbl-circ-path");
+                        loadingDiv2.classList.add("loader");
 
                         loadingDiv.append(loadingDiv2);
 

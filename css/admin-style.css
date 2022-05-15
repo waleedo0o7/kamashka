@@ -521,7 +521,7 @@ table.dataTable .product-image img {
   border-radius: 10px;
   display: flex;
 }
-.upload-store-images-wrapper .image-wrapper.has-loading .loading-container .sbl-circ-path {
+.upload-store-images-wrapper .image-wrapper.has-loading .loading-container .loader {
   height: 40px;
   width: 40px;
   color: rgba(90, 90, 90, 0);

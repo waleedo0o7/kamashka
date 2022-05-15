@@ -2902,7 +2902,7 @@ i.arrow-icon:before {
   border-radius: 10px;
   display: flex;
 }
-.upload-with-thumbnails-container .thumbnails-wrapper .one-thumbnail.has-loading .loading-container .sbl-circ-path {
+.upload-with-thumbnails-container .thumbnails-wrapper .one-thumbnail.has-loading .loading-container .loader {
   height: 40px;
   width: 40px;
   color: rgba(90, 90, 90, 0);
@@ -2985,10 +2985,10 @@ i.arrow-icon:before {
   align-items: center;
   padding: 20px;
 }
-.loading-container.orange .sbl-circ-path {
+.loading-container.orange .loader {
   border-right-color: var(--secondaryColor);
 }
-.loading-container .sbl-circ-path {
+.loading-container .loader {
   height: 40px;
   width: 40px;
   color: rgba(90, 90, 90, 0);
@@ -2999,15 +2999,15 @@ i.arrow-icon:before {
   border-right-color: var(--mainColor);
   animation: rotate 1s linear infinite;
 }
-.loading-container .sbl-circ-path.sm {
+.loading-container .loader.sm {
   height: 35px;
   width: 35px;
 }
-.loading-container .sbl-circ-path.md {
+.loading-container .loader.md {
   height: 48px;
   width: 48px;
 }
-.loading-container .sbl-circ-path.lg {
+.loading-container .loader.lg {
   height: 60px;
   width: 60px;
 }
@@ -3367,7 +3367,7 @@ i.arrow-icon:before {
 .main-loader-wrapper .loading-container {
   background: transparent;
 }
-.main-loader-wrapper .loading-container .sbl-circ-path {
+.main-loader-wrapper .loading-container .loader {
   border-right-color: var(--secondaryColor);
 }
 

@@ -2,7 +2,7 @@
 
 <div class="main-loader-wrapper">
     <div class="loading-container">
-        <div class="sbl-circ-path sm"></div>
+        <div class="loader sm"></div>
     </div><!-- loading-container -->
 </div><!-- loader-wrapper -->
 

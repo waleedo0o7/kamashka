@@ -374,7 +374,7 @@
 
                 <div class="load-more">
                     <div class="loading-container bg-white orange">
-                        <div class="sbl-circ-path sm"></div>
+                        <div class="loader sm"></div>
                     </div><!-- loading-container -->
                 </div><!-- load-more -->
                 
@@ -416,7 +416,7 @@
 
 <div class="main-loader-wrapper">
     <div class="loading-container">
-        <div class="sbl-circ-path sm"></div>
+        <div class="loader sm"></div>
     </div><!-- loading-container -->
 </div><!-- loader-wrapper -->
 
@@ -1273,7 +1273,7 @@
 
                 <div class="load-more">
                     <div class="loading-container bg-white orange">
-                        <div class="sbl-circ-path sm"></div>
+                        <div class="loader sm"></div>
                     </div><!-- loading-container -->
                 </div><!-- load-more -->
 

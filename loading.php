@@ -7,26 +7,26 @@
             <div class="profile-data-content mt-4">
 
                 <div class="loading-container">
-                    <div class="sbl-circ-path sm"></div>
+                    <div class="loader sm"></div>
                 </div><!-- loading-container -->
 
                 <br /><br /><br />
 
                 <div class="loading-container">
-                    <div class="sbl-circ-path md"></div>
+                    <div class="loader md"></div>
                 </div><!-- loading-container -->
 
                 <br /><br /><br />
 
 
                 <div class="loading-container">
-                    <div class="sbl-circ-path lg"></div>
+                    <div class="loader lg"></div>
                 </div><!-- loading-container -->
 
                 <br /><br /><br />
 
                 <div class="loading-container orange">
-                    <div class="sbl-circ-path lg"></div>
+                    <div class="loader lg"></div>
                 </div><!-- loading-container -->
 
 
