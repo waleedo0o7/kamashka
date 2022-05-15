@@ -2543,6 +2543,9 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   margin: 0;
   margin-bottom: 5px;
 }
+.right-menu-container .right-menu .right-menu-content .all-comments .one-comment .name-and-comment p.name img {
+  margin-left: 5px;
+}
 .right-menu-container .right-menu .right-menu-content .all-comments .one-comment .name-and-comment p.comment {
   margin: 0;
   font-size: 12px;
