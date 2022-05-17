@@ -36,11 +36,17 @@
     <!-- jquery UI  -->
     <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
 
+    <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
+
     <!-- Custom Style -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/media.css">
 
     <title> Welcome To Kamashka </title>
+
+
+    
+    
 
 </head>
 

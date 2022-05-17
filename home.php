@@ -377,7 +377,7 @@
                         <div class="loader sm"></div>
                     </div><!-- loading-container -->
                 </div><!-- load-more -->
-                
+
 
                 <!--  IF  NO COMMENTS  (EMPTY STATE)  -->
                 <div class="no-data d-none">
@@ -414,11 +414,11 @@
 
 
 
-<div class="main-loader-wrapper">
+<!--  <div class="main-loader-wrapper">
     <div class="loading-container">
         <div class="loader sm"></div>
-    </div><!-- loading-container -->
-</div><!-- loader-wrapper -->
+    </div> loading-container 
+</div> loader-wrapper -->
 
 <div class="page-content homepage">
     <div class="container">
@@ -560,6 +560,7 @@
 
                                 <div class="video-section">
                                     <div class="video-section-content">
+
                                         <div class="icons-container">
                                             <div class="video-icons">
                                                 <ul>
@@ -579,14 +580,17 @@
                                             </div><!-- video-icons -->
                                         </div><!-- icons -->
                                         <div class="video-container">
-                                            <video class="video big-main-video" controls loop>
+                                            <video class="video big-main-video video-js" loop controls preload="auto" data-setup="{}">
                                                 <source src="videos/video2.mp4" type="video/mp4">
                                             </video>
                                             <div class="video-overlay">
                                                 <img alt="" class="img-fluid" src="img/brand-slider/play.png" />
                                             </div> <!-- video-overlay -->
                                         </div><!-- video-container -->
+
+
                                     </div> <!-- video-section-content -->
+
                                     <div class="shadow"></div>
 
                                     <div class="matched-criteria-container">
@@ -630,7 +634,7 @@
                                     <div class="top-shadow"></div><!-- top-shadow -->
                                     <div class="video-container">
 
-                                        <video class="video" controls loop>
+                                        <video class="video video-js" loop controls preload="auto" data-setup="{}">
                                             <source src="videos/video2.mp4" type="video/mp4">
                                         </video>
 
@@ -822,6 +826,9 @@
                             </div><!-- carousel-item-content -->
                         </div> <!-- swiper-slide END -->
 
+
+
+
                         <div class="swiper-slide">
                             <div class="carousel-item-content">
 
@@ -972,7 +979,7 @@
                                             </div><!-- video-icons -->
                                         </div><!-- icons -->
                                         <div class="video-container">
-                                            <video class="video big-main-video" controls loop>
+                                            <video class="video big-main-video video-js" loop controls preload="auto" data-setup="{}">
                                                 <source src="videos/video1.mp4" type="video/mp4">
                                             </video>
                                             <div class="video-overlay">
@@ -1023,7 +1030,7 @@
                                     <div class="top-shadow"></div><!-- top-shadow -->
                                     <div class="video-container">
 
-                                        <video class="video" controls loop>
+                                        <video class="video video-js" loop controls preload="auto" data-setup="{}">
                                             <source src="videos/video1.mp4" type="video/mp4">
                                         </video>
 

@@ -19,6 +19,9 @@
     height: 93vh;
     width: 100vw;
   }
+  .swiper-main-container .swiper .swiper-slide-active {
+    max-height: none;
+  }
   .swiper-main-container .swiper-arrows-container {
     top: 200px !important;
     display: none;
@@ -32,7 +35,7 @@
   .container {
     max-width: 1000px;
     height: unset;
-    padding: 0px 15px !important;
+    padding: 0px !important;
   }
 
   .mobile-menu {

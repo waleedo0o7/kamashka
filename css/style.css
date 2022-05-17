@@ -642,11 +642,6 @@ input.form-control.input-with-icon.parsley-error {
   margin: 8px 0;
 }
 
-video::-webkit-media-controls-enclosure {
-  opacity: 0;
-  transition: var(--mainTransition);
-}
-
 .bg-white {
   background-color: #fff;
 }
@@ -1224,7 +1219,6 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   background: #414141;
 }
 .data-section .brand-slider-container .item .video-item .video-overlay {
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   top: 0;
   left: 0;
@@ -1235,8 +1229,9 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   align-items: center;
 }
 .data-section .brand-slider-container .item .video-item .video-overlay img {
-  width: 70px !important;
+  width: 50px !important;
   height: auto;
+  filter: drop-shadow(2px 4px 6px rgba(73, 73, 73, 0.3));
 }
 .data-section .brand-details .brand-details-text {
   max-height: 140px;
@@ -1324,6 +1319,8 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   justify-content: center;
   height: 100%;
   position: relative;
+  width: 370px;
+  height: 656px;
 }
 .video-section .video-section-content .video-container video {
   cursor: pointer !important;
@@ -1333,7 +1330,6 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   top: 0;
   left: 0;
   width: 100%;
-  background: RGBA(0, 0, 0, 0.3);
   height: 100%;
   display: flex;
   justify-content: center;
@@ -1342,11 +1338,10 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 }
 .video-section .video-section-content .video-container .video-overlay img {
   width: 110px;
-  filter: drop-shadow(2px 4px 6px #494949);
+  filter: drop-shadow(2px 4px 6px rgba(73, 73, 73, 0.7));
   transition: var(--mainTransition);
 }
 .video-section .video-section-content .video-container .video-overlay img.hidden {
-  transform: scale(5);
   opacity: 0;
   transition: var(--mainTransition);
 }
@@ -3579,6 +3574,19 @@ i.arrow-icon:before {
 .no-data img {
   width: 150px;
   margin-bottom: 15px;
+}
+
+.video-js {
+  width: 370px !important;
+  height: 656px !important;
+}
+
+.video-js .vjs-big-play-button {
+  display: none;
+}
+
+.vjs-has-started .vjs-control-bar {
+  display: none !important;
 }
 
 /*# sourceMappingURL=style.css.map */

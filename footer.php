@@ -87,6 +87,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
 
 
+
+
+    <script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
+
+
+
     <!-- Custom JS -->
     <script src="js/script.js"></script>
 

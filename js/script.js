@@ -1,26 +1,9 @@
 let canSlide = true;
 
-
-$(document).ready(function () {
-    let videoWidth = $(".video.video.big-main-video").width();
-    $(".video-section .video-section-content .video-container").width(videoWidth);
-});
-
 // Homepage --> Toggle Fullscreen Mode
 $("#expand-video").on("click", function () {
     $("body").toggleClass("fullscreen");
     $("#expand-video-icon").toggleClass("icon-expand icon-close");
-
-    if ($("body").hasClass("fullscreen")) {
-        let videoWidth = $(".video.video.big-main-video").width();
-        $(".video-section .video-section-content .video-container").width(videoWidth + 33);
-    } else {
-        let videoWidth = $(".video.video.big-main-video").width();
-        $(".video-section .video-section-content .video-container").width(videoWidth);
-
-    }
-    
-
 });
 
 // Fancybox options
@@ -533,12 +516,12 @@ let homeMobileBrandSlider = () => {
 // Mobile Homepage --> Show Brand Details
 $(document).ready(function () {
     $(".more-btn-container").on("click", function () {
-        $(".mobile-menu , .slider-next , .slider-prev").fadeOut(0);
+        $(".mobile-menu").fadeOut(0);
         $(this).siblings(".mobile-brand-data").fadeIn(0);
         $(".mobile-brand-slider").slick('setPosition');
         $(".matched-criteria-slider").slick('setPosition');
 
-        let video = $(".swiper-slide-active .mobile-view .video").get(0);
+        let video = $(".swiper-slide-active .mobile-view .video video").get(0);
 
         if (!video.paused) {
             $(".swiper-slide-active .mobile-view  .overlay-container").click();
@@ -550,9 +533,9 @@ $(document).ready(function () {
 $(document).ready(function () {
     $(".mobile-brand-header .close").on("click", function () {
         $(this).parents(".mobile-brand-data").fadeOut(0);
-        $(".mobile-menu , .slider-next , .slider-prev").fadeIn(0);
+        $(".mobile-menu").fadeIn(0);
 
-        let video = $(".swiper-slide-active .mobile-view .video").get(0);
+        let video = $(".swiper-slide-active .mobile-view .video video").get(0);
 
         if (video.paused) {
             $(".swiper-slide-active .mobile-view  .overlay-container").click();
@@ -604,13 +587,10 @@ $(document).ready(function () {
 
 if ($(window).width() < 960) { // alert('Less than 960');
 
-
-
-    // Homepage --> small screen --> play video on click and hide overlay
+    // Homepage --> small screen --> toggle video play and stop
     $(document).ready(function () {
-
         $(".mobile-view .overlay-container").on("click", function () {
-            let video = $(this).prev().get(0);
+            let video = $(this).prev().children("video").get(0);
             $(this).children("img").toggleClass("hidden");
 
             if (video.paused) {
@@ -618,44 +598,28 @@ if ($(window).width() < 960) { // alert('Less than 960');
             } else {
                 video.pause();
             }
-
         });
     });
-
-
-
-    // Homepage --> small screen --> stop video on click and show overlay
-    $(document).ready(function () {
-        $(".mobile-view .video").on("click", function () {
-            $(this).next().fadeIn(200);
-            $(this).next().children("img").removeClass("hidden");
-        });
-    });
-
 
 }
 
 else {  // alert('MORE than 960');
 
-    // Homepage --> big screen --> play video on click and hide overlay
+    // Homepage --> big screen --> toggle video play and stop
     $(document).ready(function () {
+
         $(".video-section .video-overlay").on("click", function () {
-            let video = $(this).prev().get(0);
-            $(this).children("img").addClass("hidden");
-            $(this).fadeOut();
-            video.play();
+            let video = $(this).prev().children("video").get(0);
+            if (video.paused) {
+                $(this).children("img").addClass("hidden"); 
+                video.play();
+            } else { 
+                $(this).children("img").removeClass("hidden"); 
+                video.pause();
+            }
+
         });
     });
-
-    // Homepage --> big screen --> stop video on click and show overlay
-    $(document).ready(function () {
-        $(".video").on("click", function () {
-            $(this).next().fadeIn(200);
-            $(this).next().children("img").removeClass("hidden");
-            $(this).stop();
-        });
-    });
-
 }
 
 
@@ -687,38 +651,35 @@ let homepageMainSlider = () => {
         },
     });
 
-    if ($(window).width() < 960) { // less
+    if ($(window).width() < 960) { // less 960px
 
         HomepageMainSliderSwiper.on('slideChange', function () {
 
             $(".mobile-view .video").each(function () {
-                $(this).get(0).pause();
-                $(".overlay-container").fadeIn(200);
+                $(this).children("video").get(0).pause(); 
             });
 
             setTimeout(() => {
-                let video = $(".swiper-slide-active").children(".carousel-item-content").children(".mobile-view").children(".video-container").children(".video");
-                $(".swiper-slide-active").children(".carousel-item-content").children(".mobile-view").children(".video-container").children(".overlay-container").children("img").addClass("hidden");
+                let video = $(".swiper-slide-active .mobile-view .video video");
+                $(".swiper-slide-active .mobile-view .overlay-container img").addClass("hidden");
                 video[0].play();
             }, 0);
         });
 
-    } else { // more
+    } else { // more 960px
 
         HomepageMainSliderSwiper.on('slideChange', function () {
 
             // stop all videos
             $(".video-section-content .video").each(function () {
-                $(this).get(0).pause();
-                $(".video-overlay").fadeIn(0);
+                $(this).children("video").get(0).pause(); 
                 $(".video-overlay").children("img").removeClass("hidden");
             });
 
             // play active video
             setTimeout(() => {
-                let video = $(".swiper-slide-active").children(".carousel-item-content").children(".video-section").children(".video-section-content").children(".video-container").children(".video");
-                $(".swiper-slide-active").children(".carousel-item-content").children(".video-section").children(".video-section-content").children(".video-container").children(".video-overlay").fadeOut(0);
-                $(".swiper-slide-active").children(".carousel-item-content").children(".video-section").children(".video-section-content").children(".video-container").children(".video-overlay").children("img").addClass("hidden");
+                let video = $(".swiper-slide-active .video video");
+                $(".swiper-slide-active .video-overlay img").addClass("hidden");
                 video[0].play();
             }, 0);
 
@@ -879,15 +840,12 @@ else { // alert('More than 960');
 }
 
 
-
-
-
-
+// Homepage --> stop video if brand slider fancybox active
 $(".brand-slider .item img").on("click", function () {
     setTimeout(() => {
         if ($("body").hasClass("fancybox-active")) {
-            $(".swiper-slide-active .video").click();
-            $(".swiper-slide-active .video").get(0).pause();
+            $(".swiper-slide-active .video video").get(0).pause();
+            $(".swiper-slide-active .video-overlay img").removeClass("hidden")
         }
     }, 10);
 });
