@@ -726,7 +726,7 @@
     height: 50px;
   }
 }
-@media all and (max-width: 1200px) {
+@media all and (max-width: 900px) {
   .mobile-left-menu .menu-header {
     border-bottom: 1px solid #fff;
   }

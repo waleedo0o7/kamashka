@@ -16,11 +16,12 @@ $(".fancybox").fancybox({
 $(".mobile-menu .icon-menu-icon , #closeMobileMenu ").on("click", function () {
     $(".mobile-left-menu").toggleClass("show");
 
-    let video = $(".swiper-slide-active .mobile-view .video").get(0);
+    let video = $(".swiper-slide-active .mobile-view .video video").get(0);
 
     if (!video.paused) {
         $(".swiper-slide-active .mobile-view  .overlay-container").click();
     }
+
 });
 
 // Header --> toggle mobile menu to show and hide search
@@ -611,10 +612,10 @@ else {  // alert('MORE than 960');
         $(".video-section .video-overlay").on("click", function () {
             let video = $(this).prev().children("video").get(0);
             if (video.paused) {
-                $(this).children("img").addClass("hidden"); 
+                $(this).children("img").addClass("hidden");
                 video.play();
-            } else { 
-                $(this).children("img").removeClass("hidden"); 
+            } else {
+                $(this).children("img").removeClass("hidden");
                 video.pause();
             }
 
@@ -656,7 +657,7 @@ let homepageMainSlider = () => {
         HomepageMainSliderSwiper.on('slideChange', function () {
 
             $(".mobile-view .video").each(function () {
-                $(this).children("video").get(0).pause(); 
+                $(this).children("video").get(0).pause();
             });
 
             setTimeout(() => {
@@ -672,7 +673,7 @@ let homepageMainSlider = () => {
 
             // stop all videos
             $(".video-section-content .video").each(function () {
-                $(this).children("video").get(0).pause(); 
+                $(this).children("video").get(0).pause();
                 $(".video-overlay").children("img").removeClass("hidden");
             });
 
@@ -709,6 +710,7 @@ if ($(window).width() < 960) { // less than 960px
 
     ////////////////////// SWIPE UP EVENT START
     $(document).ready(function () {
+        // alert("document ready  < 960  ");
 
         var supportTouch = $.support.touch,
             scrollEvent = "touchmove scroll",
@@ -777,9 +779,11 @@ if ($(window).width() < 960) { // less than 960px
         });
 
         $('.video-container').on('swipeup', function () {
+            // alert("swipeup");
             $(".swiper-button-next").click();
         });
         $('.video-container').on('swipedown', function () {
+            // alert("swipedown");
             $(".swiper-button-prev").click();
         });
     });
@@ -1112,47 +1116,6 @@ $(document).ready(() => {
 
 });
 
-
-// Keyword   V1 
-// $(document).ready(() => {
-
-//     let input = document.getElementById("add-keyword-input");
-//     input.addEventListener("keyup", function (event) {
-//         if (event.keyCode === 13) {
-//             event.preventDefault();
-//             document.getElementById("add-keyword-btn").click();
-//         }
-//     });
-
-
-//     let keywords = [];
-//     $("#add-keyword-btn").on("click", function () {
-//         let inputVal = $("#add-keyword-input").val();
-//         if (inputVal) {
-//             $(".keywords-list").append(`<div class="keyword"> ${inputVal} <i class="icon icon-close remove-keyword"></i> </div>`)
-//             keywords.push(inputVal);
-//             $("#keywordsFinal").val(keywords);
-//             $("#add-keyword-input").val('')
-//         }
-
-//     });
-
-//     $("body").on("click", ".remove-keyword", function () {
-//         let thisIndex = $(this).parent(".keyword").index();
-//         keywords.splice(thisIndex, 1);
-//         $("#keywordsFinal").val(keywords);
-//         setTimeout(() => {
-//             $(this).parent().remove();
-//         }, 100);
-//     });
-// });
-
-
-
-
-
-
-// user profile --> manual tabs buttons
 
 $("#shares-ads-tab2").on("click", function () {
     $("#shared-ads-tab").click();

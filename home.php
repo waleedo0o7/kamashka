@@ -381,7 +381,7 @@
 
                 <!--  IF  NO COMMENTS  (EMPTY STATE)  -->
                 <div class="no-data d-none">
-                    <img alt="" class="img-fluid" src="img/no-data.svg" alt="">
+                    <img alt="" class="img-fluid" src="img/no-data.svg">
                     <p class="m-2"> No Comments </p>
                     <p> Be the first to comment on this video </p>
                 </div><!-- no-data -->
@@ -457,7 +457,7 @@
                                             <div class="item">
                                                 <a data-fancybox="nike-big-gallery" class="fancybox" href="videos/video2.mp4" data-width="640" data-height="360">
                                                     <div class="video-item">
-                                                        <video>
+                                                        <video playsinline>
                                                             <source src="videos/video2.mp4" type="video/mp4">
                                                         </video>
                                                         <div class="video-overlay">
@@ -580,7 +580,7 @@
                                             </div><!-- video-icons -->
                                         </div><!-- icons -->
                                         <div class="video-container">
-                                            <video class="video big-main-video video-js" loop controls preload="auto" data-setup="{}">
+                                            <video playsinline class="video big-main-video video-js" loop controls preload="auto" data-setup="{}">
                                                 <source src="videos/video2.mp4" type="video/mp4">
                                             </video>
                                             <div class="video-overlay">
@@ -634,7 +634,7 @@
                                     <div class="top-shadow"></div><!-- top-shadow -->
                                     <div class="video-container">
 
-                                        <video class="video video-js" loop controls preload="auto" data-setup="{}">
+                                        <video playsinline class="video video-js" loop controls preload="auto" data-setup="{}">
                                             <source src="videos/video2.mp4" type="video/mp4">
                                         </video>
 
@@ -718,7 +718,7 @@
                                                     <div class="item">
                                                         <a data-fancybox="zara-mobile-gallery " href="videos/video1.mp4" data-width="640" data-height="360">
                                                             <div class="video-item">
-                                                                <video>
+                                                                <video playsinline>
                                                                     <source src="videos/video1.mp4" type="video/mp4">
                                                                 </video>
                                                                 <div class="video-overlay">
@@ -858,7 +858,7 @@
                                             <div class="item">
                                                 <a data-fancybox="nike-big-gallery" href="videos/video1.mp4" data-width="640" data-height="360">
                                                     <div class="video-item">
-                                                        <video>
+                                                        <video playsinline>
                                                             <source src="videos/video1.mp4" type="video/mp4">
                                                         </video>
                                                         <div class="video-overlay">
@@ -979,7 +979,7 @@
                                             </div><!-- video-icons -->
                                         </div><!-- icons -->
                                         <div class="video-container">
-                                            <video class="video big-main-video video-js" loop controls preload="auto" data-setup="{}">
+                                            <video playsinline class="video big-main-video video-js" loop controls preload="auto" data-setup="{}">
                                                 <source src="videos/video1.mp4" type="video/mp4">
                                             </video>
                                             <div class="video-overlay">
@@ -1030,7 +1030,7 @@
                                     <div class="top-shadow"></div><!-- top-shadow -->
                                     <div class="video-container">
 
-                                        <video class="video video-js" loop controls preload="auto" data-setup="{}">
+                                        <video playsinline class="video video-js" loop controls preload="auto" data-setup="{}">
                                             <source src="videos/video1.mp4" type="video/mp4">
                                         </video>
 
@@ -1112,7 +1112,7 @@
                                                     <div class="item">
                                                         <a data-fancybox="zara-mobile-gallery" href="videos/video2.mp4" data-width="640" data-height="360">
                                                             <div class="video-item">
-                                                                <video>
+                                                                <video playsinline>
                                                                     <source src="videos/video2.mp4" type="video/mp4">
                                                                 </video>
                                                                 <div class="video-overlay">

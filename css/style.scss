@@ -159,6 +159,11 @@ body {
     color: #3f3f3f;
 }
 
+
+textarea{
+    resize: none;
+}
+
 a {
     color: var(--secondaryColor);
     &:hover {

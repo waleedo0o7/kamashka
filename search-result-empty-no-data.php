@@ -6,7 +6,7 @@
         <h3 class="bold mb-4 d-flex"> Search Result </h3>
 
         <div class="card no-data">
-            <img alt="" class="img-fluid" src="img/no-data.svg" alt="">
+            <img alt="" class="img-fluid" src="img/no-data.svg">
             <p class="m-0"> No Data Found </p>
         </div><!-- card -->
 
