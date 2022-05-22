@@ -56,7 +56,7 @@
                     </div><!-- all-messages -->
 
                     <div class="send-message-wrapper relative">
-                        <input class="form-control" id="send-message-input" type="text">
+                        <input class="form-control" type="text">
                         <i class="fa fa-paper-plane"  id="send-message-input"></i> 
                     </div><!-- send-message-wrapper -->
 

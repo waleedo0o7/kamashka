@@ -7,7 +7,7 @@
 
                 <div class="image-container mb-3 mt-5 relative">
                     <div class="image text-center ">
-                        <img alt="" class="img-fluid" src="img/person04.jpg" alt="">
+                        <img alt="" class="img-fluid" src="img/person04.jpg" >
                     </div><!-- image -->
                 </div><!-- image-container -->
 
@@ -64,7 +64,7 @@
                 <div class="user-profile-data custom-tabs">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="shared-ads-tab" data-toggle="tab" href="#shared-ads" role="tab" aria-controls="home" aria-selected="true"> Shared Ads </a>
+                            <a class="nav-link active" id="shared-ads-tab" data-toggle="tab" href="#shared-ads" role="tab"> Shared Ads </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="followers-tab" data-toggle="tab" href="#followers" role="tab" aria-controls="followers" aria-selected="false">Followers</a>
@@ -83,7 +83,7 @@
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/01.jpg" alt="">
+                                        <img alt="" class="img-fluid" src="img/brand-slider/01.jpg" >
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
@@ -93,7 +93,7 @@
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/02.jpg" alt="">
+                                        <img alt="" class="img-fluid" src="img/brand-slider/02.jpg" >
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
@@ -103,7 +103,7 @@
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/03.jpg" alt="">
+                                        <img alt="" class="img-fluid" src="img/brand-slider/03.jpg" >
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
@@ -113,7 +113,7 @@
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/04.jpg" alt="">
+                                        <img alt="" class="img-fluid" src="img/brand-slider/04.jpg" >
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
@@ -123,7 +123,7 @@
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/05.jpg" alt="">
+                                        <img alt="" class="img-fluid" src="img/brand-slider/05.jpg" >
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
@@ -133,7 +133,7 @@
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/06.jpg" alt="">
+                                        <img alt="" class="img-fluid" src="img/brand-slider/06.jpg" >
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
@@ -143,7 +143,7 @@
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/07.jpg" alt="">
+                                        <img alt="" class="img-fluid" src="img/brand-slider/07.jpg" >
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
@@ -153,32 +153,7 @@
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/08.jpg" alt="">
-                                        <p> FASHION TREND </p>
-                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
-                                    </div><!-- item-content -->
-                                </div><!-- one-item -->
-
-
-
-
-
-
-
-                                <div class="one-item">
-                                    <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/05.jpg" alt="">
-                                        <p> FASHION TREND </p>
-                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
-                                    </div><!-- item-content -->
-                                </div><!-- one-item -->
-
-
-                                <div class="one-item">
-                                    <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/06.jpg" alt="">
+                                        <img alt="" class="img-fluid" src="img/brand-slider/08.jpg" >
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
@@ -191,10 +166,9 @@
 
 
 
-
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/02.jpg" alt="">
+                                        <img alt="" class="img-fluid" src="img/brand-slider/05.jpg" >
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
@@ -204,7 +178,23 @@
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/03.jpg" alt="">
+                                        <img alt="" class="img-fluid" src="img/brand-slider/06.jpg" >
+                                        <p> FASHION TREND </p>
+                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
+                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    </div><!-- item-content -->
+                                </div><!-- one-item -->
+
+
+
+
+
+
+
+
+                                <div class="one-item">
+                                    <div class="item-content">
+                                        <img alt="" class="img-fluid" src="img/brand-slider/02.jpg" >
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
@@ -214,7 +204,17 @@
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/06.jpg" alt="">
+                                        <img alt="" class="img-fluid" src="img/brand-slider/03.jpg" >
+                                        <p> FASHION TREND </p>
+                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
+                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    </div><!-- item-content -->
+                                </div><!-- one-item -->
+
+
+                                <div class="one-item">
+                                    <div class="item-content">
+                                        <img alt="" class="img-fluid" src="img/brand-slider/06.jpg" >
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->

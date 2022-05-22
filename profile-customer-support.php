@@ -11,7 +11,7 @@
                     <div class="custom-tabs">
                         <nav class="d-flex justify-content-center mb-3">
                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                <a class="nav-item nav-link active" id="nav-support-tab" data-toggle="tab" href="#nav-support" role="tab" aria-controls="nav-Support" aria-selected="true"> New Support </a>
+                                <a class="nav-item nav-link active" id="nav-support-tab" data-toggle="tab" href="#nav-support" role="tab"> New Support </a>
                                 <a class="nav-item nav-link" id="nav-history-tab" data-toggle="tab" href="#nav-history" role="tab" aria-controls="nav-history" aria-selected="false"> History </a>
                             </div>
                         </nav>
@@ -23,7 +23,7 @@
                                 <p class="mb-1"> How Shall We Help You? </p>
 
                                 <div class="form-group mb-3">
-                                    <textarea id="support" class="form-control" name="" placeholder="Type Here.."></textarea>
+                                    <textarea id="support" class="form-control"  placeholder="Type Here.."></textarea>
                                 </div><!-- form-group -->
 
                                 <div class="submit-btn-container">

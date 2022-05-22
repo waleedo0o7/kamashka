@@ -33,14 +33,14 @@
                 <div class="col-md-6">
                     <div class="form-group mb-3">
                         <label  class=" bold"> Description (English) </label>
-                        <textarea id="" class="form-control" name="" placeholder="Description (English)"></textarea>
+                        <textarea  class="form-control"  placeholder="Description (English)"></textarea>
                     </div>
                 </div><!-- col-md-6 -->
 
                 <div class="col-md-6">
                     <div class="form-group mb-3">
                         <label  class=" bold"> Description (Arabic) </label>
-                        <textarea id="" class="form-control" name="" placeholder="Description (Arabic)"></textarea>
+                        <textarea  class="form-control"  placeholder="Description (Arabic)"></textarea>
                     </div>
                 </div><!-- col-md-6 -->
                 <div class="col-md-6">
@@ -64,7 +64,7 @@
 
                 <div class="col-md-12">
                     <div class="submit-btn-container text-center">
-                        <a href="#" class="btn btn-custom1 text-center pl-5 pr-5 w-100" id=""> Add Tap </a>
+                        <a href="#" class="btn btn-custom1 text-center pl-5 pr-5 w-100" > Add Tap </a>
                     </div><!-- submit-btn-container -->
                 </div>
 

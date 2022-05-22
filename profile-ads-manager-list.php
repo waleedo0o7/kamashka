@@ -38,7 +38,7 @@
                                     <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <div class="dropdown-menu" >
 
                                         <!--  IF ADV ACTIVE  -->
                                         <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#republishModal"> Republish Adv </a>
@@ -69,7 +69,7 @@
                                             <span class="toggle-indicator">
                                                 <!-- 	This check mark is optional	 -->
                                                 <span class="checkMark">
-                                                    <svg viewBox="0 0 24 24" id="ghq-svg-check" role="presentation" aria-hidden="true">
+                                                    <svg viewBox="0 0 24 24"  role="presentation" aria-hidden="true">
                                                         <path d="M9.86 18a1 1 0 01-.73-.32l-4.86-5.17a1.001 1.001 0 011.46-1.37l4.12 4.39 8.41-9.2a1 1 0 111.48 1.34l-9.14 10a1 1 0 01-.73.33h-.01z"></path>
                                                     </svg>
                                                 </span>
@@ -138,7 +138,7 @@
                                     <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <div class="dropdown-menu" >
 
                                         <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#republishModal"> Republish Adv </a>
                                         <a class="dropdown-item" href="profile-ads-manager-list-ads-statistics.php"> Adv Statistics</a>
@@ -168,7 +168,7 @@
                                             <span class="toggle-indicator">
                                                 <!-- 	This check mark is optional	 -->
                                                 <span class="checkMark">
-                                                    <svg viewBox="0 0 24 24" id="ghq-svg-check" role="presentation" aria-hidden="true">
+                                                    <svg viewBox="0 0 24 24" role="presentation" aria-hidden="true">
                                                         <path d="M9.86 18a1 1 0 01-.73-.32l-4.86-5.17a1.001 1.001 0 011.46-1.37l4.12 4.39 8.41-9.2a1 1 0 111.48 1.34l-9.14 10a1 1 0 01-.73.33h-.01z"></path>
                                                     </svg>
                                                 </span>
@@ -236,7 +236,7 @@
                                     <button type="button" class="reset-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
                                     </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <div class="dropdown-menu" >
 
                                         <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#republishModal"> Republish Adv </a>
                                         <a class="dropdown-item" href="profile-ads-manager-list-ads-statistics.php"> Adv Statistics</a>
@@ -265,7 +265,7 @@
                                             <span class="toggle-indicator">
                                                 <!-- 	This check mark is optional	 -->
                                                 <span class="checkMark">
-                                                    <svg viewBox="0 0 24 24" id="ghq-svg-check" role="presentation" aria-hidden="true">
+                                                    <svg viewBox="0 0 24 24" role="presentation" aria-hidden="true">
                                                         <path d="M9.86 18a1 1 0 01-.73-.32l-4.86-5.17a1.001 1.001 0 011.46-1.37l4.12 4.39 8.41-9.2a1 1 0 111.48 1.34l-9.14 10a1 1 0 01-.73.33h-.01z"></path>
                                                     </svg>
                                                 </span>
@@ -329,16 +329,12 @@
 
 </div><!-- page-content -->
 
-<?php include 'footer.php'; ?>
-
-
-
 
 
 
 
 <!-- republishModal Modal Start -->
-<div class="modal fade" id="republishModal" tabindex="-1" role="dialog" aria-labelledby="republishModalLabel" aria-hidden="true">
+<div class="modal fade" id="republishModal" tabindex="-1" role="dialog">
     <div class="modal-dialog  " role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -361,7 +357,7 @@
 </div> <!-- republishModal Modal END -->
 
 <!-- budgetModal  Modal Start -->
-<div class="modal fade" id="budgetModal" tabindex="-1" role="dialog" aria-labelledby="budgetModalLabel" aria-hidden="true">
+<div class="modal fade" id="budgetModal" tabindex="-1" role="dialog">
     <div class="modal-dialog  " role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -400,13 +396,13 @@
 
                     <p class=" d-flex mb-1"> Increment Budget </p>
                     <div class="form-group mb-3 relative">
-                        <input type="text" class="form-control" placeholder="2000" id="">
+                        <input type="text" class="form-control" placeholder="2000">
                         <p> Your Budget is :  5000  </p>
                     </div><!-- form-group  -->
 
                     <p class=" d-flex mb-1"> Number Of Target Audience </p>
                     <div class="form-group mb-3 relative">
-                        <input type="text" class="form-control" placeholder="2000" id="">
+                        <input type="text" class="form-control" placeholder="2000" >
                         <p> Target Audience is : 100000  </p>
                     </div><!-- form-group  -->
 
@@ -421,7 +417,7 @@
 </div> <!-- budgetModal Modal END -->
 
 <!-- deleteAdvModal  Modal Start -->
-<div class="modal fade" id="deleteAdvModal" tabindex="-1" role="dialog" aria-labelledby="deleteAdvModalLabel" aria-hidden="true">
+<div class="modal fade" id="deleteAdvModal" tabindex="-1" role="dialog">
     <div class="modal-dialog  " role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -444,7 +440,7 @@
 </div> <!-- deleteAdvModal Modal END -->
 
 <!-- toggleActivationAdvModal  Modal Start -->
-<div class="modal fade" id="toggleActivationAdvModal" tabindex="-1" role="dialog" aria-labelledby="toggleActivationAdvModalLabel" aria-hidden="true">
+<div class="modal fade" id="toggleActivationAdvModal" tabindex="-1">
     <div class="modal-dialog  " role="document">
         <div class="modal-content">
             <div class="modal-header"> 
@@ -464,3 +460,15 @@
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->
 </div> <!-- deleteAdvModal Modal END -->
+
+
+
+
+<?php include 'footer.php'; ?>
+
+
+
+
+
+
+

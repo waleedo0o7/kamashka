@@ -35,14 +35,14 @@
                         <div class="col-md-6">
                             <div class="form-group mb-4">
                                 <label  class=" "> Description (English) </label>
-                                <textarea id="" class="form-control" name="" placeholder="Description (English)"></textarea>
+                                <textarea  class="form-control"  placeholder="Description (English)"></textarea>
                             </div>
                         </div><!-- col-md-6 -->
 
                         <div class="col-md-6">
                             <div class="form-group mb-4">
                                 <label  class=" "> Description (Arabic) </label>
-                                <textarea id="" class="form-control" name="" placeholder="Description (Arabic)"></textarea>
+                                <textarea  class="form-control"  placeholder="Description (Arabic)"></textarea>
                             </div>
                         </div><!-- col-md-6 -->
 
@@ -50,7 +50,7 @@
                         <div class="col-md-6">
                             <div class="form-group mb-4">
                                 <label  class=" "> Select Store Tap </label>
-                                <select class="form-control" id="">
+                                <select class="form-control" >
                                     <option>Kids</option>
                                     <option>category 2</option>
                                     <option>category 3</option>
@@ -95,14 +95,14 @@
                         <div class="col-md-6">
                             <div class="form-group mb-4">
                                 <label  class=" "> Return Policy (English) </label>
-                                <textarea id="" class="form-control" name="" placeholder="Return Policy (English)"></textarea>
+                                <textarea  class="form-control"  placeholder="Return Policy (English)"></textarea>
                             </div>
                         </div><!-- col-md-6 -->
 
                         <div class="col-md-6">
                             <div class="form-group mb-4">
                                 <label  class=" "> Return Policy (Arabic) </label>
-                                <textarea id="" class="form-control" name="" placeholder="Return Policy (Arabic)"></textarea>
+                                <textarea  class="form-control"  placeholder="Return Policy (Arabic)"></textarea>
                             </div>
                         </div><!-- col-md-6 -->
 
@@ -120,14 +120,14 @@
                         <div class="col-md-6">
                             <div class="form-group mb-4">
                                 <label  class=" "> Warranty Information (English) </label>
-                                <textarea id="" class="form-control" name="" placeholder="Warranty Information (English)"></textarea>
+                                <textarea  class="form-control"  placeholder="Warranty Information (English)"></textarea>
                             </div>
                         </div><!-- col-md-6 -->
 
                         <div class="col-md-6">
                             <div class="form-group mb-4">
                                 <label  class=" "> Warranty Information (Arabic) </label>
-                                <textarea id="" class="form-control" name="" placeholder="Warranty Information (Arabic)"></textarea>
+                                <textarea  class="form-control"  placeholder="Warranty Information (Arabic)"></textarea>
                             </div>
                         </div><!-- col-md-6 -->
 
@@ -136,7 +136,7 @@
                         <div class="col-md-12 mb-4">
                             <div class="form-group mb-4">
                                 <label  class=" "> Product Tags </label>
-                                <textarea id="" class="form-control" name="" placeholder="Product Tags"></textarea>
+                                <textarea  class="form-control"  placeholder="Product Tags"></textarea>
                             </div>
                         </div><!-- col-md-12 -->
 
@@ -147,7 +147,7 @@
                         <div class="col-md-6">
                             <div class="form-group mb-4">
                                 <label  class=" "> Select Category </label>
-                                <select class="form-control" id="">
+                                <select class="form-control" >
                                     <option>Electroinc</option>
                                     <option>category 2</option>
                                     <option>category 3</option>
@@ -160,7 +160,7 @@
                         <div class="col-md-6">
                             <div class="form-group mb-4">
                                 <label  class=" "> Select Sub Category </label>
-                                <select class="form-control" id="">
+                                <select class="form-control" >
                                     <option>Mobiles</option>
                                     <option>category 2</option>
                                     <option>category 3</option>
@@ -267,7 +267,7 @@
 
                 <div class="col-md-12 mb-5">
                     <div class="submit-btn-container text-center">
-                        <a href="#" class="btn btn-custom1 text-center pl-5 pr-5 " id=""> Add Product </a>
+                        <a href="#" class="btn btn-custom1 text-center pl-5 pr-5 " > Add Product </a>
                     </div><!-- submit-btn-container -->
                 </div>
             </div><!-- row -->

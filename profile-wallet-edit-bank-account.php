@@ -17,12 +17,12 @@
 
         <div class="form-group mb-4 relative">
             <label  class=" bold"> Full Name </label>
-            <input type="text" class="form-control" placeholder=" Full Name" id="name" required="">
+            <input type="text" class="form-control" placeholder=" Full Name" required="">
         </div><!-- form-group  -->
 
         <div class="form-group mb-4 relative">
             <label  class=" bold"> Civil Id </label>
-            <input type="text" class="form-control" placeholder="Civil Id" id="name" required="">
+            <input type="text" class="form-control" placeholder="Civil Id" required="">
         </div><!-- form-group  -->
 
 
@@ -32,7 +32,7 @@
         </div><!-- form-group  -->
 
         <div class="submit-btn-container">
-            <button href="#" class="btn btn-custom1 w-100 text-center"> Save </button>
+            <button class="btn btn-custom1 w-100 text-center"> Save </button>
         </div>
 
     </div><!-- container -->
