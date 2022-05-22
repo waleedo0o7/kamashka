@@ -1180,6 +1180,17 @@ $(document).ready(function () {
     // profile ads manager list page
     toggleAdvActivationWithModal();
 
+    // create-adv.php
+    uploadImagesWithThumbnails();
+
+    // edit-profile-1.php
+    profileInfoSlider();
+
+    // edit-profile-2.php
+    onErrorGenderValue();
+    calcAge();
+
+
 
 });
 

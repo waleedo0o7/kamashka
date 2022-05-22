@@ -9,23 +9,23 @@
                 <h3 class="bold mb-4"> Create Advertisement </h3>
 
                 <div class="form-group mb-3 relative">
-                    <input type="text" class="form-control" placeholder="Ads Title" id="name" required="">
+                    <input type="text" class="form-control" placeholder="Ads Title"  required="">
                     <span class="invalid-feedback d-none "> This Field Is Required </span>
                 </div><!-- form-group  -->
 
 
                 <div class="form-group mb-3">
-                    <textarea id="about-me" class="form-control" name="" placeholder="Ads Description"></textarea>
+                    <textarea id="about-me" class="form-control"  placeholder="Ads Description"></textarea>
                 </div><!-- form-group -->
 
 
                 <div class="form-group mb-3 upload-with-thumbnails-container">
 
                     <div class="label-and-btn">
-                        <label for="" class=" bold"> Upload Photo Or Video </label>
+                        <label class=" bold"> Upload Photo Or Video </label>
                         <p class="max-limit d-none"> max limit is 3 files </p>
-                        <button class="btn btn-custom2 upload-btn" href="#">  upload </button>
-                        <button class="btn btn-custom2 upload-btn-disabled d-none" href="#">  upload </button>
+                        <button class="btn btn-custom2 upload-btn">  upload </button>
+                        <button class="btn btn-custom2 upload-btn-disabled d-none">  upload </button>
                         <input id="upload" class="upload-with-thumbnails d-none" type="file" accept=".jpg,.jpeg.,.gif,.png,.mov,.mp4" />
                     </div><!-- label-and-btn -->
 
@@ -85,16 +85,16 @@
 
                     <div class="col-md-6">
                         <div class="form-group mb-3 relative">
-                            <label for="" class=" bold"> Your Budget </label>
-                            <input type="text" class="form-control" placeholder="2000 KWD" id="name" required="">
+                            <label  class=" bold"> Your Budget </label>
+                            <input type="text" class="form-control" placeholder="2000 KWD"  required="">
                             <span class="invalid-feedback d-none "> This Field Is Required </span>
                         </div><!-- form-group  -->
                     </div><!-- col-md-6 -->
 
                     <div class="col-md-6">
                         <div class="form-group mb-3 relative">
-                            <label for="" class=" bold"> Number Of Target Audience </label>
-                            <input type="text" class="form-control" placeholder="2000" id="name" required="">
+                            <label  class=" bold"> Number Of Target Audience </label>
+                            <input type="text" class="form-control" placeholder="2000"  required="">
                             <span class="invalid-feedback d-none "> This Field Is Required </span>
                         </div><!-- form-group  -->
                     </div><!-- col-md-6 -->
@@ -112,12 +112,6 @@
         </div><!-- profile-data -->
     </div><!-- profile-content -->
 </div><!-- page-content -->
-
-
-<?php include 'footer.php'; ?>
-
-
-
 
 
 
@@ -148,7 +142,4 @@
 
 
 
-
-<script>
-    uploadImagesWithThumbnails();
-</script>
+<?php include 'footer.php'; ?>

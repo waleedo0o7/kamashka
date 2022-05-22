@@ -17,7 +17,7 @@
                 <div class="image-and-data">
                     <div class="image-container relative">
                         <div class="image text-center ">
-                            <img alt="" id="profile-image" class="img-fluid" src="img/person04.jpg" alt="">
+                            <img alt="" id="profile-image" class="img-fluid" src="img/person04.jpg" >
                         </div><!-- image -->
                         <div class="change-image-container">
                             <i class="icon icon-edit"></i>
@@ -86,7 +86,7 @@
                 <div class="card p-3 mb-3">
                     <div class="form-group">
                         <label for="about-me" class="lead bold"> About Me </label>
-                        <textarea id="about-me" class="form-control" name="" placeholder="About Your Self ..."></textarea>
+                        <textarea id="about-me" class="form-control"  placeholder="About Your Self ..."></textarea>
                     </div><!-- form-group -->
                 </div> <!-- card -->
 
@@ -111,7 +111,7 @@
                 <div class="card p-3 mb-3">
                     <div class="form-group">
                         <label for="about-me" class=""> Country </label>
-                        <select class="custom-select" id="inputGroupSelect01">
+                        <select class="custom-select">
                             <option value="1">kuwait</option>
                             <option value="1">Saudi Arabia</option>
                             <option value="1">United Arab Emirates</option>
@@ -120,7 +120,7 @@
 
                     <div class="form-group">
                         <label for="about-me" class=""> City </label>
-                        <select class="custom-select" id="inputGroupSelect01">
+                        <select class="custom-select">
                             <option value="1">Select City</option>
                             <option value="1">Saudi Arabia</option>
                             <option value="1">United Arab Emirates</option>
@@ -129,7 +129,7 @@
 
                     <div class="form-group">
                         <label for="about-me" class=""> Area </label>
-                        <select class="custom-select" id="inputGroupSelect01">
+                        <select class="custom-select">
                             <option value="1">Select Area</option>
                             <option value="1">Saudi Arabia</option>
                             <option value="1">United Arab Emirates</option>
@@ -143,7 +143,7 @@
                 <div class="card p-3 mb-3">
                     <div class="form-group">
                         <label for="about-me" class=""> Job Category </label>
-                        <select class="custom-select" id="inputGroupSelect01">
+                        <select class="custom-select">
                             <option value="1">Select Category</option>
                             <option value="1">Saudi Arabia</option>
                             <option value="1">United Arab Emirates</option>
@@ -153,7 +153,7 @@
 
                     <div class="form-group">
                         <label for="about-me" class=""> Job Title </label>
-                        <select class="custom-select" id="inputGroupSelect01">
+                        <select class="custom-select">
                             <option value="1">Select Title</option>
                             <option value="1">Saudi Arabia</option>
                             <option value="1">United Arab Emirates</option>
@@ -164,7 +164,7 @@
 
 
                 <div class="submit-btn-container text-center">
-                    <button href="#" class="btn btn-custom1 text-center pl-5 pr-5"> save </button>
+                    <button class="btn btn-custom1 text-center pl-5 pr-5"> save </button>
                 </div> <!-- submit-btn-container -->
 
             </div><!-- profile-data-content -->
@@ -175,7 +175,3 @@
 
 
 <?php include 'footer.php'; ?>
-
-<script>
-    profileInfoSlider();
-</script>

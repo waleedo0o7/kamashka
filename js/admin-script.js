@@ -35,7 +35,7 @@ $(document).ready(function () {
                         <div class="one-item">
                             <div class="select-product-attribute-col">
                                 <div class="form-group mb-4">
-                                    <label for="" class=" "> Select Product Attribute </label>
+                                    <label  class=" "> Select Product Attribute </label>
                                     <select class="form-control mb-2">
                                         <option>Color</option>
                                         <option>Attribute 2</option>
@@ -48,7 +48,7 @@ $(document).ready(function () {
 
                             <div class="attribute-value-col">
                                 <div class="form-group mb-4 attribute-value-wrapper">
-                                    <label for="" class=" "> Attribute Value </label>
+                                    <label  class=" "> Attribute Value </label>
                                     <input type="text" class="form-control mb-2" placeholder="Attribute">
                                 </div>
                             </div>

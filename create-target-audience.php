@@ -33,7 +33,7 @@
                     </div><!-- col-md-6 -->
                     <div class="col-md-6">
                         <select id="select-main-category" class="select-main-category w-100">
-                            <option></option>
+                            <option label="empty"></option>
                             <option value="1">Test 02</option>
                             <option value="1">Test 03</option>
                             <option value="1">Test 04</option>
@@ -44,7 +44,7 @@
 
                     <div class="col-md-6">
 
-                        <label for="target-gender"> Gender </label>
+                        <label> Gender </label>
 
                         <div class="d-flex">
                             <div class="option mr-4">
@@ -77,7 +77,7 @@
 
 
                     <div class="col-md-6 mb-3">
-                        <label for="target-age" class="mb-3"> Age </label>
+                        <label   class="mb-3"> Age </label>
 
                         <div class="slider-range-container">
                             <div id="age-slider-range" class="slider-range"></div>
@@ -100,7 +100,7 @@
                     </div><!-- form-group  -->
 
                     <div class="map-wrapper">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218360.36364995778!2d29.814800765744582!3d31.224034935279008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c49126710fd3%3A0xb4e0cda629ee6bb9!2sAlexandria%2C%20Alexandria%20Governorate!5e0!3m2!1sen!2seg!4v1648074395392!5m2!1sen!2seg" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218360.36364995778!2d29.814800765744582!3d31.224034935279008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c49126710fd3%3A0xb4e0cda629ee6bb9!2sAlexandria%2C%20Alexandria%20Governorate!5e0!3m2!1sen!2seg!4v1648074395392!5m2!1sen!2seg" width="100" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div><!-- map-wrapper -->
 
                 </div><!-- search-location-container -->
@@ -110,7 +110,7 @@
 
                 <!-- keywords V1 -->
                 <div class="form-group mb-3 relative keyword-main-container v1 d-none">
-                    <label for="target-gender"> Keyword </label>
+                    <label > Keyword </label>
 
                     <div class="keyword-input-container">
                         <input type="text" class="form-control mb-2" placeholder="Type Your Keyword" id="add-keyword-input">
@@ -119,7 +119,7 @@
 
                     <div class="keywords-list"></div><!-- keywords-list -->
 
-                    <input type="text" class="form-control d-none" placeholder="all values here" id="keywordsFinal" id="">
+                    <input type="text" class="form-control d-none" placeholder="all values here" id="keywordsFinal" >
 
                 </div><!-- form-group  -->
 
@@ -129,13 +129,13 @@
 
                 <!-- keywords V2 -->
                 <div class="form-group mb-3 relative v2">
-                    <label for="target-gender"> Keywords </label>
+                    <label > Keywords </label>
 
 
                     <div class="tags-input" id="myTags">
                         <span class="autocomplete">
                             <input placeholder="Type Keyword for suggestions..." class="form-control w-100" type="text">
-                            <div class="autocomplete-items"></div>
+                            <!-- <div class="autocomplete-items"></div> -->
                         </span> <!-- autocomplete -->
                         <span class="data">
                             <!-- <span class="tag"><span class="text" _value="Nairobi 047">Nairobi 047</span><span class="close">&times;</span></span>
@@ -158,7 +158,4 @@
     </div><!-- profile-content -->
 </div><!-- page-content -->
 
-
 <?php include 'footer.php'; ?>
-
-<script type="text/javascript" src="tags/tags.js"></script>

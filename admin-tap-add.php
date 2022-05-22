@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group mb-3 relative">
-                        <label for="" class=" bold"> Name (English) </label>
+                        <label  class=" bold"> Name (English) </label>
                         <input type="text" class="form-control" placeholder="Name (English)" id="name" required="">
                         <span class="invalid-feedback d-none "> This Field Is Required </span>
                     </div><!-- form-group  -->
@@ -24,7 +24,7 @@
 
                 <div class="col-md-6">
                     <div class="form-group mb-3 relative">
-                        <label for="" class=" bold"> Name (Arabic) </label>
+                        <label  class=" bold"> Name (Arabic) </label>
                         <input type="text" class="form-control" placeholder="Name (Arabic)" id="name" required="">
                         <span class="invalid-feedback d-none "> This Field Is Required </span>
                     </div><!-- form-group  -->
@@ -32,20 +32,20 @@
 
                 <div class="col-md-6">
                     <div class="form-group mb-3">
-                        <label for="" class=" bold"> Description (English) </label>
+                        <label  class=" bold"> Description (English) </label>
                         <textarea id="" class="form-control" name="" placeholder="Description (English)"></textarea>
                     </div>
                 </div><!-- col-md-6 -->
 
                 <div class="col-md-6">
                     <div class="form-group mb-3">
-                        <label for="" class=" bold"> Description (Arabic) </label>
+                        <label  class=" bold"> Description (Arabic) </label>
                         <textarea id="" class="form-control" name="" placeholder="Description (Arabic)"></textarea>
                     </div>
                 </div><!-- col-md-6 -->
                 <div class="col-md-6">
                     <div class="form-group mb-3">
-                        <label for="" class=" bold"> Tap Icon </label>
+                        <label  class=" bold"> Tap Icon </label>
 
                         <div class="image relative">
                             <img alt="" style="width : 40px" id="profile-image" class="img-fluid" src="img/icon.png" alt="">

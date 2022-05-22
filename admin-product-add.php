@@ -20,28 +20,28 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group mb-4 relative">
-                                <label for="" class=" "> Product Name (English Title) </label>
+                                <label  class=" "> Product Name (English Title) </label>
                                 <input type="text" class="form-control" placeholder="Product Name (English Title)" id="name">
                             </div><!-- form-group  -->
                         </div><!-- col-md-6 -->
 
                         <div class="col-md-6">
                             <div class="form-group mb-4 relative">
-                                <label for="" class=" "> Product Name (Arabic Title) </label>
+                                <label  class=" "> Product Name (Arabic Title) </label>
                                 <input type="text" class="form-control" placeholder="Product Name (Arabic Title)" id="name">
                             </div><!-- form-group  -->
                         </div><!-- col-md-6 -->
 
                         <div class="col-md-6">
                             <div class="form-group mb-4">
-                                <label for="" class=" "> Description (English) </label>
+                                <label  class=" "> Description (English) </label>
                                 <textarea id="" class="form-control" name="" placeholder="Description (English)"></textarea>
                             </div>
                         </div><!-- col-md-6 -->
 
                         <div class="col-md-6">
                             <div class="form-group mb-4">
-                                <label for="" class=" "> Description (Arabic) </label>
+                                <label  class=" "> Description (Arabic) </label>
                                 <textarea id="" class="form-control" name="" placeholder="Description (Arabic)"></textarea>
                             </div>
                         </div><!-- col-md-6 -->
@@ -49,7 +49,7 @@
 
                         <div class="col-md-6">
                             <div class="form-group mb-4">
-                                <label for="" class=" "> Select Store Tap </label>
+                                <label  class=" "> Select Store Tap </label>
                                 <select class="form-control" id="">
                                     <option>Kids</option>
                                     <option>category 2</option>
@@ -62,7 +62,7 @@
 
                         <div class="col-md-6">
                             <div class="form-group mb-4 relative">
-                                <label for="" class=" "> Quantity </label>
+                                <label  class=" "> Quantity </label>
                                 <input type="text" class="form-control" placeholder="Quantity" id="name">
                             </div><!-- form-group  -->
                         </div><!-- col-md-6 -->
@@ -74,14 +74,14 @@
 
                         <div class="col-md-6">
                             <div class="form-group mb-4 relative">
-                                <label for="" class=" "> Old Price (In Kd) </label>
+                                <label  class=" "> Old Price (In Kd) </label>
                                 <input type="text" class="form-control" placeholder="Old Price (In Kd)" id="name">
                             </div><!-- form-group  -->
                         </div><!-- col-md-6 -->
 
                         <div class="col-md-6">
                             <div class="form-group mb-4 relative">
-                                <label for="" class=" "> New Price (In Kd) </label>
+                                <label  class=" "> New Price (In Kd) </label>
                                 <input type="text" class="form-control" placeholder="New Price (In Kd)" id="name">
                             </div><!-- form-group  -->
                         </div><!-- col-md-6 -->
@@ -94,14 +94,14 @@
 
                         <div class="col-md-6">
                             <div class="form-group mb-4">
-                                <label for="" class=" "> Return Policy (English) </label>
+                                <label  class=" "> Return Policy (English) </label>
                                 <textarea id="" class="form-control" name="" placeholder="Return Policy (English)"></textarea>
                             </div>
                         </div><!-- col-md-6 -->
 
                         <div class="col-md-6">
                             <div class="form-group mb-4">
-                                <label for="" class=" "> Return Policy (Arabic) </label>
+                                <label  class=" "> Return Policy (Arabic) </label>
                                 <textarea id="" class="form-control" name="" placeholder="Return Policy (Arabic)"></textarea>
                             </div>
                         </div><!-- col-md-6 -->
@@ -119,14 +119,14 @@
 
                         <div class="col-md-6">
                             <div class="form-group mb-4">
-                                <label for="" class=" "> Warranty Information (English) </label>
+                                <label  class=" "> Warranty Information (English) </label>
                                 <textarea id="" class="form-control" name="" placeholder="Warranty Information (English)"></textarea>
                             </div>
                         </div><!-- col-md-6 -->
 
                         <div class="col-md-6">
                             <div class="form-group mb-4">
-                                <label for="" class=" "> Warranty Information (Arabic) </label>
+                                <label  class=" "> Warranty Information (Arabic) </label>
                                 <textarea id="" class="form-control" name="" placeholder="Warranty Information (Arabic)"></textarea>
                             </div>
                         </div><!-- col-md-6 -->
@@ -135,7 +135,7 @@
 
                         <div class="col-md-12 mb-4">
                             <div class="form-group mb-4">
-                                <label for="" class=" "> Product Tags </label>
+                                <label  class=" "> Product Tags </label>
                                 <textarea id="" class="form-control" name="" placeholder="Product Tags"></textarea>
                             </div>
                         </div><!-- col-md-12 -->
@@ -146,7 +146,7 @@
 
                         <div class="col-md-6">
                             <div class="form-group mb-4">
-                                <label for="" class=" "> Select Category </label>
+                                <label  class=" "> Select Category </label>
                                 <select class="form-control" id="">
                                     <option>Electroinc</option>
                                     <option>category 2</option>
@@ -159,7 +159,7 @@
 
                         <div class="col-md-6">
                             <div class="form-group mb-4">
-                                <label for="" class=" "> Select Sub Category </label>
+                                <label  class=" "> Select Sub Category </label>
                                 <select class="form-control" id="">
                                     <option>Mobiles</option>
                                     <option>category 2</option>
@@ -175,7 +175,7 @@
 
                                 <div class="select-product-attribute-col">
                                     <div class="form-group mb-4">
-                                        <label for="" class=" "> Select Product Attribute </label>
+                                        <label  class=" "> Select Product Attribute </label>
                                         <select class="form-control mb-2">
                                             <option>Color</option>
                                             <option>Attribute 2</option>
@@ -188,7 +188,7 @@
 
                                 <div class="attribute-value-col">
                                     <div class="form-group mb-4 attribute-value-wrapper">
-                                        <label for="" class=" "> Attribute Value </label>
+                                        <label  class=" "> Attribute Value </label>
                                         <input type="text" class="form-control mb-2" placeholder="Attribute">
                                     </div><!-- form-group  -->
                                 </div><!-- attribute-value-col -->

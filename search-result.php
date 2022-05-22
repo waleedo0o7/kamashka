@@ -41,7 +41,7 @@
             <div class="item">
                 <div class="item-details">
                     <div class="details-header">
-                        <img alt="" class="image img-fluid" src="img//brand-logo.png" alt="">
+                        <img alt="" class="image img-fluid" src="img//brand-logo.png">
                         <p class="name m-0 mr-2"> Zara </p>
                         <img alt="" class="img-fluid" src="img/verified.svg">
                         <div class="ml-auto">
@@ -64,7 +64,7 @@
                 </div><!-- item-details -->
                 <div class="item-image-and-shares">
                     <div class="image-wrapper">
-                        <img alt="" class="img-fluid" src="img//brand-slider/02.jpg" alt="">
+                        <img alt="" class="img-fluid" src="img//brand-slider/02.jpg">
                         <div class="shares-wrapper">
                             <div class="views">
                                 <i class="icon icon-eye"></i>
@@ -85,7 +85,7 @@
             <div class="item">
                 <div class="item-details">
                     <div class="details-header">
-                        <img alt="" class="image img-fluid" src="img//brand-logo.png" alt="">
+                        <img alt="" class="image img-fluid" src="img//brand-logo.png">
                         <p class="name m-0 mr-2"> Zara </p>
                         <img alt="" class="img-fluid" src="img/verified.svg">
                         <div class="ml-auto">
@@ -108,7 +108,7 @@
                 </div><!-- item-details -->
                 <div class="item-image-and-shares">
                     <div class="image-wrapper">
-                        <img alt="" class="img-fluid" src="img//brand-slider/03.jpg" alt="">
+                        <img alt="" class="img-fluid" src="img//brand-slider/03.jpg">
                         <div class="shares-wrapper">
                             <div class="views">
                                 <i class="icon icon-eye"></i>
@@ -129,7 +129,7 @@
             <div class="item">
                 <div class="item-details">
                     <div class="details-header">
-                        <img alt="" class="image img-fluid" src="img//brand-logo.png" alt="">
+                        <img alt="" class="image img-fluid" src="img//brand-logo.png">
                         <p class="name m-0 mr-2"> Zara </p>
                         <img alt="" class="img-fluid" src="img/verified.svg">
                         <div class="ml-auto">
@@ -152,7 +152,7 @@
                 </div><!-- item-details -->
                 <div class="item-image-and-shares">
                     <div class="image-wrapper">
-                        <img alt="" class="img-fluid" src="img//brand-slider/01.jpg" alt="">
+                        <img alt="" class="img-fluid" src="img//brand-slider/01.jpg">
                         <div class="shares-wrapper">
                             <div class="views">
                                 <i class="icon icon-eye"></i>

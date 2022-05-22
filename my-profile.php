@@ -31,7 +31,7 @@
 
                             <div class="item">
                                 <div class="card p-3">
-                                    <label for=""> My Job Is 1 : </label>
+                                    <label > My Job Is 1 : </label>
                                     <div class="form-group mb-0 relative">
                                         <input type="text" class="form-control" placeholder="EX: programmer">
                                         <div class="buttons">
@@ -45,7 +45,7 @@
 
                             <div class="item">
                                 <div class="card p-3">
-                                    <label for=""> My Job Is 1 : </label>
+                                    <label > My Job Is 1 : </label>
                                     <div class="form-group mb-0 relative">
                                         <input type="text" class="form-control" placeholder="EX: programmer">
                                         <div class="buttons">
@@ -59,7 +59,7 @@
 
                             <div class="item">
                                 <div class="card p-3">
-                                    <label for=""> My Job Is 1 : </label>
+                                    <label > My Job Is 1 : </label>
                                     <div class="form-group mb-0 relative">
                                         <input type="text" class="form-control" placeholder="EX: programmer">
                                         <div class="buttons">

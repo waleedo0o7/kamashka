@@ -16,18 +16,18 @@
         </div>
 
         <div class="form-group mb-4 relative">
-            <label for="" class=" bold"> Full Name </label>
+            <label  class=" bold"> Full Name </label>
             <input type="text" class="form-control" placeholder=" Full Name" id="name" required="">
         </div><!-- form-group  -->
 
         <div class="form-group mb-4 relative">
-            <label for="" class=" bold"> Civil Id </label>
+            <label  class=" bold"> Civil Id </label>
             <input type="text" class="form-control" placeholder="Civil Id" id="name" required="">
         </div><!-- form-group  -->
 
 
         <div class="form-group mb-4 relative">
-            <label for="" class=" bold"> IBAN Account Number </label>
+            <label  class=" bold"> IBAN Account Number </label>
             <input type="text" class="form-control" placeholder="IBAN Account Number" id="name" required="">
         </div><!-- form-group  -->
 
