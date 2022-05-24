@@ -372,6 +372,10 @@
                     </div><!-- actions -->
                 </div><!-- one-comment -->
 
+
+
+                <div id="comments-has-more-pages"></div>
+
                 <div class="load-more">
                     <div class="loading-container bg-white orange">
                         <div class="loader sm"></div>

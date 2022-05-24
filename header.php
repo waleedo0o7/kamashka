@@ -53,7 +53,7 @@
 <body>
 
     <!-- mobile-menu-light IF HOMEPAGE -->
-    <div class="mobile-menu mobile-menu-light">
+    <div class="mobile-menu ">
         <div class="mobile-icon-container">
             <i class="icon icon-menu-icon"></i>
         </div> <!-- logo -->
@@ -205,9 +205,9 @@
 
         <div class="menu-links-container">
             <ul class="reset-ul">
-                <li> <a href="#"> Advertising </a> </li>
-                <li> <a href="#"> Discover </a> </li>
-                <li> <a href="#"> Shopping </a> </li>
+                <li> <a href="home.php"> Advertising </a> </li>
+                <li> <a href="discover.php"> Discover </a> </li>
+                <li> <a href="shopping.php"> Shopping </a> </li>
             </ul>
         </div><!-- menu-links-container -->
 
@@ -237,9 +237,9 @@
 
                     <div class="main-menu">
                         <ul class="menu">
-                            <li class="menu-item"> <a class="active" href="#"> Advertising </a> </li>
-                            <li class="menu-item"> <a href="#"> Discover </a> </li>
-                            <li class="menu-item"> <a href="#"> Shopping </a> </li>
+                            <li class="menu-item"> <a class="active" href="home.php"> Advertising </a> </li>
+                            <li class="menu-item"> <a href="discover.php"> Discover </a> </li>
+                            <li class="menu-item"> <a href="shopping.php"> Shopping </a> </li>
                         </ul>
                     </div> <!-- main-menu -->
 

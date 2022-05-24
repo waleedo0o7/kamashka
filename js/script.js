@@ -94,16 +94,22 @@ $(function () {
 
 // Homepage getCommentsEvent on scroll
 $(function () {
+
     $(".all-comments").scroll(function () {
 
-        let myDiv = $(".all-comments").get(0);
+        let allComments = $(".all-comments").get(0);
 
-        if (myDiv.offsetHeight + myDiv.scrollTop + 1 >= myDiv.scrollHeight) {
+        if (allComments.offsetHeight + allComments.scrollTop + 1 >= allComments.scrollHeight) {
             alert('load more')
         }
-
     });
+
 });
+
+
+
+
+
 
 // top header cart popup --> increaseCount and decreaseCount START 
 function increaseCount(a, b) {
@@ -1158,24 +1164,70 @@ let toggleAdvActivationWithModal = () => {
 }
 
 
+
+
+// Discover --> intro Slider
+let discoverIntroSlider = () => {
+
+    $('.discover-intro-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
+
+        prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
+        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
+    });
+}
+
+
+// Discover --> Top 10 Followers
+let topTenFollowers = () => {
+
+    $('.top-ten-followers-slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
+
+        prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
+        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
+    });
+}
+
+
+
+
 $(document).ready(function () {
-    // homepage
-    homeMobileBrandSlider();
-    homeBrandSlider();
-    homepageMainSlider();
+
+
+
+    if ($('.homepage').length > 0) {
+        // homepage
+        homeMobileBrandSlider();
+        homeBrandSlider();
+        homepageMainSlider();
+    }
+
+    // discover.php
+    if ($('.discover').length > 0) {
+        discoverIntroSlider();
+        topTenFollowers();
+    }
+
 
     // auth sign up page
-    calcAge();
-    onErrorCountryCodeValues();
-    onErrorGenderValue();
-
+    if ($('.sign-up').length > 0) {
+        calcAge();
+        onErrorCountryCodeValues();
+        onErrorGenderValue();
+    }
 
     // auth activate page
     counterDownTwoMinutes();
 
     // auth change phone number page
     onErrorCountryCodeValues();
-
 
     // profile ads manager list page
     toggleAdvActivationWithModal();
@@ -1189,11 +1241,6 @@ $(document).ready(function () {
     // edit-profile-2.php
     onErrorGenderValue();
     calcAge();
-
-
-    
-
-
 
 });
 
