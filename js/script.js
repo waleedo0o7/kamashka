@@ -92,24 +92,8 @@ $(function () {
     })
 });
 
-// Homepage getCommentsEvent on scroll
-$(function () {
 
-    $(".all-comments").scroll(function () {
-
-        let allComments = $(".all-comments").get(0);
-
-        if (allComments.offsetHeight + allComments.scrollTop + 1 >= allComments.scrollHeight) {
-            alert('load more')
-        }
-    });
-
-});
-
-
-
-
-
+ 
 
 // top header cart popup --> increaseCount and decreaseCount START 
 function increaseCount(a, b) {
@@ -1200,8 +1184,6 @@ let topTenFollowers = () => {
 
 $(document).ready(function () {
 
-
-
     if ($('.homepage').length > 0) {
         // homepage
         homeMobileBrandSlider();
@@ -1215,7 +1197,6 @@ $(document).ready(function () {
         topTenFollowers();
     }
 
-
     // auth sign up page
     if ($('.sign-up').length > 0) {
         calcAge();
@@ -1224,7 +1205,9 @@ $(document).ready(function () {
     }
 
     // auth activate page
-    counterDownTwoMinutes();
+    if ($('.activate').length > 0) {
+        counterDownTwoMinutes();
+    }
 
     // auth change phone number page
     onErrorCountryCodeValues();
