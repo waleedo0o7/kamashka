@@ -1,13 +1,13 @@
 <?php include 'header.php'; ?>
 
-<div class="page-content forget-password">
-    <div class="sign-in-content">
+<div class="page-content auth-page reset-password">
+    <div class="auth-page-content">
         <img alt="" class="mb-0 logo" src="img/password.svg" />
         <h3 class="mb-2 bold"> Reset Password </h3>
 
         <div class="form-container">
  
-            <form class="forget-password-form" action="test.php">            
+            <form class="auth-form" action="test.php">            
 
                 <div class="form-group mb-3 relative">
                     <input type="password" class="form-control input-with-icon" placeholder="New Password" required="">
@@ -40,7 +40,7 @@
 
         </div><!-- form-container -->
 
-    </div><!-- sign-in-content -->
+    </div><!-- auth-page-content -->
 
 </div><!-- page-content -->
 

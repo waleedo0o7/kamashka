@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 
 <div class="page-content sign-up">
-    <div class="sign-in-content">
+    <div class="auth-page-content">
         <img alt="" class="mb-0 logo" src="img/logo-square.png" />
         <h3 class="mb-2 bold"> Sign Up </h3>
 
@@ -104,7 +104,7 @@
             </form><!-- sign-in-form -->
 
         </div><!-- form-container -->
-    </div><!-- sign-in-content -->
+    </div><!-- auth-page-content -->
 </div><!-- page-content -->
 
 

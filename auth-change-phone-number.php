@@ -1,14 +1,14 @@
 <?php include 'header.php'; ?>
 
-<div class="page-content forget-password">
-    <div class="sign-in-content">
+<div class="page-content auth-page change-phone-number">
+    <div class="auth-page-content">
         <img alt="" class="mb-3 logo" src="img/password.svg" />
         <h3 class="mb-2 bold"> Change Phone number </h3>
 
         <div class="form-container">
 
 
-            <form class="forget-password-form" action="test.php">            
+            <form class="auth-form" action="test.php">            
 
  
  
@@ -52,7 +52,7 @@
 
         </div><!-- form-container -->
 
-    </div><!-- sign-in-content -->
+    </div><!-- auth-page-content -->
 
 </div><!-- page-content -->
 

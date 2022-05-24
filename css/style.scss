@@ -854,6 +854,7 @@ body.fullscreen {
                 padding: 0;
                 margin: 0;
                 display: flex;
+                
                 a {
                     color: #fff;
                     padding: 18px 16px;
@@ -863,9 +864,8 @@ body.fullscreen {
                     transition: var(--mainTransition);
                     position: relative;
                     height: 100%;
-                    &:hover {
+                    &:hover , &.active{
                         color: var(--secondaryColor);
-
                         &:after {
                             content: "";
                             position: absolute;
@@ -2446,7 +2446,7 @@ body.fullscreen {
     }
 }
 
-#shareModal {
+#share-modal {
     .share-icons-container {
         .share-icons-list {
             display: flex;
@@ -2546,6 +2546,8 @@ body.fullscreen {
 
         .right-menu-content {
             height: calc(100% - 126px);
+            border-top: 1px solid #f1f1f1;
+            border-bottom: 1px solid #f1f1f1;
 
             .all-comments {
                 display: flex;
@@ -2699,11 +2701,21 @@ body.fullscreen {
                     }
                 }
             }
+
+            .if-not-login {
+                background: #ffffff;
+                text-align: center;
+                min-height: 65px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 16px;
+            }
         }
     }
 }
 
-#reportModal {
+#report-modal {
     .report-container {
         text-align: left;
         width: 70%;
@@ -2714,13 +2726,13 @@ body.fullscreen {
     }
 }
 
-#deleteModal {
+#delete-modal {
     p {
         font-size: 22px;
     }
 }
 
-#createModal {
+#create-modal {
     .one-item {
         padding: 30px;
         a {
@@ -3524,8 +3536,8 @@ i.arrow-icon {
     }
 }
 
-#languageModal,
-#countryModal {
+#language-modal,
+#country-modal {
     .modal-title {
         font-size: 28px;
     }

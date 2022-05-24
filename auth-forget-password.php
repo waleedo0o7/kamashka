@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 
-<div class="page-content forget-password">
-    <div class="sign-in-content">
+<div class="page-content auth-page forget-password">
+    <div class="auth-page-content">
         <img class="mb-0 logo" src="img/logo-square.png" alt="" />
         <h3 class="mb-2 bold"> Forget Password </h3>
 
@@ -85,7 +85,7 @@
 
         </div><!-- form-container -->
 
-    </div><!-- sign-in-content -->
+    </div><!-- auth-page-content -->
 </div><!-- page-content -->
 
 

@@ -50,7 +50,7 @@
                                 <ul class="reset-ul">
                                     <li class="mr-3"> <a class="btn btn-sm btn-custom2 pl-4 pr-4" href=""> Details</a> </li>
                                     <li class="ml-2"> <a class="btn-edit-custom1" href=""> <i class="fa fa-edit"></i> </a> </li>
-                                    <li class="ml-2"> <a class="btn-delete-custom1" href="" data-toggle="modal" data-target="#deleteModal"> <i class="fa fa-trash-alt"></i> </a> </li>
+                                    <li class="ml-2"> <a class="btn-delete-custom1" href="" data-toggle="modal" data-target="#delete-modal"> <i class="fa fa-trash-alt"></i> </a> </li>
                                 </ul>
                             </div><!-- actions -->
                         </div><!-- one-item -->
@@ -68,7 +68,7 @@
                                 <ul class="reset-ul">
                                     <li class="mr-3"> <a class="btn btn-sm btn-custom2 pl-4 pr-4" href=""> Details</a> </li>
                                     <li class="ml-2"> <a class="btn-edit-custom1" href=""> <i class="fa fa-edit"></i> </a> </li>
-                                    <li class="ml-2"> <a class="btn-delete-custom1" href="" data-toggle="modal" data-target="#deleteModal"> <i class="fa fa-trash-alt"></i> </a> </li>
+                                    <li class="ml-2"> <a class="btn-delete-custom1" href="" data-toggle="modal" data-target="#delete-modal"> <i class="fa fa-trash-alt"></i> </a> </li>
                                 </ul>
                             </div><!-- actions -->
                         </div><!-- one-item -->
@@ -117,11 +117,11 @@
 
 
 <!-- Delete Modal Start -->
-<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
+<div class="modal fade" id="delete-modal" tabindex="-1" role="dialog" aria-labelledby="delete-modalLabel" aria-hidden="true">
     <div class="modal-dialog  " role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="deleteModalLabel"> Delete </h5>
+                <h5 class="modal-title" id="delete-modalLabel"> Delete </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i class="icon icon-close"></i>
                 </button>

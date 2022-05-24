@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 
 <div class="page-content activate">
-    <div class="sign-in-content">
+    <div class="auth-page-content">
         <img alt="" class="mb-3 logo" src="img/activate.svg" />
         <h3 class="mb-0 bold"> Activate Number </h3>
 
@@ -40,7 +40,7 @@
                 </a>
             </div><!-- submit-btn-container -->
         </div><!-- page-footer -->
-    </div><!-- sign-in-content -->
+    </div><!-- auth-page-content -->
 </div><!-- page-content -->
 
 <?php include 'footer.php'; ?>

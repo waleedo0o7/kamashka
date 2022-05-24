@@ -93,7 +93,7 @@ $(function () {
 });
 
 
- 
+
 
 // top header cart popup --> increaseCount and decreaseCount START 
 function increaseCount(a, b) {
@@ -369,17 +369,34 @@ let copyTextInShareModal = () => {
 }
 
 // Homepage Copy Comment In Right Menu
-$(document).ready(function () {
-    $(".copy-comment").on("click", function () {
-        let comment = $(this).parents(".one-comment").children(".name-and-comment").children(".comment").text();
-        navigator.clipboard.writeText(comment);
 
-        $(this).parents(".one-comment").children('.comment-copied').fadeIn();
-        setTimeout(() => {
-            $(this).parents(".one-comment").children('.comment-copied').fadeOut();
-        }, 1500);
+let CopyCommentInRightMenu = () => {
+    $(".copy-comment").on("click", function () {
+
+        let textArea = document.createElement("textarea");
+
+        let comment = $(this).parents(".one-comment").children(".name-and-comment").children(".comment").text();
+
+        textArea.value = comment;
+
+        console.log(textArea.value);
+
+        $(".right-menu-header").append(`<input id="input-to-copy" value="${comment}"></input>`)
+
+        $("#input-to-copy").focus();
+        $("#input-to-copy").select();
+        return new Promise((res, rej) => {
+            // here the magic happens
+            document.execCommand('copy') ? res() : rej();
+            $("#input-to-copy").remove();
+        });
     });
-});
+}
+
+
+
+
+
 
 
 // Homepage edit comment  
@@ -1136,7 +1153,7 @@ $(document).ready(function () {
 // profile ads manager list --> show confirmation modal to toggle adv activation
 let toggleAdvActivationWithModal = () => {
     $(".toggle__input").on("click", function () {
-        $('#toggleActivationAdvModal').modal('show');
+        $('#toggle-activation-adv-modal').modal('show');
         this.checked = !this.checked
         console.log(this.checked);
         if (this.checked == false) {
@@ -1182,6 +1199,25 @@ let topTenFollowers = () => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $(document).ready(function () {
 
     if ($('.homepage').length > 0) {
@@ -1189,6 +1225,7 @@ $(document).ready(function () {
         homeMobileBrandSlider();
         homeBrandSlider();
         homepageMainSlider();
+        CopyCommentInRightMenu();
     }
 
     // discover.php
@@ -1210,20 +1247,30 @@ $(document).ready(function () {
     }
 
     // auth change phone number page
-    onErrorCountryCodeValues();
+    if ($('.change-phone-number').length > 0) {
+        onErrorCountryCodeValues();
+    }
 
     // profile ads manager list page
-    toggleAdvActivationWithModal();
+    if ($('.ads-manager-page-list').length > 0) {
+        toggleAdvActivationWithModal();
+    }
 
     // create-adv.php
-    uploadImagesWithThumbnails();
+    if ($('.create-advertisement').length > 0) {
+        uploadImagesWithThumbnails();
+    }
+
 
     // edit-profile-1.php
-    profileInfoSlider();
+    if ($('.edit-profile1').length > 0) {
+        profileInfoSlider();
+    }
 
     // edit-profile-2.php
-    onErrorGenderValue();
-    calcAge();
+    if ($('.edit-profile2').length > 0) {
+        onErrorGenderValue();
+        calcAge();
+    }
 
 });
-

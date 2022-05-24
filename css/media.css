@@ -236,13 +236,13 @@
     max-height: 100% !important;
   }
 
-  #createModal .modal-body .one-item {
+  #create-modal .modal-body .one-item {
     padding: 0;
   }
-  #createModal .modal-body .one-item p {
+  #create-modal .modal-body .one-item p {
     font-size: 18px;
   }
-  #createModal .modal-body .one-item img {
+  #create-modal .modal-body .one-item img {
     height: 140px;
   }
 
@@ -622,17 +622,17 @@
     font-size: 28px;
   }
 
-  #shareModal .image img {
+  #share-modal .image img {
     width: 200px;
   }
-  #shareModal .share-icons-container .share-icons-list .icon {
+  #share-modal .share-icons-container .share-icons-list .icon {
     width: 50px;
     height: 50px;
     font-size: 20px;
     margin: 0 10px;
   }
 
-  #reportModal .report-container {
+  #report-modal .report-container {
     width: 100%;
   }
 

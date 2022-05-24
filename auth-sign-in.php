@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 
 <div class="page-content sign-in">
-    <div class="sign-in-content">
+    <div class="auth-page-content">
         <img alt="" class="mb-0 logo" src="img/logo-square.png" />
         <h3 class="mb-2 bold"> Sign In </h3>
 
@@ -50,7 +50,7 @@
                 to <a href="#"> The Terms </a> and <a href="#"> Privacy Policy </a></p>
         </div><!-- page-footer -->
 
-    </div><!-- sign-in-content -->
+    </div><!-- auth-page-content -->
 </div><!-- page-content -->
 
 <?php include 'footer.php'; ?>

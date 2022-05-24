@@ -161,13 +161,13 @@
                     <ul class="reset-ul">
 
                         <li class="one-item">
-                            <div class="content"> <i class="icon item-icon icon-language"></i> <a href="#" data-toggle="modal" data-target="#languageModal"> Language </a> </div>
-                            <div class="content"> <span class="item-label"> English </span> <a href="#" data-toggle="modal" data-target="#languageModal"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
+                            <div class="content"> <i class="icon item-icon icon-language"></i> <a href="#" data-toggle="modal" data-target="#language-modal"> Language </a> </div>
+                            <div class="content"> <span class="item-label"> English </span> <a href="#" data-toggle="modal" data-target="#language-modal"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
                         <li class="one-item">
-                            <div class="content"> <i class="icon item-icon icon-country"></i> <a href="#" data-toggle="modal" data-target="#countryModal"> Country </a> </div>
-                            <div class="content"> <span class="item-label"> Kuwait </span> <a href="#" data-toggle="modal" data-target="#countryModal"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
+                            <div class="content"> <i class="icon item-icon icon-country"></i> <a href="#" data-toggle="modal" data-target="#country-modal"> Country </a> </div>
+                            <div class="content"> <span class="item-label"> Kuwait </span> <a href="#" data-toggle="modal" data-target="#country-modal"><i class="fa arrow-icon fa-chevron-right"></i> </a></div>
                         </li><!-- one-item -->
 
                         <li class="one-item">
@@ -277,11 +277,11 @@
 
 
 <!-- Language Modal Start -->
-<div class="modal fade" id="languageModal" tabindex="-1" role="dialog" aria-labelledby="languageModalLabel" aria-hidden="true">
+<div class="modal fade" id="language-modal" tabindex="-1" role="dialog" aria-labelledby="language-modalLabel" aria-hidden="true">
     <div class="modal-dialog  " role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="languageModalLabel"> Change Language </h5>
+                <h5 class="modal-title" id="language-modalLabel"> Change Language </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i class="icon icon-close"></i>
                 </button>
@@ -323,11 +323,11 @@
 
 
 <!-- country Modal Start -->
-<div class="modal fade" id="countryModal" tabindex="-1" role="dialog" aria-labelledby="countryModalLabel" aria-hidden="true">
+<div class="modal fade" id="country-modal" tabindex="-1" role="dialog" aria-labelledby="country-modalLabel" aria-hidden="true">
     <div class="modal-dialog  " role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="countryModalLabel"> Change country </h5>
+                <h5 class="modal-title" id="country-modalLabel"> Change country </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i class="icon icon-close"></i>
                 </button>

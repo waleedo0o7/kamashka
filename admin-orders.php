@@ -62,7 +62,7 @@
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="admin-order-details.php"> view order </a>
-                                        <a class="dropdown-item" href="" data-toggle="modal" data-target="#deleteModal"> Confirm </a>
+                                        <a class="dropdown-item" href="" data-toggle="modal" data-target="#delete-modal"> Confirm </a>
                                     </div>
                                 </div> <!-- btn-group -->
                             </div><!-- actions -->
@@ -87,7 +87,7 @@
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#"> Edit </a>
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteModal"> Delete </a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#delete-modal"> Delete </a>
                                     </div>
                                 </div> <!-- btn-group -->
                             </div><!-- actions -->
@@ -114,7 +114,7 @@
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#"> Edit </a>
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteModal"> Delete </a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#delete-modal"> Delete </a>
                                     </div>
                                 </div> <!-- btn-group -->
                             </div><!-- actions -->
@@ -150,7 +150,7 @@
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#"> Edit </a>
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteModal"> Delete </a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#delete-modal"> Delete </a>
                                     </div>
                                 </div> <!-- btn-group -->
                             </div><!-- actions -->
@@ -179,7 +179,7 @@
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#"> Edit </a>
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteModal"> Delete </a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#delete-modal"> Delete </a>
                                     </div>
                                 </div> <!-- btn-group -->
                             </div><!-- actions -->
@@ -208,7 +208,7 @@
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#"> Edit </a>
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteModal"> Delete </a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#delete-modal"> Delete </a>
                                     </div>
                                 </div> <!-- btn-group -->
                             </div><!-- actions -->
@@ -238,7 +238,7 @@
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#"> Edit </a>
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteModal"> Delete </a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#delete-modal"> Delete </a>
                                     </div>
                                 </div> <!-- btn-group -->
                             </div><!-- actions -->
@@ -268,7 +268,7 @@
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#"> Edit </a>
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteModal"> Delete </a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#delete-modal"> Delete </a>
                                     </div>
                                 </div> <!-- btn-group -->
                             </div><!-- actions -->
@@ -297,7 +297,7 @@
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#"> Edit </a>
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteModal"> Delete </a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#delete-modal"> Delete </a>
                                     </div>
                                 </div> <!-- btn-group -->
                             </div><!-- actions -->
@@ -328,7 +328,7 @@
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#"> Edit </a>
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteModal"> Delete </a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#delete-modal"> Delete </a>
                                     </div>
                                 </div> <!-- btn-group -->
                             </div><!-- actions -->
@@ -359,7 +359,7 @@
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#"> Edit </a>
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteModal"> Delete </a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#delete-modal"> Delete </a>
                                     </div>
                                 </div> <!-- btn-group -->
                             </div><!-- actions -->
@@ -390,7 +390,7 @@
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#"> Edit </a>
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteModal"> Delete </a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#delete-modal"> Delete </a>
                                     </div>
                                 </div> <!-- btn-group -->
                             </div><!-- actions -->
@@ -421,7 +421,7 @@
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                         <a class="dropdown-item" href="#"> Edit </a>
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteModal"> Delete </a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#delete-modal"> Delete </a>
                                     </div>
                                 </div> <!-- btn-group -->
                             </div><!-- actions -->
@@ -452,11 +452,11 @@
 </script>
 
 <!-- Delete Modal Start -->
-<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
+<div class="modal fade" id="delete-modal" tabindex="-1" role="dialog" aria-labelledby="delete-modalLabel" aria-hidden="true">
     <div class="modal-dialog  " role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="deleteModalLabel"> Confirm Order </h5>
+                <h5 class="modal-title" id="delete-modalLabel"> Confirm Order </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i class="icon icon-close"></i>
                 </button>

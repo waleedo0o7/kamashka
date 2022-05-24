@@ -19,7 +19,7 @@
                         <p id="copy-link" class="m-0"> 18073D4x </p>
 
                         <div class="icons">
-                            <i class="icon icon-copy mr-2" onclick="copyTextInShareModal()"></i>
+                            <i class="icon icon-copy mr-2" onclick="copyTextInshare-modal()"></i>
                             <!-- <i class="icon icon-share"></i>  -->
                         </div><!-- icons -->
                         

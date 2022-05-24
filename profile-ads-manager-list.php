@@ -41,15 +41,15 @@
                                     <div class="dropdown-menu" >
 
                                         <!--  IF ADV ACTIVE  -->
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#republishModal"> Republish Adv </a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#republish-modal"> Republish Adv </a>
                                         <a class="dropdown-item" href="profile-ads-manager-list-ads-statistics.php"> Adv Statistics</a>
 
                                         <div class="dropdown-divider"></div>
 
                                         <!--  IF ADV FINISHED  -->
                                         <a class="dropdown-item" href="create-adv.php"> Edit Ads</a>
-                                        <a class="dropdown-item" href="" data-toggle="modal" data-target="#budgetModal"> Increase / Decrease Budget</a>
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteAdvModal"> Stop Adv</a>
+                                        <a class="dropdown-item" href="" data-toggle="modal" data-target="#budget-modal"> Increase / Decrease Budget</a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#delete-adv-modal"> Stop Adv</a>
                                         <a class="dropdown-item" href="profile-ads-manager-list-ads-statistics.php"> Adv Statistics</a>
                                     </div>
                                 </div> <!-- btn-group -->
@@ -140,15 +140,15 @@
                                     </button>
                                     <div class="dropdown-menu" >
 
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#republishModal"> Republish Adv </a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#republish-modal"> Republish Adv </a>
                                         <a class="dropdown-item" href="profile-ads-manager-list-ads-statistics.php"> Adv Statistics</a>
 
                                         <div class="dropdown-divider"></div>
 
                                         <a class="dropdown-item" href="create-adv.php"> Edit Ads</a>
-                                        <a class="dropdown-item" href="" data-toggle="modal" data-target="#budgetModal"> Increase / Decrease Budget</a>
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteAdvModal"> Stop Adv</a>
-                                        <a class="dropdown-item " href="" data-toggle="modal" data-target="#toggleActivationAdvModal"> test toggle Activation Adv Modal</a>
+                                        <a class="dropdown-item" href="" data-toggle="modal" data-target="#budget-modal"> Increase / Decrease Budget</a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#delete-adv-modal"> Stop Adv</a>
+                                        <a class="dropdown-item " href="" data-toggle="modal" data-target="#toggle-activation-adv-modal"> test toggle Activation Adv Modal</a>
                                         <a class="dropdown-item" href="profile-ads-manager-list-ads-statistics.php"> Adv Statistics</a>
                                     </div>
                                 </div> <!-- btn-group -->
@@ -238,14 +238,14 @@
                                     </button>
                                     <div class="dropdown-menu" >
 
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#republishModal"> Republish Adv </a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#republish-modal"> Republish Adv </a>
                                         <a class="dropdown-item" href="profile-ads-manager-list-ads-statistics.php"> Adv Statistics</a>
 
                                         <div class="dropdown-divider"></div>
 
                                         <a class="dropdown-item" href="create-adv.php"> Edit Ads</a>
-                                        <a class="dropdown-item" href="" data-toggle="modal" data-target="#budgetModal"> Increase / Decrease Budget</a>
-                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#deleteAdvModal"> Stop Adv</a>
+                                        <a class="dropdown-item" href="" data-toggle="modal" data-target="#budget-modal"> Increase / Decrease Budget</a>
+                                        <a class="dropdown-item danger" href="" data-toggle="modal" data-target="#delete-adv-modal"> Stop Adv</a>
                                         <a class="dropdown-item" href="profile-ads-manager-list-ads-statistics.php"> Adv Statistics</a>
                                     </div>
                                 </div> <!-- btn-group -->
@@ -333,12 +333,12 @@
 
 
 
-<!-- republishModal Modal Start -->
-<div class="modal fade" id="republishModal" tabindex="-1" role="dialog">
+<!-- republish-modal Modal Start -->
+<div class="modal fade" id="republish-modal" tabindex="-1" role="dialog">
     <div class="modal-dialog  " role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <!-- <h5 class="modal-title" id="deleteModalLabel"> Delete </h5> -->
+                <!-- <h5 class="modal-title" id="delete-modalLabel"> Delete </h5> -->
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i class="icon icon-close"></i>
                 </button>
@@ -354,14 +354,14 @@
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->
-</div> <!-- republishModal Modal END -->
+</div> <!-- republish-modal Modal END -->
 
-<!-- budgetModal  Modal Start -->
-<div class="modal fade" id="budgetModal" tabindex="-1" role="dialog">
+<!-- budget-modal  Modal Start -->
+<div class="modal fade" id="budget-modal" tabindex="-1" role="dialog">
     <div class="modal-dialog  " role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <!-- <h5 class="modal-title" id="deleteModalLabel"> Delete </h5> -->
+                <!-- <h5 class="modal-title" id="delete-modalLabel"> Delete </h5> -->
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i class="icon icon-close"></i>
                 </button>
@@ -414,14 +414,14 @@
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->
-</div> <!-- budgetModal Modal END -->
+</div> <!-- budget-modal Modal END -->
 
-<!-- deleteAdvModal  Modal Start -->
-<div class="modal fade" id="deleteAdvModal" tabindex="-1" role="dialog">
+<!-- delete-adv-modal  Modal Start -->
+<div class="modal fade" id="delete-adv-modal" tabindex="-1" role="dialog">
     <div class="modal-dialog  " role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <!-- <h5 class="modal-title" id="deleteAdvModal"> Delete </h5> -->
+                <!-- <h5 class="modal-title" id="delete-adv-modal"> Delete </h5> -->
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <i class="icon icon-close"></i>
                 </button>
@@ -437,10 +437,10 @@
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->
-</div> <!-- deleteAdvModal Modal END -->
+</div> <!-- delete-adv-modal Modal END -->
 
-<!-- toggleActivationAdvModal  Modal Start -->
-<div class="modal fade" id="toggleActivationAdvModal" tabindex="-1">
+<!-- toggle-activation-adv-modal  Modal Start -->
+<div class="modal fade" id="toggle-activation-adv-modal" tabindex="-1">
     <div class="modal-dialog  " role="document">
         <div class="modal-content">
             <div class="modal-header"> 
@@ -459,7 +459,7 @@
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->
-</div> <!-- deleteAdvModal Modal END -->
+</div> <!-- delete-adv-modal Modal END -->
 
 
 

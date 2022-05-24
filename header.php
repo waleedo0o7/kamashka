@@ -72,7 +72,7 @@
                 <img alt="" class="logo" src="img/logo-wide.png">
             </div><!-- logo -->
             <div class="btn-and-close">
-                <a class="btn btn-custom1" data-toggle="modal" data-target="#createModal"> Create </a>
+                <a class="btn btn-custom1" data-toggle="modal" data-target="#create-modal"> Create </a>
                 <i id="closeMobileMenu" class="icon icon-close"></i>
             </div><!-- btn-and-close -->
         </div><!-- menu-header -->
@@ -483,7 +483,7 @@
 
                             </div> <!-- dropdown-menu -->
                         </div> <!-- dropdown -->
-                        <a class="btn btn-custom1 ml-3" data-toggle="modal" data-target="#createModal"> Create </a>
+                        <a class="btn btn-custom1 ml-3" data-toggle="modal" data-target="#create-modal"> Create </a>
                     </div><!-- user-icons -->
                 </div><!-- col-md-6 -->
 
@@ -542,7 +542,7 @@
 
                             </div> <!-- dropdown-menu -->
                         </div> <!-- dropdown -->
-                        <a class="btn btn-custom1 ml-3" data-toggle="modal" data-target="#createModal"> Create </a>
+                        <a class="btn btn-custom1 ml-3" data-toggle="modal" data-target="#create-modal"> Create </a>
                     </div><!-- user-icons -->
                 </div><!-- col-md-6 -->
 
