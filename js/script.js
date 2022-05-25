@@ -1169,12 +1169,12 @@ let toggleAdvActivationWithModal = () => {
 
 // Discover --> intro Slider
 let discoverIntroSlider = () => {
-
     $('.discover-intro-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
         arrows: true,
+        
 
         prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
         nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
@@ -1195,6 +1195,56 @@ let topTenFollowers = () => {
         nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
     });
 }
+
+let shoppingIntroSlider = () => {
+
+    $('.shopping-intro-slider.style-1').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
+        dots: true,
+        prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
+        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
+    });
+
+
+    $('.shopping-intro-slider.style-2').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
+        dots: false,
+        prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
+        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
+    });
+
+
+    $('.shopping-intro-slider.style-3').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
+        dots: true,
+        prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
+        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
+    });
+
+
+
+    $('.shopping-intro-slider.style-4').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
+        dots: true,
+        prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
+        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
+    });
+
+}
+
+
 
 
 
@@ -1220,6 +1270,24 @@ let topTenFollowers = () => {
 
 $(document).ready(function () {
 
+    // discover.php
+    if ($('.discover').length > 0) {
+        discoverIntroSlider();
+        topTenFollowers();
+    }
+    
+    // shopping.php
+    if ($('.shopping').length > 0) {
+        discoverIntroSlider();
+        shoppingIntroSlider();
+    }
+
+
+
+
+
+
+
     if ($('.homepage').length > 0) {
         // homepage
         homeMobileBrandSlider();
@@ -1228,11 +1296,6 @@ $(document).ready(function () {
         CopyCommentInRightMenu();
     }
 
-    // discover.php
-    if ($('.discover').length > 0) {
-        discoverIntroSlider();
-        topTenFollowers();
-    }
 
     // auth sign up page
     if ($('.sign-up').length > 0) {

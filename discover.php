@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 
-<div class="page-content  discover ">
+<div class="page-content main-pages discover">
 
     <div class="intro-slider-wrapper">
 
@@ -680,6 +680,5 @@
     </div><!-- most-profitable-ads -->
 
 </div><!-- page-content -->
-
 
 <?php include 'footer.php'; ?>
