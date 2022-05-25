@@ -371,25 +371,24 @@ let copyTextInShareModal = () => {
 // Homepage Copy Comment In Right Menu
 
 let CopyCommentInRightMenu = () => {
-    $(".copy-comment").on("click", function () {
+    $(document).on("click", ".copy-comment", function () {
 
         let textArea = document.createElement("textarea");
-
         let comment = $(this).parents(".one-comment").children(".name-and-comment").children(".comment").text();
-
         textArea.value = comment;
-
-        console.log(textArea.value);
-
         $(".right-menu-header").append(`<input id="input-to-copy" value="${comment}"></input>`)
-
         $("#input-to-copy").focus();
         $("#input-to-copy").select();
+        $(this).parents(".one-comment").children('.comment-copied').fadeIn();
+        setTimeout(() => {
+            $(this).parents(".one-comment").children('.comment-copied').fadeOut();
+        }, 1500);
         return new Promise((res, rej) => {
             // here the magic happens
             document.execCommand('copy') ? res() : rej();
             $("#input-to-copy").remove();
         });
+
     });
 }
 
@@ -1174,7 +1173,7 @@ let discoverIntroSlider = () => {
         slidesToScroll: 1,
         infinite: true,
         arrows: true,
-        
+
 
         prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
         nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
@@ -1275,7 +1274,7 @@ $(document).ready(function () {
         discoverIntroSlider();
         topTenFollowers();
     }
-    
+
     // shopping.php
     if ($('.shopping').length > 0) {
         discoverIntroSlider();
