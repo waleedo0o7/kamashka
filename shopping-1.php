@@ -62,10 +62,6 @@
 
         <div class="gray-space bg-gray p-3"></div><!-- gray-space -->
 
-
-
-
-        
         <div class="shopping-intro-slider style-4">
             <div class="slider-item">
                 <img class="img-fluid" src="img/sliders004.png" alt="">
@@ -81,9 +77,7 @@
 
         </div> <!-- shopping-intro-slider style-4 -->
 
-
-
-
+        <div class="gray-space bg-gray p-3"></div><!-- gray-space -->
 
     </div><!-- intro-slider-wrapper -->
 

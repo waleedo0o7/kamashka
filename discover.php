@@ -110,10 +110,8 @@
             <div class="top-stories">
                 <div class="row">
 
-
-
                     <div class="col-md-3 ">
-                        <div class="one-item">
+                        <div class="one-item  store-style-1">
                             <div class="store-image">
                                 <a href="#">
                                     <img class="img-fluid" src="img/store01.jpg" alt="">
@@ -132,7 +130,7 @@
 
 
                     <div class="col-md-3 ">
-                        <div class="one-item">
+                        <div class="one-item store-style-1">
                             <div class="store-image">
                                 <a href="#">
                                     <img class="img-fluid" src="img/store02.jpg" alt="">
@@ -152,7 +150,7 @@
 
 
                     <div class="col-md-3 ">
-                        <div class="one-item">
+                        <div class="one-item store-style-1">
                             <div class="store-image">
                                 <a href="#">
                                     <img class="img-fluid" src="img/store01.jpg" alt="">
@@ -171,7 +169,7 @@
 
 
                     <div class="col-md-3 ">
-                        <div class="one-item">
+                        <div class="one-item store-style-1">
                             <div class="store-image">
                                 <a href="#">
                                     <img class="img-fluid" src="img/store02.jpg" alt="">
@@ -191,7 +189,7 @@
 
 
                     <div class="col-md-3 ">
-                        <div class="one-item">
+                        <div class="one-item store-style-1">
                             <div class="store-image">
                                 <a href="#">
                                     <img class="img-fluid" src="img/store01.jpg" alt="">
@@ -210,7 +208,7 @@
 
 
                     <div class="col-md-3 ">
-                        <div class="one-item">
+                        <div class="one-item store-style-1">
                             <div class="store-image">
                                 <a href="#">
                                     <img class="img-fluid" src="img/store02.jpg" alt="">
@@ -230,7 +228,7 @@
 
 
                     <div class="col-md-3 ">
-                        <div class="one-item">
+                        <div class="one-item store-style-1">
                             <div class="store-image">
                                 <a href="#">
                                     <img class="img-fluid" src="img/store01.jpg" alt="">
@@ -249,7 +247,7 @@
 
 
                     <div class="col-md-3 ">
-                        <div class="one-item">
+                        <div class="one-item store-style-1">
                             <div class="store-image">
                                 <a href="#">
                                     <img class="img-fluid" src="img/store02.jpg" alt="">
@@ -622,62 +620,68 @@
 
             </div><!-- top-ten-followers -->
         </div><!-- container -->
-    </div><!-- most-profitable-ads -->
- 
+    </div><!-- top-ten-followers-wrapper -->
+
+    <div class="gray-space bg-gray p-3"></div><!-- gray-space -->
+
     <div class="categories-wrapper bg-gray design-2 pt-5 pb-5">
-        <div class="container pt-3 pb-3 ">
-            <div class="section-headline">
-                <h2 class="bold mb-4"> Categories </h2>
-                <a class="see-all" href="#">
-                    <span>See All</span>
-                    <i class="fa fa-chevron-right"></i>
-                </a>
-            </div><!-- section-headline-wrapper -->
-            <div class="categories">
+        <div class="categories style-1">
+            <div class="container pt-3 pb-3 ">
+                <div class="section-headline">
+                    <h2 class="bold mb-4"> Categories </h2>
+                    <a class="see-all" href="#">
+                        <span>See All</span>
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div><!-- section-headline -->
 
-                <div class="one-category">
-                    <div class="one-category-content">
-                        <img class="img-fluid mb-3" src="img/category01.jpg" alt="">
-                        <a href="#" class="name"> Shoes </a>
-                    </div><!-- one-category-content -->
-                </div><!-- one-category -->
+                <div class="categories-container">
 
-
-                <div class="one-category">
-                    <div class="one-category-content">
-                        <img class="img-fluid mb-3" src="img/category02.jpg" alt="">
-                        <a href="#" class="name"> Decoration </a>
-                    </div><!-- one-category-content -->
-                </div><!-- one-category -->
+                    <div class="one-item category-style-1">
+                        <div class="category-style-1-content">
+                            <img class="img-fluid mb-3" src="img/category01.jpg" alt="">
+                            <a href="#" class="name"> Shoes </a>
+                        </div><!-- category-style-1-content -->
+                    </div><!-- one-item category-style-1 -->
 
 
-                <div class="one-category">
-                    <div class="one-category-content">
-                        <img class="img-fluid mb-3" src="img/category03.jpg" alt="">
-                        <a href="#" class="name"> Mobiles </a>
-                    </div><!-- one-category-content -->
-                </div><!-- one-category -->
+                    <div class="one-item category-style-1">
+                        <div class="category-style-1-content">
+                            <img class="img-fluid mb-3" src="img/category02.jpg" alt="">
+                            <a href="#" class="name"> Decoration </a>
+                        </div><!-- category-style-1-content -->
+                    </div><!-- one-item category-style-1 -->
 
 
-                <div class="one-category">
-                    <div class="one-category-content">
-                        <img class="img-fluid mb-3" src="img/category01.jpg" alt="">
-                        <a href="#" class="name"> Shoes </a>
-                    </div><!-- one-category-content -->
-                </div><!-- one-category -->
+                    <div class="one-item category-style-1">
+                        <div class="category-style-1-content">
+                            <img class="img-fluid mb-3" src="img/category03.jpg" alt="">
+                            <a href="#" class="name"> Mobiles </a>
+                        </div><!-- category-style-1-content -->
+                    </div><!-- one-item category-style-1 -->
 
-                <div class="one-category">
-                    <div class="one-category-content see-all">
-                        <a href="#" class="name">
-                            <i class="fa fa-chevron-right"></i>
-                            <span> See All </span>
-                        </a>
-                    </div><!-- one-category-content -->
-                </div><!-- one-category -->
 
-            </div><!-- top-ten-followers -->
-        </div><!-- container -->
-    </div><!-- most-profitable-ads -->
+                    <div class="one-item category-style-1">
+                        <div class="category-style-1-content">
+                            <img class="img-fluid mb-3" src="img/category01.jpg" alt="">
+                            <a href="#" class="name"> Shoes </a>
+                        </div><!-- category-style-1-content -->
+                    </div><!-- one-item category-style-1 -->
+
+                    <div class="one-item category-style-1">
+                        <div class="category-style-1-content see-all">
+                            <a href="#" class="name">
+                                <i class="fa fa-chevron-right"></i>
+                                <span> See All </span>
+                            </a>
+                        </div><!-- category-style-1-content -->
+                    </div><!-- one-item category-style-1 -->
+
+                </div><!-- categories-container -->
+
+            </div><!-- container -->
+        </div><!-- categories style-1 -->
+    </div><!-- categories-wrapper -->
 
 </div><!-- page-content -->
 

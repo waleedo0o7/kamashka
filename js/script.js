@@ -400,7 +400,7 @@ let CopyCommentInRightMenu = () => {
 
 // Homepage edit comment  
 $(document).ready(function () {
-    $(".edit-comment").on("click", function (event) {
+    $(document).on("click", ".edit-comment", function (event) {
         // $("#add-comment").val(comment);
         // $("#add-comment").focus();
         // $("#add-comment").select();
@@ -408,10 +408,9 @@ $(document).ready(function () {
         $(event.target).closest(".one-comment").children(".name-and-comment").addClass("edit-mood");
     });
 
-    $(".save-comment").on("click", function (event) {
+    $(document).on("click",".save-comment", function (event) {
+
         comment = $(event.target).closest(".one-comment").children(".name-and-comment").children(".edit-container").children("input").val();
-
-
         $(event.target).closest(".one-comment").children(".name-and-comment").removeClass("edit-mood");
         $(event.target).closest(".one-comment").children(".name-and-comment").children(".comment").text(comment)
 
@@ -1164,8 +1163,6 @@ let toggleAdvActivationWithModal = () => {
 }
 
 
-
-
 // Discover --> intro Slider
 let discoverIntroSlider = () => {
     $('.discover-intro-slider').slick({
@@ -1179,7 +1176,6 @@ let discoverIntroSlider = () => {
         nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
     });
 }
-
 
 // Discover --> Top 10 Followers
 let topTenFollowers = () => {
@@ -1243,11 +1239,66 @@ let shoppingIntroSlider = () => {
 
 }
 
+let featuredStoresSlider = () => {
+
+    $('.featured-stores-slider.style-2').slick({
+        centerMode: true,
+        centerPadding: '30%',
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
+        prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
+        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
+    });
+
+    $('.store-products-slider.style-3').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
+        prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
+        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
+    });
 
 
+    $('.store-products-slider.style-4').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
+        prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
+        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
+    });
+    $('.store-products-slider.style-5').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
+        prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
+        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
+    });
+}
 
+let todayOffersSlider = () => {
 
+    $('.today-deals-slider.style-1').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows: true,
 
+        prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
+        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
+    });
+
+    $('.today-deals-slider.style-2').slick({
+        slidesToShow: 6.3,
+        slidesToScroll: 1,
+        infinite: false,
+        arrows: false, 
+    });
+}
 
 
 
@@ -1279,6 +1330,9 @@ $(document).ready(function () {
     if ($('.shopping').length > 0) {
         discoverIntroSlider();
         shoppingIntroSlider();
+        featuredStoresSlider();
+        todayOffersSlider();
+        homeBrandSlider();
     }
 
 
