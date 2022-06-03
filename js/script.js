@@ -408,7 +408,7 @@ $(document).ready(function () {
         $(event.target).closest(".one-comment").children(".name-and-comment").addClass("edit-mood");
     });
 
-    $(document).on("click",".save-comment", function (event) {
+    $(document).on("click", ".save-comment", function (event) {
 
         comment = $(event.target).closest(".one-comment").children(".name-and-comment").children(".edit-container").children("input").val();
         $(event.target).closest(".one-comment").children(".name-and-comment").removeClass("edit-mood");
@@ -1187,7 +1187,18 @@ let topTenFollowers = () => {
         arrows: true,
 
         prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
-        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
+        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>',
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                    centerPadding: '0',
+                }
+            }
+        ]
     });
 }
 
@@ -1249,7 +1260,18 @@ let featuredStoresSlider = () => {
         infinite: true,
         arrows: true,
         prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
-        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
+        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>',
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                    centerPadding: '0',
+                }
+            }
+        ]
     });
 
     $('.store-products-slider.style-3').slick({
@@ -1258,7 +1280,18 @@ let featuredStoresSlider = () => {
         infinite: true,
         arrows: true,
         prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
-        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
+        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>',
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                    centerPadding: '0',
+                }
+            }
+        ]
     });
 
 
@@ -1268,7 +1301,18 @@ let featuredStoresSlider = () => {
         infinite: true,
         arrows: true,
         prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
-        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
+        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>',
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                    centerPadding: '0',
+                }
+            }
+        ]
     });
     $('.store-products-slider.style-5').slick({
         slidesToShow: 5,
@@ -1276,7 +1320,18 @@ let featuredStoresSlider = () => {
         infinite: true,
         arrows: true,
         prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
-        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
+        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>',
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                    centerPadding: '0',
+                }
+            }
+        ]
     });
 }
 
@@ -1287,20 +1342,51 @@ let todayOffersSlider = () => {
         slidesToScroll: 1,
         infinite: true,
         arrows: true,
-
         prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
-        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
+        nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>',
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                    centerPadding: '0',
+                }
+            }
+        ]
     });
 
     $('.today-deals-slider.style-2').slick({
         slidesToShow: 6.3,
         slidesToScroll: 1,
         infinite: false,
-        arrows: false, 
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1.2,
+                    slidesToScroll: 1,
+                    centerMode: false,
+                    centerPadding: '0',
+                }
+            }
+        ]
     });
 }
 
+let toggleAllCategories = () => {
+    $("a.all-categories-btn").on("click", function () {
+        $(".all-categories").addClass("show");
+        $("body").addClass("no-scroll");
+    });
 
+    $("#close-all-categories-btn").on("click", function () {
+        $(".all-categories").removeClass("show");
+        $("body").removeClass("no-scroll");
+    });
+}
 
 
 
@@ -1333,6 +1419,7 @@ $(document).ready(function () {
         featuredStoresSlider();
         todayOffersSlider();
         homeBrandSlider();
+        toggleAllCategories();
     }
 
 

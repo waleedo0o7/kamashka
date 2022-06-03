@@ -24,6 +24,10 @@
   --mainTransition: all 0.2s ease;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .custom-control-lg .custom-control-label::before,
 .custom-control-lg .custom-control-label::after {
   top: 0;
@@ -3663,6 +3667,79 @@ i.arrow-icon:before {
   font-size: 11px;
   margin-left: 5px;
 }
+.main-pages .categories-filter-wrapper {
+  display: flex;
+  background: var(--mainColor);
+  text-transform: capitalize;
+  padding: 20px 0;
+}
+.main-pages .categories-filter-wrapper .container {
+  flex-wrap: wrap;
+  height: auto;
+}
+.main-pages .categories-filter-wrapper a {
+  color: #fff;
+}
+.main-pages .categories-filter-wrapper .delivered-to-wrapper p {
+  color: #fff;
+  padding: 20px 0 0px 0;
+}
+.main-pages .categories-filter-wrapper .all-categories-wrapper {
+  width: 200px;
+}
+.main-pages .categories-filter-wrapper .all-categories-wrapper .all-categories-btn {
+  background: #fff;
+  padding: 8px 4px;
+  color: var(--mainColor);
+  border-radius: 2px;
+}
+.main-pages .categories-filter-wrapper .all-categories-wrapper .all-categories-btn i {
+  color: var(--mainColor);
+  padding: 0 5px;
+}
+.main-pages .categories-filter-wrapper .all-categories-wrapper .all-categories {
+  background: #131a45fc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.main-pages .categories-filter-wrapper .all-categories-wrapper .all-categories.show {
+  display: block;
+}
+.main-pages .categories-filter-wrapper .all-categories-wrapper .all-categories a#close-all-categories-btn {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 28px;
+}
+.main-pages .categories-filter-wrapper .all-categories-wrapper .all-categories h1 {
+  color: #fff;
+  text-align: center;
+  margin: 80px 50px 50px 50px;
+}
+.main-pages .categories-filter-wrapper .all-categories-wrapper .all-categories .one-category {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-transform: capitalize;
+}
+.main-pages .categories-filter-wrapper .all-categories-wrapper .all-categories .one-category img {
+  width: 60px;
+  border-radius: 100px;
+  margin-right: 15px;
+}
+.main-pages .categories-filter-wrapper .categories-inline-wrapper {
+  width: calc(100% - 200px);
+}
+.main-pages .categories-filter-wrapper .categories-inline-wrapper a.one-item {
+  padding: 10px;
+}
 .main-pages .one-item.store-style-1 {
   margin-bottom: 50px;
 }
@@ -3955,7 +4032,7 @@ i.arrow-icon:before {
   height: 100%;
 }
 .main-pages .one-item.category-style-1 .category-style-1-content img {
-  width: 100px;
+  width: 80px;
   display: block;
   text-align: center;
   margin: auto;
@@ -3973,9 +4050,6 @@ i.arrow-icon:before {
   display: inline-flex;
 }
 .main-pages .one-item.category-style-1 .category-style-1-content.see-all {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: var(--secondaryColor);
 }
 .main-pages .one-item.category-style-1 .category-style-1-content.see-all a {
@@ -3991,8 +4065,8 @@ i.arrow-icon:before {
 .main-pages .one-item.category-style-1 .category-style-1-content.see-all .name i.fa.fa-chevron-right {
   background: #fff;
   border: 1px solid var(--secondaryColor);
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4011,7 +4085,7 @@ i.arrow-icon:before {
   height: 100%;
 }
 .main-pages .one-item.category-style-2 .category-style-2-content img {
-  width: 100px;
+  width: 80px;
   display: block;
   text-align: center;
   margin: auto;
@@ -4029,9 +4103,6 @@ i.arrow-icon:before {
   display: inline-flex;
 }
 .main-pages .one-item.category-style-2 .category-style-2-content.see-all {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: var(--secondaryColor);
 }
 .main-pages .one-item.category-style-2 .category-style-2-content.see-all a {
@@ -4047,8 +4118,8 @@ i.arrow-icon:before {
 .main-pages .one-item.category-style-2 .category-style-2-content.see-all .name i.fa.fa-chevron-right {
   background: #fff;
   border: 1px solid var(--secondaryColor);
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4211,6 +4282,7 @@ i.arrow-icon:before {
   width: 100px;
   box-shadow: var(--mainBoxShadow);
   border-radius: 200px;
+  max-width: 100%;
 }
 .main-pages .featured-stories-wrapper .featured-stories .one-item .details .store-info {
   width: 80%;
@@ -4595,6 +4667,62 @@ i.arrow-icon:before {
 }
 .main-pages.shopping .today-deals-wrapper .today-deals.style-4 .today-deals-slider-wrapper {
   position: relative;
+}
+.main-pages.shopping .newsletter-wrapper .newsletter.style1 {
+  background: #515c6f;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.main-pages.shopping .newsletter-wrapper .newsletter.style1 .newsletter-form-wrapper {
+  width: 700px;
+  margin: auto;
+  max-width: 100%;
+}
+.main-pages.shopping .newsletter-wrapper .newsletter.style1 .newsletter-form-wrapper input {
+  border-radius: 0 !important;
+  line-height: 22px;
+  border: 1px solid var(--secondaryColor);
+}
+.main-pages.shopping .newsletter-wrapper .newsletter.style1 .newsletter-form-wrapper a.subscribe-btn {
+  background: var(--secondaryColor);
+  color: #fff;
+  padding: 10px 15px 9px 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.main-pages.shopping .newsletter-wrapper .newsletter.style2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.main-pages.shopping .newsletter-wrapper .newsletter.style2 .newsletter-form-wrapper {
+  width: 700px;
+  margin: auto;
+  max-width: 100%;
+}
+.main-pages.shopping .newsletter-wrapper .newsletter.style2 .newsletter-form-wrapper .form-group.relative {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-pages.shopping .newsletter-wrapper .newsletter.style2 .newsletter-form-wrapper .form-group.relative input {
+  border-radius: 0 !important;
+  line-height: 30px;
+  border: 1px solid transparent;
+  margin-right: 40px;
+  padding: 10px 30px;
+}
+.main-pages.shopping .newsletter-wrapper .newsletter.style2 .newsletter-form-wrapper .form-group.relative .long-text {
+  width: 700px;
+  margin: auto;
+  margin-bottom: 30px;
+  max-width: 100%;
+}
+.main-pages.shopping .newsletter-wrapper .newsletter.style2 .newsletter-form-wrapper .form-group.relative a.subscribe-btn {
+  background: #000;
+  color: #fff;
+  padding: 10px 30px;
+  line-height: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

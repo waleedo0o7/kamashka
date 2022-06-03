@@ -1,6 +1,3 @@
-<?php include 'header.php'; ?>
-
-<div class="page-content main-pages shopping">
 
     <div class="categories-wrapper">
 
@@ -388,7 +385,3 @@
 
 
     </div><!-- newsletter-wrapper -->
-
-</div><!-- page-content -->
-
-<?php include 'footer.php'; ?>
