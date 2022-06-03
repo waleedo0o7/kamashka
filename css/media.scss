@@ -43,8 +43,7 @@
     }
 
     .mobile-menu {
-        position: fixed;
-        z-index: 99;
+        position: absolute;
         width: 100%;
         background: transparent;
         display: flex;
@@ -52,6 +51,7 @@
         align-items: center;
         padding-right: 0px;
         z-index: 9;
+        // background: #FFF;
 
         &.mobile-menu-light {
             .icon {
@@ -774,9 +774,8 @@
                 min-width: 90px;
             }
         }
-
         .one-item.store-style-1 {
-            // margin-bottom: 0px;
+            padding: 15px;
         }
 
         .one-item.product-style-8 {
@@ -904,9 +903,14 @@
 
         &.shopping {
             .featured-stores-wrapper {
-                .featured-stores.style-2 .slider-item .one-item.store-style-1 {
-                    opacity: 1 !important;
+
+                .featured-stores.style-2 {
+                    .slider-item .one-item.store-style-1 {
+                        opacity: 1 !important;
+                        margin: 10px;
+                    }
                 }
+
                 .featured-stores.style-3 {
                     .store-and-products-wrapper {
                         flex-direction: column;
@@ -1004,7 +1008,19 @@
             .newsletter-wrapper {
                 .newsletter.style1,
                 .newsletter.style2 {
-                    padding: 80px 30px;
+                    padding: 40px 10px;
+                    h1.text-center {
+                        font-size: 36px !important;
+                    }
+                }
+
+                .newsletter.style2 .newsletter-form-wrapper .form-group {
+                    input{
+                        margin-right: 10px !important;                                                
+                    }
+                    a.subscribe-btn{
+                        padding: 7px 20px !important;
+                    }
                 }
             }
         }
