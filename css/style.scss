@@ -3928,6 +3928,11 @@ i.arrow-icon {
             width: calc( 100% - 200px );
             a.one-item {
                 padding: 10px;
+                transition: var(--mainTransition);
+                &:hover {
+                    color: var(--secondaryColor);
+                    transition: var(--mainTransition);
+                }
             }
         }
     }

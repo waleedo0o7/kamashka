@@ -3743,6 +3743,11 @@ i.arrow-icon:before {
 }
 .main-pages .categories-filter-wrapper .categories-inline-wrapper a.one-item {
   padding: 10px;
+  transition: var(--mainTransition);
+}
+.main-pages .categories-filter-wrapper .categories-inline-wrapper a.one-item:hover {
+  color: var(--secondaryColor);
+  transition: var(--mainTransition);
 }
 .main-pages .one-item.store-style-1 {
   margin-bottom: 50px;
