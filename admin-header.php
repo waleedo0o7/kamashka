@@ -111,7 +111,7 @@
                     <div class="main-menu ml-auto">
                         <ul class="menu">
                             <li class="menu-item"> <a href="#"> <i class="fa fa-cog mr-2" aria-hidden="true"></i> Settings </a> </li>
-                            <li class="menu-item"> <a href="#"> <i class="fa fa-info mr-2" aria-hidden="true"></i> Help Center </a> </li>
+                            <li class="menu-item"> <a href="#"> <i class="fa fa-globe mr-2" aria-hidden="true"></i> Help Center </a> </li>
                             <li class="menu-item"> <a style="padding: 0;" href="#">
                                     <div class="icon-container">
                                         <button class="reset-btn" type="button" id="notifications-btn" data-toggle="dropdown">

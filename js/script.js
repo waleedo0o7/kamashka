@@ -7,10 +7,14 @@ $("#expand-video").on("click", function () {
 });
 
 // Fancybox options
-$(".fancybox").fancybox({
-    // API options
-    loop: true
-});
+
+if ($('.fancybox').length > 0) {
+    $(".fancybox").fancybox({
+        // API options
+        loop: true
+    });
+}
+
 
 // Header --> toggle mobile icon to show menu
 $(".mobile-menu .icon-menu-icon , #closeMobileMenu ").on("click", function () {
@@ -460,12 +464,8 @@ $(document).on('keydown', function (event) {
 });
 
 
-
-
-
-
 // MY PROFILE --> change image container
-$(document).ready(function () {
+$(document).ready(function () { 
     $(".change-image-container .icon").on("click", function () {
         let image = document.getElementById("profile-image");
         let input = document.getElementById("change-profile-image");

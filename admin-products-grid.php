@@ -12,7 +12,7 @@
                 <div class="d-flex">
                     <h1 class="page-title mr-3"> Products </h1>
                     <input type="search" class="form-control search-product" placeholder="Search For Products">
-                    <a class="products-list" href="admin-products.php"> <i class="fa fa-th-list"></i> </a>
+                    <a class="products-list" href="admin-products.php"> <i class="fa fa-list"></i> </a>
                 </div>
 
                 <a href="admin-product-add.php" class="btn btn-custom1 add-item"> Add Product </a>

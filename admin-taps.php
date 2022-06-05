@@ -4,7 +4,6 @@
 
     <?php include 'admin-sidebar.php' ?>
 
-
     <div class="page-wrapper">
 
 
@@ -575,8 +574,8 @@
                 </div> <!-- delete-container -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 via" > Yes </a>
-                <a href="#" class="btn btn-custom5 via" > No </a>
+                <a href="#" class="btn btn-custom1 via"> Yes </a>
+                <a href="#" class="btn btn-custom5 via"> No </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->

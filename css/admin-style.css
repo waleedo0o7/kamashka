@@ -126,9 +126,11 @@ body {
   margin-bottom: 6px;
   font-size: 16px;
   position: relative;
+  font-weight: bold;
 }
 .page-content.admin .sidebar-wrapper .menu ul li a i {
   margin-right: 7px;
+  font-size: 12px;
 }
 .page-content.admin .sidebar-wrapper .menu ul li a.active {
   color: var(--secondaryColor);
@@ -189,6 +191,9 @@ body {
   left: 520px;
   border: 1px solid #ced4da66;
 }
+.table-wrapper .table-header-wrapper a.products-grid i {
+  line-height: 0;
+}
 .table-wrapper .dataTables_wrapper div.dataTables_filter input {
   background: #fff;
   border-radius: 8px !important;
@@ -209,7 +214,7 @@ body {
   position: absolute;
   top: 12px;
   left: 18px;
-  font-family: "kamashka-font-8" !important;
+  font-family: "kamashka-font" !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -276,6 +281,9 @@ a.products-list {
   border-radius: 5px;
   border: 1px solid #ced4da66;
   margin-left: 10px;
+}
+a.products-list i {
+  line-height: 0;
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover,
@@ -365,15 +373,15 @@ table.dataTable .product-image img {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  padding: 0 15px;
   flex-wrap: wrap;
 }
 .products-attr-wrapper .one-item .select-product-attribute-col {
   width: 50%;
+  padding-right: 15px;
 }
 .products-attr-wrapper .one-item .attribute-value-col {
   width: 45%;
-  padding-left: 30px;
+  padding-left: 15px;
 }
 
 .add-attribute-wrapper {

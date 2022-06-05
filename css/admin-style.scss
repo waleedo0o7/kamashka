@@ -139,9 +139,11 @@ body {
                         margin-bottom: 6px;
                         font-size: 16px;
                         position: relative;
+                        font-weight: bold;
 
                         i {
                             margin-right: 7px;
+                            font-size: 12px;
                         }
 
                         &.active {
@@ -213,6 +215,9 @@ body {
             top: -4px;
             left: 520px;
             border: 1px solid #ced4da66;
+            i{
+                line-height: 0;
+            }
         }
     }
 
@@ -244,7 +249,7 @@ body {
         position: absolute;
         top: 12px;
         left: 18px;
-        font-family: "kamashka-font-8" !important;
+        font-family: "kamashka-font" !important;
         font-style: normal !important;
         font-weight: normal !important;
         font-variant: normal !important;
@@ -320,6 +325,9 @@ a.products-list {
     border-radius: 5px;
     border: 1px solid #ced4da66;
     margin-left: 10px;
+    i{
+        line-height: 0;
+    }
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover,
@@ -409,15 +417,15 @@ table.dataTable .product-image {
         justify-content: flex-start;
         align-items: center;
         width: 100%;
-        padding: 0 15px;
         flex-wrap: wrap;
 
         .select-product-attribute-col {
             width: 50%;
+            padding-right: 15px;
         }
         .attribute-value-col {
             width: 45%;
-            padding-left: 30px;
+            padding-left: 15px;
         }
     }
 }

@@ -10,7 +10,7 @@
 
             <div class="table-header-wrapper">
                 <h1 class="page-title"> Products </h1>
-                <a class="products-grid" href="admin-products-grid.php"> <i class="fa fa-th-list"></i> </a>
+                <a class="products-grid" href="admin-products-grid.php"> <i class="icon icon-icon-cards-view"></i> </a>
                 <a href="admin-product-add.php" class="btn btn-custom1 add-item"> Add Product </a>
             </div><!-- table-wrapper -->
 

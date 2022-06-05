@@ -2,18 +2,18 @@
 
 
 @font-face {
-  font-family: "kamashka-font-8";
-  src: url("fonts/kamashka-font-8.eot");
-  src: url("fonts/kamashka-font-8.eot?#iefix") format("embedded-opentype"),
-      url("fonts/kamashka-font-8.woff") format("woff"), url("fonts/kamashka-font-8.ttf") format("truetype"),
-      url("fonts/kamashka-font-8.svg#kamashka-font-8") format("svg");
+  font-family: "kamashka-font";
+  src: url("fonts/kamashka-font.eot");
+  src: url("fonts/kamashka-font.eot?#iefix") format("embedded-opentype"),
+      url("fonts/kamashka-font.woff") format("woff"), url("fonts/kamashka-font.ttf") format("truetype"),
+      url("fonts/kamashka-font.svg#kamashka-font") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 
 [data-icon]:before {
-  font-family: "kamashka-font-8" !important;
+  font-family: "kamashka-font" !important;
   content: attr(data-icon);
   font-style: normal !important;
   font-weight: normal !important;
@@ -27,7 +27,7 @@
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: "kamashka-font-8" !important;
+  font-family: "kamashka-font" !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -187,3 +187,32 @@
 .icon-country:before {
   content: "\56";
 }
+
+
+
+.icon-my-deals:before {
+  content: "\55";
+}
+.icon-promotion-deals:before {
+  content: "\56";
+}
+.icon-icon-cards-view:before {
+  content: "\57";
+}
+.icon-icon-dashboard:before {
+  content: "\58";
+}
+.icon-icon-invoices:before {
+  content: "\59";
+}
+.icon-icon-photo:before {
+  content: "\5a";
+}
+.icon-icon-products:before {
+  content: "\30";
+}
+.icon-icon-returns:before {
+  content: "\31";
+}
+
+
