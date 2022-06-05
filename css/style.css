@@ -60,6 +60,10 @@
   margin: 0;
 }
 
+.form-check-inline {
+  display: inline-flex !important;
+}
+
 .label-custom1 {
   color: var(--secondaryColor);
   background-color: #ffece2;

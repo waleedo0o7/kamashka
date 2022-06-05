@@ -334,6 +334,10 @@ $(function () {
 });
 
 
+
+
+
+
 let loadMoreOnScroll = () => {
     window.onscroll = function(ev) {
         var pageHeight = Math.max(document.body.scrollHeight, document.body.offsetHeight,  document.documentElement.clientHeight,  document.documentElement.scrollHeight,  document.documentElement.offsetHeight );
@@ -359,3 +363,77 @@ let productSlider = () => {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////// SHIPPING SCRIPT START  ////////////////////
+
+// 
+$(function () {
+    $("#edit-company-banner-btn").on("click", function () {
+        $("#edit-company-banner-input").click();
+    });
+    $("#edit-company-banner-input").on("change", function () {
+        var files = !!this.files ? this.files : [];
+        if (!files.length || !window.FileReader) return; // no file selected, or no FileReader support
+
+        if (/^image/.test(files[0].type)) { // only image file
+            var reader = new FileReader(); // instance of the FileReader
+            reader.readAsDataURL(files[0]); // read the local file
+
+            reader.onloadend = function () { // set image data as background of div
+                $("#company-banner").attr("src", this.result)
+            }
+        }
+
+        $(this).parent().addClass("has-loading");
+
+    });
+});
+
+
+
+$(function () {
+
+    $("#edit-company-logo-btn").on("click", function () {
+        $("#edit-company-logo-input").click();
+    });
+
+    $("#edit-company-logo-input").on("change", function () {
+        var files = !!this.files ? this.files : [];
+        if (!files.length || !window.FileReader) return; // no file selected, or no FileReader support
+
+        if (/^image/.test(files[0].type)) { // only image file
+            var reader = new FileReader(); // instance of the FileReader
+            reader.readAsDataURL(files[0]); // read the local file
+
+            reader.onloadend = function () { // set image data as background of div
+                $("#company-logo").attr("src", this.result)
+            }
+        }
+
+        $(this).parent().addClass("has-loading");
+
+    });
+
+});
+
+
+//////////////////// SHIPPING SCRIPT END  ////////////////////

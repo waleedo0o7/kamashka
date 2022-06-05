@@ -6,7 +6,7 @@
 
     <div class="page-wrapper">
 
-    <h1 class="page-title"> Dashboard </h1>
+    <h1 class="page-title"> Store Management Dashboard </h1>
 
     </div><!-- page-wrapper -->
 </div><!-- page-content -->
