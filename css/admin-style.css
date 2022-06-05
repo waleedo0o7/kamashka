@@ -862,6 +862,13 @@ table.dataTable .product-image img {
   animation: rotate 1s linear infinite;
 }
 
+.page-content.admin.company-profile input.form-control:disabled {
+  background: #5c5c5c;
+  border: none;
+  font-size: 18px !important;
+  text-transform: capitalize;
+  color: #fff;
+}
 .page-content.admin.company-profile .company-banner-and-logo-wrapper {
   position: relative;
   margin-bottom: 120px;

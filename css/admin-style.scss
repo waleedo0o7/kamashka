@@ -980,6 +980,13 @@ table.dataTable .product-image {
 
 
 .page-content.admin.company-profile{
+    input.form-control:disabled {
+        background: #5c5c5c;
+        border: none;
+        font-size: 18px !important;
+        text-transform: capitalize;
+        color: #fff; 
+    }
     .company-banner-and-logo-wrapper{
         position: relative;
         margin-bottom: 120px;

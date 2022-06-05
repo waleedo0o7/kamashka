@@ -25,6 +25,19 @@ $(document).ready(function () {
         }
     });
 
+    $('#users').DataTable({
+        "responsive": true,
+        "bLengthChange": false,
+        "bFilter": true, // search input
+        "bInfo": false, // bottom results info
+        "bAutoWidth": true,
+        language: {
+            search: "", // remove search label
+            searchPlaceholder: "Search For user"
+        }
+    });
+
+
 });
 
 

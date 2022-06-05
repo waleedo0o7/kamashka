@@ -84,11 +84,6 @@
                 </div><!-- col-md-6 -->
 
 
-
-
-
-
-
                 <div class="col-md-6">
                     <div class="form-group mb-4">
                         <label class=" ">City </label>
@@ -110,12 +105,7 @@
                     </div><!-- form-group  -->
                 </div><!-- col-md-6 -->
 
-                <div class="col-md-12 mb-5">
-                    <div class="submit-btn-container text-center">
-                        <a href="#" class="btn btn-custom1 text-center pl-5 pr-5 "> Add Product </a>
-                    </div><!-- submit-btn-container -->
-                </div>
-
+ 
                 <div class="col-md-12 mb-5">
 
                     <div class="search-location-container mb-3 ">
