@@ -13,7 +13,7 @@
             <div class="table-header-wrapper ">
                 <h1 class="page-title"> Orders </h1>
 
-                <div class="fillter-date-wrapper">
+                <div class="filter-date-wrapper">
                     <div class="mr-2 item relative">
                         <input placeholder="From Date" class="form-control" type="text" id="min" name="min">
                         <i class="fa fa-chevron-down"></i>
@@ -24,7 +24,7 @@
                         <i class="fa fa-chevron-down"></i>
                     </div><!-- item -->
 
-                </div><!-- fillter-date-wrapper -->
+                </div><!-- filter-date-wrapper -->
             </div><!-- table-wrapper -->
 
 

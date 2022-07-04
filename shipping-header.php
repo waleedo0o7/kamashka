@@ -52,7 +52,7 @@
     <!-- mobile-menu-home IF HOMEPAGE -->
     <div class="mobile-menu  ">
         <div class="mobile-icon-container">
-            <i class="icon icon-menu-icon"></i>
+            <i class="icon icon-menu-icon-2"></i>
         </div> <!-- logo -->
         <div class="icon">
             <div class="count-container">

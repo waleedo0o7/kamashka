@@ -7,7 +7,7 @@
   --darkGray: #666666;
   --mainBoxShadow: rgba(0, 0, 0, 5%) 0px 1px 1px, rgba(0, 0, 0, 5%) 0px 2px 2px, rgba(0, 0, 0, 5%) 0px 4px 4px,
       rgba(0, 0, 0, 5%) 0px 8px 8px, rgba(0, 0, 0, 5%) 0px 16px 16px;
-  --grayBoxShadow: 0 0 5px #cfcfcf;
+  --grayBoxShadow: 0 0 5px #ededed;
   --mainTransition: all 0.2s ease;
 }
 
@@ -1009,6 +1009,20 @@ div#products_wrapper div#products_filter label input {
   }
   .page-content.admin.product-details-page .page-wrapper > .row .reviews .reviews-wrapper .one-item {
     width: 100%;
+  }
+
+  .profile.product .product-page-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px;
+  }
+  .profile.product .product-page-wrapper .product-details-wrapper, .profile.product .product-page-wrapper .product-slider-wrapper {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .profile.product .product-page-wrapper .product-details-wrapper .reviews .reviews-wrapper .one-item {
+    width: 100% !important;
   }
 }
 

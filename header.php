@@ -38,6 +38,10 @@
 
     <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
 
+
+    <!-- custom icon font -->
+    <link href="https://file.myfontastic.com/PAF7Wy8xpNT3YfH9VPgbya/icons.css" rel="stylesheet">
+
     <!-- Custom Style -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/media.css">
@@ -55,7 +59,7 @@
     <!-- mobile-menu-light IF HOMEPAGE -->
     <div class="mobile-menu ">
         <div class="mobile-icon-container">
-            <i class="icon icon-menu-icon"></i>
+            <i class="icon icon-menu-icon-2"></i>
         </div> <!-- logo -->
         <div class="icon">
             <div class="count-container">
@@ -232,7 +236,7 @@
                     </div> <!-- logo -->
 
                     <div class="menu-icon">
-                        <i id="mobile-icon" class="icon icon-menu-icon"></i>
+                        <i id="mobile-icon" class="icon icon-menu-icon-2"></i>
                     </div> <!-- menu-icon -->
 
                     <div class="main-menu">

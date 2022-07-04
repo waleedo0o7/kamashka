@@ -37,10 +37,13 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
 
-
+    <!-- custom icon font -->
+    <link href="https://file.myfontastic.com/PAF7Wy8xpNT3YfH9VPgbya/icons.css" rel="stylesheet">
+    
 
     <!-- Admin Style -->
     <link rel="stylesheet" type="text/css" href="css/admin-style.css">
+
 
 
     <title> Welcome To Kamashka </title>
@@ -52,7 +55,7 @@
     <!-- mobile-menu-home IF HOMEPAGE -->
     <div class="mobile-menu  ">
         <div class="mobile-icon-container">
-            <i class="icon icon-menu-icon"></i>
+            <i class="icon icon-menu-icon-2"></i>
         </div> <!-- logo -->
         <div class="icon">
             <div class="count-container">

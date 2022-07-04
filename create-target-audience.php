@@ -74,8 +74,6 @@
                         </div><!-- inline-items -->
                     </div> <!-- col-md-6 -->
 
-
-
                     <div class="col-md-6 mb-3">
                         <label   class="mb-3"> Age </label>
 

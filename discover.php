@@ -41,18 +41,18 @@
                     <div class="col-md-6">
                         <div class="one-item">
                             <div class="banner-image">
-                                <a href="#">
+                                <a href="store-profile.php">
                                     <img class="img-fluid" src="img/featured01.png" alt="">
                                 </a>
                             </div> <!-- banner-image -->
                             <div class="details">
                                 <div class="store-logo">
-                                    <a href="#">
+                                    <a href="store-profile.php">
                                         <img src="img/brand-logo.png" alt="">
                                     </a>
                                 </div><!-- store-logo -->
                                 <div class="store-info">
-                                    <a href="#" class="bold"> Nike <img alt="" class="img-fluid" src="img/verified.svg"> </a>
+                                    <a href="store-profile.php" class="bold"> Nike <img alt="" class="img-fluid" src="img/verified.svg"> </a>
                                     </a>
                                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
                                 </div>
@@ -64,18 +64,18 @@
                     <div class="col-md-6">
                         <div class="one-item">
                             <div class="banner-image">
-                                <a href="#">
+                                <a href="store-profile.php">
                                     <img class="img-fluid" src="img/featured01.png" alt="">
                                 </a>
                             </div> <!-- banner-image -->
                             <div class="details">
                                 <div class="store-logo">
-                                    <a href="#">
+                                    <a href="store-profile.php">
                                         <img class="img-fluid" src="img/brand-logo-02.jpg" alt="">
                                     </a>
                                 </div><!-- store-logo -->
                                 <div class="store-info">
-                                    <a href="#" class="bold"> Nike <img alt="" class="img-fluid" src="img/verified.svg"> </a>
+                                    <a href="store-profile.php" class="bold"> Nike <img alt="" class="img-fluid" src="img/verified.svg"> </a>
                                     </a>
                                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
                                 </div>
@@ -113,15 +113,15 @@
                     <div class="col-md-3 ">
                         <div class="one-item  store-style-1">
                             <div class="store-image">
-                                <a href="#">
+                                <a href="store-profile.php">
                                     <img class="img-fluid" src="img/store01.jpg" alt="">
                                 </a>
                             </div> <!-- banner-image -->
                             <div class="logo-and-name">
-                                <a href="#">
+                                <a href="store-profile.php">
                                     <img class="img-fluid logo" src="img/brand-logo.png" alt="">
                                 </a>
-                                <a href="#" class="name"> Nike <img alt="" class="img-fluid" src="img/verified.svg"> </a>
+                                <a href="store-profile.php" class="name"> Nike <img alt="" class="img-fluid" src="img/verified.svg"> </a>
                             </div><!-- logo-and-name -->
                         </div><!-- one-item -->
                     </div><!-- col-md-3 -->

@@ -361,19 +361,19 @@ let loadMoreOnScroll = () => {
 }
 
 // Product Slider
-let productSlider = () => {
-    $(document).ready(function () {
-        $('.product-slider').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: false,
-            arrows: true,
-            dots: true,
-            prevArrow:"<i class='prevArrow fa fa-chevron-right'></i>",
-            nextArrow:"<i class='nextArrow fa fa-chevron-left'></i>"
-        });
-    });
-}
+// let productSlider = () => {
+//     $(document).ready(function () {
+//         $('.product-slider').slick({
+//             slidesToShow: 1,
+//             slidesToScroll: 1,
+//             infinite: false,
+//             arrows: true,
+//             dots: true,
+//             prevArrow:"<i class='prevArrow fa fa-chevron-right'></i>",
+//             nextArrow:"<i class='nextArrow fa fa-chevron-left'></i>"
+//         });
+//     });
+// }
 
 
 

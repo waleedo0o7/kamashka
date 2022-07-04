@@ -3,9 +3,9 @@
 <div class="page-content small-content bg-gray pt-5 search-result-page pb-5">
     <div class="container  bg-gray">
 
-        <h3 class="bold mb-4 d-flex"> Search Result </h3>
+        <h3 class="bold mb-4 d-flex"> Advertising  Search Result </h3>
 
-        <div class="search-fillter-wrapper mb-1">
+        <div class="search-filter-wrapper mb-1">
             <a href="#" class="filter-btn btn btn-custom2 active"> All Gategories </a>
             <a href="#" class="filter-btn btn btn-custom2 "> Beauty </a>
             <a href="#" class="filter-btn btn btn-custom2 "> Games </a>
@@ -16,7 +16,7 @@
             <a href="#" class="filter-btn btn btn-custom2 "> Mobiles </a>
             <a href="#" class="filter-btn btn btn-custom2 "> Fashion </a>
             <a href="#" class="filter-btn btn btn-custom2 "> Games </a>
-        </div><!-- search-fillter-wrapper -->
+        </div><!-- search-filter-wrapper -->
 
 
 
@@ -34,6 +34,9 @@
                     </span>
                 </span> Matched Advertising
             </label>
+
+            <a class="btn btn-custom1 ml-3 white open-filter" data-toggle="modal" data-target="#search-filter-modal"> <i class="icon icon-filter-1"></i> Filter </a>
+
         </div><!-- is-matched-switch-wrapper -->
 
 
@@ -68,11 +71,11 @@
                         <div class="shares-wrapper">
                             <div class="views">
                                 <i class="icon icon-eye"></i>
-                                <strong>  10 KD </strong>
+                                <strong> 10 KD </strong>
                             </div><!-- views -->
                             <div class="shares">
                                 <i class="icon icon-share"></i>
-                                <strong>  30 KD </strong>
+                                <strong> 30 KD </strong>
                             </div><!-- views -->
                         </div><!-- shares-wrapper -->
                     </div><!-- image-wrapper -->
@@ -81,7 +84,7 @@
 
 
 
-            
+
             <div class="item">
                 <div class="item-details">
                     <div class="details-header">
@@ -112,11 +115,11 @@
                         <div class="shares-wrapper">
                             <div class="views">
                                 <i class="icon icon-eye"></i>
-                                <strong>  10 KD </strong>
+                                <strong> 10 KD </strong>
                             </div><!-- views -->
                             <div class="shares">
                                 <i class="icon icon-share"></i>
-                                <strong>  30 KD </strong>
+                                <strong> 30 KD </strong>
                             </div><!-- views -->
                         </div><!-- shares-wrapper -->
                     </div><!-- image-wrapper -->
@@ -125,7 +128,7 @@
 
 
 
-            
+
             <div class="item">
                 <div class="item-details">
                     <div class="details-header">
@@ -156,11 +159,11 @@
                         <div class="shares-wrapper">
                             <div class="views">
                                 <i class="icon icon-eye"></i>
-                                <strong>  10 KD </strong>
+                                <strong> 10 KD </strong>
                             </div><!-- views -->
                             <div class="shares">
                                 <i class="icon icon-share"></i>
-                                <strong>  30 KD </strong>
+                                <strong> 30 KD </strong>
                             </div><!-- views -->
                         </div><!-- shares-wrapper -->
                     </div><!-- image-wrapper -->
@@ -174,5 +177,94 @@
 
     </div><!-- container -->
 </div><!-- page-content -->
+
+<!-- search-filter Modal Start -->
+<div class="modal fade" id="search-filter-modal" tabindex="-1" role="dialog" aria-labelledby="search-filter-modalLabel" aria-hidden="true">
+    <div class="modal-dialog  " role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="search-filter-modalLabel"> filter </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="icon icon-close"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="filters-wrapper">
+
+                    <div class="one-filter">
+                        <label> Gender </label>
+
+                        <div class="d-flex">
+                            <div class="option mr-4">
+                                <label class="option-container">
+                                    <input type="radio" checked="checked" name="target-gender" value="1">
+                                    <span class="checkmark"></span>
+                                    Male
+                                </label>
+                            </div><!-- option -->
+
+
+                            <div class="option mr-4">
+                                <label class="option-container">
+                                    <input type="radio" checked="checked" name="target-gender" value="1">
+                                    <span class="checkmark"></span>
+                                    Female
+                                </label>
+                            </div><!-- option -->
+
+                            <div class="option mr-4">
+                                <label class="option-container">
+                                    <input type="radio" checked="checked" name="target-gender" value="1">
+                                    <span class="checkmark"></span>
+                                    Both
+                                </label>
+                            </div><!-- option -->
+                        </div><!-- inline-items -->
+                    </div><!-- one-filter -->
+
+                    <div class="one-filter">
+                        <label class="mb-3"> Age Range </label>
+                        <div class="slider-range-container">
+                            <div id="age-slider-range" class="slider-range"></div>
+                            <div class="slider-range-values"> 
+                                <p class="m-0"> <span class="start "> 0 </span>  </p>
+                                <p class="m-0"> <span class="end"> 100 </span>   </p>
+                            </div><!-- slider-range-values -->
+
+                            <input class="d-none" id="age-from" placeholder="From age" type="text">
+                            <input class="d-none" id="age-to" placeholder="To age" type="text">
+                        </div><!-- slider-range-container" -->
+                    </div><!-- one-filter -->
+
+                    <div class="one-filter">
+                        <div class="item last-item">
+                            <label class="mb-3"> Share Value </label>
+
+                            <div class="slider-range-container">
+                                <div id="share-slider-range" class="slider-range"></div>
+                                <div class="slider-range-values mb-0">
+                                    <p class="m-0"> <span class="start "> 0 </span> KD</p>
+                                    <p class="m-0"> <span class="end"> 100 </span> KD </p>
+                                </div><!-- slider-range-values -->
+
+                                <input class="d-none" id="share-from" placeholder="From age" type="text">
+                                <input class="d-none" id="share-to" placeholder="To age" type="text">
+                            </div><!-- slider-range-container" -->
+                        </div><!-- item -->
+                    </div><!-- one-filter -->
+
+                </div><!-- filters-wrapper -->
+
+
+
+            </div> <!-- modal-body -->
+            <div class="modal-footer">
+                <a href="#" class="btn btn-custom1"> Apply </a>
+                <a href="#" class="btn btn-custom5"> Reset </a>
+            </div><!-- modal-footer -->
+        </div> <!-- modal-content -->
+    </div> <!-- modal-dialog -->
+</div> <!-- search-filter Modal END -->
+
 
 <?php include 'footer.php'; ?>

@@ -531,7 +531,7 @@
                                             <p class="mb-1"> SHARES </p>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <!-- <div class="images">
+                                                     <div class="images">
                                                         <ul>
                                                             <li> <a href="user-profile.php"> <img alt="" class="img-fluid" src="img/person04.jpg" /></a> </li>
                                                             <li> <a href="user-profile.php"> <img alt="" class="img-fluid" src="img/person02.png" /></a> </li>
@@ -542,12 +542,12 @@
                                                                     <div class="num"> +3K </div>
                                                                 </a> </li>
                                                         </ul>
-                                                    </div> images -->
+                                                    </div> images 
 
-                                                    <div class="empty-state">
+                                                    <!-- <div class="empty-state">
                                                         <h6 class="mb-0"> No Shares Yet </h6>
                                                         <p class="mb-0"> be the first to share this adv</p>
-                                                    </div><!-- empty-state -->
+                                                    </div> empty-state -->
 
                                                 </div><!-- col-md-9 -->
 
@@ -601,36 +601,9 @@
 
                                     <div class="matched-criteria-container">
                                         <div class="dropdown custom-dropdown">
-                                            <button class="dropdown-toggle reset-btn " type="button" data-toggle="dropdown">
+                                            <button class="popup-toggle reset-btn" data-toggle="modal" data-target="#matched-criteria-modal">
                                                 Matched Criteria <i class="fa fa-chevron-down"></i>
                                             </button>
-                                            <div class="dropdown-menu criteria-dropdown-menu pl-3 pr-3">
-                                                <div class="criteria-menu-container">
-                                                    <h5> Matched Criteria <i class="icon icon-close"></i> </h5>
-                                                    <ul class="reset-ul">
-                                                        <li class="criteria-one-item">
-                                                            <img src="img/icon-criteria-location.png" alt="">
-                                                            <p class="success"> Location <i class="fa fa-check "></i> </p>
-                                                        </li><!-- criteria-one-item -->
-                                                        <li class="criteria-one-item">
-                                                            <img src="img/icon-criteria-gender.png" alt="">
-                                                            <p class="success"> Gender <i class="fa fa-check "></i> </p>
-                                                        </li><!-- criteria-one-item -->
-                                                        <li class="criteria-one-item">
-                                                            <img src="img/icon-criteria-age.png" alt="">
-                                                            <p class="success"> Age <i class="fa fa-check "></i> </p>
-                                                        </li><!-- criteria-one-item -->
-                                                        <li class="criteria-one-item">
-                                                            <img src="img/icon-criteria-job.png" alt="">
-                                                            <p class="danger"> Aob <i class="fa fa-times "></i> </p>
-                                                        </li><!-- criteria-one-item -->
-                                                        <li class="criteria-one-item">
-                                                            <img src="img/icon-criteria-interests.png" alt="">
-                                                            <p class="danger"> Interests <i class="fa fa-times "></i> </p>
-                                                        </li><!-- criteria-one-item -->
-                                                    </ul>
-                                                </div><!-- criteria-menu-container -->
-                                            </div> <!-- dropdown-menu -->
                                         </div> <!-- dropdown -->
                                     </div><!-- matched-criteria-container -->
                                 </div> <!-- video-section -->
@@ -997,36 +970,9 @@
 
                                     <div class="matched-criteria-container">
                                         <div class="dropdown custom-dropdown">
-                                            <button class="dropdown-toggle reset-btn " type="button" data-toggle="dropdown">
+                                            <button class="popup-toggle reset-btn " type="button" data-toggle="dropdown">
                                                 Matched Criteria <i class="fa fa-chevron-down"></i>
                                             </button>
-                                            <div class="dropdown-menu criteria-dropdown-menu pl-3 pr-3">
-                                                <div class="criteria-menu-container">
-                                                    <h5> Matched Criteria <i class="icon icon-close"></i> </h5>
-                                                    <ul class="reset-ul">
-                                                        <li class="criteria-one-item">
-                                                            <img src="img/icon-criteria-location.png" alt="">
-                                                            <p class="success"> Location <i class="fa fa-check "></i> </p>
-                                                        </li><!-- criteria-one-item -->
-                                                        <li class="criteria-one-item">
-                                                            <img src="img/icon-criteria-gender.png" alt="">
-                                                            <p class="success"> Gender <i class="fa fa-check "></i> </p>
-                                                        </li><!-- criteria-one-item -->
-                                                        <li class="criteria-one-item">
-                                                            <img src="img/icon-criteria-age.png" alt="">
-                                                            <p class="success"> Age <i class="fa fa-check "></i> </p>
-                                                        </li><!-- criteria-one-item -->
-                                                        <li class="criteria-one-item">
-                                                            <img src="img/icon-criteria-job.png" alt="">
-                                                            <p class="danger"> Aob <i class="fa fa-times "></i> </p>
-                                                        </li><!-- criteria-one-item -->
-                                                        <li class="criteria-one-item">
-                                                            <img src="img/icon-criteria-interests.png" alt="">
-                                                            <p class="danger"> Interests <i class="fa fa-times "></i> </p>
-                                                        </li><!-- criteria-one-item -->
-                                                    </ul>
-                                                </div><!-- criteria-menu-container -->
-                                            </div> <!-- dropdown-menu -->
                                         </div> <!-- dropdown -->
                                     </div><!-- matched-criteria-container -->
                                 </div> <!-- video-section -->
@@ -1246,8 +1192,6 @@
 
             </div><!-- swiper-main-container -->
 
-
-
         </div><!-- homepage-content -->
     </div><!-- container -->
 </div><!-- page-content -->
@@ -1380,6 +1324,108 @@
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->
 </div> <!-- Delete Modal END -->
+
+<!-- Matched Criteria Modal Start -->
+<div class="modal fade" id="matched-criteria-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h6 class="modal-title"> Matched Criteria </h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="icon icon-close"></i>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <div class="modal-container">
+
+                    <div class="all-items">
+                        <div class="item">
+                            <div class="image-and-name">
+                                <img class="image" src="img/icon-criteria-location.png" alt="">
+                                <p class="name"> Location </p>
+                            </div><!-- image-and-name -->
+                            <ul class="values">
+                                <li> Cairo Egypt </li>,
+                                <li> Alexandria Egypt </li>
+                            </ul>
+                        </div><!-- item -->
+
+
+                        <div class="item">
+                            <div class="image-and-name">
+                                <img src="img/icon-criteria-gender.png" alt="">
+                                <p class="name"> Gender </p>
+                            </div><!-- image-and-name -->
+                            <ul class="values">
+                                <li> Males </li>,
+                                <li> Females </li>
+                            </ul>
+                        </div><!-- item -->
+
+
+                        <div class="item">
+                            <div class="image-and-name">
+                                <img src="img/icon-criteria-age.png" alt="">
+                                <p class="name"> Age </p>
+                            </div><!-- image-and-name -->
+                            <ul class="values">
+                                <li> From : <span class="mr-1"> 15 </span> To <span span class="ml-1"> 30 </span> </li>
+                            </ul>
+                        </div><!-- item -->
+
+
+                        <div class="item">
+                            <div class="image-and-name">
+                                <img src="img/icon-criteria-job.png" alt="">
+                                <p class="name"> Job </p>
+                            </div><!-- image-and-name -->
+                            <ul class="values">
+                                <li> Job1 </li>,
+                                <li> Job1 </li>,
+                                <li> Job1 </li>
+                            </ul>
+                        </div><!-- item -->
+
+
+                        <div class="item">
+                            <div class="image-and-name">
+                                <img class="image" src="img/icon-criteria-location.png" alt="">
+                                <p class="name"> Location </p>
+                            </div><!-- image-and-name -->
+                            <ul class="values">
+                                <li> Cairo Egypt </li>
+                                <li> Alexandria Egypt </li>
+                            </ul>
+                        </div><!-- item -->
+
+
+                        <div class="item">
+                            <div class="image-and-name">
+                                <img src="img/icon-criteria-interests.png" alt="">
+                                <p class="name"> Interests </p>
+                            </div><!-- image-and-name -->
+                            <ul class="values">
+                                <li> Fashion </li> ,
+                                <li> Fashion </li> ,
+                                <li> Fashion </li>
+                            </ul>
+                        </div><!-- item -->
+
+
+
+                    </div><!-- all-items -->
+
+                </div> <!-- modal-container -->
+            </div> <!-- modal-body -->
+
+ 
+        </div> <!-- modal-content -->
+    </div> <!-- modal-dialog -->
+</div> <!-- Matched Criteria Modal END -->
+
+
 
 
 

@@ -7,7 +7,7 @@
 
                 <div class="image-container mb-3 mt-5 relative">
                     <div class="image text-center ">
-                        <img alt="" class="img-fluid" src="img/person04.jpg" >
+                        <img alt="" class="img-fluid" src="img/person04.jpg">
                     </div><!-- image -->
                 </div><!-- image-container -->
 
@@ -76,115 +76,182 @@
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="shared-ads" role="tabpanel" aria-labelledby="shared-ads-tab">
 
-
-
                             <div class="shared-ads-wrapper">
 
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/01.jpg" >
+                                        <img alt="" class="img-fluid" src="img/brand-slider/01.jpg">
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
                                     </div><!-- item-content -->
+
+                                    <div class="shares-wrapper">
+                                        <div class="views">
+                                            <i class="icon icon-eye"></i>
+                                            <strong> 10 KD </strong>
+                                        </div><!-- views -->
+                                        <div class="shares">
+                                            <i class="icon icon-share"></i>
+                                            <strong> 30 KD </strong>
+                                        </div><!-- views -->
+                                    </div><!-- shares-wrapper -->
+
                                 </div><!-- one-item -->
 
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/02.jpg" >
+                                        <img alt="" class="img-fluid" src="img/brand-slider/02.jpg">
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
                                     </div><!-- item-content -->
+
+                                    <div class="shares-wrapper">
+                                        <div class="views">
+                                            <i class="icon icon-eye"></i>
+                                            <strong> 10 KD </strong>
+                                        </div><!-- views -->
+                                        <div class="shares">
+                                            <i class="icon icon-share"></i>
+                                            <strong> 30 KD </strong>
+                                        </div><!-- views -->
+                                    </div><!-- shares-wrapper -->
+
                                 </div><!-- one-item -->
 
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/03.jpg" >
+                                        <img alt="" class="img-fluid" src="img/brand-slider/03.jpg">
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
                                     </div><!-- item-content -->
+
+                                    <div class="shares-wrapper">
+                                        <div class="views">
+                                            <i class="icon icon-eye"></i>
+                                            <strong> 10 KD </strong>
+                                        </div><!-- views -->
+                                        <div class="shares">
+                                            <i class="icon icon-share"></i>
+                                            <strong> 30 KD </strong>
+                                        </div><!-- views -->
+                                    </div><!-- shares-wrapper -->
+
                                 </div><!-- one-item -->
 
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/04.jpg" >
+                                        <img alt="" class="img-fluid" src="img/brand-slider/04.jpg">
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
                                     </div><!-- item-content -->
+
+                                    <div class="shares-wrapper">
+                                        <div class="views">
+                                            <i class="icon icon-eye"></i>
+                                            <strong> 10 KD </strong>
+                                        </div><!-- views -->
+                                        <div class="shares">
+                                            <i class="icon icon-share"></i>
+                                            <strong> 30 KD </strong>
+                                        </div><!-- views -->
+                                    </div><!-- shares-wrapper -->
+
                                 </div><!-- one-item -->
 
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/05.jpg" >
+                                        <img alt="" class="img-fluid" src="img/brand-slider/05.jpg">
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
                                     </div><!-- item-content -->
+
+                                    <div class="shares-wrapper">
+                                        <div class="views">
+                                            <i class="icon icon-eye"></i>
+                                            <strong> 10 KD </strong>
+                                        </div><!-- views -->
+                                        <div class="shares">
+                                            <i class="icon icon-share"></i>
+                                            <strong> 30 KD </strong>
+                                        </div><!-- views -->
+                                    </div><!-- shares-wrapper -->
+
                                 </div><!-- one-item -->
 
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/06.jpg" >
+                                        <img alt="" class="img-fluid" src="img/brand-slider/06.jpg">
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
                                     </div><!-- item-content -->
+
+                                    <div class="shares-wrapper">
+                                        <div class="views">
+                                            <i class="icon icon-eye"></i>
+                                            <strong> 10 KD </strong>
+                                        </div><!-- views -->
+                                        <div class="shares">
+                                            <i class="icon icon-share"></i>
+                                            <strong> 30 KD </strong>
+                                        </div><!-- views -->
+                                    </div><!-- shares-wrapper -->
+
                                 </div><!-- one-item -->
 
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/07.jpg" >
+                                        <img alt="" class="img-fluid" src="img/brand-slider/07.jpg">
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
                                     </div><!-- item-content -->
+
+                                    <div class="shares-wrapper">
+                                        <div class="views">
+                                            <i class="icon icon-eye"></i>
+                                            <strong> 10 KD </strong>
+                                        </div><!-- views -->
+                                        <div class="shares">
+                                            <i class="icon icon-share"></i>
+                                            <strong> 30 KD </strong>
+                                        </div><!-- views -->
+                                    </div><!-- shares-wrapper -->
+
                                 </div><!-- one-item -->
 
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/08.jpg" >
+                                        <img alt="" class="img-fluid" src="img/brand-slider/08.jpg">
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
                                     </div><!-- item-content -->
+
+                                    <div class="shares-wrapper">
+                                        <div class="views">
+                                            <i class="icon icon-eye"></i>
+                                            <strong> 10 KD </strong>
+                                        </div><!-- views -->
+                                        <div class="shares">
+                                            <i class="icon icon-share"></i>
+                                            <strong> 30 KD </strong>
+                                        </div><!-- views -->
+                                    </div><!-- shares-wrapper -->
                                 </div><!-- one-item -->
-
-
-
-
-
-
-
-                                <div class="one-item">
-                                    <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/05.jpg" >
-                                        <p> FASHION TREND </p>
-                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
-                                    </div><!-- item-content -->
-                                </div><!-- one-item -->
-
-
-                                <div class="one-item">
-                                    <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/06.jpg" >
-                                        <p> FASHION TREND </p>
-                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
-                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
-                                    </div><!-- item-content -->
-                                </div><!-- one-item -->
-
 
 
 
@@ -194,42 +261,116 @@
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/02.jpg" >
+                                        <img alt="" class="img-fluid" src="img/brand-slider/05.jpg">
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
                                     </div><!-- item-content -->
+
+                                    <div class="shares-wrapper">
+                                        <div class="views">
+                                            <i class="icon icon-eye"></i>
+                                            <strong> 10 KD </strong>
+                                        </div><!-- views -->
+                                        <div class="shares">
+                                            <i class="icon icon-share"></i>
+                                            <strong> 30 KD </strong>
+                                        </div><!-- views -->
+                                    </div><!-- shares-wrapper -->
                                 </div><!-- one-item -->
 
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/03.jpg" >
+                                        <img alt="" class="img-fluid" src="img/brand-slider/06.jpg">
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
                                     </div><!-- item-content -->
+
+                                    <div class="shares-wrapper">
+                                        <div class="views">
+                                            <i class="icon icon-eye"></i>
+                                            <strong> 10 KD </strong>
+                                        </div><!-- views -->
+                                        <div class="shares">
+                                            <i class="icon icon-share"></i>
+                                            <strong> 30 KD </strong>
+                                        </div><!-- views -->
+                                    </div><!-- shares-wrapper -->
+                                </div><!-- one-item -->
+
+
+
+
+
+
+
+
+                                <div class="one-item">
+                                    <div class="item-content">
+                                        <img alt="" class="img-fluid" src="img/brand-slider/02.jpg">
+                                        <p> FASHION TREND </p>
+                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
+                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    </div><!-- item-content -->
+
+                                    <div class="shares-wrapper">
+                                        <div class="views">
+                                            <i class="icon icon-eye"></i>
+                                            <strong> 10 KD </strong>
+                                        </div><!-- views -->
+                                        <div class="shares">
+                                            <i class="icon icon-share"></i>
+                                            <strong> 30 KD </strong>
+                                        </div><!-- views -->
+                                    </div><!-- shares-wrapper -->
                                 </div><!-- one-item -->
 
 
                                 <div class="one-item">
                                     <div class="item-content">
-                                        <img alt="" class="img-fluid" src="img/brand-slider/06.jpg" >
+                                        <img alt="" class="img-fluid" src="img/brand-slider/03.jpg">
                                         <p> FASHION TREND </p>
                                         <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
                                         <div class="bottom-shadow"></div><!-- bottom-shadow -->
                                     </div><!-- item-content -->
+
+                                    <div class="shares-wrapper">
+                                        <div class="views">
+                                            <i class="icon icon-eye"></i>
+                                            <strong> 10 KD </strong>
+                                        </div><!-- views -->
+                                        <div class="shares">
+                                            <i class="icon icon-share"></i>
+                                            <strong> 30 KD </strong>
+                                        </div><!-- views -->
+                                    </div><!-- shares-wrapper -->
+                                </div><!-- one-item -->
+
+
+                                <div class="one-item">
+                                    <div class="item-content">
+                                        <img alt="" class="img-fluid" src="img/brand-slider/06.jpg">
+                                        <p> FASHION TREND </p>
+                                        <a href="home.php"> <i class="fa fa-arrow-right"></i> </a>
+                                        <div class="bottom-shadow"></div><!-- bottom-shadow -->
+                                    </div><!-- item-content -->
+
+                                    <div class="shares-wrapper">
+                                        <div class="views">
+                                            <i class="icon icon-eye"></i>
+                                            <strong> 10 KD </strong>
+                                        </div><!-- views -->
+                                        <div class="shares">
+                                            <i class="icon icon-share"></i>
+                                            <strong> 30 KD </strong>
+                                        </div><!-- views -->
+                                    </div><!-- shares-wrapper -->
                                 </div><!-- one-item -->
 
 
                             </div><!-- shared-ads-wrapper -->
-
-
-
-
-
-
-
 
                         </div><!-- tab-pane -->
                         <div class="tab-pane fade" id="followers" role="tabpanel" aria-labelledby="followers-tab">

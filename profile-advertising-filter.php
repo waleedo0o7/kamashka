@@ -59,8 +59,8 @@
                             <div class="slider-range-container">
                                 <div id="age-slider-range" class="slider-range"></div>
                                 <div class="slider-range-values mb-0">
-                                    <p class="start m-0"> 0 </p>
-                                    <p class="end m-0"> 100 </p>
+                                    <p class="m-0"> <span class="start "> 0 </span> </p>
+                                    <p class="m-0"> <span class="end"> 100 </span> </p>
                                 </div><!-- slider-range-values -->
 
                                 <input class="d-none" id="age-from" placeholder="From age" type="text">
@@ -76,8 +76,8 @@
                             <div class="slider-range-container">
                                 <div id="share-slider-range" class="slider-range"></div>
                                 <div class="slider-range-values mb-0">
-                                    <p class="start m-0"> 0 KD</p>
-                                    <p class="end m-0"> 100 KD </p>
+                                    <p class="m-0"> <span class="start "> 0 </span> KD</p>
+                                    <p class="m-0"> <span class="end"> 100 </span> KD </p>
                                 </div><!-- slider-range-values -->
 
                                 <input class="d-none" id="share-from" placeholder="From age" type="text">

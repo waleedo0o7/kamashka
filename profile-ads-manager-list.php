@@ -383,11 +383,6 @@
                         </div><!-- col-md-4 -->
                     </div><!-- row -->
 
-                    <!--  <div class="slider-range-container slider-range-with-one-axis mb-4">
-                        <div id="sliderrange-one-axis"></div>
-                        <input id="budget" class="d-none" placeholder="budget" type="text">
-                    </div>slider-range-container slider-range-with-one-axis" -->
-
                     <div class="progress budget-progress mb-4">
                         <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>

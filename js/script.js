@@ -1087,8 +1087,8 @@ $(document).ready(() => {
         let startVal = ui.values[0];
         let endVal = ui.values[1];
 
-        $(event.target).parents(".slider-range-container").children(".slider-range-values").children(".start").text(startVal)
-        $(event.target).parents(".slider-range-container").children(".slider-range-values").children(".end").text(endVal);
+        $(event.target).parents(".slider-range-container").children(".slider-range-values").children("p").children(".start").text(startVal)
+        $(event.target).parents(".slider-range-container").children(".slider-range-values").children("p").children(".end").text(endVal);
 
 
         $(event.target).parents(".slider-range-container").children("#age-from").val(startVal)
@@ -1390,11 +1390,30 @@ let toggleAllCategories = () => {
 
 
 
+// Product Slider
+let productSlider = () => {
+    $(document).ready(function () {
+        $('.product-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: false,
+            arrows: true,
+            dots: true,
+            prevArrow:"<i class='nextArrow fa fa-chevron-left'></i>",
+            nextArrow:"<i class='prevArrow fa fa-chevron-right'></i>"
+        });
+    });
+}
 
 
+let openImageSliderLightbox = () => {
+    $(document).ready(function () {
+        $(".actions-wrapper i.icon.icon-expand ").on("click", function(){
+            $(".slick-active .image img").click();
+        })
 
-
-
+    });
+}
 
 
 
@@ -1423,11 +1442,6 @@ $(document).ready(function () {
     }
 
 
-
-
-
-
-
     if ($('.homepage').length > 0) {
         // homepage
         homeMobileBrandSlider();
@@ -1435,7 +1449,6 @@ $(document).ready(function () {
         homepageMainSlider();
         CopyCommentInRightMenu();
     }
-
 
     // auth sign up page
     if ($('.sign-up').length > 0) {
@@ -1477,3 +1490,11 @@ $(document).ready(function () {
     }
 
 });
+
+
+
+
+
+
+
+
