@@ -232,14 +232,14 @@ button.reset-btn {
 }
 
 .btn-custom2 {
-    color: var(--secondaryColor);
+    color: var(--secondaryColor) !important;
     background-color: transparent;
     border-color: var(--secondaryColor);
     padding: 8px 20px;
     border-radius: 8px;
 
     &:hover {
-        color: #fff;
+        color: #fff !important;
         background-color: #d37644;
         border-color: #d37644;
     }
@@ -391,6 +391,7 @@ ul.reset-ul {
         position: relative;
         margin-right: 5px;
         border: 1px solid var(--darkGray);
+        background: #fff;
         &:after {
             content: "";
             position: absolute;
