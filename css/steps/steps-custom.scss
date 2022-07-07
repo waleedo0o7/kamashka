@@ -130,6 +130,7 @@
         width: 100%;
         padding: 20px 0;
         height: fit-content;
+        margin-bottom: 30px;
     }
 
     // .wizard > .content > .body
@@ -221,7 +222,7 @@
     position: relative;
     margin-bottom: 120px;
 
-    i.fa-camera {
+    i.fa-camera , i.icon-edit {
         position: absolute;
         bottom: 0;
         right: 0;
@@ -229,10 +230,14 @@
         padding: 6px;
         font-size: 18px;
         margin: 10px;
-        border-radius: 5px;
-        box-shadow: 0 0 5px #00000024;
-        cursor: pointer;   
-        color: #fa935b; 
+        cursor: pointer;
+        color: #fa935b;
+        border-radius: 200px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .banner-wrapper {
@@ -399,3 +404,33 @@ li.first a span:after{
         }
     }
 }
+
+
+
+
+.create-store-page .wizard > .actions .disabled a, .create-store-page .wizard > .actions .disabled a:hover, .create-store-page .wizard > .actions .disabled a:active {
+    background: #fa935b;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.create-store-page .wizard > .actions {
+    text-align: center;
+    position: fixed;
+    bottom: 0; 
+    background: #e6e7e8a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    // left: calc( 50% - 250px );
+    // width: 500px;
+    width : 100%;
+    left: 0;
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+

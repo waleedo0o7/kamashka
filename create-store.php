@@ -9,7 +9,7 @@
                 <h3 class="bold mb-4 "> Create Store </h3>
 
 
-                <form id="contact" action="#">
+                <form id="create-store" action="#">
                     <div>
 
                         <h3> Basic <br> Information </h3>
@@ -21,7 +21,7 @@
                                     <div class="company-banner-and-logo-wrapper">
                                         <div class="banner-wrapper edit-image-wrapper">
                                             <img id="company-banner" class="img-fluid banner-image" src="img/company-cover-default.png" alt="">
-                                            <i id="edit-company-banner-btn" class="fa fa-camera" aria-hidden="true"></i>
+                                            <i id="edit-company-banner-btn" class="icon-edit" aria-hidden="true"></i>
                                             <div class="loading-container">
                                                 <div class="loader"></div>
                                             </div>
@@ -30,7 +30,7 @@
 
                                         <div class="logo-wrapper  edit-image-wrapper">
                                             <img id="company-logo" class="img-fluid logo-image" src="img/company-logo-default.png" alt="">
-                                            <i id="edit-company-logo-btn" class="fa fa-camera" aria-hidden="true"></i>
+                                            <i id="edit-company-logo-btn" class="icon-edit" aria-hidden="true"></i>
                                             <div class="loading-container">
                                                 <div class="loader"></div>
                                             </div>
@@ -165,7 +165,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group mb-3 relative">
                                         <label class="text-left"> Vat Expiration Date </label>
-                                        <input placeholder="Vat Expiration Date" type="text" name="checkIn" id="datepicker" class="form-control calendar">
+                                        <input placeholder="Vat Expiration Date" type="text" name="checkIn" id="" class="form-control calendar">
                                     </div><!-- form-group  -->
                                 </div><!-- col-md-6 -->
 
@@ -251,7 +251,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group mb-3 relative">
                                         <label class="text-left"> Commercial License Issue Date </label>
-                                        <input placeholder="Commercial License Issue Date" type="text" name="checkIn" id="datepicker" class="form-control calendar">
+                                        <input placeholder="Commercial License Issue Date" type="text" name="checkIn" id="" class="form-control calendar">
                                     </div><!-- form-group  -->
                                 </div><!-- col-md-6 -->
 
@@ -259,7 +259,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group mb-3 relative">
                                         <label class="text-left"> Commercial License Expiry Date </label>
-                                        <input placeholder="Commercial License Expiry Date" type="text" name="checkIn" id="datepicker" class="form-control calendar">
+                                        <input placeholder="Commercial License Expiry Date" type="text" name="checkIn" id="" class="form-control calendar">
                                     </div><!-- form-group  -->
                                 </div><!-- col-md-6 -->
 

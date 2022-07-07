@@ -1521,8 +1521,7 @@ $(document).ready(function () {
 
 // jq steps  start
 
-
-var form = $("#contact");
+var form = $("#create-store");
 
 form.validate({
     errorPlacement: function errorPlacement(error, element) { element.before(error); },
@@ -1532,10 +1531,11 @@ form.validate({
         }
     }
 });
+
 form.children("div").steps({
     headerTag: "h3",
     bodyTag: "section",
-    transitionEffect: "slideLeft",
+    transitionEffect: "fade",
     onStepChanging: function (event, currentIndex, newIndex)
     {
         form.validate().settings.ignore = ":disabled,:hidden";
@@ -1552,20 +1552,7 @@ form.children("div").steps({
     }
 });
 
-
-
 // jq steps  end
-
-
-
-
-
-
-
-
-
-
-
 
 
 

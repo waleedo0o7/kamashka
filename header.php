@@ -4,10 +4,13 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
-    <meta name="your-age-is" content="Your Age Is">
+
+    <!-- <meta name="your-age-is" content="Your Age Is"> -->
 
     <!-- Poppins Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,31 +30,29 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
 
-    <!-- swiper Slider -->
+    <!-- Swiper Slider -->
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
-    <!-- select2 -->
+    <!-- Select2 -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" />
 
     <!-- jquery UI  -->
     <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
 
+    <!-- video js -->
     <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
 
-
-    <!-- custom icon font -->
+    <!-- Custom icon font -->
     <link href="https://file.myfontastic.com/PAF7Wy8xpNT3YfH9VPgbya/icons.css" rel="stylesheet">
+
+    <!-- Create Store -- steps custom css -->
+    <link rel="stylesheet" type="text/css" href="css/steps/steps-custom.css">
 
     <!-- Custom Style -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/media.css">
 
-    
     <title> Welcome To Kamashka </title>
-
-
-    
-    
 
 </head>
 

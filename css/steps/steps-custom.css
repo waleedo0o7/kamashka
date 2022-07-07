@@ -109,6 +109,7 @@
   width: 100%;
   padding: 20px 0;
   height: fit-content;
+  margin-bottom: 30px;
 }
 .create-store-page .wizard > .content > .body ul {
   list-style: disc !important;
@@ -178,7 +179,7 @@
   position: relative;
   margin-bottom: 120px;
 }
-.company-banner-and-logo-wrapper i.fa-camera {
+.company-banner-and-logo-wrapper i.fa-camera, .company-banner-and-logo-wrapper i.icon-edit {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -186,10 +187,14 @@
   padding: 6px;
   font-size: 18px;
   margin: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #00000024;
   cursor: pointer;
   color: #fa935b;
+  border-radius: 200px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .company-banner-and-logo-wrapper .banner-wrapper {
   overflow: hidden;
@@ -337,6 +342,29 @@ li.first a span:after {
   border-radius: 50%;
   border-right-color: #ffffff;
   animation: rotate 1s linear infinite;
+}
+
+.create-store-page .wizard > .actions .disabled a, .create-store-page .wizard > .actions .disabled a:hover, .create-store-page .wizard > .actions .disabled a:active {
+  background: #fa935b;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.create-store-page .wizard > .actions {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  background: #e6e7e8a1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  left: 0;
+}
+.create-store-page .wizard > .actions ul {
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=steps-custom.css.map */

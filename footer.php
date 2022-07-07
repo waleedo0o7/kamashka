@@ -68,19 +68,9 @@
 
     <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-steps/1.1.0/jquery.steps.js"></script>
-
-
-
-    <link rel="stylesheet" type="text/css" href="test/steps-custom.css">
-
-    
-
-
-
     
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
     
     <!-- Fancybox -->
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
