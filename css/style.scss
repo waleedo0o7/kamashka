@@ -838,6 +838,42 @@
 
             .product-details {
                 padding: 20px 20px 0 0;
+                position: relative;
+
+                .fixed-bar-wrapper{
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    background: #fff;
+                    box-shadow: 0 0 30px #dbdbdb;
+                    z-index: 9999;
+                    padding: 10px;
+                    display: none;
+
+                    &.show{
+                        display: block;
+                    }
+
+                    .fixed-bar-content{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+
+                    h1.page-title {
+                        font-size: 24px;
+                        font-weight: bold;
+                    }
+                    .price-and-action {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .price {
+                            margin-right: 15px;
+                        }
+                    }
+                }
 
                 .title-and-price {
                     display: flex;

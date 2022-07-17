@@ -1012,6 +1012,7 @@ $focus-ring: 0px 0px 0px 2px $dark;
                 display: flex;
                 justify-content: flex-start;
                 align-items: center;
+                cursor: pointer;
                 &:hover {
                     background: var(--mainColor);
                     color: var(--secondaryColor);

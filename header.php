@@ -263,7 +263,7 @@
                 </div><!-- col-md-6 -->
 
                 <!-- IF USER LOGIN -->
-                <div class="col-md-5  bottom-items d-none">
+                <div class="col-md-5 bottom-items">
 
                     <div class="count">
                         <div class="count-container">
@@ -494,7 +494,7 @@
                 </div><!-- col-md-6 -->
 
                 <!-- IF USER NOT LOGIN -->
-                <div class="col-md-5  bottom-items">
+                <div class="col-md-5 bottom-items d-none">
 
                     <div class="icons">
 

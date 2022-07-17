@@ -2,6 +2,14 @@ $(function () {
     $('.zoom').zoom();
 });
 
+// toggle fixed bar in product page 
+$(".product-details-wrapper").on( 'scroll', function(){
+    if( $(this).scrollTop() > 180 ) {
+        $(".fixed-bar-wrapper").addClass("show");
+    } else {
+        $(".fixed-bar-wrapper").removeClass("show");
+    }
+});
 
 let canSlide = true;
 

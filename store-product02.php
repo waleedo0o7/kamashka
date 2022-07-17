@@ -488,36 +488,6 @@
 
                     </div><!-- more-from-store -->
 
-
-                    <div class="fixed-bar-wrapper">
-
-                        <div class="container">
-
-                            <div class="fixed-bar-content">
-
-
-                                <h1 class="page-title"> Nike Dri-FIT Long Sleeve </h1>
-
-                                <div class="price-and-action">
-
-
-                                    <div class="price">
-                                        <p class="current-price"> $1500 </p>
-                                        <div class="discount">
-                                            <p class="old-price"> $2000 </p>
-                                            <p class="saved-price"> Save 10% </p>
-                                        </div><!-- discount -->
-                                    </div> <!-- price -->
-
-                                    <a href="#" class="btn btn-custom1"> Add To Cart </a>
-
-                                </div><!-- price-and-action -->
-
-                            </div><!-- fixed-bar-content -->
-                        </div><!-- container -->
-
-                    </div><!-- fixed-bar-wrapper -->
-
                 </div><!-- product-details -->
 
             </div><!-- product-details-wrapper -->
@@ -530,9 +500,9 @@
                     <div class="item">
                         <div class="slider-content">
                             <div class="image">
-                                <a data-fancybox="zara-mobile-gallery" href="img/products/a001.jpg">
+                                <a data-fancybox="zara-mobile-gallery" href="img/products/b001.jpg">
                                     <span class='zoom'>
-                                        <img alt="" class="img-fluid" src="img/products/a001.jpg">
+                                        <img alt="" class="img-fluid" src="img/products/b001.jpg">
                                     </span>
                                 </a>
                             </div><!-- image -->
@@ -544,9 +514,9 @@
                     <div class="item">
                         <div class="slider-content">
                             <div class="image">
-                                <a data-fancybox="zara-mobile-gallery" href="img/products/a002.jpg">
+                                <a data-fancybox="zara-mobile-gallery" href="img/products/b002.jpg">
                                     <span class='zoom'>
-                                        <img alt="" class="img-fluid" src="img/products/a002.jpg">
+                                        <img alt="" class="img-fluid" src="img/products/b002.jpg">
                                     </span>
                                 </a>
                             </div><!-- image -->
@@ -557,9 +527,22 @@
                     <div class="item">
                         <div class="slider-content">
                             <div class="image">
-                                <a data-fancybox="zara-mobile-gallery" href="img/products/a003.jpg">
+                                <a data-fancybox="zara-mobile-gallery" href="img/products/b003.jpg">
                                     <span class='zoom'>
-                                        <img alt="" class="img-fluid" src="img/products/a003.jpg">
+                                        <img alt="" class="img-fluid" src="img/products/b003.jpg">
+                                    </span>
+                                </a>
+                            </div><!-- image -->
+                        </div><!-- slider-content -->
+                    </div> <!-- item -->
+
+
+                    <div class="item">
+                        <div class="slider-content">
+                            <div class="image">
+                                <a data-fancybox="zara-mobile-gallery" href="img/products/b004.jpg">
+                                    <span class='zoom'>
+                                        <img alt="" class="img-fluid" src="img/products/b004.jpg">
                                     </span>
                                 </a>
                             </div><!-- image -->
