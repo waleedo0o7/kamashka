@@ -1,3 +1,8 @@
+$(function () {
+    $('.zoom').zoom();
+});
+
+
 let canSlide = true;
 
 // Homepage --> Toggle Fullscreen Mode
@@ -1396,7 +1401,7 @@ let productSlider = () => {
         $('.product-slider').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
-            infinite: false,
+            infinite: true,
             arrows: true,
             dots: true,
             prevArrow:"<i class='nextArrow fa fa-chevron-left'></i>",

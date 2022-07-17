@@ -98,6 +98,8 @@
     <script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
 
 
+    <!-- zoom JQuery -->
+	<script src='js/jquery.zoom.js'></script>
 
     <!-- Custom JS -->
     <script src="js/script.js"></script>

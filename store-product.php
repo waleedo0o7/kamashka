@@ -2,8 +2,8 @@
 
 <div class="page-content profile product">
     <div class="container">
-
         <div class="product-page-wrapper">
+
             <div class="product-details-wrapper">
 
                 <div class="product-details">
@@ -227,6 +227,7 @@
 
                                 <div class="col-md-3">
                                     <div class="product card p-3 mb-4">
+
                                         <div class="rate-and-like-wrapper">
                                             <div class="rating">
                                                 <span class="fa fa-star"></span> 4.5
@@ -490,17 +491,33 @@
                 </div><!-- product-details -->
 
             </div><!-- product-details-wrapper -->
+
             <div class="product-slider-wrapper">
 
 
                 <div class="product-slider">
 
+                    <div class="item">
+                        <div class="slider-content">
+                            <div class="image">
+                                <a data-fancybox="zara-mobile-gallery" href="img/products/a001.jpg">
+                                    <span class='zoom'>
+                                        <img alt="" class="img-fluid" src="img/products/a001.jpg">
+                                    </span>
+                                </a>
+                            </div><!-- image -->
+                        </div><!-- slider-content -->
+                    </div> <!-- item -->
+
+
 
                     <div class="item">
                         <div class="slider-content">
                             <div class="image">
-                                <a data-fancybox="zara-mobile-gallery" href="img/01.jpg">
-                                    <img alt="" class="img-fluid" src="img/01.jpg">
+                                <a data-fancybox="zara-mobile-gallery" href="img/products/a002.jpg">
+                                    <span class='zoom'>
+                                        <img alt="" class="img-fluid" src="img/products/a002.jpg">
+                                    </span>
                                 </a>
                             </div><!-- image -->
                         </div><!-- slider-content -->
@@ -510,12 +527,15 @@
                     <div class="item">
                         <div class="slider-content">
                             <div class="image">
-                                <a data-fancybox="zara-mobile-gallery" href="img/02.jpg">
-                                    <img alt="" class="img-fluid" src="img/02.jpg">
+                                <a data-fancybox="zara-mobile-gallery" href="img/products/a003.jpg">
+                                    <span class='zoom'>
+                                        <img alt="" class="img-fluid" src="img/products/a003.jpg">
+                                    </span>
                                 </a>
                             </div><!-- image -->
                         </div><!-- slider-content -->
                     </div> <!-- item -->
+
 
                 </div> <!-- product-slider -->
 
@@ -528,17 +548,10 @@
 
 
             </div><!-- product-slider-wrapper -->
-        </div><!-- product-page-wrapper -->
 
+        </div><!-- product-page-wrapper -->
     </div><!-- container -->
 </div><!-- page-content -->
-
-
-
-
-
-
-
 
 <!-- add-review Modal Start -->
 <div class="modal fade" id="add-review-modal" tabindex="-1" role="dialog" aria-labelledby="add-review-modalLabel" aria-hidden="true">
@@ -675,13 +688,7 @@
     </div> <!-- modal-dialog -->
 </div> <!-- search-filter Modal END -->
 
-
-
-
-
-
 <?php include 'footer.php'; ?>
-
 
 <script>
     productSlider();
