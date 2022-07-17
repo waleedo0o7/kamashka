@@ -22,7 +22,8 @@ if ($('.fancybox').length > 0) {
 
 
 // Header --> toggle mobile icon to show menu
-$(".mobile-menu .icon-menu-icon , #closeMobileMenu ").on("click", function () {
+$(".mobile-menu .icon-menu-icon-2 , #closeMobileMenu ").on("click", function () {
+
     $(".mobile-left-menu").toggleClass("show");
 
     let video = $(".swiper-slide-active .mobile-view .video video").get(0);
@@ -489,21 +490,6 @@ $(document).ready(function () {
 });
 
 
-
-
-
-
-
-
-// homepage mobile matched criteria --> init matched criteria slider
-$(document).ready(function () {
-    $('.matched-criteria-slider').slick({
-        slidesToShow: 4.5,
-        slidesToScroll: 1,
-        infinite: false,
-        arrows: false
-    });
-});
 
 
 

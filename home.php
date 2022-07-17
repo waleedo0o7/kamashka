@@ -531,7 +531,7 @@
                                             <p class="mb-1"> SHARES </p>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                     <div class="images">
+                                                    <div class="images">
                                                         <ul>
                                                             <li> <a href="user-profile.php"> <img alt="" class="img-fluid" src="img/person04.jpg" /></a> </li>
                                                             <li> <a href="user-profile.php"> <img alt="" class="img-fluid" src="img/person02.png" /></a> </li>
@@ -542,7 +542,7 @@
                                                                     <div class="num"> +3K </div>
                                                                 </a> </li>
                                                         </ul>
-                                                    </div> images 
+                                                    </div> images
 
                                                     <!-- <div class="empty-state">
                                                         <h6 class="mb-0"> No Shares Yet </h6>
@@ -769,29 +769,13 @@
                                                 </div><!-- buttons -->
 
                                                 <div class="mobile-matched-criteria">
-                                                    <h5 class="mb-3"> Matched Criteria</h5>
-                                                    <div class="matched-criteria-slider">
-                                                        <div class="criteria-one-item">
-                                                            <img src="img/icon-criteria-location.png" alt="">
-                                                            <p class="success"> Location <i class="fa fa-check "></i> </p>
-                                                        </div><!-- criteria-one-item -->
-                                                        <div class="criteria-one-item">
-                                                            <img src="img/icon-criteria-gender.png" alt="">
-                                                            <p class="success"> Gender <i class="fa fa-check "></i> </p>
-                                                        </div><!-- criteria-one-item -->
-                                                        <div class="criteria-one-item">
-                                                            <img src="img/icon-criteria-age.png" alt="">
-                                                            <p class="success"> Age <i class="fa fa-check "></i> </p>
-                                                        </div><!-- criteria-one-item -->
-                                                        <div class="criteria-one-item">
-                                                            <img src="img/icon-criteria-job.png" alt="">
-                                                            <p class="danger"> Aob <i class="fa fa-times "></i> </p>
-                                                        </div><!-- criteria-one-item -->
-                                                        <div class="criteria-one-item">
-                                                            <img src="img/icon-criteria-interests.png" alt="">
-                                                            <p class="danger"> Interests <i class="fa fa-times "></i> </p>
-                                                        </div><!-- criteria-one-item -->
-                                                    </div><!-- matched-criteria-slider -->
+
+                                                    <button class=" reset-btn" >
+                                                         
+                                                    </button>
+
+                                                    <a data-toggle="modal" data-target="#matched-criteria-modal" class="popup-toggle btn btn-custom2 " href="#"> <i class="fa fa-chevron-down"></i> Matched Criteria </a>
+
                                                 </div><!-- mobile-matched-criteria -->
 
                                             </div><!-- brand-details -->
@@ -1139,28 +1123,7 @@
 
                                                 <div class="mobile-matched-criteria">
                                                     <h5 class="mb-3"> Matched Criteria</h5>
-                                                    <div class="matched-criteria-slider">
-                                                        <div class="criteria-one-item">
-                                                            <img src="img/icon-criteria-location.png" alt="">
-                                                            <p class="success"> Location <i class="fa fa-check "></i> </p>
-                                                        </div><!-- criteria-one-item -->
-                                                        <div class="criteria-one-item">
-                                                            <img src="img/icon-criteria-gender.png" alt="">
-                                                            <p class="success"> Gender <i class="fa fa-check "></i> </p>
-                                                        </div><!-- criteria-one-item -->
-                                                        <div class="criteria-one-item">
-                                                            <img src="img/icon-criteria-age.png" alt="">
-                                                            <p class="success"> Age <i class="fa fa-check "></i> </p>
-                                                        </div><!-- criteria-one-item -->
-                                                        <div class="criteria-one-item">
-                                                            <img src="img/icon-criteria-job.png" alt="">
-                                                            <p class="danger"> Aob <i class="fa fa-times "></i> </p>
-                                                        </div><!-- criteria-one-item -->
-                                                        <div class="criteria-one-item">
-                                                            <img src="img/icon-criteria-interests.png" alt="">
-                                                            <p class="danger"> Interests <i class="fa fa-times "></i> </p>
-                                                        </div><!-- criteria-one-item -->
-                                                    </div><!-- matched-criteria-slider -->
+
                                                 </div><!-- mobile-matched-criteria -->
 
                                             </div><!-- brand-details -->
@@ -1420,7 +1383,7 @@
                 </div> <!-- modal-container -->
             </div> <!-- modal-body -->
 
- 
+
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->
 </div> <!-- Matched Criteria Modal END -->

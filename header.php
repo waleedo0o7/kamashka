@@ -59,7 +59,7 @@
 <body>
 
     <!-- mobile-menu-light IF HOMEPAGE -->
-    <div class="mobile-menu ">
+    <div class="mobile-menu mobile-menu-light">
         <div class="mobile-icon-container">
             <i class="icon icon-menu-icon-2"></i>
         </div> <!-- logo -->

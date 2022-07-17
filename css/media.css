@@ -12,6 +12,17 @@
 }
 
 @media all and (max-width: 900px) {
+  div#matched-criteria-modal .all-items {
+    max-height: 380px;
+    overflow: auto;
+  }
+  div#matched-criteria-modal .modal-header h6 {
+    font-size: 24px;
+  }
+  div#matched-criteria-modal .modal-body {
+    font-size: 12px;
+  }
+
   div#expand-video {
     display: none;
   }
@@ -49,8 +60,9 @@
     padding-right: 0px;
     z-index: 9;
   }
-  .mobile-menu.mobile-menu-light .icon {
+  .mobile-menu.mobile-menu-light i.icon.icon-menu-icon-2 {
     color: #fff;
+    text-shadow: 0 0 3px #1a1a1a;
   }
   .mobile-menu .mobile-icon-container {
     padding: 10px;
@@ -584,40 +596,6 @@
     font-size: 12px;
     padding: 5px 8px;
   }
-  .mobile-view .video-container .mobile-brand-data .mobile-brand-details .mobile-matched-criteria .matched-criteria-slider .criteria-one-item {
-    text-align: center;
-    font-size: 12px;
-  }
-  .mobile-view .video-container .mobile-brand-data .mobile-brand-details .mobile-matched-criteria .matched-criteria-slider .criteria-one-item img {
-    height: 35px;
-    margin: auto;
-    width: auto;
-  }
-  .mobile-view .video-container .mobile-brand-data .mobile-brand-details .mobile-matched-criteria .matched-criteria-slider .criteria-one-item p {
-    font-size: 12px;
-    padding: 5px 0;
-  }
-  .mobile-view .video-container .mobile-brand-data .mobile-brand-details .mobile-matched-criteria .matched-criteria-slider .criteria-one-item p i {
-    color: #fff;
-    border-radius: 40px;
-    font-size: 8px;
-    width: 13px;
-    height: 13px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .mobile-view .video-container .mobile-brand-data .mobile-brand-details .mobile-matched-criteria .matched-criteria-slider .criteria-one-item p.success i {
-    background-color: var(--successColor);
-  }
-  .mobile-view .video-container .mobile-brand-data .mobile-brand-details .mobile-matched-criteria .matched-criteria-slider .criteria-one-item p.danger i {
-    background-color: var(--dangerColor);
-  }
-  .mobile-view .video-container .mobile-brand-data .mobile-brand-details .mobile-matched-criteria h5 {
-    font-size: 16px;
-    font-weight: bold;
-  }
-
   .modal .modal-dialog .modal-header .modal-title {
     font-size: 28px;
   }
@@ -1017,7 +995,8 @@ div#products_wrapper div#products_filter label input {
     flex-direction: column;
     padding: 15px;
   }
-  .profile.product .product-page-wrapper .product-details-wrapper, .profile.product .product-page-wrapper .product-slider-wrapper {
+  .profile.product .product-page-wrapper .product-details-wrapper,
+.profile.product .product-page-wrapper .product-slider-wrapper {
     width: 100% !important;
     height: auto !important;
   }

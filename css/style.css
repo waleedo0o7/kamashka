@@ -2320,6 +2320,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 }
 .profile .profile-content .profile-sidebar .profile-info .progress-slider-container .item {
   margin: 0 10px;
+  margin-bottom: 30px;
 }
 .profile .profile-content .profile-sidebar .profile-info .progress-slider-container .item .buttons {
   display: flex;
