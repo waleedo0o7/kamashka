@@ -1504,7 +1504,11 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   padding: 3px 10px !important;
   font-size: 13px;
   background: #ffdcc9;
-  color: #3f3f3f;
+  color: #3f3f3f !important;
+}
+.homepage .homepage-content .data-section .brand-details .buttons.tags a:hover {
+  color: #ffffff !important;
+  background: var(--secondaryColor) !important;
 }
 .homepage .homepage-content .data-section .share .images ul {
   list-style: none;

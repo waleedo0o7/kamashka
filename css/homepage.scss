@@ -185,10 +185,14 @@ body.fullscreen {
                     padding: 3px 10px !important;
                     font-size: 13px;
                     background: #ffdcc9;
-                    color: #3f3f3f;
+                    color: #3f3f3f !important;
+                    &:hover{
+                        color: #ffffff !important;
+                        background: var(--secondaryColor) !important;
+                    }
                 }
             }
-        
+
             .share {
                 .images {
                     ul {
