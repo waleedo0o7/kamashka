@@ -161,11 +161,13 @@ calcItemsPrice();
 // top bar calc cart dropdown items END
 
 // toggle password
-$(".toggle-password-container").on("click", function () {
+$(".toggle-password-container").on("click", function (e) {
     if ($(this).parent(".form-group").children("input").attr("type") == 'text') {
         $(this).parent(".form-group").children("input").attr("type", "password");
+        $(this).children().removeClass("icon-eye-solid-locked")
     } else {
         $(this).parent(".form-group").children("input").attr("type", "text");
+        $(this).children().addClass("icon-eye-solid-locked")
     }
 });
 

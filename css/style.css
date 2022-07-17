@@ -3618,7 +3618,7 @@ i.arrow-icon:before {
   width: 100%;
   z-index: 9;
   color: #3f3f3f;
-  padding: 20px 0;
+  padding: 20px 20px;
 }
 .top-bar-wrapper .top-bar .headline {
   font-weight: bold;

@@ -1008,6 +1008,11 @@
 
 // Tablet Media
 @media all and (max-width: 767px) {
+
+    .page-content.wallet-page {
+        padding: 20px;
+    }
+    
     body {
         width: 100vw;
         overflow-x: hidden;

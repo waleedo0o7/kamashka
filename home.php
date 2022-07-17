@@ -768,13 +768,9 @@
                                                     <a class="btn btn-custom2 follow" href="#"> Beauty </a>
                                                 </div><!-- buttons -->
 
-                                                <div class="mobile-matched-criteria">
+                                                <div class="mobile-matched-criteria text-center">
 
-                                                    <button class=" reset-btn" >
-                                                         
-                                                    </button>
-
-                                                    <a data-toggle="modal" data-target="#matched-criteria-modal" class="popup-toggle btn btn-custom2 " href="#"> <i class="fa fa-chevron-down"></i> Matched Criteria </a>
+                                                    <a data-toggle="modal" data-target="#matched-criteria-modal" class="popup-toggle btn btn-custom2 " href="#"> Matched Criteria </a>
 
                                                 </div><!-- mobile-matched-criteria -->
 

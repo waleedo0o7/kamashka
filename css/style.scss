@@ -1766,7 +1766,7 @@ i.arrow-icon {
         width: 100%;
         z-index: 9;
         color: #3f3f3f;
-        padding: 20px 0;
+        padding: 20px 20px;
         .headline {
             font-weight: bold;
         }
@@ -3961,3 +3961,6 @@ div#search-sort-modal {
 .zoom img::selection {
     background-color: transparent;
 }
+
+
+
