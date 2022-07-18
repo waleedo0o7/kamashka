@@ -3,6 +3,7 @@
 <div class="page-content profile my-profile">
     <div class="profile-content">
         <div class="profile-sidebar">
+
             <div class="profile-info">
                 <div class="image-container mb-5 relative">
                     <div class="image text-center ">

@@ -839,8 +839,4 @@
     </div> <!-- modal-dialog -->
 </div> <!-- filter Modal END -->
 
-
-
-
-
 <?php include 'footer.php'; ?>

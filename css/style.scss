@@ -181,11 +181,6 @@
     }
 }
 
-.interests-page {
-    .auth-page-content {
-    }
-}
-
 .interests-container {
     text-align: left;
     margin-bottom: 40px;
@@ -200,8 +195,8 @@
             border-color: var(--secondaryColor);
         }
         &.active {
-            background-color: var(--secondaryColor);
-            color: #fff;
+            background-color: var(--secondaryColor) !important;
+            color: #fff !important;
         }
     }
 }
@@ -501,6 +496,7 @@
                 }
             }
         }
+
     }
     .profile-data {
         width: 65%;
@@ -525,6 +521,34 @@
                     color: #fa935b;
                 }
             }
+        }
+
+        .one-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px;  
+            .content {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: var(--darkGray);
+                font-size: 16px;
+                a {
+                    color: #3f3f3f;
+                    font-size: 14px;
+                }
+                .item-label {
+                    color: var(--secondaryColor);
+                    font-weight: bold;
+                    margin: 0 10px;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .change-password-btn{
+            display: inline-flex;
+            width: fit-content;
         }
     }
 }

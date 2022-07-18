@@ -206,6 +206,7 @@ $(document).ready(function () {
 // calc age 
 let calcAge = () => {
     $(document).ready(function () {
+        
         $("input#datepicker").on("change", function () {
             let selectedDate = $(this).val();
             let selectedDateTimestamp = new Date(selectedDate);
@@ -1464,7 +1465,7 @@ $(document).ready(function () {
     }
 
     // auth change phone number page
-    if ($('.change-phone-number').length > 0) {
+    if ($('.country-code-container').length > 0) {
         onErrorCountryCodeValues();
     }
 
@@ -1485,11 +1486,11 @@ $(document).ready(function () {
     }
 
     // edit-profile-2.php
-    if ($('.edit-profile2').length > 0) {
+    if ($('.edit-profile2 , .profile').length > 0) {
         onErrorGenderValue();
-        calcAge();
     }
 
+    calcAge();
 });
 
 

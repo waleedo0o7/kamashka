@@ -8,7 +8,6 @@
 
             <form class="auth-form" action="test.php">
 
-
                 <div class="interests-container">
                     <button data-value="tv-show" type="button" class="btn btn-interests"> TV show </button>
                     <button data-value="music"  type="button" class="btn btn-interests "> music </button>

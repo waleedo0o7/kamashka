@@ -56,7 +56,7 @@
 
                 <div class="form-group mb-3 relative">
                     <label class="text-left"> Date Of Birth (Optional) </label>
-                    <input placeholder="Select your date" type="text" name="checkIn" id="datepicker" class="form-control calendar">
+                    <input placeholder="Select your date" type="text" name="checkIn" class="form-control calendar" disabled>
                     <p class="text-left mt-1" id="your-age"> </p>
                 </div><!-- form-group  -->
 

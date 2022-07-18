@@ -19,9 +19,9 @@
                     <div class="country-code-container">
 
                         <select class="d-none" name="country" id="country">
-                            <option  value="001"> 001 </option>
+                            <option selected value="001"> 001 </option>
                             <option value="002"> 002 </option>
-                            <option selected value="003"> 003 </option>
+                            <option value="003"> 003 </option>
                         </select>
 
                         <div class="dropdown">

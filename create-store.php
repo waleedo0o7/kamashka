@@ -165,7 +165,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group mb-3 relative">
                                         <label class="text-left"> Vat Expiration Date </label>
-                                        <input placeholder="Vat Expiration Date" type="text" name="checkIn" id="" class="form-control calendar">
+                                        <input placeholder="Vat Expiration Date" type="text" name="checkIn" id="" class="form-control calendar" disabled>
                                     </div><!-- form-group  -->
                                 </div><!-- col-md-6 -->
 
@@ -251,7 +251,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group mb-3 relative">
                                         <label class="text-left"> Commercial License Issue Date </label>
-                                        <input placeholder="Commercial License Issue Date" type="text" name="checkIn" id="" class="form-control calendar">
+                                        <input placeholder="Commercial License Issue Date" type="text" name="checkIn" id="" class="form-control calendar" disabled>
                                     </div><!-- form-group  -->
                                 </div><!-- col-md-6 -->
 
@@ -259,7 +259,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group mb-3 relative">
                                         <label class="text-left"> Commercial License Expiry Date </label>
-                                        <input placeholder="Commercial License Expiry Date" type="text" name="checkIn" id="" class="form-control calendar">
+                                        <input placeholder="Commercial License Expiry Date" type="text" name="checkIn" id="" class="form-control calendar" disabled>
                                     </div><!-- form-group  -->
                                 </div><!-- col-md-6 -->
 

@@ -353,6 +353,10 @@ input.form-control.input-with-icon.parsley-error {
   background-color: #fff;
 }
 
+.white {
+  color: #FFF;
+}
+
 .bg-gray {
   background-color: var(--gray);
 }
@@ -521,6 +525,7 @@ You'll need to replace with your own color values.
   background: #ffffff;
   border-radius: 15px;
   overflow: hidden;
+  box-shadow: 0 0 10px #d1d1d1;
 }
 .ui-datepicker .calendar {
   padding: 8px;
@@ -940,8 +945,8 @@ You'll need to replace with your own color values.
 }
 .form-group .country-code-container .fa-caret-down {
   position: absolute;
-  top: 10px;
-  right: -23px;
+  top: 13px;
+  right: -7px;
   color: #495057 !important;
   font-size: 14px !important;
 }
@@ -2240,8 +2245,8 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   border-color: var(--secondaryColor);
 }
 .interests-container button.active {
-  background-color: var(--secondaryColor);
-  color: #fff;
+  background-color: var(--secondaryColor) !important;
+  color: #fff !important;
 }
 
 .action-success {
@@ -2536,6 +2541,32 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 .profile.edit-profile1 .profile-data .interests .interests-container button {
   background: #ffffff22;
   color: #fa935b;
+}
+.profile.edit-profile1 .profile-data .one-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+.profile.edit-profile1 .profile-data .one-item .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--darkGray);
+  font-size: 16px;
+}
+.profile.edit-profile1 .profile-data .one-item .content a {
+  color: #3f3f3f;
+  font-size: 14px;
+}
+.profile.edit-profile1 .profile-data .one-item .content .item-label {
+  color: var(--secondaryColor);
+  font-weight: bold;
+  margin: 0 10px;
+  font-size: 14px;
+}
+.profile.edit-profile1 .profile-data .change-password-btn {
+  display: inline-flex;
+  width: fit-content;
 }
 
 .profile.edit-profile2 .profile-data-content .one-item {

@@ -282,9 +282,6 @@
     padding: 15px;
   }
 
-  .profile.edit-profile1 .profile-content .profile-sidebar .profile-header {
-    justify-content: space-between;
-  }
   .profile.edit-profile1 .profile-content .profile-sidebar .profile-header a.btn {
     position: relative;
     top: 0;

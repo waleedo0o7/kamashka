@@ -398,7 +398,7 @@ let loadMoreOnScroll = () => {
 
 //////////////////// SHIPPING SCRIPT START  ////////////////////
 
-// 
+//
 $(function () {
     $("#edit-company-banner-btn").on("click", function () {
         $("#edit-company-banner-input").click();
