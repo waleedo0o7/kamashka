@@ -246,8 +246,6 @@
                                 </div><!-- col-md-6 -->
 
 
-
-
                                 <div class="col-md-6">
                                     <div class="form-group mb-3 relative">
                                         <label class="text-left"> Commercial License Issue Date </label>
@@ -262,7 +260,6 @@
                                         <input placeholder="Commercial License Expiry Date" type="text" name="checkIn" id="" class="form-control calendar" disabled>
                                     </div><!-- form-group  -->
                                 </div><!-- col-md-6 -->
-
 
 
                                 <div class="col-md-12">
@@ -284,14 +281,9 @@
                                 </div> <!-- col-md-12 -->
 
 
-
-
-
                             </div> <!-- row -->
 
-
                         </section>
-
 
                         <!--  -->
                         <h3> Bank <br> Account </h3>

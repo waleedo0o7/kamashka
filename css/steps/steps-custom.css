@@ -1,178 +1,6 @@
-.create-store-page {
-  /* Accessibility */
-  /*
-      Wizard
-  */
-}
-.create-store-page .wizard,
-.create-store-page .tabcontrol {
-  display: block;
-  width: 100%;
-}
-.create-store-page .wizard ul > li,
-.create-store-page .tabcontrol ul > li {
-  display: block;
-  padding: 0;
-}
-.create-store-page .wizard > .steps .current-info,
-.create-store-page .tabcontrol > .steps .current-info {
-  position: absolute;
-  left: -999em;
-}
-.create-store-page .wizard > .content > .title,
-.create-store-page .tabcontrol > .content > .title {
-  position: absolute;
-  left: -999em;
-}
-.create-store-page .wizard > .steps {
+.steps > ul > li {
+  width: 120px !important;
   position: relative;
-  display: block;
-  width: 100%;
-}
-.create-store-page .wizard.vertical > .steps {
-  display: inline;
-  float: left;
-  width: 30%;
-}
-.create-store-page .wizard > .steps .number {
-  font-size: 1.429em;
-}
-.create-store-page .wizard > .steps > ul > li {
-  width: 120px;
-  position: relative;
-}
-.create-store-page .wizard > .steps > ul > li,
-.create-store-page .wizard > .actions > ul > li {
-  float: left;
-}
-.create-store-page .wizard.vertical > .steps > ul > li {
-  float: none;
-  width: 100%;
-}
-.create-store-page .wizard > .steps a,
-.create-store-page .wizard > .steps a:hover,
-.create-store-page .wizard > .steps a:active {
-  display: block;
-  width: auto;
-  margin: 0 0.5em 0.5em;
-  padding: 1em 1em;
-  text-decoration: none;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-.create-store-page .wizard > .steps .disabled a,
-.create-store-page .wizard > .steps .disabled a:hover,
-.create-store-page .wizard > .steps .disabled a:active {
-  background: #eee;
-  color: #aaa;
-  cursor: default;
-}
-.create-store-page .wizard > .steps .current a,
-.create-store-page .wizard > .steps .current a:hover,
-.create-store-page .wizard > .steps .current a:active {
-  background: #fcfcfc;
-  color: #111;
-  cursor: default;
-}
-.create-store-page .wizard > .steps .done a,
-.create-store-page .wizard > .steps .done a:hover,
-.create-store-page .wizard > .steps .done a:active {
-  background: #4caf50;
-  color: #fff;
-}
-.create-store-page .wizard > .steps .error a,
-.create-store-page .wizard > .steps .error a:hover,
-.create-store-page .wizard > .steps .error a:active {
-  background: #ff3111;
-  color: #fff;
-}
-.create-store-page .wizard > .content {
-  display: block;
-  margin: 0.5em;
-  min-height: 35em;
-  position: relative;
-  width: auto;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-.create-store-page .wizard.vertical > .content {
-  display: inline;
-  float: left;
-  margin: 0 2.5% 0.5em 2.5%;
-  width: 100%;
-}
-.create-store-page .wizard > .content > .body {
-  float: left;
-  position: relative;
-  width: 100%;
-  padding: 20px 0;
-  height: fit-content;
-  margin-bottom: 30px;
-}
-.create-store-page .wizard > .content > .body ul {
-  list-style: disc !important;
-}
-.create-store-page .wizard > .content > .body ul > li {
-  display: list-item;
-}
-.create-store-page .wizard > .actions {
-  position: relative;
-  display: block;
-  text-align: center;
-  width: 100%;
-}
-.create-store-page .wizard.vertical > .actions {
-  display: inline;
-  float: right;
-  margin: 0 2.5%;
-  width: 95%;
-}
-.create-store-page .wizard > .actions > ul {
-  display: inline-block;
-  text-align: center;
-}
-.create-store-page .wizard > .actions > ul > li {
-  margin: 0 0.5em;
-}
-.create-store-page .wizard.vertical > .actions > ul > li {
-  margin: 0 0 0 1em;
-}
-.create-store-page .wizard > .actions a,
-.create-store-page .wizard > .actions a:hover,
-.create-store-page .wizard > .actions a:active {
-  color: #fff;
-  background-color: var(--secondaryColor);
-  border-color: var(--secondaryColor);
-  padding: 8px 35px !important;
-  border-radius: 8px;
-  font-size: 18px;
-}
-.create-store-page .wizard > .actions .disabled a,
-.create-store-page .wizard > .actions .disabled a:hover,
-.create-store-page .wizard > .actions .disabled a:active {
-  background: #eee;
-  color: #aaa;
-}
-.create-store-page #contact button[type=submit] {
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  background: #4caf50;
-  color: #fff;
-  margin: 0 0 5px;
-  padding: 10px;
-  font-size: 15px;
-}
-.create-store-page #contact button[type=submit]:hover {
-  background: #43a047;
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
-}
-.create-store-page #contact button[type=submit]:active {
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .company-banner-and-logo-wrapper {
@@ -231,6 +59,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  list-style: none;
 }
 .steps ul li {
   float: none !important;
@@ -270,11 +99,11 @@
   background: #131a45 !important;
 }
 
-.wizard > .steps ul li a span {
+.steps ul li a span {
   position: relative;
 }
 
-.wizard > .steps ul li a span:after {
+.steps ul li a span:after {
   content: "";
   width: 100%;
   background: #a7a5a5;
