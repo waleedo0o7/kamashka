@@ -24,7 +24,7 @@
 
                     <!-- STEP 4 -->
 
-                    <h3> Bank <br> Account </h3>
+                    <!-- <h3> Bank Account </h3> -->
 
                     <section>
 
@@ -99,7 +99,7 @@
 
                                     <div class="label-and-btn">
                                         <label class=" bold"> Proof Document </label>
-                                        <a id="proof-upload-btn" class="btn btn-custom2"> upload </a>
+                                        <a id="proof-upload-btn" class="btn btn-outline-primary"> upload </a>
                                         <input id="proof-document-input" class="d-none" type="file" accept=".jpg,.jpeg.,.gif,.png,.mov,.mp4" />
                                     </div><!-- label-and-btn -->
 

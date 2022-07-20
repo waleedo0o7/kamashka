@@ -23,7 +23,7 @@
 
                     <!-- STEP 5 -->
 
-                    <h3>Social <br> Links </h3>
+                    <!-- <h3>Social Links </h3> -->
 
                     <section>
                         <div class="row">

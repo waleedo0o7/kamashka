@@ -1,5 +1,6 @@
 <?php include 'header.php'; ?>
 
+
 <div class="page-content small-content profile create-store-page">
     <div class="profile-content">
 
@@ -21,8 +22,10 @@
 
 
                 <form id="" action="#">
+
                     <!-- STEP 1 -->
-                    <h3> Basic <br> Information </h3>
+
+                    <!-- <h3> Basic Information </h3> -->
 
                     <section>
 

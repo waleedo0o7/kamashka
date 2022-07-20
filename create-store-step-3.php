@@ -25,7 +25,7 @@
 
                     <!-- STEP 3 -->
 
-                    <h3> Business <br> Information </h3>
+                    <!-- <h3> Business Information </h3> -->
 
                     <section>
 
@@ -62,7 +62,7 @@
 
                                     <div class="label-and-btn">
                                         <label class=" bold"> License Scan </label>
-                                        <a id="license-scan-upload-btn" class="btn btn-custom2"> upload </a>
+                                        <a id="license-scan-upload-btn" class="btn btn-outline-primary"> upload </a>
                                         <input id="license-scan-document-input" class="d-none" type="file" accept=".jpg,.jpeg.,.gif,.png,.mov,.mp4" />
                                     </div><!-- label-and-btn -->
 

@@ -24,24 +24,17 @@
 
 
                     <!-- STEP 2 -->
-                    <h3> VAT <br> Information </h3>
+
+                    <!-- <h3> VAT Information </h3> -->
 
                     <section>
 
-
                         <div class="row">
 
-                            <div class="col-md-6">
-                                <div class="form-group mb-4 relative">
-                                    <label class=" "> Tax Registration Number </label>
-                                    <input type="text" class="form-control " placeholder="Tax Registration Number">
-                                </div><!-- form-group  -->
-                            </div><!-- col-md-6 -->
+                            <div class="col-md-12 mb-4">
 
+                                <p class="bold mb-2"> Vat Registration Status </p>
 
-                            <div class="col-md-6">
-
-                                <p> Vat Registration Status </p>
                                 <div class="d-flex">
 
                                     <div class="option mr-4">
@@ -55,7 +48,7 @@
 
                                     <div class="option mr-4">
                                         <label class="option-container">
-                                            <input type="radio" checked="checked" name="target-gender" value="1">
+                                            <input type="radio" name="target-gender" value="1">
                                             <span class="checkmark"></span>
                                             Not Registered
                                         </label>
@@ -65,6 +58,16 @@
                                 </div><!-- inline-items -->
 
                             </div><!-- col-md-6 -->
+
+
+
+                            <div class="col-md-12">
+                                <div class="form-group mb-4 relative">
+                                    <label class=" "> Tax Registration Number </label>
+                                    <input type="text" class="form-control " placeholder="Tax Registration Number">
+                                </div><!-- form-group  -->
+                            </div><!-- col-md-6 -->
+
 
 
                             <div class="col-md-6">
@@ -107,7 +110,7 @@
 
                                     <div class="label-and-btn">
                                         <label class=" bold"> VAT Proof Document </label>
-                                        <a id="vat-proof-upload-btn" class="btn btn-custom2"> upload </a>
+                                        <a id="vat-proof-upload-btn" class="btn btn-outline-primary"> upload </a>
                                         <input id="vat-proof-document-input" class="d-none" type="file" accept=".jpg,.jpeg.,.gif,.png,.mov,.mp4" />
                                     </div><!-- label-and-btn -->
 
@@ -127,7 +130,7 @@
 
                                     <div class="label-and-btn">
                                         <label class=" bold"> Tax Card Document </label>
-                                        <a id="tax-card-upload-btn" class="btn btn-custom2"> upload </a>
+                                        <a id="tax-card-upload-btn" class="btn btn-outline-primary"> upload </a>
                                         <input id="tax-card-document-input" class="d-none" type="file" accept=".jpg,.jpeg.,.gif,.png,.mov,.mp4" />
                                     </div><!-- label-and-btn -->
 
