@@ -86,17 +86,15 @@ button.reset-btn {
     }
 }
 
-.btn-custom1 {
+.btn-primary {
     color: #fff;
-    background-color: var(--secondaryColor);
-    border-color: var(--secondaryColor);
     padding: 8px 20px;
     border-radius: 8px;
 
     &:hover {
         color: #fff !important;
-        background-color: #d37644 !important;
-        border-color: #d37644 !important;
+        // background-color: #d37644 !important;
+        // border-color: #d37644 !important;
     }
 }
 
@@ -152,6 +150,10 @@ button.reset-btn {
         border-color: #d37644;
     }
 }
+
+
+
+
 
 .btn-edit-custom1 {
     color: #555;
@@ -912,7 +914,7 @@ $focus-ring: 0px 0px 0px 2px $dark;
                         }
                     }
                 }
-                a.btn.btn-custom1 {
+                a.btn.btn-primary {
                     font-size: 14px;
                     i {
                         margin-left: 14px;
@@ -1171,7 +1173,7 @@ $focus-ring: 0px 0px 0px 2px $dark;
     background: var(--mainColor);
     color: #fff;
 
-    .btn-custom1,
+    .btn-primary,
     .btn-custom2 {
         border-radius: 6px;
         padding: 6px 20px;
@@ -1357,7 +1359,7 @@ $focus-ring: 0px 0px 0px 2px $dark;
 // change buttons size in header and homepage
 #top-header,
 .homepage {
-    .btn-custom1,
+    .btn-primary,
     .btn-custom2 {
         border-radius: 5px;
         padding: 5px 20px;

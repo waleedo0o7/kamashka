@@ -170,7 +170,7 @@
 
                 <div class="col-md-12 mb-5">
                     <div class="submit-btn-container text-center">
-                        <a href="#" class="btn btn-custom1 text-center pl-5 pr-5 "> Save</a> 
+                        <a href="#" class="btn btn-primary text-center pl-5 pr-5 "> Save</a> 
                     </div><!-- submit-btn-container -->
                 </div>
 

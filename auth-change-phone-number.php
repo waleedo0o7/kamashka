@@ -42,8 +42,8 @@
 
 
                 <div class="submit-btn-container">
-                    <!-- <a href="#" class="btn btn-custom1 w-100 text-center" id="confirmation-btn" data-toggle="modal" data-target="#confirmation"> Next </a> -->
-                    <button type="submit" class="btn btn-custom1 w-100 text-center"> Change Number </button>
+                    <!-- <a href="#" class="btn btn-primary w-100 text-center" id="confirmation-btn" data-toggle="modal" data-target="#confirmation"> Next </a> -->
+                    <button type="submit" class="btn btn-primary w-100 text-center"> Change Number </button>
                 </div><!-- submit-btn-container -->
 
 

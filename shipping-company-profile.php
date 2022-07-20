@@ -10,7 +10,7 @@
 
         <div class="page-header-wrapper">
             <h1 class="page-title"> Company Profile </h1>
-            <a href="shipping-company-profile-edit.php" class="btn btn-custom1 add-item"> Edit </a>
+            <a href="shipping-company-profile-edit.php" class="btn btn-primary add-item"> Edit </a>
         </div><!-- page-header-wrapper -->
 
         <div class="form-wrapper">
@@ -162,7 +162,7 @@
 
                 <div class="col-md-12 mb-5">
                     <div class="submit-btn-container text-center">
-                        <a href="#" class="btn btn-custom1 text-center pl-5 pr-5 "> Save</a>
+                        <a href="#" class="btn btn-primary text-center pl-5 pr-5 "> Save</a>
                     </div><!-- submit-btn-container -->
                 </div>
 

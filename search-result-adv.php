@@ -35,7 +35,7 @@
                 </span> Matched Advertising
             </label>
 
-            <a class="btn btn-custom1 ml-3 white open-filter" data-toggle="modal" data-target="#search-filter-modal"> <i class="icon icon-filter-1"></i> Filter </a>
+            <a class="btn btn-primary ml-3 white open-filter" data-toggle="modal" data-target="#search-filter-modal"> <i class="icon icon-filter-1"></i> Filter </a>
 
         </div><!-- is-matched-switch-wrapper -->
 
@@ -48,7 +48,7 @@
                         <p class="name m-0 mr-2"> Zara </p>
                         <img alt="" class="img-fluid" src="img/verified.svg">
                         <div class="ml-auto">
-                            <a class="follow-btn btn btn-custom1" href="#"> Follow </a>
+                            <a class="follow-btn btn btn-primary" href="#"> Follow </a>
                         </div><!-- ml-auto -->
                     </div><!-- details-header" -->
 
@@ -92,7 +92,7 @@
                         <p class="name m-0 mr-2"> Zara </p>
                         <img alt="" class="img-fluid" src="img/verified.svg">
                         <div class="ml-auto">
-                            <a class="follow-btn btn btn-custom1" href="#"> Follow </a>
+                            <a class="follow-btn btn btn-primary" href="#"> Follow </a>
                         </div><!-- ml-auto -->
                     </div><!-- details-header" -->
 
@@ -136,7 +136,7 @@
                         <p class="name m-0 mr-2"> Zara </p>
                         <img alt="" class="img-fluid" src="img/verified.svg">
                         <div class="ml-auto">
-                            <a class="follow-btn btn btn-custom1" href="#"> Follow </a>
+                            <a class="follow-btn btn btn-primary" href="#"> Follow </a>
                         </div><!-- ml-auto -->
                     </div><!-- details-header" -->
 
@@ -259,7 +259,7 @@
 
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1"> Apply </a>
+                <a href="#" class="btn btn-primary"> Apply </a>
                 <a href="#" class="btn btn-custom5"> Reset </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->

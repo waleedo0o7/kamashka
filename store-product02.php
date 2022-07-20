@@ -78,7 +78,7 @@
                     </div> <!-- brand-description -->
 
                     <div class="text-right">
-                        <a href="#" class="btn btn-custom1"> Add To Cart </a>
+                        <a href="#" class="btn btn-primary"> Add To Cart </a>
                     </div>
 
                     <hr class="mt-4" />
@@ -143,7 +143,7 @@
 
                         <div class="reviews-header mb-4">
                             <p class="lead bold"> Reviews </p>
-                            <!-- <a class="btn btn-custom1 ml-3 white open-filter" > <i class="icon icon-filter-1"></i> Filter </a> -->
+                            <!-- <a class="btn btn-primary ml-3 white open-filter" > <i class="icon icon-filter-1"></i> Filter </a> -->
                             <p class="text-center colored2 bold mt-3"> <a data-toggle="modal" data-target="#add-review-modal" href="#"> Add Review </a> </p>
                         </div>
 
@@ -695,7 +695,7 @@
 
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1"> Send </a>
+                <a href="#" class="btn btn-primary"> Send </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->

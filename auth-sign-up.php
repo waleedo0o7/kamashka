@@ -83,7 +83,7 @@
                 </div><!-- form-group  -->
 
                 <div class="submit-btn-container">
-                    <a href="#" class="btn btn-custom1 w-100 text-center" id="confirmation-btn" data-toggle="modal" data-target="#confirmation"> Next </a>
+                    <a href="#" class="btn btn-primary w-100 text-center" id="confirmation-btn" data-toggle="modal" data-target="#confirmation"> Next </a>
                 </div><!-- submit-btn-container -->
 
                 <!-- Modal START -->
@@ -94,7 +94,7 @@
                                 <p> We’ll send you the activation <br /> code by SMS or Whatsapp </p>
                             </div><!-- modal-body -->
                             <div class="modal-footer">
-                                <button type="submit" class="btn btn-custom1 via" data-via="sms"> By SMS <img alt="" src="img/sms-icon.svg" /> </button>
+                                <button type="submit" class="btn btn-primary via" data-via="sms"> By SMS <img alt="" src="img/sms-icon.svg" /> </button>
                                 <button type="submit" class="btn btn-custom3 via whatsapp" data-via="whatsapp"> By Whatsapp <img alt="" src="img/whatsapp-icon.svg" /></button>
                             </div><!-- modal-footer -->
                         </div> <!-- modal-content -->

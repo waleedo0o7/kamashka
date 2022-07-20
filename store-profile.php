@@ -409,7 +409,7 @@
                                 <div class="search-wrapper">
                                     <input class="form-control" type="text" placeholder="Search For Products ">
                                 </div><!-- search-wrapper -->
-                                <a data-toggle="modal" data-target="#filter-modal" class="btn btn-custom1 ml-3">
+                                <a data-toggle="modal" data-target="#filter-modal" class="btn btn-primary ml-3">
                                     <i class="icon icon-filter-1"></i>
                                 </a>
                             </div>
@@ -833,7 +833,7 @@
             </div> <!-- modal-body -->
             <div class="modal-footer">
                 <a href="#" class="btn btn-custom5"> Cancel </a>
-                <a href="#" class="btn btn-custom1"> Apply </a>
+                <a href="#" class="btn btn-primary"> Apply </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->

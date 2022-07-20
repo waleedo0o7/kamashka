@@ -28,7 +28,7 @@
 
                     <div class="bank-account-wrapper">
                         <p class="lead mb-2 bold"> My Bank Account </p>
-                        <p class="lead d-flex"> ******123 <a href="profile-wallet-edit-bank-account.php" class="btn btn-custom1 btn-lg ml-auto"> Edit</a> </p>
+                        <p class="lead d-flex"> ******123 <a href="profile-wallet-edit-bank-account.php" class="btn btn-primary btn-lg ml-auto"> Edit</a> </p>
                     </div><!-- bank-account-wrapper -->
 
                 </div><!-- credit-wrapper -->

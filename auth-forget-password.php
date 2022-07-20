@@ -38,8 +38,8 @@
 
 
                         <div class="submit-btn-container">
-                            <!-- <a href="#" class="btn btn-custom1 w-100 text-center" id="confirmation-btn" data-toggle="modal" data-target="#confirmation"> Next </a> -->
-                            <a href="auth-activate.php" class="btn btn-custom1 w-100 text-center"> Send Code </a>
+                            <!-- <a href="#" class="btn btn-primary w-100 text-center" id="confirmation-btn" data-toggle="modal" data-target="#confirmation"> Next </a> -->
+                            <a href="auth-activate.php" class="btn btn-primary w-100 text-center"> Send Code </a>
                         </div><!-- submit-btn-container -->
 
 
@@ -73,8 +73,8 @@
                         </div> <!-- form-group  -->
 
                         <div class="submit-btn-container">
-                            <!-- <a href="#" class="btn btn-custom1 w-100 text-center" id="confirmation-btn" data-toggle="modal" data-target="#confirmation"> Next </a> -->
-                            <a href="auth-activate.php" class="btn btn-custom1 w-100 text-center"> Send Code </a>
+                            <!-- <a href="#" class="btn btn-primary w-100 text-center" id="confirmation-btn" data-toggle="modal" data-target="#confirmation"> Next </a> -->
+                            <a href="auth-activate.php" class="btn btn-primary w-100 text-center"> Send Code </a>
                         </div><!-- submit-btn-container -->
 
                     </form><!-- sign-in-form -->

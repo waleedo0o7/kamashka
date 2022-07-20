@@ -7,7 +7,8 @@
   position: relative;
   margin-bottom: 120px;
 }
-.company-banner-and-logo-wrapper i.fa-camera, .company-banner-and-logo-wrapper i.icon-edit {
+.company-banner-and-logo-wrapper i.fa-camera,
+.company-banner-and-logo-wrapper i.icon-edit {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -54,6 +55,10 @@
   overflow: hidden;
 }
 
+.steps {
+  margin-bottom: 40px;
+}
+
 .steps ul {
   padding: 0;
   display: flex;
@@ -74,6 +79,7 @@
   background: none !important;
   font-size: 14px;
   line-height: 1.3;
+  color: #343434;
 }
 .steps ul li a span.number {
   background: #a7a5a5;
@@ -173,7 +179,9 @@ li.first a span:after {
   animation: rotate 1s linear infinite;
 }
 
-.create-store-page .wizard > .actions .disabled a, .create-store-page .wizard > .actions .disabled a:hover, .create-store-page .wizard > .actions .disabled a:active {
+.create-store-page .wizard > .actions .disabled a,
+.create-store-page .wizard > .actions .disabled a:hover,
+.create-store-page .wizard > .actions .disabled a:active {
   background: #fa935b;
   color: #fff;
   opacity: 0.5;
@@ -194,6 +202,11 @@ li.first a span:after {
 .create-store-page .wizard > .actions ul {
   margin: 0;
   padding: 0;
+}
+
+.upload-with-thumbnails-container {
+  border: 2px dashed #d9d9d9;
+  padding: 15px;
 }
 
 /*# sourceMappingURL=steps-custom.css.map */

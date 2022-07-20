@@ -10,7 +10,7 @@
 
             <div class="table-header-wrapper">
                 <h1 class="page-title"> Users </h1>
-                <a href="shipping-users-add.php" class="btn btn-custom1 add-item"> Add User </a>
+                <a href="shipping-users-add.php" class="btn btn-primary add-item"> Add User </a>
             </div><!-- table-wrapper -->
 
             <table id="users" class="display" style="width:100%">

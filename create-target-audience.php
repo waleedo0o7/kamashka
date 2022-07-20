@@ -148,7 +148,7 @@
 
 
                 <div class="submit-btn-container text-center">
-                    <a href="#" class="btn btn-custom1 text-center pl-5 pr-5 w-100" id="confirmation-btn"> Save </a>
+                    <a href="#" class="btn btn-primary text-center pl-5 pr-5 w-100" id="confirmation-btn"> Save </a>
                 </div><!-- submit-btn-container -->
 
             </div><!-- profile-data-content -->

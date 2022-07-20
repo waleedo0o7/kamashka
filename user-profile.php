@@ -14,7 +14,7 @@
                 <div class="data text-center">
                     <h1 class="name"> Amr Abd Alhady <img alt="" class="img-fluid" src="img/verified.svg"> </h1>
                     <a href="#" class="btn btn-custom2 btn-lg"> Follow </a>
-                    <a href="#" class="btn btn-custom1 btn-lg d-none"> Unfollow </a>
+                    <a href="#" class="btn btn-primary btn-lg d-none"> Unfollow </a>
                 </div><!-- data -->
 
 
@@ -387,7 +387,7 @@
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
                                         <a class="btn btn-custom2 d-none" href="#"> follow</a>
-                                        <a class="btn btn-custom1 " href="#"> unfollow</a>
+                                        <a class="btn btn-primary " href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
 
@@ -399,7 +399,7 @@
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
                                         <a class="btn btn-custom2" href="#"> follow</a>
-                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                        <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
 
@@ -412,7 +412,7 @@
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
                                         <a class="btn btn-custom2" href="#"> follow</a>
-                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                        <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
 
@@ -426,7 +426,7 @@
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
                                         <a class="btn btn-custom2 d-none" href="#"> follow</a>
-                                        <a class="btn btn-custom1 " href="#"> unfollow</a>
+                                        <a class="btn btn-primary " href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
 
@@ -438,7 +438,7 @@
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
                                         <a class="btn btn-custom2" href="#"> follow</a>
-                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                        <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
 
@@ -451,7 +451,7 @@
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
                                         <a class="btn btn-custom2" href="#"> follow</a>
-                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                        <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
 
@@ -462,7 +462,7 @@
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
                                         <a class="btn btn-custom2" href="#"> follow</a>
-                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                        <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
 
@@ -487,7 +487,7 @@
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
                                         <a class="btn btn-custom2 d-none" href="#"> follow</a>
-                                        <a class="btn btn-custom1 " href="#"> unfollow</a>
+                                        <a class="btn btn-primary " href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
 
@@ -499,7 +499,7 @@
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
                                         <a class="btn btn-custom2" href="#"> follow</a>
-                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                        <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
 
@@ -512,7 +512,7 @@
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
                                         <a class="btn btn-custom2" href="#"> follow</a>
-                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                        <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
 
@@ -526,7 +526,7 @@
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
                                         <a class="btn btn-custom2 d-none" href="#"> follow</a>
-                                        <a class="btn btn-custom1 " href="#"> unfollow</a>
+                                        <a class="btn btn-primary " href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
 
@@ -538,7 +538,7 @@
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
                                         <a class="btn btn-custom2" href="#"> follow</a>
-                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                        <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
 
@@ -551,7 +551,7 @@
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
                                         <a class="btn btn-custom2" href="#"> follow</a>
-                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                        <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
 
@@ -562,7 +562,7 @@
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
                                         <a class="btn btn-custom2" href="#"> follow</a>
-                                        <a class="btn btn-custom1 d-none" href="#"> unfollow</a>
+                                        <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
 

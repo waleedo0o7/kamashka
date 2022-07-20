@@ -16,7 +16,7 @@
                         75%
                     </div><!-- completeness-percentage -->
                 </div><!-- completeness-percentage-container -->
-                <!-- <a href="edit-profile-2.php" class="btn btn-custom1 btn-lg"> Edit Profile </a> -->
+                <!-- <a href="edit-profile-2.php" class="btn btn-primary btn-lg"> Edit Profile </a> -->
             </div><!-- profile-header -->
 
             <div class="profile-info">
@@ -329,7 +329,7 @@
 
 
                     <div class="submit-btn-container text-center">
-                        <button type="submit" class="btn btn-custom1 text-center pl-5 pr-5"> save </button>
+                        <button type="submit" class="btn btn-primary text-center pl-5 pr-5"> save </button>
                         <a href="auth-reset-password.php" class="btn btn-custom2 text-center pl-5 pr-5"> Change Password </a>
                     </div> <!-- submit-btn-container -->
 

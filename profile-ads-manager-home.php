@@ -529,7 +529,7 @@
                                     </div> <!-- brand-slider-container -->
 
                                     <div class="text-center mb-2 mt-2">
-                                        <a class="btn btn-custom2 follow" href="#"> discover products </a>
+                                        <a class="btn  follow" href="#"> discover products </a>
                                     </div>
 
                                     <div class="brand-details" id="myDIV">
@@ -544,8 +544,8 @@
                                         </div><!-- brand-details-text -->
 
                                         <div class="buttons tags text-center mb-2 mt-2">
-                                            <a class="btn btn-custom2 follow" href="#"> Fashion </a>
-                                            <a class="btn btn-custom2 follow" href="#"> Beauty </a>
+                                            <a class="btn  follow" href="#"> Fashion </a>
+                                            <a class="btn  follow" href="#"> Beauty </a>
                                         </div><!-- buttons -->
 
                                         <div class="share">
@@ -574,7 +574,7 @@
 
                                                 <div class="col-md-6 d-flex mt-2">
                                                     <div class="buttons text-right">
-                                                        <a class="btn btn-custom2 follow" data-toggle="modal" data-target="#share-modal"> Share & Get 10 KD</a>
+                                                        <a class="btn  follow" data-toggle="modal" data-target="#share-modal"> Share & Get 10 KD</a>
                                                     </div><!-- buttons -->
                                                 </div><!-- col-md-3 -->
 
@@ -721,7 +721,7 @@
                                         </div><!-- views-and-shares -->
 
                                         <div class="share-btn-container">
-                                            <a class="btn btn-custom1" data-toggle="modal" data-target="#share-modal"> Share &amp; Get 10 KD</a>
+                                            <a class="btn btn-primary" data-toggle="modal" data-target="#share-modal"> Share &amp; Get 10 KD</a>
                                         </div><!-- share-btn-container -->
 
                                         <div class="mobile-brand-data">
@@ -793,7 +793,7 @@
 
 
                                             <div class="text-center mb-1 mt-3 ">
-                                                <a class="btn btn-custom2 follow" href="#"> discover products </a>
+                                                <a class="btn  follow" href="#"> discover products </a>
                                             </div>
 
 
@@ -812,8 +812,8 @@
                                                 </div><!-- brand-details-text -->
 
                                                 <div class="buttons tags mb-3 mt-2">
-                                                    <a class="btn btn-custom2 follow" href="#"> Fashion </a>
-                                                    <a class="btn btn-custom2 follow" href="#"> Beauty </a>
+                                                    <a class="btn  follow" href="#"> Fashion </a>
+                                                    <a class="btn  follow" href="#"> Beauty </a>
                                                 </div><!-- buttons -->
 
                                                 <div class="mobile-matched-criteria">
@@ -872,7 +872,7 @@
                                             </div><!-- col-md-3 -->
                                             <div class="col-md-6 d-flex">
                                                 <div class="follow-btn">
-                                                    <a class="btn btn-custom2 follow" href="#"> Follow </a>
+                                                    <a class="btn  follow" href="#"> Follow </a>
                                                 </div><!-- follow-btn -->
                                             </div>
                                         </div><!-- row -->
@@ -930,7 +930,7 @@
                                     </div> <!-- brand-slider-container -->
 
                                     <div class="text-center mb-2 mt-2">
-                                        <a class="btn btn-custom2 follow" href="#"> discover products </a>
+                                        <a class="btn  follow" href="#"> discover products </a>
                                     </div>
 
                                     <div class="brand-details">
@@ -948,8 +948,8 @@
                                         </div><!-- brand-details-text -->
 
                                         <div class="buttons tags text-center mb-2 mt-2">
-                                            <a class="btn btn-custom2 follow" href="#"> Fashion </a>
-                                            <a class="btn btn-custom2 follow" href="#"> Beauty </a>
+                                            <a class="btn  follow" href="#"> Fashion </a>
+                                            <a class="btn  follow" href="#"> Beauty </a>
                                         </div><!-- buttons -->
 
                                         <div class="share">
@@ -974,7 +974,7 @@
 
                                                 <div class="col-md-6 d-flex mt-2">
                                                     <div class="buttons text-right">
-                                                        <a class="btn btn-custom2 follow" data-toggle="modal" data-target="#share-modal"> Share & Get 10 KD</a>
+                                                        <a class="btn  follow" data-toggle="modal" data-target="#share-modal"> Share & Get 10 KD</a>
                                                     </div><!-- buttons -->
                                                 </div><!-- col-md-3 -->
 
@@ -1117,7 +1117,7 @@
                                         </div><!-- views-and-shares -->
 
                                         <div class="share-btn-container">
-                                            <a class="btn btn-custom1" data-toggle="modal" data-target="#share-modal"> Share &amp; Get 10 KD</a>
+                                            <a class="btn btn-primary" data-toggle="modal" data-target="#share-modal"> Share &amp; Get 10 KD</a>
                                         </div><!-- share-btn-container -->
 
                                         <div class="mobile-brand-data">
@@ -1186,7 +1186,7 @@
 
 
                                             <div class="text-center mb-1 mt-3 ">
-                                                <a class="btn btn-custom2 follow" href="#"> discover products </a>
+                                                <a class="btn  follow" href="#"> discover products </a>
                                             </div>
 
 
@@ -1208,8 +1208,8 @@
                                                 </div><!-- brand-details-text -->
 
                                                 <div class="buttons tags mb-3 mt-2">
-                                                    <a class="btn btn-custom2 follow" href="#"> Fashion </a>
-                                                    <a class="btn btn-custom2 follow" href="#"> Beauty </a>
+                                                    <a class="btn  follow" href="#"> Fashion </a>
+                                                    <a class="btn  follow" href="#"> Beauty </a>
                                                 </div><!-- buttons -->
 
                                                 <div class="mobile-matched-criteria">
@@ -1370,7 +1370,7 @@
                     </div><!-- other-reason-container -->
 
                     <div class="text-center mt-3">
-                        <button class="btn btn-custom1"> Submit Report </button>
+                        <button class="btn btn-primary"> Submit Report </button>
                     </div><!-- text-center -->
 
                 </div> <!-- report-container -->
@@ -1395,7 +1395,7 @@
                 </div> <!-- delete-container -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 via"> Yes </a>
+                <a href="#" class="btn btn-primary via"> Yes </a>
                 <a href="#" class="btn btn-custom5 via"> No </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->

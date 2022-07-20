@@ -21,7 +21,7 @@
                     <input id="activate-code-input" name="code" type="text">
                 </form>
 
-                <!-- <a type="submit" href="auth-activate.php" class="btn btn-custom1  text-center w-100" id="send"> Send </a> -->
+                <!-- <a type="submit" href="auth-activate.php" class="btn btn-primary  text-center w-100" id="send"> Send </a> -->
 
             </div>
 
@@ -33,7 +33,7 @@
         <div class="page-footer">
             <p class="lead"> Didn't Receive The Code? </p>
             <div class="sign-up-btn-container mb-3">
-                <a  href="auth-interests.php" class="btn btn-custom2  text-center" id="resend-code" onclick="counterDownTwoMinutes()"> Resend Code
+                <a  href="auth-interests.php" class="btn btn-custom2 text-center" id="resend-code" onclick="counterDownTwoMinutes()"> Resend Code
                     <span id="minutes">02</span>
                     <span id="colon">:</span>
                     <span id="seconds">00</span>

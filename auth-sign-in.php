@@ -29,7 +29,7 @@
                     <a href="auth-forget-password.php" class="link text-capitalize "> Forget password ?</a>
                 </div><!-- forget-password-container -->
                 <div class="submit-btn-container">
-                    <button  class="btn btn-custom1 w-100 text-center"> Sign In </button>
+                    <button  class="btn btn-primary w-100 text-center"> Sign In </button>
                 </div><!-- submit-btn-container -->
             </form><!-- sign-in-form -->
 

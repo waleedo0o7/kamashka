@@ -14,7 +14,7 @@
                 </div> <!-- delete-container -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 via"> Yes </a>
+                <a href="#" class="btn btn-primary via"> Yes </a>
                 <a href="#" class="btn btn-custom5 via"> No </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
@@ -46,7 +46,7 @@
 
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1"> Submit </a>
+                <a href="#" class="btn btn-primary"> Submit </a>
                 <a href="#" class="btn btn-custom5"> Cancel </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->

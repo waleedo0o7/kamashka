@@ -45,7 +45,7 @@
                             <input class="d-none" id="my-interests-value" type="text" value="">
 
                             <div class="submit-btn-container">
-                                <a href="#" class="btn btn-custom1 w-100 text-center" id="confirmation-btn"> Save </a>
+                                <a href="#" class="btn btn-primary w-100 text-center" id="confirmation-btn"> Save </a>
                             </div><!-- submit-btn-container -->
 
                         </form><!-- auth-form -->

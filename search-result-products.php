@@ -12,8 +12,8 @@
             <div class="results-num bold"> 10000 Results </div><!-- results-num -->
 
             <div class="btn-wrapper">
-                <a class="btn btn-custom1 ml-3 white open-filter" data-toggle="modal" data-target="#search-filter-modal"> <i class="icon icon-filter-1"></i> Filter </a>
-                <a class="btn btn-custom1 ml-3 white open-filter" data-toggle="modal" data-target="#search-sort-modal"> <i class="icon icon-sort"></i> Sort </a>
+                <a class="btn btn-primary ml-3 white open-filter" data-toggle="modal" data-target="#search-filter-modal"> <i class="icon icon-filter-1"></i> Filter </a>
+                <a class="btn btn-primary ml-3 white open-filter" data-toggle="modal" data-target="#search-sort-modal"> <i class="icon icon-sort"></i> Sort </a>
             </div>
 
         </div><!-- is-matched-switch-wrapper -->
@@ -80,7 +80,7 @@
                                 <p class="bold mb-0"> Zara <img alt="" src="img//verified.svg"> </p>
                             </div> <!-- image-and-name -->
 
-                            <a href="#" class="btn btn-custom1"> Follow </a>
+                            <a href="#" class="btn btn-primary"> Follow </a>
 
                         </div><!-- product-header -->
 
@@ -176,7 +176,7 @@
                                 <p class="bold mb-0"> Zara <img alt="" src="img//verified.svg"> </p>
                             </div> <!-- image-and-name -->
 
-                            <a href="#" class="btn btn-custom1"> follow </a>
+                            <a href="#" class="btn btn-primary"> follow </a>
 
                         </div><!-- product-header -->
 
@@ -300,7 +300,7 @@
 
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1"> Apply </a>
+                <a href="#" class="btn btn-primary"> Apply </a>
                 <a href="#" class="btn btn-custom5"> Reset </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
@@ -356,7 +356,7 @@
 
 
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1"> Apply </a>
+                <a href="#" class="btn btn-primary"> Apply </a>
                 <a href="#" class="btn btn-custom5"> Reset </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->

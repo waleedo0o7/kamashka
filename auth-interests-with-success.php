@@ -36,7 +36,7 @@
                     <option value="tv-show">  shopping </option>
                 </select> -->
                 <div class="submit-btn-container">
-                    <a href="#" class="btn btn-custom1 w-100 text-center" id="confirmation-btn"> Continue </a>
+                    <a href="#" class="btn btn-primary w-100 text-center" id="confirmation-btn"> Continue </a>
                 </div><!-- submit-btn-container -->
 
             </form><!-- auth-form -->

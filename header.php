@@ -78,7 +78,7 @@
                 <img alt="" class="logo" src="img/logo-wide.png">
             </div><!-- logo -->
             <div class="btn-and-close">
-                <a class="btn btn-custom1" data-toggle="modal" data-target="#create-modal"> Create </a>
+                <a class="btn btn-primary" data-toggle="modal" data-target="#create-modal"> Create </a>
                 <i id="closeMobileMenu" class="icon icon-close"></i>
             </div><!-- btn-and-close -->
         </div><!-- menu-header -->
@@ -148,7 +148,7 @@
                             </a>
                             <div class="dropdown-menu disable-auto-close pl-3 pr-3 user">
                                 <p class="bold text-center"> Continue With Your Profile, Create Your Own Adv , Collect Money, Shop Online And More </p>
-                                <a href="auth-sign-in.php" class="btn btn-custom1 w-100 mb-2"> Sign In </a>
+                                <a href="auth-sign-in.php" class="btn btn-primary w-100 mb-2"> Sign In </a>
                                 <a href="auth-sign-up.php" class="btn btn-custom2 w-100 "> Sign Up </a>
 
                                 <p class="text-center"> Or continue with </p>
@@ -444,7 +444,7 @@
                                                 <p class="bold total-price p-0"> $ <input disabled id="totalPrice" type="text" value="81.57"> </p><!-- total-price -->
 
                                             </div><!-- total-container -->
-                                            <a class="btn btn-custom1" href="#"> CHECKOUT <i class="fa fa-chevron-right"></i> </a>
+                                            <a class="btn btn-primary" href="#"> CHECKOUT <i class="fa fa-chevron-right"></i> </a>
                                         </div><!-- cart-footer -->
                                     </div><!-- cart-menu-container -->
                                 </div> <!-- dropdown-menu -->
@@ -489,7 +489,7 @@
 
                             </div> <!-- dropdown-menu -->
                         </div> <!-- dropdown -->
-                        <a class="btn btn-custom1 ml-3" data-toggle="modal" data-target="#create-modal"> Create </a>
+                        <a class="btn btn-primary ml-3" data-toggle="modal" data-target="#create-modal"> Create </a>
                     </div><!-- user-icons -->
                 </div><!-- col-md-6 -->
 
@@ -505,7 +505,7 @@
                                 </button>
                                 <div class="dropdown-menu disable-auto-close pl-3 pr-3">
                                     <p class="bold text-center"> Continue With Your Profile, Create Your Own Adv , Collect Money, Shop Online And More </p>
-                                    <a href="auth-sign-in.php" class="btn btn-custom1 w-100 mb-2"> Sign In </a>
+                                    <a href="auth-sign-in.php" class="btn btn-primary w-100 mb-2"> Sign In </a>
                                     <a href="auth-sign-up.php" class="btn btn-custom2 w-100 "> Sign Up </a>
 
                                     <p class="text-center"> Or continue with </p>
@@ -548,7 +548,7 @@
 
                             </div> <!-- dropdown-menu -->
                         </div> <!-- dropdown -->
-                        <a class="btn btn-custom1 ml-3" data-toggle="modal" data-target="#create-modal"> Create </a>
+                        <a class="btn btn-primary ml-3" data-toggle="modal" data-target="#create-modal"> Create </a>
                     </div><!-- user-icons -->
                 </div><!-- col-md-6 -->
 

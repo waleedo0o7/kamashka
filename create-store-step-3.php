@@ -25,7 +25,7 @@
 
                     <!-- STEP 3 -->
 
-                    <h3> Business <br> Information </h3>
+                    <!-- <h3> Business Information </h3> -->
 
                     <section>
 

@@ -55,7 +55,7 @@
                 </div><!-- form-group  -->
 
                 <div class="submit-btn-container">
-                    <a href="#" class="btn btn-custom1 w-100 text-center" id="confirmation-btn"> Next </a>
+                    <a href="#" class="btn btn-primary w-100 text-center" id="confirmation-btn"> Next </a>
                 </div><!-- submit-btn-container -->
 
             </div><!-- profile-data-content -->

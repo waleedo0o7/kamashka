@@ -82,17 +82,13 @@ button.reset-btn:after {
   box-shadow: none !important;
 }
 
-.btn-custom1 {
+.btn-primary {
   color: #fff;
-  background-color: var(--secondaryColor);
-  border-color: var(--secondaryColor);
   padding: 8px 20px;
   border-radius: 8px;
 }
-.btn-custom1:hover {
+.btn-primary:hover {
   color: #fff !important;
-  background-color: #d37644 !important;
-  border-color: #d37644 !important;
 }
 
 .btn-custom2 {
@@ -841,10 +837,10 @@ You'll need to replace with your own color values.
   border: none;
   color: #3f3f3f;
 }
-.dropdown.custom-dropdown .cart-dropdown-menu .cart-menu-container .cart-footer a.btn.btn-custom1 {
+.dropdown.custom-dropdown .cart-dropdown-menu .cart-menu-container .cart-footer a.btn.btn-primary {
   font-size: 14px;
 }
-.dropdown.custom-dropdown .cart-dropdown-menu .cart-menu-container .cart-footer a.btn.btn-custom1 i {
+.dropdown.custom-dropdown .cart-dropdown-menu .cart-menu-container .cart-footer a.btn.btn-primary i {
   margin-left: 14px;
 }
 .dropdown.custom-dropdown .notifications-dropdown-menu {
@@ -1073,7 +1069,7 @@ You'll need to replace with your own color values.
   background: var(--mainColor);
   color: #fff;
 }
-#top-header .btn-custom1,
+#top-header .btn-primary,
 #top-header .btn-custom2 {
   border-radius: 6px;
   padding: 6px 20px;
@@ -1245,9 +1241,9 @@ You'll need to replace with your own color values.
   display: block;
 }
 
-#top-header .btn-custom1,
+#top-header .btn-primary,
 #top-header .btn-custom2,
-.homepage .btn-custom1,
+.homepage .btn-primary,
 .homepage .btn-custom2 {
   border-radius: 5px;
   padding: 5px 20px;

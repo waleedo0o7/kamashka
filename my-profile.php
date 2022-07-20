@@ -13,7 +13,7 @@
                 <div class="data text-center">
                     <h1 class="name"> Amr Abd Alhady </h1>
                     <p class="lead"> janedoe123@email.com </p>
-                    <a href="edit-profile-1.php" class="btn btn-custom1 btn-lg"> My Profile </a>
+                    <a href="edit-profile-1.php" class="btn btn-primary btn-lg"> My Profile </a>
                 </div><!-- data -->
 
                 <div class="profile-completeness-container">
@@ -36,7 +36,7 @@
                                     <div class="form-group mb-0 relative">
                                         <input type="text" class="form-control" placeholder="EX: programmer">
                                         <div class="buttons">
-                                            <a href="#" class="btn btn-sm btn-custom1 "> Save </a>
+                                            <a href="#" class="btn btn-sm btn-primary "> Save </a>
                                             <a href="#" class="btn btn-sm btn-custom2 "> Later </a>
                                         </div><!-- buttons -->
                                     </div><!-- form-group  -->
@@ -50,7 +50,7 @@
                                     <div class="form-group mb-0 relative">
                                         <input type="text" class="form-control" placeholder="EX: programmer">
                                         <div class="buttons">
-                                            <a href="#" class="btn btn-sm btn-custom1 "> Save </a>
+                                            <a href="#" class="btn btn-sm btn-primary "> Save </a>
                                             <a href="#" class="btn btn-sm btn-custom2 "> Later </a>
                                         </div><!-- buttons -->
                                     </div><!-- form-group  -->
@@ -64,7 +64,7 @@
                                     <div class="form-group mb-0 relative">
                                         <input type="text" class="form-control" placeholder="EX: programmer">
                                         <div class="buttons">
-                                            <a href="#" class="btn btn-sm btn-custom1 "> Save </a>
+                                            <a href="#" class="btn btn-sm btn-primary "> Save </a>
                                             <a href="#" class="btn btn-sm btn-custom2 "> Later </a>
                                         </div><!-- buttons -->
                                     </div><!-- form-group  -->
@@ -309,7 +309,7 @@
                 </div> <!-- Language-container -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 w-100" > Save </a>
+                <a href="#" class="btn btn-primary w-100" > Save </a>
             </div><!--  modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->
@@ -355,7 +355,7 @@
                 </div> <!-- country-container -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 w-100" > Save </a>
+                <a href="#" class="btn btn-primary w-100" > Save </a>
             </div><!--  modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->

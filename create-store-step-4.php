@@ -24,7 +24,7 @@
 
                     <!-- STEP 4 -->
 
-                    <h3> Bank <br> Account </h3>
+                    <!-- <h3> Bank Account </h3> -->
 
                     <section>
 

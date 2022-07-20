@@ -349,7 +349,7 @@
                 </div> <!-- delete-container -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 via"> Yes, I Want To Edit </a>
+                <a href="#" class="btn btn-primary via"> Yes, I Want To Edit </a>
                 <a href="#" class="btn btn-custom5 via"> No </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
@@ -404,7 +404,7 @@
                 </div> <!-- delete-container -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 via" > Submit </a>
+                <a href="#" class="btn btn-primary via" > Submit </a>
                 <a href="#" class="btn btn-custom5 via" > Cancel </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
@@ -427,7 +427,7 @@
                 </div> <!-- text-center -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 via" > Yes </a>
+                <a href="#" class="btn btn-primary via" > Yes </a>
                 <a href="#" class="btn btn-custom5 via" > No </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
@@ -449,7 +449,7 @@
                 </div> <!-- text-center -->
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom1 via" > Yes </a>
+                <a href="#" class="btn btn-primary via" > Yes </a>
                 <a href="#" class="btn btn-custom5 via" data-dismiss="modal"> No </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->

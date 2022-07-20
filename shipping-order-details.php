@@ -120,7 +120,7 @@
                                     <p class="product-sub-total"> $11.00 </p>
                                 </th>
                                 <th>
-                                    <a class="btn btn-custom2" href="#"> Unavailable </a>
+                                    <a class="btn " href="#"> Unavailable </a>
                                 </th>
                             </tr>
 
@@ -142,7 +142,7 @@
                                     <p class="product-sub-total"> $11.00 </p>
                                 </th>
                                 <th>
-                                    <a class="btn btn-custom2" href="#"> Unavailable </a>
+                                    <a class="btn " href="#"> Unavailable </a>
                                 </th>
                             </tr>
 

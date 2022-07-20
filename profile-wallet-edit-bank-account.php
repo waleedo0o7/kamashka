@@ -32,7 +32,7 @@
         </div><!-- form-group  -->
 
         <div class="submit-btn-container">
-            <button class="btn btn-custom1 w-100 text-center"> Save </button>
+            <button class="btn btn-primary w-100 text-center"> Save </button>
         </div>
 
     </div><!-- container -->
