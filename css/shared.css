@@ -99,13 +99,13 @@ button.reset-btn:after {
   color: #fff !important;
 }
 
-.btn-custom4 {
+.btn-primary-light {
   color: var(--secondaryColor);
   background-color: #f6e6de;
   border-color: #f6e6de;
   font-weight: bold;
 }
-.btn-custom4:hover {
+.btn-primary-light:hover {
   color: #fff;
   background-color: #d37644;
   border-color: #d37644;
