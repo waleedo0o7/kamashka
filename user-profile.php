@@ -13,7 +13,7 @@
 
                 <div class="data text-center">
                     <h1 class="name"> Amr Abd Alhady <img alt="" class="img-fluid" src="img/verified.svg"> </h1>
-                    <a href="#" class="btn btn-custom2 btn-lg"> Follow </a>
+                    <a href="#" class="btn btn-outline-primary btn-lg"> Follow </a>
                     <a href="#" class="btn btn-primary btn-lg d-none"> Unfollow </a>
                 </div><!-- data -->
 
@@ -44,13 +44,13 @@
                 <div class="about">
 
                     <div class="categories-wrapper text-center mb-3">
-                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> Fashion </a>
-                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> Beauty </a>
-                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> brand </a>
-                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> designer </a>
-                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> colors </a>
-                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> brand </a>
-                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> designer </a>
+                        <a class="btn btn-outline-primary follow btn-sm mb-2" href="#"> Fashion </a>
+                        <a class="btn btn-outline-primary follow btn-sm mb-2" href="#"> Beauty </a>
+                        <a class="btn btn-outline-primary follow btn-sm mb-2" href="#"> brand </a>
+                        <a class="btn btn-outline-primary follow btn-sm mb-2" href="#"> designer </a>
+                        <a class="btn btn-outline-primary follow btn-sm mb-2" href="#"> colors </a>
+                        <a class="btn btn-outline-primary follow btn-sm mb-2" href="#"> brand </a>
+                        <a class="btn btn-outline-primary follow btn-sm mb-2" href="#"> designer </a>
                     </div><!-- categories-wrapper -->
                     <p> Zara is one of the biggest international fashion companies, and it belongs to Inditex, one of the worldZara is one of the biggest international fashion companies, </p>
                 </div><!-- about -->
@@ -386,7 +386,7 @@
                                         <h4> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
-                                        <a class="btn btn-custom2 d-none" href="#"> follow</a>
+                                        <a class="btn btn-outline-primary d-none" href="#"> follow</a>
                                         <a class="btn btn-primary " href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
@@ -398,7 +398,7 @@
                                         <h4> Ahmed Ali </h4>
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
-                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-outline-primary" href="#"> follow</a>
                                         <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
@@ -411,7 +411,7 @@
                                         <h4> Ali Mohsen <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
-                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-outline-primary" href="#"> follow</a>
                                         <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
@@ -425,7 +425,7 @@
                                         <h4> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
-                                        <a class="btn btn-custom2 d-none" href="#"> follow</a>
+                                        <a class="btn btn-outline-primary d-none" href="#"> follow</a>
                                         <a class="btn btn-primary " href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
@@ -437,7 +437,7 @@
                                         <h4> Ahmed Ali </h4>
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
-                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-outline-primary" href="#"> follow</a>
                                         <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
@@ -450,7 +450,7 @@
                                         <h4> Ali Mohsen <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
-                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-outline-primary" href="#"> follow</a>
                                         <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
@@ -461,7 +461,7 @@
                                         <h4> Ali Mohsen <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
-                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-outline-primary" href="#"> follow</a>
                                         <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
@@ -486,7 +486,7 @@
                                         <h4> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
-                                        <a class="btn btn-custom2 d-none" href="#"> follow</a>
+                                        <a class="btn btn-outline-primary d-none" href="#"> follow</a>
                                         <a class="btn btn-primary " href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
@@ -498,7 +498,7 @@
                                         <h4> Ahmed Ali </h4>
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
-                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-outline-primary" href="#"> follow</a>
                                         <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
@@ -511,7 +511,7 @@
                                         <h4> Ali Mohsen <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
-                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-outline-primary" href="#"> follow</a>
                                         <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
@@ -525,7 +525,7 @@
                                         <h4> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
-                                        <a class="btn btn-custom2 d-none" href="#"> follow</a>
+                                        <a class="btn btn-outline-primary d-none" href="#"> follow</a>
                                         <a class="btn btn-primary " href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
@@ -537,7 +537,7 @@
                                         <h4> Ahmed Ali </h4>
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
-                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-outline-primary" href="#"> follow</a>
                                         <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
@@ -550,7 +550,7 @@
                                         <h4> Ali Mohsen <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
-                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-outline-primary" href="#"> follow</a>
                                         <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->
@@ -561,7 +561,7 @@
                                         <h4> Ali Mohsen <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                                     </div><!-- image-and-name-wrapper -->
                                     <div class="buttons-wrapper">
-                                        <a class="btn btn-custom2" href="#"> follow</a>
+                                        <a class="btn btn-outline-primary" href="#"> follow</a>
                                         <a class="btn btn-primary d-none" href="#"> unfollow</a>
                                     </div><!-- buttons-wrapper -->
                                 </div><!-- one-user -->

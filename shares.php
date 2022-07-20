@@ -16,7 +16,7 @@
                             <h4> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                         </div><!-- image-and-name-wrapper -->
                         <div class="buttons-wrapper">
-                            <a class="btn btn-custom2 d-none" href="#"> follow</a>
+                            <a class="btn btn-outline-primary d-none" href="#"> follow</a>
                             <a class="btn btn-primary " href="#"> unfollow</a>
                         </div><!-- buttons-wrapper -->
                     </div><!-- one-user -->
@@ -28,7 +28,7 @@
                             <h4> Ahmed Ali </h4>
                         </div><!-- image-and-name-wrapper -->
                         <div class="buttons-wrapper">
-                            <a class="btn btn-custom2" href="#"> follow</a>
+                            <a class="btn btn-outline-primary" href="#"> follow</a>
                             <a class="btn btn-primary d-none" href="#"> unfollow</a>
                         </div><!-- buttons-wrapper -->
                     </div><!-- one-user -->
@@ -41,7 +41,7 @@
                             <h4> Ali Mohsen <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                         </div><!-- image-and-name-wrapper -->
                         <div class="buttons-wrapper">
-                            <a class="btn btn-custom2" href="#"> follow</a>
+                            <a class="btn btn-outline-primary" href="#"> follow</a>
                             <a class="btn btn-primary d-none" href="#"> unfollow</a>
                         </div><!-- buttons-wrapper -->
                     </div><!-- one-user -->
@@ -55,7 +55,7 @@
                             <h4> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                         </div><!-- image-and-name-wrapper -->
                         <div class="buttons-wrapper">
-                            <a class="btn btn-custom2 d-none" href="#"> follow</a>
+                            <a class="btn btn-outline-primary d-none" href="#"> follow</a>
                             <a class="btn btn-primary " href="#"> unfollow</a>
                         </div><!-- buttons-wrapper -->
                     </div><!-- one-user -->
@@ -67,7 +67,7 @@
                             <h4> Ahmed Ali </h4>
                         </div><!-- image-and-name-wrapper -->
                         <div class="buttons-wrapper">
-                            <a class="btn btn-custom2" href="#"> follow</a>
+                            <a class="btn btn-outline-primary" href="#"> follow</a>
                             <a class="btn btn-primary d-none" href="#"> unfollow</a>
                         </div><!-- buttons-wrapper -->
                     </div><!-- one-user -->
@@ -80,7 +80,7 @@
                             <h4> Ali Mohsen <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                         </div><!-- image-and-name-wrapper -->
                         <div class="buttons-wrapper">
-                            <a class="btn btn-custom2" href="#"> follow</a>
+                            <a class="btn btn-outline-primary" href="#"> follow</a>
                             <a class="btn btn-primary d-none" href="#"> unfollow</a>
                         </div><!-- buttons-wrapper -->
                     </div><!-- one-user -->
@@ -94,7 +94,7 @@
                             <h4> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                         </div><!-- image-and-name-wrapper -->
                         <div class="buttons-wrapper">
-                            <a class="btn btn-custom2" href="#"> follow</a>
+                            <a class="btn btn-outline-primary" href="#"> follow</a>
                             <a class="btn btn-primary d-none" href="#"> unfollow</a>
                         </div><!-- buttons-wrapper -->
                     </div><!-- one-user -->
@@ -106,7 +106,7 @@
                             <h4> Ahmed Ali </h4>
                         </div><!-- image-and-name-wrapper -->
                         <div class="buttons-wrapper">
-                            <a class="btn btn-custom2" href="#"> follow</a>
+                            <a class="btn btn-outline-primary" href="#"> follow</a>
                             <a class="btn btn-primary d-none" href="#"> unfollow</a>
                         </div><!-- buttons-wrapper -->
                     </div><!-- one-user -->
@@ -119,7 +119,7 @@
                             <h4> Ali Mohsen <img alt="" class="img-fluid" src="img/verified.svg"> </h4>
                         </div><!-- image-and-name-wrapper -->
                         <div class="buttons-wrapper">
-                            <a class="btn btn-custom2" href="#"> follow</a>
+                            <a class="btn btn-outline-primary" href="#"> follow</a>
                             <a class="btn btn-primary d-none" href="#"> unfollow</a>
                         </div><!-- buttons-wrapper -->
                     </div><!-- one-user -->

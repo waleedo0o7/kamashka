@@ -182,7 +182,7 @@
                         </div><!-- form-group  -->
 
 
-                        <a href="auth-reset-password.php" class="change-password-btn btn btn-custom2 text-center pl-5 pr-5"> Change Password </a>
+                        <a href="auth-reset-password.php" class="change-password-btn btn btn-outline-primary text-center pl-5 pr-5"> Change Password </a>
 
                     </div> <!-- card -->
 
@@ -330,7 +330,7 @@
 
                     <div class="submit-btn-container text-center">
                         <button type="submit" class="btn btn-primary text-center pl-5 pr-5"> save </button>
-                        <a href="auth-reset-password.php" class="btn btn-custom2 text-center pl-5 pr-5"> Change Password </a>
+                        <a href="auth-reset-password.php" class="btn btn-outline-primary text-center pl-5 pr-5"> Change Password </a>
                     </div> <!-- submit-btn-container -->
 
                 </form>

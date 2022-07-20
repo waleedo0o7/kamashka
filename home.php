@@ -450,7 +450,7 @@
                                             </div><!-- col-md-3 -->
                                             <div class="col-md-6 d-flex">
                                                 <div class="follow-btn">
-                                                    <a class="btn btn-custom2 follow" href="#"> Follow </a>
+                                                    <a class="btn btn-outline-primary follow" href="#"> Follow </a>
                                                 </div><!-- follow-btn -->
                                             </div>
                                         </div><!-- row -->
@@ -523,8 +523,8 @@
                                         </div><!-- brand-details-text -->
 
                                         <div class="buttons tags text-center mb-2 mt-2">
-                                            <a class="btn btn-custom2 follow" href="#"> Fashion </a>
-                                            <a class="btn btn-custom2 follow" href="#"> Beauty </a>
+                                            <a class="btn btn-outline-primary follow" href="#"> Fashion </a>
+                                            <a class="btn btn-outline-primary follow" href="#"> Beauty </a>
                                         </div><!-- buttons -->
 
                                         <div class="share">
@@ -906,7 +906,7 @@
 
                                                 <div class="col-md-6 d-flex mt-2">
                                                     <div class="buttons text-right">
-                                                        <a class="btn  follow" data-toggle="modal" data-target="#share-modal"> Share & Get 10 KD</a>
+                                                        <a class="btn btn-outline-primary" data-toggle="modal" data-target="#share-modal"> Share & Get 10 KD</a>
                                                     </div><!-- buttons -->
                                                 </div><!-- col-md-3 -->
 
@@ -1279,7 +1279,7 @@
             </div> <!-- modal-body -->
             <div class="modal-footer">
                 <a href="#" class="btn btn-primary via"> Yes </a>
-                <a href="#" class="btn btn-custom5 via"> No </a>
+                <a href="#" class="btn btn-light via"> No </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->

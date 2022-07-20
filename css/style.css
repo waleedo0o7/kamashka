@@ -91,29 +91,12 @@ button.reset-btn:after {
   color: #fff !important;
 }
 
-.btn-custom2 {
-  color: var(--secondaryColor) !important;
-  background-color: transparent;
-  border-color: var(--secondaryColor);
+.btn-outline-primary {
   padding: 8px 20px;
   border-radius: 8px;
 }
-.btn-custom2:hover {
+.btn-outline-primary:hover {
   color: #fff !important;
-  background-color: #d37644;
-  border-color: #d37644;
-}
-
-.btn-custom3 {
-  color: var(--secondaryColor) !important;
-  background-color: #fff;
-  border-color: var(--secondaryColor);
-  padding: 8px 20px;
-}
-.btn-custom3:hover {
-  color: var(--gray);
-  background-color: #d37644;
-  border-color: #d37644;
 }
 
 .btn-custom4 {
@@ -128,18 +111,9 @@ button.reset-btn:after {
   border-color: #d37644;
 }
 
-.btn-custom5 {
-  color: var(--darkGray);
-  background-color: var(--gray);
-  border-color: var(--gray);
+.btn-light {
   padding: 8px 20px;
 }
-.btn-custom5:hover {
-  color: #fff;
-  background-color: #d37644;
-  border-color: #d37644;
-}
-
 .btn-edit-custom1 {
   color: #555;
   font-size: 12px;
@@ -1070,7 +1044,7 @@ You'll need to replace with your own color values.
   color: #fff;
 }
 #top-header .btn-primary,
-#top-header .btn-custom2 {
+#top-header .btn-outline-primary {
   border-radius: 6px;
   padding: 6px 20px;
 }
@@ -1242,9 +1216,9 @@ You'll need to replace with your own color values.
 }
 
 #top-header .btn-primary,
-#top-header .btn-custom2,
+#top-header .btn-outline-primary,
 .homepage .btn-primary,
-.homepage .btn-custom2 {
+.homepage .btn-outline-primary {
   border-radius: 5px;
   padding: 5px 20px;
 }
@@ -2171,9 +2145,6 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 }
 .sign-up #confirmation .modal-body {
   font-size: 22px;
-}
-.sign-up #confirmation .modal-footer .whatsapp:hover {
-  background: var(--gray);
 }
 
 .forget-password .nav-tabs {

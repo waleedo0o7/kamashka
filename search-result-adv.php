@@ -6,16 +6,16 @@
         <h3 class="bold mb-4 d-flex"> Advertising  Search Result </h3>
 
         <div class="search-filter-wrapper mb-1">
-            <a href="#" class="filter-btn btn btn-custom2 active"> All Gategories </a>
-            <a href="#" class="filter-btn btn btn-custom2 "> Beauty </a>
-            <a href="#" class="filter-btn btn btn-custom2 "> Games </a>
-            <a href="#" class="filter-btn btn btn-custom2 "> Food </a>
-            <a href="#" class="filter-btn btn btn-custom2 "> Fashion </a>
-            <a href="#" class="filter-btn btn btn-custom2 "> Games </a>
-            <a href="#" class="filter-btn btn btn-custom2 "> Electronics </a>
-            <a href="#" class="filter-btn btn btn-custom2 "> Mobiles </a>
-            <a href="#" class="filter-btn btn btn-custom2 "> Fashion </a>
-            <a href="#" class="filter-btn btn btn-custom2 "> Games </a>
+            <a href="#" class="filter-btn btn btn-outline-primary active"> All Gategories </a>
+            <a href="#" class="filter-btn btn btn-outline-primary "> Beauty </a>
+            <a href="#" class="filter-btn btn btn-outline-primary "> Games </a>
+            <a href="#" class="filter-btn btn btn-outline-primary "> Food </a>
+            <a href="#" class="filter-btn btn btn-outline-primary "> Fashion </a>
+            <a href="#" class="filter-btn btn btn-outline-primary "> Games </a>
+            <a href="#" class="filter-btn btn btn-outline-primary "> Electronics </a>
+            <a href="#" class="filter-btn btn btn-outline-primary "> Mobiles </a>
+            <a href="#" class="filter-btn btn btn-outline-primary "> Fashion </a>
+            <a href="#" class="filter-btn btn btn-outline-primary "> Games </a>
         </div><!-- search-filter-wrapper -->
 
 
@@ -57,8 +57,8 @@
                     <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi . </p>
 
                     <div class="categories-wrapper">
-                        <a href="#" class="mr-2 filter-btn btn btn-custom2 active"> Games </a>
-                        <a href="#" class="mr-2 filter-btn btn btn-custom2"> Fashion </a>
+                        <a href="#" class="mr-2 filter-btn btn btn-outline-primary active"> Games </a>
+                        <a href="#" class="mr-2 filter-btn btn btn-outline-primary"> Fashion </a>
                     </div><!-- categories-wrapper -->
 
 
@@ -101,8 +101,8 @@
                     <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi . </p>
 
                     <div class="categories-wrapper">
-                        <a href="#" class="mr-2 filter-btn btn btn-custom2 active"> Games </a>
-                        <a href="#" class="mr-2 filter-btn btn btn-custom2"> Fashion </a>
+                        <a href="#" class="mr-2 filter-btn btn btn-outline-primary active"> Games </a>
+                        <a href="#" class="mr-2 filter-btn btn btn-outline-primary"> Fashion </a>
                     </div><!-- categories-wrapper -->
 
 
@@ -145,8 +145,8 @@
                     <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi . </p>
 
                     <div class="categories-wrapper">
-                        <a href="#" class="mr-2 filter-btn btn btn-custom2 active"> Games </a>
-                        <a href="#" class="mr-2 filter-btn btn btn-custom2"> Fashion </a>
+                        <a href="#" class="mr-2 filter-btn btn btn-outline-primary active"> Games </a>
+                        <a href="#" class="mr-2 filter-btn btn btn-outline-primary"> Fashion </a>
                     </div><!-- categories-wrapper -->
 
 
@@ -260,7 +260,7 @@
             </div> <!-- modal-body -->
             <div class="modal-footer">
                 <a href="#" class="btn btn-primary"> Apply </a>
-                <a href="#" class="btn btn-custom5"> Reset </a>
+                <a href="#" class="btn btn-light"> Reset </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->

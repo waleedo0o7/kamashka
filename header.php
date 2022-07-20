@@ -149,7 +149,7 @@
                             <div class="dropdown-menu disable-auto-close pl-3 pr-3 user">
                                 <p class="bold text-center"> Continue With Your Profile, Create Your Own Adv , Collect Money, Shop Online And More </p>
                                 <a href="auth-sign-in.php" class="btn btn-primary w-100 mb-2"> Sign In </a>
-                                <a href="auth-sign-up.php" class="btn btn-custom2 w-100 "> Sign Up </a>
+                                <a href="auth-sign-up.php" class="btn btn-outline-primary w-100 "> Sign Up </a>
 
                                 <p class="text-center"> Or continue with </p>
 
@@ -506,7 +506,7 @@
                                 <div class="dropdown-menu disable-auto-close pl-3 pr-3">
                                     <p class="bold text-center"> Continue With Your Profile, Create Your Own Adv , Collect Money, Shop Online And More </p>
                                     <a href="auth-sign-in.php" class="btn btn-primary w-100 mb-2"> Sign In </a>
-                                    <a href="auth-sign-up.php" class="btn btn-custom2 w-100 "> Sign Up </a>
+                                    <a href="auth-sign-up.php" class="btn btn-outline-primary w-100 "> Sign Up </a>
 
                                     <p class="text-center"> Or continue with </p>
 

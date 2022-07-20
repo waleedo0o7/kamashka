@@ -38,7 +38,7 @@
 
         <div class="page-footer">
             <div class="sign-up-btn-container mb-3">
-                <a href="auth-sign-up.php" class="btn btn-custom2 w-100 text-center"> Sign Up </a>
+                <a href="auth-sign-up.php" class="btn btn-outline-primary w-100 text-center"> Sign Up </a>
             </div><!-- submit-btn-container -->
             <p class="text-capitalize "> Or continue with </p>
             <ul class="reset-ul icons mb-3">

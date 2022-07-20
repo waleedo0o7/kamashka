@@ -33,7 +33,7 @@
                                 <p class="bold mb-0"> Zara <img alt="" src="img//verified.svg"> </p>
                             </div> <!-- image-and-name -->
 
-                            <a href="#" class="btn btn-custom2"> unfollow </a>
+                            <a href="#" class="btn btn-outline-primary"> unfollow </a>
 
                         </div><!-- product-header -->
 
@@ -128,7 +128,7 @@
                                 <p class="bold mb-0"> Zara <img alt="" src="img//verified.svg"> </p>
                             </div> <!-- image-and-name -->
 
-                            <a href="#" class="btn btn-custom2"> unfollow </a>
+                            <a href="#" class="btn btn-outline-primary"> unfollow </a>
 
                         </div><!-- product-header -->
 
@@ -301,7 +301,7 @@
             </div> <!-- modal-body -->
             <div class="modal-footer">
                 <a href="#" class="btn btn-primary"> Apply </a>
-                <a href="#" class="btn btn-custom5"> Reset </a>
+                <a href="#" class="btn btn-light"> Reset </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->
@@ -357,7 +357,7 @@
 
             <div class="modal-footer">
                 <a href="#" class="btn btn-primary"> Apply </a>
-                <a href="#" class="btn btn-custom5"> Reset </a>
+                <a href="#" class="btn btn-light"> Reset </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->

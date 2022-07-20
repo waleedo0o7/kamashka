@@ -37,7 +37,7 @@
                                         <input type="text" class="form-control" placeholder="EX: programmer">
                                         <div class="buttons">
                                             <a href="#" class="btn btn-sm btn-primary "> Save </a>
-                                            <a href="#" class="btn btn-sm btn-custom2 "> Later </a>
+                                            <a href="#" class="btn btn-sm btn-outline-primary "> Later </a>
                                         </div><!-- buttons -->
                                     </div><!-- form-group  -->
 
@@ -51,7 +51,7 @@
                                         <input type="text" class="form-control" placeholder="EX: programmer">
                                         <div class="buttons">
                                             <a href="#" class="btn btn-sm btn-primary "> Save </a>
-                                            <a href="#" class="btn btn-sm btn-custom2 "> Later </a>
+                                            <a href="#" class="btn btn-sm btn-outline-primary "> Later </a>
                                         </div><!-- buttons -->
                                     </div><!-- form-group  -->
 
@@ -65,7 +65,7 @@
                                         <input type="text" class="form-control" placeholder="EX: programmer">
                                         <div class="buttons">
                                             <a href="#" class="btn btn-sm btn-primary "> Save </a>
-                                            <a href="#" class="btn btn-sm btn-custom2 "> Later </a>
+                                            <a href="#" class="btn btn-sm btn-outline-primary "> Later </a>
                                         </div><!-- buttons -->
                                     </div><!-- form-group  -->
 
@@ -84,7 +84,7 @@
         </div><!-- profile-sidebar -->
         <div class="profile-data">
             <div class="header text-right">
-                <a href="#" class="btn btn-custom4 btn-sm"> My Store <i class="fa fa-home"></i> </a>
+                <a href="#" class="btn btn-primary-light btn-sm"> My Store <i class="fa fa-home"></i> </a>
             </div><!-- header -->
             <div class="profile-data-content">
 

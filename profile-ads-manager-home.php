@@ -471,7 +471,7 @@
                                             </div><!-- col-md-3 -->
                                             <div class="col-md-6 d-flex">
                                                 <div class="follow-btn">
-                                                    <a class="btn btn-custom2 follow" href="#"> Follow </a>
+                                                    <a class="btn btn-outline-primary follow" href="#"> Follow </a>
                                                 </div><!-- follow-btn -->
                                             </div>
                                         </div><!-- row -->
@@ -1396,7 +1396,7 @@
             </div> <!-- modal-body -->
             <div class="modal-footer">
                 <a href="#" class="btn btn-primary via"> Yes </a>
-                <a href="#" class="btn btn-custom5 via"> No </a>
+                <a href="#" class="btn btn-light via"> No </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->

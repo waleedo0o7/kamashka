@@ -20,8 +20,8 @@
                             <span class="fa fa-star checked"> 4.0 </span>
                         </div><!-- name-rating-wrapper -->
                         <div class="actions">
-                            <a class="btn btn-custom2 like btn-sm mr-2 " href="#"> <i class="icon icon-like mr-1"></i>Like </a>
-                            <a class="btn btn-custom2 follow btn-sm" href="#"> Follow </a>
+                            <a class="btn btn-outline-primary like btn-sm mr-2 " href="#"> <i class="icon icon-like mr-1"></i>Like </a>
+                            <a class="btn btn-outline-primary follow btn-sm" href="#"> Follow </a>
                         </div><!-- follow-btn-wrapper -->
                     </div><!-- logo-name-rating-actions-wrapper -->
 
@@ -48,16 +48,16 @@
                 <div class="about">
 
                     <div class="categories-wrapper text-center mb-3">
-                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> Fashion </a>
-                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> Beauty </a>
-                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> brand </a>
-                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> designer </a>
-                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> colors </a>
-                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> brand </a>
-                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> designer </a>
-                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> brand </a>
-                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> colors </a>
-                        <a class="btn btn-custom2 follow btn-sm mb-2" href="#"> designer </a>
+                        <a class="btn btn-outline-primary follow btn-sm mb-2" href="#"> Fashion </a>
+                        <a class="btn btn-outline-primary follow btn-sm mb-2" href="#"> Beauty </a>
+                        <a class="btn btn-outline-primary follow btn-sm mb-2" href="#"> brand </a>
+                        <a class="btn btn-outline-primary follow btn-sm mb-2" href="#"> designer </a>
+                        <a class="btn btn-outline-primary follow btn-sm mb-2" href="#"> colors </a>
+                        <a class="btn btn-outline-primary follow btn-sm mb-2" href="#"> brand </a>
+                        <a class="btn btn-outline-primary follow btn-sm mb-2" href="#"> designer </a>
+                        <a class="btn btn-outline-primary follow btn-sm mb-2" href="#"> brand </a>
+                        <a class="btn btn-outline-primary follow btn-sm mb-2" href="#"> colors </a>
+                        <a class="btn btn-outline-primary follow btn-sm mb-2" href="#"> designer </a>
                     </div><!-- categories-wrapper -->
 
                     <div class="location">
@@ -832,7 +832,7 @@
 
             </div> <!-- modal-body -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-custom5"> Cancel </a>
+                <a href="#" class="btn btn-light"> Cancel </a>
                 <a href="#" class="btn btn-primary"> Apply </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->

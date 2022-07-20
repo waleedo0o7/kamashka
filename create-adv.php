@@ -24,8 +24,8 @@
                     <div class="label-and-btn">
                         <label class=" bold"> Upload Photo Or Video </label>
                         <p class="max-limit d-none"> max limit is 3 files </p>
-                        <button class="btn btn-custom2 upload-btn">  upload </button>
-                        <button class="btn btn-custom2 upload-btn-disabled d-none">  upload </button>
+                        <button class="btn btn-outline-primary upload-btn">  upload </button>
+                        <button class="btn btn-outline-primary upload-btn-disabled d-none">  upload </button>
                         <input id="upload" class="upload-with-thumbnails d-none" type="file" accept=".jpg,.jpeg.,.gif,.png,.mov,.mp4" />
                     </div><!-- label-and-btn -->
 
@@ -48,7 +48,7 @@
                             </div><!-- option -->
                             <div class="actions">
                                 <ul class="reset-ul">
-                                    <li class="mr-3"> <a class="btn btn-sm btn-custom2 pl-4 pr-4" href=""> Details</a> </li>
+                                    <li class="mr-3"> <a class="btn btn-sm btn-outline-primary pl-4 pr-4" href=""> Details</a> </li>
                                     <li class="ml-2"> <a class="btn-edit-custom1" href=""> <i class="fa fa-edit"></i> </a> </li>
                                     <li class="ml-2"> <a class="btn-delete-custom1" href="" data-toggle="modal" data-target="#delete-modal"> <i class="fa fa-trash-alt"></i> </a> </li>
                                 </ul>
@@ -66,7 +66,7 @@
                             </div><!-- option -->
                             <div class="actions">
                                 <ul class="reset-ul">
-                                    <li class="mr-3"> <a class="btn btn-sm btn-custom2 pl-4 pr-4" href=""> Details</a> </li>
+                                    <li class="mr-3"> <a class="btn btn-sm btn-outline-primary pl-4 pr-4" href=""> Details</a> </li>
                                     <li class="ml-2"> <a class="btn-edit-custom1" href=""> <i class="fa fa-edit"></i> </a> </li>
                                     <li class="ml-2"> <a class="btn-delete-custom1" href="" data-toggle="modal" data-target="#delete-modal"> <i class="fa fa-trash-alt"></i> </a> </li>
                                 </ul>
@@ -77,7 +77,7 @@
 
                     </div><!-- target-items-container -->
 
-                    <a class="btn btn-sm btn-custom2 pl-3 pr-3 " href="create-target-audience.php"> Create New Target </a>
+                    <a class="btn btn-sm btn-outline-primary pl-3 pr-3 " href="create-target-audience.php"> Create New Target </a>
                 </div><!-- target-audience-container -->
 
 
@@ -133,7 +133,7 @@
             </div> <!-- modal-body -->
             <div class="modal-footer">
                 <a href="#" class="btn btn-primary via" > Yes </a>
-                <a href="#" class="btn btn-custom5 via" > No </a>
+                <a href="#" class="btn btn-light via" > No </a>
             </div><!-- modal-footer -->
         </div> <!-- modal-content -->
     </div> <!-- modal-dialog -->

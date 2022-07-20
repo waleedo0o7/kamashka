@@ -95,7 +95,7 @@
                             </div><!-- modal-body -->
                             <div class="modal-footer">
                                 <button type="submit" class="btn btn-primary via" data-via="sms"> By SMS <img alt="" src="img/sms-icon.svg" /> </button>
-                                <button type="submit" class="btn btn-custom3 via whatsapp" data-via="whatsapp"> By Whatsapp <img alt="" src="img/whatsapp-icon.svg" /></button>
+                                <button type="submit" class="btn btn-outline-primary via whatsapp" data-via="whatsapp"> By Whatsapp <img alt="" src="img/whatsapp-icon.svg" /></button>
                             </div><!-- modal-footer -->
                         </div> <!-- modal-content -->
                     </div><!-- modal-dialog -->

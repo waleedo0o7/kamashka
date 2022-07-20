@@ -110,7 +110,7 @@
 
                                     <div class="label-and-btn">
                                         <label class=" bold"> VAT Proof Document </label>
-                                        <a id="vat-proof-upload-btn" class="btn btn-custom2"> upload </a>
+                                        <a id="vat-proof-upload-btn" class="btn btn-outline-primary"> upload </a>
                                         <input id="vat-proof-document-input" class="d-none" type="file" accept=".jpg,.jpeg.,.gif,.png,.mov,.mp4" />
                                     </div><!-- label-and-btn -->
 
@@ -130,7 +130,7 @@
 
                                     <div class="label-and-btn">
                                         <label class=" bold"> Tax Card Document </label>
-                                        <a id="tax-card-upload-btn" class="btn btn-custom2"> upload </a>
+                                        <a id="tax-card-upload-btn" class="btn btn-outline-primary"> upload </a>
                                         <input id="tax-card-document-input" class="d-none" type="file" accept=".jpg,.jpeg.,.gif,.png,.mov,.mp4" />
                                     </div><!-- label-and-btn -->
 
