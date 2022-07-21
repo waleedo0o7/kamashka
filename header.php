@@ -489,7 +489,7 @@
 
                             </div> <!-- dropdown-menu -->
                         </div> <!-- dropdown -->
-                        <a class="btn btn-primary ml-3" data-toggle="modal" data-target="#create-modal"> Create </a>
+                        <a id="create-modal-btn" class="btn btn-primary ml-3" data-toggle="modal" data-target="#create-modal"> Create </a>
                     </div><!-- user-icons -->
                 </div><!-- col-md-6 -->
 

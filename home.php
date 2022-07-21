@@ -508,7 +508,7 @@
                                     </div> <!-- brand-slider-container -->
 
                                     <div class="text-center mb-2 mt-2">
-                                        <a class="btn  follow" href="#"> discover products </a>
+                                        <a class="btn btn-outline-primary" href="#"> discover products </a>
                                     </div>
 
                                     <div class="brand-details" id="myDIV">
@@ -542,7 +542,7 @@
                                                                     <div class="num"> +3K </div>
                                                                 </a> </li>
                                                         </ul>
-                                                    </div> images
+                                                    </div> <!-- images -->
 
                                                     <!-- <div class="empty-state">
                                                         <h6 class="mb-0"> No Shares Yet </h6>
@@ -553,7 +553,7 @@
 
                                                 <div class="col-md-6 d-flex mt-2">
                                                     <div class="buttons text-right">
-                                                        <a class="btn  follow" data-toggle="modal" data-target="#share-modal"> Share & Get 10 KD</a>
+                                                        <a id="share-modal-btn" class="btn btn-outline-primary" data-toggle="modal" data-target="#share-modal"> Share & Get 10 KD</a>
                                                     </div><!-- buttons -->
                                                 </div><!-- col-md-3 -->
 
@@ -765,13 +765,13 @@
                                                 </div><!-- brand-details-text -->
 
                                                 <div class="buttons tags mb-3 mt-2">
-                                                    <a class="btn  follow" href="#"> Fashion </a>
-                                                    <a class="btn  follow" href="#"> Beauty </a>
+                                                    <a class="btn btn-outline-primary" href="#"> Fashion </a>
+                                                    <a class="btn btn-outline-primary" href="#"> Beauty </a>
                                                 </div><!-- buttons -->
 
                                                 <div class="mobile-matched-criteria text-center">
 
-                                                    <a data-toggle="modal" data-target="#matched-criteria-modal" class="popup-toggle btn  " href="#"> Matched Criteria </a>
+                                                    <a data-toggle="modal" data-target="#matched-criteria-modal" class="popup-toggle btn btn-outline-primary" href="#"> Matched Criteria </a>
 
                                                 </div><!-- mobile-matched-criteria -->
 

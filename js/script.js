@@ -1,17 +1,22 @@
+let canSlide = true;
+
+
+
+
+
 $(function () {
     $('.zoom').zoom();
 });
 
 // toggle fixed bar in product page
-$(".product-details-wrapper").on( 'scroll', function(){
-    if( $(this).scrollTop() > 180 ) {
+$(".product-details-wrapper").on('scroll', function () {
+    if ($(this).scrollTop() > 180) {
         $(".fixed-bar-wrapper").addClass("show");
     } else {
         $(".fixed-bar-wrapper").removeClass("show");
     }
 });
 
-let canSlide = true;
 
 // Homepage --> Toggle Fullscreen Mode
 $("#expand-video").on("click", function () {
@@ -110,6 +115,18 @@ $(function () {
     })
 });
 
+// Homepage -->  disable scroll if popup active 
+$(function () {
+    $("#share-modal-btn , #create-modal-btn").on("click", function () {
+        canSlide = false;
+        console.log("can slide is false");
+    });
+});
+
+$('#share-modal , #create-modal').on('hidden.bs.modal', function (e) {
+    canSlide = true;
+    console.log("can slide is true");
+})
 
 
 
@@ -206,7 +223,7 @@ $(document).ready(function () {
 // calc age 
 let calcAge = () => {
     $(document).ready(function () {
-        
+
         $("input#datepicker").on("change", function () {
             let selectedDate = $(this).val();
             let selectedDateTimestamp = new Date(selectedDate);
@@ -482,7 +499,7 @@ $(document).on('keydown', function (event) {
 
 
 // MY PROFILE --> change image container
-$(document).ready(function () { 
+$(document).ready(function () {
     $(".change-image-container .icon").on("click", function () {
         let image = document.getElementById("profile-image");
         let input = document.getElementById("change-profile-image");
@@ -1401,8 +1418,8 @@ let productSlider = () => {
             infinite: true,
             arrows: true,
             dots: true,
-            prevArrow:"<i class='nextArrow fa fa-chevron-left'></i>",
-            nextArrow:"<i class='prevArrow fa fa-chevron-right'></i>"
+            prevArrow: "<i class='nextArrow fa fa-chevron-left'></i>",
+            nextArrow: "<i class='prevArrow fa fa-chevron-right'></i>"
         });
     });
 }
@@ -1410,7 +1427,7 @@ let productSlider = () => {
 
 let openImageSliderLightbox = () => {
     $(document).ready(function () {
-        $(".actions-wrapper i.icon.icon-expand ").on("click", function(){
+        $(".actions-wrapper i.icon.icon-expand ").on("click", function () {
             $(".slick-active .image img").click();
         })
 
@@ -1538,18 +1555,15 @@ form.children("div").steps({
     headerTag: "h3",
     bodyTag: "section",
     transitionEffect: "fade",
-    onStepChanging: function (event, currentIndex, newIndex)
-    {
+    onStepChanging: function (event, currentIndex, newIndex) {
         form.validate().settings.ignore = ":disabled,:hidden";
         return form.valid();
     },
-    onFinishing: function (event, currentIndex)
-    {
+    onFinishing: function (event, currentIndex) {
         form.validate().settings.ignore = ":disabled";
         return form.valid();
     },
-    onFinished: function (event, currentIndex)
-    {
+    onFinished: function (event, currentIndex) {
         alert("Submitted!");
     }
 });
@@ -1566,7 +1580,7 @@ $(function () {
     $("#edit-company-banner-btn").on("click", function () {
         $("#edit-company-banner-input").click();
     });
-    
+
     $("#edit-company-banner-input").on("change", function () {
         var files = !!this.files ? this.files : [];
         if (!files.length || !window.FileReader) return; // no file selected, or no FileReader support
