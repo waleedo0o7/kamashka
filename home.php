@@ -610,6 +610,7 @@
 
                                 <!-- mobile view START -->
                                 <div class="mobile-view">
+                                    <!-- <img src="img/brand-slider/01.jpg" style="width: 100%; height: 100%;" /> -->
                                     <div class="top-shadow"></div><!-- top-shadow -->
                                     <div class="video-container">
 
@@ -1036,7 +1037,6 @@
                                                 </div><!-- brand-logo -->
                                                 <div class="close"> <i class="icon icon-close"></i> </div><!-- close -->
                                             </div><!-- brand-header -->
-
 
 
 

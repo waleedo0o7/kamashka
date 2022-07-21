@@ -11,14 +11,33 @@
     --mainTransition: all 0.2s ease;
 }
 
+
+// .mobile-view > div {
+//     display: none !important;
+// }
+
+
 // Small Laptop Media
 @media all and (max-width: 900px) {
 
-    .swiper-slide {
-        margin: 0 !important;
+
+    .video-js {
+        width: 100% !important;
+        height: 100% !important;
     }
 
-    
+
+    .page-content.homepage {
+        height: 100vh !important;
+        overflow: hidden;
+    }
+
+    .swiper-main-container {
+        height: 100vh !important;
+        overflow: hidden;
+    }
+
+
     div#matched-criteria-modal {
         .all-items {
             max-height: 380px;
@@ -36,7 +55,7 @@
     }
 
     .swiper-main-container {
-        height: 93vh;
+        height: 100vh;
         width: 100vw;
 
         .swiper .swiper-slide-active {
@@ -376,10 +395,6 @@
         }
     }
 
-    .video-section .video-section-content .video-container video {
-        height: 100vh;
-    }
-
     .page-content.homepage {
         padding-top: 0px !important;
     }
@@ -415,13 +430,9 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 94vh;
+            height: 100vh;
             width: 100vw;
             position: relative;
-
-            video.video {
-                height: 100%;
-            }
 
             .overlay-container {
                 position: absolute;
