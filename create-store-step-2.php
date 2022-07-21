@@ -86,7 +86,7 @@
                             <div class="col-md-6">
                                 <div class="form-group mb-3 relative">
                                     <label class="text-left"> Vat Expiration Date </label>
-                                    <input placeholder="Vat Expiration Date" type="text" name="checkIn" id="" class="form-control calendar" disabled>
+                                    <input placeholder="Vat Expiration Date" type="text" name="checkIn" id="" class="form-control calendar">
                                 </div><!-- form-group  -->
                             </div><!-- col-md-6 -->
 

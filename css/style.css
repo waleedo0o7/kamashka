@@ -1555,10 +1555,11 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 .homepage .homepage-content .video-section .video-section-content .video-container {
   display: flex;
   justify-content: center;
-  height: 100%;
+  align-items: center;
   position: relative;
-  width: 370px;
-  height: 656px;
+  width: 360px;
+  height: 635px;
+  overflow: hidden;
 }
 .homepage .homepage-content .video-section .video-section-content .video-container video {
   cursor: pointer !important;

@@ -12,6 +12,10 @@
 }
 
 @media all and (max-width: 900px) {
+  .swiper-slide {
+    margin: 0 !important;
+  }
+
   div#matched-criteria-modal .all-items {
     max-height: 380px;
     overflow: auto;
@@ -176,7 +180,7 @@
     justify-content: center;
     align-items: center;
   }
-  .mobile-left-menu .menu-icons-container .dropdown-menu.user a.btn.btn-outline-primary {
+  .mobile-left-menu .menu-icons-container .dropdown-menu.user a.btn.btn-custom2 {
     color: #fa935b !important;
   }
   .mobile-left-menu .menu-links-container {
@@ -319,7 +323,7 @@
   }
 
   .video-section .video-section-content .video-container video {
-    height: 93vh;
+    height: 100vh;
   }
 
   .page-content.homepage {
@@ -354,7 +358,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 93vh;
+    height: 94vh;
     width: 100vw;
     position: relative;
   }

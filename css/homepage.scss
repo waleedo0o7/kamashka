@@ -108,7 +108,7 @@ body.fullscreen {
 
         .data-section {
             width: 40%;
-        
+
             .brand-header {
                 margin: 15px 0;
                 .brand-logo {
@@ -123,7 +123,7 @@ body.fullscreen {
                     align-items: center;
                     width: 100%;
                 }
-        
+
                 h3 {
                     font-size: 24px;
                     text-transform: capitalize;
@@ -137,7 +137,7 @@ body.fullscreen {
                     margin-bottom: 2px;
                 }
             }
-        
+
             .brand-slider-container {
                 .item {
                     height: 215px;
@@ -147,7 +147,7 @@ body.fullscreen {
                     img {
                         height: 100%;
                     }
-        
+
                     .video-item {
                         video {
                             width: 100% !important;
@@ -171,7 +171,7 @@ body.fullscreen {
                     }
                 }
             }
-        
+
             .brand-details {
                 .brand-details-text {
                     max-height: 140px;
@@ -186,7 +186,7 @@ body.fullscreen {
                     font-size: 13px;
                     background: #ffdcc9;
                     color: #3f3f3f !important;
-                    &:hover{
+                    &:hover {
                         color: #ffffff !important;
                         background: var(--secondaryColor) !important;
                     }
@@ -239,7 +239,7 @@ body.fullscreen {
                 }
             }
         }
-        
+
         .video-section {
             width: 60%;
             background-image: url(../img/shadow-wallpaper.jpg);
@@ -260,7 +260,7 @@ body.fullscreen {
                 width: 100%;
                 z-index: 1;
             }
-        
+
             .video-section-content {
                 z-index: 2;
                 color: #fff;
@@ -276,12 +276,12 @@ body.fullscreen {
                 .video-container {
                     display: flex;
                     justify-content: center;
-                    height: 100%;
+                    align-items: center;
                     position: relative;
-        
-                    width: 370px;
-                    height: 656px;
-        
+                    width: 360px;
+                    height: 635px;
+                    overflow: hidden;
+
                     video {
                         cursor: pointer !important;
                     }
@@ -295,7 +295,7 @@ body.fullscreen {
                         justify-content: center;
                         align-items: center;
                         cursor: pointer;
-        
+
                         img {
                             width: 110px;
                             filter: drop-shadow(2px 4px 6px rgba(73, 73, 73, 0.7));
@@ -310,7 +310,7 @@ body.fullscreen {
                 }
             }
         }
-        
+
         .matched-criteria-container {
             position: absolute;
             bottom: 30px;
@@ -326,7 +326,7 @@ body.fullscreen {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-        
+
                 i {
                     color: #3f3f3f;
                     background: #fff;
@@ -337,8 +337,6 @@ body.fullscreen {
                 }
             }
         }
-
-
     }
 }
 

@@ -13,6 +13,12 @@
 
 // Small Laptop Media
 @media all and (max-width: 900px) {
+
+    .swiper-slide {
+        margin: 0 !important;
+    }
+
+    
     div#matched-criteria-modal {
         .all-items {
             max-height: 380px;
@@ -200,7 +206,7 @@
                     justify-content: center;
                     align-items: center;
                 }
-                a.btn.btn-outline-primary {
+                a.btn.btn-custom2 {
                     color: #fa935b !important;
                 }
             }
@@ -371,7 +377,7 @@
     }
 
     .video-section .video-section-content .video-container video {
-        height: 93vh;
+        height: 100vh;
     }
 
     .page-content.homepage {
@@ -409,7 +415,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 93vh;
+            height: 94vh;
             width: 100vw;
             position: relative;
 
