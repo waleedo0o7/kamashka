@@ -26,6 +26,11 @@
         height: 100% !important;
     }
 
+    .video-js .vjs-tech {
+        object-fit: cover;
+    }
+
+    
 
     .page-content.homepage {
         height: 100vh !important;
@@ -528,7 +533,7 @@
             .brand-details {
                 display: flex;
                 justify-content: flex-start;
-                align-items: flex-start;
+                align-items: flex-end;
                 padding: 10px 10px;
                 position: absolute;
                 left: 0;
@@ -537,7 +542,9 @@
                 .image {
                     width: 45px;
                     img {
-                        width: 100%;
+                        width: 45px;
+                        height: 45px;
+                        margin-bottom: 35px;
                     }
                 }
                 .data {
@@ -546,9 +553,13 @@
                         font-size: 22px;
                         font-weight: bold;
                         display: flex;
+                        max-width: 200px;
+                        justify-content: flex-start;
+                        align-items: flex-start;
                         img {
                             margin-left: 5px;
-                            width: 15px;
+                            width: 14px;
+                            margin-top: 10px;
                         }
                     }
                     p {
@@ -635,7 +646,8 @@
                             margin: 0 5px;
                         }
                         img.logo {
-                            width: 70px;
+                            width: 60px;
+                            height: 60px;
                             border-radius: 50%;
                         }
                     }
@@ -692,8 +704,6 @@
                         padding: 5px 8px;
                     }
 
-                    .mobile-matched-criteria {
-                    }
                 }
             }
         }

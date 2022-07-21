@@ -17,6 +17,10 @@
     height: 100% !important;
   }
 
+  .video-js .vjs-tech {
+    object-fit: cover;
+  }
+
   .page-content.homepage {
     height: 100vh !important;
     overflow: hidden;
@@ -454,7 +458,7 @@
   .mobile-view .video-container .brand-details {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-end;
     padding: 10px 10px;
     position: absolute;
     left: 0;
@@ -465,7 +469,9 @@
     width: 45px;
   }
   .mobile-view .video-container .brand-details .image img {
-    width: 100%;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 35px;
   }
   .mobile-view .video-container .brand-details .data {
     padding-left: 10px;
@@ -474,10 +480,14 @@
     font-size: 22px;
     font-weight: bold;
     display: flex;
+    max-width: 200px;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
   .mobile-view .video-container .brand-details .data p.name img {
     margin-left: 5px;
-    width: 15px;
+    width: 14px;
+    margin-top: 10px;
   }
   .mobile-view .video-container .brand-details .data p {
     margin-bottom: 0;
@@ -559,7 +569,8 @@
     margin: 0 5px;
   }
   .mobile-view .video-container .mobile-brand-data .mobile-brand-header .brand-logo img.logo {
-    width: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
   }
   .mobile-view .video-container .mobile-brand-data .mobile-brand-slider-container .item {
@@ -605,6 +616,7 @@
     font-size: 12px;
     padding: 5px 8px;
   }
+
   .modal .modal-dialog .modal-header .modal-title {
     font-size: 28px;
   }
