@@ -187,9 +187,9 @@
                 }
             }
             ul.menu-icons {
-                display: flex;
+                display: flex; 
                 li {
-                    a {
+                   a { 
                         color: #fff;
                         padding: 10px;
                         font-size: 30px;
@@ -225,7 +225,7 @@
                     justify-content: center;
                     align-items: center;
                 }
-                a.btn.btn-custom2 {
+                a.btn.btn-outline-primary {
                     color: #fa935b !important;
                 }
             }
