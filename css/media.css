@@ -557,6 +557,7 @@
   }
   .mobile-view .video-container .mobile-brand-data .mobile-brand-header .brand-logo img.logo {
     width: 70px;
+    border-radius: 50%;
   }
   .mobile-view .video-container .mobile-brand-data .mobile-brand-slider-container .item {
     height: 215px;

@@ -1,5 +1,17 @@
 let canSlide = true;
 
+// Homepage -->  disable scroll if popup active 
+$(function () {
+    $("#share-modal-btn , #create-modal-btn , #matched-criteria-modal-btn").on("click", function () {
+        canSlide = false;
+        console.log("can slide is false");
+    });
+});
+
+$(document).on('hidden.bs.modal', '#share-modal , #create-modal , #matched-criteria-modal', function (e) {
+    canSlide = true;
+    console.log("can slide is true");
+})
 
 
 
@@ -114,19 +126,6 @@ $(function () {
         canSlide = !canSlide;
     })
 });
-
-// Homepage -->  disable scroll if popup active 
-$(function () {
-    $("#share-modal-btn , #create-modal-btn").on("click", function () {
-        canSlide = false;
-        console.log("can slide is false");
-    });
-});
-
-$('#share-modal , #create-modal').on('hidden.bs.modal', function (e) {
-    canSlide = true;
-    console.log("can slide is true");
-})
 
 
 
@@ -1538,40 +1537,6 @@ $(document).ready(function () {
 
 
 
-// jq steps  start
-
-var form = $("#create-store");
-
-form.validate({
-    errorPlacement: function errorPlacement(error, element) { element.before(error); },
-    rules: {
-        confirm: {
-            equalTo: "#password"
-        }
-    }
-});
-
-form.children("div").steps({
-    headerTag: "h3",
-    bodyTag: "section",
-    transitionEffect: "fade",
-    onStepChanging: function (event, currentIndex, newIndex) {
-        form.validate().settings.ignore = ":disabled,:hidden";
-        return form.valid();
-    },
-    onFinishing: function (event, currentIndex) {
-        form.validate().settings.ignore = ":disabled";
-        return form.valid();
-    },
-    onFinished: function (event, currentIndex) {
-        alert("Submitted!");
-    }
-});
-
-// jq steps  end
-
-
-
 //////////////////// SHIPPING SCRIPT START  ////////////////////
 
 // 
@@ -1628,19 +1593,3 @@ $(function () {
 
 
 //////////////////// SHIPPING SCRIPT END  ////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

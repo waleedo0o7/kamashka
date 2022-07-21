@@ -601,7 +601,7 @@
 
                                     <div class="matched-criteria-container">
                                         <div class="dropdown custom-dropdown">
-                                            <button class="popup-toggle reset-btn" data-toggle="modal" data-target="#matched-criteria-modal">
+                                            <button id="matched-criteria-modal-btn" class="popup-toggle reset-btn" data-toggle="modal" data-target="#matched-criteria-modal">
                                                 Matched Criteria <i class="fa fa-chevron-down"></i>
                                             </button>
                                         </div> <!-- dropdown -->
