@@ -227,6 +227,9 @@
                 }
                 a.btn.btn-outline-primary {
                     color: #fa935b !important;
+                    &:hover{
+                        color: #FFF !important;
+                    }
                 }
             }
         }

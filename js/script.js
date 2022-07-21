@@ -379,17 +379,17 @@ $(document).ready(function () {
 
 
 // Homepage --> toggle like or dislike 
-$(document).ready(function () {
-    $(".toggle-like-btn").on("click", function () {
-        if ($(this).hasClass("icon-heart")) {
-            $(this).removeClass("icon-heart");
-            $(this).addClass("icon-heart-solid");
-        } else {
-            $(this).removeClass("icon-heart-solid");
-            $(this).addClass("icon-heart");
-        }
-    });
-});
+// $(document).ready(function () {
+//     $(".toggle-like-btn").on("click", function () {
+//         if ($(this).hasClass("icon-heart")) {
+//             $(this).removeClass("icon-heart");
+//             $(this).addClass("icon-heart-solid");
+//         } else {
+//             $(this).removeClass("icon-heart-solid");
+//             $(this).addClass("icon-heart");
+//         }
+//     });
+// });
 
 // Homepage copy Text In Share Modal
 let copyTextInShareModal = () => {

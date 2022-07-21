@@ -194,6 +194,9 @@
   .mobile-left-menu .menu-icons-container .dropdown-menu.user a.btn.btn-outline-primary {
     color: #fa935b !important;
   }
+  .mobile-left-menu .menu-icons-container .dropdown-menu.user a.btn.btn-outline-primary:hover {
+    color: #FFF !important;
+  }
   .mobile-left-menu .menu-links-container {
     margin-top: 10px;
   }
