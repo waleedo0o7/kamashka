@@ -8,27 +8,11 @@ $(function () {
     });
 });
 
+// homepage --> on close modal can slide to true 
 $(document).on('hidden.bs.modal', '#share-modal , #create-modal , #matched-criteria-modal', function (e) {
     canSlide = true;
     console.log("can slide is true");
 })
-
-
-
-
-$(function () {
-    $('.zoom').zoom();
-});
-
-// toggle fixed bar in product page
-$(".product-details-wrapper").on('scroll', function () {
-    if ($(this).scrollTop() > 180) {
-        $(".fixed-bar-wrapper").addClass("show");
-    } else {
-        $(".fixed-bar-wrapper").removeClass("show");
-    }
-});
-
 
 // Homepage --> Toggle Fullscreen Mode
 $("#expand-video").on("click", function () {
@@ -37,14 +21,11 @@ $("#expand-video").on("click", function () {
 });
 
 // Fancybox options
-
 if ($('.fancybox').length > 0) {
     $(".fancybox").fancybox({
-        // API options
         loop: true
     });
 }
-
 
 // Header --> toggle mobile icon to show menu
 $(".mobile-menu .icon-menu-icon-2 , #closeMobileMenu ").on("click", function () {
@@ -102,7 +83,7 @@ let profileInfoSlider = () => {
     });
 }
 
-// sign up --> get gender data
+// Sign up --> get gender data
 $(function () {
     $(".gender").on("click", function () {
         $(".gender").removeClass("active");
@@ -111,7 +92,7 @@ $(function () {
     });
 });
 
-// homepage --> toggle left menu on big screen
+// Homepage --> toggle left menu on big screen
 $(function () {
     $("#top-header #mobile-icon , #close-left-menu").on("click", function () {
         $(".left-menu-container").toggleClass("show");
@@ -127,9 +108,7 @@ $(function () {
     })
 });
 
-
-
-// top header cart popup --> increaseCount and decreaseCount START 
+// Top header cart popup --> increaseCount and decreaseCount START 
 function increaseCount(a, b) {
     var input = b.previousElementSibling;
     var value = parseInt(input.value, 10);
@@ -139,6 +118,7 @@ function increaseCount(a, b) {
     calcItemsPrice();
 }
 
+// Top header cart popup --> increaseCount and decreaseCount END
 function decreaseCount(a, b) {
     var input = b.nextElementSibling;
     var value = parseInt(input.value, 10);
@@ -150,9 +130,7 @@ function decreaseCount(a, b) {
     calcItemsPrice();
 }
 
-// top header cart popup --> increaseCount and decreaseCount END
-
-// disable dropdown menu auto close
+// Disable dropdown menu auto close
 $('.disable-auto-close ').click(function (e) {
     e.stopPropagation();
 });
@@ -181,6 +159,7 @@ $(".remove").on("click", function () {
         calcItemsPrice();
     }, 450);
 });
+
 calcItemsPrice();
 // top bar calc cart dropdown items END
 
@@ -376,8 +355,6 @@ $(document).ready(function () {
     })
 });
 
-
-
 // Homepage --> toggle like or dislike 
 // $(document).ready(function () {
 //     $(".toggle-like-btn").on("click", function () {
@@ -406,7 +383,6 @@ let copyTextInShareModal = () => {
 }
 
 // Homepage Copy Comment In Right Menu
-
 let CopyCommentInRightMenu = () => {
     $(document).on("click", ".copy-comment", function () {
 
@@ -428,12 +404,6 @@ let CopyCommentInRightMenu = () => {
 
     });
 }
-
-
-
-
-
-
 
 // Homepage edit comment  
 $(document).ready(function () {
@@ -461,30 +431,6 @@ $(document).ready(function () {
     })
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Homepage escape to exit fullscreen mode 
 $(document).on('keydown', function (event) {
     if (event.key == "Escape") {
@@ -495,7 +441,6 @@ $(document).on('keydown', function (event) {
         }
     }
 });
-
 
 // MY PROFILE --> change image container
 $(document).ready(function () {
@@ -515,14 +460,6 @@ $(document).ready(function () {
 
     });
 });
-
-
-
-
-
-
-
-
 
 // Homepage Mobile Brand Slider
 let homeMobileBrandSlider = () => {
@@ -803,11 +740,11 @@ if ($(window).width() < 960) { // less than 960px
 
         $('.video-container').on('swipeup', function () {
             // alert("swipeup");
-            $(".swiper-button-next").click();
+            // $(".swiper-button-next").click();
         });
         $('.video-container').on('swipedown', function () {
             // alert("swipedown");
-            $(".swiper-button-prev").click();
+            // $(".swiper-button-prev").click();
         });
     });
     ////////////////////// SWIPE UP EVENT END
@@ -1408,6 +1345,21 @@ let toggleAllCategories = () => {
 
 
 
+
+// init zoom script for product slider
+$(function () {
+    $('.zoom').zoom();
+});
+
+// toggle fixed bar in product page
+$(".product-details-wrapper").on('scroll', function () {
+    if ($(this).scrollTop() > 180) {
+        $(".fixed-bar-wrapper").addClass("show");
+    } else {
+        $(".fixed-bar-wrapper").removeClass("show");
+    }
+});
+
 // Product Slider
 let productSlider = () => {
     $(document).ready(function () {
@@ -1593,3 +1545,51 @@ $(function () {
 
 
 //////////////////// SHIPPING SCRIPT END  ////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////// SWIPE EVENTS FOR HOMEPAGE START  ////////////////////
+
+
+
+// swipe up
+$('.video-container').bind('swipeup', handler);
+function handler(event) {
+    // alert("swipeup");
+    $(".swiper-button-next").click();
+}
+
+// swipe down
+$('.video-container').bind('swipedown', handler2);
+function handler2(event) {
+    // alert("swipedown");
+    $(".swiper-button-prev").click();
+}
+
+// swipe right
+$('div').bind('swiperight', handler3);
+function handler3(event) {
+    // alert("swiperight");
+}
+
+// swipe left
+$('div').bind('swipeleft', handler4);
+function handler4(event) {
+    // alert("swipeleft");
+}
+
+
+//////////////////// SWIPE EVENTS FOR HOMEPAGE END  ////////////////////
