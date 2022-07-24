@@ -32,6 +32,8 @@
         </div> <!-- modal-dialog -->
     </div> <!-- Delete Modal END -->
 
+
+
     <div class="left-menu-container">
         <div class="left-menu">
             <div class="left-menu-content">
@@ -57,8 +59,12 @@
         </div><!-- left-menu -->
     </div><!-- left-menu-container -->
 
+
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.2.1.min.js"></script>
+
+
 
     <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-steps/1.1.0/jquery.steps.js"></script>
@@ -86,16 +92,22 @@
     <script src="js/jquery-ui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-touch-events/2.0.0/jquery.mobile-events.min.js"></script>
+
     <script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
+
 
     <!-- zoom JQuery -->
 	<script src='js/jquery.zoom.js'></script>
 
-    <!-- jquery touch -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-touch-events/2.0.0/jquery.mobile-events.min.js"></script>
-
     <!-- Custom JS -->
     <script src="js/script.js"></script>
+
+
+
+
+
 
 
     </body>

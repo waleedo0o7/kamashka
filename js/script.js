@@ -1566,27 +1566,27 @@ $(function () {
 
 
 // swipe up
-$('.video-container').bind('swipeup', handler);
+$('.mobile-view').bind('swipeup', handler);
 function handler(event) {
     // alert("swipeup");
     $(".swiper-button-next").click();
 }
 
 // swipe down
-$('.video-container').bind('swipedown', handler2);
+$('.mobile-view').bind('swipedown', handler2);
 function handler2(event) {
     // alert("swipedown");
     $(".swiper-button-prev").click();
 }
 
 // swipe right
-$('div').bind('swiperight', handler3);
+$('mobile-view').bind('swiperight', handler3);
 function handler3(event) {
     // alert("swiperight");
 }
 
 // swipe left
-$('div').bind('swipeleft', handler4);
+$('mobile-view').bind('swipeleft', handler4);
 function handler4(event) {
     // alert("swipeleft");
 }
