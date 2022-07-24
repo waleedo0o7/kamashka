@@ -426,7 +426,10 @@
     </div> loading-container 
 </div> loader-wrapper -->
 
-<div class="page-content homepage">
+
+
+
+<div class="page-content homepage ">
     <div class="container">
         <div class="homepage-content">
             <div class="swiper-main-container swiper-main-home-slider">
@@ -434,8 +437,6 @@
 
                     <div class="swiper-wrapper">
 
-
-
                         <?php @include 'one-slide.php' ?>
                         <?php @include 'one-slide.php' ?>
                         <?php @include 'one-slide.php' ?>
@@ -446,19 +447,8 @@
                         <?php @include 'one-slide.php' ?>
                         <?php @include 'one-slide.php' ?>
                         <?php @include 'one-slide.php' ?>
-
-
-
-
 
                     </div> <!-- swiper-wrapper -->
-
-
-
-
-
-
-
 
                     <!-- If we need navigation buttons -->
                     <div class="swiper-arrows-container">

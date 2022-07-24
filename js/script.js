@@ -598,21 +598,24 @@ else {  // alert('MORE than 960');
 
 let homepageMainSlider = () => {
 
-    var HomepageMainSliderSwiper = new Swiper(".mySwiper", {
-        direction: 'vertical',
-        spaceBetween: 50,
-        allowTouchMove: false,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-    });
 
     if ($(window).width() < 960) { // less 960px
+
+        let HomepageMainSliderSwiper = new Swiper(".mySwiper", {
+            direction: 'vertical',
+            spaceBetween: 50,
+            allowTouchMove: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+
 
         HomepageMainSliderSwiper.on('slideChange', function () {
 
@@ -629,6 +632,21 @@ let homepageMainSlider = () => {
 
     } else { // more 960px
 
+        let HomepageMainSliderSwiper = new Swiper(".mySwiper", {
+            direction: 'vertical',
+            spaceBetween: 50,
+            allowTouchMove: false,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+        
         HomepageMainSliderSwiper.on('slideChange', function () {
 
             // stop all videos
@@ -1565,31 +1583,31 @@ $(function () {
 
 
 
-// swipe up
-$('.mobile-view').bind('swipeup', handler);
-function handler(event) {
-    // alert("swipeup");
-    $(".swiper-button-next").click();
-}
+// // swipe up
+// $('.mobile-view').bind('swipeup', handler);
+// function handler(event) {
+//     // alert("swipeup");
+//     $(".swiper-button-next").click();
+// }
 
-// swipe down
-$('.mobile-view').bind('swipedown', handler2);
-function handler2(event) {
-    // alert("swipedown");
-    $(".swiper-button-prev").click();
-}
+// // swipe down
+// $('.mobile-view').bind('swipedown', handler2);
+// function handler2(event) {
+//     // alert("swipedown");
+//     $(".swiper-button-prev").click();
+// }
 
-// swipe right
-$('mobile-view').bind('swiperight', handler3);
-function handler3(event) {
-    // alert("swiperight");
-}
+// // swipe right
+// $('mobile-view').bind('swiperight', handler3);
+// function handler3(event) {
+//     // alert("swiperight");
+// }
 
-// swipe left
-$('mobile-view').bind('swipeleft', handler4);
-function handler4(event) {
-    // alert("swipeleft");
-}
+// // swipe left
+// $('mobile-view').bind('swipeleft', handler4);
+// function handler4(event) {
+//     // alert("swipeleft");
+// }
 
 
 //////////////////// SWIPE EVENTS FOR HOMEPAGE END  ////////////////////
