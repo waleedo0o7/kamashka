@@ -166,12 +166,24 @@
                                     <div class="shadow"></div>
 
                                     <div class="matched-criteria-container">
+
                                         <div class="dropdown custom-dropdown">
-                                            <button id="matched-criteria-modal-btn" class="popup-toggle reset-btn" data-toggle="modal" data-target="#matched-criteria-modal">
+
+                                            <!-- IF AUTH OPEN MODAL -->
+                                            <a id="matched-criteria-modal-btn" class="popup-toggle reset-btn" data-toggle="modal" data-target="#matched-criteria-modal">
                                                 Matched Criteria <i class="fa fa-chevron-down"></i>
-                                            </button>
+                                            </a>
+
+                                            <!-- IF NOT AUTH  -->
+                                            <a href="auth-sign-in.php" id="matched-criteria-modal-btn" class="popup-toggle reset-btn">
+                                                Matched Criteria <i class="fa fa-chevron-down"></i>
+                                            </a>
+
                                         </div> <!-- dropdown -->
+
                                     </div><!-- matched-criteria-container -->
+
+                                    
                                 </div> <!-- video-section -->
 
                                 <!-- mobile view START -->

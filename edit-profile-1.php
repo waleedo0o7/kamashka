@@ -4,11 +4,8 @@
 
 
 <div class="page-content profile edit-profile1">
-
     <div class="profile-content">
-
         <div class="profile-sidebar">
-
 
             <div class="profile-header">
                 <div class="completeness-percentage-container">
@@ -33,6 +30,7 @@
                         <h1 class="name"> Amr Abd Alhady </h1>
                         <p class="lead"> janedoe123@email.com </p>
                         <p class="bold"> 01273495477 </p>
+                        <a href="auth-reset-password.php"> Change Password </a>
                     </div><!-- data -->
                 </div><!-- image-and-data -->
 

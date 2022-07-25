@@ -436,16 +436,16 @@
 
                     <div class="swiper-wrapper">
 
-                        <?php @include 'one-slide.php' ?>
-                        <?php @include 'one-slide.php' ?>
-                        <?php @include 'one-slide.php' ?>
-                        <?php @include 'one-slide.php' ?>
-                        <?php @include 'one-slide.php' ?>
-                        <?php @include 'one-slide.php' ?>
-                        <?php @include 'one-slide.php' ?>
-                        <?php @include 'one-slide.php' ?>
-                        <?php @include 'one-slide.php' ?>
-                        <?php @include 'one-slide.php' ?>
+                        <?php @include 'home-one-slide.php' ?>
+                        <?php @include 'home-one-slide.php' ?>
+                        <?php @include 'home-one-slide.php' ?>
+                        <?php @include 'home-one-slide.php' ?>
+                        <?php @include 'home-one-slide.php' ?>
+                        <?php @include 'home-one-slide.php' ?>
+                        <?php @include 'home-one-slide.php' ?>
+                        <?php @include 'home-one-slide.php' ?>
+                        <?php @include 'home-one-slide.php' ?>
+                        <?php @include 'home-one-slide.php' ?>
 
                     </div> <!-- swiper-wrapper -->
 
