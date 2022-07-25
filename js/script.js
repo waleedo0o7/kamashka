@@ -1,4 +1,3 @@
-
 let canSlide = true;
 
 // Homepage -->  disable scroll if popup active 
@@ -593,7 +592,28 @@ else {  // alert('MORE than 960');
 
 
 
+let getHomepageSlides = (num) => {
+    setTimeout(() => {
+        console.log("index x now is active");
+        console.log($(".swiper-slide.swiper-slide-active").index()); 
+        
+        let index = $(".swiper-slide.swiper-slide-active").index();
 
+        console.log("swiper length");
+        console.log($(".swiper-slide").length);
+
+        let slidesCount = $(".swiper-slide").length;
+
+
+
+        if ( ( slidesCount - index )   === num )  {
+            alert(`You Are Now In Slide Number ${num} `);
+        }
+
+
+    }, 50);
+
+}
 
 
 
@@ -629,6 +649,8 @@ let homepageMainSlider = () => {
                 $(".swiper-slide-active .mobile-view .overlay-container img").addClass("hidden");
                 video[0].play();
             }, 0);
+
+            getHomepageSlides(5);
         });
 
     } else { // more 960px
@@ -647,7 +669,7 @@ let homepageMainSlider = () => {
             },
         });
 
-        
+
         HomepageMainSliderSwiper.on('slideChange', function () {
 
             // stop all videos
@@ -662,6 +684,8 @@ let homepageMainSlider = () => {
                 $(".swiper-slide-active .video-overlay img").addClass("hidden");
                 video[0].play();
             }, 0);
+            
+            getHomepageSlides(5);
 
         });
     }
