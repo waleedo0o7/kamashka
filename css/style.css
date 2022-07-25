@@ -41,6 +41,31 @@ body {
   background-color: #3f3f3f;
 }
 
+.btn-follow {
+  color: #FFF;
+  background: var(--secondaryColor);
+  border-color: var(--secondaryColor);
+  padding: 8px 20px !important;
+  border-radius: 8px;
+  min-width: 120px !important;
+}
+.btn-follow:hover {
+  color: var(--secondaryColor);
+  background: #FFF;
+}
+
+.btn-unfollow {
+  color: var(--secondaryColor);
+  border-color: var(--secondaryColor);
+  padding: 8px 20px !important;
+  border-radius: 8px;
+  min-width: 120px !important;
+}
+.btn-unfollow:hover {
+  color: #FFF;
+  background: var(--secondaryColor);
+}
+
 textarea {
   resize: none;
 }

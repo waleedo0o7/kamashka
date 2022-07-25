@@ -68,10 +68,10 @@
 
     <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-steps/1.1.0/jquery.steps.js"></script>
-    
+
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    
+
     <!-- Fancybox -->
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
@@ -92,17 +92,19 @@
     <script src="js/jquery-ui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
 
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-touch-events/2.0.0/jquery.mobile-events.min.js"></script>
 
     <script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
 
-
     <!-- zoom JQuery -->
-	<script src='js/jquery.zoom.js'></script>
+    <script src='js/jquery.zoom.js'></script>
 
     <!-- Custom JS -->
     <script src="js/script.js"></script>
+
+
+
+
 
 
 

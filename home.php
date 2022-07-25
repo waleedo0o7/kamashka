@@ -1,6 +1,5 @@
 <?php include 'header.php'; ?>
 
-
 <!-- right-menu -->
 <div class="right-menu-container">
     <div class="right-menu">
@@ -417,19 +416,19 @@
     </div><!-- right-menu -->
 </div><!-- right-menu-container -->
 
-
-
-
 <!--  <div class="main-loader-wrapper">
     <div class="loading-container">
         <div class="loader sm"></div>
     </div> loading-container 
 </div> loader-wrapper -->
 
+<!-- <style>
+    .test-frame{
+        border: 3px solid #f0f;
+    }
+</style> -->
 
-
-
-<div class="page-content homepage ">
+<div class="page-content homepage test-frame">
     <div class="container">
         <div class="homepage-content">
             <div class="swiper-main-container swiper-main-home-slider">
