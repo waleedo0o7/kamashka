@@ -3633,13 +3633,13 @@ div#matched-criteria-modal {
                 display: inline-flex;
                 flex-direction: column;
                 width: 100%;
-                &.matched {
+                &.matching {
                     color: #00c569;
                     i {
                         background: #00c569;
                     }
                 }
-                &.not-matched {
+                &.not-matching {
                     color: var(--dangerColor);
                     i {
                         background: var(--dangerColor);
@@ -3658,9 +3658,10 @@ div#matched-criteria-modal {
                         margin: 0;
                     }
                     p.name {
-                        font-size: 16px;
+                        font-size: 14px;
                         font-weight: bold;
                         line-height: 0;
+                        color: #3f3f3f;
                     }
                     i {
                         border-radius: 100px;

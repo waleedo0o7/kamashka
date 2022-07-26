@@ -5256,16 +5256,16 @@ div#matched-criteria-modal .modal-container .all-items .item {
   flex-direction: column;
   width: 100%;
 }
-div#matched-criteria-modal .modal-container .all-items .item.matched {
+div#matched-criteria-modal .modal-container .all-items .item.matching {
   color: #00c569;
 }
-div#matched-criteria-modal .modal-container .all-items .item.matched i {
+div#matched-criteria-modal .modal-container .all-items .item.matching i {
   background: #00c569;
 }
-div#matched-criteria-modal .modal-container .all-items .item.not-matched {
+div#matched-criteria-modal .modal-container .all-items .item.not-matching {
   color: var(--dangerColor);
 }
-div#matched-criteria-modal .modal-container .all-items .item.not-matched i {
+div#matched-criteria-modal .modal-container .all-items .item.not-matching i {
   background: var(--dangerColor);
 }
 div#matched-criteria-modal .modal-container .all-items .item .image-and-name {
@@ -5282,9 +5282,10 @@ div#matched-criteria-modal .modal-container .all-items .item .image-and-name p {
   margin: 0;
 }
 div#matched-criteria-modal .modal-container .all-items .item .image-and-name p.name {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   line-height: 0;
+  color: #3f3f3f;
 }
 div#matched-criteria-modal .modal-container .all-items .item .image-and-name i {
   border-radius: 100px;

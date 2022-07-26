@@ -622,7 +622,7 @@
                 <div class="modal-container">
 
                     <div class="all-items">
-                        <div class="item matched">
+                        <div class="item matching">
                             <div class="image-and-name">
                                 <img class="image" src="img/icon-criteria-location.png" alt="">
                                 <p class="name"> Location </p>
@@ -635,7 +635,7 @@
                         </div><!-- item -->
 
 
-                        <div class="item matched">
+                        <div class="item matching">
                             <div class="image-and-name">
                                 <img src="img/icon-criteria-gender.png" alt="">
                                 <p class="name"> Gender </p>
@@ -648,7 +648,7 @@
                         </div><!-- item -->
 
 
-                        <div class="item not-matched">
+                        <div class="item not-matching">
                             <div class="image-and-name">
                                 <img src="img/icon-criteria-age.png" alt="">
                                 <p class="name"> Age </p>
