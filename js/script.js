@@ -15,7 +15,7 @@ $(document).on('hidden.bs.modal', '#share-modal , #create-modal , #matched-crite
 })
 
 // Homepage --> Toggle Fullscreen Mode
-$("#expand-video").on("click", function () {
+$(document).on("click", "#expand-video" , function () {
     $("body").toggleClass("fullscreen");
     $("#expand-video-icon").toggleClass("icon-expand icon-close");
 });
@@ -28,7 +28,7 @@ if ($('.fancybox').length > 0) {
 }
 
 // Header --> toggle mobile icon to show menu
-$(".mobile-menu .icon-menu-icon-2 , #closeMobileMenu ").on("click", function () {
+$(document).on("click", ".mobile-menu .icon-menu-icon-2 , #closeMobileMenu " , function () {
 
     $(".mobile-left-menu").toggleClass("show");
 
@@ -41,7 +41,7 @@ $(".mobile-menu .icon-menu-icon-2 , #closeMobileMenu ").on("click", function () 
 });
 
 // Header --> toggle mobile menu to show and hide search
-$("#toggle-search").on("click", function () {
+$(document).on("click", "#toggle-search" , function () {
     $(".search-container").toggleClass("show");
 });
 
@@ -85,7 +85,7 @@ let profileInfoSlider = () => {
 
 // Sign up --> get gender data
 $(function () {
-    $(".gender").on("click", function () {
+    $(document).on("click",".gender", function () {
         $(".gender").removeClass("active");
         $(this).addClass("active");
         $("#gender").val($(this).data("gander"));
@@ -94,7 +94,7 @@ $(function () {
 
 // Homepage --> toggle left menu on big screen
 $(function () {
-    $("#top-header #mobile-icon , #close-left-menu").on("click", function () {
+    $(document).on("click","#top-header #mobile-icon , #close-left-menu", function () {
         $(".left-menu-container").toggleClass("show");
         canSlide = !canSlide;
     })
@@ -164,7 +164,7 @@ calcItemsPrice();
 // top bar calc cart dropdown items END
 
 // toggle password
-$(".toggle-password-container").on("click", function (e) {
+$(document).on("click",".toggle-password-container", function (e) {
     if ($(this).parent(".form-group").children("input").attr("type") == 'text') {
         $(this).parent(".form-group").children("input").attr("type", "password");
         $(this).children().removeClass("icon-eye-solid-locked")
@@ -175,13 +175,13 @@ $(".toggle-password-container").on("click", function (e) {
 });
 
 // select country
-$(".country-code-container .dropdown a").on("click", function () {
+$(document).on("click",".country-code-container .dropdown a", function () {
     $("#country").val($(this).data("value"));
     $(this).parents(".dropdown").children("button.dropdown-toggle").html(`<img alt="" src="${$(this).children("img").attr("src")}" /> ${$(this).text()} <i class="fa fa-caret-down"></i>`)
 });
 
 // select verification via 
-$(".via").on("click", function () {
+$(document).on("click",".via", function () {
     $("#via").val($(this).data("via"));
     // alert($("#via").val());
 });
@@ -247,7 +247,7 @@ let counterDownTwoMinutes = () => {
 
 // Forget Password Set Via Value
 $(document).ready(function () {
-    $(".nav-tabs li.nav-item a").on("click", function () {
+    $(document).on("click", ".nav-tabs li.nav-item a" , function () {
         $("#via").val($(this).data("via"));
     });
 });
@@ -257,7 +257,7 @@ $(document).ready(function () {
     $(".num1").focus();
 
 
-    $(".activate-inputs input").on("click", function () {
+    $(document).on("click", ".activate-inputs input", function () {
         $(this).select();
     })
 
@@ -289,7 +289,7 @@ $(document).ready(function () {
 // My Interests toggle active class and value
 $(document).ready(function () {
     let interestsArr = [];
-    $(".interests-container button").on("click", function () {
+    $(document).on("click", ".interests-container button", function () {
         $(this).toggleClass("active");
         let btnValue = $(this).data("value");
         let btnValueIndex = interestsArr.indexOf(btnValue);
@@ -325,7 +325,7 @@ $(document).ready(function () {
 
 // hide success overlay
 $(document).ready(function () {
-    $(".action-success").on("click", function () {
+    $(".action-success").on("click", ".interests-container button" , function () {
         $(this).remove();
     });
 });
@@ -426,7 +426,7 @@ $(document).ready(function () {
 
 // Homepage send comment
 $(document).ready(function () {
-    $("#send-comment").on("click", function () {
+    $(document).on("click", "#send-comment" , function () {
         $("#add-comment").val("");
     })
 });
@@ -444,7 +444,7 @@ $(document).on('keydown', function (event) {
 
 // MY PROFILE --> change image container
 $(document).ready(function () {
-    $(".change-image-container .icon").on("click", function () {
+    $(document).on("click", ".change-image-container .icon" , function () {
         let image = document.getElementById("profile-image");
         let input = document.getElementById("change-profile-image");
         input.click();
@@ -476,7 +476,7 @@ let homeMobileBrandSlider = () => {
 
 // Mobile Homepage --> Show Brand Details
 $(document).ready(function () {
-    $(".more-btn-container").on("click", function () {
+    $(document).on("click", ".more-btn-container" , function () {
         $(".mobile-menu").fadeOut(0);
         $(this).siblings(".mobile-brand-data").fadeIn(0);
         $(".mobile-brand-slider").slick('setPosition');
@@ -492,7 +492,7 @@ $(document).ready(function () {
 
 // Mobile Homepage --> Hide Brand Details
 $(document).ready(function () {
-    $(".mobile-brand-header .close").on("click", function () {
+    $(document).on("click", ".mobile-brand-header .close" , function () {
         $(this).parents(".mobile-brand-data").fadeOut(0);
         $(".mobile-menu").fadeIn(0);
 
@@ -550,7 +550,7 @@ if ($(window).width() < 960) { // alert('Less than 960');
 
     // Homepage --> small screen --> toggle video play and stop
     $(document).ready(function () {
-        $(".mobile-view .overlay-container").on("click", function () {
+        $(document).on("click", ".mobile-view .overlay-container" , function () {
             let video = $(this).prev().children("video").get(0);
             $(this).children("img").toggleClass("hidden");
 
@@ -569,7 +569,7 @@ else {  // alert('MORE than 960');
     // Homepage --> big screen --> toggle video play and stop
     $(document).ready(function () {
 
-        $(".video-section .video-overlay").on("click", function () {
+        $(document).on("click", ".video-section .video-overlay" , function () {
             let video = $(this).prev().children("video").get(0);
             if (video.paused) {
                 $(this).children("img").addClass("hidden");
@@ -848,7 +848,7 @@ else { // alert('More than 960');
 
 
 // Homepage --> stop video if brand slider fancybox active
-$(".brand-slider .item img").on("click", function () {
+$(document).on("click", ".brand-slider .item img" , function () {
     setTimeout(() => {
         if ($("body").hasClass("fancybox-active")) {
             $(".swiper-slide-active .video video").get(0).pause();
@@ -1020,12 +1020,11 @@ let uploadImagesWithThumbnails = () => {
 
     });
 
-
-    $(".upload-btn").on("click", function () {
+    $(document).on("click", ".upload-btn" , function () {
         $("#upload").click();
     });
 
-    $("body").on("click", ".one-thumbnail .icon-close", function (event) {
+    $(document).on("click", ".one-thumbnail .icon-close", function (event) {
         event.preventDefault();
 
         if ($(this).parent().hasClass("default")) {
@@ -1040,7 +1039,7 @@ let uploadImagesWithThumbnails = () => {
         $(".max-limit").addClass("d-none");
     });
 
-    $("body").on("click", ".one-thumbnail img", function (event) {
+    $(document).on("click", ".one-thumbnail img", function (event) {
         $(".one-thumbnail").removeClass("default");
         $(this).parent().addClass("default");
         $("#primary-asset-id").val($(this).attr("asset_id"));
@@ -1055,7 +1054,7 @@ let uploadImagesWithThumbnails = () => {
 
 
 
-// init select2 
+// init select2
 $(document).ready(function () {
     $('.select2-multiple').select2();
     $('#select-main-category').select2({
@@ -1120,22 +1119,22 @@ $(document).ready(() => {
 });
 
 
-$("#shares-ads-tab2").on("click", function () {
+$(document).on("click", "#shares-ads-tab2" , function () {
     $("#shared-ads-tab").click();
 });
 
-$("#followers-tab2").on("click", function () {
+$(document).on("click", "#followers-tab2" , function () {
     $("#followers-tab").click();
 });
 
-$("#Following-tab2").on("click", function () {
+$(document).on("click", "#Following-tab2" , function () {
     $("#following-tab").click();
 });
 
 
 
 
-$(".toggle-top-bar").on("click", function () {
+$(document).on("click", ".toggle-top-bar" , function () {
     $(".page-content.homepage").toggleClass("with-top-bar");
     $(".top-bar.ads-manager").toggleClass("hide");
 });
@@ -1375,12 +1374,12 @@ let todayOffersSlider = () => {
 }
 
 let toggleAllCategories = () => {
-    $("a.all-categories-btn").on("click", function () {
+    $(document).on("click", "a.all-categories-btn" , function () {
         $(".all-categories").addClass("show");
         $("body").addClass("no-scroll");
     });
 
-    $("#close-all-categories-btn").on("click", function () {
+    $(document).on("click", "#close-all-categories-btn" , function () {
         $(".all-categories").removeClass("show");
         $("body").removeClass("no-scroll");
     });
@@ -1421,7 +1420,7 @@ let productSlider = () => {
 
 let openImageSliderLightbox = () => {
     $(document).ready(function () {
-        $(".actions-wrapper i.icon.icon-expand ").on("click", function () {
+        $(document).on("click", ".actions-wrapper i.icon.icon-expand " , function () {
             $(".slick-active .image img").click();
         })
 
@@ -1537,7 +1536,7 @@ $(document).ready(function () {
 // 
 $(function () {
 
-    $("#edit-company-banner-btn").on("click", function () {
+    $(document).on("click", "#edit-company-banner-btn" , function () {
         $("#edit-company-banner-input").click();
     });
 
@@ -1563,7 +1562,7 @@ $(function () {
 
 $(function () {
 
-    $("#edit-company-logo-btn").on("click", function () {
+    $(document).on("click", "#edit-company-logo-btn" , function () {
         $("#edit-company-logo-input").click();
     });
 
