@@ -1638,6 +1638,9 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   font-size: 12px;
   margin-left: 5px;
 }
+.homepage .homepage-content #matched-criteria-modal-btn {
+  cursor: pointer;
+}
 
 .right-menu-container {
   position: absolute;
@@ -1783,6 +1786,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   justify-content: center;
   align-items: center;
   padding: 0 15px 0 5px;
+  width: 100%;
 }
 .right-menu-container .right-menu .right-menu-footer .add-comment-container .image {
   width: 20%;
@@ -1795,23 +1799,27 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   padding: 10px;
   max-height: 65px;
 }
-.right-menu-container .right-menu .right-menu-footer .add-comment-container .comment-input-container {
-  width: 65%;
+.right-menu-container .right-menu .right-menu-footer .add-comment-container .add-comment-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.right-menu-container .right-menu .right-menu-footer .add-comment-container .add-comment-wrapper .comment-input-container {
+  width: 85%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
 }
-.right-menu-container .right-menu .right-menu-footer .add-comment-container .comment-input-container input {
+.right-menu-container .right-menu .right-menu-footer .add-comment-container .add-comment-wrapper .comment-input-container input {
   font-size: 12px;
 }
-.right-menu-container .right-menu .right-menu-footer .add-comment-container .send-comment-container {
+.right-menu-container .right-menu .right-menu-footer .add-comment-container .add-comment-wrapper .send-comment-container {
   width: 15%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-.right-menu-container .right-menu .right-menu-footer .add-comment-container .send-comment-container i.fa {
+.right-menu-container .right-menu .right-menu-footer .add-comment-container .add-comment-wrapper .send-comment-container i.fa {
   background: var(--secondaryColor);
   border-radius: 500px;
   color: var(--mainColor);

@@ -392,23 +392,28 @@
         </div><!-- right-menu-content -->
 
         <div class="right-menu-footer">
-            <div class="add-comment-container d-none">
+
+            <div class="add-comment-container">
+
                 <div class="image">
                     <img class="img-fluid" src="img/person04.jpg" alt="">
                 </div><!-- image -->
 
-                <div class="comment-input-container form-group">
-                    <input id="add-comment" placeholder="Add Comment... " type="text" class="form-control">
-                </div><!-- form-group  -->
+                <form class="add-comment-wrapper w-100">
 
-                <div class="send-comment-container">
-                    <i id="send-comment" class="fa fa-arrow-up"></i>
-                </div><!-- send-comment-container -->
+                    <div class="comment-input-container form-group">
+                        <input id="add-comment" placeholder="Add Comment... " type="text" class="form-control">
+                    </div><!-- form-group  -->
 
+                    <div class="send-comment-container">
+                        <i id="send-comment" class="fa fa-arrow-up"></i>
+                    </div><!-- send-comment-container -->
+
+                </form>
             </div><!-- add-comment-container -->
 
 
-            <div class="if-not-login">
+            <div class="if-not-login d-none">
                 <p class="mb-0"> <a href="auth-sign-in.php"> Login </a> to post a comment </p>
             </div><!-- if-not-login -->
 
