@@ -102,7 +102,7 @@ $(function () {
 
 // Homepage --> toggle RIGHT menu
 $(function () {
-    $("#close-right-menu , .video-icons i.icon-chat , .mobile-view i.icon-chat").on("click", function () {
+    $(document).on("click", "#close-right-menu , .video-icons i.icon-chat , .mobile-view i.icon-chat", function () {
         $(".right-menu-container").toggleClass("show");
         canSlide = !canSlide;
     })

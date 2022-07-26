@@ -409,7 +409,8 @@
                         <i id="send-comment" class="fa fa-arrow-up"></i>
                     </div><!-- send-comment-container -->
 
-                </form>
+                </form><!-- add-comment-wrapper -->
+
             </div><!-- add-comment-container -->
 
 
@@ -619,10 +620,11 @@
                 <div class="modal-container">
 
                     <div class="all-items">
-                        <div class="item">
+                        <div class="item matched">
                             <div class="image-and-name">
                                 <img class="image" src="img/icon-criteria-location.png" alt="">
                                 <p class="name"> Location </p>
+                                <i class="fa fa-check"></i>
                             </div><!-- image-and-name -->
                             <ul class="values">
                                 <li> Cairo Egypt </li>,
@@ -631,10 +633,11 @@
                         </div><!-- item -->
 
 
-                        <div class="item">
+                        <div class="item matched">
                             <div class="image-and-name">
                                 <img src="img/icon-criteria-gender.png" alt="">
                                 <p class="name"> Gender </p>
+                                <i class="fa fa-check"></i>
                             </div><!-- image-and-name -->
                             <ul class="values">
                                 <li> Males </li>,
@@ -643,10 +646,11 @@
                         </div><!-- item -->
 
 
-                        <div class="item">
+                        <div class="item not-matched">
                             <div class="image-and-name">
                                 <img src="img/icon-criteria-age.png" alt="">
                                 <p class="name"> Age </p>
+                                <i class="icon icon-close"></i>
                             </div><!-- image-and-name -->
                             <ul class="values">
                                 <li> From : <span class="mr-1"> 15 </span> To <span span class="ml-1"> 30 </span> </li>
@@ -654,10 +658,11 @@
                         </div><!-- item -->
 
 
-                        <div class="item">
+                        <div class="item not-matched">
                             <div class="image-and-name">
                                 <img src="img/icon-criteria-job.png" alt="">
                                 <p class="name"> Job </p>
+                                <i class="icon icon-close"></i>
                             </div><!-- image-and-name -->
                             <ul class="values">
                                 <li> Job1 </li>,

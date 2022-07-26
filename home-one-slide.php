@@ -175,7 +175,7 @@
                                             </a>
 
                                             <!-- IF NOT AUTH  -->
-                                            <a href="auth-sign-in.php" id="matched-criteria-modal-btn" class="popup-toggle reset-btn">
+                                            <a href="auth-sign-in.php" id="matched-criteria-modal-btn" class="popup-toggle reset-btn d-none">
                                                 Matched Criteria <i class="fa fa-chevron-down"></i>
                                             </a>
 

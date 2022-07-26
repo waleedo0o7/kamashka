@@ -1797,7 +1797,8 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 .right-menu-container .right-menu .right-menu-footer .add-comment-container .image img {
   border-radius: 500px;
   padding: 10px;
-  max-height: 65px;
+  width: 65px;
+  height: 65px;
 }
 .right-menu-container .right-menu .right-menu-footer .add-comment-container .add-comment-wrapper {
   display: flex;
@@ -5248,6 +5249,18 @@ div#matched-criteria-modal .modal-container .all-items .item {
   flex-direction: column;
   width: 100%;
 }
+div#matched-criteria-modal .modal-container .all-items .item.matched {
+  color: #00c569;
+}
+div#matched-criteria-modal .modal-container .all-items .item.matched i {
+  background: #00c569;
+}
+div#matched-criteria-modal .modal-container .all-items .item.not-matched {
+  color: var(--dangerColor);
+}
+div#matched-criteria-modal .modal-container .all-items .item.not-matched i {
+  background: var(--dangerColor);
+}
 div#matched-criteria-modal .modal-container .all-items .item .image-and-name {
   display: flex;
   justify-content: flex-start;
@@ -5255,21 +5268,33 @@ div#matched-criteria-modal .modal-container .all-items .item .image-and-name {
   margin-bottom: 10px;
 }
 div#matched-criteria-modal .modal-container .all-items .item .image-and-name img {
-  width: 30px;
+  width: 24px;
   margin-right: 15px;
 }
 div#matched-criteria-modal .modal-container .all-items .item .image-and-name p {
   margin: 0;
 }
 div#matched-criteria-modal .modal-container .all-items .item .image-and-name p.name {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 0;
+}
+div#matched-criteria-modal .modal-container .all-items .item .image-and-name i {
+  border-radius: 100px;
+  font-size: 8px;
+  color: #fff;
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 div#matched-criteria-modal .modal-container .all-items .item .values {
   list-style: none;
   padding: 0;
   margin-bottom: 30px;
+  color: #3f3f3f;
 }
 div#matched-criteria-modal .modal-container .all-items .item .values li {
   display: inline-flex;
