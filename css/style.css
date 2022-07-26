@@ -1657,7 +1657,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 }
 .right-menu-container .right-menu {
   background: #fff;
-  width: 30%;
+  width: 35%;
   margin-left: auto;
   color: var(--darkGray);
   height: 100%;
@@ -1681,7 +1681,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   margin: 5px;
 }
 .right-menu-container .right-menu .right-menu-content {
-  height: calc(100% - 126px);
+  height: calc(100% - 156px);
   border-top: 1px solid #f1f1f1;
   border-bottom: 1px solid #f1f1f1;
 }
@@ -1732,18 +1732,17 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   overflow: hidden;
   padding-right: 45px;
 }
-.right-menu-container .right-menu .right-menu-content .all-comments .one-comment .name-and-comment .edit-container input {
-  padding: 5px;
-  font-size: 12px;
-  padding-right: 10px;
+.right-menu-container .right-menu .right-menu-content .all-comments .one-comment .name-and-comment .edit-container textarea.form-control {
+  height: 55px;
 }
 .right-menu-container .right-menu .right-menu-content .all-comments .one-comment .name-and-comment .edit-container button {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 0px;
   color: #fff;
   background: #131a45;
-  padding: 4px 10px;
+  height: 55px;
+  width: 60px;
 }
 .right-menu-container .right-menu .right-menu-content .all-comments .one-comment .name-and-comment.edit-mood p.comment {
   display: none;
@@ -1780,6 +1779,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 }
 .right-menu-container .right-menu .right-menu-footer {
   background: var(--mainColor);
+  padding: 15px 0;
 }
 .right-menu-container .right-menu .right-menu-footer .add-comment-container {
   display: flex;

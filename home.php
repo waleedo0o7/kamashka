@@ -22,7 +22,8 @@
                         <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
                         <p class="comment"> Nice Advertisement ( this is MY comment ) </p>
                         <form class="edit-container">
-                            <input class="form-control" type="text" value="Nice Advertisement ( this is MY comment )" />
+                            <!-- <input class="form-control" type="text" value="Nice Advertisement ( this is MY comment )" /> -->
+                            <textarea class="form-control"> Nice Advertisement ( this is MY comment ) </textarea>
                             <button class="save-comment" href="#"> save </button>
                         </form><!-- input-container -->
                     </div><!-- name-and-comment -->
@@ -402,7 +403,8 @@
                 <form class="add-comment-wrapper w-100">
 
                     <div class="comment-input-container form-group">
-                        <input id="add-comment" placeholder="Add Comment... " type="text" class="form-control">
+                        <!-- <input id="add-comment" placeholder="Add Comment... " type="text" class="form-control"> -->
+                        <textarea name="" id="add-comment" placeholder="Add Comment... " class="form-control"></textarea>
                     </div><!-- form-group  -->
 
                     <div class="send-comment-container">

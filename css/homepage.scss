@@ -361,7 +361,7 @@ body.fullscreen {
 
     .right-menu {
         background: #fff;
-        width: 30%;
+        width: 35%;
         margin-left: auto;
         color: var(--darkGray);
         height: 100%;
@@ -385,7 +385,7 @@ body.fullscreen {
         }
 
         .right-menu-content {
-            height: calc(100% - 126px);
+            height: calc(100% - 156px);
             border-top: 1px solid #f1f1f1;
             border-bottom: 1px solid #f1f1f1;
 
@@ -434,18 +434,24 @@ body.fullscreen {
                             border-radius: 8px;
                             overflow: hidden;
                             padding-right: 45px;
-                            input {
-                                padding: 5px;
-                                font-size: 12px;
-                                padding-right: 10px;
+                            textarea.form-control {
+                                height: 55px;
                             }
+
+                            // input {
+                            //     padding: 5px;
+                            //     font-size: 12px;
+                            //     padding-right: 10px;
+                            // }
+
                             button {
                                 position: absolute;
                                 top: 0;
-                                right: 0;
+                                right: 0px;
                                 color: #fff;
                                 background: #131a45;
-                                padding: 4px 10px;
+                                height: 55px;
+                                width: 60px;
                             }
                         }
 
@@ -496,6 +502,7 @@ body.fullscreen {
         }
         .right-menu-footer {
             background: var(--mainColor);
+            padding: 15px 0;
 
             .add-comment-container {
                 display: flex;
