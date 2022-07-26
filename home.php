@@ -21,10 +21,10 @@
                     <div class="name-and-comment">
                         <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
                         <p class="comment"> Nice Advertisement ( this is MY comment ) </p>
-                        <div class="edit-container">
+                        <form class="edit-container">
                             <input class="form-control" type="text" value="Nice Advertisement ( this is MY comment )" />
-                            <a class="save-comment" href="#"> save </a>
-                        </div><!-- input-container -->
+                            <button class="save-comment" href="#"> save </button>
+                        </form><!-- input-container -->
                     </div><!-- name-and-comment -->
                     <div class="actions">
 

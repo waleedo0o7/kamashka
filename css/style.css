@@ -1737,7 +1737,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   font-size: 12px;
   padding-right: 10px;
 }
-.right-menu-container .right-menu .right-menu-content .all-comments .one-comment .name-and-comment .edit-container a {
+.right-menu-container .right-menu .right-menu-content .all-comments .one-comment .name-and-comment .edit-container button {
   position: absolute;
   top: 0;
   right: 0;
