@@ -1681,7 +1681,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   margin: 5px;
 }
 .right-menu-container .right-menu .right-menu-content {
-  height: calc(100% - 156px);
+  height: calc(100% - 132px);
   border-top: 1px solid #f1f1f1;
   border-bottom: 1px solid #f1f1f1;
 }
@@ -1703,16 +1703,21 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   border-bottom: 1px solid #f1f1f1;
   padding: 10px 0;
   position: relative;
+  width: 100%;
 }
 .right-menu-container .right-menu .right-menu-content .all-comments .one-comment .image-container {
-  width: 20%;
-  padding: 0 20px;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .right-menu-container .right-menu .right-menu-content .all-comments .one-comment .image-container img {
   border-radius: 500px;
+  width: 50px;
+  height: 50px;
 }
 .right-menu-container .right-menu .right-menu-content .all-comments .one-comment .name-and-comment {
-  width: 60%;
+  width: 65%;
 }
 .right-menu-container .right-menu .right-menu-content .all-comments .one-comment .name-and-comment p.name {
   margin: 0;
@@ -1734,6 +1739,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 }
 .right-menu-container .right-menu .right-menu-content .all-comments .one-comment .name-and-comment .edit-container textarea.form-control {
   height: 55px;
+  padding: 5px;
 }
 .right-menu-container .right-menu .right-menu-content .all-comments .one-comment .name-and-comment .edit-container button {
   position: absolute;
@@ -1779,7 +1785,7 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 }
 .right-menu-container .right-menu .right-menu-footer {
   background: var(--mainColor);
-  padding: 15px 0;
+  padding: 5px 0;
 }
 .right-menu-container .right-menu .right-menu-footer .add-comment-container {
   display: flex;
@@ -1796,9 +1802,8 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
 }
 .right-menu-container .right-menu .right-menu-footer .add-comment-container .image img {
   border-radius: 500px;
-  padding: 10px;
-  width: 65px;
-  height: 65px;
+  width: 60px;
+  height: 60px;
 }
 .right-menu-container .right-menu .right-menu-footer .add-comment-container .add-comment-wrapper {
   display: flex;
@@ -1811,8 +1816,10 @@ body.fullscreen .page-content.homepage .swiper-main-container .expand-video-cont
   align-items: center;
   margin: 0;
 }
-.right-menu-container .right-menu .right-menu-footer .add-comment-container .add-comment-wrapper .comment-input-container input {
-  font-size: 12px;
+.right-menu-container .right-menu .right-menu-footer .add-comment-container .add-comment-wrapper .comment-input-container textarea {
+  font-size: 14px;
+  padding: 5px;
+  line-height: 1.4;
 }
 .right-menu-container .right-menu .right-menu-footer .add-comment-container .add-comment-wrapper .send-comment-container {
   width: 15%;

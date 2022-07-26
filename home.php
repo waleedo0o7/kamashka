@@ -16,7 +16,7 @@
                 <!--  IF THIS COMMENT IS MY COMMENT  -->
                 <div class="one-comment ">
                     <div class="image-container">
-                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                        <img class="img-fluid" src="img/person06.jpg" alt="">
                     </div><!-- image-container -->
                     <div class="name-and-comment">
                         <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
@@ -49,7 +49,7 @@
                 <!--  IF THIS COMMENT IS not MY COMMENT  -->
                 <div class="one-comment">
                     <div class="image-container">
-                        <img class="img-fluid" src="img/person04.jpg" alt="">
+                        <img class="img-fluid" src="img/person06.jpg" alt="">
                     </div><!-- image-container -->
                     <div class="name-and-comment">
                         <p class="name bold"> Ahmed Mohamed <img alt="" class="img-fluid" src="img/verified.svg"> </p>
@@ -397,7 +397,7 @@
             <div class="add-comment-container">
 
                 <div class="image">
-                    <img class="img-fluid" src="img/person04.jpg" alt="">
+                    <img class="img-fluid" src="img/person06.jpg" alt="">
                 </div><!-- image -->
 
                 <form class="add-comment-wrapper w-100">
