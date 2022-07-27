@@ -626,7 +626,7 @@ let getHomepageSlides = (num) => {
 }
 
 
-getHomepageSlides();
+// getHomepageSlides();
 
 
 
