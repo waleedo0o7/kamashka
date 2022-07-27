@@ -1162,7 +1162,7 @@ $(document).on("click", ".toggle-top-bar", function () {
 
 // Main Loader Wrapper
 $(document).ready(function () {
-    // $(".main-loader-wrapper").fadeOut();
+    $(".main-loader-wrapper").fadeOut();
 });
 
 // profile ads manager list --> show confirmation modal to toggle adv activation
