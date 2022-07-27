@@ -403,13 +403,10 @@
                 <form class="add-comment-wrapper w-100">
 
                     <div class="comment-input-container form-group">
-                        <!-- <input id="add-comment" placeholder="Add Comment... " type="text" class="form-control"> -->
                         <textarea name="" id="add-comment" placeholder="Add Comment... " class="form-control"></textarea>
                     </div><!-- form-group  -->
 
-                    <div class="send-comment-container">
-                        <i id="send-comment" class="fa fa-arrow-up"></i>
-                    </div><!-- send-comment-container -->
+                    <button type="submit" class="send-comment-container reset-btn"><i id="send-comment" class="fa fa-arrow-up"></i></button>
 
                 </form><!-- add-comment-wrapper -->
 
@@ -424,11 +421,11 @@
     </div><!-- right-menu -->
 </div><!-- right-menu-container -->
 
-<!--  <div class="main-loader-wrapper">
+<div class="main-loader-wrapper">
     <div class="loading-container">
         <div class="loader sm"></div>
-    </div> loading-container 
-</div> loader-wrapper -->
+    </div> 
+</div> <!-- loader-wrapper -->
 
 <!-- <style>
     .test-frame{

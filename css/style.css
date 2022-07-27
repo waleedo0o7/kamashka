@@ -3521,6 +3521,7 @@ i.arrow-icon:before {
   width: 48px;
 }
 .loading-container .loader.lg {
+  border: 4px solid;
   height: 60px;
   width: 60px;
 }
