@@ -603,20 +603,21 @@ else {  // alert('MORE than 960');
 let getHomepageSlides = (num) => {
     setTimeout(() => {
 
-        // console.log("index x now is active");
-        // console.log($(".swiper-slide.swiper-slide-active").index());
+        // console.log("index x now is active" , $(".swiper-slide.swiper-slide-active").index() );
 
         let index = $(".swiper-slide.swiper-slide-active").index();
 
-        // console.log("swiper length");
-        // console.log($(".swiper-slide").length);
+        // console.log("swiper length" , $(".swiper-slide").length); 
 
         let slidesCount = $(".swiper-slide").length;
 
+        let diff = slidesCount - index
+
+        console.log(diff); 
 
 
-        if ((slidesCount - index) === num) {
-            // alert(`You Are Now In Slide INDEX Number ${num} `);
+        if ( diff <= 3 ) {
+            alert(`You Are in <= 3 slide `);
         }
 
 
@@ -624,6 +625,8 @@ let getHomepageSlides = (num) => {
 
 }
 
+
+getHomepageSlides();
 
 
 
@@ -1440,7 +1443,6 @@ let openImageSliderLightbox = () => {
         $(document).on("click", ".actions-wrapper i.icon.icon-expand ", function () {
             $(".slick-active .image img").click();
         })
-
     });
 }
 
@@ -1505,7 +1507,6 @@ $(document).ready(function () {
     if ($('.create-advertisement').length > 0) {
         uploadImagesWithThumbnails();
     }
-
 
     // edit-profile-1.php
     if ($('.edit-profile1').length > 0) {
