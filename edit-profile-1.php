@@ -159,7 +159,7 @@
 
 
 
-                        <div class="form-group mb-5 relative">
+                        <div class="form-group relative">
                             <label class="text-left"> Gender </label>
                             <div class="genders-container">
                                 <div class="gender-list">
@@ -178,9 +178,6 @@
                                 </select>
                             </div><!-- genders-container -->
                         </div><!-- form-group  -->
-
-
-                        <a href="auth-reset-password.php" class="change-password-btn btn btn-outline-primary text-center pl-5 pr-5"> Change Password </a>
 
                     </div> <!-- card -->
 
@@ -235,51 +232,6 @@
                         </div><!-- form-group -->
 
                     </div> <!-- card -->
-
-
-
-                    <!-- interests -->
-                    <div class="card p-3 mb-3">
-
-                        <div class="d-flex">
-                            <label class="lead bold"> Interests </label>
-                        </div><!-- card-header -->
-
-                        <div class="interests-container m-0">
-                            <button data-value="tv-show" type="button" class="btn btn-interests"> TV show </button>
-                            <button data-value="music" type="button" class="btn btn-interests "> music </button>
-                            <button data-value="books" type="button" class="btn btn-interests "> books </button>
-                            <button data-value="sport" type="button" class="btn btn-interests "> sport </button>
-                            <button data-value="shopping" type="button" class="btn btn-interests "> shopping </button>
-                            <button data-value="movie" type="button" class="btn btn-interests "> movie </button>
-                            <button data-value="games" type="button" class="btn btn-interests "> games </button>
-                            <button data-value="social N." type="button" class="btn btn-interests "> social N. </button>
-                            <button data-value="family" type="button" class="btn btn-interests "> family </button>
-                            <button data-value="politics" type="button" class="btn btn-interests "> politics </button>
-                            <button data-value="dance" type="button" class="btn btn-interests "> dance </button>
-                            <button data-value="bars" type="button" class="btn btn-interests "> bars </button>
-                            <button data-value="travel" type="button" class="btn btn-interests "> travel </button>
-                            <button data-value="art" type="button" class="btn btn-interests "> art </button>
-                            <button data-value="shopping" type="button" class="btn btn-interests "> shopping </button>
-                            <button data-value="movie" type="button" class="btn btn-interests "> movie </button>
-                            <button data-value="games" type="button" class="btn btn-interests "> games </button>
-                            <button data-value="social N." type="button" class="btn btn-interests "> social N. </button>
-                            <button data-value="family" type="button" class="btn btn-interests "> family </button>
-                            <button data-value="politics" type="button" class="btn btn-interests "> politics </button>
-                            <button data-value="shopping" type="button" class="btn btn-interests "> shopping </button>
-                            <button data-value="movie" type="button" class="btn btn-interests "> movie </button>
-                            <button data-value="games" type="button" class="btn btn-interests "> games </button>
-                            <button data-value="social N." type="button" class="btn btn-interests "> social N. </button>
-                            <button data-value="family" type="button" class="btn btn-interests "> family </button>
-                            <button data-value="politics" type="button" class="btn btn-interests "> politics </button>
-                        </div><!-- interests-container -->
-
-                        <input class="d-none" id="my-interests-value" type="text" value="">
-
-                    </div> <!-- card -->
-
-
-
                     
                     <!-- interests -->
                     <div class="card interests p-3 mb-3">
@@ -321,14 +273,8 @@
 
                     </div> <!-- card -->
 
-
-
-
-
-
                     <div class="submit-btn-container text-center">
                         <button type="submit" class="btn btn-primary text-center pl-5 pr-5"> save </button>
-                        <a href="auth-reset-password.php" class="btn btn-outline-primary text-center pl-5 pr-5"> Change Password </a>
                     </div> <!-- submit-btn-container -->
 
                 </form>

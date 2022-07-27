@@ -79,14 +79,13 @@
                 <div class="brand-details-text stop-slide-on-scroll">
                     <h4 class="stop-slide-on-scroll"> Zara is one of the biggest international <br /> fashion companies </h4>
                     <p class="stop-slide-on-scroll"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-
-                        eiusmod tempor
-                        incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     </p>
                 </div><!-- brand-details-text -->
 
@@ -238,7 +237,7 @@
                         <p class="slogan"> Kids Campaign </p>
                         <p class="hash"> #zaracampaign </p>
                     </div><!-- data -->
-                    
+
                 </div><!-- brand-details -->
 
                 <div class="more-btn-container">

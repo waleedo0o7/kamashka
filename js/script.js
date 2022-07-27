@@ -4,18 +4,18 @@ let canSlide = true;
 $(function () {
     $("#share-modal-btn , #create-modal-btn , #matched-criteria-modal-btn").on("click", function () {
         canSlide = false;
-        console.log("can slide is false");
+        // console.log("can slide is false");
     });
 });
 
 // homepage --> on close modal can slide to true 
 $(document).on('hidden.bs.modal', '#share-modal , #create-modal , #matched-criteria-modal', function (e) {
     canSlide = true;
-    console.log("can slide is true");
+    // console.log("can slide is true");
 })
 
 // Homepage --> Toggle Fullscreen Mode
-$(document).on("click", "#expand-video" , function () {
+$(document).on("click", "#expand-video", function () {
     $("body").toggleClass("fullscreen");
     $("#expand-video-icon").toggleClass("icon-expand icon-close");
 });
@@ -28,7 +28,7 @@ if ($('.fancybox').length > 0) {
 }
 
 // Header --> toggle mobile icon to show menu
-$(document).on("click", ".mobile-menu .icon-menu-icon-2 , #closeMobileMenu " , function () {
+$(document).on("click", ".mobile-menu .icon-menu-icon-2 , #closeMobileMenu ", function () {
 
     $(".mobile-left-menu").toggleClass("show");
 
@@ -41,7 +41,7 @@ $(document).on("click", ".mobile-menu .icon-menu-icon-2 , #closeMobileMenu " , f
 });
 
 // Header --> toggle mobile menu to show and hide search
-$(document).on("click", "#toggle-search" , function () {
+$(document).on("click", "#toggle-search", function () {
     $(".search-container").toggleClass("show");
 });
 
@@ -85,7 +85,7 @@ let profileInfoSlider = () => {
 
 // Sign up --> get gender data
 $(function () {
-    $(document).on("click",".gender", function () {
+    $(document).on("click", ".gender", function () {
         $(".gender").removeClass("active");
         $(this).addClass("active");
         $("#gender").val($(this).data("gander"));
@@ -94,7 +94,7 @@ $(function () {
 
 // Homepage --> toggle left menu on big screen
 $(function () {
-    $(document).on("click","#top-header #mobile-icon , #close-left-menu", function () {
+    $(document).on("click", "#top-header #mobile-icon , #close-left-menu", function () {
         $(".left-menu-container").toggleClass("show");
         canSlide = !canSlide;
     })
@@ -152,7 +152,7 @@ let calcItemsPrice = () => {
     });
 }
 
-$(document).on("click", ".remove" , function () {
+$(document).on("click", ".remove", function () {
     $(this).parent().fadeOut();
     setTimeout(() => {
         $(this).parent().remove();
@@ -164,7 +164,7 @@ calcItemsPrice();
 // top bar calc cart dropdown items END
 
 // toggle password
-$(document).on("click",".toggle-password-container", function (e) {
+$(document).on("click", ".toggle-password-container", function (e) {
     if ($(this).parent(".form-group").children("input").attr("type") == 'text') {
         $(this).parent(".form-group").children("input").attr("type", "password");
         $(this).children().removeClass("icon-eye-solid-locked")
@@ -175,13 +175,13 @@ $(document).on("click",".toggle-password-container", function (e) {
 });
 
 // select country
-$(document).on("click",".country-code-container .dropdown a", function () {
+$(document).on("click", ".country-code-container .dropdown a", function () {
     $("#country").val($(this).data("value"));
     $(this).parents(".dropdown").children("button.dropdown-toggle").html(`<img alt="" src="${$(this).children("img").attr("src")}" /> ${$(this).text()} <i class="fa fa-caret-down"></i>`)
 });
 
 // select verification via 
-$(document).on("click",".via", function () {
+$(document).on("click", ".via", function () {
     $("#via").val($(this).data("via"));
     // alert($("#via").val());
 });
@@ -202,16 +202,16 @@ $(document).ready(function () {
 let calcAge = () => {
     $(document).ready(function () {
 
-        $(document).on("change", "input#datepicker" , function () {
+        $(document).on("change", "input#datepicker", function () {
             let selectedDate = $(this).val();
             let selectedDateTimestamp = new Date(selectedDate);
             let todayTimestamp = new Date().valueOf();
             let dateRangeTimestamp = todayTimestamp - selectedDateTimestamp;
             let ageInYears = Math.floor(dateRangeTimestamp / 31556952000);
-            console.log(` selectedDateTimestamp :  ${selectedDateTimestamp.valueOf()}`);
-            console.log(` todayTimestamp        :  ${todayTimestamp.valueOf()}`);
-            console.log(` dateRangeTimestamp    :  ${dateRangeTimestamp}`);
-            console.log(` ageInYears   :  ${ageInYears}   `);
+            // console.log(` selectedDateTimestamp :  ${selectedDateTimestamp.valueOf()}`);
+            // console.log(` todayTimestamp        :  ${todayTimestamp.valueOf()}`);
+            // console.log(` dateRangeTimestamp    :  ${dateRangeTimestamp}`);
+            // console.log(` ageInYears   :  ${ageInYears}   `);
             $("#your-age").text(`Your Age Is ${ageInYears}`);
         });
     });
@@ -247,7 +247,7 @@ let counterDownTwoMinutes = () => {
 
 // Forget Password Set Via Value
 $(document).ready(function () {
-    $(document).on("click", ".nav-tabs li.nav-item a" , function () {
+    $(document).on("click", ".nav-tabs li.nav-item a", function () {
         $("#via").val($(this).data("via"));
     });
 });
@@ -272,7 +272,7 @@ $(document).ready(function () {
             let activateCode = '';
 
             $(".activate-inputs input").each(function () {
-                console.log($(this).val());
+                // console.log($(this).val());
                 activateCode += $(this).val();
             });
 
@@ -303,7 +303,7 @@ $(document).ready(function () {
 
 
 
-    $(document).on("click", "#select-all" , function () {
+    $(document).on("click", "#select-all", function () {
         interestsArr = [];
 
         if ($(this).prop("checked") == true) {
@@ -325,7 +325,7 @@ $(document).ready(function () {
 
 // hide success overlay
 $(document).ready(function () {
-    $(".action-success").on("click" , function () {
+    $(".action-success").on("click", function () {
         $(this).remove();
     });
 });
@@ -428,7 +428,7 @@ $(document).ready(function () {
 
 // Homepage send comment
 $(document).ready(function () {
-    $(document).on("click", "#send-comment" , function () {
+    $(document).on("click", "#send-comment", function () {
         $("#add-comment").val("");
     })
 });
@@ -446,12 +446,12 @@ $(document).on('keydown', function (event) {
 
 // MY PROFILE --> change image container
 $(document).ready(function () {
-    $(document).on("click", ".change-image-container .icon" , function () {
+    $(document).on("click", ".change-image-container .icon", function () {
         let image = document.getElementById("profile-image");
         let input = document.getElementById("change-profile-image");
         input.click();
-        console.log(image);
-        console.log(input);
+        // console.log(image);
+        // console.log(input);
 
         input.onchange = evt => {
             const [file] = input.files
@@ -467,18 +467,33 @@ $(document).ready(function () {
 let homeMobileBrandSlider = () => {
     $(document).ready(function () {
         $('.mobile-brand-slider').slick({
-            slidesToShow: 2.3,
+            slidesToShow: 3.3,
             slidesToScroll: 1,
             infinite: false,
             arrows: false,
             swipeToSlide: 2,
+            responsive: [
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2.3,
+                    }
+                },
+                {
+                    breakpoint: 390,
+                    settings: {
+                        slidesToShow: 1.3,
+                    }
+                },
+
+            ]
         });
     });
 }
 
 // Mobile Homepage --> Show Brand Details
 $(document).ready(function () {
-    $(document).on("click", ".more-btn-container" , function () {
+    $(document).on("click", ".more-btn-container", function () {
         $(".mobile-menu").fadeOut(0);
         $(this).siblings(".mobile-brand-data").fadeIn(0);
         $(".mobile-brand-slider").slick('setPosition');
@@ -494,7 +509,7 @@ $(document).ready(function () {
 
 // Mobile Homepage --> Hide Brand Details
 $(document).ready(function () {
-    $(document).on("click", ".mobile-brand-header .close" , function () {
+    $(document).on("click", ".mobile-brand-header .close", function () {
         $(this).parents(".mobile-brand-data").fadeOut(0);
         $(".mobile-menu").fadeIn(0);
 
@@ -552,7 +567,7 @@ if ($(window).width() < 1025) { // alert('Less than 1024');
 
     // Homepage --> small screen --> toggle video play and stop
     $(document).ready(function () {
-        $(document).on("click", ".mobile-view .overlay-container" , function () {
+        $(document).on("click", ".mobile-view .overlay-container", function () {
             let video = $(this).prev().children("video").get(0);
             $(this).children("img").toggleClass("hidden");
 
@@ -571,7 +586,7 @@ else {  // alert('MORE than 960');
     // Homepage --> big screen --> toggle video play and stop
     $(document).ready(function () {
 
-        $(document).on("click", ".video-section .video-overlay" , function () {
+        $(document).on("click", ".video-section .video-overlay", function () {
             let video = $(this).prev().children("video").get(0);
             if (video.paused) {
                 $(this).children("img").addClass("hidden");
@@ -587,19 +602,20 @@ else {  // alert('MORE than 960');
 
 let getHomepageSlides = (num) => {
     setTimeout(() => {
-        console.log("index x now is active");
-        console.log($(".swiper-slide.swiper-slide-active").index()); 
-        
+
+        // console.log("index x now is active");
+        // console.log($(".swiper-slide.swiper-slide-active").index());
+
         let index = $(".swiper-slide.swiper-slide-active").index();
 
-        console.log("swiper length");
-        console.log($(".swiper-slide").length);
+        // console.log("swiper length");
+        // console.log($(".swiper-slide").length);
 
         let slidesCount = $(".swiper-slide").length;
 
 
 
-        if ( ( slidesCount - index )   === num )  {
+        if ((slidesCount - index) === num) {
             // alert(`You Are Now In Slide INDEX Number ${num} `);
         }
 
@@ -680,7 +696,7 @@ let homepageMainSlider = () => {
                 $(".swiper-slide-active .video-overlay img").addClass("hidden");
                 video[0].play();
             }, 0);
-            
+
             getHomepageSlides(5);
 
         });
@@ -797,15 +813,14 @@ else { // alert('More than 960');
 
     // handel mouse wheel up and down to slide
     function wheelToSlide(event) {
+
         // event.preventDefault();
 
         // console.log(event.target.classList);
 
-        
-
         if (event.target.classList != "stop-slide-on-scroll") {
 
-            console.log(event.target);
+            // console.log(event.target);
 
             if (event.deltaY < 0) {
                 if (canSlide == true) {
@@ -850,7 +865,7 @@ else { // alert('More than 960');
 
 
 // Homepage --> stop video if brand slider fancybox active
-$(document).on("click", ".brand-slider .item img" , function () {
+$(document).on("click", ".brand-slider .item img", function () {
     setTimeout(() => {
         if ($("body").hasClass("fancybox-active")) {
             $(".swiper-slide-active .video video").get(0).pause();
@@ -1022,7 +1037,7 @@ let uploadImagesWithThumbnails = () => {
 
     });
 
-    $(document).on("click", ".upload-btn" , function () {
+    $(document).on("click", ".upload-btn", function () {
         $("#upload").click();
     });
 
@@ -1031,7 +1046,7 @@ let uploadImagesWithThumbnails = () => {
 
         if ($(this).parent().hasClass("default")) {
             setTimeout(() => {
-                console.log($(".one-thumbnail:nth-child(1)").children("img").click());
+                // console.log($(".one-thumbnail:nth-child(1)").children("img").click());
             }, 200);
         }
 
@@ -1121,22 +1136,22 @@ $(document).ready(() => {
 });
 
 
-$(document).on("click", "#shares-ads-tab2" , function () {
+$(document).on("click", "#shares-ads-tab2", function () {
     $("#shared-ads-tab").click();
 });
 
-$(document).on("click", "#followers-tab2" , function () {
+$(document).on("click", "#followers-tab2", function () {
     $("#followers-tab").click();
 });
 
-$(document).on("click", "#Following-tab2" , function () {
+$(document).on("click", "#Following-tab2", function () {
     $("#following-tab").click();
 });
 
 
 
 
-$(document).on("click", ".toggle-top-bar" , function () {
+$(document).on("click", ".toggle-top-bar", function () {
     $(".page-content.homepage").toggleClass("with-top-bar");
     $(".top-bar.ads-manager").toggleClass("hide");
 });
@@ -1152,7 +1167,7 @@ let toggleAdvActivationWithModal = () => {
     $(".toggle__input").on("click", function () {
         $('#toggle-activation-adv-modal').modal('show');
         this.checked = !this.checked
-        console.log(this.checked);
+        // console.log(this.checked);
         if (this.checked == false) {
             $(".are-you-sure").text("Are you sure you want to active this adv ?")
         } else {
@@ -1376,12 +1391,12 @@ let todayOffersSlider = () => {
 }
 
 let toggleAllCategories = () => {
-    $(document).on("click", "a.all-categories-btn" , function () {
+    $(document).on("click", "a.all-categories-btn", function () {
         $(".all-categories").addClass("show");
         $("body").addClass("no-scroll");
     });
 
-    $(document).on("click", "#close-all-categories-btn" , function () {
+    $(document).on("click", "#close-all-categories-btn", function () {
         $(".all-categories").removeClass("show");
         $("body").removeClass("no-scroll");
     });
@@ -1422,7 +1437,7 @@ let productSlider = () => {
 
 let openImageSliderLightbox = () => {
     $(document).ready(function () {
-        $(document).on("click", ".actions-wrapper i.icon.icon-expand " , function () {
+        $(document).on("click", ".actions-wrapper i.icon.icon-expand ", function () {
             $(".slick-active .image img").click();
         })
 
@@ -1538,7 +1553,7 @@ $(document).ready(function () {
 // 
 $(function () {
 
-    $(document).on("click", "#edit-company-banner-btn" , function () {
+    $(document).on("click", "#edit-company-banner-btn", function () {
         $("#edit-company-banner-input").click();
     });
 
@@ -1564,7 +1579,7 @@ $(function () {
 
 $(function () {
 
-    $(document).on("click", "#edit-company-logo-btn" , function () {
+    $(document).on("click", "#edit-company-logo-btn", function () {
         $("#edit-company-logo-input").click();
     });
 
