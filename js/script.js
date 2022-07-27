@@ -616,8 +616,8 @@ let getHomepageSlides = (num) => {
         console.log(diff); 
 
 
-        if ( diff <= 3 ) {
-            alert(`You Are in <= 3 slide `);
+        if ( diff == 3 ) {
+            alert(`You Are in == 3 slide `);
         }
 
 
@@ -674,7 +674,7 @@ let homepageMainSlider = () => {
         let HomepageMainSliderSwiper = new Swiper(".mySwiper", {
             direction: 'vertical',
             spaceBetween: 50,
-            allowTouchMove: false,
+            allowTouchMove: true,
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
