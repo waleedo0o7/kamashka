@@ -152,7 +152,7 @@ let calcItemsPrice = () => {
     });
 }
 
-$(".remove").on("click", function () {
+$(document).on("click", ".remove" , function () {
     $(this).parent().fadeOut();
     setTimeout(() => {
         $(this).parent().remove();
@@ -202,7 +202,7 @@ $(document).ready(function () {
 let calcAge = () => {
     $(document).ready(function () {
 
-        $("input#datepicker").on("change", function () {
+        $(document).on("change", "input#datepicker" , function () {
             let selectedDate = $(this).val();
             let selectedDateTimestamp = new Date(selectedDate);
             let todayTimestamp = new Date().valueOf();
@@ -303,7 +303,7 @@ $(document).ready(function () {
 
 
 
-    $("#select-all").on("click", function () {
+    $(document).on("click", "#select-all" , function () {
         interestsArr = [];
 
         if ($(this).prop("checked") == true) {
@@ -325,7 +325,7 @@ $(document).ready(function () {
 
 // hide success overlay
 $(document).ready(function () {
-    $(".action-success").on("click", ".interests-container button" , function () {
+    $(".action-success").on("click" , function () {
         $(this).remove();
     });
 });
@@ -346,11 +346,13 @@ let onErrorGenderValue = () => {
 
 // Homepage share popup toggle other reason textarea
 $(document).ready(function () {
-    $('input[name="report-reason"]').on("change", function () {
-        if ($('input[name="report-reason"]:checked').val() == 6) {
+    $(document).on("change", 'input[name="report-reason"]', function () {
+        if ($('input[name="report-reason"]:checked').val() == '') {
             $(".other-reason-container").addClass("d-block");
+            $(".other-reason-container textarea").attr("required", true);
         } else {
             $(".other-reason-container").removeClass("d-block");
+            $(".other-reason-container textarea").attr("required", false);
         }
     })
 });
@@ -598,7 +600,7 @@ let getHomepageSlides = (num) => {
 
 
         if ( ( slidesCount - index )   === num )  {
-            alert(`You Are Now In Slide INDEX Number ${num} `);
+            // alert(`You Are Now In Slide INDEX Number ${num} `);
         }
 
 
@@ -608,8 +610,14 @@ let getHomepageSlides = (num) => {
 
 
 
-let homepageMainSlider = () => {
 
+
+
+
+
+
+
+let homepageMainSlider = () => {
 
     if ($(window).width() < 1025) { // less 1024px
 
@@ -626,8 +634,6 @@ let homepageMainSlider = () => {
                 clickable: true,
             },
         });
-
-
 
         HomepageMainSliderSwiper.on('slideChange', function () {
 
@@ -660,7 +666,6 @@ let homepageMainSlider = () => {
             },
         });
 
-
         HomepageMainSliderSwiper.on('slideChange', function () {
 
             // stop all videos
@@ -679,8 +684,12 @@ let homepageMainSlider = () => {
             getHomepageSlides(5);
 
         });
+
     }
 }
+
+
+
 
 
 
@@ -792,9 +801,11 @@ else { // alert('More than 960');
 
         // console.log(event.target.classList);
 
-        if (event.target.classList != "brand-details-text") {
+        
 
-            // alert(event.deltaY);
+        if (event.target.classList != "stop-slide-on-scroll") {
+
+            console.log(event.target);
 
             if (event.deltaY < 0) {
                 if (canSlide == true) {

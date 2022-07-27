@@ -76,9 +76,13 @@
             </div>
 
             <div class="brand-details" id="myDIV">
-                <div class="brand-details-text">
-                    <h4> Zara is one of the biggest international <br /> fashion companies </h4>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                <div class="brand-details-text stop-slide-on-scroll">
+                    <h4 class="stop-slide-on-scroll"> Zara is one of the biggest international <br /> fashion companies </h4>
+                    <p class="stop-slide-on-scroll"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+
                         eiusmod tempor
                         incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
