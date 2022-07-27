@@ -546,7 +546,7 @@ $(document).ready(function () {
 
 
 
-if ($(window).width() < 960) { // alert('Less than 960');
+if ($(window).width() < 1025) { // alert('Less than 1024');
 
     // Homepage --> small screen --> toggle video play and stop
     $(document).ready(function () {
@@ -583,15 +583,6 @@ else {  // alert('MORE than 960');
     });
 }
 
-
-
-
-
-
-
-
-
-
 let getHomepageSlides = (num) => {
     setTimeout(() => {
         console.log("index x now is active");
@@ -607,7 +598,7 @@ let getHomepageSlides = (num) => {
 
 
         if ( ( slidesCount - index )   === num )  {
-            alert(`You Are Now In Slide Number ${num} `);
+            alert(`You Are Now In Slide INDEX Number ${num} `);
         }
 
 
@@ -620,7 +611,7 @@ let getHomepageSlides = (num) => {
 let homepageMainSlider = () => {
 
 
-    if ($(window).width() < 960) { // less 960px
+    if ($(window).width() < 1025) { // less 1024px
 
         let HomepageMainSliderSwiper = new Swiper(".mySwiper", {
             direction: 'vertical',
@@ -709,11 +700,11 @@ let homepageMainSlider = () => {
 
 
 
-if ($(window).width() < 960) { // less than 960px 
+if ($(window).width() < 1025) { // less than 1024px 
 
     ////////////////////// SWIPE UP EVENT START
     $(document).ready(function () {
-        // alert("document ready  < 960  ");
+        // alert("document ready  < 1024  ");
 
         var supportTouch = $.support.touch,
             scrollEvent = "touchmove scroll",
