@@ -230,6 +230,9 @@
 
                     <div class="image">
                         <img class="img-fluid" src="img/brand-logo.png" alt="">
+
+                        <a href="#" class="like"> <i class="fa fa-plus"></i> </a>
+                        
                     </div><!-- image -->
 
                     <div class="data">
@@ -239,6 +242,7 @@
                     </div><!-- data -->
 
                 </div><!-- brand-details -->
+
 
                 <div class="more-btn-container">
                     <a class="more-details" href="#"> MORE DETAILS <i class="fa fa-arrow-right"></i> </a>

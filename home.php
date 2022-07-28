@@ -500,7 +500,7 @@
                     </ul>
                 </div><!-- share-icons -->
 
-                <div onclick="copyTextInshare-modal()" id="copy-link-btn" class="share-link-container mb-3">
+                <div onclick="copyTextInShareModal()" id="copy-link-btn" class="share-link-container mb-3">
                     <p id="copy-link" class="m-0"> www.Kamashka.Com/Ads/Zaracom </p>
                     <i class="icon icon-copy"></i>
                     <p class="link-copied" id="link-copied"> <i class="fa fa-check"></i> Link Copied </p>

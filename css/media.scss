@@ -536,11 +536,27 @@
                 z-index: 9;
                 .image {
                     width: 45px;
+                    position: relative;
                     img {
                         width: 45px;
                         height: 45px;
                         border-radius: 500px;
                     }
+
+                    a.like {
+                        background: var(--secondaryColor);
+                        color: #FFF;
+                        width: 20px;
+                        height: 20px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 200px;
+                        position: absolute;
+                        top: 35px;
+                        left: 12px;
+                    }
+                    
                 }
                 .data {
                     padding-left: 10px;

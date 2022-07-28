@@ -228,7 +228,7 @@
     </div><!-- mobile-left-menu -->
  
     <header id="top-header" class="homepage-top-header show">
-        <div class="container" id="DivToBeRemoved">
+        <div class="container">
             <div class="row top-header-content">
 
                 <div class="col-md-7 d-flex top-items">

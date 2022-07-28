@@ -473,11 +473,25 @@
   }
   .mobile-view .video-container .brand-details .image {
     width: 45px;
+    position: relative;
   }
   .mobile-view .video-container .brand-details .image img {
     width: 45px;
     height: 45px;
     border-radius: 500px;
+  }
+  .mobile-view .video-container .brand-details .image a.like {
+    background: var(--secondaryColor);
+    color: #FFF;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    position: absolute;
+    top: 35px;
+    left: 12px;
   }
   .mobile-view .video-container .brand-details .data {
     padding-left: 10px;
