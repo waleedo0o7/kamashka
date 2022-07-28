@@ -2,7 +2,7 @@ let canSlide = true;
 
 ///////////// STOP SLIDE IF BRAND SLIDER OPEN START
 
-$(".brand-slider-container a img").on("click" , function () {
+$(document).on("click" , ".brand-slider-container a img" , function () {
     setTimeout(() => {
         onRemoveMethod();
     }, 50);
