@@ -1,5 +1,7 @@
 let canSlide = true;
 
+
+
 // Homepage -->  disable scroll if popup active 
 $(function () {
     $("#share-modal-btn , #create-modal-btn , #matched-criteria-modal-btn").on("click", function () {
@@ -20,12 +22,42 @@ $(document).on("click", "#expand-video", function () {
     $("#expand-video-icon").toggleClass("icon-expand icon-close");
 });
 
+
 // Fancybox options
-if ($('.fancybox').length > 0) {
-    $(".fancybox").fancybox({
-        loop: true
-    });
-}
+// if ($('.fancybox').length > 0) {
+//     $(".fancybox").fancybox({
+//         loop: true
+//     });
+// }
+
+
+
+
+
+
+
+
+
+$().fancybox({
+    loop: true,
+});
+
+
+
+
+
+
+
+
+
+// let fancyboxInstance = $.fancybox.getInstance();
+// fancyboxInstance = $.fancybox.open({
+// 	afterShow : function( instance, current ) {
+// 		console.info( instance );
+// 	}
+// });
+
+
 
 // Header --> toggle mobile icon to show menu
 $(document).on("click", ".mobile-menu .icon-menu-icon-2 , #closeMobileMenu ", function () {
@@ -613,10 +645,10 @@ let getHomepageSlides = (num) => {
 
         let diff = slidesCount - index
 
-        console.log(diff); 
+        console.log(diff);
 
 
-        if ( diff == 3 ) {
+        if (diff == 3) {
             alert(`You Are in == 3 slide `);
         }
 
@@ -674,7 +706,7 @@ let homepageMainSlider = () => {
         let HomepageMainSliderSwiper = new Swiper(".mySwiper", {
             direction: 'vertical',
             spaceBetween: 50,
-            allowTouchMove: true,
+            allowTouchMove: false,
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
@@ -830,6 +862,7 @@ else { // alert('More than 960');
                     $(".swiper-button-prev").click();
                 }
             }
+
             else {
                 if (canSlide == true) {
                     $(".swiper-button-next").click();
@@ -837,6 +870,8 @@ else { // alert('More than 960');
             }
 
         }
+
+        console.log(event.target.classList);
 
 
 
@@ -872,7 +907,7 @@ $(document).on("click", ".brand-slider .item img", function () {
     setTimeout(() => {
         if ($("body").hasClass("fancybox-active")) {
             $(".swiper-slide-active .video video").get(0).pause();
-            $(".swiper-slide-active .video-overlay img").removeClass("hidden")
+            $(".swiper-slide-active .video-overlay img").removeClass("hidden");
         }
     }, 10);
 });
