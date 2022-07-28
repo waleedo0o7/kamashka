@@ -1,6 +1,42 @@
 let canSlide = true;
 
+///////////// STOP SLIDE IF BRAND SLIDER OPEN START
 
+$(".brand-slider-container a img").on("click" , function () {
+    setTimeout(() => {
+        onRemoveMethod();
+    }, 50);
+})
+
+let onRemoveMethod = () => {
+
+    $.cleanData = (function (orig) {
+        return function (elems) {
+            var events, elem, i;
+            for (i = 0;
+                (elem = elems[i]) != null; i++) {
+                try {
+
+                    // Only trigger remove when necessary to save time
+                    events = $._data(elem, "events");
+                    if (events && events.remove) {
+                        $(elem).triggerHandler("remove");
+                    }
+
+                    // Http://bugs.jquery.com/ticket/8235
+                } catch (e) { }
+            }
+            orig(elems);
+        };
+    })($.cleanData);
+
+    $(".fancybox-is-open").on("remove", function () {
+        canSlide = true;
+    });
+
+}
+
+///////////// STOP SLIDE IF BRAND SLIDER OPEN END
 
 // Homepage -->  disable scroll if popup active 
 $(function () {
@@ -908,6 +944,9 @@ $(document).on("click", ".brand-slider .item img", function () {
         if ($("body").hasClass("fancybox-active")) {
             $(".swiper-slide-active .video video").get(0).pause();
             $(".swiper-slide-active .video-overlay img").removeClass("hidden");
+            
+
+            canSlide = false ;
         }
     }, 10);
 });
