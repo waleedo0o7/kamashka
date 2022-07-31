@@ -25,7 +25,7 @@
                 <div class="brand-slider">
 
                     <div class="item">
-                        <a data-fancybox="nike-big-gallery" class="fancybox" href="videos/video3.mp4" data-width="640" data-height="360">
+                        <a data-fancybox="nike-big-gallery" class=" " href="videos/video3.mp4" data-width="640" data-height="360">
                             <div class="video-item">
                                 <video playsinline>
                                     <source src="videos/video3.mp4" type="video/mp4">
@@ -38,31 +38,31 @@
                     </div> <!-- item -->
 
                     <div class="item">
-                        <a data-fancybox="nike-big-gallery" class="fancybox" href="img/brand-slider/02.jpg">
+                        <a data-fancybox="nike-big-gallery" class=" " href="img/brand-slider/02.jpg">
                             <img alt="" src="img/brand-slider/02.jpg" class="img-fluid">
                         </a>
                     </div> <!-- item -->
 
                     <div class="item">
-                        <a data-fancybox="nike-big-gallery" class="fancybox" href="img/brand-slider/03.jpg">
+                        <a data-fancybox="nike-big-gallery" class=" " href="img/brand-slider/03.jpg">
                             <img alt="" src="img/brand-slider/03.jpg" class="img-fluid">
                         </a>
                     </div> <!-- item -->
 
                     <div class="item">
-                        <a data-fancybox="nike-big-gallery" class="fancybox" href="img/brand-slider/01.jpg">
+                        <a data-fancybox="nike-big-gallery" class=" " href="img/brand-slider/01.jpg">
                             <img alt="" src="img/brand-slider/01.jpg" class="img-fluid">
                         </a>
                     </div> <!-- item -->
 
                     <div class="item">
-                        <a data-fancybox="nike-big-gallery" class="fancybox" href="img/brand-slider/03.jpg">
+                        <a data-fancybox="nike-big-gallery" class=" " href="img/brand-slider/03.jpg">
                             <img alt="" src="img/brand-slider/03.jpg" class="img-fluid">
                         </a>
                     </div> <!-- item -->
 
                     <div class="item">
-                        <a data-fancybox="nike-big-gallery" class="fancybox" href="img/brand-slider/01.jpg">
+                        <a data-fancybox="nike-big-gallery" class=" " href="img/brand-slider/01.jpg">
                             <img alt="" src="img/brand-slider/01.jpg" class="img-fluid">
                         </a>
                     </div> <!-- item -->
@@ -153,7 +153,7 @@
                     </div><!-- video-icons -->
                 </div><!-- icons -->
                 <div class="video-container">
-                    <video playsinline class="video big-main-video video-js" loop controls preload="auto" data-setup="{}">
+                    <video playsinline class="video big-main-video video-js" loop controls preload="auto">
                         <source src="videos/video3.mp4" type="video/mp4">
                     </video>
                     <div class="video-overlay">
@@ -193,7 +193,7 @@
             <div class="top-shadow"></div><!-- top-shadow -->
             <div class="video-container">
 
-                <video playsinline class="video video-js" loop controls preload="auto" data-setup="{}">
+                <video playsinline class="video video-js" loop controls preload="auto">
                     <source src="videos/video3.mp4" type="video/mp4">
                 </video>
 

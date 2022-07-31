@@ -43,35 +43,30 @@ body {
     background-color: #3f3f3f;
 }
 
-
-
-
-.btn-follow{
-    color: #FFF;
+.btn-follow {
+    color: #fff;
     background: var(--secondaryColor);
     border-color: var(--secondaryColor);
     padding: 8px 20px !important;
     border-radius: 8px;
     min-width: 120px !important;
-    &:hover{
+    &:hover {
         color: var(--secondaryColor);
-        background:  #FFF;
+        background: #fff;
     }
 }
 
-.btn-unfollow{
+.btn-unfollow {
     color: var(--secondaryColor);
     border-color: var(--secondaryColor);
     padding: 8px 20px !important;
     border-radius: 8px;
     min-width: 120px !important;
-    &:hover{
-        color: #FFF;
+    &:hover {
+        color: #fff;
         background: var(--secondaryColor);
     }
 }
-
-
 
 textarea {
     resize: none;
@@ -173,10 +168,6 @@ button.reset-btn {
     }
 }
 
-
-
-
-
 .btn-edit-custom1 {
     color: #555;
     font-size: 12px;
@@ -275,7 +266,6 @@ input:focus-visible {
     display: inline-flex !important;
 }
 
-
 // custom labels with different colors
 .label-custom {
     padding: 7px 15px;
@@ -333,7 +323,6 @@ input:focus-visible {
         }
     }
 }
- 
 
 .form-control {
     // border-radius: 8px !important;
@@ -391,8 +380,8 @@ input.form-control.input-with-icon.parsley-error {
     background-color: #fff;
 }
 
-.white{
-    color: #FFF;
+.white {
+    color: #fff;
 }
 
 .bg-gray {
@@ -413,9 +402,27 @@ ul.reset-ul {
     margin: 0px;
 }
 
+
+
+
+
+
 .relative {
     position: relative;
 }
+
+
+
+
+
+
+
+
+.fancybox-active {
+    height: 100vh;
+}
+
+
 
 
 /*  CUSTOM RADIO CSS START  */
@@ -471,7 +478,6 @@ ul.reset-ul {
 }
 
 /*  CUSTOM RADIO CSS START  */
-
 
 /////////////////////// Custom Switch START
 ///   pen link https://codepen.io/waleedhd1/pen/eYymRVx
@@ -598,7 +604,6 @@ $focus-ring: 0px 0px 0px 2px $dark;
 }
 
 /////////////////////// Custom Switch END
-
 
 // Datepicker Style START
 
@@ -738,7 +743,6 @@ $focus-ring: 0px 0px 0px 2px $dark;
 }
 
 // Datepicker Style END
-
 
 .rate {
     color: #dadada;
@@ -1152,7 +1156,6 @@ $focus-ring: 0px 0px 0px 2px $dark;
     }
 }
 
-
 .share-link-container {
     border: 1px solid #f1f1f1;
     display: inline-flex;
@@ -1185,9 +1188,7 @@ $focus-ring: 0px 0px 0px 2px $dark;
     }
 }
 
-
 //////////////////////////////////////////// MAIN STYLE END
-
 
 //////////////////////////////////////////// Top Header START
 
@@ -1394,7 +1395,6 @@ $focus-ring: 0px 0px 0px 2px $dark;
 
 //////////////////////////////////////////// Top Header END
 
-
 //////////////////////////////////////////// Left Menu START
 
 .left-menu-container {
@@ -1467,4 +1467,3 @@ $focus-ring: 0px 0px 0px 2px $dark;
 }
 
 //////////////////////////////////////////// Left Menu END
-

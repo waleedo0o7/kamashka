@@ -424,7 +424,7 @@
 <div class="main-loader-wrapper">
     <div class="loading-container">
         <div class="loader sm"></div>
-    </div> 
+    </div>
 </div> <!-- loader-wrapper -->
 
 <!-- <style>
@@ -441,12 +441,7 @@
 
                     <div class="swiper-wrapper">
 
-                        <?php @include 'home-one-slide.php' ?>
-                        <?php @include 'home-one-slide.php' ?>
-                        <?php @include 'home-one-slide.php' ?>
-                        <?php @include 'home-one-slide.php' ?>
-                        <?php @include 'home-one-slide.php' ?>
-                        <?php @include 'home-one-slide.php' ?>
+                    <?php @include 'home-one-slide.php' ?>
                         <?php @include 'home-one-slide.php' ?>
                         <?php @include 'home-one-slide.php' ?>
                         <?php @include 'home-one-slide.php' ?>

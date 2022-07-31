@@ -42,7 +42,7 @@ body {
 }
 
 .btn-follow {
-  color: #FFF;
+  color: #fff;
   background: var(--secondaryColor);
   border-color: var(--secondaryColor);
   padding: 8px 20px !important;
@@ -51,7 +51,7 @@ body {
 }
 .btn-follow:hover {
   color: var(--secondaryColor);
-  background: #FFF;
+  background: #fff;
 }
 
 .btn-unfollow {
@@ -62,7 +62,7 @@ body {
   min-width: 120px !important;
 }
 .btn-unfollow:hover {
-  color: #FFF;
+  color: #fff;
   background: var(--secondaryColor);
 }
 
@@ -350,7 +350,7 @@ input.form-control.input-with-icon.parsley-error {
 }
 
 .white {
-  color: #FFF;
+  color: #fff;
 }
 
 .bg-gray {
@@ -373,6 +373,10 @@ ul.reset-ul {
 
 .relative {
   position: relative;
+}
+
+.fancybox-active {
+  height: 100vh;
 }
 
 /*  CUSTOM RADIO CSS START  */

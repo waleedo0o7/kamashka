@@ -227,6 +227,8 @@
 
     </div><!-- mobile-left-menu -->
  
+    <!-- <a onclick="test()" class="btn btn-primary" > add new slide </a> -->
+
     <header id="top-header" class="homepage-top-header show">
         <div class="container">
             <div class="row top-header-content">
@@ -549,6 +551,7 @@
                             </div> <!-- dropdown-menu -->
                         </div> <!-- dropdown -->
                         <a class="btn btn-primary ml-3" data-toggle="modal" data-target="#create-modal"> Create </a>
+
                     </div><!-- user-icons -->
                 </div><!-- col-md-6 -->
 
