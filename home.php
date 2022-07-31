@@ -441,9 +441,6 @@
 
                     <div class="swiper-wrapper">
 
-                    <?php @include 'home-one-slide.php' ?>
-                        <?php @include 'home-one-slide.php' ?>
-                        <?php @include 'home-one-slide.php' ?>
                         <?php @include 'home-one-slide.php' ?>
                         <?php @include 'home-one-slide.php' ?>
 
