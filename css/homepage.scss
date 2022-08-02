@@ -114,7 +114,9 @@ body.fullscreen {
                 .brand-logo {
                     img {
                         width: 60px;
-                        border-radius: 250px;
+                        height: 60px;
+                        border-radius: 50%;
+                        z-index: 99;
                     }
                 }
                 .follow-btn {
@@ -145,7 +147,9 @@ body.fullscreen {
                     padding: 0 5px;
                     position: relative;
                     img {
-                        height: 100%;
+                        width: 100%;
+                        height: 215px;
+                        object-fit: cover;
                     }
 
                     .video-item {
@@ -207,7 +211,8 @@ body.fullscreen {
                             a {
                                 img {
                                     width: 50px;
-                                    border-radius: 250px;
+                                    height: 50px;
+                                    border-radius: 50%;
                                 }
                                 .num {
                                     background: #fff;

@@ -12,41 +12,6 @@
 }
 
 @media all and (max-width: 1025px) {
-  .custom-tabs .nav-tabs {
-    justify-content: center;
-    margin-bottom: 15px;
-  }
-  .custom-tabs .nav-tabs .nav-link {
-    padding: 5px 10px;
-    font-size: 14px;
-  }
-  .custom-tabs .nav-tabs .nav-link:after {
-    left: calc(50% - 10px) !important;
-  }
-
-  .users-wrapper {
-    padding: 10px;
-  }
-  .users-wrapper .one-user .image-and-name-wrapper {
-    width: 70%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .users-wrapper .one-user .image-and-name-wrapper h4 {
-    width: calc(100% - 60px);
-    font-size: 14px;
-  }
-  .users-wrapper .one-user .buttons-wrapper {
-    width: 30%;
-    text-align: right;
-  }
-  .users-wrapper .one-user .buttons-wrapper a.btn {
-    font-size: 10px;
-    padding: 5px 12px;
-    border-radius: 8px;
-  }
-
   .video-js {
     width: 100% !important;
     height: 100% !important;
@@ -334,9 +299,6 @@
   .profile .profile-content .profile-sidebar {
     width: 100%;
   }
-  .profile .profile-content .profile-sidebar .about {
-    padding: 0 20px !important;
-  }
   .profile .profile-content .profile-data {
     width: 100%;
     padding: 15px;
@@ -520,7 +482,7 @@
   }
   .mobile-view .video-container .brand-details .image a.like {
     background: var(--secondaryColor);
-    color: #fff;
+    color: #FFF;
     width: 20px;
     height: 20px;
     display: flex;
@@ -693,21 +655,15 @@
     width: 100%;
   }
 
-  .shared-posts-wrapper .one-item {
-    width: 50%;
+  .shared-ads-wrapper .one-item {
+    width: 100%;
   }
-  .shared-posts-wrapper .one-item .shares-wrapper .views,
-.shared-posts-wrapper .one-item .shares-wrapper .shares {
-    display: flex;
-    flex-direction: column;
+  .shared-ads-wrapper .one-item .shares-wrapper .views i,
+.shared-ads-wrapper .one-item .shares-wrapper .shares i {
+    font-size: 25px;
   }
-  .shared-posts-wrapper .one-item .shares-wrapper .views i,
-.shared-posts-wrapper .one-item .shares-wrapper .shares i {
-    font-size: 21px;
-    margin-bottom: 5px;
-  }
-  .shared-posts-wrapper .one-item strong {
-    font-size: 14px !important;
+  .shared-ads-wrapper .one-item strong {
+    font-size: 16px !important;
   }
 
   .profits-wrapper .one-item {

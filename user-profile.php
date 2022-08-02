@@ -5,7 +5,7 @@
         <div class="profile-sidebar">
             <div class="profile-info">
 
-                <div class="image-container mb-3 mt-5 relative">
+                <div class="image-container mb-3 mt-0 mt-md-5  relative">
                     <div class="image text-center ">
                         <img alt="" class="img-fluid" src="img/person04.jpg">
                     </div><!-- image -->
@@ -62,21 +62,23 @@
             <div class="profile-data-content">
 
                 <div class="user-profile-data custom-tabs">
+
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="shared-ads-tab" data-toggle="tab" href="#shared-ads" role="tab"> Shared Ads </a>
+                            <a class="nav-link active" id="shared-posts-tab" data-toggle="tab" href="#shared-posts" role="tab"> Shared Ads </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="followers-tab" data-toggle="tab" href="#followers" role="tab" aria-controls="followers" aria-selected="false">Followers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="following-tab" data-toggle="tab" href="#following" role="tab" aria-controls="following" aria-selected="false">Following</a>
+                            <a class="nav-link" id="followings-tab" data-toggle="tab" href="#followings" role="tab" aria-controls="followings" aria-selected="false">Following</a>
                         </li>
                     </ul> <!-- nav-tabs -->
-                    <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="shared-ads" role="tabpanel" aria-labelledby="shared-ads-tab">
 
-                            <div class="shared-ads-wrapper">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="shared-posts" role="tabpanel" aria-labelledby="shared-posts-tab">
+
+                            <div class="shared-posts-wrapper">
 
 
                                 <div class="one-item">
@@ -370,15 +372,12 @@
                                 </div><!-- one-item -->
 
 
-                            </div><!-- shared-ads-wrapper -->
+                            </div><!-- shared-posts-wrapper -->
 
                         </div><!-- tab-pane -->
                         <div class="tab-pane fade" id="followers" role="tabpanel" aria-labelledby="followers-tab">
 
-
-
-
-                            <div class="users-wrapper">
+                            <div class="users-wrapper followers-wrapper">
 
                                 <div class="one-user">
                                     <div class="image-and-name-wrapper">
@@ -467,18 +466,12 @@
                                 </div><!-- one-user -->
 
 
-                            </div><!-- users-wrapper -->
-
-
-
+                            </div><!-- followers-wrapper -->
 
                         </div><!-- tab-pane -->
-                        <div class="tab-pane fade" id="following" role="tabpanel" aria-labelledby="following-tab">
+                        <div class="tab-pane fade" id="followings" role="tabpanel" aria-labelledby="followings-tab">
 
-
-
-
-                            <div class="users-wrapper">
+                            <div class="users-wrapper followings-wrapper">
 
                                 <div class="one-user">
                                     <div class="image-and-name-wrapper">
@@ -567,13 +560,11 @@
                                 </div><!-- one-user -->
 
 
-                            </div><!-- users-wrapper -->
-
-
-
+                            </div><!-- followings-wrapper -->
 
                         </div><!-- tab-pane -->
                     </div> <!-- tab-content -->
+
                 </div><!-- user-profile-data -->
             </div><!-- profile-data-content -->
         </div><!-- profile-data -->

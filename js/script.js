@@ -430,7 +430,7 @@ let onRemoveMethod = () => {
         return function (elems) {
             var events, elem, i;
             for (i = 0;
-                (elem = elems[i]) != null; i++) {
+                 (elem = elems[i]) != null; i++) {
                 try {
 
                     // Only trigger remove when necessary to save time
@@ -681,12 +681,12 @@ let counterDownTwoMinutes = () => {
             minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
         }
     }
+
     function pad(val) {
         var valString = val + "";
         if (valString.length < 2) {
             return "0" + valString;
-        }
-        else {
+        } else {
             return valString;
         }
     }
@@ -747,7 +747,6 @@ $(document).ready(function () {
         }
         $("#my-interests-value").val(interestsArr);
     });
-
 
 
     $(document).on("click", "#select-all", function () {
@@ -969,47 +968,6 @@ $(document).ready(function () {
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 if ($(window).width() < 1025) { // alert('Less than 1024');
 
     // Homepage --> small screen --> toggle video play and stop
@@ -1026,9 +984,7 @@ if ($(window).width() < 1025) { // alert('Less than 1024');
         });
     });
 
-}
-
-else {  // alert('MORE than 960');
+} else {  // alert('MORE than 960');
 
     // Homepage --> big screen --> toggle video play and stop
     $(document).ready(function () {
@@ -1048,32 +1004,46 @@ else {  // alert('MORE than 960');
 }
 
 
+// alert if you are in slider num 3
+let appendNewPosts = () => {
 
-// alert if you are in slider num 3 
-let getHomepageSlides = (num) => {
+    let index = $(".swiper-slide.swiper-slide-active").index();
 
-    setTimeout(() => {
+    let slidesCount = $(".swiper-slide").length;
 
-        // console.log("index x now is active" , $(".swiper-slide.swiper-slide-active").index() );
+    let diff = slidesCount - index;
 
-        let index = $(".swiper-slide.swiper-slide-active").index();
+    if (diff == 4) {
 
-        // console.log("swiper length" , $(".swiper-slide").length); 
+        if ($('#posts-has-more-pages').length > 0) {
 
-        let slidesCount = $(".swiper-slide").length;
+            let url = $('#posts-has-more-pages').data('next-page-url');
 
-        let diff = slidesCount - index;
+            $('#posts-has-more-pages').remove();
 
-        // console.log(" diff is : ", diff);
+            $.ajax({
+                url: url,
+                cache: false,
+                success: function (html) {
 
-        if (diff == 2) {
-            homeAddNewSlide();
+                    homepageMainSliderSwiper.appendSlide([html]);
+
+                    setTimeout(function () {
+                        homeBrandSlider();
+                        homeMobileBrandSlider();
+                        initVideoJs();
+                        initFancyBox();
+                    }, 10)
+
+
+                },
+
+            });//end of ajax call
+
         }
-
-    }, 50);
+    }
 
 }
-
 
 let homepageMainSlider = () => {
 
@@ -1110,7 +1080,7 @@ let homepageMainSlider = () => {
                 video[0].play();
             }, 0);
 
-            getHomepageSlides(3);
+            appendNewPosts();
         });
 
     } else { // more 960px
@@ -1151,24 +1121,14 @@ let homepageMainSlider = () => {
                 video[0].play();
             }, 0);
 
-
-
-            getHomepageSlides(3);
+            appendNewPosts();
 
         });
     }
 }
 
 
-
-
-
-
-
-
-
-
-if ($(window).width() < 1025) { // less than 1024px 
+if ($(window).width() < 1025) { // less than 1024px
 
     ////////////////////// SWIPE UP EVENT START
     $(document).ready(function () {
@@ -1185,8 +1145,8 @@ if ($(window).width() < 1025) { // less than 1024px
                 var $this = $(thisObject);
                 $this.bind(touchStartEvent, function (event) {
                     var data = event.originalEvent.touches ?
-                        event.originalEvent.touches[0] :
-                        event,
+                            event.originalEvent.touches[0] :
+                            event,
                         start = {
                             time: (new Date).getTime(),
                             coords: [data.pageX, data.pageY],
@@ -1211,6 +1171,7 @@ if ($(window).width() < 1025) { // less than 1024px
                             event.preventDefault();
                         }
                     }
+
                     $this
                         .bind(touchMoveEvent, moveHandler)
                         .one(touchStopEvent, function (event) {
@@ -1250,9 +1211,7 @@ if ($(window).width() < 1025) { // less than 1024px
         });
     });
     ////////////////////// SWIPE UP EVENT END
-}
-
-else { // alert('More than 960');
+} else { // alert('More than 960');
 
     // handel mouse wheel up and down to slide
     function wheelToSlide(event) {
@@ -1269,9 +1228,7 @@ else { // alert('More than 960');
                 if (canSlide == true) {
                     $(".swiper-button-prev").click();
                 }
-            }
-
-            else {
+            } else {
                 if (canSlide == true) {
                     $(".swiper-button-next").click();
                 }
@@ -1280,9 +1237,6 @@ else { // alert('More than 960');
         }
 
         // console.log(event.target.classList);
-
-
-
 
 
     }
@@ -1324,46 +1278,6 @@ $(document).on("click", ".brand-slider .item img", function () {
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 let uploadImagesWithThumbnails = () => {
 
     document.getElementsByClassName('upload-with-thumbnails')[0].addEventListener('change', function (event) {
@@ -1403,7 +1317,7 @@ let uploadImagesWithThumbnails = () => {
             fileReader.readAsDataURL(file);
         } else {
             fileReader.onload = function () {
-                var blob = new Blob([fileReader.result], { type: file.type });
+                var blob = new Blob([fileReader.result], {type: file.type});
                 var url = URL.createObjectURL(blob);
                 var video = document.createElement('video');
                 var timeupdate = function () {
@@ -1438,7 +1352,6 @@ let uploadImagesWithThumbnails = () => {
                         loadingDiv2.classList.add("loader");
 
                         loadingDiv.append(loadingDiv2);
-
 
 
                         var img = document.createElement('img');
@@ -1514,12 +1427,6 @@ let uploadImagesWithThumbnails = () => {
 }
 
 
-
-
-
-
-
-
 // init select2
 $(document).ready(function () {
     $('.select2-multiple').select2();
@@ -1563,7 +1470,6 @@ $(document).ready(() => {
     });
 
 
-
     $("#sliderrange-one-axis").slider({
         range: "min",
         value: 200,
@@ -1596,8 +1502,6 @@ $(document).on("click", "#followers-tab2", function () {
 $(document).on("click", "#Following-tab2", function () {
     $("#following-tab").click();
 });
-
-
 
 
 $(document).on("click", ".toggle-top-bar", function () {
@@ -1698,7 +1602,6 @@ let shoppingIntroSlider = () => {
         prevArrow: '<i class="fa fa-chevron-left slide-arrow prev-arrow"></i>',
         nextArrow: '<i class="fa fa-chevron-right slide-arrow next-arrow"></i>'
     });
-
 
 
     $('.shopping-intro-slider.style-4').slick({
@@ -1852,8 +1755,6 @@ let toggleAllCategories = () => {
 }
 
 
-
-
 // init zoom script for product slider
 $(function () {
     $('.zoom').zoom();
@@ -1891,13 +1792,6 @@ let openImageSliderLightbox = () => {
         })
     });
 }
-
-
-
-
-
-
-
 
 
 $(document).ready(function () {
@@ -1969,7 +1863,6 @@ $(document).ready(function () {
 });
 
 
-
 //////////////////// SHIPPING SCRIPT START  ////////////////////
 
 // 
@@ -1996,7 +1889,6 @@ $(function () {
 
     });
 });
-
 
 
 $(function () {
@@ -2028,22 +1920,7 @@ $(function () {
 //////////////////// SHIPPING SCRIPT END  ////////////////////
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //////////////////// SWIPE EVENTS FOR HOMEPAGE START  ////////////////////
-
 
 
 // // swipe up

@@ -13,6 +13,44 @@
 
 // Tablet Media landscape
 @media all and (max-width: 1025px) {
+    .custom-tabs .nav-tabs {
+        justify-content: center;
+        margin-bottom: 15px;
+        .nav-link {
+            padding: 5px 10px;
+            font-size: 14px;
+
+            &:after {
+                left: calc(50% - 10px) !important;
+            }
+        }
+    }
+
+    .users-wrapper {
+        padding: 10px;
+        .one-user {
+            .image-and-name-wrapper {
+                width: 70%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                h4 {
+                    width: calc(100% - 60px);
+                    font-size: 14px;
+                }
+            }
+            .buttons-wrapper {
+                width: 30%;
+                text-align: right;
+                a.btn {
+                    font-size: 10px;
+                    padding: 5px 12px;
+                    border-radius: 8px;
+                }
+            }
+        }
+    }
+
     .video-js {
         width: 100% !important;
         height: 100% !important;
@@ -336,6 +374,9 @@
             flex-direction: column;
             .profile-sidebar {
                 width: 100%;
+                .about {
+                    padding: 0 20px !important;
+                }
             }
             .profile-data {
                 width: 100%;
@@ -545,7 +586,7 @@
 
                     a.like {
                         background: var(--secondaryColor);
-                        color: #FFF;
+                        color: #fff;
                         width: 20px;
                         height: 20px;
                         display: flex;
@@ -556,7 +597,6 @@
                         top: 35px;
                         left: 12px;
                     }
-                    
                 }
                 .data {
                     padding-left: 10px;
@@ -672,6 +712,8 @@
 
                         img {
                             width: 100%;
+                            height: 215px;
+                            object-fit: cover;
                         }
 
                         .video-item {
@@ -742,15 +784,23 @@
         width: 100%;
     }
 
-    .shared-ads-wrapper {
+    .shared-posts-wrapper {
         .one-item {
-            width: 100%;
+            width: 50%;
+            .shares-wrapper {
+                .views,
+                .shares {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
             .shares-wrapper .views i,
             .shares-wrapper .shares i {
-                font-size: 25px;
+                font-size: 21px;
+                margin-bottom: 5px;
             }
             strong {
-                font-size: 16px !important;
+                font-size: 14px !important;
             }
         }
     }

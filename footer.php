@@ -19,7 +19,7 @@
                         </div><!-- col-md-6 -->
                         <div class="col-md-6">
                             <div class="one-item">
-                                <a href="create-store.php">
+                                <a href="create-store-step-1.php">
                                     <img alt="" class="img-fluid" src="img/create-store.png">
                                     <p> Create Store <i class="fa fa-chevron-right arrow-icon"></i> </p>
                                 </a>

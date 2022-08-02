@@ -38,32 +38,32 @@
                     </div> <!-- item -->
 
                     <div class="item">
+                        <a data-fancybox="nike-big-gallery" class=" " href="img/brand-slider/05.jpg">
+                            <img alt="" src="img/brand-slider/05.jpg" class="img-fluid">
+                        </a>
+                    </div> <!-- item -->
+
+                    <div class="item">
+                        <a data-fancybox="nike-big-gallery" class=" " href="img/brand-slider/06.jpg">
+                            <img alt="" src="img/brand-slider/06.jpg" class="img-fluid">
+                        </a>
+                    </div> <!-- item -->
+
+                    <div class="item">
+                        <a data-fancybox="nike-big-gallery" class=" " href="img/brand-slider/07.jpg">
+                            <img alt="" src="img/brand-slider/07.jpg" class="img-fluid">
+                        </a>
+                    </div> <!-- item -->
+
+                    <div class="item">
+                        <a data-fancybox="nike-big-gallery" class=" " href="img/brand-slider/08.jpg">
+                            <img alt="" src="img/brand-slider/08.jpg" class="img-fluid">
+                        </a>
+                    </div> <!-- item -->
+
+                    <div class="item">
                         <a data-fancybox="nike-big-gallery" class=" " href="img/brand-slider/02.jpg">
                             <img alt="" src="img/brand-slider/02.jpg" class="img-fluid">
-                        </a>
-                    </div> <!-- item -->
-
-                    <div class="item">
-                        <a data-fancybox="nike-big-gallery" class=" " href="img/brand-slider/03.jpg">
-                            <img alt="" src="img/brand-slider/03.jpg" class="img-fluid">
-                        </a>
-                    </div> <!-- item -->
-
-                    <div class="item">
-                        <a data-fancybox="nike-big-gallery" class=" " href="img/brand-slider/01.jpg">
-                            <img alt="" src="img/brand-slider/01.jpg" class="img-fluid">
-                        </a>
-                    </div> <!-- item -->
-
-                    <div class="item">
-                        <a data-fancybox="nike-big-gallery" class=" " href="img/brand-slider/03.jpg">
-                            <img alt="" src="img/brand-slider/03.jpg" class="img-fluid">
-                        </a>
-                    </div> <!-- item -->
-
-                    <div class="item">
-                        <a data-fancybox="nike-big-gallery" class=" " href="img/brand-slider/01.jpg">
-                            <img alt="" src="img/brand-slider/01.jpg" class="img-fluid">
                         </a>
                     </div> <!-- item -->
 
@@ -302,14 +302,14 @@
                             </div> <!-- item -->
 
                             <div class="item">
-                                <a data-fancybox="zara-mobile-gallery " href="img/brand-slider/03.jpg">
-                                    <img alt="" src="img/brand-slider/03.jpg" class="img-fluid">
+                                <a data-fancybox="zara-mobile-gallery " href="img/brand-slider/08.jpg">
+                                    <img alt="" src="img/brand-slider/08.jpg" class="img-fluid">
                                 </a>
                             </div> <!-- item -->
 
                             <div class="item">
-                                <a data-fancybox="zara-mobile-gallery " href="img/brand-slider/01.jpg">
-                                    <img alt="" src="img/brand-slider/01.jpg" class="img-fluid">
+                                <a data-fancybox="zara-mobile-gallery " href="img/brand-slider/05.jpg">
+                                    <img alt="" src="img/brand-slider/05.jpg" class="img-fluid">
                                 </a>
                             </div> <!-- item -->
 
